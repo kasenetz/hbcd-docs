@@ -2,7 +2,7 @@
 
 ## EEG Parameters
 
-![](images/EEG_acquisition_protocol.png)
+The full EEG Parameters can be found on the [HBCD Study webpage](https://hbcdstudy.org/study-protocols/) under Brain Measurement Tools.
 
 <details>
 <summary>Implementation & Data Collection Details</summary>
