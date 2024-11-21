@@ -1,5 +1,25 @@
 # Physical Health Measures
 
+## Breastfeeding
+**Full Name**: Breast Feeding History AKA PHENX BF questionnaire    
+**Acronym/Brief Name**: PHENX BF    
+**Construct**: Nutrition        
+Breastfeeding measures initiation, exclusivity, and cessation of breast milk feedings.   
+
+<details>
+<summary>Implementation & Data Collection Details</summary>
+<ul>
+<br>
+<p><strong>Method of Administration</strong>: Parent survey (remote) <br />
+<strong>REDCap Form Name</strong>: ph_cg_phx_i_bfh <br />
+<strong>Pilot Data Dictionary</strong>: Breast Feeding History <br />
+<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
+<strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
+<strong>Respondent:</strong> Caregiver <br />
+<strong>Visits</strong>: V02, V03, V04, V06, V08 (31-45 months) <br />
+<strong>Estimated length of time for completion</strong>: 1 minute</p>
+</details>
+
 ## Food Insecurity
 **Full Name**: 2-item Food Insecurity   
 **Acronym/Brief Name**: USDA short form  
@@ -37,26 +57,6 @@ Growth is a standard direct measure of child height or length (in cm), weight (i
 <strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
 <strong>Visits</strong>: V02, V03, V04, V06, V08 (31-45 months) <br />
 <strong>Estimated length of time for completion</strong>: 5 minutes</p>
-</details>
-
-## Breastfeeding
-**Full Name**: Breast Feeding History AKA PHENX BF questionnaire    
-**Acronym/Brief Name**: PHENX BF    
-**Construct**: Nutrition        
-Breastfeeding measures initiation, exclusivity, and cessation of breast milk feedings.   
-
-<details>
-<summary>Implementation & Data Collection Details</summary>
-<ul>
-<br>
-<p><strong>Method of Administration</strong>: Parent survey (remote) <br />
-<strong>REDCap Form Name</strong>: ph_cg_phx_i_bfh <br />
-<strong>Pilot Data Dictionary</strong>: Breast Feeding History <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
-<strong>Respondent:</strong> Caregiver <br />
-<strong>Visits</strong>: V02, V03, V04, V06, V08 (31-45 months) <br />
-<strong>Estimated length of time for completion</strong>: 1 minute</p>
 </details>
 
 ## Quality Control & Known Issues

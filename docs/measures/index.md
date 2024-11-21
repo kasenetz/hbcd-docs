@@ -24,6 +24,15 @@ Visit 9 (V09): 32-46 months <br>
 </ul>
 
 <ul>
+<li>BIOSPECIMENS
+<ul>
+<li><a href="biospecimens/blood">Blood</a></li>
+<li><a href="biospecimens/nails">Nails</a></li>
+<li><a href="biospecimens/urine">Urine</a></li></ul>
+</li>
+</ul>
+
+<ul>
 <li><a href="demographics">DEMOGRAPHICS</a></li>
 </ul>
 
@@ -43,7 +52,7 @@ Visit 9 (V09): 32-46 months <br>
 <li><a href="mri/smri">Structural MRI</a></li>
 <li><a href="mri/fmri">Functional MRI</a></li>
 <li><a href="mri/dmri">Diffusion MRI</a></li>
-<li><a href="mri/qalas">Quantitative MRI</a></li>
+<li><a href="mri/quant">Quantitative MRI</a></li>
 <li><a href="mri/mrs">Magnetic Resonance Spectroscopy</a></li></ul>
 </li>
 </ul>
