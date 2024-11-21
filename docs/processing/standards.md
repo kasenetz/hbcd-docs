@@ -6,9 +6,9 @@ Software utiltized for the HBCD release must undergo NMIND peer review and be pu
 At a minimum, tools must meet the standards equivalent to the Bronze badge in the rating system. Developers may bypass checklist items that are not applicable—for example, listing software dependencies is less critical since all HBCD software must be containerized.
 
 ## Documentation 
-### NMIND Documentation Checklist
+### NMIND Documentation Checklist (Bronze Badge)
 <input type="checkbox"> Landing page provides a link to documentation and brief description of what program does<br>
-<input type="checkbox"> Documentation is up to date with version of software (see [Obtaining a DOI](#obtaining-a-doi) Note for details)<br>
+<input type="checkbox"> Documentation is up to date with version of software (*see [Obtaining a DOI](#obtaining-a-doi) for details*)<br>
 <input type="checkbox"> Typical intended usage is described<br>
 <input type="checkbox"> An example of its usage is shown<br>
 <input type="checkbox"> Document functions intended for users (i.e., public function docstring/help coverage ≥ 10%)<br>
@@ -17,36 +17,36 @@ At a minimum, tools must meet the standards equivalent to the Bronze badge in th
 <input type="checkbox"> User installation instructions available<br>
 <input type="checkbox"> Dependencies listed (i.e. external and within-language requirements)<br>
 
-### Webpage For Documentation
+### HBCD-Specific Requirement: Webpage For Documentation
 In addition to the general guidelines outlined in the checklist, we require that HBCD pipelines maintain living documentation accessible through a dedicated webpage. This ensures the information remains up-to-date, offering a more dynamic and easily navigable resource compared to static publications or standard GitHub README files. Given the complexity and depth of information typically required for image processing pipelines, a webpage provides a more effective platform for organizing and presenting the documentation. Developers can refer to the [fMRIPrep ReadtheDocs](https://fmriprep.org/en/stable/) as a guide for overall organization and what level of detail each section should ideally include. 
 
 ## Infrastructure
-### NMIND Infrastructure Checklist
+### NMIND Infrastructure Checklist (Bronze Badge)
 <input type="checkbox"> Code is open source<br>
-<input type="checkbox"> Package is under version control<br>
+<input type="checkbox"> Package is under version control (*see [Version Control](#version-control) for details*)<br>
 <input type="checkbox"> Readme is present<br>
-<input type="checkbox"> License is present (*see details below*)<br>
+<input type="checkbox"> License is present (*see [Licensing](#licensing) for details*)<br>
 <input type="checkbox"> Issues tracking is enabled (i.e., either through GitHub or external site)<br>
-<input type="checkbox"> Digital Object Identifier (DOI) points to latest version (e.g., Zenodo) (*see details below*)<br>
+<input type="checkbox"> Digital Object Identifier (DOI) points to latest version (*see [Obtaining a DOI](#obtaining-a-doi) for details*)<br>
 <input type="checkbox"> All documented installation instructions can be successfully followed<br>
 
-### Licensing
-Per the checklist above, we require HBCD pipeline software to include a license. Remember that source code for HBCD pipelines are required to be open source; common permissive license options include [Apache-2.0 License 2.0](https://github.com/DCAN-Labs/hbcd-docs/community/license/new?branch=main&filename=LICENSE&template=apache-2.0), [MIT License](https://github.com/DCAN-Labs/hbcd-docs/community/license/new?branch=main&filename=LICENSE&template=mit), and the [BSD-3-Clause license](https://github.com/DCAN-Labs/hbcd-docs/community/license/new?branch=main&filename=LICENSE&template=bsd-3-clause). Visit GitHub's documentation on [Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) and [Adding a license to a repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) for more information. 
-
 ### Obtaining a DOI
-HBCD software must additionally include a DOI for publication that points to the latest software version. We recommend that developers obtain a DOI by self-publishing on [Zenodo](https://cdnis-brain.readthedocs.io/zenodo/), which generates a top-level DOI as well as a per-version DOI attached to each release. Note that this should be done even if you have published a scientific article about your tool so that the software version can be properly cited. The pipeline webpage should include a description of how to properly cite the pipeline (see [example](https://fmriprep.org/en/stable/#citation)). 
+HBCD software must include a DOI for publication that points to the latest software version. We recommend that developers obtain a DOI by self-publishing on [Zenodo](https://cdnis-brain.readthedocs.io/zenodo/), which generates a top-level DOI as well as a per-version DOI attached to each release. Note that this should be done even if you have published a scientific article about your tool so that the software version can be properly cited. The pipeline webpage should include a description of how to properly cite the pipeline (see [example](https://fmriprep.org/en/stable/#citation)). 
 
-**NOTE:** Please remember to add the Zenodo DOI badge to the landing page of your website. This will additionally fulfill the Documentation checklist item *"Documentation is up to date with version of software*" (see example of Zenodo badge and associated Zenodo publication on the [Nibabies webpage](https://nibabies.readthedocs.io/en/latest/))
+**NOTE:** Remember to add the Zenodo DOI badge to the landing page of your website. This will additionally fulfill the Documentation checklist item *"Documentation is up to date with version of software*." See an example of Zenodo badge and associated Zenodo publication on the [Nibabies webpage](https://nibabies.readthedocs.io/en/latest/).
 
-### Containerization & BIDS Compatibility 
-To ensure data processing and analytic reproducibility, all HBCD pipelines must follow general [BIDS-App guidelines](https://bids-apps.neuroimaging.io/). This includes being containerized to as well as compatibility with BIDS standard input data, i.e. the latest HBCD derivatives provided in the current release. 
+### Licensing
+Per the checklist above, we require HBCD pipeline software to include a license. Remember that source code for HBCD pipelines are required to be open source; common permissive license options include [Apache-2.0 License 2.0](https://github.com/DCAN-Labs/hbcd-docs/community/license/new?branch=main&filename=LICENSE&template=apache-2.0), [MIT License](https://github.com/DCAN-Labs/hbcd-docs/community/license/new?branch=main&filename=LICENSE&template=mit), and the [BSD-3-Clause license](https://github.com/DCAN-Labs/hbcd-docs/community/license/new?branch=main&filename=LICENSE&template=bsd-3-clause). Visit GitHub's documentation on [Licensing a Repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) and [Adding a License To a Repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) for more information. 
 
-### Versioning and New Release Policies
+### Version Control
 In addition to basic version control on GitHub, developers should tag new releases when significant updates or multiple changes are made. Each tagged release must include a changelog detailing the differences from the previous version. Developers are encouraged to establish a standard release cycle and define criteria for special releases, such as urgent bug fixes. Documentation should specify which versions will receive long-term support, which will be deprecated, and the timeline for deprecation.
+
+### HBCD-Specific Requirement: Containerization & BIDS Compatibility 
+To ensure data processing and analytic reproducibility, all HBCD pipelines must follow general [BIDS-App guidelines](https://bids-apps.neuroimaging.io/). This includes being containerized as well as compatibility with BIDS standard input data, i.e. the latest HBCD derivatives provided in the current release. 
 
 ## Testing Ability
 
-### NMIND Testing Checklist
+### NMIND Testing Checklist (Bronze Badge)
 <input type="checkbox"> Provide/generate/point to test data**<br>
 <input type="checkbox"> Provide instructions for users to run tests and evaluate for correct behavior
 
