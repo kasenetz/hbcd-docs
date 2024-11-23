@@ -17,7 +17,7 @@
   </li>
   <li style="margin-bottom: 10px;">
     <a href="https://nibabies.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
-      infant-fMRIPrep/fMRIPrep
+      infant-fMRIPrep
     </a>: structural and functional MRI preprocessing pipeline
   </li>
   <li style="margin-bottom: 10px;">

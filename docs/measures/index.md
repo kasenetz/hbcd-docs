@@ -9,7 +9,9 @@ Visit 2 (V02): 0-1 months <br>
 Visit 3 (V03): 3-9 months <br>
 Visit 4 (V04): 9-15 months <br>
 Visit 5 (V05): 10-17 months <br>
+Visit 6 (V06): 15-30 months <br>
 Visit 7 (V07): 16-31 months <br>
+Visit 7 (V08): 31-45 months <br>
 Visit 9 (V09): 32-46 months <br>
 
 ## HBCD Workgroups and Associated Data Measures

@@ -5,7 +5,7 @@
 **Acronym/Brief Name**: PHENX BF    
 **Construct**: Nutrition        
 Breastfeeding measures initiation, exclusivity, and cessation of breast milk feedings.   
-
+<p>
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
@@ -16,9 +16,13 @@ Breastfeeding measures initiation, exclusivity, and cessation of breast milk fee
 <strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
 <strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
 <strong>Respondent:</strong> Caregiver <br />
-<strong>Visits</strong>: V02, V03, V04, V06, V08 (31-45 months) <br />
+<strong>Visits</strong>: V02, V03, V04, V06, V08 (31-45 months) (<i>Note that survey is only administered if still breastfeeding at prior visit</i>) <br />
 <strong>Estimated length of time for completion</strong>: 1 minute</p>
 </details>
+</p>
+
+***Potential issues identified by subject matter experts***:    
+Users should note that, as breast feeding history is obtained via self-report, it is vulnerable to recall bias concerning the timing of starting and/or stopping breast feeding. In addition, as the data is obtained via a survey, it is likely that missing data will need to be statistically addressed during analysis.
 
 ## Food Insecurity
 **Full Name**: 2-item Food Insecurity   
@@ -60,7 +64,7 @@ Growth is a standard direct measure of child height or length (in cm), weight (i
 </details>
 
 ## Quality Control & Known Issues
-The QC procedures for all three measures involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No common issues were identified with QC and no potential issues were flagged by subect matter experts.
+The QC procedures for all three measures involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. If present, any common issues identified with QC or potential issues flagged by subject matter experts are described in the individual measure sections above.
 
 <details class="collapsible references">
   <summary class="references">References</summary>
