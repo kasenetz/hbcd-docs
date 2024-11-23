@@ -1,11 +1,7 @@
 # How To Access HBCD Data
+Public access to release data is conducted through the [NIH Brain Development Cohort (NBCD) portal supported by Lasso](https://nbdc-hbcd-beta.lassoinformatics.com), enabling seamless data queries, downloads, and sharing. Once you have an account and have logged into the Lasso Informatics platform, please follow these steps to request access to the data.
 
-Public access to release data is conducted through the [NIH Brain Development Cohort (NBCD) portal supported by Lasso](https://nbdc-hbcd-beta.lassoinformatics.com), enabling seamless data queries, downloads, and sharing.
-
-## Submit Data Access Request
-Once you have an account and have logged into the Lasso Informatics platform, please follow these steps to request access to the data:
-
-### Submit Data Use Certification form
+## Submit Data Use Certification form
 
 Select **Data Access** from the left-hand menu followed by **Request access** in the lower right-hand corner of the page that appears:
 
@@ -22,7 +18,7 @@ This form asks you to describe (within a limit of 250 words) why you need access
 <p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em"><u>Authorized Institutional Business Official</u></p>
 Provide the name and email address of the Institutional Signing Official for your institution who will be authorizing your access and has signing authority. All fields in this form are mandatory. Once complete, select **Submit** in the lower right-hand corner of the page followed by **Continue Signing**. The next section outlines how to electronically sign the DUC.
 
-### Sign DUC Electronically
+## Sign DUC Electronically
 This section of the DUC process asks you to agree to electronically signing the DUC. If you wish to proceed with signing, follow these steps.
 
 <ol>
@@ -46,7 +42,7 @@ This section of the DUC process asks you to agree to electronically signing the 
     </p>
 </ol>
 
-### Instructions for Signing Officials
+## Instructions for Signing Officials
 The Signing Official will receive an email from DocuSign asking that they review and sign the DocuSign document. The Signing Official must sign the document for the DUC process to continue as follows: 
 
 <ol>
@@ -66,7 +62,7 @@ The Signing Official will receive an email from DocuSign asking that they review
 
 ![](data_access/data_access_15.png)
 
-### Review
+## Review
 This is the step where the DUC committee (NIDA) reviews your request. When your request is approved, you will receive an email notifying you of the approval. After signing in to the platform, you will have access to the requested data. If your DUC request is denied, your access to the platform will be limited, but you will be allowed to submit a new DUC request.
 
 Please note: For beta testing, users do not have to undergo any additional training. But for the public release, each user needs to go through a mandatory training on responsible data use before accessing the data.  
