@@ -7,16 +7,21 @@ Select **Data Access** from the left-hand menu followed by **Request access** in
 
 ![](data_access/data_access_tab.png)
 
-This will bring you to the **Data Use Certification (DUC)** form. Fill out each of the sections as follows:
+<br>
+This will bring you to the the first of three forms of the **Data Use Certification (DUC)** to fill out before review and submission. Fill out the information as follows:
 
-<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em"><u>Lead Recipient</u></p>
-In this form you will provide information for all required fields, marked with an asterisk ( * ), including Name, Degree, Institution, and Address. Once complete, select **Continue** (lower right-hand corner of the page).
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em"><u>Form 1: Lead Recipient</u></p>
+Provide information for all required fields, marked with an asterisk ( * ), including Name, Degree, Institution, and Address. Once complete, select **Continue** (lower right-hand corner of the page).
 
-<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em"><u>Research Data Use Statement</u></p>
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em"><u>Form 2: Research Data Use Statement</u></p>
 This form asks you to describe (within a limit of 250 words) why you need access to the dataset. Once complete, select **Continue** (lower right-hand corner of the page).
 
-<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em"><u>Authorized Institutional Business Official</u></p>
-Provide the name and email address of the Institutional Signing Official for your institution who will be authorizing your access and has signing authority. All fields in this form are mandatory. Once complete, select **Submit** in the lower right-hand corner of the page followed by **Continue Signing**. The next section outlines how to electronically sign the DUC.
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em"><u>Form 3: Authorized Institutional Business Official</u></p>
+Provide the (1) name and (2) email address of the Institutional Signing Official for your institution who will be authorizing your access and has signing authority (both fields are mandatory). Once complete, select **Submit** in the lower right-hand corner of the page and the following screen will appear:
+
+![](data_access/cont_signing.png)
+
+Select **Continue Signing** and folllow the steps below to apply your electronic signature.
 
 ## Sign DUC Electronically
 This section of the DUC process asks you to agree to electronically signing the DUC. If you wish to proceed with signing, follow these steps.
@@ -26,10 +31,10 @@ This section of the DUC process asks you to agree to electronically signing the 
     <li>First select the Electronic records and signature agreement checkbox, which will enable the <b>CONTINUE</b> button - click this<br><img src="submit_step1.png" alt="submit step 1"></li>
     </p>
     <p>
-    <li>You will now see the form that requires your signature. Read through the contract and select <b>START</b> once you are ready to apply your electronic signature:<br><img src="data_access_9.png" alt="submit step 2"></li>
+    <li>You will now see the form that requires your signature. Read through the contract and select <b>START</b> once you are ready to apply your electronic signature:<br><img src="esign_start.png" alt="Esign Start"></li>
     </p>
     <p>
-    <li>Input your full name and initials in the fields of the following <i>Adopt Your Signature</i> dialogue box that appears:<br><img src="data_access_10.png" alt="submit step 3"></li>
+    <li>Input your full name and initials in the fields of the following <i>Adopt Your Signature</i> dialogue box that appears:<br><img src="adopt_your_sig.png" alt="Adopt Your Signature"></li>
     </p>
     <p>
     <li>Select <b>ADOPT AND SIGN</b> to apply the signature to the document signature page.</li>
@@ -58,9 +63,9 @@ The Signing Official will receive an email from DocuSign asking that they review
 </ol>
 
 
-![](data_access/data_access_13.png)
+![](data_access/decline_banner.png)
 
-![](data_access/data_access_15.png)
+![](data_access/new_request.png)
 
 ## Review
 This is the step where the DUC committee (NIDA) reviews your request. When your request is approved, you will receive an email notifying you of the approval. After signing in to the platform, you will have access to the requested data. If your DUC request is denied, your access to the platform will be limited, but you will be allowed to submit a new DUC request.
