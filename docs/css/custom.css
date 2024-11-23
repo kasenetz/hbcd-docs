@@ -1,8 +1,26 @@
 /* HBCD HEX color codes */ 
 /* green: #24AE70 */ 
 /* blue: #199BD6 */ 
-/* red: #BE074C0 */ 
+/* red: #be074c */ 
 /* black/gray: #6b6b6b */ 
+
+/* Banner specs */
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: #be074c66;
+  border: 1px solid #be074c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+.banner .emoji {
+  font-size: 1.5rem; /* Adjust size of the emoji */
+  margin-right: 10px; /* Space between emoji and text */
+}
+.banner .text {
+  font-size: 1rem; /* Adjust text size */
+}
 
 /* Specs for headers */ 
 h1 {
