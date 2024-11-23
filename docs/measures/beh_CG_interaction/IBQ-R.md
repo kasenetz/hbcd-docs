@@ -1,4 +1,11 @@
 # IBQ-R Very Short Form + Behavioral Inhibition
+<p>
+<div class="banner">
+    <span class="emoji">💡</span>
+    <span class="text">See <a href="../overview">Overview</a> for <i>HBCD Modifications</i> and <i>Quality Control & Known Issues</i></span>
+</div>
+</p>
+
 **Full Name**: Infant Behavior Questionnaire – Revised Very Short Form + Behavior Inhibition  
 **Acronym/Brief Name**: IBQ-R (VSF)+BI       
 **Construct**: Temperamental Surgency/Extraversion, Negative Affectivity, Effortful Control, and Behavioral Inhibition
@@ -24,41 +31,6 @@ For additional information, please see the scoring manual for details on items a
 <strong>Visits</strong>: V03, V05, validated for ages 3 months 0 days to 17 months 30 days (for HBCD purposes) <br />
 <strong>Estimated length of time for completion</strong>: Approximately 7-10 minutes </p>
 </details>
-
-
-## HBCD Modifications
-Alterations were made to items when the item referred to the child/baby as “s/he” or “her/him”. These pronouns were changed to “the baby/child,” “they/them” as fit the item wording. In addition, “Parent” was changed to “parent/caregiver” where appropriate.
-
-As mentioned above, in addition to the overall *Surgency, Negative Affect and Effortful Control* scales derived from the validated IBQ-R-VSF, the HBCD Workgroup and measure experts added a Behavior Inhibition (or Social Fear) scale using items from the long form of the IBQ-R (IBQ-R-LF): 
-
-<details>
-<summary>Items added to IBQ-R-VSF from IBQ-R-LF</summary>
-<ul>
-<li>38. When introduced to an unfamiliar adult, how often did the baby hang back from the adult?</li>
-<li>39. When introduced to an unfamiliar adult, how often did the baby never “warm up” to the unfamiliar adult?</li>
-<li>40. When in the presence of several unfamiliar adults, how often did the baby cry?</li>
-<li>41. When in the presence of several unfamiliar adults, how often did the baby continue to be upset for 10 minutes or longer?</li>
-<li>42. When visiting a new place, how often did the baby show distress for the first few minutes?</li>
-<li>43. When visiting a new place, how often did the baby continue to be upset for 10 minutes or more?</li>
-<li>44. When your baby was approached by an unfamiliar person when you and your baby were out (for example, shopping), how often did the baby show distress?</li>
-<li>45. When your baby was approached by an unfamiliar person when you and your baby were out (for example, shopping), how often did the baby cry?</li>
-<li>46R. When an unfamiliar person came to your home or apartment, how often did your baby allow themselves to be picked up without protest?</li>
-<li>47. When an unfamiliar person came to your home or apartment, how often did your baby cry when the visitor attempted to pick them up?</li>
-</ul>
-</details>
-
-## Quality Control & Known Issues    
-QC procedures include:
-
-- Examining the range of the child’s age to ensure that it falls within 3 to 18 months
-- Examining missingness (count the number of items answered for each participant)
-- Calculating sum scores and means applying appropriate rules to account for missing data
-- Generating summary statistics and visualizations for item-level frequencies, age, and scores
-- Using Calculate Cronbach's Alpha for reliability. 
-
-A common error noted during QC was that scoring was not accurately applied to observations with missing responses and incorrect administration ages. 
-
-Subject matter experts note that the IBQ-R VSF + BI measure assesses normative variability in child behavior and should be considered in relation to the child's age and developmental context. This is not a clinical or diagnostic tool. 
 
 <details class="collapsible references">
   <summary class="references">References</summary>

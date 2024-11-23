@@ -1,4 +1,11 @@
 # ecPROMIS Child-Caregiver Interaction
+<p>
+<div class="banner">
+    <span class="emoji">💡</span>
+    <span class="text">See <a href="../overview">Overview</a> for <i>HBCD Modifications</i> and <i>Quality Control & Known Issues</i></span>
+</div>
+</p>
+
 **Full Name**: Early Childhood Patient-Reported Outcome Measurement Information System Child/Caregiver Relationship Scale.  
 **Acronym/Brief Name**: ecPROMIS Child-Caregiver Interaction    
 **Construct**: Relationships  
@@ -18,52 +25,6 @@ Each of the 5 items for ecPROMIS Child-Caregiver Interaction is answered on a sc
 <strong>Visits</strong>: V03, V04, V06 <br />
 <strong>Estimated length of time for completion</strong>: 1-2 minutes</p>
 </details>
-
-## HBCD Modifications
-Alterations were made to items for use of gender-neutral terms. Additionally, the original ecPROMIS – Child Caregiver Interaction items reference ‘my child’ rather than ‘my baby’, as the original measure is intended for 1-5-year-old children. To be developmentally appropriate for the pre-V03 age window (3 months – 9 months), however, items were adapted per the guidance of ecPROMIS developers Dr. Dave Cella and Dr. Courtney Blackwell to reference ‘my baby.’
-
-<table border="1" cellspacing="0" cellpadding="5" style="width: 100%; max-width: 100%; table-layout: auto; word-wrap: break-word;">
-    <colgroup>
-        <col style="width: 15%;" />
-        <col style="width: 40%;" />
-        <col style="width: 45%;" />
-    </colgroup>
-    <tbody>
-        <tr>
-            <th style="white-space: normal;">Item</th>
-            <th style="white-space: normal;">Original Item Text</th>
-            <th style="white-space: normal;">HBCD Item Text</th>
-        </tr>
-        <tr>
-            <td style="white-space: normal;">ecpromis1</td>
-            <td style="white-space: normal;">My child was good at expressing his/her needs to me or other parent.</td>
-            <td style="white-space: normal;">My baby was good at expressing needs to me or other parent.</td>
-        </tr>
-        <tr>
-            <td style="white-space: normal;">ecpromis2</td>
-            <td style="white-space: normal;">My child was affectionate with me or other parent.</td>
-            <td style="white-space: normal;">My baby was affectionate with me or other parent.</td>
-        </tr>
-        <tr>
-            <td style="white-space: normal;">ecpromis3</td>
-            <td style="white-space: normal;">My child sought comfort from me or other parent.</td>
-            <td style="white-space: normal;">My baby sought comfort from me or other parent.</td>
-        </tr>
-        <tr>
-            <td style="white-space: normal;">ecpromis4</td>
-            <td style="white-space: normal;">My child came to me or other parent for help when he/she needed it.</td>
-            <td style="white-space: normal;">My baby let me know when my baby needed help.</td>
-        </tr>
-        <tr>
-            <td style="white-space: normal;">ecpromis5</td>
-            <td style="white-space: normal;">My child was excited to spend time with me or other parent.</td>
-            <td style="white-space: normal;">My baby was excited to see me or other parent after being apart.</td>
-        </tr>
-    </tbody>
-</table>
-
-## Quality Control & Known Issues
-QC procedures included examining the range of the child’s age to ensure that it falls within 3 to 9 months; examining missingness; calculate sum scores and means applying our prorated scoring rule; generating summary statistics and visualizations for item-level frequencies, age, and scores; and using Calculate Cronbach's Alpha for reliability. 
 
 <details class="collapsible references">
   <summary class="references">References</summary>
