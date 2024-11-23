@@ -35,7 +35,8 @@ Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`a
 ```
 
 ### Diffusion
-Diffusion files include DWI runs (`*_dwi.nii.gz`) and single-band reference files (`*_sbref.nii.gz`) as well as `bval` and `bvec` files with information about the strength of the diffusion gradient applied during each volume and diffusion gradients directions, respectively. All images were acquired in both AP (`dir-AP`) and PA (`dir-PA`) phase encoding directions.
+
+Diffusion files include DWI runs (`*_dwi.nii.gz`) along with `bval` and `bvec` files, which provide the magnitudes and orientations of the diffusion gradients for each volume, respectively. Single-band reference files (`*_sbref.nii.gz`) are also included in the release. All images were acquired in both AP (`dir-AP`) and PA (`dir-PA`) phase encoding directions.
 ```
 ...
 |   |__ ses-<label>/
