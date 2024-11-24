@@ -1,6 +1,6 @@
 /* HBCD HEX color codes */ 
 /* green: #24AE70 */ 
-/* blue: #199BD6 */ 
+/* blue: #199bd6 */ 
 /* red: #be074c */ 
 /* black/gray: #6b6b6b */ 
 
@@ -52,7 +52,7 @@ details {
   margin-bottom: 1rem;
   padding: 1rem;
   background-color: #24ae7050;
-  border: 1px solid #ddd;
+  border: 1px solid #24ae70;
   border-radius: 8px;
 }
 details summary {
@@ -65,7 +65,7 @@ details ul {
   line-height: 1.6;
 }
 details li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 details ul ul {
   margin-top: 0.5rem;
@@ -74,12 +74,13 @@ details ul ul li {
   margin-bottom: 0.3rem;
 }
 details li b {
-  color: #be074c;
+  color: #199bd6;
 }
 
   /* References section collapsible styling */
 .collapsible.references {
   background-color: white;
+  border: 1px solid white;
   padding: 10px;
   margin: 10px 0;
   border-radius: 5px;

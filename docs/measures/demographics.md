@@ -17,113 +17,41 @@ Demographic information is crucial for understanding the child’s environment a
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: RA administered in person <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
-<strong>Respondent:</strong> Adult Participant <br />
-<strong>Visits</strong>: V01 <br />
-<strong>Estimated length of time for completion</strong>: 10 minutes</p>
+<li><b>Method of Administration</b>: RA administered in person</li>
+<li><b>Child Specific/Unspecific Form</b>: Child Unspecific</li>
+<li><b>Respondent:</b> Adult Participant</li>
+<li><b>Visits</b>: V01</li>
+<li><b>Estimated length of time for completion</b>: 10 minutes</li>
+</ul>
 </details>
 
 ## HBCD Modifications
 Below are alterations made to demographic constructs, informed by a DEI (diversity, equity, and inclusion) lens, to capture a more inclusive and accurate breadth of demographic information:
 
 <details>
-<summary>DEI Alterations/Modifications</summary>
-<br>
-<ul>
-  <li><b>Marital & Relationship Status</b> alterations to reduce heteronormative bias:
+  <summary>DEI Alterations/Modifications</summary>
     <ul>
-      <li>Combine "Divorced/Separated"</li>
-      <li>"Never Married" replaced by "Single"</li>
-      <li>"Member of an Unmarried Couple" replaced by "Partnered"</li>
+      <li><b>Marital & Relationship Status</b> alterations to reduce heteronormative bias:
+        <ul>
+        <li>Combine "Divorced/Separated"</li>
+        <li>"Never Married" replaced by "Single"</li>
+        <li>"Member of an Unmarried Couple" replaced by "Partnered"</li>
+        </ul>
+      </li>
+      <li><b>Gender Identity</b> alterations to reduce heteronormative bias: Transgender Man/Transgender Woman options moved to primary tier of 2-tier question</li>
+      <li><b>Sexual Orientation</b> alterations to reduce heteronormative bias: Inclusion of diverse response options to capture sexual orientation across three dimensions: attraction, identity, and behavior. Participant can select all that apply.</li>
+      <li><b>Primary Residence</b> destigmatization of diverse living situations: Inclusion of options for individuals in treatment facilities, shelters, or unhoused</li>
+      <li><b>Household Roster</b> alterations to reduce heteronormative bias and nuclear family assumptions:
+        <ul>
+        <li>Changed "Sex" to "Gender"</li>
+        <li>Included Non-Binary and Transexual options for Gender</li>
+        <li>Expansion of family/caregiver roles</li>
+        </ul>
+      </li>
+      <li><b>Race/Ethnicity</b> and <b>Others Describe You</b>: Inclusion of diverse racial and ethnic categories aligned with proposed OMB recommendations, using a combined race and ethnicity variable with 7 response options. Participant can select all that apply</li>
+      <li><b>Income</b>: Alteration of household income brackets</li>
     </ul>
-    </li>
-  <br> 
-  <li><b>Gender Identity</b> alterations to reduce heteronormative bias: Transgender Man/Transgender Woman options moved to primary tier of 2-tier question</li>
-  <br>
-  <li><b>Sexual Orientation</b> alterations to reduce heteronormative bias: Inclusion of diverse response options to capture sexual orientation across three dimensions: attraction, identity, and behavior. Participant can select all that apply.</li>
-    <br>
-  <li><b>Primary Residence</b> destigmatization of diverse living situations: Inclusion of options for individuals in treatment facilities, shelters, or unhoused</li>
-    <br>
-  <li><b>Household Roster</b> alterations to reduce heteronormative bias and nuclear family assumptions:
-    <ul>
-      <li>Changed "Sex" to "Gender"</li>
-      <li>Included Non-Binary and Transexual options for Gender</li>
-      <li>Expansion of family/caregiver roles</li>
-    </ul>
-  </li>
-    <br>
-  <li><b>Race/Ethnicity</b> and <b>Others Describe You</b>: Inclusion of diverse racial and ethnic categories aligned with proposed OMB recommendations, using a combined race and ethnicity variable with 7 response options. Participant can select all that apply</li>
-    <br>
-<li><b>Income</b>: Alteration of household income brackets</li>
-</ul>
 </details>
-
-
-<details>
-  <summary>Table 1. DEI Alterations/Modifications</summary>
-  <br>
-  <table class="docutils">
-    <thead>
-      <tr>
-        <th>Construct</th>
-        <th>DEI Modifications</th>
-      </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>Marital & Relationship Status</td>
-        <td><small><b>Alterations to reduce heteronormative bias:</b>
-            <ul>
-              <li>Combine "Divorced/Separated"</li>
-              <li>"Never Married" replaced by "Single"</li>
-              <li>"Member of an Unmarried Couple" replaced by "Partnered"</li>
-            </ul>
-          </small>
-        </td>
-      </tr>
-      <tr>
-        <td>Gender Identity</td>
-        <td style="width: 500px; word-wrap: break-word; white-space: normal;">
-          <small><strong>Alterations to reduce heteronormative bias:</strong><br>Transgender Man/Transgender Woman options moved to primary tier of 2-tier question</small></td>
-      </tr>
-      <tr>
-        <td>Sexual Orientation</td>
-        <td style="width: 500px; word-wrap: break-word; white-space: normal;">
-        <small><strong>Inclusion of diverse response options</strong> to capture sexual orientation across three dimensions: attraction, identity, and behavior. Participant can select all that apply.</small></td>
-      </tr>
-      <tr>
-        <td>Primary Residence</td>
-        <td style="width: 500px; word-wrap: break-word; white-space: normal;"><small><strong>Destigmatization of diverse living situations:</strong> Inclusion of options for individuals in treatment facilities, shelters, or unhoused</small></td>
-      </tr>
-      <tr>
-        <td>Household Roster</td>
-        <td style="width: 500px; word-wrap: break-word; white-space: normal;">
-          <small>
-            <b>Alterations to reduce heteronormative bias and nuclear family assumptions:</b>
-            <ul>
-              <li>Changed "Sex" to "Gender"</li>
-              <li>Included Non-Binary and Transexual options for Gender</li>
-              <li>Expansion of family/caregiver roles</li>
-            </ul>
-          </small>
-        </td>
-      </tr>
-      <tr>
-        <td>Race/Ethnicity</td>
-        <td style="width: 500px; word-wrap: break-word; white-space: normal;"><small><strong>Inclusion of diverse racial and ethnic categories</strong> aligned with proposed OMB recommendations, using a combined race and ethnicity variable with 7 response options. Participant can select all that apply</small></td>
-      </tr>
-        <td>Others Describe You</td>
-        <td style="width: 500px; word-wrap: break-word; white-space: normal;"><small><strong>Include same 7 categories as the race and ethnicity question</strong></small></td>
-      </tr>
-      <tr>
-        <td>Income</td>
-        <td style="width: 500px; word-wrap: break-word; white-space: normal;"><small><strong>Alteration of household income brackets</strong></small></td>
-      </tr>
-    </tbody>
-  </table>
- </details> 
 
 ## Quality Control & Known Issues
 QC was performed by monitoring the data dashboard for variable missingness and data consistency. The only common issue noted was high missingness for income, although this is in line with expectations. Subject matter experts flagged the following as a potential issue with this measure: RA reports show that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours). 
@@ -136,7 +64,7 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 
 ## Demographic Protocol Sources & DEI Modifications
 <details>
-  <summary>Table 2. Demographics of Birth Parent</summary>
+  <summary>Table 1. Demographics of Birth Parent</summary>
   <br>
   <table class="docutils">
     <thead>
@@ -271,7 +199,7 @@ BFY: Baby's First Years
 
 <p>
 <details>
-<summary>Table 3. Demographics of Other Biological Parent</summary>
+<summary>Table 2. Demographics of Other Biological Parent</summary>
 <br>
 <table>
 <thead>
