@@ -48,7 +48,8 @@ Below are alterations made to demographic constructs, informed by a DEI (diversi
         <li>Expansion of family/caregiver roles</li>
         </ul>
       </li>
-      <li><b>Race/Ethnicity</b> and <b>Others Describe You</b>: Inclusion of diverse racial and ethnic categories aligned with proposed OMB recommendations, using a combined race and ethnicity variable with 7 response options. Participant can select all that apply</li>
+      <li><b>Race/Ethnicity</b> and <b>Others Describe You</b>: Inclusion of diverse racial and ethnic categories aligned with proposed <a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB recommendations</a> using a combined race and ethnicity variable with 7 response options (<a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards 
+      ">Federal Register 2023</a>). Participant can select all that apply</li>
       <li><b>Income</b>: Alteration of household income brackets</li>
     </ul>
 </details>
@@ -156,48 +157,31 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 		<td>Cioffredi, et al. (2024)</td>
 	</tr>
 	<tr>
-		<td>JDP - All Jobs - Work 35+ hr/wk</td>
+    <td style="width: 200px; word-wrap: break-word; white-space: normal;">Jobs During Pregnancy (JDP) - <br>
+    <small>
+      &emsp;JDP - All Jobs - Work 35+ Hr/Wk<br>
+      &emsp;JDP - At Least 1 Job At 20 Hr/Wk for 1 Month<br>
+      &emsp;JDP - Type of Work<br>
+      &emsp;JDP - Job Start/Stop Dates<br>
+      &emsp;JDP - Typical Hours/Week<br>
+    </small>
+    </td>
 		<td>HBCD</td>
 		<td>Cioffredi, et al. (2024)</td>
 	</tr>
 	<tr>
-		<td>JDP - At Least One Job 20 hr/wk for 1 month</td>
-		<td>HBCD</td>
-		<td>Cioffredi, et al. (2024)</td>
-	</tr>
-	<tr>
-		<td>JDP - Type of Work</td>
-		<td>HBCD</td>
-		<td>Cioffredi, et al. (2024)</td>
-	</tr>
-	<tr>
-		<td>JDP - Job Start/Stop Dates</td>
-		<td>HBCD</td>
-		<td>Cioffredi, et al. (2024)</td>
-	</tr>
-	<tr>
-		<td>JDP - Typical Hours/Week</td>
-		<td>HBCD</td>
-		<td>Cioffredi, et al. (2024)</td>
-	</tr>
-	<tr>
-		<td>JDP - Shift Schedule</td>
-		<td>BFY</td>
+		<td>Jobs During Pregnancy - Shift Schedule</td>
+		<td>BFY**</td>
 		<td>Year 1 Protocol - G39, SchedMain</td>
 	</tr>
     </tbody>
   </table>
 <small>   
-ECHO: Environmental Influences On Child Health Outcomes<br> 
-OMB: Office of Management And Budget<br> 
-BRFSS: Behavioral Risk Factor Surveillance System<br>
-ABCD: Adolescent Brain Child Development Study<br>
-BFY: Baby's First Years
+<b>ABCD</b>- Adolescent Brain Child Development Study; <b>BFY</b>- Baby's First Years; <b>BRFSS</b>- Behavioral Risk Factor Surveillance System; <b>ECHO</b>- Environmental Influences On Child Health Outcomes; <b>OMB</b>- Office of Management & Budget
 </small>
 </details>
 
 
-<p>
 <details>
 <summary>Table 2. Demographics of Other Biological Parent</summary>
 <br>
@@ -241,17 +225,13 @@ BFY: Baby's First Years
     <td>Hamilton, et al. (2011)</td>
 </tr>
 <tr>
-    <td>Job At Conception - Work for Pay</td>
-    <td>HBCD</td>
-    <td>Cioffredi, et al. (2024)</td>
-</tr>
-<tr>
-    <td>Job At Conception - Type of Work</td>
-    <td>HBCD</td>
-    <td>Cioffredi, et al. (2024)</td>
-</tr>
-<tr>
-    <td>Job At Conception - Full Time/ Part Time</td>
+    <td style="width: 200px; word-wrap: break-word; white-space: normal;">Job At Conception (JAC) - <br>
+    <small>
+      &emsp;JAC - Work for Pay<br>
+      &emsp;JAC - Type of Work<br>
+      &emsp;JAC - Full Time/ Part Time<br>
+    </small>
+    </td>
     <td>HBCD</td>
     <td>Cioffredi, et al. (2024)</td>
 </tr>
@@ -267,9 +247,10 @@ BFY: Baby's First Years
 </tr>
 </tbody>
 </table>
+<small>   
+<b>OMB</b>- Office of Management & Budget<br> 
+</small>
 </details>
-</p>
-
 
 <details class="collapsible references">
   <summary class="references">References</summary>
