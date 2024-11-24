@@ -10,7 +10,7 @@
 **Acronym/Brief Name**: IBQ-R (VSF)+BI       
 **Construct**: Temperamental Surgency/Extraversion, Negative Affectivity, Effortful Control, and Behavioral Inhibition
 
-The IBQ-R (VSF)+BI is a caregiver report form used to assess temperamental reactivity and regulation in infancy, focusing on key traits that influence development and behavior during the early years. It is adapted from the well-validated IBQ-R Very Short Form with additional items reflecting Behavioral Inhibition from the long form of the IBQ-R (see [HBCD Modifications](#hbcd-modifications)). 
+The IBQ-R (VSF)+BI is a caregiver report form used to assess temperamental reactivity and regulation in infancy, focusing on key traits that influence development and behavior during the early years. It is adapted from the well-validated IBQ-R Very Short Form with additional items reflecting Behavioral Inhibition from the long form of the IBQ-R (see [HBCD Modifications](overview.md#hbcd-modifications)). 
 
 For the purposes of HBCD, the measure consists of 4 scale domains: surgency/extraversion (13 items), negative affectivity (12 items), effortful control (12 items), and behavioral inhibition (13 items). Caregivers are asked to report on the infant’s behaviors on a 7-point Likert scale: 1 [Never], 2 [Very rarely], 3 [Less than half the time], 4 [About half the time], 5 [More than half the time], 6 [Almost always], 7 [Always].
 

@@ -38,21 +38,226 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 ## Demographic Protocol Sources & DEI Modifications
 <details>
   <summary>Table 1. Demographics of Birth Parent</summary>
+  <br>
   <table class="docutils">
     <thead>
       <tr>
         <th>Construct</th>
         <th>Source</th>
+        <th>Citations</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td style="width: 300px; word-wrap: break-word; white-space: normal;">Marital and Relationship Status</td>
+    <td><a href="https://www.phenxtoolkit.org/protocols/view/10903">PhenX</a></td>
+    <td style="width: 300px; word-wrap: break-word; white-space: normal;">Hamilton, et al. (2011)</td>
+    </tr>
+	<tr>
+		<td>Gender Identity</td>
+		<td><a href="https://www.phenxtoolkit.org/protocols/view/11801">PhenX</a></td>
+		<td>Hamilton, et al. (2011)</td>
+	</tr>
+	<tr>
+		<td>Sexual Orientation</td>
+		<td><a href="https://www.phenxtoolkit.org/protocols/view/11701">PhenX</a></td>
+		<td>Hamilton, et al. (2011)</td>
+	</tr>
+	<tr>
+		<td>Primary Residence</td>
+		<td>HBCD</td>
+		<td>Cioffredi, et al. (2024)</td>
+	</tr>
+	<tr>
+		<td>Years At Current Address</td>
+		<td>HBCD</td>
+		<td>Cioffredi, et al. (2024)</td>
+	</tr>
+	<tr>
+		<td>Household Roster</td>
+		<td><a href="https://echochildren.org/wp-content/uploads/2024/02/ROSTER_Participant_Roster_20231010_v03.00_training1.pdf">ECHO</a></td>
+		<td>None available</td>
+	</tr>
+	<tr>
+		<td>Birthplace and Heritage</td>
+		<td><a href="https://www.phenxtoolkit.org/protocols/view/10201">PhenX</a></td>
+		<td>Hamilton, et al. (2011)</td>
+	</tr>
+	<tr>
+		<td>Years Living in the United States</td>
+		<td><a href="https://www.phenxtoolkit.org/protocols/view/11201">PhenX</a></td>
+		<td>Hamilton, et al. (2011)</td>
+	</tr>
+	<tr>
+		<td>Race/Ethnicity</td>
+		<td><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a></td>
+		<td>Federal Register 2023</td>
+	</tr>
+	<tr>
+		<td>Others Describe You</td>
+		<td>BRFSS</td>
+		<td>Jones et al. 2008</td>
+	</tr>
+	<tr>
+		<td>Biological Parents Birthplace and Heritage</td>
+		<td><a href="https://www.phenxtoolkit.org/protocols/view/10301">PhenX</a></td>
+		<td>Hamilton, et al. (2011)</td>
+	</tr>
+	<tr>
+		<td>Income</td>
+		<td>ABCD</td>
+		<td>Barch et al. 2017</td>
+	</tr>
+	<tr>
+		<td>Educational Attainment</td>
+		<td><a href="https://www.phenxtoolkit.org/protocols/view/11002">PhenX</a></td>
+		<td>Hamilton, et al. (2011)</td>
+	</tr>
+	<tr>
+		<td>Active-Duty Military</td>
+		<td>HBCD</td>
+		<td>Cioffredi, et al. (2024)</td>
+	</tr>
+	<tr>
+		<td>Currently Work for Pay</td>
+		<td>BFY</td>
+		<td>Year 1 Protocol - G35, Mwork</td>
+	</tr>
+	<tr>
+		<td>Total Hours of Work In Last Week</td>
+		<td>HBCD</td>
+		<td>Cioffredi, et al. (2024)</td>
+	</tr>
+	<tr>
+		<td>JDP - All Jobs - Work 35+ hr/wk</td>
+		<td>HBCD</td>
+		<td>Cioffredi, et al. (2024)</td>
+	</tr>
+	<tr>
+		<td>JDP - At Least One Job 20 hr/wk for 1 month</td>
+		<td>HBCD</td>
+		<td>Cioffredi, et al. (2024)</td>
+	</tr>
+	<tr>
+		<td>JDP - Type of Work</td>
+		<td>HBCD</td>
+		<td>Cioffredi, et al. (2024)</td>
+	</tr>
+	<tr>
+		<td>JDP - Job Start/Stop Dates</td>
+		<td>HBCD</td>
+		<td>Cioffredi, et al. (2024)</td>
+	</tr>
+	<tr>
+		<td>JDP - Typical Hours/Week</td>
+		<td>HBCD</td>
+		<td>Cioffredi, et al. (2024)</td>
+	</tr>
+	<tr>
+		<td>JDP - Shift Schedule</td>
+		<td>BFY</td>
+		<td>Year 1 Protocol - G39, SchedMain</td>
+	</tr>
+    </tbody>
+  </table>
+<small>   
+ECHO: Environmental Influences On Child Health Outcomes<br> 
+OMB: Office of Management And Budget<br> 
+BRFSS: Behavioral Risk Factor Surveillance System<br>
+ABCD: Adolescent Brain Child Development Study<br>
+BFY: Baby's First Years
+</small>
+</details>
+
+
+<p>
+<details>
+<summary>Table 2. Demographics of Other Biological Parent</summary>
+<br>
+<table>
+<thead>
+    <tr>
+    <th>Construct</th>
+    <th>Source</th>
+    <th>Citations</th>
+    </tr>
+</thead>
+    <tbody>
+<tr>
+    <td style="width: 350px; word-wrap: break-word; white-space: normal;">Age</td>
+    <td>HBCD</td>
+    <td style="width: 300px; word-wrap: break-word; white-space: normal;">Cioffredi, et al. (2024)</td>
+</tr>
+<tr>
+    <td>Race/Ethnicity</td>
+    <td><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a></td>
+    <td>Federal Register 2023</td>
+</tr>
+<tr>
+    <td>Birthplace and Heritage</td>
+    <td><a href="https://www.phenxtoolkit.org/protocols/view/10201">PhenX</a></td>
+    <td>Hamilton, et al. (2011)</td>
+</tr>
+<tr>
+    <td>Years Living in The United States</td>
+    <td><a href="https://www.phenxtoolkit.org/protocols/view/11201">PhenX</a></td>
+    <td>Hamilton, et al. (2011)</td>
+</tr>
+<tr>
+    <td>Biological Parents Country of Origin</td>
+    <td><a href="https://www.phenxtoolkit.org/protocols/view/10301">PhenX</a></td>
+    <td>Hamilton, et al. (2011)</td>
+</tr>
+<tr>
+    <td>Education</td>
+    <td><a href="https://www.phenxtoolkit.org/protocols/view/11002">PhenX</a></td>
+    <td>Hamilton, et al. (2011)</td>
+</tr>
+<tr>
+    <td>Job At Conception - Work for Pay</td>
+    <td>HBCD</td>
+    <td>Cioffredi, et al. (2024)</td>
+</tr>
+<tr>
+    <td>Job At Conception - Type of Work</td>
+    <td>HBCD</td>
+    <td>Cioffredi, et al. (2024)</td>
+</tr>
+<tr>
+    <td>Job At Conception - Full Time/ Part Time</td>
+    <td>HBCD</td>
+    <td>Cioffredi, et al. (2024)</td>
+</tr>
+<tr>
+    <td>Active-Duty Military</td>
+    <td>HBCD</td>
+    <td>Cioffredi, et al. (2024)</td>
+</tr>
+<tr>
+    <td>Help Out Financially</td>
+    <td>HBCD</td>
+    <td>Cioffredi, et al. (2024)</td>
+</tr>
+</tbody>
+</table>
+</details>
+</p>
+
+
+<details>
+  <summary>Table 3. DEI Alterations/Modifications</summary>
+  <br>
+  <table class="docutils">
+    <thead>
+      <tr>
+        <th>Construct</th>
         <th>DEI Modifications</th>
       </tr>
     </thead>
     <tbody>
     <tr>
         <td>Marital & Relationship Status</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/10903">PhenX</a><sup>1</sup></td>
-        <td style="width: 400px; word-wrap: break-word; white-space: normal;">
-          <small>
-            <b>Alterations to reduce heteronormative bias:</b>
+        <td><small><b>Alterations to reduce heteronormative bias:</b>
             <ul>
               <li>Combine "Divorced/Separated"</li>
               <li>"Never Married" replaced by "Single"</li>
@@ -63,30 +268,21 @@ QC was performed by monitoring the data dashboard for variable missingness and d
       </tr>
       <tr>
         <td>Gender Identity</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/11801">PhenX</a><sup>1</sup></td>
-        <td style="width: 400px; word-wrap: break-word; white-space: normal;">
+        <td style="width: 500px; word-wrap: break-word; white-space: normal;">
           <small><strong>Alterations to reduce heteronormative bias:</strong><br>Transgender Man/Transgender Woman options moved to primary tier of 2-tier question</small></td>
       </tr>
       <tr>
         <td>Sexual Orientation</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/11701">PhenX</a><sup>1</sup></td>
-        <td style="width: 400px; word-wrap: break-word; white-space: normal;">
+        <td style="width: 500px; word-wrap: break-word; white-space: normal;">
         <small><strong>Inclusion of diverse response options</strong> to capture sexual orientation across three dimensions: attraction, identity, and behavior. Participant can select all that apply.</small></td>
       </tr>
       <tr>
         <td>Primary Residence</td>
-        <td>HBCD<sup>2</sup></td>
-        <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small><strong>Destigmatization of diverse living situations:</strong> Inclusion of options for individuals in treatment facilities, shelters, or unhoused</small></td>
-      </tr>
-      <tr>
-        <td>Years At Current Address</td>
-        <td>HBCD<sup>2</sup></td>
-        <td><small><i>None</i></small></td>
+        <td style="width: 500px; word-wrap: break-word; white-space: normal;"><small><strong>Destigmatization of diverse living situations:</strong> Inclusion of options for individuals in treatment facilities, shelters, or unhoused</small></td>
       </tr>
       <tr>
         <td>Household Roster</td>
-        <td><a href="https://echochildren.org/wp-content/uploads/2024/02/ROSTER_Participant_Roster_20231010_v03.00_training1.pdf">ECHO</a><sup>3</sup></td>
-        <td style="width: 400px; word-wrap: break-word; white-space: normal;">
+        <td style="width: 500px; word-wrap: break-word; white-space: normal;">
           <small>
             <b>Alterations to reduce heteronormative bias and nuclear family assumptions:</b>
             <ul>
@@ -98,175 +294,20 @@ QC was performed by monitoring the data dashboard for variable missingness and d
         </td>
       </tr>
       <tr>
-        <td>Birthplace and Heritage</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/10201">PhenX</a><sup>1</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Years Living in the U.S.</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/11201">PhenX</a><sup>1</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
         <td>Race/Ethnicity</td>
-        <td><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a><sup>4</sup></td>
-        <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small><strong>Inclusion of diverse racial and ethnic categories</strong> aligned with proposed OMB recommendations, using a combined race and ethnicity variable with 7 response options. Participant can select all that apply</small></td>
+        <td style="width: 500px; word-wrap: break-word; white-space: normal;"><small><strong>Inclusion of diverse racial and ethnic categories</strong> aligned with proposed OMB recommendations, using a combined race and ethnicity variable with 7 response options. Participant can select all that apply</small></td>
       </tr>
         <td>Others Describe You</td>
-        <td>BRFSS<sup>5</sup></td>
-        <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small><strong>Include same 7 categories as the race and ethnicity question</strong></small></td>
-      </tr>
-      <tr>
-        <td>Birthplace of Parents</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/10301">PhenX</a><sup>1</sup></td>
-        <td><small><i>None</i></small></td>
+        <td style="width: 500px; word-wrap: break-word; white-space: normal;"><small><strong>Include same 7 categories as the race and ethnicity question</strong></small></td>
       </tr>
       <tr>
         <td>Income</td>
-        <td>ABCD<sup>6</sup></td>
-        <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small><strong>Alteration of household income brackets</strong></small></td>
-      </tr>
-      <tr>
-        <td>Educational Attainment</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/11002">PhenX</a><sup>1</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Active-Duty Military</td>
-        <td>HBCD<sup>2</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Currently Work for Pay</td>
-        <td>BFY<sup>7</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Total Work Hours In Last Week</td>
-        <td>HBCD<sup>2</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Jobs During Pregnancy-<br />All Jobs - 35+ hr/wk</td>
-        <td>HBCD<sup>2</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Jobs During Pregnancy-<br />At Least 1 Job at<br />20 hr/wk for 1 month</td>
-        <td>HBCD<sup>2</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Jobs During Pregnancy-<br />Type of Work</td>
-        <td>HBCD<sup>2</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Jobs During Pregnancy-<br />Job Start/Stop Dates</td>
-        <td>HBCD<sup>2</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Jobs During Pregnancy-<br />Typical Hours/Week</td>
-        <td>HBCD<sup>2</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Jobs During Pregnancy-<br />Shift Schedule</td>
-        <td>BFY<sup>8</sup></td>
-        <td><small><i>None</i></small></td>
+        <td style="width: 500px; word-wrap: break-word; white-space: normal;"><small><strong>Alteration of household income brackets</strong></small></td>
       </tr>
     </tbody>
   </table>
-<small>  
-<sup>1</sup> PhenX Toolkit (Hamilton et al. 2011)<br>  
-<sup>2</sup> HBCD: HEALthy Brain and Child Development Study (Cioffredi et al. 2024)<br> 
-<sup>3</sup> ECHO: Environmental Influences On Child Health Outcomes<br> 
-<sup>4</sup> OMB: Office of Management And Budget (Federal Register 2023)<br> 
-<sup>5</sup> BRFSS: Behavioral Risk Factor Surveillance System (Jones et al. 2008)<br>
-<sup>6</sup> ABCD: Adolescent Brain Child Development Study (Barch et al. 2018)<br> 
-<sup>7</sup> BFY: Baby's First Years (BFY), Year 1 Protocol - G35, Mwork<br> 
-<sup>8</sup> BFY: Baby's First Years (BFY), Year 1 Protocol - G39, SchedMain<br> 
-</small>
-</details>
+ </details> 
 
-<p>
-<details>
-  <summary>Table 2. Demographics of Other Biological Parent</summary>
-  <table class="docutils">
-    <thead>
-      <tr>
-        <th>Construct</th>
-        <th>Source</th>
-        <th>DEI Modifications</th>
-      </tr>
-    </thead>
-      <tbody>
-      <tr>
-          <td>Age</td>
-          <td>HBCD<sup>2</sup></td>
-          <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Race/Ethnicity</td>
-        <td><a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB</a><sup>4</sup></td>
-        <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small><strong>Inclusion of diverse racial and ethnic categories</strong> aligned with proposed OMB recommendations, using a combined race and ethnicity variable with 7 response options. Participant can select all that apply</small></td>
-      </tr>
-      <tr>
-        <td>Birthplace and Heritage</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/10201">PhenX</a><sup>1</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Years Living in the U.S.</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/11201">PhenX</a><sup>1</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Birthplace of Parents</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/10301">PhenX</a><sup>1</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Educational Attainment</td>
-        <td><a href="https://www.phenxtoolkit.org/protocols/view/11002">PhenX</a><sup>1</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Job At Conception-<br />Work for Pay</td>
-        <td>HBCD<sup>2</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Job At Conception-<br />Type of Work</td>
-        <td>HBCD<sup>2</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Job At Conception-<br />Full Time/Part Time</td>
-        <td>HBCD<sup>2</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Active-Duty Military</td>
-        <td>HBCD<sup>2</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-      <tr>
-        <td>Help Out Financially</td>
-        <td>HBCD<sup>2</sup></td>
-        <td><small><i>None</i></small></td>
-      </tr>
-    </tbody>
-  </table>
-<small>  
-<sup>1</sup> PhenX Toolkit (Hamilton et al. 2011)<br>  
-<sup>2</sup> HBCD: HEALthy Brain and Child Development Study (Cioffredi et al. 2024)<br> 
-<sup>4</sup> OMB: Office of Management And Budget (Federal Register 2023)<br> 
-</small>
-</details>
-</html>
-</p>
 
 <details class="collapsible references">
   <summary class="references">References</summary>
