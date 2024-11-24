@@ -56,8 +56,7 @@ details {
   border-radius: 8px;
 }
 details summary {
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-size: 1rem;
   cursor: pointer;
 }
 details ul {

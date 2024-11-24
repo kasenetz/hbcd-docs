@@ -61,12 +61,6 @@ Below are alterations made to demographic constructs, informed by a DEI (diversi
 </details>
 
 
-
-<br>
-
-
-
-
 <details>
   <summary>Table 1. DEI Alterations/Modifications</summary>
   <br>
