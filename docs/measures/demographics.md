@@ -26,8 +26,46 @@ Demographic information is crucial for understanding the child’s environment a
 </details>
 
 ## HBCD Modifications
+Below are alterations made to demographic constructs, informed by a DEI (diversity, equity, and inclusion) lens, to capture a more inclusive and accurate breadth of demographic information:
 
-Table 1 outlines alterations made to demographic constructs, informed by a DEI (diversity, equity, and inclusion) lens, to capture a more inclusive and accurate breadth of demographic information:
+<details>
+<summary>DEI Alterations/Modifications</summary>
+<br>
+<ul>
+  <li><b>Marital & Relationship Status</b> alterations to reduce heteronormative bias:
+    <ul>
+      <li>Combine "Divorced/Separated"</li>
+      <li>"Never Married" replaced by "Single"</li>
+      <li>"Member of an Unmarried Couple" replaced by "Partnered"</li>
+    </ul>
+    </li>
+  <br> 
+  <li><b>Gender Identity</b> alterations to reduce heteronormative bias: Transgender Man/Transgender Woman options moved to primary tier of 2-tier question</li>
+  <br>
+  <li><b>Sexual Orientation</b> alterations to reduce heteronormative bias: Inclusion of diverse response options to capture sexual orientation across three dimensions: attraction, identity, and behavior. Participant can select all that apply.</li>
+    <br>
+  <li><b>Primary Residence</b> destigmatization of diverse living situations: Inclusion of options for individuals in treatment facilities, shelters, or unhoused</li>
+    <br>
+  <li><b>Household Roster</b> alterations to reduce heteronormative bias and nuclear family assumptions:
+    <ul>
+      <li>Changed "Sex" to "Gender"</li>
+      <li>Included Non-Binary and Transexual options for Gender</li>
+      <li>Expansion of family/caregiver roles</li>
+    </ul>
+  </li>
+    <br>
+  <li><b>Race/Ethnicity</b> and <b>Others Describe You</b>: Inclusion of diverse racial and ethnic categories aligned with proposed OMB recommendations, using a combined race and ethnicity variable with 7 response options. Participant can select all that apply</li>
+    <br>
+<li><b>Income</b>: Alteration of household income brackets</li>
+</ul>
+</details>
+
+
+
+<br>
+
+
+
 
 <details>
   <summary>Table 1. DEI Alterations/Modifications</summary>

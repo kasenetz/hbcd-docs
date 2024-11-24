@@ -48,28 +48,35 @@ h3 {
   }    
 
 /* Specs for general collapsible sections */ 
-.collapsible {
-    background-color: #24AE7066;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-  }
-  details {
-    background-color: #24AE7066; /* add 66 to make more transparent */ 
-    padding: 10px;
-    margin: 10px 1;
-    border-radius: 5px;
-  }
-  summary {
-    font-size: 16px;
-    cursor: pointer;
-    border-bottom: none
-  }
-  a {
-    color: #007BFF;
-    text-decoration: none;
-  }
-
+details {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #24ae7050;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+details summary {
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+details ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+details li {
+  margin-bottom: 0.5rem;
+}
+details ul ul {
+  margin-top: 0.5rem;
+}
+details ul ul li {
+  margin-bottom: 0.3rem;
+}
+details li b {
+  color: #be074c;
+}
 
   /* References section collapsible styling */
 .collapsible.references {
