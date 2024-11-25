@@ -4,6 +4,11 @@
 /* red: #be074c */ 
 /* black/gray: #6b6b6b */ 
 
+
+.wy-side-nav-search {
+  background-color: #199bd6;
+}
+
 /* Banner specs */
 .banner {
   display: flex;

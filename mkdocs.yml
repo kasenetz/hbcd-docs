@@ -98,18 +98,18 @@ nav:
     - Data Processing: 
         - Pipelines & Processing: processing/pipelines.md
         - Pipeline Software Standards: processing/standards.md
-    - Change Log: 
-        - Pending & Upcoming Updates: changelog/pending.md
-        - Version History: 
-            - Beta Release 5/V1.4: changelog/versions/v1.4.md
-            - Beta Release 4/V1.3: changelog/versions/v1.3.md
-            - Beta Release 3/V1.2: changelog/versions/v1.2.md
-            - Beta Release 2/V1.1: changelog/versions/v1.1.md
-            - Beta Release 1/V1.0: changelog/versions/v1.0.md
-    - Internal Documentation (temp):
-            - Overview: internal/overview.md
-            - WG Report Issues: internal/reportissues.md
-            - Review Beta Data Release Site: internal/beta_release_site_review.md
+  - CHANGE LOG: 
+    - Pending & Upcoming Updates: changelog/pending.md
+    - Version History: 
+        - Beta Release 5/V1.4: changelog/versions/v1.4.md
+        - Beta Release 4/V1.3: changelog/versions/v1.3.md
+        - Beta Release 3/V1.2: changelog/versions/v1.2.md
+        - Beta Release 2/V1.1: changelog/versions/v1.1.md
+        - Beta Release 1/V1.0: changelog/versions/v1.0.md
+  - INTERNAL:
+    - Overview: internal/overview.md
+    - WG Report Issues: internal/reportissues.md
+    - Review Beta Data Release Site: internal/beta_release_site_review.md
 
   
 
