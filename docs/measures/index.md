@@ -2,17 +2,64 @@
 
 In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures and known issues, and references.
 
-For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). The visits where measures are administered are noted for each section. The corresponding ages of the infant/child for each visit are:
->>>
-Visit 1 (V01): Prenatal <br>
-Visit 2 (V02): 0-1 months <br>
-Visit 3 (V03): 3-9 months <br>
-Visit 4 (V04): 9-15 months <br>
-Visit 5 (V05): 10-17 months <br>
-Visit 6 (V06): 15-30 months <br>
-Visit 7 (V07): 16-31 months <br>
-Visit 7 (V08): 31-45 months <br>
-Visit 9 (V09): 32-46 months <br>
+For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). The visits and corresponding ages of the infant/child are listed below:
+
+<table>
+	<thead>
+		<tr>
+			<th style="width: 100px"><strong>Visit</strong></th>
+			<th style="width: 100px"><strong>Code</strong></th>
+			<th style="width: 100px"><strong>Infant/Child Age</strong></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Visit 1</td>
+			<td>V01</td>
+			<td>Prenatal</td>
+		</tr>
+		<tr>
+			<td>Visit 2</td>
+			<td>V02</td>
+			<td>0-1 months</td>
+		</tr>
+		<tr>
+			<td>Visit 3</td>
+			<td>V03</td>
+			<td>3-9 months</td>
+		</tr>
+		<tr>
+			<td>Visit 4</td>
+			<td>V04</td>
+			<td>9-15 months</td>
+		</tr>
+		<tr>
+			<td>Visit 5</td>
+			<td>V05</td>
+			<td>10-17 months</td>
+		</tr>
+		<tr>
+			<td>Visit 6</td>
+			<td>V06</td>
+			<td>15-30 months</td>
+		</tr>
+		<tr>
+			<td>Visit 7</td>
+			<td>V07</td>
+			<td>16-31 months</td>
+		</tr>
+		<tr>
+			<td>Visit 8</td>
+			<td>V08</td>
+			<td>31-45 months</td>
+		</tr>
+		<tr>
+			<td>Visit 9</td>
+			<td>V09</td>
+			<td>32-46 months</td>
+		</tr>
+	</tbody>
+</table>
 
 ## HBCD Workgroups and Associated Data Measures
 
