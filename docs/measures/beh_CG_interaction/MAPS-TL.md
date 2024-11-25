@@ -17,13 +17,13 @@ Each of the 17 items for MAPS-TL is answered on a scale of 1 to 6: 1 [Never], 2 
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: This questionnaire is to be filled out by the child’s caregiver in a remote setting. Questions inquire about the behaviors of the focal child over the past month.  <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
-<strong>Respondent</strong>: Primary Caregiver <br />
-<strong>Visits</strong>: V03 <br />
-<strong>Estimated length of time for completion</strong>: 5 minutes </p>
+<li><b>Method of Administration</b>: This questionnaire is to be filled out by the child’s caregiver in a remote setting. Questions inquire about the behaviors of the focal child over the past month.</li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG</li>
+<li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
+<li><b>Respondent</b>: Primary Caregiver</li>
+<li><b>Visits</b>: V03</li>
+<li><b>Estimated length of time for completion</b>: 5 minutes</li>
+</ul>
 </details>
 
 <details class="collapsible references">

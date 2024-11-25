@@ -4,15 +4,13 @@
 
 Wearable sensor data (accelerometer and gyroscope) were collected continuously over 72 hours from sensors placed on infants’ right and left ankles to estimate movement frequency, intensity, and sleep periods. Caregivers followed normal routines, removing sensors only for water exposure (e.g., baths) and replacing them afterward. Each sensor (Axivity AX6) was calibrated by recording 10 seconds on each of its six flat surfaces before data collection. Sensors recorded accelerometer (±16 g) and gyroscope (±2000 dps) data at 25 Hz, enabling estimates of sedentary, light, moderate-to-vigorous activity, and sleep. See [Pini et al. 2024](https://doi.org/10.1016/j.dcn.2024.101446) for a full measure description.
 
-<p>
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: RA placed sensors on child at visit, sensors then worn while 72 hours of data were collected across typical activities in the natural environment. <br />
-<strong>Visits</strong>: V02, V03 </p>
+<li><b>Method of Administration</b>: RA placed sensors on child at visit, sensors then worn while 72 hours of data were collected across typical activities in the natural environment.</li>
+<li><b>Visits</b>: V02, V03</li>
+</ul>
 </details>
-</p>
 
 ## Quality Control & Known Issues  
 Raw calibration files were checked during active data collection to verify the presence of sufficient data for each of the six axes. A random selection of 72-hour data files were reviewed on a weekly basis to check for the presence of data, labeling of right and left leg, and sampling rate used. Since the QC process is manual and visual, only a small percentage of files were reviewed each week.

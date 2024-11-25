@@ -26,14 +26,14 @@ The mental health screening instrument has two levels. Level 1 includes one to t
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: self-administered in person or remote <br />
-<strong>REDCap Form Name</strong>: APA Level 1/2 <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
-<strong>Respondent:</strong> pregnant person/person who gave birth/primary caregiver <br />
-<strong>Visits</strong>:  V01, V02, V03 <br />
-<strong>Estimated length of time for completion</strong>: 5 minutes</p>
+<li><b>Method of Administration</b>: self-administered in person or remote </li>
+<li><b>REDCap Form Name</b>: APA Level 1/2 </li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+<li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
+<li><b>Respondent:</b> pregnant person/person who gave birth/primary caregiver </li>
+<li><b>Visits</b>:  V01, V02, V03 </li>
+<li><b>Estimated length of time for completion</b>: 5 minutes</li>
+</ul>
 </details>
 
 ## HBCD Modifications

@@ -8,14 +8,14 @@ The Infant Sensor Questionnaire, developed by the HBCD Workgroup, was sent daily
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: Surveys were sent automatically to caregivers via their preferred method of contact (email or text message) marked by the RA at visit <br />
-<strong>REDCap Form Name</strong>: sens_ch_rcpt <br />
-<strong>Pilot Data Dictionary</strong>: nt_ch_sens_i_qtn_1, nt_ch_sens_i_qtn_2, nt_ch_sens_i_qtn_3 <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
-<strong>Respondent:</strong> Caregiver <br />
-<strong>Visits</strong>: V02, V03 </p>
+<li><b>Method of Administration</b>: Surveys were sent automatically to caregivers via their preferred method of contact (email or text message) marked by the RA at visit</li>
+<li><b>REDCap Form Name</b>: sens_ch_rcpt</li>
+<li><b>Pilot Data Dictionary</b>: nt_ch_sens_i_qtn_1, nt_ch_sens_i_qtn_2, nt_ch_sens_i_qtn_3</li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG</li>
+<li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
+<li><b>Respondent:</b> Caregiver</li>
+<li><b>Visits</b>: V02, V03</li>
+</ul>
 </details>
 
 ## Quality Control & Known Issues 

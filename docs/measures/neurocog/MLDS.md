@@ -8,17 +8,18 @@ This instrument involves a series of questionnaires that assess parental concern
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: This measure is completed remotely by caregivers prior to when cognitive and language assessments will be performed. If the caregiver does not complete the assessment remotely, it is conducted at the visit to document the child’s language exposure environments. The instrument can be administered by an RA in person or via video as needed. <br />
-<strong>REDCap Form Name</strong>: Child Language Exposure Survey <br />
-<strong>Pilot Data Dictionary</strong>: ncl_ch_mlds <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
-<strong>Respondent:</strong> Primary caregiver of the child <br />
-<strong>Visits</strong>: V03, V04, V05, V07 <br />
-<strong>Estimated length of time for completion</strong>: 3-10 minutes</p>
+<li><b>Method of Administration</b>: This measure is completed remotely by caregivers prior to when cognitive and language assessments will be performed. If the caregiver does not complete the assessment remotely, it is conducted at the visit to document the child’s language exposure environments. The instrument can be administered by an RA in person or via video as needed.</li>
+<li><b>REDCap Form Name</b>: Child Language Exposure Survey</li>
+<li><b>Pilot Data Dictionary</b>: ncl_ch_mlds</li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG</li>
+<li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
+<li><b>Respondent:</b> Primary caregiver of the child</li>
+<li><b>Visits</b>: V03, V04, V05, V07</li>
+<li><b>Estimated length of time for completion</b>: 3-10 minutes</li>
+</ul>
 </details>
 <br>
+
 
 <p style="font-size: 1em; margin: 0 0 5px;"><u>Non-Parental Childcare Arrangement Scoring Procedure</u></p>
 Total days per week and total hours per day were calculated for up to 10 non-parental childcare arrangements (Daycare, With Babysitter, With other family members outside of the household, and Other non-parental childcare arrangement).The language environment for each non-parental childcare arrangement was described based on the percentage of Spanish vs Enlgish spoken in the environment:

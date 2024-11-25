@@ -12,16 +12,19 @@ theme:
 
 markdown_extensions:
   - toc:
-      permalink: '🔗'
+      permalink: '🔗'  
   
 extra_javascript:
   - js/extra.js
+
 extra_css:
   - css/custom.css
 
 plugins:
   - search
   - git-authors
+  - macros:
+      module_name: macros  
 
 docs_dir: docs
 

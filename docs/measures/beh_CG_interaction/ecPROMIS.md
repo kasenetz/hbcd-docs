@@ -17,13 +17,13 @@ Each of the 5 items for ecPROMIS Child-Caregiver Interaction is answered on a sc
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: This questionnaire is to be filled out by the child’s caregiver in a remote setting. <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
-<strong>Respondent:</strong> Primary Caregiver <br />
-<strong>Visits</strong>: V03, V04, V06 <br />
-<strong>Estimated length of time for completion</strong>: 1-2 minutes</p>
+<li><b>Method of Administration</b>: This questionnaire is to be filled out by the child’s caregiver in a remote setting.</li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG</li>
+<li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
+<li><b>Respondent:</b> Primary Caregiver</li>
+<li><b>Visits</b>: V03, V04, V06</li>
+<li><b>Estimated length of time for completion</b>: 1-2 minutes</li>
+</ul>
 </details>
 
 <details class="collapsible references">

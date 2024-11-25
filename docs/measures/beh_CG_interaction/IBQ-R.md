@@ -21,15 +21,15 @@ For additional information, please see the scoring manual for details on items a
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: Remote survey <br />
-<strong>REDCap Form Name</strong>: mh_cg_ibqr <br />
-<strong>Pilot Data Dictionary</strong>: IBQ-R VSF + BI <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Specific <br />
-<strong>Respondent</strong>: Caregiver <br />
-<strong>Visits</strong>: V03, V05, validated for ages 3 months 0 days to 17 months 30 days (for HBCD purposes) <br />
-<strong>Estimated length of time for completion</strong>: Approximately 7-10 minutes </p>
+<li><b>Method of Administration</b>: Remote survey</li>
+<li><b>REDCap Form Name</b>: mh_cg_ibqr</li>
+<li><b>Pilot Data Dictionary</b>: IBQ-R VSF + BI</li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG</li>
+<li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
+<li><b>Respondent:</b> Caregiver</li>
+<li><b>Visits</b>: V03, V05, validated for ages 3 months 0 days to 17 months 30 days (for HBCD purposes)</li>
+<li><b>Estimated length of time for completion</b>: Approximately 7-10 minutes</li>
+</ul>
 </details>
 
 <details class="collapsible references">

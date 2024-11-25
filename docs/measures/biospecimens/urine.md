@@ -6,11 +6,11 @@
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: Self collected <br />
-<strong>Respondent:</strong> Pregnant person <br />
-<strong>Visits</strong>: V01 <br />
-<strong>Estimated length of time for completion</strong>: 5 minutes</p>
+<li><b>Method of Administration</b>: Self-collected</li>
+<li><b>Respondent</b>: Pregnant person</li>
+<li><b>Visits</b>: V01</li>
+<li><b>Estimated length of time for completion</b>: 5 minutes</li>
+</ul>
 </details>
 
 ## Assay
