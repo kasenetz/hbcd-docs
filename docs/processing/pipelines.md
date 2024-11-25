@@ -57,6 +57,6 @@
 ### Biosensor Data      
 <p style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
     <a href="https://hbcd-motion-postproc.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
-      AXIVITY
+      HBCD-Motion
     </a>: leg movement sensor data processing
 </p>
