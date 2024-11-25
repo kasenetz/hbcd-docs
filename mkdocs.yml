@@ -23,19 +23,20 @@ extra_css:
 plugins:
   - search
   - git-authors
-  - macros:
-      module_name: macros  
+#   - macros:
+#       module_name: macros  
 
 docs_dir: docs
 
 nav: 
   - ABOUT: index.md
-  - HOW TO ACCESS DATA: data_access.md
-  - DUC PROCESS: duc_process.md
-  - FAQS: faq.md
-  - REPORT ISSUES: reportissue.md
-  - RESPONSIBLE DATA USE: resp_data_use.md
-  - DATA DICTIONARY EXPLORER: datadictionary.md
+  - Access Data:
+    - How To Access Data: data_access.md
+    - Responsible Data Use: resp_data_use.md
+    - Data Dictionary Explorer: datadictionary.md
+  - Get Help:
+    - FAQs: faq.md
+    - Report Issues: reportissue.md
   - Release Notes:
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
@@ -107,7 +108,6 @@ nav:
         - Beta Release 2/V1.1: changelog/versions/v1.1.md
         - Beta Release 1/V1.0: changelog/versions/v1.0.md
   - INTERNAL:
-    - Overview: internal/overview.md
     - WG Report Issues: internal/reportissues.md
     - Review Beta Data Release Site: internal/beta_release_site_review.md
 

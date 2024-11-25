@@ -1,5 +1,7 @@
 # Reporting Issues (WGs only)
 
+*NOTE: This section will not be included in the final webpage for the release, but instead offers a central location for internal documentation to assist HBCD researchers and stakeholders in preparation for the release.*
+
 Please use the Lasso Help Center to report: 
 
 - Any issues with your data.
