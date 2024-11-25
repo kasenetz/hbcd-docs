@@ -31,7 +31,7 @@ h1 {
     font-size: 2em;
     margin: 2 0 5px; /* space added above, left/right, and below */
     font-weight: normal;
-    border-bottom: 2px solid #24AE70; /* underline color */
+    border-bottom: 2px solid #199bd6; /* underline color */
     padding-bottom: 5px;
   }
 
@@ -55,12 +55,13 @@ h3 {
 details {
   margin-bottom: 1rem;
   padding: 1rem;
-  background-color: #24ae7050;
-  border: 1px solid #24ae70;
+  background-color: #24ae7000;
+  border: 0.5px solid #199bd6;
   border-radius: 8px;
 }
 details summary {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
   cursor: pointer;
 }
 details ul {
@@ -78,7 +79,7 @@ details ul ul li {
   margin-bottom: 0.3rem;
 }
 details li b {
-  color: #199bd6;
+  color: #0077cc;
 }
 
   /* References section collapsible styling */

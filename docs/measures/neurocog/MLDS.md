@@ -18,10 +18,8 @@ This instrument involves a series of questionnaires that assess parental concern
 <li><b>Estimated length of time for completion</b>: 3-10 minutes</li>
 </ul>
 </details>
-<br>
 
-
-<p style="font-size: 1em; margin: 0 0 5px;"><u>Non-Parental Childcare Arrangement Scoring Procedure</u></p>
+### Scoring Procedures
 Total days per week and total hours per day were calculated for up to 10 non-parental childcare arrangements (Daycare, With Babysitter, With other family members outside of the household, and Other non-parental childcare arrangement).The language environment for each non-parental childcare arrangement was described based on the percentage of Spanish vs Enlgish spoken in the environment:
 
 | Child's Language Environment | % Spanish/English Spoken |
@@ -38,4 +36,4 @@ Total days per week and total hours per day were calculated for up to 10 non-par
 ## Quality Control & Known Issues
 For QC, frequency of decline to answer and completeness was monitored during data collection. A common issue identified was that initial data shows that about 10% of questionnaires were not complete.
 
-Subject matter experts would like to remind users that this measure was designed to assess the child’s exposure to language in order to identify which measure should be administered at their next in-person study visit. The measure attempts to quantify the percentage of time that the child is exposed to languages in their home and other caregiving environments. Caregivers estimate the percentage of time and the responses *do not reflect exact values of exposure to a given language*. Caregivers may be unaware of all languages their child is exposed to in all of the child’s environments. The measure does not quantify the child’s interactions in a given language. The information only quantifies an estimate of the amount of time they are in an environment where a given language is spoken. The measure does not quantify the child’s expressive or receptive language skills in a given language. 
+Subject matter experts remind users that this measure was designed to assess the child’s exposure to language in order to identify which measure should be administered at their next in-person study visit. The measure attempts to quantify the percentage of time that the child is exposed to languages in their home and other caregiving environments. Caregivers estimate the percentage of time and the responses *do not reflect exact values of exposure to a given language*. Caregivers may be unaware of all languages their child is exposed to in all of the child’s environments. The measure does not quantify the child’s interactions in a given language. The information only quantifies an estimate of the amount of time they are in an environment where a given language is spoken. The measure does not quantify the child’s expressive or receptive language skills in a given language. 
