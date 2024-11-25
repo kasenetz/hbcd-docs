@@ -9,6 +9,11 @@
   background-color: #199bd6;
 }
 
+/* Override Read the Docs theme's banner text color */
+.banner-text {
+  color: #199bd6;
+}
+
 /* Banner specs */
 .banner {
   display: flex;
