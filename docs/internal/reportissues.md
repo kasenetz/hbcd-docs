@@ -13,7 +13,11 @@ Please use the Lasso Help Center to report:
 Follow the instructions outlined in [Report Issues](../reportissue.md) to submit a help desk ticket. If you are having trouble accessing the help center in Lasso, please reach out to **achaudhry@lassoinformatics.com** and/or **lmacintyre@lassoinformatics.com**
 
 ## Updates to HBCD Data Release webpage content
-If you identify any errors or updates needed in the content of this webpage, please report them by either submitting an issue on the [hbcd-docs GitHub](https://github.com/DCAN-Labs/hbcd-docs/issues) or by contacting me, Luci Moore, directly via Slack or email. For more complex updates requiring discussion, Slack or email is preferred.
+If you identify any errors or updates needed in the content of this webpage, please report them via one of the following mechanisms:
+
+1. Submit an issue via [hbcd-docs GitHub](https://github.com/DCAN-Labs/hbcd-docs/issues) 
+2. Contact me, Luci Moore, directly via Slack or email (for more complex updates requiring discussion, Slack or email is preferred)
+3. Submit a ticket to the Lasso Help Center (select "Other" under Category)
 
 Please note that I also receive updates through other channels (e.g., Workgroup README templates) and strive to incorporate changes promptly upon notification. However, don’t hesitate to reach out if you have questions or concerns.
 
