@@ -35,7 +35,7 @@
   </li>
   <li style="margin-bottom: 10px;">
     <a href="https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
-      SyMRI
+      qMRI Postproc 
     </a>: minimal post-processing for SyMRI synthetic images derived from QALAS acquisition
   </li>
 </ul>
