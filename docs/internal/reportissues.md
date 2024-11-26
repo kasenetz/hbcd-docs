@@ -14,7 +14,7 @@ Follow the instructions outlined in [Report Issues](../reportissue.md) to submit
 
 ## Updates to HBCD Data Release webpage content
 
-If you identify any errors or updates required to sections of this webpage or have suggestions, please report them using one of the following methods:
+If you identify any errors or updates required to sections of the [HBCD Data Release](https://hbcd-docs.readthedocs.io/en/latest/) webpage, particularly [Release Notes > Data Measures](https://hbcd-docs.readthedocs.io/en/latest/measures/), or have suggestions, please report them using one of the following methods:
 
 1. Submit an issue via [hbcd-docs GitHub](https://github.com/DCAN-Labs/hbcd-docs/issues) 
 2. Contact me, Luci Moore, directly via Slack or email (for more complex updates requiring discussion, Slack or email is preferred)
