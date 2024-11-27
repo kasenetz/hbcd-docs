@@ -90,7 +90,7 @@ nav:
         - Siemens: mriprotocols/siemens.md
         - GE: mriprotocols/ge.md
         - Philips: mriprotocols/philips.md
-    - BIDS Dataset:
+    - HBCD BIDS Standards:
         - Overview: datacuration/bids.md
         - Imaging: datacuration/imaging.md
         - EEG: datacuration/eeg.md
