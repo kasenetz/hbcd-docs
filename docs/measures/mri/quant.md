@@ -1,4 +1,6 @@
 # Quantitative MRI
+*See [Overview](overview.md) for details on quality control and [MRI Protocols](../../mriprotocols/overview.md) for information on sequence installation.*
+
 ## QALAS
 **Full Name**: The five QALAS volumes   
 **Acronym/Brief Names**: qMRI, QALAS        
