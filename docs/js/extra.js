@@ -22,17 +22,19 @@ if (collapsibleContent.classList.contains('open')) {
 }
 }
 
-// auto-expand collapsible warning banner on external navigation
+// Auto-expand collapsible banners on external navigation
 window.addEventListener('DOMContentLoaded', () => {
-    const hash = window.location.hash;
-    if (hash === '#warning-banner') {
-      const banner = document.getElementById('warning-banner');
-      if (banner) {
-        toggleCollapse(banner);
-        banner.scrollIntoView({ behavior: 'smooth' });
-      }
+  const hash = window.location.hash;
+  const bannerIds = ['warning-banner', 'alert-banner', 'notification-banner'];
+
+  if (bannerIds.includes(hash.substring(1))) {
+    const banner = document.getElementById(hash.substring(1));
+    if (banner) {
+      toggleCollapse(banner);
+      banner.scrollIntoView({ behavior: 'smooth' });
     }
-  });
+  }
+});
 
 // Auto-expand collapsible notification banner on page load
 window.addEventListener('DOMContentLoaded', () => {
