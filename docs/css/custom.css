@@ -117,8 +117,8 @@ details.references summary.references {
   display: flex;
   align-items: center;
   justify-content: space-between; /* Align text and icon/button at the ends */
-  background-color: #be074d3d; /* Warning yellow */
-  border: 1px solid #be074c; /* Orange border for emphasis */
+  background-color: rgba(255, 251, 0, 0.705);
+  border: 1px solid #be074c;
   padding: 10px 20px;
   border-radius: 5px;
   font-family: Arial, sans-serif;
@@ -162,3 +162,25 @@ details.references summary.references {
   transform: rotate(90deg); /* Point downward */
 }
 
+/* Collapsible RDU Alert Banner */
+.alert-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align text and icon/button at the ends */
+  background-color: #be074d3d; 
+  border: 1px solid #be074c; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  color: #333333; /* Darker text color for readability */
+  cursor: pointer; /* Indicate it's clickable */
+}
+.alert-banner .emoji {
+  font-size: 1.5rem; 
+  margin-right: 10px;
+  color: red;
+}
+.alert-banner .text {
+  font-size: 1.2rem; /* Adjust text size */
+  font-weight: bold; /* Emphasize warning text */
+}
