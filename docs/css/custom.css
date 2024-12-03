@@ -111,3 +111,54 @@ details.references summary.references {
 
 
 
+
+/* Collapsible Warning Banner */
+.warning-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align text and icon/button at the ends */
+  background-color: #be074d3d; /* Warning yellow */
+  border: 1px solid #be074c; /* Orange border for emphasis */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  color: #333333; /* Darker text color for readability */
+  cursor: pointer; /* Indicate it's clickable */
+}
+.warning-banner .emoji {
+  font-size: 1.5rem; 
+  margin-right: 10px;
+  color: red;
+}
+.warning-banner .text {
+  font-size: 1.2rem; /* Adjust text size */
+  font-weight: bold; /* Emphasize warning text */
+}
+/* Collapsible content */
+.collapsible-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: #fff;
+  border: 1px solid #be074c;
+  border-top: none; /* Remove top border to connect with banner */
+  padding: 0 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+.collapsible-content.open {
+  max-height: none;
+}
+.arrow {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  transform-origin: center;
+  color: #333; /* Adjust color to match design */
+}
+
+/* Rotate the arrow when expanded */
+.arrow.rotate {
+  transform: rotate(90deg); /* Point downward */
+}
+

@@ -1,5 +1,19 @@
 # Demographics
 
+<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji">&#9888;</span>
+    <span class="text">Important Responsible Data Use and Analysis Considerations</span>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</div>
+
+<div class="collapsible-content">
+<br>
+<p>When using HBCD data, all data users must agree to responsible use as described in the DUC. When conceptualizing studies, analyzing data, and communicating findings from studies that use variables such as race, ethnicity, country of origin, and socioeconomic data, it is critical to consider strategies to avoid stigmatization of any groups and perpetuating harmful biases.</p> 
+<p>Race and ethnicity are collected as a part of the HBCD protocol to reflect social experiences (i.e. representing social constructs) and should not be conceptualized as as biological, natural, intrinsic, or fixed categories of people. In addition, researchers sometimes use race/ethnicity variables as a proxy for unmeasured social experiences or environmental exposures. HBCD measures a wide variety of social experiences and environmental exposures; in analyzing HBCD data, race/ethnicity should not be used as a proxy for measured variables</p>
+</div><br>
+
 **Full Name**: HBCD Demographics V01  
 **Acronym/Brief Name**: Demographics  
 **Construct**: Basic social characteristics related to the birthing parent, the other biological parent, and their household.  
@@ -56,12 +70,6 @@ Below are alterations made to demographic constructs, informed by a DEI (diversi
 
 ## Quality Control & Known Issues
 QC was performed by monitoring the data dashboard for variable missingness and data consistency. The only common issue noted was high missingness for income, although this is in line with expectations. Subject matter experts flagged the following as a potential issue with this measure: RA reports show that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours). 
-
-<div class="banner">
-    <span class="emoji">💡</span>
-    <span class="text">Please review <a href="../../resp_data_use">Responsible Data Use</a> for critical guidelines on ethical and responsible handling of demographic data in HBCD analyses</span>
-</div>
-
 
 ## Demographic Protocol Sources & DEI Modifications
 <details>
