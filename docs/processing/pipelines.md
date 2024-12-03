@@ -42,7 +42,7 @@
 
 ### Electroencephalogram (EEG)
 <p style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
-    <a href="https://docs-hbcd-made.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
+    <a href="https://hbcd-made.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
       HBCD-MADE
     </a>: Maryland Analysis of Developmental EEG (MADE) pipeline adapted for HBCD
 </p>
