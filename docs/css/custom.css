@@ -150,11 +150,11 @@ details.references summary.references {
   max-height: none;
 }
 .arrow {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   transition: transform 0.3s ease;
   display: inline-block;
   transform-origin: center;
-  color: #333; /* Adjust color to match design */
+  color: #333;
 }
 
 /* Rotate the arrow when expanded */
