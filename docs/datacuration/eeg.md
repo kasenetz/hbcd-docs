@@ -1,7 +1,7 @@
 # EEG Data Curation & BIDS Conversion
 
 ## BIDS Conversion
-To facilitate data handling and preprocessing, we employ [EEG2BIDS Wizard](https://github.com/aces/eeg2bids), a custom MATLAB application installed at all HBCD sites. After each EEG session, raw data are uploaded to the Wizard, which, among other things, converts this data to the BIDS standard data structure. The resulting BIDS data structure is:
+Data are converted to BIDS using EEG2BIDS Wizard, a custom MATLAB application developed for HBCD. Each study site has the EEG2BIDS Wizard installed at their study site and uses the program to upload raw EEG files and associated metadata after each EEG session. The EEG2BIDS Wizard performs QC checks, converts the data to BIDS formatting, and handles data transfer (see details in the section below). The resulting BIDS data structure is:
 ```
 assembly_bids/ 
 |__ participants.tsv
@@ -33,7 +33,7 @@ assembly_bids/
 ```
 ## Additional File Descriptions
 **Location of electrodes**    
-The EEG lead was placed on either the head (`acq-eeg`) or chest (`acq-ecg`). Location coordinates are specified in the `*_electrodes.tsv` file following cartesian coordinates specified by fields of the accompanying `*_coordsystem.json` file.
+Electrodes were placed on either the head (`acq-eeg`) or chest (`acq-ecg`). Location coordinates are specified in the `*_electrodes.tsv` file following cartesian coordinates specified by fields of the accompanying `*_coordsystem.json` file.
 
 **Task acquisitions**      
 EEG is acquired for each task (see [Data Measures & Quality Control > EEG](../measures/eeg/overview.md) for task descriptions) as indicated by the `task-<label>` BIDS entity
