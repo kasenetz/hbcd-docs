@@ -22,6 +22,7 @@ QC procedures for the HBCD Study EEG protocol are described in [Fox et al. (2024
 A common quality control issue that arose across tasks was irregular net application, resulting in misplaced EEG sensors across the scalp. In addition, the longest tasks (auditory mismatch negativity and faces) were commonly incomplete due to infant fussing. 
 
 Potential issues flagged by subject matter experts include the following changes between V03 and V04/6 stimuli: 
+
 - Video content of the video RS task. The video for Visit 3 is a compilation of clips taken from infant-friendly videos that display colorful toys and abstract images. The video for later visits contains alternating 30 second clips of construction scenes and marble runs.
 - Inter-stimulus interval (ISI) of the auditory mismatch negativity task. The ISI was changed between age visits to account for developmental differences in processing speed that impact the generation of an MMN [(Morr et al., 2002)](https://doi.org/10.1097/00003446-200204000-00005) for more information about the ISI change. 
 
