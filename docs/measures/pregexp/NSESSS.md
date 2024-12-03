@@ -13,51 +13,18 @@ Note that scores on these scales do not differentiate between symptoms of PTSD v
 <details>
 <summary>Implementation & Data Collection Details</summary>
 <ul>
-<br>
-<p><strong>Method of Administration</strong>: Self administered in person or remote <br />
-<strong>REDCap Form Names</strong>: DSD5 Severity Acute Stress or PTSD <br />
-<strong>Spanish Translation</strong>: Translated for HBCD by BURG <br />
-<strong>Child Specific/Unspecific Form</strong>: Child Unspecific <br />
-<strong>Respondant</strong>: Pregnant person/person who gave birth/primary caregiver <br />
-<strong>Visits</strong>: V01, V02, V03 <br />
-<strong>Estimated length of time for completion</strong>: 3 min</p>
+<li><b>Method of Administration</b>: Self administered in person or remote </li>
+<li><b>REDCap Form Names</b>: DSD5 Severity Acute Stress or PTSD </li>
+<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+<li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
+<li><b>Respondant</b>: Pregnant person/person who gave birth/primary caregiver </li>
+<li><b>Visits</b>: V01, V02, V03 </li>
+<li><b>Estimated length of time for completion</b>: 3 min</li>
+</ul>
 </details>
-<br>
 
 ## HBCD Modifications
 In future publications, authors should note that this measure is a combination of NSESSS-PTSD and NSESSS-Acute Stress Disorder as described above. The only additional modification was that we added ‘refuse to answer’, but not ‘don’t know,’ to the response options. Scoring has always allowed skips when done on paper, and the authors are not specific for how to deal with that.
 
 ## Quality Control & Known Issues 
 Response distributions were reviewed for outliers and no common issues were identified. No potential issues were flagged by subject matter experts.
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>REFERENCES</title>
-  <style>
-    .collapsible {
-      background-color: #7cceb399;
-      padding: 10px;
-      margin: 10px 0;
-      border-radius: 5px;
-    }
-    details {
-      background-color: #7cceb366;
-      padding: 10px;
-      margin: 10px 1;
-      border-radius: 5px;
-    }
-    summary {
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
-</html>

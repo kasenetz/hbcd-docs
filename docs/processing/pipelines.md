@@ -1,5 +1,7 @@
-# Processing Pipelines
-The following pipelines were used for HBCD data processing: for more details, visit the pipeline webpages linked below as well as the [Tool Details Overview](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html) section of the [HBCD Processing webpage](https://hbcd-cbrain-processing.readthedocs.io/latest/index.html).
+# Processing Pipelines & Documentation
+
+<p style="font-size: 1.2em; margin: 40px 0 0; font-weight: normal; padding-bottom: 5px; border-bottom: none;">
+<i>For full documentation on how each pipeline was used for HBCD processing, please visit the external <a href="https://hbcd-cbrain-processing.readthedocs.io/latest/">HBCD Processing</a> page</i>. The following pipelines were used for HBCD data processing:</p> 
 
 ### Magnetic Resonance Imaging (MRI)
 <ul style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
@@ -15,7 +17,7 @@ The following pipelines were used for HBCD data processing: for more details, vi
   </li>
   <li style="margin-bottom: 10px;">
     <a href="https://nibabies.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
-      infant-fMRIPrep/fMRIPrep
+      infant-fMRIPrep
     </a>: structural and functional MRI preprocessing pipeline
   </li>
   <li style="margin-bottom: 10px;">
@@ -33,7 +35,7 @@ The following pipelines were used for HBCD data processing: for more details, vi
   </li>
   <li style="margin-bottom: 10px;">
     <a href="https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
-      SyMRI
+      qMRI Postproc 
     </a>: minimal post-processing for SyMRI synthetic images derived from QALAS acquisition
   </li>
 </ul>
@@ -55,6 +57,6 @@ The following pipelines were used for HBCD data processing: for more details, vi
 ### Biosensor Data      
 <p style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
     <a href="https://hbcd-motion-postproc.readthedocs.io/en/latest/" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
-      AXIVITY
+      HBCD-Motion
     </a>: leg movement sensor data processing
 </p>
