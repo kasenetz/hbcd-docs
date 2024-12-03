@@ -33,4 +33,16 @@ window.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
+
+// auto-expand collapsible warning banner on external navigation
+window.addEventListener('DOMContentLoaded', () => {
+  const hash = window.location.hash;
+  if (hash === '#alert-banner') {
+    const banner = document.getElementById('alert-banner');
+    if (banner) {
+      toggleCollapse(banner);
+      banner.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+});
   

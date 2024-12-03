@@ -162,6 +162,14 @@ details.references summary.references {
   transform: rotate(90deg); /* Point downward */
 }
 
+
+
+
+
+
+
+
+
 /* Collapsible RDU Alert Banner */
 .alert-banner {
   display: flex;
@@ -183,4 +191,31 @@ details.references summary.references {
 .alert-banner .text {
   font-size: 1.2rem; /* Adjust text size */
   font-weight: bold; /* Emphasize warning text */
+}
+/* Collapsible content */
+.collapsible-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  background-color: #fff;
+  border: 1px solid #be074c;
+  border-top: none; /* Remove top border to connect with banner */
+  padding: 0 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+.collapsible-content.open {
+  max-height: none;
+}
+.arrow {
+  font-size: 1.8rem;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  transform-origin: center;
+  color: #333;
+}
+
+/* Rotate the arrow when expanded */
+.arrow.rotate {
+  transform: rotate(90deg); /* Point downward */
 }

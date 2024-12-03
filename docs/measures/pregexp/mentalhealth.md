@@ -1,6 +1,6 @@
 # Mental Health
 
-<div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
+<div id="alert-banner" class="alert-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji">&#9888;</span>
     <span class="text">Important Responsible Data Use and Analysis Considerations</span>
