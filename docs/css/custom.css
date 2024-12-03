@@ -168,8 +168,6 @@ details.references summary.references {
 
 
 
-
-
 /* Collapsible RDU Alert Banner */
 .alert-banner {
   display: flex;
@@ -192,6 +190,7 @@ details.references summary.references {
   font-size: 1.2rem; /* Adjust text size */
   font-weight: bold; /* Emphasize warning text */
 }
+
 /* Collapsible content */
 .collapsible-content {
   max-height: 0;

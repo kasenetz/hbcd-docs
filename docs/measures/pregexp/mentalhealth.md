@@ -7,20 +7,16 @@
   </span>
   <span class="arrow">&rsaquo;</span>
 </div>
-
 <div class="collapsible-content">
 <br>
 <p>When writing about mental health symptoms or diagnoses, it is important to use person-centered language. One exception to this is in the area of autism, where there is ongoing dialogue within the affected community about preferred language. It is important to take guidance from those with lived experiences and professional stakeholders when considering any language. Please see the following resources:</p> 
-
 <ul>
 General
 <li><a href="https://apastyle.apa.org/style-grammar-guidelines/bias-free-language/disability">APA style guidelines for writing about disability</a></li>
 </ul>
-
 <ul>
 Autism-specific
 <li><a href="https://autisticadvocacy.org/about-asan/identity-first-language/">“Identity-First Language” by Lydia Brown via the Autistic Self Advocacy Network</a></li>
-
 <li><a href="https://journals.sagepub.com/pb-assets/cmscontent/AUT/Autism-terminology-guidance-2021-1626860796.pdf">Terminology guidance from Autism: The International Journal of Research and Practice</a></li>
 </ul>
 

@@ -101,7 +101,7 @@ nav:
         - Pipeline Software Standards: processing/standards.md
   - CHANGE LOG: 
     - Pending & Upcoming Updates: changelog/pending.md
-    - Version History: 
+    - Version History:    
         - Beta Release 5/V1.4: changelog/versions/v1.4.md
         - Beta Release 4/V1.3: changelog/versions/v1.3.md
         - Beta Release 3/V1.2: changelog/versions/v1.2.md
