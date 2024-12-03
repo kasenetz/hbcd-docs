@@ -19,6 +19,8 @@ extra_javascript:
 
 extra_css:
   - css/custom.css
+  - css/banners.css
+  - css/headers.css
 
 plugins:
   - search

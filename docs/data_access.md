@@ -1,4 +1,21 @@
 # How To Access HBCD Data
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">NOTIFICATION: Potential Data Access Issues</span>
+  </span>
+  <span class="arrow">&rsaquo;</span>
+</div>
+
+<div class="notification-collapsible-content">
+<br>
+<p>Users may encounter issues with their DUC applications or renewals due to the Biden administration's expansion of Executive Order 13873 of May 15, 2019 (Securing the Information and Communications Technology and Services Supply Chain) and Executive Order 14034 of June 9, 2021 (Protecting Americans’ Sensitive Data from Foreign Adversaries) that, among other things, prohibits the sharing of Americans’ bulk personal data, including genomic data, in certain cases. The ABCD Study has reported issues for users from countries identified in the Executive Order (see <a href="https://wiki.abcdstudy.org/">ABCD Wiki 11.6.2024: Data Access Issues</a>).</p> 
+
+<p>See <a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2024/02/28/executive-order-on-preventing-access-to-americans-bulk-sensitive-personal-data-and-united-states-government-related-data-by-countries-of-concern/#:~:text=(c)%20The%20term%20%E2%80%9Ccountry,States%20or%20the%20security%20and">Executive Order on Preventing Access to Americans’ Bulk Sensitive Personal Data and United States Government-Related Data by Countries of Concern</a> for details.</p>
+</div>
+</p>
+
 Public access to release data is conducted through the [NIH Brain Development Cohort (NBCD) portal supported by Lasso](https://nbdc-hbcd-beta.lassoinformatics.com), enabling seamless data queries, downloads, and sharing. Once you have an account and have logged into the Lasso Informatics platform, please follow these steps to request access to the data.
 
 ## Submit Data Use Certification form
