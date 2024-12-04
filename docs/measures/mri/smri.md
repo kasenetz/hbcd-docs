@@ -1,9 +1,8 @@
 # Structural MRI (sMRI)
-*See [Overview](overview.md) for details on quality control and [MRI Protocols](../../mriprotocols/overview.md) for information on sequence installation.*
+*See [Overview](overview.md) for details on quality control and [MRI Protocols](../../mriprotocols/overview.md) for information on sequence installation. All structural MRI (sMRI) data were acquired during visits V02, V03, V04, and V06.*
    
 The target duration in the MRI protocol for the T1w and T2w structural scans was seven minutes total. Previous studies (e.g., ABCD and BCP) took more than 12 minutes. Scanners at all sites were able to achieve 0.8 mm isotropic resolution acquisitions with acceptable signal-to-noise ratio (SNR) using 32- or 64- channel coils. All sites were also able to support embedded navigators for prospective motion detection, real-time monitoring and real-time correction (White et al., 2010, Tisdall et al., 2016, Andersen et al., 2019). Constant structural protocols were maintained over the study duration. This approach was intended to better allow longitudinal effects to reflect developmental differences rather than protocol differences.
 The final HBCD structural imaging protocol is both significantly faster (under 9 minutes) and with higher-resolution (0.8 mm isotropic) than any previous multi-vendor and multi-site study. The protocol includes advanced acceleration methods and motion navigators for T1w and T2w protocols, enabling fast and robust structural imaging of the developing brain. 
-
 
 <details class="collapsible references">
   <summary class="references">References</summary>
