@@ -61,7 +61,7 @@ A full list of tools evaluated through the [NMIND Coding Standards Checklist](ht
 - [infant-fMRIPrep](https://www.nmind.org/proceedings/nibabies/) 
 - [XCP-D](https://www.nmind.org/proceedings/xcpd/)
 - [QSIPrep](https://www.nmind.org/proceedings/qsiprep/) 
-- QSIRecon
+- [QSIRecon](https://www.nmind.org/proceedings/qsirecon/)
 - qMRI Postproc
 - HBCD-MADE
 - [OSPREY-BIDS](https://www.nmind.org/proceedings/osprey_bids/)

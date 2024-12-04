@@ -5,7 +5,7 @@ Whole-brain functional activity as measured by functional magnetic resonance ima
 
 During processing, these data are registered to an age-specific MNI volumetric atlas as well as fs_LR32k surface space. These volumetric and surface-based time series will be made available for each subject as well as specific derivatives including parcellated time series (using a variety of surface parcellations) and functional connectivity values among parcels and vertices/voxels. Time series of framewise displacement (FD) will also be made available for each participant as well as average FD (after censoring frames with FD>0.3).
 
-### Quality Control & Known Issues
+## Quality Control & Known Issues
 QC procedures during data acquisition involve measuring framewise displacement (FD) in real time with FIRMM and 7.5-minute data runs are collected until there are at least 7.5 minutes of low-motion (FD<0.3) data. fMRI data are sent to the HBCD Data Coordinating Center (HDCC) where automated QC includes assessing fMRI protocol fidelity and manual QC on a subset of images identifies common artifacts. During fMRI processing, only individual runs with at least 2.5 minutes of low-motion data (FD<0.3) are included in computed derivatives.
 
 Regarding common issues noted during QC, signal dropout is noted in posterior occipital cortex, consistent with prior infant fMRI using posterior-anterior (PA) acquisitions. High motion is also noted in a subset of subjects. Subject matter experts did not identify any additional potential issues.
