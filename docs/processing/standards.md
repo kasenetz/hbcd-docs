@@ -54,6 +54,8 @@ To ensure data processing and analytic reproducibility, all HBCD pipelines must 
 
 ## Current HBCD Pipeline Evaluations
 
+A full list of tools evaluated through the [NMIND Coding Standards Checklist](https://www.nmind.org/standards-checklist/) can be found on their webpage under [Evaluated Tools](https://www.nmind.org/proceedings/). Below are the badge rating details for pipelines integrated into the HBCD release environment:
+
 - [MRIQC](https://www.nmind.org/proceedings/mriqc/)
 - BIBSNet
 - [infant-fMRIPrep](https://www.nmind.org/proceedings/nibabies/) 
