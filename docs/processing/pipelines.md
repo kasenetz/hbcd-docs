@@ -50,7 +50,7 @@
 ### Magnetic Resonance Spectroscopy (MRS)       
 <p style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
     <a href="https://osprey-bids.readthedocs.io/en/latest/index.html" style="color: #2a7ae2; text-decoration: none; font-weight: bold;">
-      OSPREY
+      OSPREY-BIDS
     </a>: MRS data processing pipeline
 </p>
 

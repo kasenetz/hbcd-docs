@@ -1,7 +1,7 @@
 # Processing and Analytic Software Standards
-HBCD pipeline developers, Workgroups, and community contributors who wish to integrate their tools into the HBCD release environment are expected to follow these guidelines to ensure standardization of HBCD software and documentation. These guidelines are rooted in principles and utilities developed by [NMIND](https://www.nmind.org/about) aimed at promoting reproducibility and standardization in neuroimaging tools ([Kiar et. al 2023](https://www.nature.com/articles/s41562-023-01647-0)). Among these is the [NMIND Coding Standards Checklist](https://www.nmind.org/standards-checklist/), a comprehensive framework for evaluating the quality of a tool's documentation, infrastructure, and testing capabilities. Badge ratings for all tools that complete this review process can be viewed at [Evaluated Tools](https://www.nmind.org/proceedings/). 
+HBCD pipeline developers, Workgroups, and community contributors who wish to integrate their tools into the HBCD release environment are expected to follow these guidelines to ensure standardization of HBCD software and documentation. These guidelines are rooted in principles and utilities developed by [NMIND](https://www.nmind.org/about) aimed at promoting reproducibility and standardization in neuroimaging tools ([Kiar et. al 2023](https://www.nature.com/articles/s41562-023-01647-0)). Among these is the [NMIND Coding Standards Checklist](https://www.nmind.org/standards-checklist/), a comprehensive framework for evaluating the quality of a tool's documentation, infrastructure, and testing capabilities against open, community-developed, scientific software-development standards. Badge ratings for all tools that complete this review process can be viewed at [Evaluated Tools](https://www.nmind.org/proceedings/). 
 
-Software utiltized for the HBCD release must undergo NMIND peer review and be published with a DOI. To initiate editorial review, developers complete the checklist and submit a pull request to the [proceedings repository](https://github.com/nmind/proceedings), including the tool's exported JSON file for external review. Any issues or feature requests related to this utility should be reported as issues in the NMIND [GitHub repository](https://github.com/nmind/standards-checklist). 
+Software utilized for the HBCD release must undergo NMIND peer review and be published with a DOI. To initiate editorial review, developers complete the checklist and submit a pull request to the [proceedings repository](https://github.com/nmind/proceedings), including the tool's exported JSON file for external review. Any issues or feature requests related to this utility should be reported as issues in the NMIND [GitHub repository](https://github.com/nmind/standards-checklist). 
 
 At a minimum, tools must meet the standards equivalent to the Bronze badge in the rating system. Developers may bypass checklist items that are not applicable—for example, listing software dependencies is less critical since all HBCD software must be containerized.
 
@@ -51,3 +51,16 @@ To ensure data processing and analytic reproducibility, all HBCD pipelines must 
 <input type="checkbox"> Provide instructions for users to run tests and evaluate for correct behavior
 
 <i>**Standards for testing may not be applicable for all HBCD processing pipelines. For example, depending on how specialized a given application is for HBCD, openly sharing representative test data for the workflow may not be feasible.</i>
+
+## Current HBCD Pipeline Evaluations
+
+- [MRIQC](https://www.nmind.org/proceedings/mriqc/)
+- BIBSNet
+- [infant-fMRIPrep](https://www.nmind.org/proceedings/nibabies/) 
+- [XCP-D](https://www.nmind.org/proceedings/xcpd/)
+- [QSIPrep](https://www.nmind.org/proceedings/qsiprep/) 
+- QSIRecon
+- qMRI Postproc
+- HBCD-MADE
+- [OSPREY-BIDS](https://www.nmind.org/proceedings/osprey_bids/)
+- HBCD-Motion
