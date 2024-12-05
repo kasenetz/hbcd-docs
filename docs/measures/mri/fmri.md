@@ -1,9 +1,14 @@
 # Functional MRI (fMRI)
 *See [Overview](overview.md) for details on quality control and [MRI Protocols](../../mriprotocols/overview.md) for information on sequence installation. All functional MRI (fMRI) data were acquired during visits V02, V03, V04, and V06.*     
 
-Whole-brain functional activity as measured by functional magnetic resonance imaging (fMRI). The blood oxygen level dependent (BOLD) signal is measured at each voxel in 2mm isotropic space with a repetition time (TR) of 1725 ms and multi-band (MB) factor of 4. Resting state fMRI data are collected during sleep (for infants <30 months old) in 7.5 minute runs. Two runs are collected, with more runs collected as needed to get a minimum of 7.5 minutes of low-motion (framewise displacement, FD <0.3) data added across all runs. Additional details are available at [Dean et al. 2024](https://doi.org/10.1016/j.dcn.2024.101452). 
+Whole-brain functional activity as measured by functional magnetic resonance imaging (fMRI). The blood oxygen level dependent (BOLD) signal is measured at each voxel in 2mm isotropic space with a repetition time (TR) of 1725 ms and multi-band (MB) factor of 4. A minimum of two resting state (rs) fMRI runs are acquired during sleep (for infants <30 months old) lasting 7.5 minutes each (**Figure 1A**). FIRMM software is used to monitor motion in real time and additional runs are acquired as needed to obtain a minimum of 7.5 minutes of low-motion (framewise displacement, FD <0.3) data added across all runs (**Figure 1B**). Each rsfMRI run is additionally preceded by acquisition of single shot spin-echo (SE) EPI images with same and reversed polarity phase encoding gradients with which to perform distortion correction (**Figure 1C**). Additional details are available at [Dean et al. 2024](https://doi.org/10.1016/j.dcn.2024.101452). 
 
-![](Deanetal2024_fMRI.jpg)
+<div style="text-align: center;">
+  <p style="font-size: 1.1em; margin-bottom: 0px;"><strong>Figure 1.</strong> HBCD fMRI Acquisition Protocol (<i>Courtesy of <a href="https://doi.org/10.1016/j.dcn.2024.101452">Dean et al. 2024</a></i>)</p>
+  <img src="Deanetal2024_fMRI.jpg" width="83%" height="auto">
+</div>
+
+<br>
 
 During processing, these data are registered to an age-specific MNI volumetric atlas as well as fs_LR32k surface space. These volumetric and surface-based time series will be made available for each subject as well as specific derivatives including parcellated time series (using a variety of surface parcellations) and functional connectivity values among parcels and vertices/voxels. Time series of framewise displacement (FD) will also be made available for each participant as well as average FD (after censoring frames with FD>0.3).
 
