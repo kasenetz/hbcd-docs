@@ -26,6 +26,11 @@ extra_css:
 plugins:
   - search
   - git-authors
+  - git-revision-date-localized:
+        type: datetime
+        locale: en
+        fallback_to_build_date: false  # Use build date if Git history isn't available
+        enable_creation_date: true  # Optional to display the creation date
 #   - macros:
 #       module_name: macros  
 
