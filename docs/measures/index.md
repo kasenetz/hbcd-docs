@@ -4,62 +4,9 @@ In this section we provide a brief overview of each data measure provided in the
 
 For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). The visits and corresponding ages of the infant/child are listed below:
 
-<table>
-	<thead>
-		<tr>
-			<th style="width: 100px"><strong>Visit</strong></th>
-			<th style="width: 100px"><strong>Code</strong></th>
-			<th style="width: 100px"><strong>Infant/Child Age</strong></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Visit 1</td>
-			<td>V01</td>
-			<td>Prenatal</td>
-		</tr>
-		<tr>
-			<td>Visit 2</td>
-			<td>V02</td>
-			<td>0-1 months</td>
-		</tr>
-		<tr>
-			<td>Visit 3</td>
-			<td>V03</td>
-			<td>3-9 months</td>
-		</tr>
-		<tr>
-			<td>Visit 4</td>
-			<td>V04</td>
-			<td>9-15 months</td>
-		</tr>
-		<tr>
-			<td>Visit 5</td>
-			<td>V05</td>
-			<td>10-17 months</td>
-		</tr>
-		<tr>
-			<td>Visit 6</td>
-			<td>V06</td>
-			<td>15-30 months</td>
-		</tr>
-		<tr>
-			<td>Visit 7</td>
-			<td>V07</td>
-			<td>16-31 months</td>
-		</tr>
-		<tr>
-			<td>Visit 8</td>
-			<td>V08</td>
-			<td>31-45 months</td>
-		</tr>
-		<tr>
-			<td>Visit 9</td>
-			<td>V09</td>
-			<td>32-46 months</td>
-		</tr>
-	</tbody>
-</table>
+***Visit procedures are under development. Procedures for Visit 4 and beyond are accurate as of March 2024 and may change during piloting. Figure provided courtesy of [Dean et al. 2024](https://doi.org/10.1016/j.dcn.2024.101452).***
+
+![](Deanetal2024_visits.png)
 
 ## HBCD Workgroups and Associated Data Measures
 
