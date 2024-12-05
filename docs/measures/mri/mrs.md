@@ -11,9 +11,9 @@ The MRS acquisition protocol was optimized to maximize signal-to-noise across mu
 
 Additional metabolites measured include NAA, lactate, ascorbate, creatine, myo-inositol, glutamine, and total choline (Oeltzschner et al., 2019).
 
-One barrier to the incorporation of MRS into human connectome studies is technical barriers to properly controlling for scanner drift. Because MRS relies on the frequency of the measured signals, uncorrected frequency drift during data acquisition is very detrimental to data quality, as it changes the contribution of coedited signals as well as editing efficiency (Harris et al., 2014). To mitigate drift, an innovative approach was taken to incorporate interleaved water referencing (Edden et al., 2016) for real-time frequency correction.
+One barrier to the incorporation of MRS into human connectome studies is proper control for scanner drift. Because MRS relies on the frequency of the measured signals, uncorrected frequency drift during data acquisition is very detrimental to data quality, as it changes the contribution of coedited signals as well as editing efficiency (Harris et al., 2014). To mitigate drift, an innovative approach was taken to incorporate interleaved water referencing (Edden et al., 2016) for real-time frequency correction.
 
-The protocol was further optimized for robust measurement in pediatric populations. For instance, to reduce the impact of participant motion, a short block of 32 transients (TE = 35 ms) without spectral editing was acquired ahead of the main spectral editing block (224 transients, TE = 80 ms). This mitigated the effects of T2 relaxation on metabolite concentration measures (Traber et al., 2004), ensuring sufficient measures of high-concentration metabolites even if infants awoke in the middle of acquisition.
+The protocol was further optimized for robust measurement in pediatric populations. To reduce the impact of participant motion, a short block of 32 transients (TE = 35 ms) without spectral editing was acquired ahead of the main spectral editing block (224 transients, TE = 80 ms). This reduces the impact of T2 relaxation on metabolite concentration measures (Traber et al., 2004), ensuring sufficient measures of high-concentration metabolites even if infants awoke in the middle of acquisition.
 
 ## Quality Control & Known Issues
 
