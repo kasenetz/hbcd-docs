@@ -1,7 +1,13 @@
-# Overview: HBCD Raw MRI Data QC
+# Overview
+
+Image acquisition protocols for HBCD include structural (sMRI), functional (fMRI), diffusion (dMRI), and quantitative MRI as well as magnetic resonance spectroscopy (MRS). All data were acquired during visits V02, V03, V04, and V06. All HBCD protocols were carefully designed as part of a comprehensive pediatric neuroimaging protocol, with special considerations made such as optimizations for pediatric imaging and harmonization across three major scanning vendors. Each section provides a summary of the HBCD protocol design and sequences acquired (please see [Dean et al., 2024](https://doi.org/10.1016/j.dcn.2024.101452) for a more comprehensive and detailed description).
+
+Please navigate to [MRI Protocols](../../mriprotocols/overview.md) for information on sequence installation. 
+
+## HBCD Raw MRI Data QC
 Quality control (QC) procedures involve automated and manual methods to evaluate unprocessed or minimally processed MRI data for issues such as incorrect acquisition parameters, imaging artifacts, or corrupted files. The purpose of raw data QC is to identify and exclude data with significant artifacts, preventing their inclusion in subsequent image processing and the final data pool. As such, quality control metrics are utilized during the conversion process to the Brain Imaging Data Structure (BIDS) standard to exclude problematic scans to ensure proper data curation in preparation for image preprocessing as described [here](../../datacuration/bids.md#data-curation-exclusion-criteria).
 
-## Automated QC
+### Automated QC
 An initial automated protocol compliance check is conducted by extracting information from DICOM headers to identify common issues and protocol deviations, such as missing files or incorrect patient orientation. Protocol compliance criteria include whether key imaging parameters, such as voxel size or repetition time, match the expected values for a given scanner. Out-of-compliance series are reviewed and sites are contacted if corrective action is required. For dMRI and fMRI series, the presence or absence of corresponding echo-planar imaging (EPI) sequences (often referred to as a “field map” or “B0 map”) used for distortion correction is checked. 
 
 In addition to protocol adherence, each imaging series is also automatically checked for completeness to confirm that the number of files matches what was expected for each series on each scanner. Missing files are typically indicative of either an aborted scan or incomplete data transfer, the latter of which can usually be resolved through re-initiating the data transfer. Errors in the unpacking and processing of the imaging data at various stages are tracked, allowing for an assessment of the number of failures at each stage and prioritization of efforts to resolve problems and prevent future errors.
@@ -40,7 +46,7 @@ Automated QC metrics such as signal-to-noise ratio (SNR) and head motion statist
 
 For dMRI series, head motion is estimated by registering each frame to a corresponding image synthesized from a tensor fit, accounting for variation in image contrast across diffusion orientations (Hagler et al. 2009). Dark slices, artifacts caused by abrupt head movements, are identified as outliers based on the root mean squared (RMS) difference between the original data and the tensor-fitted data. The total number of slices and frames affected by these motion artifacts are calculated for each dMRI series.
 
-## Manual Review
+### Manual Review
 Based on the automated metrics above, a subset of series are selected for manual review using multivariate prediction and Bayesian classifiers. Trained technicians use in-house software for standardized and efficient QC. For each subject, the technician inspects a display of multi-view and multi-slice image montages and enter scores. Each subject will also prompt for notes at the end of the review, before confirming, repeating, or skipping the subject, further reducing room for human error. 
 
 During review, data quality is scored according to the severity of specific artifacts, rated on a scale of 0 to 3, where 0 indicates no artifact, 1 indicates mild, 2 moderate, and 3 severe. Structural scans include review of T1w, T2w, and qMRI as well as additional scan types including B1 field maps, used for bias field correction of qMRI scans, and SVS localizer scans used to define the ROI for MRS (spectroscopy) scans. Reviewers rate scans for **motion artifacts** (e.g. ripples, blurring) and document other issues such as **intensity inhomogeneity** or **ghosting** (when the slice location is outside the FOV, creating a fainter displaced copy of the head, brain, or eyes).

@@ -1,5 +1,4 @@
 # Magnetic Resonance Spectroscopy (MRS)
-*See [Overview](overview.md) for details on quality control and [MRI Protocols](../../mriprotocols/overview.md) for information on sequence installation. A full description of MRS protocol design for the HBCD Study, summarized below, is described in [Dean et al., 2024](https://doi.org/10.1016/j.dcn.2024.101452).*
 
 Magnetic Resonance Spectroscopy (MRS) provides measures of molecules involved in neuronal metabolism, neurotransmission, and oxidative stress. These measures enable researchers to interrogate biochemical mechanisms underlying the structural, functional, and behavioral trajectories. HBCD is the first study of this magnitude to include MRS in a comprehensive pediatric neuroimaging protocol through the development of Integrated Short-TE and Hadamard Multi-Sequence, or ISTHMUS (Hui et al., 2024).
 

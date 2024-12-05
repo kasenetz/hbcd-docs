@@ -1,5 +1,4 @@
 # Diffusion MRI (dMRI)
-*See [Overview](overview.md) for details on quality control and [MRI Protocols](../../mriprotocols/overview.md) for information on sequence installation. All diffusion MRI (dMRI) data were acquired during visits V02, V03, V04, and V06.*
 
 ## Diffusion-Weighted Imaging (DWI)
 DWI refers to the raw image data acquired during scanning. The DWI protocol provides diffusion-weighted images that may be used to estimate multiple models of diffusion behavior in the central nervous system. The protocol acquires roughly 140 diffusion-weighted echo planar images at four b-values (diffusion-weighting) between 0 and 3000 s/mm^2 (12-13 minutes total acquisition time). The diffusion-weighted images are processed with denoising and Gibbs artifact reduction, and corrected for eddy current distortion, head motion and echo planar susceptibility distortion (Cieslak et al. 2021). The diffusion encoding enables the estimation of multiple diffusion MRI models including diffusion tensor imaging (DTI) (Basser et al. 1994), diffusion kurtosis imaging (DKI) (Wu et al. 2010), and mean apparent propagator (MAP) (Özarslan et al. 2013).

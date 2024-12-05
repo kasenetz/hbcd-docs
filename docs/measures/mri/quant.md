@@ -1,5 +1,4 @@
 # Quantitative MRI (qMRI)
-*See [Overview](overview.md) for details on quality control and [MRI Protocols](../../mriprotocols/overview.md) for information on sequence installation. All quantitative MRI (qMRI) sequences described below were acquired during visits V02, V03, V04, and V06.*
 
 ## MRI Acquisitions
 ### QALAS
