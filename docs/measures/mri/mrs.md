@@ -14,8 +14,6 @@ One barrier to the incorporation of MRS into human connectome studies is proper 
 
 The protocol was further optimized for robust measurement in pediatric populations. To reduce the impact of participant motion, a short block of 32 transients (TE = 35 ms) without spectral editing was acquired ahead of the main spectral editing block (224 transients, TE = 80 ms). This reduces the impact of T2 relaxation on metabolite concentration measures (Traber et al., 2004), ensuring sufficient measures of high-concentration metabolites even if infants awoke in the middle of acquisition.
 
-## Quality Control & Known Issues
-
 <details class="collapsible references">
   <summary class="references">References</summary>
 <li><p>Bottomley, P. A. (1987). Spatial localization in NMR spectroscopy in vivo. <em>Annals of the New York Academy of Sciences</em>, 508(1), 333–348. <a href="https://doi.org/10.1111/j.1749-6632.1987.tb32915.x">https://doi.org/10.1111/j.1749-6632.1987.tb32915.x</a></p></li>
