@@ -1,5 +1,5 @@
 # Urine
-**Full Name**: Urine        
+**Full Name**: URINE		        
 **Construct**: Toxicology screen, urine     
 **Description**: Results of toxicology assays in urine collected at V1
 
@@ -76,14 +76,21 @@ Based on the predefined thresholds outlined in **Table 1**, a confirmatory test 
 		<td>3</td>
 		<td>7.5</td>
 		<td>15</td>
-		<td>No consensus*</td>
+		<td>No consensus</td>
 	</tr>
 	<tr>
 		<td>Carboxy-cannabidiol</td>
 		<td>10</td>
 		<td>25</td>
 		<td>50</td>
-		<td>No consensus*</td>
+		<td>No consensus</td>
+	</tr>
+		<tr>
+		<td>Cotinine*</td>
+		<td>34</td>
+		<td>34</td>
+		<td>500</td>
+		<td>Up to 7 days</td>
 	</tr>
 	<tr>
 		<td>Benzoylecgonine</td>
@@ -415,6 +422,7 @@ Based on the predefined thresholds outlined in **Table 1**, a confirmatory test 
 	</tr>
 </tbody>
 </table>
+<i>*Based on DRI® Cotinine assay for the qualitative and semiquantitative determination of Cotinine</i><br>
 <i>LOD: limit of detection; LOQ: limit of quantification: Cutoff concentration used to categorize metabolite as positive/negative</i>
 </details>
 

@@ -1,5 +1,5 @@
 # Nails
-**Full Name**: Nails       
+**Full Name**: NAILS		       
 **Construct**: Toxicology screen, fingernails and toenails     
 **Description**: Results of toxicology assays in nails collected at V1 and V2
 
