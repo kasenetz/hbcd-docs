@@ -14,6 +14,8 @@ DTI maps, including **fractional anisotropy (FA)** and **mean diffusivity (MD)**
 DKI maps, including mean kurtois (MK) and radial kurtosis (RK), provide commonly used measures that expand the DTI signal model to estimate non-Gaussian diffusion kurtosis behavior in the brain. DKI maps may be used to better represent more complex diffusion-weighted signals phenomena that may be associated with more restricted diffusion. The mean kurtosis (MK) is the directionally averaged kurtosis measure, which is increased in regions of dense white matter. The radial kurtosis (RK) is the kurtosis associated with the diffusion signal perpendicular to the white matter axons.  
 
 ### Mean Apparent Propagator (MAP) Maps
+
+
 zero displacement probablility
 
 <details class="collapsible references">

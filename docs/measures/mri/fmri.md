@@ -13,7 +13,9 @@ Each rsfMRI run is additionally preceded by acquisition of single shot spin-echo
 
 <br>
 
-During processing, these data are registered to an age-specific MNI volumetric atlas as well as fs_LR32k surface space. These volumetric and surface-based time series will be made available for each subject as well as specific derivatives including parcellated time series (using a variety of surface parcellations) and functional connectivity values among parcels and vertices/voxels. Time series with at least 2.5 minutes of low-motion data (after censoring frames with FD>0.3) will also be made available for each participant as well as average FD. 
+Functional MRI data is processed through [infant-fMRIPrep](https://nibabies.readthedocs.io/en/latest/) and subsequently [XCP-D](https://xcp-d.readthedocs.io/en/latest/usage.html) as described in detail on the [HBCD Processing webpage](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html#tool-names). In brief, infant-fMRIPrep produces minimally pre-processed outputs including confound files (with motion parameters, average signals for ROIs like CSF, etc.) and motion-corrected data in age-specific MNI volumetric atlas as well as fs_LR32k surface space. From these outputs, the XCP-D pipeline runs nuisance regression/denoising, parcellates the fMRI data, and computes summary measures.
+
+Volumetric and surface-based time series will be made available for each subject. The data release also includes dense and parcellated time series with at least 2.5 minutes of low-motion data (FD>0.3), functional connectivity matrices, regional homogeneity values, and amplitude of low-frequency fluctuation values. All parcellated derivatives are generated from a variety of parcellation schemes. 
 
 <details class="collapsible references">
   <summary class="references">References</summary>

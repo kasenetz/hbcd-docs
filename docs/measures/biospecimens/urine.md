@@ -492,14 +492,14 @@ Based on the predefined thresholds outlined in **Table 1**, a confirmatory test 
 </details>
 
 <details>
-  <summary>Table 3. Mapping From Class to Screening Tests and Confirmatory Tests for Urine Assays</summary>
+  <summary>Table 3. Mapping From Class to Screening Tests and Confirmatory Tests</summary>
   <table class="docutils" style="width: 100%;">
   <br>
     <thead>
       <tr>
         <th>Class</th>
         <th>Screening Test</th>
-        <th>Confirmatory Test (reflexes from positive screening)</th>
+        <th>Confirmatory Test (positive screen reflex)</th>
       </tr>
     </thead>
     <tbody>
