@@ -21,15 +21,13 @@ assembly_bids/
 |       |   |__ <instrument_name>.tsv (repeat for all selected instruments)
 |       |   |__ <instrument_name>.json (repeat for all selected instruments)
 ```
+Each instrument (`phenotype/<instrument_name>*`) has a `.tsv` Data Table containing all instrument values for the participants and a `.json` Data Dictionary describing all instrument fields (except those in the exclusion lists provided below).
 
-Below is additional information on the files and file contents provided for each phenotype:
-
+Information provided by the other files include:
 <p>
 <details>
 <summary>Demographics files (<i>phenotype/sed_basic_demographics</i>)</summary>
 <ul>
-<br>
-These files contain demographics information including:
     <li>Gestational age at birth</li>
     <li>Sex</li>
     <li>Recruitment site</li>
@@ -49,8 +47,6 @@ These files contain demographics information including:
 <details>
 <summary>Biosample Urine Result files (<i>phenotype/biosample_urine</i>)</summary>
 <ul>
-<br>
-<i>Regarding biosample urine result files:</i>
     <li>USDTL Urine results produced by BAH (Booz-Allen Hamilton)</li>
     <li>Includes DCCID, Visit Label, Scannable code, and other BioSpecimen result fields</li>
     <li>‘bio’ domain prepended for all protocol elements</li>
@@ -61,8 +57,6 @@ These files contain demographics information including:
 <details>
 <summary>Visit data files (<i>phenotype/visit_data</i>)</summary>
 <ul>
-<br>
-<i>These files contain participant visit data including:</i>
     <li>Project</li>
     <li>Cohort</li>
     <li>Site</li>
@@ -74,21 +68,16 @@ These files contain demographics information including:
             <li>If the visit was missed and the reason</li>
          </ul>
     <li>Participant Withdrawal Information: If the participant withdrew from the study, the reason, and date</li>
-    <li>Participant Protocol Exception Information: If there was a protocol exception, the type, and the date</li>
+    <li>Protocol violation: If there was a protocol exception and the date</li>
+    <li>All Substance Use (SU) flags from three locations:
+        <ul>
+        <li>TimeLine Follow Back (TLFB) instrument flags</li>
+        <li>Health V2 flags</li>
+        <li>Biosample urine flags.</li>
+        </ul>
 </ul>
 </details>
 </p>
-
-<details>
-<summary>Instrument data files (<i>phenotype/instrument_name</i>)</summary>
-<ul>
-<br>
-<i>The following files are provided for each instrument:</i>
-    <li><i><instrument_name>.tsv</i>: Data Table containing all instrument values for the participants</li>
-    <li><i><instrument_name>.json</i>: Data Dictionary describing all instrument fields except those in the exclusion lists provided below</li>
-</ul>
-</details><br>
-
 
 ## Excluded Elements & General Rules
 Below is a list of static elements (i.e. precisely identified hard-coded elements such as participants, instruments, and instrument fields) and dynamic elements excluded during the data release process as well as general rules applied to all data:
@@ -140,7 +129,7 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
     <li>Urgent Events ('adm_fd_urgent')</li>
     <li>Transitions in Care Questionnaire ('sed_cg_tic')</li>
 
-<br><b>Excluded Instrument Fields:</b>:
+<br><b>Excluded Instrument Fields:</b>
     <li>Examiner ('Examiner’)  </li>
     <li>Date of Birth (‘DOB’)  </li>
     <li>Informant (‘informant’)  </li>
