@@ -1,14 +1,41 @@
 # Overview
 
-Image acquisition protocols for HBCD include structural (sMRI), functional (fMRI), diffusion (dMRI), and quantitative MRI as well as magnetic resonance spectroscopy (MRS). All data were acquired during visits V02, V03, V04, and V06. All HBCD protocols were carefully designed as part of a comprehensive pediatric neuroimaging protocol, with special considerations made such as optimizations for pediatric imaging and harmonization across three major scanning vendors. Each section provides a summary of the HBCD protocol design and sequences acquired (please see [Dean et al., 2024](https://doi.org/10.1016/j.dcn.2024.101452) for a more comprehensive and detailed description).
+## HBCD MRI
+HBCD includes a suite of **magnetic resonance imaging (MRI)** and **spectroscopy (MRS)** data measures acquired as part of a comprehensive pediatric neuroimaging protocol, meticulously designed to overcome technical challenges of imaging early in life. All data were acquired during visits V02, V03, V04, and V06 across all 27 Study recruitment sites. The following sections provide a summary of each measure (please see [Dean et al., 2024](https://doi.org/10.1016/j.dcn.2024.101452) for full details).
+<ul>
+<p id="mr-modalities" style="font-size: 1.1em; margin-bottom: 0px"><strong>MR Modalities:</strong></p>
+<li><a href="../smri">Structural MRI (sMRI)</a></li>
+<li><a href="../fmri">Functional MRI (fMRI)</a></li>
+<li><a href="../dmri">Diffusion MRI (dMRI)</a></li>
+<li><a href="../qmri">Quantitative MRI (qMRI)</a></li>
+<li><a href="../mrs">Magnetic Resonance Spectroscopy (MRS)</a></li>
+</ul>
 
-Please navigate to [MRI Protocols](../../mriprotocols/overview.md) for information on sequence installation. 
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">See <a href="../../mriprotocols/overview">MRI Protocols</a> for information on sequence installation</span>
+  </span>
+</div>
+</p>
+<br>
 
 ## HBCD Raw MRI Data QC
 Quality control (QC) procedures involve automated and manual methods to evaluate unprocessed or minimally processed MRI data for issues such as incorrect acquisition parameters, imaging artifacts, or corrupted files. The purpose of raw data QC is to identify and exclude data with significant artifacts, preventing their inclusion in subsequent image processing and the final data pool. As such, quality control metrics are utilized during the conversion process to the Brain Imaging Data Structure (BIDS) standard to exclude problematic scans to ensure proper data curation in preparation for image preprocessing as described [here](../../datacuration/bids.md#data-curation-exclusion-criteria).
 
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">See <a href="#mr-modalities">MR Modalities</a> sections for details on QC performed during acquisition</span>
+  </span>
+</div>
+</p>
+
 ### Automated QC
-An initial automated protocol compliance check is conducted by extracting information from DICOM headers to identify common issues and protocol deviations, such as missing files or incorrect patient orientation. Protocol compliance criteria include whether key imaging parameters, such as voxel size or repetition time, match the expected values for a given scanner. Out-of-compliance series are reviewed and sites are contacted if corrective action is required. For dMRI and fMRI series, the presence or absence of corresponding echo-planar imaging (EPI) sequences (often referred to as a “field map” or “B0 map”) used for distortion correction is checked. 
+
+After acquisition, data are sent to the HBCD Data Coordinating Center (HDCC), where automated QC is performed. A protocol compliance check is conducted by extracting information from DICOM headers to identify common issues and protocol deviations, such as missing files or incorrect patient orientation. Protocol compliance criteria include whether key imaging parameters, such as voxel size or repetition time, match the expected values for a given scanner. Out-of-compliance series are reviewed and sites are contacted if corrective action is required. For dMRI and fMRI series, the presence or absence of corresponding echo-planar imaging (EPI) sequences (often referred to as a “field map” or “B0 map”) used for distortion correction is checked. 
 
 In addition to protocol adherence, each imaging series is also automatically checked for completeness to confirm that the number of files matches what was expected for each series on each scanner. Missing files are typically indicative of either an aborted scan or incomplete data transfer, the latter of which can usually be resolved through re-initiating the data transfer. Errors in the unpacking and processing of the imaging data at various stages are tracked, allowing for an assessment of the number of failures at each stage and prioritization of efforts to resolve problems and prevent future errors.
 
@@ -49,9 +76,20 @@ For dMRI series, head motion is estimated by registering each frame to a corresp
 ### Manual Review
 Based on the automated metrics above, a subset of series are selected for manual review using multivariate prediction and Bayesian classifiers. Trained technicians use in-house software for standardized and efficient QC. For each subject, the technician inspects a display of multi-view and multi-slice image montages and enter scores. Each subject will also prompt for notes at the end of the review, before confirming, repeating, or skipping the subject, further reducing room for human error. 
 
-During review, data quality is scored according to the severity of specific artifacts, rated on a scale of 0 to 3, where 0 indicates no artifact, 1 indicates mild, 2 moderate, and 3 severe. Structural scans include review of T1w, T2w, and qMRI as well as additional scan types including B1 field maps, used for bias field correction of qMRI scans, and SVS localizer scans used to define the ROI for MRS (spectroscopy) scans. Reviewers rate scans for **motion artifacts** (e.g. ripples, blurring) and document other issues such as **intensity inhomogeneity** or **ghosting** (when the slice location is outside the FOV, creating a fainter displaced copy of the head, brain, or eyes).
+During review, data quality is scored according to the severity of specific artifacts, rated on a scale of 0 to 3, where 0 indicates no artifact, 1 indicates mild, 2 moderate, and 3 severe. Structural scans include review of T1w, T2w, and qMRI as well as additional scan types including B1 field maps, used for bias field correction of qMRI scans, and SVS localizer scans used to define the ROI for MRS (spectroscopy). Reviewers rate scans for **motion artifacts** (e.g. ripples, blurring) and document other issues such as **intensity inhomogeneity** or **ghosting** (when the slice location is outside the FOV, creating a fainter displaced copy of the head, brain, or eyes). 
 
-For dMRI, fMRI, and field maps, scored artifacts include **susceptibility artifacts** (spatial and/or signal distortions including “drop-out” regions in the brain with greatly reduced or no signal, signal bunching, and/or warping), **FOV cutoff**, and **line artifacts** (horizontal lines present in the sagittal view, including dark slice-frame and interleaved sliced offset). A derived image of fractional anisotropy, visualized as a color-coded map that shows the directional preferences for diffusion, is additionally reviewed for DTI.
+For qMRI, QC additionally includes visual inspection parametric maps, region of interest analysis, and comparison of quantitative parametric values for 3D-QALAS. For QALAS, the 3rd and 4th acquired volume (depending on the age of the baby) should resemble the tissue contrast of a T1-weighted (MPRAGE) scan.
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">See <a href="../qmri#known-issues">qMRI section</a> for known issues relevant to QC</span>
+  </span>
+</div>
+</p>
+
+For dMRI, fMRI, and field maps, scored artifacts include **susceptibility artifacts**, **FOV cutoff**, and **line artifacts**. **Susceptibility artifacts** are spatial and/or signal distortions, including “drop-out” regions in the brain with greatly reduced or no signal, signal bunching, and/or warping. Consistent with prior infant fMRI using posterior-anterior (PA) acquisitions, signal dropout is commonly noted in the posterior occipital cortex. **Line artifacts** are horizontal lines present in the sagittal view, including dark slice-frame and interleaved sliced offset. A derived image of fractional anisotropy, visualized as a color-coded map that shows the directional preferences for diffusion, is additionally reviewed for DTI.
 
 Series with severe artifacts that compromise data usability are rejected (QC = 0) and excluded from subsequent processing and analysis. The post-processing team selects from remaining series based on manual ratings, notes, and automated scores (e.g., minimum of 60% diffusion encoding volumes without significant artifacts).
 
