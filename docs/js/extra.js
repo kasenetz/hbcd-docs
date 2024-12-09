@@ -22,21 +22,7 @@ function toggleCollapse(element) {
       arrow.classList.add('rotate');
   }};
 
-// Auto-expand collapsible banners on external navigation
-window.addEventListener('DOMContentLoaded', () => {
-  const hash = window.location.hash;
-  const bannerIds = ['warning-banner', 'alert-banner', 'notification-banner'];
-
-  if (bannerIds.includes(hash.substring(1))) {
-    const banner = document.getElementById(hash.substring(1));
-    if (banner) {
-      toggleCollapse(banner);
-      banner.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-});
-
-// Auto-expand collapsible warning, alert, and notification banners on page load
+// Auto-expand collapsible warning & alert banners on page load
 document.addEventListener("DOMContentLoaded", function () {
   const collapsibleContents = document.querySelectorAll('.collapsible-content');
   const arrowIcons = document.querySelectorAll('.arrow');
