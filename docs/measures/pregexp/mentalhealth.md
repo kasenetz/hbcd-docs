@@ -5,9 +5,9 @@
     <span class="emoji">&#9888;</span>
     <span class="text">Important Responsible Data Use and Analysis Considerations</span>
   </span>
-  <span class="arrow">&rsaquo;</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="alert-collapsible-content">
+<div class="collapsible-content">
 <br>
 <p>When writing about mental health symptoms or diagnoses, it is important to use person-centered language. One exception to this is in the area of autism, where there is ongoing dialogue within the affected community about preferred language. It is important to take guidance from those with lived experiences and professional stakeholders when considering any language. Please see the following resources:</p> 
 <ul>
