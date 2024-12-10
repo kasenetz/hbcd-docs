@@ -109,6 +109,7 @@ nav:
         - Pipeline Software Standards: processing/standards.md
   - CHANGE LOG: 
     - Pending & Upcoming Updates: changelog/pending.md
+    - Known Issues: changelog/knownissues.md
     - Version History:    
         - Beta Release 9: changelog/versions/BR9.md
         - Beta Release 8: changelog/versions/BR8.md
