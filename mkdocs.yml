@@ -28,7 +28,7 @@ plugins:
   - search
   - git-authors
   - git-revision-date-localized:
-      type: timeago
+      type: date
 
   # - git-revision-date-localized:
   #       type: datetime
