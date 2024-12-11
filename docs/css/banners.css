@@ -1,19 +1,29 @@
 /* General, non-collapsible banner specs */
 .banner {
-  display: flex;
-  align-items: center;
-  background-color: #24AE7066;
-  border: 1px solid #24AE70;
-  padding: 10px 20px;
+  background-color: #eaf9f0;
+  border: 1px solid #14b955;
+  padding: 4px 20px;
   border-radius: 5px;
   font-family: Arial, sans-serif;
+  color: #333333;
+  cursor: pointer; 
+  display: flex; /* Flex layout for the banner */
+  justify-content: flex-start; /* Ensures content aligns to the left */
+  align-items: flex-start; /* Aligns emoji with the first line of text */
+}
+.content {
+  display: flex; /* Flex layout for content */
+  align-items: center;
+  gap: 10px; /* Space between emoji and text */
 }
 .banner .emoji {
-  font-size: 1.5rem;
+  font-size: 1.5rem; 
   margin-right: 10px;
+  color: #14b955;
 }
 .banner .text {
   font-size: 1rem; 
+  font-weight: bold;
 }
 
 /* General Collapsible Banner Settings */
@@ -93,6 +103,9 @@
 
 /* Green Collapsible Notification Banner */
 .notification-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #eaf9f0;
   border: 1px solid #14b955;
   padding: 4px 20px;
@@ -100,13 +113,6 @@
   font-family: Arial, sans-serif;
   color: #333333;
   cursor: pointer; 
-  display: flex; /* Flex layout for the banner */
-  justify-content: flex-start; /* Ensures content aligns to the left */
-  align-items: flex-start; /* Aligns emoji with the first line of text */
-}
-.notification-content {
-  display: flex; /* Flex layout for content */
-  gap: 10px; /* Space between emoji and text */
 }
 .notification-banner .emoji {
   font-size: 1.5rem; 

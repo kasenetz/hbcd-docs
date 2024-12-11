@@ -12,14 +12,13 @@ HBCD includes a suite of **magnetic resonance imaging (MRI)** and **spectroscopy
 </ul>
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="banner" class="banner">
   <span>
     <span class="emoji">&#x1f4a1;</span>
     <span class="text">See <a href="../../../mriprotocols/mriprotocols">MRI Protocols</a> for information on sequence installation</span>
   </span>
 </div>
 </p>
-<br>
 
 ## HBCD Raw MRI Data QC
 Quality control (QC) procedures involve automated and manual methods to evaluate unprocessed or minimally processed MRI data for issues such as incorrect acquisition parameters, imaging artifacts, or corrupted files. The purpose of raw data QC is to identify and exclude data with significant artifacts, preventing their inclusion in subsequent image processing and the final data pool. As such, quality control metrics are utilized during the conversion process to the Brain Imaging Data Structure (BIDS) standard to exclude problematic scans to ensure proper data curation in preparation for image preprocessing as described [here](../../datacuration/bids.md#data-curation-exclusion-criteria).

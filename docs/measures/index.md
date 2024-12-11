@@ -5,8 +5,8 @@ In this section we provide a brief overview of each data measure provided in the
 For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). The visits and corresponding ages of the infant/child are listed below.
 
 <p>
-<div id="notification-banner" class="notification-banner">
-  <span class="notification-content">
+<div id="banner" class="banner">
+  <span class="content">
     <span class="emoji">&#x1f4a1;</span>
     <span class="text">
       This release only includes V01 - V03; subsequent visit protocols are still under active development
@@ -16,7 +16,10 @@ For measures that include surveys, all surveys were translated to Spanish for HB
 </p>
 
 ![](Deanetal2024_visits.png)
-<small>Figure provided courtesy of <a href="https://doi.org/10.1016/j.dcn.2024.101452">Dean et al. 2024</small>
+<p style="text-align: right;"><small>
+<i>Figure provided courtesy of <a href="https://doi.org/10.1016/j.dcn.2024.101452">Dean et al. 2024</i>
+</small></p>
+
 
 ## HBCD Workgroups and Associated Data Measures
 
