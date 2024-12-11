@@ -2,11 +2,21 @@
 
 In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures and known issues, and references.
 
-For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). The visits and corresponding ages of the infant/child are listed below:
+For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). The visits and corresponding ages of the infant/child are listed below.
 
-***Visit procedures are under development. Procedures for Visit 4 and beyond are accurate as of March 2024 and may change during piloting. Figure provided courtesy of [Dean et al. 2024](https://doi.org/10.1016/j.dcn.2024.101452).***
+<p>
+<div id="notification-banner" class="notification-banner">
+  <span class="notification-content">
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">
+      This release only includes V01 - V03; subsequent visit protocols are still under active development
+    </span>
+  </span>
+</div>
+</p>
 
 ![](Deanetal2024_visits.png)
+<small>Figure provided courtesy of <a href="https://doi.org/10.1016/j.dcn.2024.101452">Dean et al. 2024</small>
 
 ## HBCD Workgroups and Associated Data Measures
 

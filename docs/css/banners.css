@@ -93,9 +93,6 @@
 
 /* Green Collapsible Notification Banner */
 .notification-banner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   background-color: #eaf9f0;
   border: 1px solid #14b955;
   padding: 4px 20px;
@@ -103,6 +100,13 @@
   font-family: Arial, sans-serif;
   color: #333333;
   cursor: pointer; 
+  display: flex; /* Flex layout for the banner */
+  justify-content: flex-start; /* Ensures content aligns to the left */
+  align-items: flex-start; /* Aligns emoji with the first line of text */
+}
+.notification-content {
+  display: flex; /* Flex layout for content */
+  gap: 10px; /* Space between emoji and text */
 }
 .notification-banner .emoji {
   font-size: 1.5rem; 
