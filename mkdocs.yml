@@ -22,10 +22,14 @@ extra_css:
   - css/custom.css
   - css/banners.css
   - css/headers.css
+  - overrides/styles.css
 
 plugins:
   - search
   - git-authors
+  - git-revision-date-localized:
+      type: timeago
+
   # - git-revision-date-localized:
   #       type: datetime
   #       locale: en
