@@ -26,10 +26,8 @@ Before importing the HBCD protocol, please ensure you have received and installe
 
 
 ## GE Protocol v2.2
-Request sequences from your local GE scientist. 
-Download the latest protocol from https://bit.ly/HBCD_GE.
-Read and follow the release notes carefully!
+Request sequences from your local GE scientist. The latest protocol can be downloaded from [https://bit.ly/HBCD_GE](https://bit.ly/HBCD_GE). Read and follow the release notes carefully!
 
 ## Philips Protocol
-Contact your local Philips scientist for the sequences and protocol.  
+Contact your local Philips scientist for Philips sequences and protocol.  
 
