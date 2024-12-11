@@ -94,11 +94,7 @@ nav:
             - Neighborhood Safety: measures/socenv_determinants/neighborhood_safety.md  
             - PROMIS: measures/socenv_determinants/PROMIS.md
             - PACES: measures/socenv_determinants/PACES.md
-    - "MRI Protocols": 
-        - Overview: mriprotocols/overview.md
-        - Siemens: mriprotocols/siemens.md
-        - GE: mriprotocols/ge.md
-        - Philips: mriprotocols/philips.md
+    - MRI Protocols: mriprotocols/mriprotocols.md
     - HBCD BIDS Conversion:
         - Overview: datacuration/bids.md
         - Imaging: datacuration/imaging.md
