@@ -2,7 +2,7 @@ site_name: HBCD Data Release
 
 theme:
   name: readthedocs
-  custom_dir: docs/overrides # for template overrides, used in this case for logic to include publication date at top of each page
+  custom_dir: docs/overrides # for template overrides, used in this case for addition of "Page Last Updated: <DATE>" to pages
   features:
     - toc.integrate
     - navigation.expand
