@@ -15,7 +15,7 @@ HBCD includes a suite of **magnetic resonance imaging (MRI)** and **spectroscopy
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji">&#x1f4a1;</span>
-    <span class="text">See <a href="../../mriprotocols/overview">MRI Protocols</a> for information on sequence installation</span>
+    <span class="text">See <a href="../../../mriprotocols/mriprotocols">MRI Protocols</a> for information on sequence installation</span>
   </span>
 </div>
 </p>
