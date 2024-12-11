@@ -23,7 +23,7 @@ A common quality control issue that arose across tasks was irregular net applica
 
 <li><b>1. Video content of the video RS task</b>: The video for Visit 3 is a compilation of clips taken from infant-friendly videos that display colorful toys and abstract images. The video for later visits contains alternating 30 second clips of construction scenes and marble runs.</li>
 
-<li><b>2. Inter-stimulus interval (ISI) of the auditory mismatch negativity task</b>: The ISI was changed between age visits to account for developmental differences in processing speed that impact the generation of an MMN [(Morr et al., 2002)](https://doi.org/10.1097/00003446-200204000-00005) for more information about the ISI change.</li>
+<li><b>2. Inter-stimulus interval (ISI) of the auditory mismatch negativity task</b>: The ISI was changed between age visits to account for developmental differences in processing speed that impact the generation of an MMN See [Morr et al. (2002)](https://doi.org/10.1097/00003446-200204000-00005) for more information about the ISI change.</li>
 
 No potential issues were flagged for the faces and visual evoked potential tasks.
 
