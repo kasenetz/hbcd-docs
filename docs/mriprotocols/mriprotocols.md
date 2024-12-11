@@ -7,6 +7,7 @@ The HBCD MRI protocol includes structural MRI, functional MRI, diffusion MRI, ma
 Here we describe how to obtain and install the relevant sequences for your system as well as provide Scanning SOPs and other relevant resources provided to HBCD study sites. Please review for [Dean et al (2024)](https://www.sciencedirect.com/science/article/pii/S1878929324001130) for comprehensive details on the magnetic resonance protocols included.
 
 ## Siemens Protocol v2.2 (XA30)
+### Installation
 Before importing the HBCD protocol, please ensure you have received and installed the necessary C2P sequence packages for access to the latest versions of each sequence. Without the C2P packages installed, the full protocol cannot be imported.
 
 **NOTE: Siemens has identified a bug in NXVA30A SP02 (the software baseline used for this study) that may cause your scanner to become non-responsive during the installation of the certificates required for custom sequences. Please ensure you have SP02 SD05 installed on your scanner before proceeding, as this fixes the bug and allows you to install custom sequences.**
@@ -16,13 +17,16 @@ Before importing the HBCD protocol, please ensure you have received and installe
 - **QALAS (Boston Children’s Hospital):** Please contact Borjan Gagoski (Borjan.Gagoski@childrens.harvard.edu)
 - **ISTHMUS spectroscopy (Johns Hopkins University):** Please contact Richard Edden (edden@jhu.edu)
 
-### Resources
+### Sequences
 [HBCD_v2.2_32ch.pdf](siemens/HBCD_v2.2_32ch.pdf)<br>
 [HBCD_v2.2_64ch.pdf](siemens/HBCD_v2.2_64ch.pdf)<br>
 [HBCD_v2.2_32ch.exar1](siemens/HBCD_v2.2_32ch.exar1)<br>
 [HBCD_v2.2_64ch.exar1](siemens/HBCD_v2.2_64ch.exar1)<br>
 [DiffusionVectors_HBCD_pe1_03142022.dvs](siemens/DiffusionVectors_HBCD_pe1_03142022.dvs)<br>
 [DiffusionVectors_HBCD_pe2_03142022.dvs](siemens/DiffusionVectors_HBCD_pe2_03142022.dvs)
+
+### Operating Instructions
+The full operating instructions are available in the [HBCD MRI-Tech SOP for Siemens XA30](HBCD_SOP_Scan_Tech_Protocol_XA30_General_V1.0.pdf).
 
 
 ## GE Protocol v2.2
