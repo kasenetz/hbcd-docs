@@ -15,20 +15,20 @@ assembly_bids/
 (Location of electrodes)
 |       |   |__sub-<label>_ses-<label>_acq-ecg_space-CapTrak_electrodes.tsv
 |       |   |__sub-<label>_ses-<label>_acq-ecg_space-CapTrak_coordsystem.json
-|       |   |__sub-<label>_ses-<label>_acq-eeg_space-<CapTrak/CTF>_electrodes.tsv
-|       |   |__sub-<label>_ses-<label>_acq-eeg_space-<CapTrak/CTF>_coordsystem.json
+|       |   |__sub-<label>_ses-<label>_acq-eeg_space-<CapTrak|CTF>_electrodes.tsv
+|       |   |__sub-<label>_ses-<label>_acq-eeg_space-<CapTrak|CTF>_coordsystem.json
 
 (Task acquisitions)
-|       |   |__sub-<label>_ses-<label>_task-<FACE/MMN/RS/VEP>_acq-<eeg/ecg>_channels.tsv
-|       |   |__sub-<label>_ses-<label>_task-<FACE/MMN/RS/VEP>_acq-<eeg/ecg>_eeg.json
-|       |   |__sub-<label>_ses-<label>_task-<FACE/MMN/RS/VEP>_acq-<eeg/ecg>_eeg.set
-|       |   |__sub-<label>_ses-<label>_task-<FACE/MMN/RS/VEP>_acq-<eeg/ecg>_events.tsv
-|       |   |__sub-<label>_ses-<label>_task-<FACE/MMN/RS/VEP>_acq-<eeg/ecg>_events.json
+|       |   |__sub-<label>_ses-<label>_task-<FACE|MMN|RS|VEP>_acq-<eeg|ecg>_channels.tsv
+|       |   |__sub-<label>_ses-<label>_task-<FACE|MMN|RS|VEP>_acq-<eeg|ecg>_eeg.json
+|       |   |__sub-<label>_ses-<label>_task-<FACE|MMN|RS|VEP>_acq-<eeg|ecg>_eeg.set
+|       |   |__sub-<label>_ses-<label>_task-<FACE|MMN|RS|VEP>_acq-<eeg|ecg>_events.tsv
+|       |   |__sub-<label>_ses-<label>_task-<FACE|MMN|RS|VEP>_acq-<eeg|ecg>_events.json
 |       |   |
 |       |   |__ sourcedata/
-|       |       |__ sub-<label>_ses-<label>_task-<FACE/MMN/RS/VEP>_acq-eeg_flags.json
-|       |       |__ sub-<label>_ses-<label>_task-<FACE/MMN/RS/VEP>_acq-eeg_impedances.json
-|       |       |__ sub-<label>_ses-<label>_task-<FACE/MMN/RS/VEP>_acq-eeg_eventlogs.txt
+|       |       |__ sub-<label>_ses-<label>_task-<FACE|MMN|RS|VEP>_acq-eeg_flags.json
+|       |       |__ sub-<label>_ses-<label>_task-<FACE|MMN|RS|VEP>_acq-eeg_impedances.json
+|       |       |__ sub-<label>_ses-<label>_task-<FACE|MMN|RS|VEP>_acq-eeg_eventlogs.txt
 ```
 
 The specific **location of electrodes**, placed on either the head (`acq-eeg`) or chest (`acq-ecg`), is specified in the `*_electrodes.tsv` files following cartesian coordinates provided by the accompanying `*_coordsystem.json` file. For **task acquisitions**, the task is specified by `task-<label>`, with task options of `FACE`, `MMN`, `RS`, and `VEP` (see task details [here](../measures/eeg/overview.md#eeg-parameters)).

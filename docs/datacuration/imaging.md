@@ -28,10 +28,10 @@ Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`a
 |       |   |__ sub-<label>_ses-<label>_run-<label>_T1w.json
 |       |   |__ sub-<label>_ses-<label>_run-<label>_T2w.nii.gz
 |       |   |__ sub-<label>_ses-<label>_run-<label>_T2w.json
-|       |   |__ sub-<label>_ses-<label>_acq-<mrsLocAx/mrsLocCor>_run-<label>_T2w.nii.gz 
-|       |   |__ sub-<label>_ses-<label>_acq-<mrsLocAx/mrsLocCor>_run-<label>_T2w.json
-|       |   |__ sub-<label>_ses-<label>_run-<label>_inv-<label>_QALAS.nii.gz
-|       |   |__ sub-<label>_ses-<label>_run-<label>_inv-<label>_QALAS.json
+|       |   |__ sub-<label>_ses-<label>_acq-<mrsLocAx|mrsLocCor>_run-<label>_T2w.nii.gz 
+|       |   |__ sub-<label>_ses-<label>_acq-<mrsLocAx|mrsLocCor>_run-<label>_T2w.json
+|       |   |__ sub-<label>_ses-<label>_run-<label>_inv-<0|1|2|3|4>_QALAS.nii.gz
+|       |   |__ sub-<label>_ses-<label>_run-<label>_inv-<0|1|2|3|4>_QALAS.json
 ```
 
 ### Diffusion
@@ -41,12 +41,12 @@ Diffusion files include DWI runs (`*_dwi.nii.gz`) along with `bval` and `bvec` f
 ...
 |   |__ ses-<label>/
 |       |__ dwi/
-|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_dwi.bval
-|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_dwi.bvec
-|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_dwi.nii.gz
-|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_dwi.json
-|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_sbref.json
-|       |   |__ sub-<label>_ses-<label>_dir-<AP/PA>_run-<label>_sbref.nii.gz
+|       |   |__ sub-<label>_ses-<label>_dir-<AP|PA>_run-<label>_dwi.bval
+|       |   |__ sub-<label>_ses-<label>_dir-<AP|PA>_run-<label>_dwi.bvec
+|       |   |__ sub-<label>_ses-<label>_dir-<AP|PA>_run-<label>_dwi.nii.gz
+|       |   |__ sub-<label>_ses-<label>_dir-<AP|PA>_run-<label>_dwi.json
+|       |   |__ sub-<label>_ses-<label>_dir-<AP|PA>_run-<label>_sbref.json
+|       |   |__ sub-<label>_ses-<label>_dir-<AP|PA>_run-<label>_sbref.nii.gz
 ```
 
 ### Functional & EPI Fieldmaps
@@ -68,7 +68,7 @@ Functional files include BOLD functional resting state images under `func/` and 
 ### Additional B1 Fieldmaps for Siemens, GE, and Philips
 Siemens, GE, and Philips will include additional files under `fmap/` due to acquisition of B1 fieldmaps, which were converted following the BIDS specification for quantitative MRI (see BIDS specific notes for [TB1TFL and TB1RFM](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1tfl-and-tb1rfm-specific-notes) and [TB1AFI](https://bids-specification.readthedocs.io/en/stable/appendices/qmri.html#tb1afi-specific-notes)). 
 
-**Siemens** (`acq-<anat/fmap>` denotes the anatomical (like) image and scaled flip angle map):
+**Siemens** (`acq-<anat|fmap>` denotes the anatomical (like) image and scaled flip angle map):
 ```
 ...
 |   |__ ses-<label>/
@@ -79,12 +79,11 @@ Siemens, GE, and Philips will include additional files under `fmap/` due to acqu
 |           |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.json
 ```
 <br>
-**GE and Philips** (`acq-tr<1/2>` denotes the first and second TR image):
+**GE and Philips** (`acq-tr<1|2>` denotes the first and second TR image):
 ```
 ...
 |   |__ ses-<label>/
 |       |__ fmap/
-|     GE/PHILIPS ONLY:
 |           |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.nii.gz 
 |           |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.json 
 |           |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.nii.gz
@@ -92,7 +91,7 @@ Siemens, GE, and Philips will include additional files under `fmap/` due to acqu
 ```
 
 ### MR Spectroscopy
-For MRS, vendor-specific raw data formats (Siemens `.dat`; Philips data/list; GE P-file) were converted to BIDS using [spec2nii v0.7.0](https://github.com/wtclarke/spec2nii). Output files include metabolite and water reference (`*_<svs/ref>.nii.gz`) data aqcuired via short-echo-time (TE = 35 ms) and HERCULES (spectral-edited, TE = 80 ms) (`acq-<shortTE/hercules>`). The JSON sidecar files include the dimensions of the NIfTI-MRS data array, holding different coil elements in dimension 5 and different transients in dimension 6.
+For MRS, vendor-specific raw data formats (Siemens `.dat`; Philips data/list; GE P-file) were converted to BIDS using [spec2nii v0.7.0](https://github.com/wtclarke/spec2nii). Output files include metabolite and water reference (`*_<svs|ref>.nii.gz`) data aqcuired via short-echo-time (TE = 35 ms) and HERCULES (spectral-edited, TE = 80 ms) (`acq-<shortTE|hercules>`). The JSON sidecar files include the dimensions of the NIfTI-MRS data array, holding different coil elements in dimension 5 and different transients in dimension 6.
 ```
 ...
 |       |__ mrs/
