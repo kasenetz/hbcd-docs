@@ -33,7 +33,7 @@
   overflow: hidden;
   transition: max-height 0.3s ease-out;
   background-color: #fff;
-  border: 1px solid #333;
+  border: 1px solid #3333331a;
   border-top: none;
   padding: 0 20px;
   border-radius: 0 0 5px 5px;
@@ -61,7 +61,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #be074d3d; 
-  border: 1px solid #be074c; 
+  border: 1px solid #3333331a;
   padding: 4px 20px;
   border-radius: 5px;
   font-family: Arial, sans-serif;
@@ -84,7 +84,7 @@
   align-items: center;
   justify-content: space-between; /* Align text and icon/button at the ends */
   background-color: rgba(255, 251, 0, 0.705);
-  border: 1px solid yellow;
+  border: 1px solid #3333331a;
   padding: 4px 20px;
   border-radius: 5px;
   font-family: Arial, sans-serif;
@@ -107,7 +107,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #eaf9f0;
-  border: 1px solid #14b955;
+  border: 1px solid #3333331a;
   padding: 4px 20px;
   border-radius: 5px;
   font-family: Arial, sans-serif;
@@ -128,7 +128,7 @@
   overflow: hidden;
   transition: max-height 0.3s ease-out;
   background-color: #fff;
-  border: 1px solid #333;
+  border: 1px solid #3333331a;
   border-top: none;
   padding: 0 20px;
   border-radius: 0 0 5px 5px;

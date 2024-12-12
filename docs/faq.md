@@ -1,3 +1,2 @@
 # FAQs
-
-[content to be provided by Leigh]
+<p style="text-align: center; font-size: 1.6em">🚧 🚧 UNDER CONSTRUCTION 🚧 🚧</p>
