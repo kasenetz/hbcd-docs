@@ -1,20 +1,14 @@
-/* General, non-collapsible banner specs */
+/* General Non-Collapsible Banner Settings */
 .banner {
   background-color: #eaf9f0;
-  border: 1px solid #14b955;
+  border: 1px solid #3333331a;
   padding: 4px 20px;
   border-radius: 5px;
-  font-family: Arial, sans-serif;
-  color: #333333;
-  cursor: pointer; 
-  display: flex; /* Flex layout for the banner */
-  justify-content: flex-start; /* Ensures content aligns to the left */
+  font-family: Lato; 
+  color: #505050;
+  display: flex; 
+  justify-content: flex-start;
   align-items: flex-start; /* Aligns emoji with the first line of text */
-}
-.content {
-  display: flex; /* Flex layout for content */
-  align-items: center;
-  gap: 10px; /* Space between emoji and text */
 }
 .banner .emoji {
   font-size: 1.5rem; 
@@ -22,9 +16,10 @@
   color: #14b955;
 }
 .banner .text {
-  font-size: 1rem; 
+  font-size: 1rem;
   font-weight: bold;
 }
+
 
 /* General Collapsible Banner Settings */
 /* collapsible content */
@@ -48,7 +43,7 @@
   transition: transform 0.3s ease;
   display: inline-block;
   transform-origin: center;
-  color: #333;
+  color: #505050;
 }
 .arrow.rotate {
   transform: rotate(90deg);
@@ -64,8 +59,8 @@
   border: 1px solid #3333331a;
   padding: 4px 20px;
   border-radius: 5px;
-  font-family: Arial, sans-serif;
-  color: #333333; 
+  font-family: Lato; 
+  color: #505050;
   cursor: pointer;
 }
 .alert-banner .emoji {
@@ -87,8 +82,8 @@
   border: 1px solid #3333331a;
   padding: 4px 20px;
   border-radius: 5px;
-  font-family: Arial, sans-serif;
-  color: #333333;
+  font-family: Lato; 
+  color: #505050;
   cursor: pointer;
 }
 .warning-banner .emoji {
@@ -110,8 +105,8 @@
   border: 1px solid #3333331a;
   padding: 4px 20px;
   border-radius: 5px;
-  font-family: Arial, sans-serif;
-  color: #333333;
+  font-family: Lato; 
+  color: #505050;
   cursor: pointer; 
 }
 .notification-banner .emoji {
@@ -141,7 +136,7 @@
   transition: transform 0.3s ease;
   display: inline-block;
   transform-origin: center;
-  color: #333;
+  color: #505050;
 }
 .notification-arrow.rotate {
   transform: rotate(90deg);

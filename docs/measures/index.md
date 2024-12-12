@@ -1,28 +1,53 @@
 # Overview
 
-In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures and known issues, and references.
-
-For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). The visits and corresponding ages of the infant/child are listed below.
-
 <p>
 <div id="banner" class="banner">
-  <span class="content">
+<span>
     <span class="emoji">&#x1f4a1;</span>
-    <span class="text">
-      This release only includes V01 - V03; subsequent visit protocols are still under active development
-    </span>
-  </span>
+    <span class="text">Only data measures provided in the current release (V01 - V03) are described</span>
+</span>
 </div>
 </p>
 
-![](Deanetal2024_visits.png)
-<p style="text-align: right;"><small>
-<i>Figure provided courtesy of <a href="https://doi.org/10.1016/j.dcn.2024.101452">Dean et al. 2024</i>
-</small></p>
-
+In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures and known issues, and references. For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). The visits and corresponding ages of the infant/child are listed below. Please visit the HBCD Study Page [here](https://hbcdstudy.org/study-protocols/) for full study protocols.
+<table>
+	<thead>
+		<tr>
+			<th style="width: 100px"><strong>Visit</strong></th>
+			<th style="width: 100px"><strong>Code</strong></th>
+			<th style="width: 100px"><strong>Infant/Child Age</strong></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Visit 1</td>
+			<td>V01</td>
+			<td>Prenatal</td>
+		</tr>
+		<tr>
+			<td>Visit 2</td>
+			<td>V02</td>
+			<td>0-1 months</td>
+		</tr>
+		<tr>
+			<td>Visit 3</td>
+			<td>V03</td>
+			<td>3-9 months</td>
+		</tr>
+		<tr>
+			<td>Visit 4</td>
+			<td>V04</td>
+			<td>9-15 months</td>
+		</tr>
+		<tr>
+			<td>Visit 5</td>
+			<td>V05</td>
+			<td>10-17 months</td>
+		</tr>
+	</tbody>
+</table>
 
 ## HBCD Workgroups and Associated Data Measures
-
 <ul>
 <li>BEHAVIOR & CAREGIVER-CHILD INTERACTION
 <ul>
