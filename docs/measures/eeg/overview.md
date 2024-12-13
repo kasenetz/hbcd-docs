@@ -4,18 +4,23 @@
 
 ![](images/EEG_acquisition_protocol.png)
 
-<details>
-<summary>Implementation & Data Collection Details</summary>
-<ul>
-<li><b>Method of Administration</b>: RA administered in person</li>
-<li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
-<li><b>Visits</b>: V03, V04, V06</li>
-<li><b>Estimated length of time for completion</b>: Video RS 3 min; Face 5 min, MMN 11.5(V03) & 8.5 (V04/06) min; VEP 1 min</li>
-</ul>
-</details>
 
-## Quality Control & Known Issues 
-### Quality Control Procedures   
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Implementation & Data Collection Details</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+    <ul>
+    <li><b>Method of Administration</b>: RA administered in person</li>
+    <li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
+    <li><b>Visits</b>: V03, V04, V06</li>
+    <li><b>Estimated length of time for completion</b>: Video RS 3 min; Face 5 min, MMN 11.5(V03) & 8.5 (V04/06) min; VEP 1 min</li>
+    </ul>
+</div>
+</p>
+
+## Quality Control & Known Issues    
 After EEG acquisition, quality control checks are performed using [EEG2BIDS Wizard](https://github.com/aces/eeg2bids), a custom MATLAB application installed at all HBCD sites. These checks are immediately provided to the user to ensure the data's integrity and usability. The process includes:
 
 - Verifying event markers in the EEG data to confirm all required events are accurately recorded.
@@ -26,7 +31,7 @@ After EEG acquisition, quality control checks are performed using [EEG2BIDS Wiza
 
 Both study sites and the EEG Core team use an EEG Quality Control dashboard developed by LORIS to access and monitor incoming EEG data and QC metrics, such as retained epochs and line noise levels. Outputs from the HBCD-Maryland Analysis of Developmental EEG ([HBCD-MADE](https://github.com/DCAN-Labs/HBCD-MADE)) pipeline, which handles preprocessing and data cleaning, are also integrated into the dashboard. These outputs include key metrics like outlier statistics for specific task epochs ([Debnath et al., 2020](https://doi.org/10.1111/psyp.13580)). Regular site-specific check-ins and troubleshooting are conducted to ensure consistent protocol adherence and data quality across sites. For a detailed description of QC procedures in the HBCD Study EEG protocol, refer to [Fox et al. (2024)](https://doi.org/10.1016/j.dcn.2024.101447).
 
-### Common QC & Potential Issues
+### Potential Issues
 During quality control, a frequently observed issue across all tasks was the irregular application of EEG sensors. Additionally, partial task completion due to infant fussing and missing stimulus flags were commonly noted for the faces and auditory mismatch negativity tasks.
 
 Subject matter experts flagged potential issues related to task design changes between versions V03 and V04/6. These include updates to the video content in the video RS task and modifications to the interstimulus interval (ISI) in the auditory mismatch negativity task (see Fox et al., 2024; Morr et al., 2002, for details on the ISI changes). No potential issues were identified for the faces or visual evoked potential tasks.

@@ -5,18 +5,24 @@
     
 This measure was created from combining and modifying the [Family History Assessment Module (FHAM)](https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/) and the [All of Us Personal and Family Health History](https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf). It assesses self-reported diagnoses and mental health conditions of the biologic mother, father, maternal parents and paternal parents. 
 
-<details>
-<summary>Implementation & Data Collection Details</summary>
-<ul>
-<li><b>Method of Administration</b>: Self-administered in person </li>
-<li><b>REDCap Form Name</b>: Personal and family psych history </li>
-<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
-<li><b>Child Specific/Unspecific Form</b>: Unspecific </li>
-<li><b>Respondent:</b> Pregnant person </li>
-<li><b>Visits</b>: V01 </li>
-<li><b>Estimated length of time for completion</b>: 5 minutes</li>
-</ul>
-</details>
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Implementation & Data Collection Details</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+    <ul>
+      <li><b>Method of Administration</b>: Self-administered in person </li>
+      <li><b>REDCap Form Name</b>: Personal and family psych history </li>
+      <li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+      <li><b>Child Specific/Unspecific Form</b>: Unspecific </li>
+      <li><b>Respondent:</b> Pregnant person </li>
+      <li><b>Visits</b>: V01 </li>
+      <li><b>Estimated length of time for completion</b>: 5 minutes</li>
+    </ul>
+</div>
+</p>
 
 ## HBCD Modifications
 For future publications, authors should note that this measure, as noted in the prior section, is a combination of FHAM and All of Us. It is also not a scored scale, but simply descriptive for family history.

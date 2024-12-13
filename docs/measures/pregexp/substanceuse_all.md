@@ -42,16 +42,22 @@ The list of substances for the Assist measures was greatly expanded. For each su
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b>TLFB</b></p>
 When triggered by Assist responses, the [Time Line Follow Back (TLFB)](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) was modified (see <a href="#hbcd-modifications">HBCD Modifications</a>) to record maternal substance use before and during pregnancy. Participants reported use during 9 weeks in total for each product type (e.g., edible cannabis) reported on the ASSIST. The sampled weeks included: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V2 to capture substance use during the last two full weeks of gestation (Weeks 8-9).
 
-<details>
-<summary>Implementation & Data Collection Details</summary>
-<ul>
-<li><b>Method of Administration</b>: RA-administered in person (except in Alabama, where participants were trained too self-administer) </li>
-<li><b>REDCap Form Names</b>: Assist V1; Assist V2; Assist V3; TLFB </li>
-<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
-<li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
-<li><b>Estimated length of time for completion</b>: 5 min (Assist V1/2); 3 min (Assist V3); 10 min (TLFB)</li>
-</ul>
-</details>
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Implementation & Data Collection Details</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+    <ul>
+    <li><b>Method of Administration</b>: RA-administered in person (except in Alabama, where participants were trained too self-administer) </li>
+    <li><b>REDCap Form Names</b>: Assist V1; Assist V2; Assist V3; TLFB </li>
+    <li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+    <li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
+    <li><b>Estimated length of time for completion</b>: 5 min (Assist V1/2); 3 min (Assist V3); 10 min (TLFB)</li>
+    </ul>
+</div>
+</p>
 
 ## HBCD Modifications
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b>Assist V1/V2/V3</b></p>
@@ -61,56 +67,69 @@ The **Assist V1, V2, & V3 measures** were created from combining the Family Hist
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction/Assessment Item Modifications</b></p>  
 The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding substances used and the timeline of their use before and during pregnancy. Please expand each section below to see specifics on added options/questions:
 
-<div style="margin-bottom: 5px;">
-<details>
-<summary>Assist V1: additional screening to trigger TLFB</summary>
-<br>
-<ul>
-	<li>IN THE THREE MONTHS BEFORE YOU BECAME PREGNANT, which of the following substances have you ever used for any reason (and same options as in #1)</li>
-	<li>DURING YOUR PREGNANCY, which of the following substances have you ever used for any reason? (and same options as in #1)</li>
-	<li>When you were using alcohol during the THREE MONTHS BEFORE or DURING YOUR PREGNANCY, please select the specific substances you used below: breaks apart type of alcohol, cannabinoid, stimulant, tobacco, hallucinogen, and opioid.</li>
-</ul>
-</details>
-</div>
 
-<div style="margin-bottom: 5px;">
-<details>
-<summary>Assist V1/2/3: Expansion of substance type options</summary>
-<br>
-<ul>
-  <li>Nicotine or tobacco products (cigarettes, e-cigarettes, chewing tobacco, cigars, etc.)</li>
-  <li>Alcoholic beverages (beer, wine, spirits, etc.)
-        <ul>
-            <li><b>IF ENDORSED:</b> specify type and average volume of one glass/container typically consumed (U.S.-defined ‘standard drinks’ were then calculated by dividing the amount reported by 12oz (beer, hard cider, hard seltzer), 5oz (wine) or 1.5 oz (spirits))</li>
-        </ul>
-  </li>
-  <li>Cannabis (marijuana, weed, pot, hash, wax, blunts, dabs, gummies, vapes, etc.)</li>
-  <li>Cannabidiol (CBD; not containing THC)</li>
-  <li>Synthetic cannabinoids (K2, spice, etc.)
-  <li>Prescription opioids (oxycodone, morphine, codeine, fentanyl, tramadol, etc.)
-        <ul>
-            <li><b>IF ENDORSED:</b> specify type of opioid used and typical quantities per occasion for the following: heroin (grams, bags), prescription opioids (pills), buprenorphine (pills, injectables, films), and methadone (mg)</li>
-        </ul>
-  </li>
-  <li>Heroin or other illicit opioids (fentanyl, oxycodone, etc.)</li>
-  <li>Methadone</li>
-  <li>Buprenorphine</li>
-  <li>Benzodiazepines, sedatives, or sleeping pills (Valium, Xanax, Ambien, barbiturates, etc.)</li>
-  <li>Cocaine (coke, crack, etc.)</li>
-  <li>Amphetamine type stimulants (speed, Adderall, diet pills, etc.)</li>
-  <li>Methamphetamine (meth, crystal meth, etc.)</li>
-  <li>Inhalants (nitrous, glue, petrol, paint thinner, etc.)</li>
-  <li>Hallucinogens or club drugs (LSD, acid, mushrooms, psilocybin, MDMA, molly, ecstasy, Special K, GHB, etc.)</li>
-  <li>Androgenic anabolic steroids (for performance enhancement)</li>
-  <li>Phencyclidine (PCP)</li>
-  <li>Kratom</li>
-</ul>
-</details>
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Assist V1: additional screening to trigger TLFB</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div style="margin-bottom: 5px;">
-<details>
-<summary>Assist V1/2/3: replacement of questions 2-8</summary>
-<ul>
+<div class="notification-collapsible-content">
+    <ul>
+      <li>IN THE THREE MONTHS BEFORE YOU BECAME PREGNANT, which of the following substances have you ever used for any reason (and same options as in #1)</li>
+      <li>DURING YOUR PREGNANCY, which of the following substances have you ever used for any reason? (and same options as in #1)</li>
+      <li>When you were using alcohol during the THREE MONTHS BEFORE or DURING YOUR PREGNANCY, please select the specific substances you used below: breaks apart type of alcohol, cannabinoid, stimulant, tobacco, hallucinogen, and opioid.</li>
+    </ul>
+</div>
+</p>
+
+
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Assist V1/2/3: Expansion of substance type options</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+    <ul>
+      <li>Nicotine or tobacco products (cigarettes, e-cigarettes, chewing tobacco, cigars, etc.)</li>
+        <li>Alcoholic beverages (beer, wine, spirits, etc.)
+              <ul>
+                  <li><b>IF ENDORSED:</b> specify type and average volume of one glass/container typically consumed (U.S.-defined ‘standard drinks’ were then calculated by dividing the amount reported by 12oz (beer, hard cider, hard seltzer), 5oz (wine) or 1.5 oz (spirits))</li>
+              </ul>
+        </li>
+        <li>Cannabis (marijuana, weed, pot, hash, wax, blunts, dabs, gummies, vapes, etc.)</li>
+        <li>Cannabidiol (CBD; not containing THC)</li>
+        <li>Synthetic cannabinoids (K2, spice, etc.)
+        <li>Prescription opioids (oxycodone, morphine, codeine, fentanyl, tramadol, etc.)
+              <ul>
+                  <li><b>IF ENDORSED:</b> specify type of opioid used and typical quantities per occasion for the following: heroin (grams, bags), prescription opioids (pills), buprenorphine (pills, injectables, films), and methadone (mg)</li>
+              </ul>
+        </li>
+        <li>Heroin or other illicit opioids (fentanyl, oxycodone, etc.)</li>
+        <li>Methadone</li>
+        <li>Buprenorphine</li>
+        <li>Benzodiazepines, sedatives, or sleeping pills (Valium, Xanax, Ambien, barbiturates, etc.)</li>
+        <li>Cocaine (coke, crack, etc.)</li>
+        <li>Amphetamine type stimulants (speed, Adderall, diet pills, etc.)</li>
+        <li>Methamphetamine (meth, crystal meth, etc.)</li>
+        <li>Inhalants (nitrous, glue, petrol, paint thinner, etc.)</li>
+        <li>Hallucinogens or club drugs (LSD, acid, mushrooms, psilocybin, MDMA, molly, ecstasy, Special K, GHB, etc.)</li>
+        <li>Androgenic anabolic steroids (for performance enhancement)</li>
+        <li>Phencyclidine (PCP)</li>
+        <li>Kratom</li>
+    </ul>
+</div>
+</p>
+
+
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Assist V1/2/3: replacement of questions 2-8</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+    <ul>
 <br>
 <u>V1: Q2-8 replaced with following to assess lifetime use</u>
 	<li>Have you EVER been concerned about your use of this substance or worried it was problematic use?</li>
@@ -126,10 +145,9 @@ The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs,
 <u>V3: Q2-8 replaced with following to assess impact of substance use after pregnancy:</u>
 	<li>DURING THE PAST THREE MONTHS, has your use of this substance led to physical or mental health, social,or financial problems?</li>
     <li>DURING THE PAST THREE MONTHS, have you ever failed to do what was normally expected of you  (like work, go to school, be a parent, or household tasks) because of your use of this substance?</li>
-</ul>
-</details>
+    </ul>
 </div>
-<br>
+</p>
 
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b>TLFB</b></p>
 The [original TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the last 7 days from when the survey is administered and was adapted for HBCD to instead cover timeframes appropriate for Visit 1 (LMP - 4 through LMP - 2, LMP + 2 through LMP + 6, and the week before enrollment (V1)) and Visit 2 (he last two full weeks before delivery, masking the child’s DOB). Daily usage frequency was recorded for all products except for cigarettes/cigarillos (count per day) and alcohol (single servings per day).

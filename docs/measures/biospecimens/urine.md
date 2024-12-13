@@ -21,10 +21,16 @@
 ## Assay
 Based on the predefined thresholds outlined in **Table 1**, a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (**Table 2**). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**. 
 
-<details>
-  <summary>Table 1. Urine Assay Thresholds for Analytes</summary>
-  <table class="docutils">
-    <thead>
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Table 1. Urine Assay Thresholds for Analytes</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<table class="docutils">
+  <br>
+<thead>
       <tr>
         <th>Analyte</th>
         <th>LOD<br />(ng/mL)</th>
@@ -32,7 +38,7 @@ Based on the predefined thresholds outlined in **Table 1**, a confirmatory test 
         <th>Cutoff<br />(ng/mL)</th>
         <th>Detection Window</th>
       </tr>
-    </thead>
+</thead>
     <tbody>
 	<tr>
 		<td>Amphetamine</td>
@@ -429,11 +435,18 @@ Based on the predefined thresholds outlined in **Table 1**, a confirmatory test 
 </table>
 <i>*Based on DRI® Cotinine assay for the qualitative and semiquantitative determination of Cotinine</i><br>
 <i>LOD: limit of detection; LOQ: limit of quantification: Cutoff concentration used to categorize metabolite as positive/negative</i>
-</details>
+<br>
+<br>
+</div>
+</p>  
 
-<details>
-  <summary>Table 2. Sample Data Dictionary from Urine Assays</summary>
-  <table class="docutils">
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Table 2. Sample Data Dictionary from Urine Assays</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<table class="docutils">
   <br>
     <thead>
       <tr>
@@ -494,11 +507,16 @@ Based on the predefined thresholds outlined in **Table 1**, a confirmatory test 
 	</tr>
 </tbody>
 </table>
-</details>
+</div>
+</p>  
 
-<details>
-  <summary>Table 3. Mapping From Class to Screening Tests and Confirmatory Tests</summary>
-  <table class="docutils" style="width: 100%;">
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Table 3. Mapping From Class to Screening Tests and Confirmatory Tests</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<table class="docutils">
   <br>
     <thead>
       <tr>
@@ -754,9 +772,10 @@ Based on the predefined thresholds outlined in **Table 1**, a confirmatory test 
 		<td>&nbsp;</td>
 		<td>Cotinine (c_cot_u)</td>
 	</tr>
-</tbody>
+	</tbody>
 </table>
-</details>
+</div>
+</p>  
 
 
 ## Quality Control & Known Issues

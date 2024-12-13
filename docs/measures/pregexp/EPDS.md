@@ -8,18 +8,24 @@ The Edinburgh Postnatal Depression Scale (<a href="https://downloads.aap.org/AAP
     <li>EPDS depression, overall score greater than 11</li>
 </ul>
 
-<details>
-<summary>Implementation & Data Collection Details</summary>
-<ul>
-<li><b>Method of Administration</b>: self-administered in person or remote  </li>
-<li><b>REDCap Form Names</b>: EPDS </li>
-<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
-<li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
-<li><b>Respondent</b>: Pregnant person or person who gave birth  </li>
-<li><b>Visits</b>: V01, V02, V03 </li>
-<li><b>Estimated length of time for completion</b>: 3 min</li>
-</ul>
-</details>
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Implementation & Data Collection Details</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+    <ul>
+      <li><b>Method of Administration</b>: self-administered in person or remote  </li>
+      <li><b>REDCap Form Names</b>: EPDS </li>
+      <li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+      <li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
+      <li><b>Respondent</b>: Pregnant person or person who gave birth  </li>
+      <li><b>Visits</b>: V01, V02, V03 </li>
+      <li><b>Estimated length of time for completion</b>: 3 min</li>
+    </ul>
+</div>
+</p>
 
 ## HBCD Modifications
 The option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped). 

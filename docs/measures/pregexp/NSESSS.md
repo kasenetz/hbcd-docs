@@ -10,18 +10,24 @@ Note that scores on these scales do not differentiate between symptoms of PTSD v
 - Total Raw Score Acute Stress: sum of scores from questions 1, 2, 3, 7, 8, 9, and 10
 - Total Raw Score PTSD: sum of scores from questions 1, 2, 3, 4, 5, 6, 7, 8, and 9
 
-<details>
-<summary>Implementation & Data Collection Details</summary>
-<ul>
-<li><b>Method of Administration</b>: Self administered in person or remote </li>
-<li><b>REDCap Form Names</b>: DSD5 Severity Acute Stress or PTSD </li>
-<li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
-<li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
-<li><b>Respondant</b>: Pregnant person/person who gave birth/primary caregiver </li>
-<li><b>Visits</b>: V01, V02, V03 </li>
-<li><b>Estimated length of time for completion</b>: 3 min</li>
-</ul>
-</details>
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Implementation & Data Collection Details</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+    <ul>
+        <li><b>Method of Administration</b>: Self administered in person or remote </li>
+        <li><b>REDCap Form Names</b>: DSD5 Severity Acute Stress or PTSD </li>
+        <li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
+        <li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
+        <li><b>Respondant</b>: Pregnant person/person who gave birth/primary caregiver </li>
+        <li><b>Visits</b>: V01, V02, V03 </li>
+        <li><b>Estimated length of time for completion</b>: 3 min</li>
+    </ul>
+</div>
+</p>
+
 
 ## HBCD Modifications
 In future publications, authors should note that this measure is a combination of NSESSS-PTSD and NSESSS-Acute Stress Disorder as described above. The only additional modification was that we added ‘refuse to answer’, but not ‘don’t know,’ to the response options. Scoring has always allowed skips when done on paper, and the authors are not specific for how to deal with that.
