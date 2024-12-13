@@ -18,19 +18,25 @@ Scale scores generated for each domain are the mean score of all scale items app
 
 For additional information, please see the scoring manual for details on items and scales as well as [Mary Rothbart's Temperament Questionnaires](https://research.bowdoin.edu/rothbart-temperament-questionnaires).
 
-<details>
-<summary>Implementation & Data Collection Details</summary>
-<ul>
-<li><b>Method of Administration</b>: Remote survey</li>
-<li><b>REDCap Form Name</b>: mh_cg_ibqr</li>
-<li><b>Pilot Data Dictionary</b>: IBQ-R VSF + BI</li>
-<li><b>Spanish Translation</b>: Translated for HBCD by BURG</li>
-<li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
-<li><b>Respondent:</b> Caregiver</li>
-<li><b>Visits</b>: V03, V05, validated for ages 3 months 0 days to 17 months 30 days (for HBCD purposes)</li>
-<li><b>Estimated length of time for completion</b>: Approximately 7-10 minutes</li>
-</ul>
-</details>
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Implementation & Data Collection Details</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+  <ul>
+  <li><b>Method of Administration</b>: Remote survey</li>
+  <li><b>REDCap Form Name</b>: mh_cg_ibqr</li>
+  <li><b>Pilot Data Dictionary</b>: IBQ-R VSF + BI</li>
+  <li><b>Spanish Translation</b>: Translated for HBCD by BURG</li>
+  <li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
+  <li><b>Respondent:</b> Caregiver</li>
+  <li><b>Visits</b>: V03, V05, validated for ages 3 months 0 days to 17 months 30 days (for HBCD purposes)</li>
+  <li><b>Estimated length of time for completion</b>: Approximately 7-10 minutes</li>
+  </ul>
+</div>
+</p>
 
 <details class="collapsible references">
   <summary class="references">References</summary>

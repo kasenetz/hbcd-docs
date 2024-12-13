@@ -10,22 +10,27 @@ Processing of Blood Spot Cards consists of preparing three 1/8” punches of dri
 
 <br>
 
-<details>
-<summary>Implementation & Data Collection Details</summary>
-<ul>
-<li><b>Method of Administration</b>: Phlebotomist-collected venous blood, which is pipetted onto dried blood spot cards</li>
-<li><b>Respondent</b>: Pregnant person</li>
-<li><b>Visits</b>: V01</li>
-<li><b>Estimated length of time for completion</b>: 5 minutes</li>
-</ul>
-</details>
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Implementation & Data Collection Details</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+    <ul>
+		<li><b>Method of Administration</b>: Phlebotomist-collected venous blood, which is pipetted onto dried blood spot cards</li>
+		<li><b>Respondent</b>: Pregnant person</li>
+		<li><b>Visits</b>: V01</li>
+		<li><b>Estimated length of time for completion</b>: 5 minutes</li>
+    </ul>
+</div>
+</p>
 
 
 ## PEth Assay
 PEth assays are confirmation-only testing. Test results were determined to be positive (*c_peth_b_cat*), negative, or canceled according to the thresholds outlined in **Table 1** (note that continuous variables should be interpreted with caution based on the limits of quantification, LOQs). The sample-level (*c_any_specimen_b*) was correspondingly scored as positive (1), negative (0), and canceled (3) (**Table 2**). Class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**.
 
-<details>
-  <summary>Table 1. Blood Assay Thresholds PEth</summary>
+<p>
+<summary><strong>Table 1. Blood Assay Thresholds PEth</strong></summary>
   <table class="docutils">
   <br>
     <thead>
@@ -46,10 +51,10 @@ PEth assays are confirmation-only testing. Test results were determined to be po
 	</tr>
 </tbody>
 </table>
-</details>
+</p>
 
-<details>
-  <summary>Table 2. Sample-Data Dictionary for Blood PEth</summary>
+<p>
+<summary><strong>Table 2. Sample-Data Dictionary for Blood PEth</strong></summary>
   <table class="docutils">
   <br>
     <thead>
@@ -105,11 +110,10 @@ PEth assays are confirmation-only testing. Test results were determined to be po
 	</tr>
 </tbody>
 </table>
-</details>
+</p>
 
-
-<details>
-  <summary>Table 3. Mapping from Class to Screeners and Confirmatory Tests for PEth</summary>
+<p>
+<summary><strong>Table 3. Mapping from Class to Screeners and Confirmatory Tests for PEth</strong></summary>
   <table class="docutils"><colgroup><col width="25%"/><col width="50%"/></colgroup>
   <br>
     <thead>
@@ -125,8 +129,7 @@ PEth assays are confirmation-only testing. Test results were determined to be po
 	</tr>
 </tbody>
 </table>
-</details>
-
+</p>
 
 ## Quality Control & Known Issues
 QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC. No potential issues were flagged by subject matter experts.

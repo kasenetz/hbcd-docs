@@ -25,19 +25,22 @@ Demographic information is crucial for understanding the child’s environment a
     <span class="text">Description from <a href="https://doi.org/10.1016/j.dcn.2024.101429">Cioffredi et al. 2024</a></span>
   <span class="notification-arrow">▸</span>
 </div>
+
 <div class="notification-collapsible-content">
 <br>
+<p>
 <i>The HBCD Demographics survey was designed to collect social and economic information including race, ethnicity, nativity, income, maternal education, and occupation, as well as to characterize gender identity, sexual orientation, relationship status, primary residence, and household composition. The household composition matrix asks for details on all household members including age, gender, relationship to the child, relationship to the primary caregiver, and time spent caring for the child. Participants and families who endorse no primary residence, or that they are living in a shelter or treatment facility, are not asked to complete the household matrix. The survey includes a limited set of questions on the child’s “other biological parent” (i.e., race, ethnicity, nativity, education, occupation), provided the respondent endorsed an item indicating that they could answer this set of questions. Although there are no direct questions about the primary caregiver’s spouse/partner in the demographics, details of this relationship can be found within the household composition roster. The questions on Occupation ask for detailed information about exposures to environmental toxicants.</i><br>
 <br><i>Careful consideration was given to ensure that questions were inclusive of diverse populations and could capture a wide range of family structures and living situations that may impact child health outcomes. As a result, survey elements available within the PhenX Toolkit and other large-scale NIH studies were reviewed and modified by the Social and Environmental Determinants working group and the HBCD Diversity, Equity, and Inclusion (DEI) Committee to reduce bias and correct for embedded assumptions of heteronormative nuclear-family structures (see Table with sources below). Future demographics surveys will repeat survey elements from Visit 4 for both the primary caregiver and the child.</i>
+</p>
 </div>
 </p>
 
 <p>
-<div id="general-banner" class="general-banner" onclick="toggleCollapse(this)">
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
     <span class="text">Implementation & Data Collection Details</span>
-  <span class="general-arrow">▸</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="general-collapsible-content">
+<div class="notification-collapsible-content">
 <ul>
 <li><b>Method of Administration</b>: RA administered in person</li>
 <li><b>Child Specific/Unspecific Form</b>: Child Unspecific</li>
@@ -52,11 +55,11 @@ Demographic information is crucial for understanding the child’s environment a
 Below are alterations made to demographic constructs, informed by a DEI (diversity, equity, and inclusion) lens, to capture a more inclusive and accurate breadth of demographic information:
 
 <p>
-<div id="general-banner" class="general-banner" onclick="toggleCollapse(this)">
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
     <span class="text">DEI Alterations/Modifications</span>
-  <span class="general-arrow">▸</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="general-collapsible-content">
+<div class="notification-collapsible-content">
     <ul>
       <li><b>Marital & Relationship Status</b> alterations to reduce heteronormative bias:
         <ul>
@@ -88,12 +91,12 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 ## Demographic Protocol Sources & DEI Modifications
 
 <p>
-<div id="general-banner" class="general-banner" onclick="toggleCollapse(this)">
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
     <span class="text">Table 1. Demographics of Birth Parent</span>
-  <span class="general-arrow">▸</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="general-collapsible-content">
-<br>
+<div class="notification-collapsible-content">
+<p>
 <table class="docutils">
     <thead>
       <tr>
@@ -206,18 +209,20 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 <small>   
 <b>ABCD</b>- Adolescent Brain Child Development Study; <b>BFY</b>- Baby's First Years; <b>BRFSS</b>- Behavioral Risk Factor Surveillance System; <b>ECHO</b>- Environmental Influences On Child Health Outcomes; <b>OMB</b>- Office of Management & Budget
 </small>
-<br>
+</p>
 </div>
 </p>
 
 
+
+
 <p>
-<div id="general-banner" class="general-banner" onclick="toggleCollapse(this)">
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
     <span class="text">Table 2. Demographics of Other Biological Parent</span>
-  <span class="general-arrow">▸</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="general-collapsible-content">
-<br>
+<div class="notification-collapsible-content">
+<p>
 <table class="docutils">
 <thead>
     <tr>
@@ -283,7 +288,7 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 <small>   
 <b>OMB</b>- Office of Management & Budget<br> 
 </small>
-<br>
+</p>
 </div>
 
 <details class="collapsible references">

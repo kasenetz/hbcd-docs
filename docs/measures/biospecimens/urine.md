@@ -3,15 +3,20 @@
 **Construct**: Toxicology screen, urine     
 **Description**: Results of toxicology assays in urine collected at V1
 
-<details>
-<summary>Implementation & Data Collection Details</summary>
-<ul>
-<li><b>Method of Administration</b>: Self-collected</li>
-<li><b>Respondent</b>: Pregnant person</li>
-<li><b>Visits</b>: V01</li>
-<li><b>Estimated length of time for completion</b>: 5 minutes</li>
-</ul>
-</details>
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Implementation & Data Collection Details</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+    <ul>
+		<li><b>Method of Administration</b>: Self-collected</li>
+		<li><b>Respondent</b>: Pregnant person</li>
+		<li><b>Visits</b>: V01</li>
+		<li><b>Estimated length of time for completion</b>: 5 minutes</li>
+    </ul>
+</div>
+</p>
 
 ## Assay
 Based on the predefined thresholds outlined in **Table 1**, a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (**Table 2**). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**. 

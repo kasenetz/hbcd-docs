@@ -8,22 +8,33 @@ The nail processing workflow was re-developed and implemented on July 1, 2024 to
 ##### Figure 1. Schematic for nail processing
 <img src="../Fig1_nails.png" width="100%" height="auto">
 
-<details>
-<summary>Implementation & Data Collection Details</summary>
-<ul>
-<li><b>Method of Administration</b>: Self-collected under research team supervision, or collected by research team</li>
-<li><b>Respondent</b>: Pregnant/Postpartum person</li>
-<li><b>Visits</b>: V01, V02</li>
-<li><b>Estimated length of time for completion</b>: 5 minutes</li>
-</ul>
-</details>
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Implementation & Data Collection Details</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+    <ul>
+	<li><b>Method of Administration</b>: Self-collected under research team supervision, or collected by research team</li>
+	<li><b>Respondent</b>: Pregnant/Postpartum person</li>
+	<li><b>Visits</b>: V01, V02</li>
+	<li><b>Estimated length of time for completion</b>: 5 minutes</li>
+    </ul>
+</div>
+</p>
 
 ## USDTL Assay
 Based on the predefined threshold outlined in **Table 1**, a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (*QNS* i.e. *quantity not sufficient*) (**Table 2**). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (e.g. *c_nictotine_u*) and sample-level (e.g. *c_any_specimen_n*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**. 
 
-<details>
-  <summary>Table 1. Nail Assay Thresholds </summary>
-  <table class="docutils">
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Table 1. Nail Assay Thresholds</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<table class="docutils">
   <br>
     <thead>
       <tr>
@@ -367,12 +378,20 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
 </tbody>
 </table>
 <i>LOD: limit of detection; LOQ: limit of quantification: Cutoff concentration used to categorize metabolite as positive/negative</i>
-</details>
+<br>
+<br>
+</div>
+</p>
 
-<details>
-  <summary>Table 2. Sample-Data Dictionary Nail Assays</summary>
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Table 2. Sample-Data Dictionary Nail Assays</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<table class="docutils">
   <br>
-  <table class="docutils">
     <thead>
       <tr>
 		<th>Variable</th>
@@ -456,12 +475,18 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
 	</tr>
 </tbody>
 </table>
-</details>
+</div>
+</p>  
 
-<details>
-  <summary>Table 3. Mapping from Class to Screening Tests and Confirmatory Tests for Nails</summary>
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Table 3. Mapping from Class to Screening Tests and Confirmatory Tests for Nails</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<table class="docutils">
   <br>
-  <table class="docutils">
     <thead>
       <tr>
 		<th>Class</th>
@@ -673,7 +698,8 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
 	</tr>
 </tbody>
 </table>
-</details>
+</div>
+</p>  
 
 ## Quality Control & Known Issues
 QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC.

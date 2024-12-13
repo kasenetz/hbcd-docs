@@ -6,6 +6,7 @@
 
 .wy-side-nav-search {background-color: #199bd6;}
 
+/* Specs for general collapsible sections ("details")*/ 
 /* Specs for general collapsible sections */ 
 details {
   margin-bottom: 1rem;
@@ -36,6 +37,7 @@ details ul ul li {
 details li b {
   color: #0077cc;
 }
+
 
   /* References section collapsible styling */
 .collapsible.references {

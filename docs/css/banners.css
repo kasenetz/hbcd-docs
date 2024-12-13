@@ -152,68 +152,20 @@
 .notification-arrow.rotate {
   transform: rotate(90deg);
 }
-
-
-/* Collapsible General Banner */
-.general-banner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #eaf9f0;
-  border: 1px solid #3333331a;
-  padding: 4px 20px;
-  border-radius: 5px;
-  font-family: Lato; 
-  color: #505050;
-  cursor: pointer; 
-}
-.general-banner .emoji {
-  font-size: 1.5rem; 
-  margin-right: 10px;
-  color: #14b955;
-}
-.general-banner .text {
-  font-size: 1rem; 
-  font-weight: bold;
-}
-.general-collapsible-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
-  background-color: #fff;
-  border: 1px solid #3333331a;
-  border-top: none;
-  padding: 0 20px;
-  border-radius: 0 0 5px 5px;
-}
-.general-collapsible-content.open {
-  max-height: none;
-}
-.general-arrow {
-  font-size: 1.8rem;
-  transition: transform 0.3s ease;
-  display: inline-block;
-  transform-origin: center;
-  color: #505050;
-}
-.general-arrow.rotate {
-  transform: rotate(90deg);
-}
-.general-collapsible-content ul {
+.notification-collapsible-content ul {
   margin-top: 1rem;
   padding-left: 1.5rem;
   line-height: 1.6;
 }
-.general-collapsible-content li {
+.notification-collapsible-content li {
   margin-bottom: 0.3rem;
 }
-.general-collapsible-content ul ul {
+.notification-collapsible-content ul ul {
   margin-top: 0.5rem;
 }
-.general-collapsible-content ul ul li {
+.notification-collapsible-content ul ul li {
   margin-bottom: 0.3rem;
 }
-.general-collapsible-content li b {
+.notification-collapsible-content li b {
   color: #0077cc;
 }
-

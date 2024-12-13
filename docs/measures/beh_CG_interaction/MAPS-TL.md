@@ -14,17 +14,22 @@ Multidimensional Assessment Profiles- Temper Loss scale (MAPS-TL) is a well-vali
     
 Each of the 17 items for MAPS-TL is answered on a scale of 1 to 6: 1 [Never], 2 [Rarely (Less than once per week)], 3 [Some (1-3) days of the week], 4 [Most (4-6) days of the week], 5 [Every day of the week], 6 [Many times each day]. A **sum score** is generated when the caregiver provides a numerical score of 1 to 6 for at least 9 out of the 17 items. If fewer than 9 items are completed, the score is marked as missing. When responses are available for 9 to 16 items, a prorated score is calculated using the formula: `(sum of items answered / number of items answered) * 17`.
 
-<details>
-<summary>Implementation & Data Collection Details</summary>
-<ul>
-<li><b>Method of Administration</b>: This questionnaire is to be filled out by the child’s caregiver in a remote setting. Questions inquire about the behaviors of the focal child over the past month.</li>
-<li><b>Spanish Translation</b>: Translated for HBCD by BURG</li>
-<li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
-<li><b>Respondent</b>: Primary Caregiver</li>
-<li><b>Visits</b>: V03</li>
-<li><b>Estimated length of time for completion</b>: 5 minutes</li>
-</ul>
-</details>
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Implementation & Data Collection Details</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+  <ul>
+  <li><b>Method of Administration</b>: This questionnaire is to be filled out by the child’s caregiver in a remote setting. Questions inquire about the behaviors of the focal child over the past month.</li>
+  <li><b>Spanish Translation</b>: Translated for HBCD by BURG</li>
+  <li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
+  <li><b>Respondent</b>: Primary Caregiver</li>
+  <li><b>Visits</b>: V03</li>
+  <li><b>Estimated length of time for completion</b>: 5 minutes</li>
+  </ul>
+</div>
 
 <details class="collapsible references">
   <summary class="references">References</summary>
