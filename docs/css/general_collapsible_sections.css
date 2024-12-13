@@ -1,0 +1,42 @@
+/*  NOT ADDED TO YML YET */
+/*  Collapsible Notification Banner */
+.expand-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eaf9f0;
+    border: 1px solid #3333331a;
+    padding: 4px 20px;
+    border-radius: 5px;
+    font-family: Lato; 
+    color: #505050;
+    cursor: pointer; 
+  }
+  .expand-banner .text {
+    font-size: 1rem; 
+    font-weight: bold;
+  }
+  .notification-collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #fff;
+    border: 1px solid #3333331a;
+    border-top: none;
+    padding: 0 20px;
+    border-radius: 0 0 5px 5px;
+  }
+  .notification-collapsible-content.open {
+    max-height: none;
+  }
+  .notification-arrow {
+    font-size: 1.8rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    transform-origin: center;
+    color: #505050;
+  }
+  .notification-arrow.rotate {
+    transform: rotate(90deg);
+  }
+  
