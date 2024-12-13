@@ -26,11 +26,13 @@ In a large infant study, missing data is common, leading to variations in the nu
 ## Data Curation & Exclusion Criteria
 Quality control metrics for raw MRI images, generated according to the procedures outlined [here](../measures/mri/overview.md), are provided in the `scans.tsv` file within the session folder. Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional quality checks to ensure data integrity. For instance, all images were verified to be acquired using a head coil before inclusion in the BIDS dataset. Additional exclusion criteria for each imaging modality are detailed below.
 
-<p>
-<details>
-<summary>Exclusion Criteria</summary>
-<br>
 
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Exclusion Criteria</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
 <ul>
 <u>T1w:</u>
   <li>TR outside of range 2.3-2.41</li>
@@ -66,5 +68,6 @@ Quality control metrics for raw MRI images, generated according to the procedure
   <li>Slice thickness not being set to 2</li>
   <li>fMRI is shorter than 87 volumes (approximately less than 2.5 minutes long)</li>
 </ul>
-</details>
+</div>
 </p>
+

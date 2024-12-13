@@ -94,6 +94,7 @@ Siemens, GE, and Philips will include additional files under `fmap/` due to acqu
 For MRS, vendor-specific raw data formats (Siemens `.dat`; Philips data/list; GE P-file) were converted to BIDS using [spec2nii v0.7.0](https://github.com/wtclarke/spec2nii). Output files include metabolite and water reference (`*_<svs|ref>.nii.gz`) data aqcuired via short-echo-time (TE = 35 ms) and HERCULES (spectral-edited, TE = 80 ms) (`acq-<shortTE|hercules>`). The JSON sidecar files include the dimensions of the NIfTI-MRS data array, holding different coil elements in dimension 5 and different transients in dimension 6.
 ```
 ...
+|   |__ ses-<label>/
 |       |__ mrs/
 |       |   |__ sub-<label>_ses-<label>_acq-shortTE_run-<label>_svs.nii.gz
 |       |   |__ sub-<label>_ses-<label>_acq-shortTE_run-<label>_svs.json
@@ -107,39 +108,41 @@ For MRS, vendor-specific raw data formats (Siemens `.dat`; Philips data/list; GE
 
 ## Post-Conversion Modifications
 <p>
-<details>
-<summary><b>Hard-coded fields for missing/incorrect header information</b></summary>
-<br>
-In some cases, <i>dcm2niix</i> conversion led to missing or incorrectly configured NIfTI/JSON metadata. To address these issues, the headers for the file types listed below were hard-coded after conversion. These hard-coded values are also documented in the <i>HardCodedValues</i> field of the corresponding JSON sidecar file.
-<br>
-<br>
-<ul>
-<b>Philips</b>
-	<li>T1W: <i>RepetitionTime</i></li>
-	<li>DWI: <i>PhaseEncodingDirection</i>, <i>TotalReadoutTime</i>, & <i>SliceTiming</i> (<i>SmallDelta</i> & <i>LargeDelta</i> also added)</li>
-	<li>EPI: <i>PhaseEncodingDirection</i> & <i>TotalReadoutTime</i></li>
-	<li>BOLD:	<i>PhaseEncodingDirection</i>, <i>TotalReadoutTime</i>, & <i>SliceTiming</i></li>
-<br>
-<b>GE</b>
-	<li>T1W: <i>RepetitionTime</i></li>
-</ul>
-</details>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Hard-coded fields for missing/incorrect header information</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+  <br>
+  In some cases, <i>dcm2niix</i> conversion led to missing or incorrectly configured NIfTI/JSON metadata. To address these issues, the headers for the file types listed below were hard-coded after conversion. These hard-coded values are also documented in the <i>HardCodedValues</i> field of the corresponding JSON sidecar file.
+  <br>
+  <br>
+  <ul>
+  <b>Philips</b>
+    <li>T1W: <i>RepetitionTime</i></li>
+    <li>DWI: <i>PhaseEncodingDirection</i>, <i>TotalReadoutTime</i>, & <i>SliceTiming</i> (<i>SmallDelta</i> & <i>LargeDelta</i> also added)</li>
+    <li>EPI: <i>PhaseEncodingDirection</i> & <i>TotalReadoutTime</i></li>
+    <li>BOLD:	<i>PhaseEncodingDirection</i>, <i>TotalReadoutTime</i>, & <i>SliceTiming</i></li>
+  <br>
+  <b>GE</b>
+    <li>T1W: <i>RepetitionTime</i></li>
+  </ul>
+</div>
 </p>
 
-<details>
-<summary><b>Quantitative MRI</b></summary><br>
-Depending on the scanner manufacturer, <i>dcm2niix</i> conversion for QALAS produced either five 3D NIfTI files or a single 4D NIfTI file with five volumes (as well as missing JSON header information). To standardize the output, all <i>dcm2niix</i>-derived QALAS series were converted into five separate NIfTI files, each corresponding to a different inversion time (labeled using the <i>inv-&lt;label&gt;</i> BIDS entity). The associated JSON sidecar was then updated with the following:
-
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Quantitative MRI</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
 <br>
-<br>
-
+<p>
+Depending on the scanner manufacturer, <i>dcm2niix</i> conversion for QALAS produced either five 3D NIfTI files or a single 4D NIfTI file with five volumes (as well as missing JSON header information). To standardize the output, all <i>dcm2niix</i>-derived QALAS series were converted into five separate NIfTI files, each corresponding to a different inversion time (labeled using the <i>inv-&lt;label&gt;</i> BIDS entity). The associated JSON sidecar was then updated with the following:</p>
 1.  <i>T2Prep</i> field of <i>inv-0</i> QALAS file hard-coded to 0.10 (Siemens), 0.09 (GE), and 0.10 (Philips)
-
 <br>
 <br>
-
 <p>2.  <i>InversionTime</i> values (sec) for QALAS files hard-coded as follows for each manufacturer:</b></p>
-
 <table>
   <tr>
   <th width="100">QALAS file</th>
@@ -180,7 +183,5 @@ Depending on the scanner manufacturer, <i>dcm2niix</i> conversion for QALAS prod
     </tr>
   </tbody>
 </table>
-</details><br>
-
-
-
+</div>
+</p>
