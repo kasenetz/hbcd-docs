@@ -21,76 +21,35 @@ assembly_bids/
 |       |   |__ <instrument_name>.tsv (repeat for all selected instruments)
 |       |   |__ <instrument_name>.json (repeat for all selected instruments)
 ```
-Each instrument (`phenotype/<instrument_name>*`) has a `.tsv` Data Table containing all instrument values for the participants and a `.json` Data Dictionary describing all instrument fields (except those in the exclusion lists provided below).
 
-Information provided by the other files include:
-<p>
-<details>
-<summary>Demographics files (<i>phenotype/sed_basic_demographics</i>)</summary>
-<ul>
-    <li>Gestational age at birth</li>
-    <li>Sex</li>
-    <li>Recruitment site</li>
-    <li>Child demographics: race, ethnicity</li>
-    <li>Mother demographics: race, ethnicity, education, income, language spoken at home</li>
-    <li>Substance Use (SU) - can be any of the following:
-        <ul>
-            <li>Self reported use (TLFB): any flag raised for SU</li>
-            <li>Biospecimen: any result returning a flag for SU</li>
-            <li>Health V2 instrument (<i>pex_bm_healthv2_inf</i>): field “007”, option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) selected</li>
-        </ul>
-    </li>
-</ul>
-</details>
-</p>
+**USDTL urine results files** (`biosample_urine.tsv|json`): include BioSpecimen results fields such as DCCID, Visit Label, and Scannable code.
 
-<details>
-<summary>Biosample Urine Result files (<i>phenotype/biosample_urine</i>)</summary>
-<ul>
-    <li>USDTL Urine results produced by BAH (Booz-Allen Hamilton)</li>
-    <li>Includes DCCID, Visit Label, Scannable code, and other BioSpecimen result fields</li>
-    <li>‘bio’ domain prepended for all protocol elements</li>
-</ul>
-</details>
+**Instrument files** (`<instrument_name>.tsv|json`): each instrument has a `.tsv` Data Table containing all instrument values for the participants and a `.json` Data Dictionary describing all instrument fields (except those in the exclusion lists provided below). 
 
-<p>
-<details>
-<summary>Visit data files (<i>phenotype/visit_data</i>)</summary>
-<ul>
-    <li>Project</li>
-    <li>Cohort</li>
-    <li>Site</li>
-    <li>Visit information:
-         <ul>
-            <li>Label</li>
-            <li>Stage</li>
-            <li>Date</li>
-            <li>If the visit was missed and the reason</li>
-         </ul>
-    <li>Participant Withdrawal Information: If the participant withdrew from the study, the reason, and date</li>
-    <li>Protocol violation: If there was a protocol exception and the date</li>
-    <li>All Substance Use (SU) flags from three locations:
-        <ul>
-        <li>TimeLine Follow Back (TLFB) instrument flags</li>
-        <li>Health V2 flags</li>
-        <li>Biosample urine flags.</li>
-        </ul>
-</ul>
-</details>
-</p>
+**Visit data** (`visit_data.tsv|json`): include visit information fields (e.g. Label, Stage, Date, and if the visit was missed or participant withdrew and the reason) as well as all Substance Use (SU) flags from three locations ([TLFB](../measures/pregexp/substanceuse_all.md), [Health V2](../measures/pregexp/infanthealth.md), and [Biosample Urine](../measures/biospecimens/urine.md))
+
+**Demographics files** (`sed_basic_demographics.tsv|json`): include demographics of the infant/child (gestational age at birth, sex, recruitment site, race, ethnicity) and mother (race, ethnicity, education, income, language spoken at home). These files also contain information about substance abuse. This includes flags raised for SU (from self-reported use (TLFB) and/or biospecimen results) and the Health-V2 instrument *pex_bm_healthv2_inf* (field “007”) if option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) was selected.
+
 
 ## Excluded Elements & General Rules
 Below is a list of static elements (i.e. precisely identified hard-coded elements such as participants, instruments, and instrument fields) and dynamic elements excluded during the data release process as well as general rules applied to all data:
 
+
 <p>
-<details>
-<summary>Static Element Exclusions</summary>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Static Element Exclusions</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<b>Participant Filters:</b>
 <ul>
-<br><b>Participant Filters</b>:
     <li>Participants with a 'Postnatal Recruitment' visit  </li>
     <li>Multiple Birth Participants</li>
+</ul>
 
-<br><b>Excluded Instruments</b>:
+<b>Excluded Instruments:</b>
+<ul>
     <li>Biosensor Receipt Form ('sens_ch_rcpt')</li>
     <li>EEG Acquisition Checklists
     <ul>
@@ -128,8 +87,10 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
     <li>Visit start ('visit_start')</li>
     <li>Urgent Events ('adm_fd_urgent')</li>
     <li>Transitions in Care Questionnaire ('sed_cg_tic')</li>
+</ul>
 
 <br><b>Excluded Instrument Fields:</b>
+<ul>
     <li>Examiner ('Examiner’)  </li>
     <li>Date of Birth (‘DOB’)  </li>
     <li>Informant (‘informant’)  </li>
@@ -162,37 +123,46 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
     <li>Scannable codes (BioSamples codes, tracking Nos, etc...)  </li>
     <li>Line fields</li>
 </ul>
-</details>
+</div>
 </p>
 
+
+
 <p>
-<details>
-<summary>Dynamic Element Exclusions</summary>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Dynamic Element Exclusions</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
 </p>
-<ul>
 <b>Participant Filters:</b>
+<ul>
     <li>No brain rating or brain rating noted “abnormal” are not selected</li>
     <li>Only active participants and sessions are selected</li>
     <li>Participants from Data Coordination Center (DCC) and University of Florida (UFL) sites are not selected</li>
     <li>Only participants with PSCIDs starting with “CH” are selected (excluding all test participants e.g. QI, YI, XI, PI)</li>
+</ul>
 
-<br>
 <b>Visit Filters:</b>
+<ul>
     <li>Only visits whose 'LaunchPad Complete' Status was set to 'Complete' before July 1st, 2024 are included</li>
+</ul>
 
-<br>
 <b>Domain Filters:</b>
+<ul>
     <li>BioSpecimens</li>
     <li>Geocoding data</li>
     <li>Transition in Care</li>
     <li>REDCap surveys filled out directly in LORIS (Identified based on LORIS 'Examiner' field not set to 'REDCap')</li>
 </ul>
-</details>
-
-<p>
-<details>
-<summary>General Rules Applied to All Data</summary>
+</div>
 </p>
+
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">General Rules Applied to All Data</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
 <p>
 <ul>
     <li>All participants having only one active visit that is V01 will have their sex changed to “Other” instead of “Male” or “Female”</li>
@@ -212,5 +182,5 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
         </ul>
     </li>
 </ul>
-</details><br>
 </p>
+</div><br>

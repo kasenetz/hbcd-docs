@@ -5,19 +5,27 @@ Alterations were made to ecPROMIS, IBQ-R (VSF)+BI, and MAPS-TL for use of gender
 
 Because the psychometric validation for these measures was done using items from the original measures, future publications should account for and note edits made to individual items as part of HBCD DEI review.
 
-Click to expand sections below for additional HBCD modifications made to specific measures:
+Additional HBCD modifications made to specific measures include:
+
 <p>
-<details>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">ecPROMIS – Child Caregiver Interaction</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
 <p>
-<summary>ecPROMIS – Child Caregiver Interaction</summary>
-</p>
 The original ecPROMIS measure items use the term ‘my child,’ as they are designed for children aged 1 to 5 years. To make them suitable for the pre-V03 age range (3 to 9 months), Dr. Dave Cella and Dr. Courtney Blackwell, developers of ecPROMIS, provided guidance to adapt the items by replacing ‘my child’ with ‘my baby.’
-</details>
+</p>
+</div>
 </p>
 
-<details>
 <p>
-<summary>IBQ-R (VSF)+BI </summary>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">IBQ-R (VSF)+BI</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
 </p>
 As mentioned in the measure description, in addition to the overall <i>Surgency, Negative Affect and Effortful Control</i> scales derived from the validated IBQ-R-VSF, the HBCD Workgroup and measure experts added a Behavior Inhibition (or Social Fear) scale using items from the long form of the IBQ-R (IBQ-R-LF), including: 
 <p>
@@ -34,8 +42,8 @@ As mentioned in the measure description, in addition to the overall <i>Surgency,
 <li>47. When an unfamiliar person came to your home or apartment, how often did your baby cry when the visitor attempted to pick them up?</li>
 </ul>
 </p>
-</details>
-
+</div>
+</p>
 
 ## Quality Control & Known Issues  
 <ul>
