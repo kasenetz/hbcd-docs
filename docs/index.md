@@ -5,13 +5,15 @@
 
 <p style="text-align: center; font-size: 1.6em">Welcome to the Data Release page for the HEALthy Brain and Child Development (HBCD) Study!</p>
 
-<p style="text-align: center; font-size: 1.1em">Here we provide extensive information about the HBCD 1.0 data release and how to access the data. An overview of the HBCD Study can be found at <a href="https://hbcdstudy.org/">hbcdstudy.org</a>:</p> 
+<p style="text-align: center; font-size: 1.1em">Explore detailed information about HBCD Data Releases, including version updates, access guidelines, responsible data use policies, measure descriptions, and standardized procedures for data formatting, quality control, and processing</p>
 
-<br>
+<p style="text-align: center; font-size: 1.1em">Please refer to the central HBCD Study page (<a href="https://hbcdstudy.org/">hbcdstudy.org</a>) for comprehensive information about the study and complete <a href="https://hbcdstudy.org/study-protocols/">Study Protocols</a></p> 
+
 <br>
 
 --------------
 
+<i>The information below is sourced directly from the central HBCD Study page. For additional details, please visit <a href="https://hbcdstudy.org/about/">https://hbcdstudy.org/about/</a></i>
 
 
 ![](images/about-header-hbcd-text.png)
