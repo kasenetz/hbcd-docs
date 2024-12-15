@@ -55,13 +55,13 @@ nav:
             - Urine: measures/biospecimens/urine.md    
         - Demographics: measures/demographics.md
         - Geocoding: measures/geocoding.md
-        - Electroencephalogram (EEG): 
+        - Electroencephalogram: 
             - Overview: measures/eeg/overview.md
             - Faces Task: measures/eeg/faces_task.md
             - Auditory Mismatch Negativity Task: measures/eeg/aud_mm.md              
             - Video Resting State: measures/eeg/video_rs.md
             - Visual Evoked Potential Task: measures/eeg/vis_ep_task.md
-        - Magnetic Resonance Imaging (MRI):
+        - Magnetic Resonance Imaging:
             - "Overview & Raw Data QC": measures/mri/overview.md
             - Structural MRI: measures/mri/smri.md
             - Functional MRI: measures/mri/fmri.md
@@ -77,16 +77,16 @@ nav:
         - Physical Health: measures/physicalhealth.md
         - "Pregnancy & Exposure": 
             - "Personal & Family Psychiatric History": measures/pregexp/psych_history.md
-            - Pregnancy Health Measures: measures/pregexp/preghealth_all.md
-            - Infant Health-V2: measures/pregexp/infanthealth.md
-            - Substance Use Measures: measures/pregexp/substanceuse_all.md
-            - Mental Health (APA 1/2): measures/pregexp/mentalhealth.md
-            - DSM5 PTSD/Acute Stress: measures/pregexp/NSESSS.md
-            - Postnatal Depression (EPDS): measures/pregexp/EPDS.md
+            - Pregnancy Health: measures/pregexp/preghealth_all.md
+            - Infant Health: measures/pregexp/infanthealth.md
+            - Substance Use: measures/pregexp/substanceuse_all.md
+            - Mental Health: measures/pregexp/mentalhealth.md
+            - Acute Stress or PTSD: measures/pregexp/NSESSS.md
+            - Postnatal Depression: measures/pregexp/EPDS.md
         - "Social & Environmental Determinants":
             - Baby's First Years: measures/socenv_determinants/bfy.md
             - Discrimination: measures/socenv_determinants/discrimination.md 
-            - Intimate Partner Violence (eHITS): measures/socenv_determinants/eHITS.md               
+            - Intimate Partner Violence: measures/socenv_determinants/eHITS.md               
             - Neighborhood Safety: measures/socenv_determinants/neighborhood_safety.md  
             - PROMIS: measures/socenv_determinants/PROMIS.md
             - PACES: measures/socenv_determinants/PACES.md
