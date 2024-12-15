@@ -421,7 +421,7 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
 	</tr>
 	<tr>
 		<td>Nail_weight</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Weight of nails available to assay</td>
+		<td style="width: 170px; word-wrap: break-word; white-space: normal;">Weight of nails available to assay</td>
 		<td>Continuous</td>
 		<td>nail weight (grams)</td>
 	</tr>
@@ -435,43 +435,43 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
 		<td>test_ordered_n</td>
 		<td>Test ordered</td>
 		<td>Categorical</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">1: custom 14 panel test<br />2: Only enough to run EtG<br />3: Canceled because we could not run anything (no results generated)</td>
+		<td style="width: 170px; word-wrap: break-word; white-space: normal;">1: custom 14 panel test<br />2: Only enough to run EtG<br />3: Canceled because we could not run anything (no results generated)</td>
 	</tr>
 	<tr>
 		<td>c_any_specimen_n</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
+		<td style="width: 170px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
 		<td>Categorical</td>
 		<td>1: positive<br />0: negative<br />3: QNS</td>
 	</tr>
 	<tr>
 		<td>c_any_stim_n</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Any stimulants in nails (based on confirmatory results for amphetamine, methamptheamine, MDM, MDA, MDEA)</td>
+		<td style="width: 170px; word-wrap: break-word; white-space: normal;">Any stimulants in nails (based on confirmatory results for amphetamine, methamptheamine, MDM, MDA, MDEA)</td>
 		<td>Categorical</td>
 		<td>1: positive<br />0: negative<br />3: QNS</td>
 	</tr>
 	<tr>
 		<td>s_amp_n</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Screening test in nails: amphetamine/MDA dual test (amp/mamp)</td>
+		<td style="width: 170px; word-wrap: break-word; white-space: normal;">Screening test in nails: amphetamine/MDA dual test (amp/mamp)</td>
 		<td>Categorical</td>
 		<td>1: positive<br />0: negative<br />3: QNS</td>
 	</tr>
 	<tr>
 		<td>s_mamp_n</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Screening test in nails: methamphetamine/MDMA dual test (amp/mamp)</td>
+		<td style="width: 170px; word-wrap: break-word; white-space: normal;">Screening test in nails: methamphetamine/MDMA dual test (amp/mamp)</td>
 		<td>Categorical</td>
 		<td>1: positive<br />0: negative<br />3: QNS</td>
 	</tr>
 	<tr>
 		<td>c_amp_n_cat</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (categorical) (amp/mamp)</td>
+		<td style="width: 170px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (categorical) (amp/mamp)</td>
 		<td>Categorical</td>
 		<td>1: positive<br />0: negative<br />3: QNS<br />4: screen negative</td>
 	</tr>
 	<tr>
 		<td>c_amp_n</td>
-		<td style="width: 180px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (amp/mamp)</td>
+		<td style="width: 170px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (amp/mamp)</td>
 		<td>Continuous</td>
-		<td>concentration value; -999</td>
+		<td>concentration value -999</td>
 	</tr>
 </tbody>
 </table>

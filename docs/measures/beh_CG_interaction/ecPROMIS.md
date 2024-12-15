@@ -1,9 +1,11 @@
 # ecPROMIS Child-Caregiver Interaction
 
 <p>
-<div class="banner">
-    <span class="emoji">💡</span>
-    <span class="text">See <a href="../overview">Overview</a> for <i>HBCD Modifications</i> and <i>Quality Control & Known Issues</i></span>
+<div id="banner" class="banner">
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">
+	See <a href="../overview">Overview</a> for HBCD Modifications and Quality Control & Known Issues
+	</span>
 </div>
 </p>
 
@@ -31,6 +33,9 @@ Each of the 5 items for ecPROMIS Child-Caregiver Interaction is answered on a sc
     </ul>
 </div>
 </p>
+
+## HBCD Modifications
+The original ecPROMIS measure items use the term ‘my child,’ as they are designed for children aged 1 to 5 years. To make them suitable for the pre-V03 age range (3 to 9 months), Dr. Dave Cella and Dr. Courtney Blackwell, developers of ecPROMIS, provided guidance to adapt the items by replacing ‘my child’ with ‘my baby.’ See additional general modifications made to Behavior and Caregiver-Child Interactions measures [here](overview.md#hbcd-modifications).
 
 <details class="collapsible references">
   <summary class="references">References</summary>

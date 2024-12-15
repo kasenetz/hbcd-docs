@@ -2,14 +2,14 @@
 
 <p>
 <div id="banner" class="banner">
-<span>
     <span class="emoji">&#x1f4a1;</span>
     <span class="text">Only data measures provided in the current release (V01 - V03) are described</span>
-</span>
 </div>
 </p>
 
-In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures and known issues, and references. For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). The visits and corresponding ages of the infant/child are listed below. Please visit the HBCD Study Page [here](https://hbcdstudy.org/study-protocols/) for full study protocols.
+In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures and known issues, and references. For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). 
+
+The visits and corresponding ages of the infant/child are listed below. Please visit the HBCD Study Page [here](https://hbcdstudy.org/study-protocols/) for full study protocols.
 <table>
 	<thead>
 		<tr>
@@ -47,10 +47,11 @@ In this section we provide a brief overview of each data measure provided in the
 	</tbody>
 </table>
 
-## HBCD Workgroups and Associated Data Measures
+## HBCD Workgroups and Associated Data Measure Sections
 <ul>
 <li>BEHAVIOR & CAREGIVER-CHILD INTERACTION
 <ul>
+<li><a href="beh_CG_interaction/overview">Overview</a></li>
 <li><a href="beh_CG_interaction/ecPROMIS">ecPROMIS</a></li>
 <li><a href="beh_CG_interaction/IBQ-R">IBQ-R (VSF)+BI</a></li>
 <li><a href="beh_CG_interaction/MAPS-TL">MAPS-TL</a></li></ul>
@@ -58,7 +59,7 @@ In this section we provide a brief overview of each data measure provided in the
 </ul>
 
 <ul>
-<li>BIOSPECIMENS
+<li>BIOSPECIMENS & OMICS
 <ul>
 <li><a href="biospecimens/blood">Blood</a></li>
 <li><a href="biospecimens/nails">Nails</a></li>
@@ -73,6 +74,7 @@ In this section we provide a brief overview of each data measure provided in the
 <ul>
 <li>ELECTROENCEPHALOGRAM (EEG) 
 <ul>
+<li><a href="eeg/overview">Overview</a></li>
 <li><a href="eeg/faces_task">Faces Task</a></li>
 <li><a href="eeg/aud_mm">Auditory Mismatch Negativity Task</a></li>
 <li><a href="eeg/video_rs">Video Resting State</a></li>
@@ -87,10 +89,11 @@ In this section we provide a brief overview of each data measure provided in the
 <ul>
 <li>MAGNETIC RESONANCE IMAGING (MRI):
 <ul>
+<li><a href="mri/overview">Overview</a></li>
 <li><a href="mri/smri">Structural MRI</a></li>
 <li><a href="mri/fmri">Functional MRI</a></li>
 <li><a href="mri/dmri">Diffusion MRI</a></li>
-<li><a href="mri/quant">Quantitative MRI</a></li>
+<li><a href="mri/qmri">Quantitative MRI</a></li>
 <li><a href="mri/mrs">Magnetic Resonance Spectroscopy</a></li></ul>
 </li>
 </ul>

@@ -1,8 +1,10 @@
 # MAPS-TL
 <p>
-<div class="banner">
-    <span class="emoji">💡</span>
-    <span class="text">See <a href="../overview">Overview</a> for <i>HBCD Modifications</i> and <i>Quality Control & Known Issues</i></span>
+<div id="banner" class="banner">
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">
+	See <a href="../overview">Overview</a> for HBCD Modifications and Quality Control & Known Issues
+	</span>
 </div>
 </p>
 
