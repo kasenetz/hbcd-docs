@@ -29,6 +29,7 @@ details.references, .collapsible.references {
   padding: 10px;
   margin: 10px 1 10px;
   border-radius: 5px;
+  list-style: none; /* help ensure arrow doesn't appear */
 }
 /* Arrow positioning to the right */
 summary.references::after {
