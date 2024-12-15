@@ -125,7 +125,7 @@ The visits and corresponding ages of the infant/child are listed below. Please v
 </ul>
 
 <ul>
-<li>PREGNANCY & EXPOSURE 
+<li>PREGNANCY & EXPOSURE, INCLUDING SUBSTANCE USE
 <ul>
 <li><a href="pregexp/psych_history">Personal & Family Psychiatric History</a></li>
 <li><a href="pregexp/preghealth_all">Pregnancy Health Measures</a></li>

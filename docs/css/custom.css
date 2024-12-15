@@ -16,7 +16,6 @@ summary.references {
   font-weight: normal;
   border-bottom: 1px solid #6b6b6b66;
   padding-bottom: 10px; 
-  /* Remove default browser styling for the summary arrow to use arrow specs below instead */
   list-style: none; /* Removes bullet/arrow for some browsers */
   appearance: none; /* Disables built-in styles (supported in most modern browsers) */
   -webkit-appearance: none; /* For WebKit browsers (Safari, etc.) */
