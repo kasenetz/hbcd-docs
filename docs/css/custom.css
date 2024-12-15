@@ -23,6 +23,9 @@ summary.references {
   position: relative; /* Required for the custom arrow placement */
   cursor: pointer;
 }
+summary.references::-webkit-details-marker {
+  display: none; /* Hides the default arrow */
+}
 /* References section collapsible styling */
 details.references, .collapsible.references {
   background-color: #fff;
