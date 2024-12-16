@@ -2,7 +2,7 @@
 ## Data Access/Use
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="faq-access" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji">&#x1f4a1;</span>
     <span class="text">How do I access the data?</span>
@@ -16,7 +16,7 @@
 </p>
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="faq-nonus" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji">&#x1f4a1;</span>
     <span class="text">I’m from a non-US institution - can I access the data?</span>
@@ -31,7 +31,7 @@
 </p>
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="faq-cost" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji">&#x1f4a1;</span>
     <span class="text">Is there a cost to access the data?</span>
@@ -45,7 +45,7 @@
 </p>
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="faq-duc" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji">&#x1f4a1;</span>
     <span class="text">Can I have a student or trainee on my DUC? I’m a student, can I have my own DUC?</span>
@@ -59,7 +59,7 @@
 </p>
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="faq-irb" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji">&#x1f4a1;</span>
     <span class="text">Do I need IRB approval to use these data?</span>
@@ -76,7 +76,7 @@
 ## Protocol
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="faq-protocol" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji">&#x1f4a1;</span>
     <span class="text">Where can I find the protocol for the HBCD study?</span>
