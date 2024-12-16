@@ -129,3 +129,17 @@
 </p>
 
 
+<p>
+<div id="faq-raw" class="notification-banner" onclick="toggleCollapse(this)">
+<span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">How can I download raw DICOM or source data?</span>
+</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>Unprocessed raw imaging DICOM files will be made publicly available in future releases. However, raw data converted to the Brain Imaging Data Structure (BIDS) standard is included in HBCD Release 1.0. See <a href="../datacuration/bids">Release Notes: HBCD BIDS Conversion</a> for a description of BIDS as well as conversion procedures.</p>
+</div>
+</p>
+
