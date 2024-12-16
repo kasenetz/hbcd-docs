@@ -185,3 +185,52 @@ Depending on the scanner manufacturer, <i>dcm2niix</i> conversion for QALAS prod
 </table>
 </div>
 </p>
+
+
+## Data Curation & Exclusion Criteria
+Quality control metrics for raw MRI images, generated according to the procedures outlined [here](../measures/mri/overview.md), are provided in the `scans.tsv` file within the session folder. Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional quality checks to ensure data integrity. For instance, all images were verified to be acquired using a head coil before inclusion in the BIDS dataset. Additional exclusion criteria for each imaging modality are detailed below.
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Exclusion Criteria</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<ul>
+<u>T1w:</u>
+  <li>TR outside of range 2.3-2.41</li>
+  <li>TE outside of range 0.002-0.0035</li>
+  <li>TI outside of range 1.06-1.1</li>
+  <li>Slice thickness not being 0.8</li>
+  <br>
+
+<u>T2w and MRS Localizer:</u>
+  <li>TR outside of range 2.5-4.5</li>
+  <li>TE outside of range 0.09-0.15</li>
+  <li>TI outside of range 0.29-0.33</li>
+  <li>Slice thickness outside of range 0.563-0.565</li>
+  <br>
+
+<u>Diffusion:</u>
+  <li>TR not being set to 4.8</li>
+  <li>TE outside of range 0.0880-0.0980</li>
+  <li>Slice thickness not being set to 1.7</li>
+  <li>The total number of volumes between DWI AP and DWI PA is below 90 volumes</li>
+  <br>
+
+<u>EPI Fieldmap:</u>
+  <li>TR outside of range 8.4-9.2</li>
+  <li>TE outside of range 0.064-0.0661</li>
+  <li>TI not being set to 2</li>
+  <li>Slice thickness outside of range 0.563-0.565</li>
+  <br>
+
+<u>Functional:</u>
+  <li>TR not being set to 1.725</li>
+  <li>TE outside of range 0.0369-0.0371</li>
+  <li>Slice thickness not being set to 2</li>
+  <li>fMRI is shorter than 87 volumes (approximately less than 2.5 minutes long)</li>
+</ul>
+</div>
+</p>
+

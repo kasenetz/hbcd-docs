@@ -2,3 +2,4 @@
 docs/.DS_Store
 scratch.md
 __pycache__/
+.vscode/

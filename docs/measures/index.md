@@ -6,7 +6,9 @@ The visits and corresponding ages of the infant/child are listed below. **Only d
 
 ![](../images/timeline-img.png)
 
-## HBCD Workgroups and Associated Data Measure Sections
+<br>
+
+## HBCD Workgroups & Associated Data Measures
 <ul>
 <li>BEHAVIOR & CAREGIVER-CHILD INTERACTION
 <ul>
