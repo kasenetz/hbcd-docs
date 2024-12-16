@@ -103,7 +103,7 @@
 
 ## Imaging
 <p>
-<div id="faq-imagingprotocol" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="faq-mriprotocol" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji">&#x1f4a1;</span>
     <span class="text">Where can I find more information about the imaging protocol?</span>
