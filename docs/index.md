@@ -10,7 +10,7 @@
 <br>
 <br>
 
-Annual data releases, accessible through the NIH Brain Development Cohorts (NBDC) Data Sharing Platform, include information from the current participant cohort and all visits completed up to just before the release date. The inaugural HBCD Data Release 1.0 is scheduled for January 2025.
+Annual data releases, accessible through the <a href="https://nbdc-hbcd-beta.lassoinformatics.com">NIH Brain Development Cohorts (NBDC) Data Sharing Platform</a>, include information from the current participant cohort and all visits completed up to just before the release date. The inaugural HBCD Data Release 1.0, scheduled for January 2025, includes prenatal data from over 1100 pregnant participants as well as follow-up data from over half of their babies.
 
 <br>
 <br>
