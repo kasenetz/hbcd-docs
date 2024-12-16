@@ -3,11 +3,6 @@
 ## HBCD MRI
 HBCD includes a suite of **magnetic resonance imaging (MRI)** and **spectroscopy (MRS)** data measures acquired as part of a comprehensive pediatric neuroimaging protocol, meticulously designed to overcome technical challenges of imaging early in life. 
 
-![](Deanetal2024_visits.png)
-<p style="text-align: right;"><small>
-<i>Figure provided courtesy of <a href="https://doi.org/10.1016/j.dcn.2024.101452">Dean et al. 2024</a></i>
-</small></p>
-
 All data are acquired during visits V02, V03, V04, and V06 across all 27 Study recruitment sites (note that the current release only includes data from V01-V03). Please visit the following sections for a summary of each modality:
 
 <ul>
