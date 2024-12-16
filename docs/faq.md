@@ -72,20 +72,6 @@
 </div>
 </p>
 
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji">&#x1f4a1;</span>
-    <span class="text">Do I need IRB approval to use these data?</span>
-  </span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-<br>
-<p><i>Sourced directly from ABCD</i>: "Institutions vary on whether they consider use of the de-identified dataset to be human subjects research, with some requiring expedited-style or even exempt IRB reviews by their institution’s IRB. Other institutions do not consider it to be human subjects research given the de-identified nature of the data. That is a question to ask your IRB." </p>
-</div>
-</p>
-
 
 ## Protocol
 
