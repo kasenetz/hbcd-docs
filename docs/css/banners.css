@@ -33,7 +33,6 @@
   padding: 0 20px;
   border-radius: 0 0 5px 5px;
 }
-
 .collapsible-content {
   max-height: 0;
   overflow: hidden;
@@ -60,6 +59,12 @@
   transform: rotate(90deg);
 }
 
+/* text */
+.text {
+  font-size: 1rem; 
+  font-weight: bold; 
+}
+
 /* Individual Collapsible Banner Settings */
 /* Red Collapsible RDU Alert Banner */
 .alert-banner {
@@ -79,10 +84,7 @@
   margin-right: 10px;
   color: red;
 }
-.alert-banner .text {
-  font-size: 1rem; 
-  font-weight: bold; 
-}
+
 
 /* Yellow Collapsible Warning Banner */
 .warning-banner {
@@ -102,10 +104,6 @@
   margin-right: 10px;
   color: yellow;
 }
-.warning-banner .text {
-  font-size: 1rem;
-  font-weight: bold;
-}
 
 /* Green Collapsible Notification Banner */
 .notification-banner {
@@ -124,10 +122,6 @@
   font-size: 1.5rem; 
   margin-right: 10px;
   color: #14b955;
-}
-.notification-banner .text {
-  font-size: 1rem; 
-  font-weight: bold;
 }
 .notification-collapsible-content {
   max-height: 0;
