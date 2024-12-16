@@ -128,7 +128,6 @@
 </div>
 </p>
 
-
 <p>
 <div id="faq-raw" class="notification-banner" onclick="toggleCollapse(this)">
 <span>
@@ -142,4 +141,19 @@
 <p>Unprocessed raw imaging DICOM files will be made publicly available in future releases. However, raw data converted to the Brain Imaging Data Structure (BIDS) standard is included in HBCD Release 1.0. See <a href="../datacuration/bids">Release Notes: HBCD BIDS Conversion</a> for a description of BIDS as well as conversion procedures.</p>
 </div>
 </p>
+
+<p>
+<div id="faq-fov" class="notification-banner" onclick="toggleCollapse(this)">
+<span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">Why is the cerebellum sometimes cutoff in fMRI and dMRI?</span>
+</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>Raw QC excludes only images with major issues from further processing. Due to the relatively limited brain coverage in dMRI and fMRI acquisitions, the superior or inferior edges of the brain may occasionally fall outside the slice stack, referred to as field of view (FOV) cutoff. In cases where the cutoff is extreme (>30% of the image), the dMRI and fMRI series are excluded during raw QC. However, mild (<10%) to moderate (10–30%) FOV cutoff does not lead to exclusion. Brain regions outside of the FOV will have missing values in the tabulated imaging data, but the remaining areas remain usable. Automated post-processing QC metrics provide measurements of superior and inferior FOV cutoff, which researchers use for the exclusion of participants with significant FOV cutoff from analyses. See <a href="../measures/mri/overview/#hbcd-raw-mri-data-qc">HBCD Raw MRI Data QC</a> in the Release Notes for a description of automated and manual quality control procedures for raw imaging data.</p>
+</div>
+</p>
+
 
