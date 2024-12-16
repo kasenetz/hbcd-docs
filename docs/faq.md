@@ -72,9 +72,20 @@
 </div>
 </p>
 
+<p>
+<div id="faq-ai" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">Can I use ChatGPT or another generative AI tool to create figures and graphs representing HBCD data?</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>🚧 UNDER CONSTRUCTION 🚧</p>
+<p>No, this is not permitted. Inputting HBCD data to generative AI tools, such as ChatGPT, is a violation of the terms of use outlined in the data use agreement.</p>
+</div>
+</p>
 
 ## Protocol
-
 <p>
 <div id="faq-protocol" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
@@ -85,6 +96,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
+<p>🚧 UNDER CONSTRUCTION 🚧</p>
 <p>You can find our protocol on the scientist section of our website <a href="https://hbcdstudy.org/study-protocols/">here</a>, but in general we are not able to share the actual measures outside of the study, as many are proprietary. You can read a lot more about the protocol development in a special issue of DCN on the HBCD Study <a href="https://www.sciencedirect.com/special-issue/10VNSS1BBLV">here</a>. Finally, you can also generally find the questions asked and answer options as part of the protocol on our new interactive <a href="../datadictionary">Data Dictionary</a> and find more information on the <a href="../">HBCD Data Release webpage</a>.</p>
 </div>
 </p>
