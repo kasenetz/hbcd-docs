@@ -101,3 +101,31 @@
 </div>
 </p>
 
+## Imaging
+<p>
+<div id="faq-imagingprotocol" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">Where can I find more information about the imaging protocol?</span>
+  </span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>Please see <a href="../mriprotocols/mriprotocols">MRI Protocols</a>.</p>
+</div>
+</p>
+
+<p>
+<div id="faq-dataproc" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">What methods were used for processing the imaging data to produce the minimally processed and tabulated imaging data?</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>Please refer to the <a href="../processing/pipelines">Release Notes: Data Processing</a> for an overview of the processing pipelines used and software standards. For full documentation on how each pipeline was used for HBCD processing, please visit the external <a href="https://hbcd-cbrain-processing.readthedocs.io/latest/">HBCD Processing</a> page.</p>
+</div>
+</p>
+
+
