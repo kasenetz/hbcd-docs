@@ -15,7 +15,7 @@ Annual data releases, accessible through the <a href="https://nbdc-hbcd-beta.las
 <br>
 <br>
 
-Please refer to the central HBCD Study page (<a href="https://hbcdstudy.org/">hbcdstudy.org</a>) for comprehensive information about the study and complete <a href="https://hbcdstudy.org/study-protocols/">Study Protocols</a></p> 
+Please refer to the central HBCD Study page (<a href="https://hbcdstudy.org/">hbcdstudy.org</a>) for comprehensive information about the study and complete <a href="https://hbcdstudy.org/study-protocols/">Study Protocols</a>.</p> 
 
 <br>
 
