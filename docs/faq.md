@@ -156,4 +156,45 @@
 </div>
 </p>
 
+<p>
+<div id="faq-dmri" class="notification-banner" onclick="toggleCollapse(this)">
+<span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">Where are the dMRI gradient tables?  </span>
+</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>
+Raw dMRI gradient tables can be found in the <code>assembly_bids/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../datacuration/bids">Release Notes: HBCD BIDS Conversion</a> for an overview of BIDS and dMRI-specific details <a href="../datacuration/imaging/#diffusion">here</a>.
 
+<pre>
+  <code>
+assembly_bids/ 
+|__ sub-&lt;label&gt;/
+|   |__ ses-&lt;label&gt;/
+|       |__ dwi/
+|       |   |__ sub-&lt;label&gt;_ses-&lt;label&gt;_dir-&lt;AP|PA&gt;_run-&lt;label&gt;_dwi.bval
+|       |   |__ sub-&lt;label&gt;_ses-&lt;label&gt;_dir-&lt;AP|PA&gt;_run-&lt;label&gt;_dwi.bvec
+  </code>
+</pre>
+</p>
+</div>
+</p>
+
+<p>
+<div id="faq-fov" class="notification-banner" onclick="toggleCollapse(this)">
+<span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">Are FreeSurfer processing outputs included in the data sharing?  </span>
+</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>
+UNDER CONSTRUCTION
+</p>
+</div>
+</p>
