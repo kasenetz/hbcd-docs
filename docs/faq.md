@@ -97,7 +97,7 @@
 <div class="notification-collapsible-content">
 <br>
 <p>🚧 UNDER CONSTRUCTION 🚧</p>
-<p>You can find our protocol on the scientist section of our website <a href="https://hbcdstudy.org/study-protocols/">here</a>, but in general we are not able to share the actual measures outside of the study, as many are proprietary. You can read a lot more about the protocol development in a special issue of DCN on the HBCD Study <a href="https://www.sciencedirect.com/special-issue/10VNSS1BBLV">here</a>. Finally, you can also generally find the questions asked and answer options as part of the protocol on our new interactive <a href="../datadictionary">Data Dictionary</a> and find more information on the <a href="../">HBCD Data Release webpage</a>.</p>
+<p>HBCD study protocols are available in the Scientist section of the main HBCD Study website <a href="https://hbcdstudy.org/study-protocols/">here</a>. However, please note that we are generally unable to share the specific measures used outside of the study, as many are proprietary. General information about the questions asked and corresponding answer options can be explored through our new interactive <a href="../datadictionary">Data Dictionary</a> and additional details/resources are available in measure descriptions provided in the section <a href="../measures/">Release Notes: Data Measures & Quality Control</a>. For further details on the protocol development, please refer to the <a href="https://www.sciencedirect.com/special-issue/10VNSS1BBLV">special issue of Developmental Cognitive Neuroscience</a> dedicated to the HBCD Study .</p>
 </div>
 </p>
 
