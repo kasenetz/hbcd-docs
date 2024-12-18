@@ -170,7 +170,7 @@ Raw dMRI gradient tables can be found in the <code>assembly_bids/</code> folder 
 
 <pre>
   <code>
-assembly_bids/ 
+raw/ 
 |__ sub-&lt;label&gt;/
 |   |__ ses-&lt;label&gt;/
 |       |__ dwi/

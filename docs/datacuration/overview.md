@@ -9,26 +9,24 @@ As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure]
 
 ```
 root/
-|
-|__ README
-|
 |__ raw/ 
+|   |__ sub-<label>/
+|   |   |__ sub-<label>_sessions.tsv
+|   |   |__ sub-<label>_sessions.json
+|   |   |__ ses-<label>/
+|   |       |__ anat/
+|   |       |__ dwi/
+|   |       |__ eeg/
+|   |       |__ fmap/
+|   |       |__ func/
+|   |       |__ motion/
+|   |       |__ mrs/
+|   |       |__ sub-<label>_ses-<label>_scans.tsv
+|   |       |__ sub-<label>_ses-<label>_scans.json
+|   |
 |   |__ dataset_description.json
 |   |__ participants.tsv
 |   |__ participants.json 
-|   |__ sub-<label>/
-|       |__ sub-<label>_sessions.tsv
-|       |__ sub-<label>_sessions.json
-|       |__ ses-<label>/
-|           |__ anat/
-|           |__ dwi/
-|           |__ eeg/
-|           |__ fmap/
-|           |__ func/
-|           |__ motion/
-|           |__ mrs/
-|           |__ sub-<label>_ses-<label>_scans.tsv
-|           |__ sub-<label>_ses-<label>_scans.json
 |
 |__ derivatives/ 
 |   |__ bibsnet/
@@ -43,14 +41,18 @@ root/
 |   |__ xcp_d/
 |   
 |__ phenotype/
-    |__ biosample_urine.tsv
-    |__ biosample_urine.json
-    |__ sed_basic_demographics.tsv
-    |__ sed_basic_demographics.json
-    |__ visit_data.tsv
-    |__ visit_data.json
-    |__ <instrument_name>.tsv (repeat for all selected instruments)
-    |__ <instrument_name>.json (repeat for all selected instruments)
+|   |__ phenotype.tsv
+|   |__ phenotype.json
+|   |__ biosample_urine.tsv
+|   |__ biosample_urine.json
+|   |__ sed_basic_demographics.tsv
+|   |__ sed_basic_demographics.json
+|   |__ visit_data.tsv
+|   |__ visit_data.json
+|   |__ <instrument_name>.tsv (repeat for all selected instruments)
+|   |__ <instrument_name>.json (repeat for all selected instruments)
+|
+|__ README    
 ```
 
 ## BIDS Conversion Procedures

@@ -25,15 +25,12 @@ bibsnet/
 |__ sub-<label>/
     |__ ses-<label>/
         |__ anat/
-            |__ sub-<label>_ses-<label>_space-T1w_desc-aseg_dseg.<json|nii.gz>
-            |__ sub-<label>_ses-<label>_space-T1w_desc-aseg_volumes.<json|nii.gz>
-            |__ sub-<label>_ses-<label>_space-T1w_desc-aseg_brain-mask.<json|nii.gz>
-            |__ sub-<label>_ses-<label>_space-T1w_desc-aseg_brain-mask.<json|nii.gz>   
-            |__ sub-<label>_ses-<label>_space-T2w_desc-aseg_dseg.<json|nii.gz>
-            |__ sub-<label>_ses-<label>_space-T2w_desc-aseg_volumes.<json|nii.gz>
-            |__ sub-<label>_ses-<label>_space-T2w_desc-aseg_brain-mask.<json|nii.gz>
-            |__ sub-<label>_ses-<label>_space-T2w_desc-aseg_brain-mask.<json|nii.gz>         
-
+            |__ sub-<label>_ses-<label>_space-<T1w|T2w>_desc-aseg_dseg.nii.gz
+            |__ sub-<label>_ses-<label>_space-<T1w|T2w>_desc-aseg_dseg.json
+            |__ sub-<label>_ses-<label>_space-<T1w|T2w>_desc-aseg_volumes.nii.gz
+            |__ sub-<label>_ses-<label>_space-<T1w|T2w>_desc-aseg_volumes.json            
+            |__ sub-<label>_ses-<label>_space-<T1w|T2w>_desc-aseg_brain-mask.nii.gz
+            |__ sub-<label>_ses-<label>_space-<T1w|T2w>_desc-aseg_brain-mask.json
 ```
 
 

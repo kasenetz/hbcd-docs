@@ -4,6 +4,8 @@ The `phenotype/` folder includes instrument data, visit data, biosample, and dem
 ```
 root/
 |__ phenotype/
+|   |__ phenotype.tsv
+|   |__ phenotype.json
 |   |__ biosample_urine.tsv
 |   |__ biosample_urine.json
 |   |__ sed_basic_demographics.tsv

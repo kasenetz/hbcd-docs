@@ -5,22 +5,24 @@ The `raw/` folder includes raw MR, EEG, and motion data organized under subject/
 
 ```
 root/
-|__ assembly_bids/ 
+|__ raw/ 
+|   |__ sub-<label>/
+|   |   |__ sub-<label>_sessions.tsv
+|   |   |__ sub-<label>_sessions.json
+|   |   |__ ses-<label>/
+|   |       |__ anat/
+|   |       |__ dwi/
+|   |       |__ eeg/
+|   |       |__ fmap/
+|   |       |__ func/
+|   |       |__ motion/
+|   |       |__ mrs/
+|   |       |__ sub-<label>_ses-<label>_scans.tsv
+|   |       |__ sub-<label>_ses-<label>_scans.json
+|   |
+|   |__ dataset_description.json
 |   |__ participants.tsv
 |   |__ participants.json 
-|   |__ sub-<label>/
-|       |__ sub-<label>_sessions.tsv
-|       |__ sub-<label>_sessions.json
-|       |__ ses-<label>/
-|           |__ anat/
-|           |__ dwi/
-|           |__ eeg/
-|           |__ fmap/
-|           |__ func/
-|           |__ motion/
-|           |__ mrs/
-|           |__ sub-<label>_ses-<label>_scans.tsv
-|           |__ sub-<label>_ses-<label>_scans.json
 ```
 
 ## Imaging
