@@ -9,6 +9,9 @@ As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure]
 
 ```
 root/
+|
+|__ README
+|
 |__ raw/ 
 |   |__ dataset_description.json
 |   |__ participants.tsv

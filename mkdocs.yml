@@ -93,7 +93,7 @@ nav:
     - HBCD BIDS Data:
         - Data Structure: 
             - BIDS Overview: datacuration/overview.md
-            - Assembly BIDS: datacuration/imaging.md
+            - Raw Data: datacuration/imaging.md
             - Derivatives: datacuration/derivatives.md
             - Phenotype: datacuration/phenotypes.md
         - Exclusion Criteria: datacuration/exclusions.md
