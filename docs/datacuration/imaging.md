@@ -1,6 +1,6 @@
 
 # Imaging, EEG, & Motion
-Imaging (MRI & MRS), EEG, and motion data are provided at a session-level under `assembly_bids`.
+Imaging (MRI & MRS), EEG, and motion data are provided at a session-level under `assembly_bids/`:
 
 ```
 root/
@@ -24,7 +24,7 @@ root/
 
 ## IMAGING
 ### Anatomical (anat/)
-Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`acq-mrsLocAx` and `acq-mrsLocCor` indicate axial and coronal localizers, respectively), and Quantitative MRI QALAS files:
+Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`acq-mrsLocAx` and `acq-mrsLocCor` indicate axial and coronal localizers, respectively), and Quantitative MRI QALAS files. 
 ```
 anat/
 |__ sub-<label>_ses-<label>_run-<label>_T1w.nii.gz 
@@ -36,6 +36,7 @@ anat/
 |__ sub-<label>_ses-<label>_run-<label>_inv-<0|1|2|3|4>_QALAS.nii.gz
 |__ sub-<label>_ses-<label>_run-<label>_inv-<0|1|2|3|4>_QALAS.json
 ```
+*Please see information about hardcoded fields for Philips and GE [here](overview.md/#hardcoded-fields-for-philips-ge) and post-BIDS conversion modifications made for QALAS [here](overview.md/#qalas-post-conversion-modifications).*
 
 ### Diffusion (dwi/)
 Diffusion files include DWI runs (`*_dwi.nii.gz`) along with `bval` and `bvec` files, which provide the magnitudes and orientations of the diffusion gradients for each volume, respectively. Single-band reference files (`*_sbref.nii.gz`) are also included in the release. All images were acquired in both AP (`dir-AP`) and PA (`dir-PA`) phase encoding directions.
@@ -48,6 +49,7 @@ dwi/
 |__ sub-<label>_ses-<label>_dir-<AP|PA>_run-<label>_sbref.json
 |__ sub-<label>_ses-<label>_dir-<AP|PA>_run-<label>_sbref.nii.gz
 ```
+*NOTE: Please see information about hardcoded fields for Philips and GE [here](overview.md/#hardcoded-fields-for-philips-ge).*
 
 ### Functional (func/) and Fieldmaps (fmap/) 
 Functional files include BOLD functional resting state images under `func/`. Each functional acquisition has an associated pair of EPI fieldmaps acquired to use for distortion correction under `fmap/`, with AP (`dir-AP`) and PA (`dir-PA`) phase encoding directions. 
@@ -60,24 +62,25 @@ Functional files include BOLD functional resting state images under `func/`. Eac
 |   |__ sub-<label>_ses-<label>_task-rest_dir-PA_run-<label>_bold.json
 |
 |__ fmap/
-|   |__ sub-<label>_ses-<label>_dir-AP_run-<label>_epi.nii.gz
-|   |__ sub-<label>_ses-<label>_dir-AP_run-<label>_epi.json
-|   |__ sub-<label>_ses-<label>_dir-PA_run-<label>_epi.nii.gz
-|   |__ sub-<label>_ses-<label>_dir-PA_run-<label>_epi.json
+    |__ sub-<label>_ses-<label>_dir-AP_run-<label>_epi.nii.gz
+    |__ sub-<label>_ses-<label>_dir-AP_run-<label>_epi.json
+    |__ sub-<label>_ses-<label>_dir-PA_run-<label>_epi.nii.gz
+    |__ sub-<label>_ses-<label>_dir-PA_run-<label>_epi.json
 
-SIEMENS ONLY:
+[SIEMENS ONLY]
     |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.nii.gz
     |__ sub-<label>_ses-<label>_acq-anat_run-<label>_TB1TFL.json
     |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.nii.gz
     |__ sub-<label>_ses-<label>_acq-fmap_run-<label>_TB1TFL.json
 
-GE AND PHILIPS ONLY:
+[GE AND PHILIPS ONLY]
     |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.nii.gz 
     |__ sub-<label>_ses-<label>_acq-tr1_run-<label>_TB1AFI.json 
     |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.nii.gz
     |__ sub-<label>_ses-<label>_acq-tr2_run-<label>_TB1AFI.json
 
 ```
+*NOTE: Please see information about hardcoded fields for Philips and GE [here](overview.md/#hardcoded-fields-for-philips-ge).*
 
 ### MR Spectroscopy (mrs/)
 MRS files include metabolite and water reference (`*_<svs|ref>.nii.gz`) data aqcuired via short-echo-time (TE = 35 ms) and HERCULES (spectral-edited, TE = 80 ms) (`acq-<shortTE|hercules>`). The JSON sidecar files include the dimensions of the NIfTI-MRS data array, holding different coil elements in dimension 5 and different transients in dimension 6.

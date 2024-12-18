@@ -22,3 +22,11 @@ h3 {
   border-bottom: 1px solid #6b6b6b66;
   padding-bottom: 5px;
   }    
+
+h4 {
+  font-size: 1em; 
+  margin: 40px 0 0; 
+  font-weight: normal;
+  border-bottom: 1px solid #6b6b6b66;
+  padding-bottom: 5px;
+  }    

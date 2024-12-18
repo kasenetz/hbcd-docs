@@ -1,7 +1,7 @@
 # Overview
 
 ## Brain Imaging Data Structure (BIDS)
-As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) (BIDS) standard for data organization. At a high level, the BIDS structure for raw HBCD data will appear like so:
+As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) (BIDS) standard for data organization. At a high level, raw HBCD BIDS data has the following folder structure:
 
 ```
 root/
@@ -43,41 +43,26 @@ For most imaging data, DICOM image files are converted to BIDS standard formatti
 
 For EEG, BIDS conversion  was handled by [EEG2BIDS Wizard](https://github.com/aces/eeg2bids), a custom MATLAB application installed at all HBCD sites to facilitate data handling and preprocessing. After each EEG session, raw data are uploaded to the Wizard, which, among other things, converts this data to the BIDS standard data structure.
 
-<p>
-<div id="notification-banner" class="notification-banner">
-<span>
-    <span class="emoji">&#x1f4a1;</span>
-    <span class="text">Post-conversion modifications made for Philips and GE:</span>
-</span>
-</div>
-</p>
-
+### Hardcoded Fields for Philips & GE
 In some cases, `dcm2niix` conversion led to missing or incorrectly configured NIfTI/JSON metadata. To address these issues, the headers for the file types listed below were hard-coded after conversion. These hard-coded values are also documented in the `HardCodedValues` field of the corresponding JSON sidecar file.
 
 <ul>
 <b>Philips</b>
-<li>T1W: <i>RepetitionTime</i></li>
-<li>DWI: <i>PhaseEncodingDirection</i>, <i>TotalReadoutTime</i>, & <i>SliceTiming</i> (<i>SmallDelta</i> & <i>LargeDelta</i> also added)</li>
-<li>EPI: <i>PhaseEncodingDirection</i> & <i>TotalReadoutTime</i></li>
-<li>BOLD:	<i>PhaseEncodingDirection</i>, <i>TotalReadoutTime</i>, & <i>SliceTiming</i></li>
+<li>T1W: <code>RepetitionTime</code></li>
+<li>DWI: <code>PhaseEncodingDirection</code>, <code>TotalReadoutTime</code>, & <code>SliceTiming</code> (<code>SmallDelta</code> & <code>LargeDelta</code> also added)</li>
+<li>EPI: <code>PhaseEncodingDirection</code> & <code>TotalReadoutTime</code></li>
+<li>BOLD:	<code>PhaseEncodingDirection</code>, <code>TotalReadoutTime</code>, & <code>SliceTiming</code></li>
 <br>
 <b>GE</b>
-<li>T1W: <i>RepetitionTime</i></li>
+<li>T1W: <code>RepetitionTime</code></li>
 </ul>
 
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">QALAS Post-Conversion Modifications</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-<br>
-<p>
-Depending on the scanner manufacturer, <i>dcm2niix</i> conversion for QALAS produced either five 3D NIfTI files or a single 4D NIfTI file with five volumes (as well as missing JSON header information). To standardize the output, all <i>dcm2niix</i>-derived QALAS series were converted into five separate NIfTI files, each corresponding to a different inversion time (labeled using the <i>inv-&lt;label&gt;</i> BIDS entity). The associated JSON sidecar was then updated with the following:</p>
-1.  <i>T2Prep</i> field of <i>inv-0</i> QALAS file hard-coded to 0.10 (Siemens), 0.09 (GE), and 0.10 (Philips)
-<br>
-<br>
-<p>2.  <i>InversionTime</i> values (sec) for QALAS files hard-coded as follows for each manufacturer:</b></p>
+### QALAS Post-Conversion Modifications
+Depending on the scanner manufacturer, `dcm2niix` conversion for QALAS produced either five 3D NIfTI files or a single 4D NIfTI file with five volumes (as well as missing JSON header information). To standardize the output, all `dcm2niix`-derived QALAS series were converted into five separate NIfTI files, each corresponding to a different inversion time (labeled using the `inv-<label>` BIDS entity). The associated JSON sidecar was then updated with the following:
+
+1. `T2Prep` field of `inv-0` QALAS file hard-coded to 0.10 (Siemens), 0.09 (GE), and 0.10 (Philips)
+2. `InversionTime` values (sec) for QALAS files hard-coded as follows for each manufacturer:
+
 <table>
   <tr>
   <th width="100">QALAS file</th>
@@ -118,6 +103,4 @@ Depending on the scanner manufacturer, <i>dcm2niix</i> conversion for QALAS prod
     </tr>
   </tbody>
 </table>
-</div>
-</p>
 
