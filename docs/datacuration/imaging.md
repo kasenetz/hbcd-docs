@@ -1,6 +1,7 @@
 
-# Imaging, EEG, & Motion
-Imaging (MRI & MRS), EEG, and motion data are provided at a session-level under `assembly_bids/`:
+# Assembly BIDS (Raw BIDS Data)
+
+The `assembly_bids/` folder includes raw MR, EEG, and motion data organized under subject/session-specific directories. In a large infant study, missing data is common, leading to variations in the number of folders and files available per subject and session. The HBCD acquisition spans multiple modalities, often collected at different times, with some acquisitions occurring on separate days even within the same modality. Participant-, session-, and scan-level data is captured by `participants.tsv`, `sessions.tsv`, and `scans.tsv` files respectively, each accompanied by JSON files with column descriptions and field definitions.
 
 ```
 root/
@@ -22,7 +23,7 @@ root/
 |           |__ sub-<label>_ses-<label>_scans.json
 ```
 
-## IMAGING
+## Imaging
 ### Anatomical (anat/)
 Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`acq-mrsLocAx` and `acq-mrsLocCor` indicate axial and coronal localizers, respectively), and Quantitative MRI QALAS files. 
 ```
@@ -96,7 +97,7 @@ mrs/
 |__ sub-<label>_ses-<label>_acq-hercules_run-<label>_ref.json
 ```
 
-## EEG (eeg/)
+## EEG
 For EEG BIDS data, the specific **location of electrodes**, placed on either the head (`acq-eeg`) or chest (`acq-ecg`), is specified in the `*_electrodes.tsv` files following cartesian coordinates provided by the accompanying `*_coordsystem.json` file. For **task acquisitions**, the task is specified by `task-<label>`, with task options of `FACE`, `MMN`, `RS`, and `VEP` (see task details [here](../measures/eeg/overview.md#eeg-parameters)).
 
 ```
@@ -131,7 +132,7 @@ The accompanying <code>sourcedata/</code> files include:
 </ul>
 
 
-## MOTION (motion/)
+## Motion
 Axivity AX6 sensor data provided in the data release include `_motion.tsv` sensor recordings with corresponding `*_channels.tsv` files that describe each column of of the motion file. The acquisition (`acq-`) label for the calibration files is `calibration` while the label for the 72-hr data files is `primary`. The `task` label will be either `LeftLegMovement` or `RightLegMovement` for sensors placed on the left or right leg. Each `.tsv` file is accompanied by a JSON sidecar containing recording-related metadata: 
 
 ```

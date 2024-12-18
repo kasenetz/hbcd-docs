@@ -1,7 +1,11 @@
 # Overview
 
 ## Brain Imaging Data Structure (BIDS)
-As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) (BIDS) standard for data organization. At a high level, raw HBCD BIDS data has the following folder structure:
+As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) (BIDS) standard for data organization. At a high level, raw HBCD BIDS data has the folder structure displayed below. The three main folders are:
+
+- `assembly_bids/`: raw imaging, EEG, and motion data (see details [here](imaging.md))
+- `derivatives/`: pre-processed imaging, EEG, and motion data (see details [here](derivatives.md))
+- `phenotype/`: demographic, phenotype, and instrument data (see details [here](phenotypes.md))
 
 ```
 root/
@@ -21,6 +25,24 @@ root/
 |           |__ mrs/
 |           |__ sub-<label>_ses-<label>_scans.tsv
 |           |__ sub-<label>_ses-<label>_scans.json
+|
+|__ derivatives/ 
+|   |__ participants.tsv
+|   |__ participants.json 
+|   |__ sub-<label>/
+|       |__ sub-<label>_sessions.tsv
+|       |__ sub-<label>_sessions.json
+|       |__ ses-<label>/
+|           |__ bibsnet/
+|           |__ made/
+|           |__ mriqc/
+|           |__ nibabies/
+|           |__ osprey/
+|           |__ qmri_postproc/
+|           |__ qsiprep/
+|           |__ qsireconn/
+|           |__ symri/
+|           |__ xcp_d/
 |   
 |__ phenotype/
 |   |__ biosample_urine.tsv
@@ -32,13 +54,6 @@ root/
 |   |__ <instrument_name>.tsv (repeat for all selected instruments)
 |   |__ <instrument_name>.json (repeat for all selected instruments)
 ```
-
-### Assembly BIDS Folder
-The **`assembly_bids`** folder includes raw MR, EEG, and motion data organized under subject/session-specific directories (see details of file contents [here](imaging.md)). In a large infant study, missing data is common, leading to variations in the number of folders and files available per subject and session. The HBCD acquisition spans multiple modalities, often collected at different times, with some acquisitions occurring on separate days even within the same modality. Participant-, session-, and scan-level data is captured by `participants.tsv`, `sessions.tsv`, and `scans.tsv` files respectively, each accompanied by JSON files with column descriptions and field definitions.
-
-### Phenotype Folder
-The **`phenotype`** folder includes instrument data, visit data, biosample, and demographics information for all participants (see details of file contents [here](phenotypes.md)).
-
 
 ## BIDS Conversion Procedures
 For most imaging data, DICOM image files are converted to BIDS standard formatting using an [HBCD-customized version](https://github.com/rordenlab/dcm2niix/tree/c5caaa9f858b704b61d3ff4a7989282922dd712e) of the [dcm2niix](https://github.com/rordenlab/dcm2niix) tool. One exception is MRS, for which vendor-specific raw data formats (Siemens `.dat`; Philips data/list; GE P-file) were converted to BIDS using [spec2nii v0.7.0](https://github.com/wtclarke/spec2nii). 
