@@ -33,9 +33,11 @@ root/
 |   |__ <instrument_name>.json (repeat for all selected instruments)
 ```
 
-The **`assembly_bids`** folder includes raw MR, EEG, and motion data organized under subject/session-specific directories. In a large infant study, missing data is common, leading to variations in the number of folders and files available per subject and session. The HBCD acquisition spans multiple modalities, often collected at different times, with some acquisitions occurring on separate days even within the same modality. Participant-, session-, and scan-level data is captured by `participants.tsv`, `sessions.tsv`, and `scans.tsv` files respectively, each accompanied by JSON files with column descriptions and field definitions.
+### Assembly BIDS Folder
+The **`assembly_bids`** folder includes raw MR, EEG, and motion data organized under subject/session-specific directories (see details of file contents [here](imaging.md)). In a large infant study, missing data is common, leading to variations in the number of folders and files available per subject and session. The HBCD acquisition spans multiple modalities, often collected at different times, with some acquisitions occurring on separate days even within the same modality. Participant-, session-, and scan-level data is captured by `participants.tsv`, `sessions.tsv`, and `scans.tsv` files respectively, each accompanied by JSON files with column descriptions and field definitions.
 
-The **`phenotype`** folder includes instrument data, visit data, biosample, and demographics information for all participants.
+### Phenotype Folder
+The **`phenotype`** folder includes instrument data, visit data, biosample, and demographics information for all participants (see details of file contents [here](phenotypes.md)).
 
 
 ## BIDS Conversion Procedures
