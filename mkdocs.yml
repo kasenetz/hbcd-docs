@@ -54,7 +54,6 @@ nav:
             - Nails: measures/biospecimens/nails.md 
             - Urine: measures/biospecimens/urine.md    
         - Demographics: measures/demographics.md
-        - Geocoding: measures/geocoding.md
         - Electroencephalogram: 
             - Overview: measures/eeg/overview.md
             - Faces Task: measures/eeg/faces_task.md
@@ -91,12 +90,12 @@ nav:
             - PROMIS: measures/socenv_determinants/PROMIS.md
             - PACES: measures/socenv_determinants/PACES.md
     - MRI Protocols: mriprotocols/mriprotocols.md
-    - HBCD BIDS Conversion:
-        - Overview: datacuration/bids.md
-        - Imaging: datacuration/imaging.md
-        - EEG: datacuration/eeg.md
-        - Motion Data: datacuration/motion.md
-        - Phenotypes: datacuration/phenotypes.md
+    - HBCD BIDS Data:
+        - Data Structure: 
+            - BIDS Overview: datacuration/overview.md
+            - Imaging, EEG, & Motion: datacuration/imaging.md
+            - Phenotype: datacuration/phenotypes.md
+        - Exclusion Criteria: datacuration/exclusions.md
     - Data Processing: 
         - Pipelines & Processing: processing/pipelines.md
         - Pipeline Software Standards: processing/standards.md

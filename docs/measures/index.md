@@ -44,10 +44,6 @@ The visits and corresponding ages of the infant/child are listed below. **Only d
 </ul>
 
 <ul>
-<li><a href="geocoding">GEOCODING AND LINKING EXTERNAL DATA</a></li>
-</ul>
-
-<ul>
 <li>MAGNETIC RESONANCE IMAGING (MRI):
 <ul>
 <li><a href="mri/overview">Overview</a></li>

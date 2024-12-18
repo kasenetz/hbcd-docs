@@ -137,7 +137,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Unprocessed raw imaging DICOM files will be made publicly available in future releases. However, raw data converted to the Brain Imaging Data Structure (BIDS) standard is included in HBCD Release 1.0. See <a href="../datacuration/bids">Release Notes: HBCD BIDS Conversion</a> for a description of BIDS as well as conversion procedures.</p>
+<p>Unprocessed raw imaging DICOM files will be made publicly available in future releases. However, raw data converted to the Brain Imaging Data Structure (BIDS) standard is included in HBCD Release 1.0. See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for a description of BIDS as well as conversion procedures.</p>
 </div>
 </p>
 
@@ -166,7 +166,7 @@
 <div class="notification-collapsible-content">
 <br>
 <p>
-Raw dMRI gradient tables can be found in the <code>assembly_bids/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../datacuration/bids">Release Notes: HBCD BIDS Conversion</a> for an overview of BIDS and dMRI-specific details <a href="../datacuration/imaging/#diffusion">here</a>.
+Raw dMRI gradient tables can be found in the <code>assembly_bids/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for an overview of BIDS and dMRI-specific details <a href="../datacuration/imaging/#diffusion-dwi">here</a>.
 
 <pre>
   <code>
