@@ -43,14 +43,14 @@ root/
 |       |__ xcp_d/
 |   
 |__ phenotype/
-|   |__ biosample_urine.tsv
-|   |__ biosample_urine.json
-|   |__ sed_basic_demographics.tsv
-|   |__ sed_basic_demographics.json
-|   |__ visit_data.tsv
-|   |__ visit_data.json
-|   |__ <instrument_name>.tsv (repeat for all selected instruments)
-|   |__ <instrument_name>.json (repeat for all selected instruments)
+    |__ biosample_urine.tsv
+    |__ biosample_urine.json
+    |__ sed_basic_demographics.tsv
+    |__ sed_basic_demographics.json
+    |__ visit_data.tsv
+    |__ visit_data.json
+    |__ <instrument_name>.tsv (repeat for all selected instruments)
+    |__ <instrument_name>.json (repeat for all selected instruments)
 ```
 
 ## BIDS Conversion Procedures
