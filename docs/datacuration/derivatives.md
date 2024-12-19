@@ -1,6 +1,6 @@
 # Derivatives
 
-The `derivatives/` folder contains minimally preprocessed outputs from the processing pipelines. Here is the higher-level folder structure and in each section below we explain the file contents of each subject and session subfolder displayed.
+The `derivatives/` folder contains minimally preprocessed outputs from the processing pipelines. Here is the higher-level folder structure and in each section below we explain the session-level file and folder contents for each pipeline.
 
 ```
 root/
@@ -63,6 +63,8 @@ root/
 
 ## BIBSNet (`bibsnet/`)
 
+BIBSNet outputs brain segmentations and masks in native T1w and T2w space as well as `volumes.tsv` files with ROI volume statistics. Additional details can be found [here](https://bibsnet.readthedocs.io/en/latest/outputs/).
+
 ```
 anat/
 |__ sub-<label>_ses-<label>_space-<T1w|T2w>_desc-aseg_dseg.nii.gz
@@ -73,12 +75,10 @@ anat/
 |__ sub-<label>_ses-<label>_space-<T1w|T2w>_desc-aseg_brain-mask.json
 ```
 
-BIBSNet outputs brain segmentations and masks in native T1w and T2w space as well as `volumes.tsv` files with ROI volume statistics. Additional details can be found [here](https://bibsnet.readthedocs.io/en/latest/outputs/).
-
 ## HBCD-MADE (`made/`)
-
 HBCD-MADE produces preprocessed EEG derivatives. Please see the [HBCD-MADE webpage](https://docs-hbcd-made.readthedocs.io/en/latest/expected_outputs.html) for a full explanation of the derivative files displayed below.
 
+*NOTE:`TASK` field options include `FACE`, `MMN`, `RS`, and `VEP`*
 ```
 eeg/
 |__ filtered_data/
@@ -123,29 +123,30 @@ eeg/
 |__ sub-<label>_ses-<label>_acq-eeg_MADE_preprocessing_report.csv
 |__ sub-<label>_ses-<label>_task-<TASK>_acq-eeg_eeg_MADE_specification.json
 ```
-*NOTE:`TASK` field options include `FACE`, `MMN`, `RS`, and `VEP`*
 
 
 ## MRIQC (`mriqc/`)
-Please refer to the [MRIQC webpage](https://mriqc.readthedocs.io/en/latest/about.html) to read details about the outputs provided in this release.
+MRIQC extracts no-reference IQMs (image quality metrics) from structural (T1w and T2w) and functional MRI (magnetic resonance imaging) data (contained in the JSON files under `anat/` and `func/`) and also generates visual html report files. Please refer to the [MRIQC webpage](https://mriqc.readthedocs.io/en/latest/about.html) to read details about the outputs displayed below.
 ```
-|__ anat/
+anat/
 |   |__ sub-<label>_ses-<label>_run-<label>_T1w.json
 |   |__ sub-<label>_ses-<label>_run-<label>_T2w.json
 |
-|__ func/
+func/
 |   |__ sub-<label>_ses-<label>_task-rest_dir-<label>_run-<label>_bold.json
 |
-|__ sub-<label>_ses-<label>_run-<label>_T1w.html
-|__ sub-<label>_ses-<label>_run-<label>_T2w.html
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_run-<label>_bold.html
-|__ sub-<label>_ses-<label>_dir-<label>_run-<label>_bold.html
+sub-<label>_ses-<label>_run-<label>_T1w.html
+sub-<label>_ses-<label>_run-<label>_T2w.html
+sub-<label>_ses-<label>_task-rest_dir-<label>_run-<label>_bold.html
+sub-<label>_ses-<label>_dir-<label>_run-<label>_bold.html
 ```
 
-## Infant-fMRIPrep (`nibabies/`)
+## Infant-fMRIPrep (`nibabies/`) 🚧 UNDER CONSTRUCTION 🚧 
 Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. Also note that files may have additional BIDS entities including `dir-<label>` or `run-<label>` as appropriate. 
 
-### anat/
+- *Labels for `SPACE` (`space-<SPACE>`) include `MNI152NLin6Asym_res-2` and `T2w`*
+- *Labels for `FMAPID` (`fmapid<FMAPID>`) include `auto00000`, `auto00001`, `auto00002`, `auto00003`, and `auto00004`*
+
 ```
 anat/
 |__ sub-<label>_ses-<label>_desc-<aseg|aparcaseg>_dseg.nii.gz
@@ -178,8 +179,7 @@ anat/
 |__ sub-<label>_ses-<label>_space-<SPACE>_label-<CSF|GM|WM>_probseg.nii.gz
 |__ sub-<label>_ses-<label>_space-T2w_desc-<aparcaseg|aseg>_dseg.nii.gz
 |__ sub-<label>_ses-<label>_space-T2w_desc-ribbon_mask.nii.gz
-```
-```
+|
 fmap/
 |__ sub-<label>_ses-<label>_fmapid-<FMAPID>_desc-coeff_fieldmap.nii.gz
 |__ sub-<label>_ses-<label>_fmapid-<FMAPID>_desc-epi_fieldmap.nii.gz
@@ -187,52 +187,59 @@ fmap/
 |
 func/
 |__ sub-<label>_ses-<label>_task-rest_boldref.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_desc-brain_mask.nii.gz
 |__ sub-<label>_ses-<label>_task-rest_desc-confounds_timeseries.tsv
 |__ sub-<label>_ses-<label>_task-rest_from-scanner_to-boldref_mode-image_xfm.txt
 |__ sub-<label>_ses-<label>_task-rest_from-scanner_to-T1w_mode-image_xfm.txt
 |__ sub-<label>_ses-<label>_task-rest_from-T1w_to-scanner_mode-image_xfm.txt
 |__ sub-<label>_ses-<label>_task-rest_space-fsLR_den-91k_bold.dtseries.nii
 |__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_boldref.nii.gz
-|__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_desc-<aparcaseg|aseg>_dseg.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_desc-aparcaseg_dseg.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_desc-aseg_dseg.nii.gz
 |__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz
 |__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_desc-preproc_bold.nii.gz
 |__ sub-<label>_ses-<label>_task-rest_space-T1w_desc-goodvoxels_mask.nii.gz
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-brain_mask.nii.gz
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-confounds_timeseries.tsv
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-coreg_boldref.nii.gz
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-hmc_boldref.nii.gz
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-preproc_bold.nii.gz
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_from-boldref_to-<FMAPID>_mode-image_xfm.txt
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_from-boldref_to-T2w_mode-image_desc-coreg_xfm.txt
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_from-boldref_to-T2w_mode-image_desc-coreg_xfm.txt
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_hemi-<L|R>_space-fsnative_bold.func.gii
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_den-91k_bold.dtseries.nii
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-<SPACE>_boldref.nii.gz
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-<SPACE>_desc-brain_mask.nii.gz
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-<SPACE>_desc-preproc_bold.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_desc-coreg_boldref.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_desc-hmc_boldref.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_desc-preproc_bold.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_from-boldref_to-<FMAPID>_mode-image_xfm.txt
+|__ sub-<label>_ses-<label>_task-rest_from-boldref_to-T2w_mode-image_desc-coreg_xfm.txt
+|__ sub-<label>_ses-<label>_task-rest_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt
+|__ sub-<label>_ses-<label>_task-rest_hemi-<L|R>_space-fsnative_bold.func.gii
+|__ sub-<label>_ses-<label>_task-rest_space-<SPACE>_boldref.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_space-<SPACE>_desc-brain_mask.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_space-<SPACE>_desc-preproc_bold.nii.gz
 |
-|__ figures/
+figures/
 ```
-*NOTE:* 
 
-- *Labels for `SPACE` (`space-<SPACE>`) include `MNI152NLin6Asym_res-2` and `T2w`*
-- *Labels for `FMAPID` (`fmapid<FMAPID>`) include `auto00000`, `auto00001`, `auto00002`, `auto00003`, and `auto00004`*
+## OSPREY-BIDS (`osprey/`) 🚧 UNDER CONSTRUCTION 🚧 
 
-## OSPREY-BIDS (`osprey/`)
+## qMRI Postproc (`qmri_postproc/`) 🚧 UNDER CONSTRUCTION 🚧 
+This pipeline performs minimal post-processing for SyMRI synthetic images derived from QALAS acquisition. Please visit the [qMRI PostProc webpage](https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html) for a description of the file outputs below.
 
-## qMRI Postproc (`qmri_postproc/`)
+```
+anat/
+|__ sub-<label>_ses-<label>_desc-AsegROIs_scalarstats.json
+|__ sub-<label>_ses-<label>_desc-AsegROIs_scalarstats.tsv
+|__ sub-<label>_ses-<label>_desc-BilateralAsegROIs_scalarstats.json
+|__ sub-<label>_ses-<label>_desc-BilateralAsegROIs_scalarstats.tsv
+|__ sub-<label>_ses-<label>_desc-RegistrationQCAid.json
+|__ sub-<label>_ses-<label>_desc-RegistrationQCAid.png
+|__ sub-<label>_ses-<label>_space-QALAS_desc-aseg_dseg.nii.gz
+|__ sub-<label>_ses-<label>_space-T2w_desc-QALAS_T2map.json
+|__ sub-<label>_ses-<label>_space-T2w_desc-QALAS_T2map.nii.gz
+```
 
-## QSIPrep (`qsiprep/`)
+## QSIPrep (`qsiprep/`) 🚧 UNDER CONSTRUCTION 🚧 
 
-## QSIRecon (`qsirecon/`)
+## QSIRecon (`qsirecon/`) 🚧 UNDER CONSTRUCTION 🚧 
 
-## XCP-D (`xcpd_d/`)
+## XCP-D (`xcpd_d/`) 🚧 UNDER CONSTRUCTION 🚧 
 
 For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. 
 
-## `anat/`
+- *Labels for `SEG` (`seg-<SEG>`) include: `4S1056Parcels`, `4S156Parcels`, `4S256Parcels`, `4S356Parcels`, `4S456Parcels`, `4S556Parcels`, `4S656Parcels`, `4S756Parcels`, `4S856Parcels`, `4S956Parcels`, `Glasser`, `Gordon`, `MIDB`,`MyersLabonte`, and `Tian`*
 
 ```
 anat/
@@ -244,11 +251,7 @@ anat/
 |__ sub-<label>_ses-<label>_space-fsLR_seg-<SEG>_stat-mean_desc-thickness_morph.tsv
 |__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_desc-preproc_T2w.nii.gz
 |__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_dseg.nii.gz
-```
-
-## `func/`
-
-```
+|
 func/
 |__ sub-<label>_ses-<label>_task-rest_desc-abcc_qc.hdf5
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_<motion|outliers|design>.tsv
@@ -256,31 +259,26 @@ func/
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_den-91k_stat-pearsoncorrelation_boldmap.pconn.nii
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_den-91k_timeseries.ptseries.nii
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_measure-pearsoncorrelation_conmat.tsv
-
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-alff_bold.tsv
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-coverage_bold.tsv
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-mean_timeseries.tsv
-
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-pearsoncorrelation_relmat.tsv
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-reho_bold.tsv
-
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_desc-denoised_bold.dtseries.nii
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_desc-denoisedSmoothed_bold.dtseries.nii
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_desc-interpolated_bold.dtseries.nii
-
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_desc-linc_qc.csv
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_stat-alff_boldmap.dscalar.nii
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_stat-alff_desc-smooth_boldmap.dscalar.nii
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_stat-reho_boldmap.dscalar.nii
-
 |__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_den-91k_stat-coverage_boldmap.pscalar.nii
 |__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_den-91k_stat-mean_timeseries.ptseries.nii
 |__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_stat-alff_bold.tsv
 |__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_stat-coverage_bold.tsv
 |__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_stat-mean_timeseries.tsv
 |__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_stat-reho_bold.tsv
-
+|
+figures/
 ```
-*NOTE:*
 
-- *Labels for `SEG` (`seg-<SEG>`) include: `4S1056Parcels`, `4S156Parcels`, `4S256Parcels`, `4S356Parcels`, `4S456Parcels`, `4S556Parcels`, `4S656Parcels`, `4S756Parcels`, `4S856Parcels`, `4S956Parcels`, `Glasser`, `Gordon`, `MIDB`,`MyersLabonte`, and `Tian`*
+
