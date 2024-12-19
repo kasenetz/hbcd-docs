@@ -314,6 +314,37 @@ anat/
 ```
 
 ## QSIPrep (`qsiprep/`) 🚧 
+The QSIPrep pipeline is used for preprocessing the HBCD diffusion-weighted MRI (dMRI) data. Preprocessing includes head motion correction, susceptibility distortion correction, MP-PCA denoising, coregistration to T1w images, ANTS spatial normalization, and tissue segmentation. For readability, the `figures/` folder contents (contains all `svg` and `gif` files rendered in the visual report) are not listed. Actual filenames may also include `run-<label>`.
+
+```
+anat/
+|__ sub-<label>_desc-aseg_dseg.nii.gz
+|__ sub-<label>_desc-brain_mask.nii.gz
+|__ sub-<label>_desc-preproc_T2w.nii.gz
+|__ sub-<label>_dseg.nii.gz
+|__ sub-<label>_from-MNI152NLin2009cAsym_to-T1w_mode-image_xfm.h5
+|__ sub-<label>_from-T1w_to-MNI152NLin2009cAsym_mode-image_xfm.h5
+|__ sub-<label>_from-T1wACPC_to-T1wNative_mode-image_xfm.mat
+|__ sub-<label>_from-T1wNative_to-T1wACPC_mode-image_xfm.mat
+|__ sub-<label>_ses-<label>_from-orig_to-T1w_mode-image_xfm.txt
+|
+dwi/
+|__ sub-<label>_ses-<label>_desc-ImageQC_dwi.csv
+|__ sub-<label>_ses-<label>_desc-SliceQC_dwi.json
+|__ sub-<label>_ses-<label>_dwiqc.json
+|__ sub-<label>_ses-<label>_space-T1w_desc-brain_mask.nii.gz
+|__ sub-<label>_ses-<label>_space-T1w_desc-eddy_cnr.nii.gz
+|__ sub-<label>_ses-<label>_space-T1w_desc-preproc_dwi.b
+|__ sub-<label>_ses-<label>_space-T1w_desc-preproc_dwi.bval
+|__ sub-<label>_ses-<label>_space-T1w_desc-preproc_dwi.bvec
+|__ sub-<label>_ses-<label>_space-T1w_desc-preproc_dwi.nii.gz
+|__ sub-<label>_ses-<label>_space-T1w_desc-preproc_dwi.txt
+|__ sub-<label>_ses-<label>_space-T1w_dwiref.nii.gz
+|
+figures/
+```
+
+
 
 ## QSIRecon (`qsirecon/`) 🚧 
 
