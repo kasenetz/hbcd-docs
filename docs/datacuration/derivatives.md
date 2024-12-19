@@ -142,7 +142,7 @@ sub-<label>_ses-<label>_dir-<label>_run-<label>_bold.html
 ```
 
 ## Infant-fMRIPrep (`nibabies/`) 🚧 UNDER CONSTRUCTION 🚧 
-Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. Also note that files may have additional BIDS entities including `dir-<label>` or `run-<label>` as appropriate. 
+Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. Also note that files may have additional BIDS entities including `dir-<label>` (to specify its derivation from data acquired in the `AP` or `PA` phase encoding directions) or `run-<label>` as appropriate. 
 
 - *Labels for `SPACE` (`space-<SPACE>`) include `MNI152NLin6Asym_res-2` and `T2w`*
 - *Labels for `FMAPID` (`fmapid<FMAPID>`) include `auto00000`, `auto00001`, `auto00002`, `auto00003`, and `auto00004`*
@@ -213,7 +213,72 @@ func/
 figures/
 ```
 
-## OSPREY-BIDS (`osprey/`) 🚧 UNDER CONSTRUCTION 🚧 
+## OSPREY-BIDS (`osprey/`) 
+
+OSPREY-BIDS is the BIDS extension to the OSPREY pipeline used to process HBCD magnetic resonance spectroscopy (MRS) data. The `HERCULES` and `unedited` folders have matching structures, so only one is displayed below. For readability, the `jpg`/`png` images under the figures folders are not listed. Also note that filenames may additionally include `run-<label>`. Please see their [webpage](https://osprey-bids.readthedocs.io/en/latest/index.html) for a detailed explanation of these outputs.
+
+```
+HERCULES/ 
+|__ PreOspreyLocalizerReg/
+|   |__ figures/*
+|   |__ aalreference_seg_aligned_to_localizer.nii.gz
+|   |__ c1reference_seg_aligned_to_localizer.nii.gz
+|   |__ c2reference_seg_aligned_to_localizer.nii.gz
+|   |__ c3reference_seg_aligned_to_localizer.nii.gz
+|   |__ readme.txt
+|   |__ reference_img_aligned_to_localizer.nii.gz
+|   |__ reference_seg_aligned_to_localizer.nii.gz
+|   |__ registration_summary.json
+|   |__ transform_mat.npy
+|
+|__ QuantifyResults/
+|   |__ diff<1|2>_AlphaCorrWaterScaledGroupNormed_Voxel_1_Basis_1.<tsv|json>
+|   |__ diff<1|2>_AlphaCorrWaterScaled_Voxel_1_Basis_1.<tsv|json>
+|   |__ diff<1|2>_amplMets_Voxel_1_Basis_1.<tsv|json>
+|   |__ diff<1|2>_CSFWaterScaled_Voxel_1_Basis_1.<tsv|json>
+|   |__ diff<1|2>_rawWaterScaled_Voxel_1_Basis_1.<tsv|json>
+|   |__ diff<1|2>_tCr_Voxel_1_Basis_1.<tsv|json>
+|   |__ diff<1|2>_TissCorrWaterScaled_Voxel_1_Basis_1.<tsv|json>
+|   |__ sum_AlphaCorrWaterScaledGroupNormed_Voxel_1_Basis_1.<tsv|json>
+|   |__ sum_AlphaCorrWaterScaled_Voxel_1_Basis_1.<tsv|json>
+|   |__ sum_amplMets_Voxel_1_Basis_1.<tsv|json>
+|   |__ sum_CSFWaterScaled_Voxel_1_Basis_1.<tsv|json>
+|   |__ sum_rawWaterScaled_Voxel_1_Basis_1.<tsv|json>
+|   |__ sum_tCr_Voxel_1_Basis_1.<tsv|json>
+|   |__ sum_TissCorrWaterScaled_Voxel_1_Basis_1.<tsv|json>
+|
+|__ Reports/
+|   |__ reportFigures/*
+|   |__ sub-<label>-report.html
+|
+|__ SegMaps/
+|   |__ TissueFractions_Voxel_1.<tsv|json>
+|   |__ sub-<label>_ses-<label>_acq-hercules_svs.nii_space-scanner_Voxel-1_label-CSF.nii.gz
+|   |__ sub-<label>_ses-<label>_acq-hercules_svs.nii_space-scanner_Voxel-1_label-GM.nii.gz
+|   |__ sub-<label>_ses-<label>_acq-hercules_svs.nii_space-scanner_Voxel-1_label-Tha.nii.gz
+|   |__ sub-<label>_ses-<label>_acq-hercules_svs.nii_space-scanner_Voxel-1_label-WM.nii.gz
+|
+|__ VoxelMasks/
+|   |__ sub-<label>_ses-<label>_acq-hercules_svs_space-scanner_mask.nii.gz
+|
+|__ LogFile.txt
+|__ subject_names_and_excluded.<tsv|json>
+|__ SummaryMRSinMRS.md
+|__ QM_processed_spectra.<tsv|json>
+|__ wrapper_settings.<mat|json>
+
+```
+
+
+
+
+
+
+
+
+
+
+
 
 ## qMRI Postproc (`qmri_postproc/`) 🚧 UNDER CONSTRUCTION 🚧 
 This pipeline performs minimal post-processing for SyMRI synthetic images derived from QALAS acquisition. Please visit the [qMRI PostProc webpage](https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html) for a description of the file outputs below.
@@ -237,7 +302,7 @@ anat/
 
 ## XCP-D (`xcpd_d/`) 🚧 UNDER CONSTRUCTION 🚧 
 
-For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. 
+For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. Also note that files may have additional BIDS entities including `dir-<label>` (to specify its derivation from data acquired in the `AP` or `PA` phase encoding directions) or `run-<label>` as appropriate. 
 
 - *Labels for `SEG` (`seg-<SEG>`) include: `4S1056Parcels`, `4S156Parcels`, `4S256Parcels`, `4S356Parcels`, `4S456Parcels`, `4S556Parcels`, `4S656Parcels`, `4S756Parcels`, `4S856Parcels`, `4S956Parcels`, `Glasser`, `Gordon`, `MIDB`,`MyersLabonte`, and `Tian`*
 
@@ -254,29 +319,24 @@ anat/
 |
 func/
 |__ sub-<label>_ses-<label>_task-rest_desc-abcc_qc.hdf5
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_<motion|outliers|design>.tsv
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_den-91k_stat-coverage_boldmap.pscalar.nii
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_den-91k_stat-pearsoncorrelation_boldmap.pconn.nii
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_den-91k_timeseries.ptseries.nii
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_measure-pearsoncorrelation_conmat.tsv
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-alff_bold.tsv
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-coverage_bold.tsv
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-mean_timeseries.tsv
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-pearsoncorrelation_relmat.tsv
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-reho_bold.tsv
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_desc-denoised_bold.dtseries.nii
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_desc-denoisedSmoothed_bold.dtseries.nii
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_desc-interpolated_bold.dtseries.nii
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_desc-linc_qc.csv
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_stat-alff_boldmap.dscalar.nii
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_stat-alff_desc-smooth_boldmap.dscalar.nii
-|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_stat-reho_boldmap.dscalar.nii
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_den-91k_stat-coverage_boldmap.pscalar.nii
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_den-91k_stat-mean_timeseries.ptseries.nii
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_stat-alff_bold.tsv
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_stat-coverage_bold.tsv
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_stat-mean_timeseries.tsv
-|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_stat-reho_bold.tsv
+|__ sub-<label>_ses-<label>_task-rest_<motion|outliers|design>.tsv
+|__ sub-<label>_ses-<label>_task-rest_space-<label>_atlas-<label>_den-91k_stat-pearsoncorrelation_boldmap.pconn.nii
+|__ sub-<label>_ses-<label>_task-rest_space-<label>_atlas-<label>_den-91k_timeseries.ptseries.nii
+|__ sub-<label>_ses-<label>_task-rest_space-<label>_atlas-<label>_measure-pearsoncorrelation_conmat.tsv
+|__ sub-<label>_ses-<label>_task-rest_space-<label>_atlas-<label>_stat-pearsoncorrelation_relmat.tsv
+|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_desc-denoised_bold.dtseries.nii
+|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_desc-denoisedSmoothed_bold.dtseries.nii
+|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_desc-interpolated_bold.dtseries.nii
+|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_desc-linc_qc.csv
+|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_stat-alff_boldmap.dscalar.nii
+|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_stat-alff_desc-smooth_boldmap.dscalar.nii
+|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_stat-reho_boldmap.dscalar.nii
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_seg-<SEG>_den-91k_stat-coverage_boldmap.pscalar.nii
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_seg-<SEG>_den-91k_stat-mean_timeseries.ptseries.nii
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_seg-<SEG>_stat-alff_bold.tsv
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_seg-<SEG>_stat-coverage_bold.tsv
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_seg-<SEG>_stat-mean_timeseries.tsv
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_seg-<SEG>_stat-reho_bold.tsv
 |
 figures/
 ```
