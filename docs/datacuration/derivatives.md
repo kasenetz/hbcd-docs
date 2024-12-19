@@ -313,8 +313,8 @@ anat/
 |__ sub-<label>_ses-<label>_space-T2w_desc-QALAS_T2map.nii.gz
 ```
 
-## QSIPrep (`qsiprep/`) 🚧 
-The QSIPrep pipeline is used for preprocessing the HBCD diffusion-weighted MRI (dMRI) data. Preprocessing includes head motion correction, susceptibility distortion correction, MP-PCA denoising, coregistration to T1w images, ANTS spatial normalization, and tissue segmentation. For readability, the `figures/` folder contents (contains all `svg` and `gif` files rendered in the visual report) are not listed. Actual filenames may also include `run-<label>`.
+## QSIPrep (`qsiprep/`) 
+The QSIPrep pipeline is used for preprocessing the HBCD diffusion-weighted MRI (dMRI) data. Preprocessing includes head motion correction, susceptibility distortion correction, MP-PCA denoising, coregistration to T1w images, ANTS spatial normalization, and tissue segmentation. The QSIPrep derivatives are then passed to [QSIRecon](#qsirecon-qsirecon-) for reconstruction. Please see a full description of this pipeline on their [webpage](https://qsiprep.readthedocs.io/en/latest/). Below, for readability, the `figures/` folder contents (contains all `svg` and `gif` files rendered in the visual report) are not listed. Actual filenames may also include `run-<label>`. 
 
 ```
 anat/
@@ -344,9 +344,8 @@ dwi/
 figures/
 ```
 
-
-
 ## QSIRecon (`qsirecon/`) 🚧 
+QSIPrep derivatives are passed to QSIRecon for reconstruction, including ODF/FOD reconstruction, tractography, Fixel estimation and regional connectivity. 
 
 ## SyMRI (`symri/`)
 [SyMRI](https://syntheticmr.com/products/symri-neuro/) is proprietary software for quantitative MRI. For HBCD it is used to generate synthetic contrast weighted images derived from measures of the absolute properties of [QALAS](https://pubmed.ncbi.nlm.nih.gov/25526880/) brain images. These outputs are then minimally preprocessed by [qMRI Postproc](#qmri-postproc-qmri_postproc). Files include synthetic T1w and T2w images (`sub-<label>_ses-<label>_acq-QALAS_<T1w|T2w>.nii.gz`), derived relaxometry maps (`sub-<label>_ses-<label>_acq-QALAS_T2map.nii.gz`).
