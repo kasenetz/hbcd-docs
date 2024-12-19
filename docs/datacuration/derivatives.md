@@ -12,7 +12,7 @@ root/
     |__ osprey/
     |__ qmri_postproc/
     |__ qsiprep/
-    |__ qsireconn/
+    |__ qsirecon/
     |__ symri/
     |__ xcp_d/
 ```
@@ -177,11 +177,39 @@ root/
 - *Labels for `SPACE` (`space-<SPACE>`) include `MNI152NLin6Asym_res-2` and `T2w`*
 - *Labels for `FMAPID` (`fmapid<FMAPID>`) include `auto00000`, `auto00001`, `auto00002`, `auto00003`, and `auto00004`*
 
-## OSPREY-BIDS
-
+## OSPREY-BIDS (`osprey/`)
 
 ## qMRI Postproc (`qmri_postproc/`)
 
+## QSIPrep (`qsiprep/`)
 
+## QSIRecon (`qsirecon/`)
+
+## XCP-D (`xcpd_d/`)
+
+For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) are not included below.
+
+```
+root/
+|__ figures/
+|__ anat/
+|   |__ sub-<label>_ses-<label>_space-<space>_desc-preproc_<T1w|T2w>.nii.gz
+|   |__ sub-<label>_ses-<label>_space-<space>_dseg.nii.gz
+|   |__ sub-<label>_ses-<label>_space-fsLR_den-91k_<curv|sulc|thickness>.dscalar.nii
+|   |__ sub-<label>_ses-<label>_space-fsLR_seg-<PARCEL>_stat-mean_desc-curv_morph.tsv
+|   |__ sub-<label>_ses-<label>_space-fsLR_seg-<PARCEL>_stat-mean_desc-sulc_morph.tsv
+|   |__ sub-<label>_ses-<label>_space-fsLR_seg-<PARCEL>_stat-mean_desc-thickness_morph.tsv
+|   |__ sub-<label>_ses-<label>_space-fsLR_seg-<ATLAS>_stat-mean_desc-curv_morph.tsv
+|   |__ sub-<label>_ses-<label>_space-fsLR_seg-<ATLAS>_stat-mean_desc-sulc_morph.tsv
+|   |__ sub-<label>_ses-<label>_space-fsLR_seg-<ATLAS>_stat-mean_desc-thickness_morph.tsv
+|   |__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_desc-preproc_T2w.nii.gz
+|   |__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_dseg.nii.gz
+|
+|__ func/
+```
+*NOTE:*
+
+- *Labels for `PARCEL` (`seg-<PARCEL>`) include: `4S1056Parcels`, `4S156Parcels`, `4S256Parcels`, `4S356Parcels`, `4S456Parcels`, `4S556Parcels`, `4S656Parcels`, `4S756Parcels`, `4S856Parcels`, and `4S956Parcels`*
+- *Labels for `ATLAS` (`seg-<ATLAS>`) include: `Glasser`, `Gordon`, `MIDB`, and `MyersLabonte`*
 
 

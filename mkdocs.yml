@@ -91,11 +91,10 @@ nav:
             - PACES: measures/socenv_determinants/PACES.md
     - MRI Protocols: mriprotocols/mriprotocols.md
     - HBCD BIDS Data:
-        - Data Structure: 
-            - BIDS Overview: datacuration/overview.md
-            - Raw Data: datacuration/imaging.md
-            - Derivatives: datacuration/derivatives.md
-            - Phenotype: datacuration/phenotypes.md
+        - BIDS Overview: datacuration/overview.md
+        - Raw Data: datacuration/imaging.md
+        - Derivatives: datacuration/derivatives.md
+        - Phenotype: datacuration/phenotypes.md
         - Exclusion Criteria: datacuration/exclusions.md
     - Data Processing: 
         - Pipelines & Processing: processing/pipelines.md

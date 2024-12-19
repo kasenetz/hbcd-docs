@@ -36,7 +36,7 @@ root/
 |   |__ osprey/
 |   |__ qmri_postproc/
 |   |__ qsiprep/
-|   |__ qsireconn/
+|   |__ qsirecon/
 |   |__ symri/
 |   |__ xcp_d/
 |   
