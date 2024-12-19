@@ -101,7 +101,6 @@ root/
 ```
 
 ## Infant-fMRIPrep (`nibabies/`)
-
 Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. Also note that files may have additional BIDS entities including `dir-<label>` or `run-<label>` as appropriate. 
 
 ```
@@ -187,29 +186,64 @@ root/
 
 ## XCP-D (`xcpd_d/`)
 
-For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) are not included below.
+For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. 
 
 ```
 root/
 |__ figures/
 |__ anat/
-|   |__ sub-<label>_ses-<label>_space-<space>_desc-preproc_<T1w|T2w>.nii.gz
-|   |__ sub-<label>_ses-<label>_space-<space>_dseg.nii.gz
-|   |__ sub-<label>_ses-<label>_space-fsLR_den-91k_<curv|sulc|thickness>.dscalar.nii
-|   |__ sub-<label>_ses-<label>_space-fsLR_seg-<PARCEL>_stat-mean_desc-curv_morph.tsv
-|   |__ sub-<label>_ses-<label>_space-fsLR_seg-<PARCEL>_stat-mean_desc-sulc_morph.tsv
-|   |__ sub-<label>_ses-<label>_space-fsLR_seg-<PARCEL>_stat-mean_desc-thickness_morph.tsv
-|   |__ sub-<label>_ses-<label>_space-fsLR_seg-<ATLAS>_stat-mean_desc-curv_morph.tsv
-|   |__ sub-<label>_ses-<label>_space-fsLR_seg-<ATLAS>_stat-mean_desc-sulc_morph.tsv
-|   |__ sub-<label>_ses-<label>_space-fsLR_seg-<ATLAS>_stat-mean_desc-thickness_morph.tsv
-|   |__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_desc-preproc_T2w.nii.gz
-|   |__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_dseg.nii.gz
-|
 |__ func/
+```
+
+## `anat/`
+
+```
+anat/
+|__ sub-<label>_ses-<label>_space-<space>_desc-preproc_<T1w|T2w>.nii.gz
+|__ sub-<label>_ses-<label>_space-<space>_dseg.nii.gz
+|__ sub-<label>_ses-<label>_space-fsLR_den-91k_<curv|sulc|thickness>.dscalar.nii
+|__ sub-<label>_ses-<label>_space-fsLR_seg-<SEG>_stat-mean_desc-curv_morph.tsv
+|__ sub-<label>_ses-<label>_space-fsLR_seg-<SEG>_stat-mean_desc-sulc_morph.tsv
+|__ sub-<label>_ses-<label>_space-fsLR_seg-<SEG>_stat-mean_desc-thickness_morph.tsv
+|__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_desc-preproc_T2w.nii.gz
+|__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_dseg.nii.gz
+```
+
+## `func/`
+
+```
+func/
+|__ sub-<label>_ses-<label>_task-rest_desc-abcc_qc.hdf5
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_<motion|outliers|design>.tsv
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_den-91k_stat-coverage_boldmap.pscalar.nii
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_den-91k_stat-pearsoncorrelation_boldmap.pconn.nii
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_den-91k_timeseries.ptseries.nii
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_measure-pearsoncorrelation_conmat.tsv
+
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-alff_bold.tsv
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-coverage_bold.tsv
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-mean_timeseries.tsv
+
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-pearsoncorrelation_relmat.tsv
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_atlas-<label>_stat-reho_bold.tsv
+
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_desc-denoised_bold.dtseries.nii
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_desc-denoisedSmoothed_bold.dtseries.nii
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_desc-interpolated_bold.dtseries.nii
+
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_desc-linc_qc.csv
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_stat-alff_boldmap.dscalar.nii
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_stat-alff_desc-smooth_boldmap.dscalar.nii
+|__ sub-<label>_ses-<label>_task-rest_dir-<label>_space-<label>_den-91k_stat-reho_boldmap.dscalar.nii
+
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_den-91k_stat-coverage_boldmap.pscalar.nii
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_den-91k_stat-mean_timeseries.ptseries.nii
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_stat-alff_bold.tsv
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_stat-coverage_bold.tsv
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_stat-mean_timeseries.tsv
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_seg-<SEG>_stat-reho_bold.tsv
+
 ```
 *NOTE:*
 
-- *Labels for `PARCEL` (`seg-<PARCEL>`) include: `4S1056Parcels`, `4S156Parcels`, `4S256Parcels`, `4S356Parcels`, `4S456Parcels`, `4S556Parcels`, `4S656Parcels`, `4S756Parcels`, `4S856Parcels`, and `4S956Parcels`*
-- *Labels for `ATLAS` (`seg-<ATLAS>`) include: `Glasser`, `Gordon`, `MIDB`, and `MyersLabonte`*
-
-
+- *Labels for `SEG` (`seg-<SEG>`) include: `4S1056Parcels`, `4S156Parcels`, `4S256Parcels`, `4S356Parcels`, `4S456Parcels`, `4S556Parcels`, `4S656Parcels`, `4S756Parcels`, `4S856Parcels`, `4S956Parcels`, `Glasser`, `Gordon`, `MIDB`,`MyersLabonte`, and `Tian`*
