@@ -30,6 +30,7 @@ root/
 |
 |__ derivatives/ 
 |   |__ bibsnet/
+|   |__ hbcd_motion/
 |   |__ made/
 |   |__ mriqc/
 |   |__ nibabies/

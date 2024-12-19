@@ -10,6 +10,11 @@ root/
     |       |__ ses-<label>/
     |           |__ anat/
     |
+    |__ hbcd_motion/
+    |   |__ sub-<label>/
+    |       |__ ses-<label>/
+    |           |__ motion/
+    |
     |__ made/
     |   |__ sub-<label>/
     |       |__ ses-<label>/
@@ -73,6 +78,31 @@ anat/
 |__ sub-<label>_ses-<label>_space-<T1w|T2w>_desc-aseg_volumes.json            
 |__ sub-<label>_ses-<label>_space-<T1w|T2w>_desc-aseg_brain-mask.nii.gz
 |__ sub-<label>_ses-<label>_space-<T1w|T2w>_desc-aseg_brain-mask.json
+```
+
+
+
+## HBCD-Motion (`hbcd_motion/`)
+The HBCD-Motion pipeline is used to process the HBCD Axivity Ax6 sensor recordings of infant leg movements across 72 continuous hours. Please see a full description of the output files on their webpage [here](https://hbcd-motion-postproc.readthedocs.io/en/latest/outputs.html#outputs).
+
+```
+motion/
+|__ Kinematics/
+|   |__ sub-<label>_ses-<label>_desc-kinematics_recording-20_motion.json
+|   |__ sub-<label>_ses-<label>_desc-kinematics_recording-25_motion.json
+|
+|__ PA/
+|   |__ sub-<label>_ses-<label>_leg-<left|right>_desc-accelerationPA_BOUTS.tsv
+|   |__ sub-<label>_ses-<label>_leg-<left|right>_desc-accelerationPA_LOG.txt
+|   |__ sub-<label>_ses-<label>_leg-<left|right>_desc-accelerationPA_RAW.tsv
+|   |__ sub-<label>_ses-<label>_leg-<left|right>_desc-accelerationPA_SUMMARY.json
+|   |__ sub-<label>_ses-<label>_leg-<left|right>_desc-jerkPA_BOUTS.tsv
+|   |__ sub-<label>_ses-<label>_leg-<left|right>_desc-jerkPA_LOG.txt
+|   |__ sub-<label>_ses-<label>_leg-<left|right>_desc-jerkPA_RAW.tsv
+|   |__ sub-<label>_ses-<label>_leg-<left|right>_desc-jerkPA_SUMMARY.json
+|
+|__ PARAMETERS.json
+|__ sub-<label>_ses-<label>_leg-<left|right>_desc-calibrated_recording-20_motion.tsv
 ```
 
 ## HBCD-MADE (`made/`)
@@ -280,7 +310,7 @@ HERCULES/
 
 
 
-## qMRI Postproc (`qmri_postproc/`) 🚧 UNDER CONSTRUCTION 🚧 
+## qMRI Postproc (`qmri_postproc/`)
 This pipeline performs minimal post-processing for SyMRI synthetic images derived from QALAS acquisition. Please visit the [qMRI PostProc webpage](https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html) for a description of the file outputs below.
 
 ```
@@ -299,6 +329,22 @@ anat/
 ## QSIPrep (`qsiprep/`) 🚧 UNDER CONSTRUCTION 🚧 
 
 ## QSIRecon (`qsirecon/`) 🚧 UNDER CONSTRUCTION 🚧 
+
+## SyMRI (`symri/`)
+
+[SyMRI](https://syntheticmr.com/products/symri-neuro/) is proprietary software for quantitative MRI. For HBCD it is used to generate synthetic contrast weighted images derived from measures of the absolute properties of [QALAS](https://pubmed.ncbi.nlm.nih.gov/25526880/) brain images. These outputs are then minimally preprocessed by [qMRI Postproc](#qmri-postproc-qmri_postproc). Files include synthetic T1w and T2w images (`sub-<label>_ses-<label>_acq-QALAS_<T1w|T2w>.nii.gz`), derived relaxometry maps (`sub-<label>_ses-<label>_acq-QALAS_T2map.nii.gz`).
+
+```
+anat/
+|__ sub-<label>_ses-<label>_acq-QALAS_T1w.nii.gz
+|__ sub-<label>_ses-<label>_acq-QALAS_T1w.json
+|__ sub-<label>_ses-<label>_acq-QALAS_T2map.nii.gz
+|__ sub-<label>_ses-<label>_acq-QALAS_T2map.json
+|__ sub-<label>_ses-<label>_acq-QALAS_T2w.nii.gz
+|__ sub-<label>_ses-<label>_acq-QALAS_T2w.json
+|__ sub-<label>_ses-<label>_acq-QALAS_desc-SymriContainer.log
+
+```
 
 ## XCP-D (`xcpd_d/`) 🚧 UNDER CONSTRUCTION 🚧 
 
@@ -340,5 +386,3 @@ func/
 |
 figures/
 ```
-
-
