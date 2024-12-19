@@ -171,7 +171,7 @@ sub-<label>_ses-<label>_task-rest_dir-<label>_run-<label>_bold.html
 sub-<label>_ses-<label>_dir-<label>_run-<label>_bold.html
 ```
 
-## Infant-fMRIPrep (`nibabies/`) 🚧 UNDER CONSTRUCTION 🚧 
+## Infant-fMRIPrep (`nibabies/`) 🚧
 Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. Also note that files may have additional BIDS entities including `dir-<label>` (to specify its derivation from data acquired in the `AP` or `PA` phase encoding directions) or `run-<label>` as appropriate. 
 
 - *Labels for `SPACE` (`space-<SPACE>`) include `MNI152NLin6Asym_res-2` and `T2w`*
@@ -244,9 +244,7 @@ figures/
 ```
 
 ## OSPREY-BIDS (`osprey/`) 
-
 OSPREY-BIDS is the BIDS extension to the OSPREY pipeline used to process HBCD magnetic resonance spectroscopy (MRS) data. The `HERCULES` and `unedited` folders have matching structures, so only one is displayed below. For readability, the `jpg`/`png` images under the figures folders are not listed. Also note that filenames may additionally include `run-<label>`. Please see their [webpage](https://osprey-bids.readthedocs.io/en/latest/index.html) for a detailed explanation of these outputs.
-
 ```
 HERCULES/ 
 |__ PreOspreyLocalizerReg/
@@ -299,17 +297,6 @@ HERCULES/
 
 ```
 
-
-
-
-
-
-
-
-
-
-
-
 ## qMRI Postproc (`qmri_postproc/`)
 This pipeline performs minimal post-processing for SyMRI synthetic images derived from QALAS acquisition. Please visit the [qMRI PostProc webpage](https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html) for a description of the file outputs below.
 
@@ -326,12 +313,11 @@ anat/
 |__ sub-<label>_ses-<label>_space-T2w_desc-QALAS_T2map.nii.gz
 ```
 
-## QSIPrep (`qsiprep/`) 🚧 UNDER CONSTRUCTION 🚧 
+## QSIPrep (`qsiprep/`) 🚧 
 
-## QSIRecon (`qsirecon/`) 🚧 UNDER CONSTRUCTION 🚧 
+## QSIRecon (`qsirecon/`) 🚧 
 
 ## SyMRI (`symri/`)
-
 [SyMRI](https://syntheticmr.com/products/symri-neuro/) is proprietary software for quantitative MRI. For HBCD it is used to generate synthetic contrast weighted images derived from measures of the absolute properties of [QALAS](https://pubmed.ncbi.nlm.nih.gov/25526880/) brain images. These outputs are then minimally preprocessed by [qMRI Postproc](#qmri-postproc-qmri_postproc). Files include synthetic T1w and T2w images (`sub-<label>_ses-<label>_acq-QALAS_<T1w|T2w>.nii.gz`), derived relaxometry maps (`sub-<label>_ses-<label>_acq-QALAS_T2map.nii.gz`).
 
 ```
