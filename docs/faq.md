@@ -54,21 +54,32 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>All individuals can typically obtain their own data access, including graduate students, postdocs, and similar roles. However, it's ultimately up to your institution to decide whether they will co-sign an independent DUC. In addition, Group-Level DUC is generally recommended, where principal investigators (PI) submit a single DUC that includes trainees, lab members, and collaborators (adding or removing users is managed via user dashboard). If this approach is chosen, it’s essential to ensure the primary DUC holder renews it annually, as expiration will result in access being revoked for all listed collaborators.</p>
+<p>All individuals can typically obtain their own data access, including graduate students, postdocs, and similar roles. However, it's ultimately up to your institution to decide whether they will co-sign an independent DUC.</p>
+<p>Group-Level DUC is generally recommended, where principal investigators (PI) submit a single DUC that includes trainees, lab members, and collaborators (adding or removing users is managed via user dashboard). The lead investigator is responsible for ensuring that individuals added as part of a group-level DUC are in compliance with its terms and conditions. Note that it is essential for the primary DUC holder to renew annually, as expiration will result in access being revoked for all listed collaborators.</p>
+</div>
+</p>
+
+<p>
+<div id="faq-aduc" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">If I obtain an A-DUC after receiving general DUC approval, which expiration date applies?</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>The two DUCs will be linked so that the expiration date for the A-DUC matches the expiration date of the general DUC.</p>
 </div>
 </p>
 
 <p>
 <div id="faq-ducsignoff" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
     <span class="emoji">&#x1f4a1;</span>
     <span class="text">Does the institutional signing official need to sign off for every individual that completes the DUC?</span>
-  </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Yes, official sign off is required for each DUC.</p>
+<p>Yes, sign off by the institutional signing official is required for each DUC.</p>
 </div>
 </p>
 
@@ -83,6 +94,20 @@
 <div class="notification-collapsible-content">
 <br>
 <p>Each insitutition has their own definitions and requirements surrounding whether whether the use of the de-identified HBCD data is considered to be human subjects research. Please consult directly with your IRB. </p>
+</div>
+</p>
+
+<p>
+<div id="faq-ducmove" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">What steps are required if someone with a DUC moves to a new institution?</span>
+  </span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>DUCs are not transferable between institutions. If you have an individual DUC or are lead on a group-level DUC and move to a new institution, please email nbdc@mail.nih.gov to notify NBDC and submit a new DUC with appropriate sponsorship from the new institution to retain access. The lead investigator of a group-level DUC may also designate another lead investigator at their former institution as a replacement.</p>
 </div>
 </p>
 
@@ -179,7 +204,7 @@
 <div class="notification-collapsible-content">
 <br>
 <p>
-Raw dMRI gradient tables can be found in the <code>assembly_bids/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for an overview of BIDS and dMRI-specific details <a href="../datacuration/imaging/#diffusion-dwi">here</a>.
+Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for an overview of BIDS and dMRI-specific details <a href="../datacuration/imaging/#diffusion-dwi">here</a>.
 
 <pre>
   <code>

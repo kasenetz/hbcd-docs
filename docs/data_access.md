@@ -7,7 +7,6 @@
   </span>
   <span class="notification-arrow">▸</span>
 </div>
-
 <div class="notification-collapsible-content">
 <br>
 <p>Users may encounter issues with their DUC applications or renewals due to the Biden administration's expansion of Executive Order 13873 of May 15, 2019 (Securing the Information and Communications Technology and Services Supply Chain) and Executive Order 14034 of June 9, 2021 (Protecting Americans’ Sensitive Data from Foreign Adversaries) that, among other things, prohibits the sharing of Americans’ bulk personal data, including genomic data, in certain cases. The ABCD Study has reported issues for users from countries identified in the Executive Order (see <a href="https://wiki.abcdstudy.org/">ABCD Wiki 11.6.2024: Data Access Issues</a>) and it will likely impact HBCD as well.</p> 
@@ -16,7 +15,7 @@
 </div>
 </p>
 
-HBCD data is publicly shared with all researchers at research institutions who are approved via the individual or investigator-led group Data Use Agreement/Certification (DUC) process. The DUC outlines rules that must be followed for data use and is signed electronically by both the submitter and the Institutional Signing Officer at their institution. Public access to release data is conducted through the [NIH Brain Development Cohort (NBCD) portal supported by Lasso](https://nbdc-hbcd-beta.lassoinformatics.com), enabling seamless data queries, downloads, and sharing. 
+HBCD data is publicly shared with all researchers associated with an NIH-recognized research institution via the individual or investigator-led group NBDC Data Use Agreement/Certification (DUC) process, which governs data use for both the ABCD and HBCD studies. The DUC outlines rules that must be followed for data use and is signed electronically by both the submitter and the Institutional Signing Officer at their institution. Public access to release data is conducted through the [NIH Brain Development Cohort (NBCD) portal supported by Lasso](https://nbdc-hbcd-beta.lassoinformatics.com), enabling seamless data queries, downloads, and sharing. Before you begin the DUC process, please identify an authorized signatory official at your institution.
 
 Once you have an account and have logged into the Lasso Informatics platform, please follow these steps to request access to the data.
 
@@ -87,6 +86,8 @@ The Signing Official will receive an email from DocuSign asking that they review
 ![](data_access/new_request.png)
 
 ## Review
-This is the step where the DUC committee (NIDA) reviews your request. When your request is approved, you will receive an email notifying you of the approval. After signing in to the platform, you will have access to the requested data. If your DUC request is denied, your access to the platform will be limited, but you will be allowed to submit a new DUC request.
+This is the step where the NBDC Data Access Committee (DAC) reviews your request. The DAC consists of federal staff from NIH with expertise in science, policy, or bioinformatics resources. DUCs are approved based on satisfaction of basic pre-requisites and whether the data access request is reasonable and aligns with the terms of the DUC. The quality of the science for which the data is intended to be used is not reviewed.
+
+When your request is approved, you will receive an email notifying you of the approval. After signing in to the platform, you will have access to the requested data. If your DUC request is denied, your access to the platform will be limited, but you will be allowed to submit a new DUC request.
 
 Please note: For beta testing, users do not have to undergo any additional training. But for the public release, each user needs to go through a mandatory training on responsible data use before accessing the data.  
