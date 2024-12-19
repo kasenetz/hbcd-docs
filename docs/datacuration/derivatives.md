@@ -332,7 +332,7 @@ anat/
 
 ```
 
-## XCP-D (`xcpd_d/`) 🚧 UNDER CONSTRUCTION 🚧 
+## XCP-D (`xcpd_d/`) 🚧 
 
 For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. Also note that files may have additional BIDS entities including `dir-<label>` (to specify its derivation from data acquired in the `AP` or `PA` phase encoding directions) or `run-<label>` as appropriate. 
 
