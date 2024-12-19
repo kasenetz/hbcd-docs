@@ -1,22 +1,65 @@
 # Derivatives
 
-The `derivatives/` folder contains minimally preprocessed outputs from the processing pipelines.
+The `derivatives/` folder contains minimally preprocessed outputs from the processing pipelines. Here is the higher-level folder structure and in each section below we explain the file contents of each subject and session subfolder displayed.
 
 ```
 root/
 |__ derivatives/ 
     |__ bibsnet/
+    |   |__ sub-<label>/
+    |       |__ ses-<label>/
+    |           |__ anat/
+    |
     |__ made/
+    |   |__ sub-<label>/
+    |       |__ ses-<label>/
+    |           |__ eeg/
+    |
     |__ mriqc/
+    |   |__ sub-<label>/
+    |       |__ ses-<label>/
+    |           |__ anat/
+    |
     |__ nibabies/
+    |   |__ sub-<label>/
+    |       |__ ses-<label>/
+    |           |__ anat/
+    |           |__ fmap/
+    |           |__ func/       
+    |           |__ figures/
+    | 
     |__ osprey/
+    |   |__ sub-<label>/
+    |       |__ ses-<label>/
+    |           |__ HERCULES/
+    |           |__ unedited/
+    |
     |__ qmri_postproc/
+    |   |__ sub-<label>/
+    |       |__ ses-<label>/
+    |           |__ anat/    
+    |
     |__ qsiprep/
+    |   |__ sub-<label>/
+    |       |__ ses-<label>/
+    |           |__ anat/    
+    |           |__ dwi/      
+    |           |__ figures/        
+    |
     |__ qsirecon/
+    |
     |__ symri/
+    |   |__ sub-<label>/
+    |       |__ ses-<label>/
+    |           |__ anat/
+    |    
     |__ xcp_d/
+        |__ sub-<label>/
+            |__ ses-<label>/
+                |__ anat/
+                |__ func/       
+                |__ figures/    
 ```
-
 
 ## BIBSNet (`bibsnet/`)
 
@@ -86,7 +129,6 @@ eeg/
 ## MRIQC (`mriqc/`)
 Please refer to the [MRIQC webpage](https://mriqc.readthedocs.io/en/latest/about.html) to read details about the outputs provided in this release.
 ```
-root/
 |__ anat/
 |   |__ sub-<label>_ses-<label>_run-<label>_T1w.json
 |   |__ sub-<label>_ses-<label>_run-<label>_T2w.json
@@ -94,7 +136,7 @@ root/
 |__ func/
 |   |__ sub-<label>_ses-<label>_task-rest_dir-<label>_run-<label>_bold.json
 |
-|__sub-<label>_ses-<label>_run-<label>_T1w.html
+|__ sub-<label>_ses-<label>_run-<label>_T1w.html
 |__ sub-<label>_ses-<label>_run-<label>_T2w.html
 |__ sub-<label>_ses-<label>_task-rest_dir-<label>_run-<label>_bold.html
 |__ sub-<label>_ses-<label>_dir-<label>_run-<label>_bold.html
@@ -103,73 +145,75 @@ root/
 ## Infant-fMRIPrep (`nibabies/`)
 Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. Also note that files may have additional BIDS entities including `dir-<label>` or `run-<label>` as appropriate. 
 
+### anat/
 ```
-root/
+anat/
+|__ sub-<label>_ses-<label>_desc-<aseg|aparcaseg>_dseg.nii.gz
+|__ sub-<label>_ses-<label>_desc-<brain|ribbon>_mask.nii.gz
+|__ sub-<label>_ses-<label>_desc-preproc_<T1w|T2w>.nii.gz
+|__ sub-<label>_ses-<label>_dseg.nii.gz
+|__ sub-<label>_ses-<label>_from-fsnative_to-T2w_mode-image_xfm.txt
+|__ sub-<label>_ses-<label>_from-T2w_to-fsnative_mode-image_xfm.txt
+|__ sub-<label>_ses-<label>_from-MNI152NLin6Asym_to-T2w_mode-image_xfm.h5
+|__ sub-<label>_ses-<label>_from-MNIInfant+<1|2|3|4>_to-T2w_mode-image_xfm.h5
+|__ sub-<label>_ses-<label>_from-T2w_to-MNIInfant+<1|2|3|4>_mode-image_xfm.h5
+|__ sub-<label>_ses-<label>_hemi-<L|R>_curv.shape.gii
+|__ sub-<label>_ses-<label>_hemi-<L|R>_desc-reg_sphere.surf.gii
+|__ sub-<label>_ses-<label>_hemi-<L|R>_inflated.surf.gii
+|__ sub-<label>_ses-<label>_hemi-<L|R>_midthickness.surf.gii
+|__ sub-<label>_ses-<label>_hemi-<L|R>_pial.surf.gii
+|__ sub-<label>_ses-<label>_hemi-<L|R>_space-dHCP_desc-reg_sphere.surf.gii
+|__ sub-<label>_ses-<label>_hemi-<L|R>_space-dhcpAsym_desc-reg_sphere.surf.gii
+|__ sub-<label>_ses-<label>_hemi-<L|R>_space-fsaverage_desc-reg_sphere.surf.gii
+|__ sub-<label>_ses-<label>_hemi-<L|R>_sphere.surf.gii
+|__ sub-<label>_ses-<label>_hemi-<L|R>_sulc.shape.gii
+|__ sub-<label>_ses-<label>_hemi-<L|R>_thickness.shape.gii
+|__ sub-<label>_ses-<label>_hemi-<L|R>_white.surf.gii
+|__ sub-<label>_ses-<label>_label-<CSF|GM|WM>_probseg.nii.gz
+|__ sub-<label>_ses-<label>_space-fsLR_den-91k_<curv|sulc|thickness>.dscalar.nii
+|__ sub-<label>_ses-<label>_space-fsLR_den-91k_<curv|sulc|thickness>.json
+|__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz
+|__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_res-2_desc-preproc_T2w.nii.gz
+|__ sub-<label>_ses-<label>_space-<SPACE>_dseg.nii.gz
+|__ sub-<label>_ses-<label>_space-<SPACE>_label-<CSF|GM|WM>_probseg.nii.gz
+|__ sub-<label>_ses-<label>_space-T2w_desc-<aparcaseg|aseg>_dseg.nii.gz
+|__ sub-<label>_ses-<label>_space-T2w_desc-ribbon_mask.nii.gz
+```
+```
+fmap/
+|__ sub-<label>_ses-<label>_fmapid-<FMAPID>_desc-coeff_fieldmap.nii.gz
+|__ sub-<label>_ses-<label>_fmapid-<FMAPID>_desc-epi_fieldmap.nii.gz
+|__ sub-<label>_ses-<label>_fmapid-<FMAPID>_desc-preproc_fieldmap.nii.gz
+|
+func/
+|__ sub-<label>_ses-<label>_task-rest_boldref.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_desc-confounds_timeseries.tsv
+|__ sub-<label>_ses-<label>_task-rest_from-scanner_to-boldref_mode-image_xfm.txt
+|__ sub-<label>_ses-<label>_task-rest_from-scanner_to-T1w_mode-image_xfm.txt
+|__ sub-<label>_ses-<label>_task-rest_from-T1w_to-scanner_mode-image_xfm.txt
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_den-91k_bold.dtseries.nii
+|__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_boldref.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_desc-<aparcaseg|aseg>_dseg.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_desc-preproc_bold.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_space-T1w_desc-goodvoxels_mask.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-brain_mask.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-confounds_timeseries.tsv
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-coreg_boldref.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-hmc_boldref.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-preproc_bold.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_from-boldref_to-<FMAPID>_mode-image_xfm.txt
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_from-boldref_to-T2w_mode-image_desc-coreg_xfm.txt
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_from-boldref_to-T2w_mode-image_desc-coreg_xfm.txt
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_hemi-<L|R>_space-fsnative_bold.func.gii
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_den-91k_bold.dtseries.nii
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-<SPACE>_boldref.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-<SPACE>_desc-brain_mask.nii.gz
+|__ sub-<label>_ses-<label>_task-rest_dir-PA_space-<SPACE>_desc-preproc_bold.nii.gz
+|
 |__ figures/
-|__ anat/
-|   |__ sub-<label>_ses-<label>_desc-<aseg|aparcaseg>_dseg.nii.gz
-|   |__ sub-<label>_ses-<label>_desc-<brain|ribbon>_mask.nii.gz
-|   |__ sub-<label>_ses-<label>_desc-preproc_<T1w|T2w>.nii.gz
-|   |__ sub-<label>_ses-<label>_dseg.nii.gz
-|   |__ sub-<label>_ses-<label>_from-fsnative_to-T2w_mode-image_xfm.txt
-|   |__ sub-<label>_ses-<label>_from-T2w_to-fsnative_mode-image_xfm.txt
-|   |__ sub-<label>_ses-<label>_from-MNI152NLin6Asym_to-T2w_mode-image_xfm.h5
-|   |__ sub-<label>_ses-<label>_from-MNIInfant+<1|2|3|4>_to-T2w_mode-image_xfm.h5
-|   |__ sub-<label>_ses-<label>_from-T2w_to-MNIInfant+<1|2|3|4>_mode-image_xfm.h5
-|   |__ sub-<label>_ses-<label>_hemi-<L|R>_curv.shape.gii
-|   |__ sub-<label>_ses-<label>_hemi-<L|R>_desc-reg_sphere.surf.gii
-|   |__ sub-<label>_ses-<label>_hemi-<L|R>_inflated.surf.gii
-|   |__ sub-<label>_ses-<label>_hemi-<L|R>_midthickness.surf.gii
-|   |__ sub-<label>_ses-<label>_hemi-<L|R>_pial.surf.gii
-|   |__ sub-<label>_ses-<label>_hemi-<L|R>_space-dHCP_desc-reg_sphere.surf.gii
-|   |__ sub-<label>_ses-<label>_hemi-<L|R>_space-dhcpAsym_desc-reg_sphere.surf.gii
-|   |__ sub-<label>_ses-<label>_hemi-<L|R>_space-fsaverage_desc-reg_sphere.surf.gii
-|   |__ sub-<label>_ses-<label>_hemi-<L|R>_sphere.surf.gii
-|   |__ sub-<label>_ses-<label>_hemi-<L|R>_sulc.shape.gii
-|   |__ sub-<label>_ses-<label>_hemi-<L|R>_thickness.shape.gii
-|   |__ sub-<label>_ses-<label>_hemi-<L|R>_white.surf.gii
-|   |__ sub-<label>_ses-<label>_label-<CSF|GM|WM>_probseg.nii.gz
-|   |__ sub-<label>_ses-<label>_space-fsLR_den-91k_<curv|sulc|thickness>.dscalar.nii
-|   |__ sub-<label>_ses-<label>_space-fsLR_den-91k_<curv|sulc|thickness>.json
-|   |__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz
-|   |__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_res-2_desc-preproc_T2w.nii.gz
-|   |__ sub-<label>_ses-<label>_space-<SPACE>_dseg.nii.gz
-|   |__ sub-<label>_ses-<label>_space-<SPACE>_label-<CSF|GM|WM>_probseg.nii.gz
-|   |__ sub-<label>_ses-<label>_space-T2w_desc-<aparcaseg|aseg>_dseg.nii.gz
-|   |__ sub-<label>_ses-<label>_space-T2w_desc-ribbon_mask.nii.gz
-|
-|__ fmap/
-|   |__ sub-<label>_ses-<label>_fmapid-<FMAPID>_desc-coeff_fieldmap.nii.gz
-|   |__ sub-<label>_ses-<label>_fmapid-<FMAPID>_desc-epi_fieldmap.nii.gz
-|   |__ sub-<label>_ses-<label>_fmapid-<FMAPID>_desc-preproc_fieldmap.nii.gz
-|
-|__ func/
-    |__ sub-<label>_ses-<label>_task-rest_boldref.nii.gz
-    |__ sub-<label>_ses-<label>_task-rest_desc-confounds_timeseries.tsv
-    |__ sub-<label>_ses-<label>_task-rest_from-scanner_to-boldref_mode-image_xfm.txt
-    |__ sub-<label>_ses-<label>_task-rest_from-scanner_to-T1w_mode-image_xfm.txt
-    |__ sub-<label>_ses-<label>_task-rest_from-T1w_to-scanner_mode-image_xfm.txt
-    |__ sub-<label>_ses-<label>_task-rest_space-fsLR_den-91k_bold.dtseries.nii
-    |__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_boldref.nii.gz
-    |__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_desc-<aparcaseg|aseg>_dseg.nii.gz
-    |__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz
-    |__ sub-<label>_ses-<label>_task-rest_space-MNI152NLin6Asym_res-2_desc-preproc_bold.nii.gz
-    |__ sub-<label>_ses-<label>_task-rest_space-T1w_desc-goodvoxels_mask.nii.gz
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-brain_mask.nii.gz
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-confounds_timeseries.tsv
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-coreg_boldref.nii.gz
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-hmc_boldref.nii.gz
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_desc-preproc_bold.nii.gz
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_from-boldref_to-<FMAPID>_mode-image_xfm.txt
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_from-boldref_to-T2w_mode-image_desc-coreg_xfm.txt
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_from-boldref_to-T2w_mode-image_desc-coreg_xfm.txt
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_hemi-<L|R>_space-fsnative_bold.func.gii
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_space-fsLR_den-91k_bold.dtseries.nii
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_space-<SPACE>_boldref.nii.gz
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_space-<SPACE>_desc-brain_mask.nii.gz
-    |__ sub-<label>_ses-<label>_task-rest_dir-PA_space-<SPACE>_desc-preproc_bold.nii.gz
 ```
 *NOTE:* 
 
@@ -187,13 +231,6 @@ root/
 ## XCP-D (`xcpd_d/`)
 
 For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. 
-
-```
-root/
-|__ figures/
-|__ anat/
-|__ func/
-```
 
 ## `anat/`
 
