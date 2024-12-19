@@ -54,8 +54,21 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
+<p>All individuals can typically obtain their own data access, including graduate students, postdocs, and similar roles. However, it's ultimately up to your institution to decide whether they will co-sign an independent DUC. In addition, Group-Level DUC is generally recommended, where principal investigators (PI) submit a single DUC that includes trainees, lab members, and collaborators (adding or removing users is managed via user dashboard). If this approach is chosen, it’s essential to ensure the primary DUC holder renews it annually, as expiration will result in access being revoked for all listed collaborators.</p>
+</div>
+</p>
+
 <p>
-All individuals can typically obtain their own data access. It’s up to your institution to decide whether they will co-sign an independent DUC for a student, but in most cases, graduate students, postdocs, and similar roles have successfully obtained their own DUC. For efficiency, some teams opt for the principal investigator (PI) to submit a “Parent” DUC that includes trainees and lab members as collaborators. If this approach is chosen, it’s essential to ensure the primary DUC holder renews it annually, as expiration will result in access being revoked for all listed collaborators.</p>
+<div id="faq-ducsignoff" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">Does the institutional signing official need to sign off for every individual that completes the DUC?</span>
+  </span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>Yes, official sign off is required for each DUC.</p>
 </div>
 </p>
 
