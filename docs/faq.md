@@ -25,7 +25,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p><i>Sourced directly from ABCD</i>: "Our data are publicly shared with eligible researchers with a valid research use of the data, and who are at an institution with an active Federal Wide Assurance, which many international institutions have (<a href="https://ohrp.cit.nih.gov/search/fwasearch.aspx?styp=bsc">https://ohrp.cit.nih.gov/search/fwasearch.aspx?styp=bsc</a>)." </p>
+<p>HBCD data are openly available to qualified researchers who have a legitimate research purpose and are affiliated with an institution that holds an active <a href="https://ohrp.cit.nih.gov/search/fwasearch.aspx?styp=bsc">Federal Wide Assurance</a>, a designation held by numerous institutions worldwide.</p>
 <p>Please also see this important <a href="../data_access#notification-banner">notification about Executive Order 13873</a> that may cause data access issues for users within certain countries.</p>
 </div>
 </p>
@@ -54,7 +54,8 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p><i>Sourced directly from ABCD</i>: "In general, each person is able to get their own data access, but you may also list collaborators on a “Parent” DUC that then grants access to the data to all collaborators listed on the DUC. That said, it is up to your institution to determine whether they will “co-sign” an independent DUC for a student, though generally graduate students, postdocs, etc., have been able to have their own DUC. Some groups have the PI submit a DUC with trainees and other lab members listed as collaborators. If you go that route, then you just need to make sure the primary DUC holder doesn’t forget to renew their DUC annually, otherwise all others on the DUC will lose access along with them when it expires." </p>
+<p>
+All individuals can typically obtain their own data access. It’s up to your institution to decide whether they will co-sign an independent DUC for a student, but in most cases, graduate students, postdocs, and similar roles have successfully obtained their own DUC. For efficiency, some teams opt for the principal investigator (PI) to submit a “Parent” DUC that includes trainees and lab members as collaborators. If this approach is chosen, it’s essential to ensure the primary DUC holder renews it annually, as expiration will result in access being revoked for all listed collaborators.</p>
 </div>
 </p>
 
@@ -68,7 +69,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p><i>Sourced directly from ABCD</i>: "Institutions vary on whether they consider use of the de-identified dataset to be human subjects research, with some requiring expedited-style or even exempt IRB reviews by their institution’s IRB. Other institutions do not consider it to be human subjects research given the de-identified nature of the data. That is a question to ask your IRB." </p>
+<p>Each insitutition has their own definitions and requirements surrounding whether whether the use of the de-identified HBCD data is considered to be human subjects research. Please consult directly with your IRB. </p>
 </div>
 </p>
 
@@ -80,8 +81,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>🚧 UNDER CONSTRUCTION 🚧</p>
-<p>No, this is not permitted. Inputting HBCD data to generative AI tools, such as ChatGPT, is a violation of the terms of use outlined in the data use agreement.</p>
+<p>No: using generative AI tools (e.g. ChatGPT) in this manner is a violation of the data use agreement.</p>
 </div>
 </p>
 
