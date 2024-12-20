@@ -119,7 +119,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>No: using generative AI tools (e.g. ChatGPT) in this manner is a violation of the data use agreement.</p>
+<p>It is prohibited to input HBCD data into generative AI tools (e.g., ChatGPT) because doing so would violate the terms of the data use agreement. These agreements strictly limit access to approved individuals to protect sensitive information. Generative AI tools process input data in ways that may result in unauthorized access or unintended use, making them unsuitable for handling restricted data.</p>
 </div>
 </p>
 
@@ -204,34 +204,7 @@
 <div class="notification-collapsible-content">
 <br>
 <p>
-Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for an overview of BIDS and dMRI-specific details <a href="../datacuration/imaging/#diffusion-dwi">here</a>.
-
-<pre>
-  <code>
-raw/ 
-|__ sub-&lt;label&gt;/
-|   |__ ses-&lt;label&gt;/
-|       |__ dwi/
-|       |   |__ sub-&lt;label&gt;_ses-&lt;label&gt;_dir-&lt;AP|PA&gt;_run-&lt;label&gt;_dwi.bval
-|       |   |__ sub-&lt;label&gt;_ses-&lt;label&gt;_dir-&lt;AP|PA&gt;_run-&lt;label&gt;_dwi.bvec
-  </code>
-</pre>
-</p>
-</div>
-</p>
-
-<p>
-<div id="faq-fov" class="notification-banner" onclick="toggleCollapse(this)">
-<span>
-    <span class="emoji">&#x1f4a1;</span>
-    <span class="text">Are FreeSurfer processing outputs included in the data sharing?  </span>
-</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-<br>
-<p>
-UNDER CONSTRUCTION
+Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for an overview of BIDS and details of raw dMRI data <a href="../datacuration/imaging/#diffusion-dwi">here</a>. Processsed gradient tables, adjusted for head rotation, are additionally provided in the QSIPrep <code>derivatives/</code> - see details <a href="../datacuration/derivatives/#qsiprep-qsiprep)">here</a>.
 </p>
 </div>
 </p>
