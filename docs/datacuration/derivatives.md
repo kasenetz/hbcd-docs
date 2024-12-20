@@ -170,7 +170,7 @@ sub-<L>_ses-<L>_dir-<L>_run-<L>_bold.html
 ```
 
 ## Infant-fMRIPrep (`nibabies/`)
-Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. Also note that filenames may have additional BIDS entities including `run-<L>`.
+Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report, `sub-<L>_ses-<L>.html`) and sidecar JSON files are not included below. Also note that filenames may have additional BIDS entities including `run-<L>`.
 
 - *Labels for `SPACE` (`space-<SPACE>`) include `MNI152NLin6Asym_res-2` and `T2w`*
 - *Labels for `FMAPID` (`fmapid<FMAPID>`) include `auto00000`, `auto00001`, `auto00002`, `auto00003`, and `auto00004`*
@@ -218,6 +218,8 @@ func/
 |__ sub-<L>_ses-<L>_task-rest_dir-PA_space-fsLR_den-91k_bold.dtseries.nii
 |
 figures/
+|
+sub-<L>_ses-<L>.html
 ```
 
 ## OSPREY-BIDS (`osprey/`) 
