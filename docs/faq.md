@@ -204,7 +204,22 @@
 <div class="notification-collapsible-content">
 <br>
 <p>
-Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for an overview of BIDS and details of raw dMRI data <a href="../datacuration/imaging/#diffusion-dwi">here</a>. Processsed gradient tables, adjusted for head rotation, are additionally provided in the QSIPrep <code>derivatives/</code> - see details <a href="../datacuration/derivatives/#qsiprep-qsiprep)">here</a>.
+Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for an overview of BIDS and details of raw dMRI data <a href="../datacuration/imaging/#diffusion-dwi">here</a>. Processsed gradient tables, adjusted for head rotation, are additionally provided in the QSIPrep <code>derivatives/</code> - see details <a href="../datacuration/derivatives/#qsiprep-qsiprep">here</a>.
+</p>
+</div>
+</p>
+
+<p>
+<div id="faq-fmap" class="notification-banner" onclick="toggleCollapse(this)">
+<span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">When should I use EPI fieldmaps?  </span>
+</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>HBCD image processing pipelines use field maps to perform distortion correction for structural and functional MRI data. Most researchers will likely use the processed data for their analyses and therefore do not need to use the fieldmaps for anything, as all pipeline output derivatives are already distortion corrected. However, if using the <a href="../datacuration/imaging">raw BIDS data</a> for your research, note that each fMRI acquisition will have a specific pair of fieldmaps associated with it, acquired in AP and PA phase encoding directions, located under <code>fmap/</code>. The matching EPI fieldmaps can easily be identified by the run number, specified by <code>run-&lt;label&gt;</code> in the filename (see details <a href="../datacuration/imaging/#functional-func-and-fieldmaps-fmap">here</a>).
 </p>
 </div>
 </p>
