@@ -80,8 +80,6 @@ anat/
 |__ sub-<L>_ses-<L>_space-<T1w|T2w>_desc-aseg_brain-mask.json
 ```
 
-
-
 ## HBCD-Motion (`hbcd_motion/`)
 The HBCD-Motion pipeline is used to process the HBCD Axivity Ax6 sensor recordings of infant leg movements across 72 continuous hours. Please see a full description of the output files on their webpage [here](https://hbcd-motion-postproc.readthedocs.io/en/latest/outputs.html#outputs).
 
@@ -106,52 +104,52 @@ motion/
 ```
 
 ## HBCD-MADE (`made/`)
-HBCD-MADE produces preprocessed EEG derivatives. Please see the [HBCD-MADE webpage](https://docs-hbcd-made.readthedocs.io/en/latest/expected_outputs.html) for a full explanation of the derivative files displayed below.
+HBCD-MADE produces preprocessed EEG derivatives. Please see the [HBCD-MADE webpage](https://docs-hbcd-made.readthedocs.io/en/latest) for a full explanation of the derivative files displayed below.
 
 *NOTE:`TASK` field options include `FACE`, `MMN`, `RS`, and `VEP`*
 ```
 eeg/
 |__ filtered_data/
-|   |__ sub-<L>_ses-<L>_task-<TASK>_acq-eeg_eeg_filtered_data.fdt
-|   |__ sub-<L>_ses-<L>_task-<TASK>_acq-eeg_eeg_filtered_data.set
+|   |__ sub-<L>_ses-<L>_task-<TASK>_acq-eeg_desc-filtered_eeg.fdt
+|   |__ sub-<L>_ses-<L>_task-<TASK>_acq-eeg_desc-filtered_eeg.set
 |
 |__ ica_data/
-|   |__ sub-<L>_ses-<L>_adjust_report
-|   |__ sub-<L>_ses-<L>_ica_data.fdt
-|   |__ sub-<L>_ses-<L>_ica_data.set
+|   |__ sub-<L>_ses-<L>_adjustReport.txt
+|   |__ sub-<L>_ses-<L>_desc-merged+ica_eeg.fdt
+|   |__ sub-<L>_ses-<L>_desc-merged+ica_eeg.set
 | 
 |__ merged_data/
-|   |__ sub-<L>_ses-<L>_merged.fdt
-|   |__ sub-<L>_ses-<L>_merged.json
-|   |__ sub-<L>_ses-<L>_merged.set
+|   |__ sub-<L>_ses-<L>_desc-merged_eeg.fdt
+|   |__ sub-<L>_ses-<L>_desc-merged_eeg.json
+|   |__ sub-<L>_ses-<L>_desc-merged_eeg.set
 | 
 |__ processed_data/
-|   |__ sub-<L>_01_Topo_Standard_MMN.jpg
-|   |__ sub-<L>_01_Topo_Upright_FACE.jpg
-|   |__ sub-<L>_01_Topo_VEP.jpg
-|   |__ sub-<L>_02_Topo_Inverted_FACE.jpg
-|   |__ sub-<L>_02_Topo_PreDeviant_MMN.jpg
+|   |__ sub-<L>_task-MMN_desc-standard_topo.jpg
+|   |__ sub-<L>_task-FACE_desc-upright_topo.jpg
+|   |__ sub-<L>_task-VEP_topo.jpg
+|   |__ sub-<L>_task-FACE_desc-inverted_topo.jpg
+|   |__ sub-<L>_task-MMN_desc-preDeviant_topo.jpg
 |   |__ sub-<L>_03_Topo_Deviant_MMN.jpg
-|   |__ sub-<L>_03_Topo_Object_FACE.jpg
-|   |__ sub-<L>_04_DiffTopo_Dev_Vs_Sta_MMN.jpg
-|   |__ sub-<L>_04_Topo_Upright2_FACE.jpg
-|   |__ sub-<L>_05_DiffTop_Inv_Vs_Upr_FACE.jpg
-|   |__ sub-<L>_05_DiffTopo_Dev_Vs_Pre_MMN.jpg
-|   |__ sub-<L>_06_DiffTopo_Obj_Vs_Up2_FACE.jpg
-|   |__ sub-<L>_DiffERP_oz_FACE.jpg
-|   |__ sub-<L>_DiffERP_t7t8_MMN.jpg
-|   |__ sub-<L>_ERP_oz_FACE.jpg    
-|   |__ sub-<L>_ERP_oz_VEP.jpg
-|   |__ sub-<L>_ERP_t7t8_MMN.jpg
-|   |__ sub-<L>_PSD_AllCh_Avg.jpg
-|   |__ sub-<L>_PSD_AllCh.jpg
-|   |__ sub-<L>_PSD_ROI.jpg
-|   |__ sub-<L>_ses-<L>_task-<FACE|MMN|VEP>_ERP-summaryStats.csv
-|   |__ sub-<L>_ses-<L>_task-<FACE|MMN|VEP>_ERP-trialMeasures.csv
-|   |__ sub-<L>_ses-<L>_task-RS_Power-summaryStats.csv
+|   |__ sub-<L>_task-FACE_desc-object_topo.jpg
+|   |__ sub-<L>_task-MMN_desc-diffDevVsSta_topo.jpg
+|   |__ sub-<L>_task-FACE_desc-upright2_topo.jpg
+|   |__ sub-<L>_task-FACE_desc-diffInvVsUpr_topo.jpg
+|   |__ sub-<L>_task-MMN_desc-diffDevVsPre_topo.jpg
+|   |__ sub-<L>_task-FACE_desc-diffObjVsUp2_topo.jpg
+|   |__ sub-<L>_task-FACE_desc-Oz_diffERP.jpg
+|   |__ sub-<L>_task-MMN_desc-T7t8_diffERP.jpg
+|   |__ sub-<L>_task-FACE_desc-oz_ERP.jpg 
+|   |__ sub-<L>_task-VEP_desc-oz_ERP.jpg
+|   |__ sub-<L>_task-MMN_desc-t7t8_ERP.jpg
+|   |__ sub-<L>_task-RS_desc-allChAvg_PSD.jpg
+|   |__ sub-<L>_task-RS_desc-allCh_PSD.jpg
+|   |__ sub-<L>_task-RS_desc-ROI_PSD.jpg
+|   |__ sub-<L>_ses-<L>_task-<TASK>_ERPSummaryStats.csv
+|   |__ sub-<L>_ses-<L>_task-<TASK>_ERPTrialMeasures.csv
+|   |__ sub-<L>_ses-<L>_task-RS_powerSummaryStats.csv
 | 
-|__ sub-<L>_ses-<L>_acq-eeg_MADE_preprocessing_report.csv
-|__ sub-<L>_ses-<L>_task-<TASK>_acq-eeg_eeg_MADE_specification.json
+|__ sub-<L>_ses-<L>_acq-eeg_preprocessingReport.csv
+|__ sub-<L>_ses-<L>_task-<TASK>_acq-eeg_specification.json
 ```
 
 
