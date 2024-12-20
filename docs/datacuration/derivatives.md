@@ -172,7 +172,7 @@ sub-<label>_ses-<label>_dir-<label>_run-<label>_bold.html
 ```
 
 ## Infant-fMRIPrep (`nibabies/`) 🚧
-Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. Also note that filenames may have additional BIDS entities including `run-<label>`.
+Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. Also note that filenames may have additional BIDS entities including `run-<label>`.
 
 - *Labels for `SPACE` (`space-<SPACE>`) include `MNI152NLin6Asym_res-2` and `T2w`*
 - *Labels for `FMAPID` (`fmapid<FMAPID>`) include `auto00000`, `auto00001`, `auto00002`, `auto00003`, and `auto00004`*
@@ -341,43 +341,37 @@ anat/
 
 ```
 
-## XCP-D (`xcpd_d/`) 🚧 
-
+## XCP-D (`xcpd_d/`)
+XCP-D performs functional MRI post-processing and noise regression from Infant-fMRIPrep derivatives. Please see the [XCP-D webpage](https://xcp-d.readthedocs.io/en/latest/) to learn more and read details about the output file types. 
 For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. Also note that files may have additional BIDS entities including `dir-<label>` (to specify its derivation from data acquired in the `AP` or `PA` phase encoding directions) or `run-<label>` as appropriate. 
 
 *Labels for `SEG` (`seg-<SEG>`) include: `4S1056Parcels`, `4S156Parcels`, `4S256Parcels`, `4S356Parcels`, `4S456Parcels`, `4S556Parcels`, `4S656Parcels`, `4S756Parcels`, `4S856Parcels`, `4S956Parcels`, `Glasser`, `Gordon`, `MIDB`,`MyersLabonte`, and `Tian`*
 
 ```
 anat/
-|__ sub-<label>_ses-<label>_space-<space>_desc-preproc_<T1w|T2w>.nii.gz
-|__ sub-<label>_ses-<label>_space-<space>_dseg.nii.gz
+|__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_desc-preproc_T2w.nii.gz
+|__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_dseg.nii.gz
 |__ sub-<label>_ses-<label>_space-fsLR_den-91k_<curv|sulc|thickness>.dscalar.nii
 |__ sub-<label>_ses-<label>_space-fsLR_seg-<SEG>_stat-mean_desc-curv_morph.tsv
 |__ sub-<label>_ses-<label>_space-fsLR_seg-<SEG>_stat-mean_desc-sulc_morph.tsv
 |__ sub-<label>_ses-<label>_space-fsLR_seg-<SEG>_stat-mean_desc-thickness_morph.tsv
-|__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_desc-preproc_T2w.nii.gz
-|__ sub-<label>_ses-<label>_space-MNI152NLin6Asym_dseg.nii.gz
 |
 func/
 |__ sub-<label>_ses-<label>_task-rest_desc-abcc_qc.hdf5
-|__ sub-<label>_ses-<label>_task-rest_<motion|outliers|design>.tsv
-|__ sub-<label>_ses-<label>_task-rest_space-<label>_atlas-<label>_den-91k_stat-pearsoncorrelation_boldmap.pconn.nii
-|__ sub-<label>_ses-<label>_task-rest_space-<label>_atlas-<label>_den-91k_timeseries.ptseries.nii
-|__ sub-<label>_ses-<label>_task-rest_space-<label>_atlas-<label>_measure-pearsoncorrelation_conmat.tsv
-|__ sub-<label>_ses-<label>_task-rest_space-<label>_atlas-<label>_stat-pearsoncorrelation_relmat.tsv
-|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_desc-denoised_bold.dtseries.nii
-|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_desc-denoisedSmoothed_bold.dtseries.nii
-|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_desc-interpolated_bold.dtseries.nii
-|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_desc-linc_qc.csv
-|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_stat-alff_boldmap.dscalar.nii
-|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_stat-alff_desc-smooth_boldmap.dscalar.nii
-|__ sub-<label>_ses-<label>_task-rest_space-<label>_den-91k_stat-reho_boldmap.dscalar.nii
+|__ sub-<label>_ses-<label>_task-rest_<design|motion|outliers>.tsv
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_den-91k_desc-denoisedSmoothed_bold.dtseries.nii
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_den-91k_desc-denoised_bold.dtseries.nii
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_den-91k_desc-linc_qc.tsv
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_den-91k_stat-alff_boldmap.dscalar.nii
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_den-91k_stat-alff_desc-smooth_boldmap.dscalar.nii
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_den-91k_stat-reho_boldmap.dscalar.nii
 |__ sub-<label>_ses-<label>_task-rest_space-fsLR_seg-<SEG>_den-91k_stat-coverage_boldmap.pscalar.nii
 |__ sub-<label>_ses-<label>_task-rest_space-fsLR_seg-<SEG>_den-91k_stat-mean_timeseries.ptseries.nii
 |__ sub-<label>_ses-<label>_task-rest_space-fsLR_seg-<SEG>_stat-alff_bold.tsv
 |__ sub-<label>_ses-<label>_task-rest_space-fsLR_seg-<SEG>_stat-coverage_bold.tsv
 |__ sub-<label>_ses-<label>_task-rest_space-fsLR_seg-<SEG>_stat-mean_timeseries.tsv
 |__ sub-<label>_ses-<label>_task-rest_space-fsLR_seg-<SEG>_stat-reho_bold.tsv
+|__ sub-<label>_ses-<label>_task-rest_space-fsLR_seg-<SEG>_stat-pearsoncorrelation_relmat.tsv
 |
 figures/
 ```
