@@ -25,6 +25,15 @@ root/
 |   |__ participants.json 
 ```
 
+The `scans.tsv` file provided per session contains all quality control (QC) metrics resulting from raw data QC procedures (see [Raw MR Data QC](../measures/mri/qc.md/#raw-mr-data-qc)). Several of the processing pipelines query the `scans.tsv` to determine which files to include/exclude for that processing (e.g. query to check that `HBCD_compliant` has a value of `Yes`). The criteria used are listed under the 'Quality Control Selection Information' on the [HBCD Processing page](https://hbcd-cbrain-processing.readthedocs.io/latest/index.html). See the pipeline-specific criteria via the following links:
+
+- [BIBSNet](https://hbcd-cbrain-processing.readthedocs.io/latest/tools/bibsnet.html#quality-control-selection-information)
+- [Infant-fMRIPrep](https://hbcd-cbrain-processing.readthedocs.io/latest/tools/nibabies.html#quality-control-selection-information)
+- [OSPREY-BIDS](https://hbcd-cbrain-processing.readthedocs.io/latest/tools/osprey.html#quality-control-selection-information)
+- [qMRI Postproc](https://hbcd-cbrain-processing.readthedocs.io/latest/tools/qmri_postproc.html#quality-control-selection-information)
+- [QSIPrep](https://hbcd-cbrain-processing.readthedocs.io/latest/tools/qsiprep.html#quality-control-selection-information)
+- [XCP-D](https://hbcd-cbrain-processing.readthedocs.io/latest/tools/xcp_d.html#quality-control-selection-information)
+
 ## Imaging
 ### Anatomical (anat/)
 Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`acq-mrsLocAx` and `acq-mrsLocCor` indicate axial and coronal localizers, respectively), and Quantitative MRI QALAS files. 

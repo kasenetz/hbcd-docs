@@ -61,7 +61,8 @@ nav:
             - Video Resting State: measures/eeg/video_rs.md
             - Visual Evoked Potential Task: measures/eeg/vis_ep_task.md
         - Magnetic Resonance Imaging:
-            - "Overview & Raw Data QC": measures/mri/overview.md
+            - Overview: measures/mri/overview.md
+            - Quality Control Procedures: measures/mri/qc.md
             - Structural MRI: measures/mri/smri.md
             - Functional MRI: measures/mri/fmri.md
             - Diffusion MRI: measures/mri/dmri.md

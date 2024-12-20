@@ -189,7 +189,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Raw QC excludes only images with major issues from further processing. Due to the relatively limited brain coverage in dMRI and fMRI acquisitions, the superior or inferior edges of the brain may occasionally fall outside the slice stack, referred to as field of view (FOV) cutoff. In cases where the cutoff is extreme (>30% of the image), the dMRI and fMRI series are excluded during raw QC. However, mild (<10%) to moderate (10–30%) FOV cutoff does not lead to exclusion. Brain regions outside of the FOV will have missing values in the tabulated imaging data, but the remaining areas remain usable. Automated post-processing QC metrics provide measurements of superior and inferior FOV cutoff, which researchers use for the exclusion of participants with significant FOV cutoff from analyses. See <a href="../measures/mri/overview/#hbcd-raw-mri-data-qc">HBCD Raw MRI Data QC</a> in the Release Notes for a description of automated and manual quality control procedures for raw imaging data.</p>
+<p>Raw QC excludes only images with major issues from further processing. Due to the relatively limited brain coverage in dMRI and fMRI acquisitions, the superior or inferior edges of the brain may occasionally fall outside the slice stack, referred to as field of view (FOV) cutoff. In cases where the cutoff is extreme (>30% of the image), the dMRI and fMRI series are excluded during raw QC. However, mild (<10%) to moderate (10–30%) FOV cutoff does not lead to exclusion. Brain regions outside of the FOV will have missing values in the tabulated imaging data, but the remaining areas remain usable. Automated post-processing QC metrics provide measurements of superior and inferior FOV cutoff, which researchers use for the exclusion of participants with significant FOV cutoff from analyses. See <a href="../measures/mri/qc/#hbcd-raw-mri-data-qc">HBCD Raw MRI Data QC</a> in the Release Notes for a description of automated and manual quality control procedures for raw imaging data.</p>
 </div>
 </p>
 
@@ -223,3 +223,18 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 </p>
 </div>
 </p>
+
+<p>
+<div id="faq-qc" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">Which imaging data are recommended for use in analyses?</span>
+  </span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>Only T1w/T2w images that pass raw data quality control are included the data release and used for additional processing. Please see <a href="../measures/mri/qc/#hbcd-raw-mri-data-qc">HBCD Raw MRI Data QC</a> for details. All QC metrics derived from the raw data QC procedures are included in the session-level <code>scans.tsv</code> file (described in detail under <a href="../datacuration/imaging">Raw BIDS Data</a>). Following QC, data curation, and BIDS conversion, raw structural and functional MRI data are additionally run through MRIQC to generate image quality metrics. See <a href="../datacuration/derivatives/#mriqc-mriqc">here</a> for an overview of the provided MRIQC derivatives. Researchers may use these outputs for additional curation if desired. For processed data, including fMRI, dMRI, MRS, and EEG, the summary reports included in the pipeline derivatives can be used to inform the selection of which files to include/exclude in analyses (see details <a href="../datacuration/derivatives">here</a>).</p>
+</div>
+</p>
+
