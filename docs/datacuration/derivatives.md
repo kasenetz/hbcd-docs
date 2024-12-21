@@ -115,8 +115,8 @@ eeg/
 |
 |__ ica_data/
 |   |__ sub-<L>_ses-<L>_adjustReport.txt
-|   |__ sub-<L>_ses-<L>_desc-merged+ica_eeg.fdt
-|   |__ sub-<L>_ses-<L>_desc-merged+ica_eeg.set
+|   |__ sub-<L>_ses-<L>_desc-mergedICA_eeg.fdt
+|   |__ sub-<L>_ses-<L>_desc-mergedICA_eeg.set
 | 
 |__ merged_data/
 |   |__ sub-<L>_ses-<L>_desc-merged_eeg.fdt
@@ -129,7 +129,7 @@ eeg/
 |   |__ sub-<L>_task-VEP_topo.jpg
 |   |__ sub-<L>_task-FACE_desc-inverted_topo.jpg
 |   |__ sub-<L>_task-MMN_desc-preDeviant_topo.jpg
-|   |__ sub-<L>_03_Topo_Deviant_MMN.jpg
+|   |__ sub-<L>_task-MMN-desc-Deviant_topo.jpg
 |   |__ sub-<L>_task-FACE_desc-object_topo.jpg
 |   |__ sub-<L>_task-MMN_desc-diffDevVsSta_topo.jpg
 |   |__ sub-<L>_task-FACE_desc-upright2_topo.jpg
