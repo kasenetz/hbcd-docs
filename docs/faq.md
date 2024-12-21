@@ -11,7 +11,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Please see instructions for data access in the <a href="../data_access">How To Access Data</a></p>
+<p>Please see instructions for data access in the <a href="../data_access/data_access">How To Access Data</a></p>
 </div>
 </p>
 

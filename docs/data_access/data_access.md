@@ -42,7 +42,7 @@ Once you have an account and have logged into the Lasso Informatics platform, pl
 
 Select **Data Access** from the left-hand menu followed by **Request access** in the lower right-hand corner of the page that appears:
 
-![](data_access/data_access_tab.png)
+![](images/data_access_tab.png)
 
 <br>
 This will bring you to the the first of three forms of the **Data Use Certification (DUC)** to fill out before review and submission. Fill out the information as follows:
@@ -56,7 +56,7 @@ This form asks you to describe (within a limit of 250 words) why you need access
 <p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em"><u>Form 3: Authorized Institutional Business Official</u></p>
 Provide the (1) name and (2) email address of the Institutional Signing Official for your institution who will be authorizing your access and has signing authority (both fields are mandatory). Once complete, select **Submit** in the lower right-hand corner of the page and the following screen will appear:
 
-![](data_access/cont_signing.png)
+![](images/cont_signing.png)
 
 Select **Continue Signing** and folllow the steps below to apply your electronic signature.
 
@@ -65,13 +65,13 @@ This section of the DUC process asks you to agree to electronically signing the 
 
 <ol>
     <p>
-    <li>First select the Electronic records and signature agreement checkbox, which will enable the <b>CONTINUE</b> button - click this<br><img src="submit_step1.png" alt="submit step 1"></li>
+    <li>First select the Electronic records and signature agreement checkbox, which will enable the <b>CONTINUE</b> button - click this<br><img src="../images/submit_step1.png" alt="submit step 1"></li>
     </p>
     <p>
-    <li>You will now see the form that requires your signature. Read through the contract and select <b>START</b> once you are ready to apply your electronic signature:<br><img src="esign_start.png" alt="Esign Start"></li>
+    <li>You will now see the form that requires your signature. Read through the contract and select <b>START</b> once you are ready to apply your electronic signature:<br><img src="../images/esign_start.png" alt="Esign Start"></li>
     </p>
     <p>
-    <li>Input your full name and initials in the fields of the following <i>Adopt Your Signature</i> dialogue box that appears:<br><img src="adopt_your_sig.png" alt="Adopt Your Signature"></li>
+    <li>Input your full name and initials in the fields of the following <i>Adopt Your Signature</i> dialogue box that appears:<br><img src="../images/adopt_your_sig.png" alt="Adopt Your Signature"></li>
     </p>
     <p>
     <li>Select <b>ADOPT AND SIGN</b> to apply the signature to the document signature page.</li>
@@ -100,9 +100,9 @@ The Signing Official will receive an email from DocuSign asking that they review
 </ol>
 
 
-![](data_access/decline_banner.png)
+![](images/decline_banner.png)
 
-![](data_access/new_request.png)
+![](images/new_request.png)
 
 ### Review
 This is the step where the NBDC Data Access Committee (DAC) reviews your request. The DAC consists of federal staff from NIH with expertise in science, policy, or bioinformatics resources. DUCs are approved based on satisfaction of basic pre-requisites and whether the data access request is reasonable and aligns with the terms of the DUC. The quality of the science for which the data is intended to be used is not reviewed.
