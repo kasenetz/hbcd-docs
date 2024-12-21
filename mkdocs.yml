@@ -36,6 +36,7 @@ nav:
   - ABOUT: index.md
   - Access Data:
     - How To Access Data: data_access.md
+    - Go To NBDC Portal: data_access/nbdcquicklink.html
     - Responsible Data Use: resp_data_use.md
     - Data Dictionary Explorer: datadictionary.md
   - Get Help:
