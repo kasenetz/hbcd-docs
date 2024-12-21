@@ -12,7 +12,6 @@
 - ‘0’ to Null: Fields with '0' values are no longer passed as 'false' (Blank output)
 
 ## New Features
-
 <ul>
 <b>Parquet files set up:</b>
 <li>Libraries and dependencies deployed for LORIS core (v26)  </li>
