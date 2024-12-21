@@ -55,5 +55,50 @@ The `biosample_urine.tsv|json` files include BioSpecimen USDTL Urine and DCCID, 
 Each instrument has a `<instrument_name>.tsv` Data Table containing instrument values and a `<instrument_name>.json` Data Dictionary describing instrument fields for all participants.
 
 
-
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji">&#x1f4a1;</span>
+    <span class="text">Instruments Included In Current Release</span>
+  </span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<ul>
+<li>mh_cg_ibqr </li>
+<li>mh_cg_mapdb__inf </li>
+<li>mh_cg_pms__cc__inf</li>
+<li>ncl_cg_spm2__inf</li>
+<li>ncl_ch_mlds.tsv  </li>
+<li>nt_ch_sens__qtn_1 </li>
+<li>nt_ch_sens__qtn_2 </li>
+<li>nt_ch_sens__qtn_3</li>
+<li>pex_bm_apa</li>
+<li>pex_bm_assistv1</li>
+<li>pex_bm_assistv2</li>
+<li>pex_bm_assistv3</li>
+<li>pex_bm_epds</li>
+<li>pex_bm_health_preg__chroncond</li>
+<li>pex_bm_health_preg__erhosp</li>
+<li>pex_bm_health_preg__exp__vacc </li>
+<li>pex_bm_health_preg__healthhx</li>
+<li>pex_bm_health_preg__illness </li>
+<li>pex_bm_health_preg__meds</li>
+<li>pex_bm_healthv2_inf</li>
+<li>pex_bm_healthv2_preg</li>
+<li>pex_bm_psych </li>
+<li>pex_bm_str__ptsd  </li>
+<li>ph_cg_phx__bfh</li>
+<li>ph_ch_anthro</li>
+<li>sed_bm_bfy</li>
+<li>sed_bm_ehits</li>
+<li>sed_bm_nbhsaf</li>
+<li>sed_bm_paces</li>
+<li>sed_bm_phx__discr</li>
+<li>sed_bm_strsup </li>
+<li>sed_cg_foodins</li>
+<li>sens_ch_setup</li>
+</ul>
+</div>
+</p>
 
