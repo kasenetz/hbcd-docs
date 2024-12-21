@@ -26,7 +26,7 @@
 <div class="notification-collapsible-content">
 <br>
 <p>HBCD data are openly available to qualified researchers who have a legitimate research purpose and are affiliated with an institution that holds an active <a href="https://ohrp.cit.nih.gov/search/fwasearch.aspx?styp=bsc">Federal Wide Assurance</a>, a designation held by numerous institutions worldwide.</p>
-<p>Please also see this important <a href="../data_access#notification-banner">notification about Executive Order 13873</a> that may cause data access issues for users within certain countries.</p>
+<p>Please also see this important <a href="../data_access/data_access/#notification-banner">notification about Executive Order 13873</a> that may cause data access issues for users within certain countries.</p>
 </div>
 </p>
 
@@ -134,7 +134,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>HBCD study protocols are available in the Scientist section of the main HBCD Study website <a href="https://hbcdstudy.org/study-protocols/">here</a>. However, please note that we are generally unable to share the specific measures used outside of the study, as many are proprietary. General information about the questions asked and corresponding answer options can be explored through our new interactive <a href="../datadictionary">Data Dictionary</a> and additional details/resources are available in measure descriptions provided in the section <a href="../measures/">Release Notes: Data Measures & Quality Control</a>. For further details on the protocol development, please refer to the <a href="https://www.sciencedirect.com/special-issue/10VNSS1BBLV">special issue of Developmental Cognitive Neuroscience</a> dedicated to the HBCD Study.</p>
+<p>HBCD study protocols are available in the Scientist section of the main HBCD Study website <a href="https://hbcdstudy.org/study-protocols/">here</a>. However, please note that we are generally unable to share the specific measures used outside of the study, as many are proprietary. General information about the questions asked and corresponding answer options can be explored through our new interactive <a href="../data_access/datadictionary">Data Dictionary</a> and additional details/resources are available in measure descriptions provided in the section <a href="../measures/">Release Notes: Data Measures & Quality Control</a>. For further details on the protocol development, please refer to the <a href="https://www.sciencedirect.com/special-issue/10VNSS1BBLV">special issue of Developmental Cognitive Neuroscience</a> dedicated to the HBCD Study.</p>
 </div>
 </p>
 

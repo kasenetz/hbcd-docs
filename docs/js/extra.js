@@ -36,24 +36,14 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// Auto-expand collapsible notification banners (ONLY) on external navigation (not page load however)
-window.addEventListener('DOMContentLoaded', () => {
-  const hash = window.location.hash;
-  const bannerIds = 'notification-banner';
-  if (bannerIds.includes(hash.substring(1))) {
-    const banner = document.getElementById(hash.substring(1));
-    if (banner) {
-      toggleCollapse(banner);
-      banner.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-});
-
+// Auto-expand class 'notification-banner' on external navigation (not page load however), including faqs
 window.addEventListener('DOMContentLoaded', () => {
   const hash = window.location.hash.substring(1);
-  if (hash && (hash === 'notification-banner' || hash.includes('faq'))) {
+
+  if (hash) {
     const banner = document.getElementById(hash);
-    if (banner) {
+
+    if (banner && banner.classList.contains('notification-banner')) {
       toggleCollapse(banner);
       banner.scrollIntoView({ behavior: 'smooth' });
     }

@@ -29,7 +29,7 @@ Before you begin the DUC process, please do the following:
 **Make sure that you meet the following access eligibility requirements:**
 
 1. You must have a research-related need to access the data. 
-2. You must be associated with an NIH-recognized research institution and have the approval of an authorized signatory official of that institution. Visit eRA Commons to learn about institutional signing officials: [https://www.era.nih.gov/erahelp/commons/commons/roles/SO.htm](https://www.era.nih.gov/erahelp/commons/commons/roles/SO.htm)  
+2. You must be associated with an NIH-recognized research institution and have the approval of an authorized signatory official of that institution. Visit [Signing Official (SO)](https://www.era.nih.gov/erahelp/commons/commons/roles/SO.htm) on eRA Commons to learn about institutional signing officials.
 3. Your institution must have an active Federalwide Assurance (FWA) 
 
 **Identify an authorized signatory official at your institution**. If you are unsure of who at your institution is an authorized signing official, do not know whether your institution has an FWA, or have any other questions, please email nbdc@mail.nih.gov.
