@@ -36,10 +36,10 @@ Substance use measures include NIDA-modified Alcohol, Smoking and Substance Invo
 </tbody>
 </table>
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b>Assist V1/V2/V3</b></p>
+### Assist V1/V2/V3
 The list of substances for the Assist measures was greatly expanded. For each substance, participants indicated their frequency of use with options: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), or 4 (Daily or Almost Daily). For substances reported as used, participants were asked about modes of use, typical quantities of consumption for alcohol and opiods (if applicable), and disordered or problematic use - please see HBCD Modifications for details. Any reported use within three months before or during pregnancy triggered the Time Line Follow Back (TLFB).
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><b>TLFB</b></p>
+### TLFB
 When triggered by Assist responses, the [Time Line Follow Back (TLFB)](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) was modified (see <a href="#hbcd-modifications">HBCD Modifications</a>) to record maternal substance use before and during pregnancy. Participants reported use during 9 weeks in total for each product type (e.g., edible cannabis) reported on the ASSIST. The sampled weeks included: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V2 to capture substance use during the last two full weeks of gestation (Weeks 8-9).
 
 

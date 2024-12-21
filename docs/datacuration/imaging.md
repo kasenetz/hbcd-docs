@@ -1,7 +1,7 @@
 
 # Raw BIDS Data
 
-The `raw/` folder includes raw MR, EEG, and motion data organized under subject/session-specific directories. In a large infant study, missing data is common, leading to variations in the number of folders and files available per subject and session. The HBCD acquisition spans multiple modalities, often collected at different times, with some acquisitions occurring on separate days even within the same modality. Participant-, session-, and scan-level data is captured by `participants.tsv`, `sessions.tsv`, and `scans.tsv` files respectively, each accompanied by JSON files with column descriptions and field definitions.
+The `raw/` folder includes raw MR, EEG, and motion data organized under subject/session-specific directories. 
 
 ```
 root/
@@ -24,15 +24,19 @@ root/
 |   |__ participants.tsv
 |   |__ participants.json 
 ```
+In a large infant study, missing data is common, leading to variations in the number of folders and files available per subject and session. The HBCD acquisition spans multiple modalities, often collected at different times, with some acquisitions occurring on separate days even within the same modality. 
 
-The `scans.tsv` file provided per session contains all quality control (QC) metrics resulting from raw data QC procedures (see [Raw MR Data QC](../measures/mri/qc.md/#raw-mr-data-qc)). Several of the processing pipelines query the `scans.tsv` to determine which files to include/exclude for that processing (e.g. query to check that `HBCD_compliant` has a value of `Yes`). The criteria used are listed under the 'Quality Control Selection Information' on the [HBCD Processing page](https://hbcd-cbrain-processing.readthedocs.io/latest/index.html). See the pipeline-specific criteria via the following links:
+## Participant-, Session-, & Scan-Level Data
+Participant-, session-, and scan-level data is captured by `participants.tsv`, `sessions.tsv`, and `scans.tsv` files respectively, each accompanied by `json` files with column descriptions and field definitions. Each is explained in detail in the following sections.
 
-- [BIBSNet](https://hbcd-cbrain-processing.readthedocs.io/latest/tools/bibsnet.html#quality-control-selection-information)
-- [Infant-fMRIPrep](https://hbcd-cbrain-processing.readthedocs.io/latest/tools/nibabies.html#quality-control-selection-information)
-- [OSPREY-BIDS](https://hbcd-cbrain-processing.readthedocs.io/latest/tools/osprey.html#quality-control-selection-information)
-- [qMRI Postproc](https://hbcd-cbrain-processing.readthedocs.io/latest/tools/qmri_postproc.html#quality-control-selection-information)
-- [QSIPrep](https://hbcd-cbrain-processing.readthedocs.io/latest/tools/qsiprep.html#quality-control-selection-information)
-- [XCP-D](https://hbcd-cbrain-processing.readthedocs.io/latest/tools/xcp_d.html#quality-control-selection-information)
+<p style="font-size: 1.2em; margin: 0 0 5px;"><u>Participant-Level Data</u></p>
+Participant-level data is stored in the `participants.tsv` file. This file includes information such as participant sex. Descriptions of the `tsv` column names and their properties are provided in the accompanying `participants.json` sidecar file.
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><u>Session-Level Data</u></p>
+Session-level data is stored in the `sessions.tsv` file within the subject folder. This file provides details on the various sessions acquired for the participant, including the collection site, the participant’s age and gestational age at each session, and head size. *Note: age measures are computed based on a birthdate measure that is jittered up to 7 days.*
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><u>Scan-Level Data</u></p>
+The `scans.tsv` file provided per session includes information about how old the participant was at the time of the acquisition. *Note: age measures are computed based on a birthdate measure that is jittered up to 7 days.* In addition, this file includes quality control (QC) metrics derived from raw data QC procedures (see [Raw MR Data QC](../measures/mri/qc.md/#raw-mr-data-qc)). Several of the processing pipelines query the `scans.tsv` to determine which files to include/exclude for that processing (e.g. query to check that `HBCD_compliant` has a value of `Yes`). The criteria used are listed under the 'Quality Control Selection Information' under [Tool Names](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html#tool-names) on the HBCD Processing page.
 
 ## Imaging
 ### Anatomical (anat/)
