@@ -228,6 +228,20 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 <div id="faq-qc" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji">&#x1f4a1;</span>
+    <span class="text">Why are certain QC scores available for only a subset of imaging data?</span>
+  </span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>Imaging QC metrics are provided for each scan in the session-level <code>scans.tsv</code> file - see details about this file <a href="../datacuration/imaging/#participant-session-scan-level-data">here</a>. Automated QC metrics were generated for all data described under <a href="../measures/mri/qc">HBCD MR QC Procedures</a>. However, only a subset of series are selected for manual review based on the automated QC metrics. Therefore, not all scans will have both automated and manual QC metrics.</p>
+</div>
+</p>
+
+<p>
+<div id="faq-qcrec" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji">&#x1f4a1;</span>
     <span class="text">Which imaging data are recommended for use in analyses?</span>
   </span>
   <span class="notification-arrow">▸</span>
