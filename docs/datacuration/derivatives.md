@@ -60,10 +60,11 @@ root/
     |    
     |__ xcp_d/
         |__ sub-<label>/
-            |__ ses-<label>/
-                |__ anat/
-                |__ func/       
-                |__ figures/    
+        |   |__ ses-<label>/
+        |       |__ anat/
+        |       |__ func/       
+        |       |__ figures/    
+        |__ sub-<label>_ses-<label>_executive_summary.html
 ```
 
 ## BIBSNet (`bibsnet/`)
@@ -341,8 +342,9 @@ anat/
 
 ```
 
-## XCP-D (`xcpd_d/`)
-XCP-D performs functional MRI post-processing and noise regression from Infant-fMRIPrep derivatives. Please see the [XCP-D webpage](https://xcp-d.readthedocs.io/en/latest/) to learn more and read details about the output file types. 
+## XCP-D (`xcp_d/`)
+XCP-D performs functional MRI post-processing and noise regression from Infant-fMRIPrep derivatives. Please see the [XCP-D webpage](https://xcp-d.readthedocs.io/en/latest/) to learn more and read details about the output file types. Note that XCP-D as generates a visual summary report (`sub-<label>_ses-<label>_executive_summary.html`) located under `xcp-d/` as displayed in the folder structure at the top of the page.
+
 For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar JSON files are not included below. Also note that files may have additional BIDS entities including `dir-<L>` (to specify its derivation from data acquired in the `AP` or `PA` phase encoding directions) or `run-<L>` as appropriate. 
 
 *Labels for `SEG` (`seg-<SEG>`) include: `4S1056Parcels`, `4S156Parcels`, `4S256Parcels`, `4S356Parcels`, `4S456Parcels`, `4S556Parcels`, `4S656Parcels`, `4S756Parcels`, `4S856Parcels`, `4S956Parcels`, `Glasser`, `Gordon`, `MIDB`,`MyersLabonte`, and `Tian`*
