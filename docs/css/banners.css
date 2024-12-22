@@ -20,7 +20,6 @@
   font-weight: bold;
 }
 
-
 /* General Collapsible Banner Settings */
 /* collapsible content */
 .notification-collapsible-content {
@@ -53,6 +52,7 @@
   transition: transform 0.3s ease;
   display: inline-block;
   transform-origin: center;
+  margin-left: auto;
   color: #505050;
 }
 .arrow.rotate {
@@ -84,7 +84,6 @@
   margin-right: 10px;
   color: red;
 }
-
 
 /* Yellow Collapsible Warning Banner */
 .warning-banner {
@@ -141,6 +140,7 @@
   transition: transform 0.3s ease;
   display: inline-block;
   transform-origin: center;
+  margin-left: auto;
   color: #505050;
 }
 .notification-arrow.rotate {
