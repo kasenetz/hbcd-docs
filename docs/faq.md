@@ -46,10 +46,8 @@
 
 <p>
 <div id="faq-duc" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
     <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Can I have a student or trainee on my DUC? I’m a student, can I have my own DUC?</span>
-  </span>
+    <span class="text">Can I have a student or trainee on my DUC? I’m a student, can I have my own DUC? &ensp;&ensp;</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">

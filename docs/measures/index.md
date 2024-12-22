@@ -2,7 +2,7 @@
 
 In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures and known issues, and references. For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). 
 
-The visits and corresponding ages of the infant/child are listed below. **Only data measures provided in the current release, including V01 - V03, are described**. Please visit the HBCD Study Page [here](https://hbcdstudy.org/study-protocols/) for full study protocols.
+The visits and corresponding ages of the infant/child are listed below. **Only data measures provided in the current release, including V01 - V03, are described**. Please visit the [HBCD Study page](https://hbcdstudy.org/study-protocols/) for full study protocols.
 
 ![](../images/timeline-img.png)
 
