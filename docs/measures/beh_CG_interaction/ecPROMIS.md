@@ -1,11 +1,10 @@
 # ecPROMIS Child-Caregiver Interaction
-
 <p>
-<div id="banner" class="banner">
-    <span class="emoji">&#x1f4a1;</span>
-    <span class="text">
-	See <a href="../overview">Overview</a> for HBCD Modifications and Quality Control & Known Issues
-	</span>
+<div id="notification-banner" class="notification-banner">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">See <a href="../overview">Overview</a> for HBCD Modifications and Quality Control & Known Issues</span>
+  </span>
 </div>
 </p>
 

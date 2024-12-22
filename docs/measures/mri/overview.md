@@ -13,7 +13,7 @@ All data are acquired during visits V02, V03, V04, and V06 across all 27 Study r
 
 <p>
 <div id="banner" class="banner">
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">
 	See <a href="https://doi.org/10.1016/j.dcn.2024.101452"><b>Dean et al., 2024</b></a> for a full description of HBCD protocols and <a href="../../../mriprotocols/mriprotocols"><b>MRI Protocols</b></a> for sequence installation and operation instructions
 	</span>

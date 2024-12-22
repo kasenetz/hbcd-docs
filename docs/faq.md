@@ -18,7 +18,7 @@
 <p>
 <div id="faq-nonus" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">I’m from a non-US institution - can I access the data?</span>
   </span>
   <span class="notification-arrow">▸</span>
@@ -33,7 +33,7 @@
 <p>
 <div id="faq-cost" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">Is there a cost to access the data?</span>
   </span>
   <span class="notification-arrow">▸</span>
@@ -47,7 +47,7 @@
 <p>
 <div id="faq-duc" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">Can I have a student or trainee on my DUC? I’m a student, can I have my own DUC?</span>
   </span>
   <span class="notification-arrow">▸</span>
@@ -61,7 +61,7 @@
 
 <p>
 <div id="faq-aduc" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">If I obtain an A-DUC after receiving general DUC approval, which expiration date applies?</span>
   <span class="notification-arrow">▸</span>
 </div>
@@ -73,7 +73,7 @@
 
 <p>
 <div id="faq-ducsignoff" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">Does the institutional signing official need to sign off for every individual that completes the DUC?</span>
   <span class="notification-arrow">▸</span>
 </div>
@@ -86,7 +86,7 @@
 <p>
 <div id="faq-irb" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">Do I need IRB approval to use these data?</span>
   </span>
   <span class="notification-arrow">▸</span>
@@ -100,7 +100,7 @@
 <p>
 <div id="faq-ducmove" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">What steps are required if someone with a DUC moves to a new institution?</span>
   </span>
   <span class="notification-arrow">▸</span>
@@ -113,7 +113,7 @@
 
 <p>
 <div id="faq-ai" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">Can I use ChatGPT or another generative AI tool to create figures and graphs representing HBCD data?</span>
   <span class="notification-arrow">▸</span>
 </div>
@@ -127,7 +127,7 @@
 <p>
 <div id="faq-protocol" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">Where can I find the protocol for the HBCD study?</span>
   </span>
   <span class="notification-arrow">▸</span>
@@ -142,7 +142,7 @@
 <p>
 <div id="faq-mriprotocol" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">Where can I find more information about the imaging protocol?</span>
   </span>
   <span class="notification-arrow">▸</span>
@@ -155,7 +155,7 @@
 
 <p>
 <div id="faq-dataproc" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">What methods were used for processing the imaging data to produce the minimally processed and tabulated imaging data?</span>
   <span class="notification-arrow">▸</span>
 </div>
@@ -168,7 +168,7 @@
 <p>
 <div id="faq-raw" class="notification-banner" onclick="toggleCollapse(this)">
 <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">How can I download raw DICOM or source data?</span>
 </span>
   <span class="notification-arrow">▸</span>
@@ -182,7 +182,7 @@
 <p>
 <div id="faq-fov" class="notification-banner" onclick="toggleCollapse(this)">
 <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">Why is the cerebellum sometimes cutoff in fMRI and dMRI?</span>
 </span>
   <span class="notification-arrow">▸</span>
@@ -196,7 +196,7 @@
 <p>
 <div id="faq-dmri" class="notification-banner" onclick="toggleCollapse(this)">
 <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">Where are the dMRI gradient tables?  </span>
 </span>
   <span class="notification-arrow">▸</span>
@@ -212,7 +212,7 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 <p>
 <div id="faq-fmap" class="notification-banner" onclick="toggleCollapse(this)">
 <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">When should I use EPI fieldmaps?  </span>
 </span>
   <span class="notification-arrow">▸</span>
@@ -227,7 +227,7 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 <p>
 <div id="faq-qc" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">Why are certain QC scores available for only a subset of imaging data?</span>
   </span>
   <span class="notification-arrow">▸</span>
@@ -241,7 +241,7 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 <p>
 <div id="faq-qcrec" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">Which imaging data are recommended for use in analyses?</span>
   </span>
   <span class="notification-arrow">▸</span>
