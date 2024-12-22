@@ -1,13 +1,4 @@
 # ecPROMIS Child-Caregiver Interaction
-<p>
-<div id="notification-banner" class="notification-banner">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">See <a href="../overview">Overview</a> for HBCD Modifications and Quality Control & Known Issues</span>
-  </span>
-</div>
-</p>
-
 **Full Name**: Early Childhood Patient-Reported Outcome Measurement Information System Child/Caregiver Relationship Scale.  
 **Acronym/Brief Name**: ecPROMIS Child-Caregiver Interaction    
 **Construct**: Relationships  

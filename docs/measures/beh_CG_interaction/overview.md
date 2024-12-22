@@ -1,5 +1,38 @@
 # Overview
 
+The current data release includes the following Behavioral and Caregiver-Child Interaction instruments:
+
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Name of Instrument</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Acronym</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Construct</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Table Name</th>
+    </tr>
+  </thead>
+<tbody>
+	<tr>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../ecPROMIS">Early Childhood Patient-Reported Outcome Measurement Information System Child/Caregiver Relationship Scale</a></td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">ecPROMIS</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Relationships</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">mh_cg_pms__cc__inf?</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../IBQ-R">Infant Behavior Questionnaire &ndash; Revised Very Short Form + Behavior Inhibition</a></td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">IBQ-R (VSF)+BI</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Temperamental Surgency/Extraversion, Negative Affectivity, Effortful Control, and Behavioral Inhibition</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">mh_cg_ibqr</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../MAPS-TL">Multidimensional Assessment Profiles - Temper Loss scale</a></td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">MAPS-TL</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Irritability</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">mh_cg_mapdb__inf?</td>
+	</tr>
+</tbody>
+</table>
+
 ## HBCD Modifications
 Alterations were made to ecPROMIS, IBQ-R (VSF)+BI, and MAPS-TL for use of gender-neutral terms. Measure instructions and individuals items that reference gendered pronouns (‘her/him’, ‘she/he’) were changed to “my/the baby/child” or “they/them” as fit for the wording. In addition, “parent” was replaced with “parent/caregiver” where appropriate. Additional HBCD modifications made to specific measures are outlined in each section as needed.
 

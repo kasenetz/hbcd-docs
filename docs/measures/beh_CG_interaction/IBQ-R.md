@@ -1,13 +1,4 @@
 # IBQ-R Very Short Form + Behavioral Inhibition
-<p>
-<div id="notification-banner" class="notification-banner">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">See <a href="../overview">Overview</a> for HBCD Modifications and Quality Control & Known Issues</span>
-  </span>
-</div>
-</p>
-
 **Full Name**: Infant Behavior Questionnaire – Revised Very Short Form + Behavior Inhibition  
 **Acronym/Brief Name**: IBQ-R (VSF)+BI       
 **Construct**: Temperamental Surgency/Extraversion, Negative Affectivity, Effortful Control, and Behavioral Inhibition
