@@ -3,8 +3,10 @@
 
 <p>
 <div id="faq-access" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
     <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">How do I access the data?</span>
+  </span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">

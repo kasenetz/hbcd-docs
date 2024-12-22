@@ -9,7 +9,6 @@
   display: flex; 
   justify-content: flex-start;
   align-items: flex-start; /* Aligns emoji with the first line of text */
-  text-align: left;
 }
 .banner .emoji {
   font-size: 1.5rem; 
@@ -19,7 +18,6 @@
 .banner .text {
   font-size: 1rem;
   font-weight: bold;
-  text-align: left;
 }
 
 /* General Collapsible Banner Settings */
@@ -54,7 +52,6 @@
   transition: transform 0.3s ease;
   display: inline-block;
   transform-origin: center;
-  margin-left: auto;
   color: #505050;
 }
 .arrow.rotate {
@@ -118,8 +115,8 @@
   font-family: Lato; 
   color: #505050;
   cursor: pointer; 
-  text-align: left;
 }
+
 .notification-banner .emoji {
   font-size: 1.2rem; 
   margin-right: 10px;
@@ -143,7 +140,6 @@
   transition: transform 0.3s ease;
   display: inline-block;
   transform-origin: center;
-  margin-left: auto;
   color: #505050;
 }
 .notification-arrow.rotate {
