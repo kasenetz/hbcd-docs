@@ -119,9 +119,9 @@
   cursor: pointer; 
 }
 .notification-banner .emoji {
-  font-size: 1.5rem; 
+  font-size: 1.2rem; 
   margin-right: 10px;
-  color: #14b955;
+  color: #24AE70;
 }
 .notification-collapsible-content {
   max-height: 0;

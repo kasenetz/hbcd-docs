@@ -2,7 +2,7 @@
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="emoji">&#x1f4a1;</span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">NOTIFICATION: Potential Data Access Issues</span>
   </span>
   <span class="notification-arrow">▸</span>
