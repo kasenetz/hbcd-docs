@@ -69,7 +69,7 @@
 .alert-banner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; /* Align text and icon/button at the ends */
   background-color: #be074d3d; 
   border: 1px solid #3333331a;
   padding: 4px 20px;
@@ -88,7 +88,7 @@
 .warning-banner {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Align text and icon/button at the ends */
+  justify-content: space-between; 
   background-color: rgba(255, 251, 0, 0.705);
   border: 1px solid #3333331a;
   padding: 4px 20px;
@@ -100,7 +100,7 @@
 .warning-banner .emoji {
   font-size: 1.5rem; 
   margin-right: 10px;
-  color: yellow;
+  color: rgb(232, 151, 1);
 }
 
 /* Green Collapsible Notification Banner */

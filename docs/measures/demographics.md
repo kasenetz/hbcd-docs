@@ -1,5 +1,4 @@
 # Demographics
-
 <div id="alert-banner" class="alert-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>

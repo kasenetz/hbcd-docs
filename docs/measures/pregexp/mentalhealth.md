@@ -3,7 +3,7 @@
 <div id="alert-banner" class="alert-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-    <span class="text">Important Responsible Data Use and Analysis Considerations</span>
+    <span class="text">Responsible Data Use and Analysis Considerations</span>
   </span>
   <span class="arrow">▸</span>
 </div>
