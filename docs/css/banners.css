@@ -116,6 +116,7 @@
   font-family: Lato; 
   color: #505050;
   cursor: pointer; 
+  text-align: left;
 }
 .notification-banner .emoji {
   font-size: 1.2rem; 
