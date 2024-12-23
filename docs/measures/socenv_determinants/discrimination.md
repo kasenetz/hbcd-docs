@@ -1,29 +1,5 @@
 # Discrimination
-
-**Full Name**: [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/210302)    
-**Acronym/Brief Name**: PhenX+ Discrimination   
-**Construct**: Discrimination   
-
-This measure is a questionnaire to assess perceived discriminatory experiences. Discrimination is an important factor in an individual’s health because it affects access to employment, housing, and education opportunities and can affect self-esteem and cause stress. No potential issues were flagged by subject matter experts for this measure.    
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Implementation & Data Collection Details</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-    <ul>
-      <li><b>Method of Administration</b>: Remote survey </li>
-      <li><b>REDCap Form Name</b>: sed<em>bm</em>phx<em>i</em>discr; Phenx Discrimination (Experiences with Unfair Treatment) </li>
-      <li><b>Pilot Data Dictionary</b>: sed<em>bm</em>phx<em>i</em>discr </li>
-      <li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
-      <li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
-      <li><b>Respondent:</b> Parent on Self </li>
-      <li><b>Visits</b>: V01, V05, V07 </li>
-      <li><b>Estimated length of time for completion</b>: 3 minutes</li>
-    </ul>
-</div>
-</p>
+The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/210302) measure is a questionnaire to assess perceived discriminatory experiences. Discrimination is an important factor in an individual’s health because it affects access to employment, housing, and education opportunities and can affect self-esteem and cause stress. No potential issues were flagged by subject matter experts for this measure.    
 
 ## HBCD Modifications
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction/Assessment Item Modifications</b></p>

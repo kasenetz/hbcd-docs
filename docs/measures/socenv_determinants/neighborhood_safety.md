@@ -1,28 +1,5 @@
 # Neighborhood Safety
-
-**Full Name**: [PhenX+ Toolkit Neighborhood Safety](https://www.phenxtoolkit.org/protocols/view/210901)  
-**Acronym/Brief Name**: Neighborhood Safety  
-**Construct**: Social Determinants of Health  
-  
 This measure is a three-item questionnaire to assess the respondent’s perceptions about safety, violence, and crime in their neighborhoods. Neighborhood safety may be relevant to a range of maternal and child health outcomes. The respondent’s perception of their neighborhood may also be used alongside geocoded measures of neighborhood crime statistics to help understand an individuals experience within a neighborhood.   
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Implementation & Data Collection Details</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-    <ul>
-      <li><b>Method of Administration</b>: RA-administered in person or via remote survey </li>
-      <li><b>REDCap Form Name</b>: nbhsaf </li>
-      <li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
-      <li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
-      <li><b>Respondent:</b> Adult Participant </li>
-      <li><b>Visits</b>: V01, V02, V07, V09 </li>
-      <li><b>Estimated length of time for completion</b>: 1 minute</li>
-    </ul>
-</div>
-</p>
 
 ## HBCD Modifications
 Response options for HBCD include the addition of “Don’t know” and “Decline to answer.” In addition, the original measure was scored by averaging all three items, but no scoring is used in HBCD - all responses are item-level only. 

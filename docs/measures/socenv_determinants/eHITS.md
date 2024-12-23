@@ -1,29 +1,5 @@
-# eHITS
-**Full Name**: Extended – Hurt, Insult, Threaten, Scream      
-**Acronym/Brief Name**: eHITS    
-**Construct**: Intimate Partner Violence       
-    
+# eHITS    
 The eHITS is a self-administered 5 question Likert scale screener for experiences of psychological aggression, physical assault, sexual coercion, and injury. Originally created for quick administration in a health care setting or emergency department, the eHITS asks individuals to indicate whether their partner has done any of the following over the past 12 months:  physically hurt you, insulted you, threatened to harm you, screamed or cursed at you, or forced you to have sexual activities.
-
-
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Implementation & Data Collection Details</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-    <ul>
-      <li><b>Method of Administration</b>: In Person </li>
-      <li><b>REDCap Form Name</b>: sed<em>bm</em>ehit </li>
-      <li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
-      <li><b>Child Specific/Unspecific Form</b>: Child Unpecific </li>
-      <li><b>Respondent:</b> Parent on Self </li>
-      <li><b>Visits</b>: V01 </li>
-      <li><b>Estimated length of time for completion</b>: 2 minutes</li>
-    </ul>
-</div>
-</p>
 
 ## HBCD Modifications
 Various research groups made minor word changes. Sherin and colleagues developed the original instrument, HITS, published in 1998. Chan and colleagues expanded HITS to include a question regarding forced sexual activity ([Chan et al. 2010](https://doi.org/10.1177/102490791001700202)).

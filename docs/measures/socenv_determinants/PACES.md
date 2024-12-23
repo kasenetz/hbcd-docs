@@ -1,27 +1,5 @@
 # PACES
-**Full Name**: Protective and Compensatory Experience     
-**Acronym/Brief Name**: PACES (Current)     
-**Construct**: Protective Factors         
-    
-PACES is a 10-question scale with scores ranging between 0 and 10 assessing positive childhood experiences through age 18 such as: relationships, feeling of connectedness, physical activity, engagement, environment, and opportunities.
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Implementation & Data Collection Details</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-    <ul>
-      <li><b>Method of Administration</b>: RA administered in person or via remote survey </li>
-      <li><b>REDCap Form Name</b>: sed<em>bm</em>paces </li>
-      <li><b>Pilot Data Dictionary</b>: PACES </li>
-      <li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
-      <li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
-      <li><b>Respondent:</b> Parent on Self </li>
-      <li><b>Visits</b>: V01 </li>
-    </ul>
-</div>
-</p>
+Protective and Compensatory Experience (PACES) is a 10-question scale with scores ranging between 0 and 10 assessing positive childhood experiences through age 18 such as: relationships, feeling of connectedness, physical activity, engagement, environment, and opportunities.
 
 ## HBCD Modifications
 <ul>

@@ -1,28 +1,5 @@
 # Perceived Stress/Social Support
-**Full Name**: Patient-Reported Outcome Measurement Information System  
-**Acronym/Brief Name**: PROMIS    
-**Construct**: Perceived Stress/Social Support      
-
 The Perceived Stress and Social support tools measure perceived stress and perceptions of emotional support by one’s social network in the caregivers in this study longitudinally. These measures of perceived stress and social support are a combination of the PROMIS emotional support 4a questionnaire and the Perceived Stress Scale – 4 (PSS-4). The first 4 questions are the PROMIS emotional support 4a questionnaire which measures the quality of the emotional support to which the participant has access. The last 4 questions (PSS-4) represent the shortened version of the PSS-14. This questionnaire measures perceived general stress in the past month. It has been used in many populations world wide including pregnant individuals and young families.          
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Implementation & Data Collection Details</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-    <ul>
-      <li><b>Method of Administration</b>: Remote survey </li>
-      <li><b>REDCap Form Name</b>: sed_bm_strsup </li>
-      <li><b>Pilot Data Dictionary</b>: PROMIS </li>
-      <li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
-      <li><b>Child Specific/Unspecific Form</b>: Child Specific </li>
-      <li><b>Respondent:</b> Caregiver </li>
-      <li><b>Visits</b>: V01, V02, V03 </li>
-      <li><b>Estimated length of time for completion</b>: 4 minutes</li>
-    </ul>
-</div>
-</p>
 
 ## HBCD Modifications
 Orignally, all items had to be completed to allow for scoring via the tables provided in the manual. For HBCD, with the addition of response options “Don’t know” and “Decline to answer,” this was updated so that items with “don’t know” answers will not have a total score reported.

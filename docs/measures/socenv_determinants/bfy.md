@@ -1,29 +1,5 @@
 # Baby’s First Years
-**Full Name**: Baby’s First Years – Benefits/Services/Economic Stress      
-**Acronym/Brief Name**: BFY    
-**Construct**: Benefits/Services/Economic Stress    
-
 BFY assesses economic stress, financial instability, ability to meet basic needs, and benefits/services received over the past 12 months on a 10 Likert Scale. Selected questions from the [Year 1 protocol](https://www.babysfirstyears.com/_files/ugd/88a466_5a28f2b284e74fa4b61b2c483008416e.docx?dn=BFY_Age%201%20Survey.docx) of the NIH-funded Baby’s First Years study of infant and child development and originated from the Moving to Opportunity (MTO) study. Some slight modifications were made for the HBCD study by removing the Medicaid coverage question asked elsewhere in the study and adding a question asking whether anyone in the family receives free and reduced lunch.
-
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Implementation & Data Collection Details</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-    <ul>
-      <li><b>Method of Administration</b>: In Person </li>
-      <li><b>REDCap Form Name</b>: sed_bm_bfy </li>
-      <li><b>Pilot Data Dictionary</b>: BFY-Economic Stress </li>
-      <li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
-      <li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
-      <li><b>Respondent:</b> Parent on Self </li>
-      <li><b>Visits</b>: V01, V05, V07 </li>
-      <li><b>Estimated length of time for completion</b>: 4 minutes</li>
-    </ul>
-</div>
-</p>
 
 ## HBCD Modifications
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction/Assessment Item Modifications</b></p>
