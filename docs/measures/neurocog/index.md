@@ -23,7 +23,7 @@ The current data release includes the following Neurocognition & Language instru
 		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../SPM2">Sensory Processing Measure – Infant/Toddler</a></td>
 		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">SPM-2</td>
 		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Sensory processing</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unknown</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">ncl_cg_spm2__inf</td>
 	</tr>
 </tbody>
 </table>

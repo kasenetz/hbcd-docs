@@ -15,7 +15,7 @@ The current data release includes the following instruments:
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#infant-sensor-questionnaire">Infant Sensor Questionnaire</a></td>
 		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Motor behavior, physical activity, sleep</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">nt_ch_sens_i_qtn_<1|2|3></td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">nt_ch_sens__qtn_<1|2|3></td>
 	</tr>
 </tbody>
 </table>

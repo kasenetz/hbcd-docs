@@ -4,20 +4,30 @@ The `phenotype/` folder includes instrument data, visit data, biosample, and dem
 ```
 root/
 |__ phenotype/
-|   |__ phenotype.tsv
-|   |__ phenotype.json
-|   |__ biosample_urine.tsv
-|   |__ biosample_urine.json
-|   |__ sed_basic_demographics.tsv
-|   |__ sed_basic_demographics.json
-|   |__ visit_data.tsv
-|   |__ visit_data.json
-|   |__ <instrument_name>.tsv (repeat for all selected instruments)
-|   |__ <instrument_name>.json (repeat for all selected instruments)
+    |__ phenotype.tsv
+    |__ phenotype.json
+    |
+# BioSpecimens
+    |__ bio_biosample_urine.tsv
+    |__ bio_biosample_urine.json
+    |__ bio_biosample_nails.tsv
+    |__ bio_biosample_nails.json
+    |  
+# Visit Data
+    |__ par_visit_data.tsv
+    |__ par_visit_data.json
+    |
+# Demographic Data
+    |__ sed_basic_demographics.tsv
+    |__ sed_basic_demographics.json
+    |
+# Instruments
+    |__ <instrument_name>.tsv (repeat for all selected instruments)
+    |__ <instrument_name>.json (repeat for all selected instruments)
 ```
 
 ## Demographics Data
-<p style="margin: 0 0 5px;">The <code>sed_basic_demographics.tsv|json</code> files contain demographics data of each participant useful with phenotype context, including:</p>
+<p style="margin: 0 0 5px;">The <code>sed_basic_demographics</code> files contain demographics data of each participant useful with phenotype context, including:</p>
 <ul>
 <li>Gestational age at birth</li>
 <li>Sex</li>
@@ -34,7 +44,7 @@ root/
 </ul>
 
 ## Visit Data
-<p style="margin: 0 0 5px;">The <code>visit.tsv|json</code> files contain all participant visit data, including:</p>
+<p style="margin: 0 0 5px;">The <code>par_visit_data.tsv|json</code> files contain all participant visit data, including:</p>
 <ul>
 <li>Visit information (Label, Stage, Date, and if the visit was missed and the reason)</li>
 <li>Project, Cohort, and Site</li>
@@ -48,12 +58,11 @@ root/
 </li>
 </ul>
 
-## BioSpecimen Urine Results
-The `biosample_urine.tsv|json` files include BioSpecimen USDTL Urine and DCCID, Visit Label, and Scannable code.
+## BioSpecimens
+All BioSpecimen file are prepended with `bio_`. The `bio_biosample_urine` urine files include BioSpecimen USDTL Urine and DCCID, Visit Label, and Scannable code.
 
 ## Instrument Data
 Each instrument has a `<instrument_name>.tsv` Data Table containing instrument values and a `<instrument_name>.json` Data Dictionary describing instrument fields for all participants.
-
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
