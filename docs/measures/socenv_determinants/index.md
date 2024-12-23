@@ -53,8 +53,7 @@ The current data release includes the following instruments:
 </table>
 
 ## Implementation & Data Collection
-
-With the exception of PROMIS, all surveys are child-unspecific. Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). Additional information is as follows:
+With the exception of PROMIS, all surveys, filled out by the parent, are child-unspecific. Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). Additional information is as follows:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
@@ -104,4 +103,7 @@ With the exception of PROMIS, all surveys are child-unspecific. Surveys were tra
 	</tr>    
 </tbody>
 </table>
+
+## Quality Control & Known Issues
+For the majority of instruments, the data dashboard was monitored for variable missingness, possible coding errors, scoring verification when needed, and data consistency - Neighborhood Safety was monitored only for missingness. No potential issues were identified via the QC procedures or flagged by subject matter experts for any survey.
 

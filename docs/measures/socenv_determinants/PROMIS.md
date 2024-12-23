@@ -6,9 +6,6 @@ Orignally, all items had to be completed to allow for scoring via the tables pro
 
 For the PROMIS emotional support, complete data is necessary to use scoring tables provided in the manual. If scoring will utilize the PROMIS HealthMeasures Scoring Service, total scores can include missing data (this can be done by individual investigators). Complete data is always necessary to calculate a score PSS-4, therefore should not be reported for participants who answer any questions “don’t know.”
 
-## Quality Control & Known Issues   
-QC procedures involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.
-
 <details class="collapsible references">
   <summary class="references">References</summary>
 <ul>

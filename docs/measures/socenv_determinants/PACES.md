@@ -11,9 +11,6 @@ The following language was updated for this assessment item:
 
 For responses options, “Declined to answer” was added as an option.
 
-## Quality Control & Known Issues
-Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.   
-
 <details class="collapsible references">
   <summary class="references">References</summary>
 <ul>

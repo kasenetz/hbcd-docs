@@ -92,8 +92,8 @@ nav:
             - Discrimination: measures/socenv_determinants/discrimination.md 
             - Intimate Partner Violence: measures/socenv_determinants/eHITS.md               
             - Neighborhood Safety: measures/socenv_determinants/neighborhood_safety.md  
+            - PACES: measures/socenv_determinants/PACES.md            
             - PROMIS: measures/socenv_determinants/PROMIS.md
-            - PACES: measures/socenv_determinants/PACES.md
     - MRI Protocols: mriprotocols/mriprotocols.md
     - HBCD BIDS Data:
         - BIDS Overview: datacuration/overview.md

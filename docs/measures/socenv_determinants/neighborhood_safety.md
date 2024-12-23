@@ -4,9 +4,6 @@ This measure is a three-item questionnaire to assess the respondent’s percepti
 ## HBCD Modifications
 Response options for HBCD include the addition of “Don’t know” and “Decline to answer.” In addition, the original measure was scored by averaging all three items, but no scoring is used in HBCD - all responses are item-level only. 
 
-## Quality Control & Known Issues
-QC procedures involved monitoring missingness. No common QC or potential issues flagged by subject matter experts were identified.
-
 <details class="collapsible references">
   <summary class="references">References</summary>
  <ul>

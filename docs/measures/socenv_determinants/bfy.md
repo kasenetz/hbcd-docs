@@ -29,10 +29,6 @@ BFY assesses economic stress, financial instability, ability to meet basic needs
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Answer/Response Option Changes</b></p>
 Options "Don't Know" and "Decline to Answer" were added for both questions shown in the section above. The response option "Free or reduced school lunch" was also added for the first question about services.
 
-## Quality Control & Known Issues
-The data dashboard was monitored for variable missingness, possible coding errors, scoring verification when needed, and data consistency. No potential issues were identified via the QC procedures or flagged by subject matter experts.
-
-
 <details class="collapsible references">
   <summary class="references">References</summary>
 <ul>

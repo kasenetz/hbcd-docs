@@ -1,5 +1,5 @@
 # eHITS    
-The eHITS is a self-administered 5 question Likert scale screener for experiences of psychological aggression, physical assault, sexual coercion, and injury. Originally created for quick administration in a health care setting or emergency department, the eHITS asks individuals to indicate whether their partner has done any of the following over the past 12 months:  physically hurt you, insulted you, threatened to harm you, screamed or cursed at you, or forced you to have sexual activities.
+The eHITS is a self-administered 5 question Likert scale screener for experiences of psychological aggression, physical assault, sexual coercion, and injury. Originally created for quick administration in a health care setting or emergency department, the eHITS asks individuals to indicate whether their partner has done any of the following over the past 12 months: "physically hurt you", "insulted you", "threatened to harm you", "screamed or cursed at you", or "forced you to have sexual activities."
 
 ## HBCD Modifications
 Various research groups made minor word changes. Sherin and colleagues developed the original instrument, HITS, published in 1998. Chan and colleagues expanded HITS to include a question regarding forced sexual activity ([Chan et al. 2010](https://doi.org/10.1177/102490791001700202)).
@@ -98,9 +98,6 @@ If a respondent selects “Don’t know” for one or more questions, a clinical
 	</tr>
 </tbody>
 </table>
-
-## Quality Control & Known Issues     
-Social and Environmental Working Group QC procedures included monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. eHITS has a summary score. No potential issues were identified via the QC procedures or flagged by subject matter experts.     
 
 <details class="collapsible references">
   <summary class="references">References</summary>
