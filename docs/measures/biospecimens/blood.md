@@ -1,30 +1,10 @@
-# Blood
-**Full Name**: BLOOD		              
-**Construct**: Toxicology screen, blood        
-**Description**:  Results of toxicology assays in dried blood spots collected at V1
-
-Processing of Blood Spot Cards consists of preparing three 1/8” punches of dried blood spot followed by extraction using an organic solvent. Detection of PETH in the extract is accomplished with a single pass using LCMSMS (**Figure 1**):
+# Blood    
+These data are the results of toxicology assays in dried blood spots collected at V1. Processing of Blood Spot Cards consists of preparing three 1/8” punches of dried blood spot followed by extraction using an organic solvent. Detection of PETH in the extract is accomplished with a single pass using LCMSMS (**Figure 1**):
 
 **Figure 1. Blood Processing**
 <img src="../Fig1_blood.png" width="100%" height="auto">
 
 <br>
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Implementation & Data Collection Details</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-    <ul>
-		<li><b>Method of Administration</b>: Phlebotomist-collected venous blood, which is pipetted onto dried blood spot cards</li>
-		<li><b>Respondent</b>: Pregnant person</li>
-		<li><b>Visits</b>: V01</li>
-		<li><b>Estimated length of time for completion</b>: 5 minutes</li>
-    </ul>
-</div>
-</p>
-
 
 ## PEth Assay
 PEth assays are confirmation-only testing. Test results were determined to be positive (*c_peth_b_cat*), negative, or canceled according to the thresholds outlined in **Table 1** (note that continuous variables should be interpreted with caution based on the limits of quantification, LOQs). The sample-level (*c_any_specimen_b*) was correspondingly scored as positive (1), negative (0), and canceled (3) (**Table 2**). Class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**.
@@ -130,6 +110,3 @@ PEth assays are confirmation-only testing. Test results were determined to be po
 </tbody>
 </table>
 </p>
-
-## Quality Control & Known Issues
-QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC. No potential issues were flagged by subject matter experts.

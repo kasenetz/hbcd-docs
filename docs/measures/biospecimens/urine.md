@@ -1,25 +1,5 @@
 # Urine
-**Full Name**: URINE		        
-**Construct**: Toxicology screen, urine     
-**Description**: Results of toxicology assays in urine collected at V1
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Implementation & Data Collection Details</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-    <ul>
-		<li><b>Method of Administration</b>: Self-collected</li>
-		<li><b>Respondent</b>: Pregnant person</li>
-		<li><b>Visits</b>: V01</li>
-		<li><b>Estimated length of time for completion</b>: 5 minutes</li>
-    </ul>
-</div>
-</p>
-
-## Assay
-Based on the predefined thresholds outlined in **Table 1**, a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (**Table 2**). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**. 
+These data are the results of toxicology assays in urine collected at V01. Based on the predefined thresholds outlined in **Table 1**, a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (**Table 2**). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**. 
 
 
 <p>
@@ -776,12 +756,6 @@ Based on the predefined thresholds outlined in **Table 1**, a confirmatory test 
 </table>
 </div>
 </p>  
-
-
-## Quality Control & Known Issues
-QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC.
-
-Subject matter experts have highlighted one potential issue regarding creatinine results included in the data release. For context, urine specimen validation is determined based on creatinine, pH, and nitrite measurements (**Figure 1**). Specimens with low creatinine (<20 mg/dL) are confirmed using specific gravity via refractometer, and the creatinine analysis is repeated to rule out issues with the first analysis (e.g. sample mix-ups, air bubble in a line on the instrument, etc.) (**Table 4**). All assays are marked as invalid for specimens identified as dilute, substituted, adulterated, or otherwise insufficient. However, for data release, only the initial creatinine results are reported. Creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds.
 
 **Figure 1. Urine Processing Schematic**
 <img src="../Fig1_biospec_urine.png" width="90%" height="auto">

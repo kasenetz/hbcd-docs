@@ -1,28 +1,8 @@
 # Nails
-**Full Name**: NAILS		       
-**Construct**: Toxicology screen, fingernails and toenails     
-**Description**: Results of toxicology assays in nails collected at V1 and V2
-
-The nail processing workflow was re-developed and implemented on July 1, 2024 to consider the amount of specimen available and offer the opportunity for additional confirmation tests in case of low sample quantity. Specimens are sorted by weight and screened following the workflow outlined in **Figure 1**. Specimens that contain at least 20 mg of nail are screened using ELISA with subsequent LCMSMS confirmation for presumptive positives, each confirmation of which requires an additional 20 mg. In the updated workflow, if additional specimen is not available for LCMSMS confirmation, the remnant of ELISA extract is instead used for confirmation. Nail weights and test ordered (custom 14 panel test; EtG only; cancelled) are noted in the sample-data dictionary below (**Table 2**).
+These data are the results of toxicology assays in fingernails and toenails collected at V01 and V02. The nail processing workflow was re-developed and implemented on July 1, 2024 to consider the amount of specimen available and offer the opportunity for additional confirmation tests in case of low sample quantity. Specimens are sorted by weight and screened following the workflow outlined in **Figure 1**. Specimens that contain at least 20 mg of nail are screened using ELISA with subsequent LCMSMS confirmation for presumptive positives, each confirmation of which requires an additional 20 mg. In the updated workflow, if additional specimen is not available for LCMSMS confirmation, the remnant of ELISA extract is instead used for confirmation. Nail weights and test ordered (custom 14 panel test; EtG only; cancelled) are noted in the sample-data dictionary below (**Table 2**).
 
 ##### Figure 1. Schematic for nail processing
 <img src="../Fig1_nails.png" width="100%" height="auto">
-
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Implementation & Data Collection Details</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-    <ul>
-	<li><b>Method of Administration</b>: Self-collected under research team supervision, or collected by research team</li>
-	<li><b>Respondent</b>: Pregnant/Postpartum person</li>
-	<li><b>Visits</b>: V01, V02</li>
-	<li><b>Estimated length of time for completion</b>: 5 minutes</li>
-    </ul>
-</div>
-</p>
 
 ## USDTL Assay
 Based on the predefined threshold outlined in **Table 1**, a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (*QNS* i.e. *quantity not sufficient*) (**Table 2**). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (e.g. *c_nictotine_u*) and sample-level (e.g. *c_any_specimen_n*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in **Table 3**. 
@@ -700,11 +680,6 @@ Based on the predefined threshold outlined in **Table 1**, a confirmatory test r
 </table>
 </div>
 </p>  
-
-## Quality Control & Known Issues
-QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC.
-
-One potential issue flagged by subject matter experts is that the nail processing workflow was re-developed and implemented on July 1, 2024 and thus data collected before that point will does not use the remnant of ELISA extract for confirmation for specimens with too little sample.
 
 <details class="collapsible references">
   <summary class="references">References</summary>
