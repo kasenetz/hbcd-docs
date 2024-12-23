@@ -57,12 +57,7 @@ nav:
             - Nails: measures/biospecimens/nails.md 
             - Urine: measures/biospecimens/urine.md    
         - Demographics: measures/demographics.md
-        - Electroencephalogram: 
-            - Overview: measures/eeg/index.md
-            - Faces Task: measures/eeg/faces_task.md
-            - Auditory Mismatch Negativity Task: measures/eeg/aud_mm.md              
-            - Video Resting State: measures/eeg/video_rs.md
-            - Visual Evoked Potential Task: measures/eeg/vis_ep_task.md
+        - Electroencephalogram: measures/eeg/index.md
         - Magnetic Resonance Imaging:
             - Overview: measures/mri/index.md
             - Quality Control Procedures: measures/mri/qc.md
