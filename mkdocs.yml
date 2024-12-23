@@ -47,7 +47,7 @@ nav:
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
         - "Behavior & Caregiver-Child Interaction": 
-            - Overview: measures/beh_CG_interaction/overview.md  
+            - Overview: measures/beh_CG_interaction/index.md  
             - ecPROMIS: measures/beh_CG_interaction/ecPROMIS.md  
             - IBQ-R (VSF)+BI: measures/beh_CG_interaction/IBQ-R.md
             - MAPS-TL: measures/beh_CG_interaction/MAPS-TL.md    
@@ -58,13 +58,13 @@ nav:
             - Urine: measures/biospecimens/urine.md    
         - Demographics: measures/demographics.md
         - Electroencephalogram: 
-            - Overview: measures/eeg/overview.md
+            - Overview: measures/eeg/index.md
             - Faces Task: measures/eeg/faces_task.md
             - Auditory Mismatch Negativity Task: measures/eeg/aud_mm.md              
             - Video Resting State: measures/eeg/video_rs.md
             - Visual Evoked Potential Task: measures/eeg/vis_ep_task.md
         - Magnetic Resonance Imaging:
-            - Overview: measures/mri/overview.md
+            - Overview: measures/mri/index.md
             - Quality Control Procedures: measures/mri/qc.md
             - Structural MRI: measures/mri/smri.md
             - Functional MRI: measures/mri/fmri.md
@@ -72,13 +72,13 @@ nav:
             - Quantitative MRI: measures/mri/qmri.md
             - Magnetic Resonance Spectroscopy: measures/mri/mrs.md  
         - "Neurocognition & Language": 
+            - Overview: measures/neurocog/index.md    
             - MLDS: measures/neurocog/MLDS.md    
             - SPM-2: measures/neurocog/SPM2.md      
-        - "Novel Technologies & Wearable Sensors": 
-            - Wearable Sensors: measures/sensors/wearable_sensors.md
-            - Infant Sensor Questionnaire: measures/sensors/sensor_questionnaire.md                          
+        - "Novel Technologies & Wearable Sensors": measures/sensors.md                     
         - Physical Health: measures/physicalhealth.md
         - "Pregnancy & Exposure": 
+            - Overview: measures/pregexp/index.md
             - "Personal & Family Psychiatric History": measures/pregexp/psych_history.md
             - Pregnancy Health: measures/pregexp/preghealth_all.md
             - Infant Health: measures/pregexp/infanthealth.md
@@ -87,6 +87,7 @@ nav:
             - Acute Stress or PTSD: measures/pregexp/NSESSS.md
             - Postnatal Depression: measures/pregexp/EPDS.md
         - "Social & Environmental Determinants":
+            - Overview: measures/socenv_determinants/index.md
             - Baby's First Years: measures/socenv_determinants/bfy.md
             - Discrimination: measures/socenv_determinants/discrimination.md 
             - Intimate Partner Violence: measures/socenv_determinants/eHITS.md               
