@@ -66,20 +66,21 @@ The breastfeeding and food insecurity surveys are child-specific and filled out 
 </table>
 <small>**Only administered if still breastfeeding at prior visit</small>
 
-## Breastfeeding     
+## Measure Details & Quality Control
+### Quality Control & Known Issues
+The QC procedures for all three measures involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. If present, any common issues identified with QC or potential issues flagged by subject matter experts are described below.
+
+### Breastfeeding     
 Breastfeeding measures initiation, exclusivity, and cessation of breast milk feedings.   
 
-***Potential issues identified by subject matter experts***:    
+**Potential issues identified by subject matter experts**         
 Users should note that, as breast feeding history is obtained via self-report, it is vulnerable to recall bias concerning the timing of starting and/or stopping breast feeding. In addition, as the data is obtained via a survey, it is likely that missing data will need to be statistically addressed during analysis.
 
-## Food Insecurity
+### Food Insecurity
 Food Insecurity, based on two items assessing the availability of food, is a screening measure used across many populations indicating risk of food insecurity in the last 12 months. Each question uses the same response options. This measure was modified slightly for HBCD to use gender-neutral terms (children aare referred to as “the child” in place of gendered pronouns) as well as inclusion of "Don't know" as a response option to survey questions. Researchers should be aware that the validated measure uses Yes/No answers and does not account for missing data. 
 
-## Growth   
+### Growth   
 Growth is a standard direct measure of child height or length (in cm), weight (in kg), head circumference (cm). In older children, will also include abdominal circumference (cm).     
-
-## Quality Control & Known Issues
-The QC procedures for all three measures involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. If present, any common issues identified with QC or potential issues flagged by subject matter experts are described in the individual measure sections above.
 
 <details class="collapsible references">
   <summary class="references">References</summary>
