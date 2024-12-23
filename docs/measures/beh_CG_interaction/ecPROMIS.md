@@ -8,7 +8,7 @@ The Early Childhood Patient-Reported Outcome Measurement Information System (ecP
 Each of the 5 items for ecPROMIS Child-Caregiver Interaction is answered on a scale of 1-5: 1, Never 2, Rarely 3, Sometimes 4, Often 5, Always. A sum score is generated when the caregiver answers at least 3 out of the 5 items (*ecpromis1*, *ecpromis2*, *ecpromis3*, *ecpromis4*, *ecpromis5*). If caregivers answer 3 or 4 items, a prorated sum score is calculated using the formula: `(sum of items answered/the number of items answered)*5`. If fewer than 3 items are completed, the sum score is marked as missing. 
 
 ## HBCD Modifications
-The original ecPROMIS measure items use the term ‘my child,’ as they are designed for children aged 1 to 5 years. To make them suitable for the pre-V03 age range (3 to 9 months), Dr. Dave Cella and Dr. Courtney Blackwell, developers of ecPROMIS, provided guidance to adapt the items by replacing ‘my child’ with ‘my baby.’ See additional general modifications made to Behavior and Caregiver-Child Interactions measures [here](overview.md#hbcd-modifications).
+The original ecPROMIS measure items use the term ‘my child,’ as they are designed for children aged 1 to 5 years. To make them suitable for the pre-V03 age range (3 to 9 months), Dr. Dave Cella and Dr. Courtney Blackwell, developers of ecPROMIS, provided guidance to adapt the items by replacing ‘my child’ with ‘my baby.’ 
 
 <details class="collapsible references">
   <summary class="references">References</summary>

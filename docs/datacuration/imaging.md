@@ -113,7 +113,7 @@ mrs/
 ```
 
 ## EEG
-For EEG BIDS data, the specific **location of electrodes**, placed on either the head (`acq-eeg`) or chest (`acq-ecg`), is specified in the `*_electrodes.tsv` files following cartesian coordinates provided by the accompanying `*_coordsystem.json` file. For **task acquisitions**, the task is specified by `task-<label>`, with task options of `FACE`, `MMN`, `RS`, and `VEP` (see task details [here](../measures/eeg/overview.md#eeg-parameters)).
+For EEG BIDS data, the specific **location of electrodes**, placed on either the head (`acq-eeg`) or chest (`acq-ecg`), is specified in the `*_electrodes.tsv` files following cartesian coordinates provided by the accompanying `*_coordsystem.json` file. For **task acquisitions**, the task is specified by `task-<label>`, with task options of `FACE`, `MMN`, `RS`, and `VEP` (see task details [here](../measures/eeg/index.md#eeg-parameters)).
 
 ```
 eeg/
@@ -141,7 +141,7 @@ eeg/
 
 <ul>
 The accompanying <code>sourcedata/</code> files include:
-<li>Information about quality control flags and acquisition (<code>*_flags.json</code>- see QC details <a href="../../measures/eeg/overview#quality-control-known-issues">here</a>)</li>
+<li>Information about quality control flags and acquisition (<code>*_flags.json</code>- see QC details <a href="../../measures/eeg/index#quality-control-known-issues">here</a>)</li>
 <li>Impedance values used to ensure good electrode contact (<code>*_impedence.json</code>)</li>
 <li>Task stimuli presentations (<code>*_eventlogs.txt</code>)</li>
 </ul>

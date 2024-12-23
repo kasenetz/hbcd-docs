@@ -37,8 +37,6 @@ As mentioned in the measure description, in addition to the overall *Surgency, N
 </div>
 </p>
 
-See additional general modifications made to Behavior and Caregiver-Child Interactions measures [here](overview.md#hbcd-modifications).
-
 <details class="collapsible references">
   <summary class="references">References</summary>
  <ul> 

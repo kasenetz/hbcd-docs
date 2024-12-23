@@ -1,6 +1,5 @@
 # Novel Technologies & Wearable Sensors
 
-
 ## Instruments
 The current data release includes the following instruments:
 
