@@ -1,6 +1,6 @@
-# Pregnancy & Exposure Including Substance Use
+# Pregnancy & Exposure
 ## Instruments
-The current data release includes the following instruments:
+The current data release for Pregnancy & Exposure, Including Substance Use, includes the following instruments:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>

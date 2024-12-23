@@ -12,6 +12,11 @@ The current data release includes the following instruments:
     </tr>
   </thead>
 <tbody>
+  <tr>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#wearable-sensors">Wearable Sensors</a></td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Channel setup</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sens_ch_setup</td>
+	</tr>
 	<tr>
 		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#infant-sensor-questionnaire">Infant Sensor Questionnaire</a></td>
 		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Motor behavior, physical activity, sleep</td>
