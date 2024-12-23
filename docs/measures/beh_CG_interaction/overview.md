@@ -1,5 +1,6 @@
 # Overview
 
+## Instruments
 The current data release includes the following Behavioral and Caregiver-Child Interaction instruments:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
@@ -32,6 +33,39 @@ The current data release includes the following Behavioral and Caregiver-Child I
 	</tr>
 </tbody>
 </table>
+
+## Implementation & Data Collection
+
+All surveys are child-specific and filled out remotely by the primary caregiver. Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). Additional information is as follows:
+
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Visits</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Completion Time</th>      
+    </tr>
+  </thead>
+<tbody>
+	<tr>
+		<td>ecPROMIS</td>
+		<td>V03, V04, V06</td>
+		<td>1-2 min</td>
+	</tr>
+	<tr>
+		<td>IBQ-R (VSF)+BI</td>
+		<td>V03, V05**</td>
+		<td>7-10 min</td>
+	</tr>
+	<tr>
+		<td>MAPS-TL</td>
+		<td>V03</td>
+		<td>5 min</td>
+	</tr>
+</tbody>
+</table>
+<small>**Validated for ages 3 months 0 days to 17 months 30 days for HBCD</small>
+
 
 ## HBCD Modifications
 Alterations were made to ecPROMIS, IBQ-R (VSF)+BI, and MAPS-TL for use of gender-neutral terms. Measure instructions and individuals items that reference gendered pronouns (‘her/him’, ‘she/he’) were changed to “my/the baby/child” or “they/them” as fit for the wording. In addition, “parent” was replaced with “parent/caregiver” where appropriate. Additional HBCD modifications made to specific measures are outlined in each section as needed.
