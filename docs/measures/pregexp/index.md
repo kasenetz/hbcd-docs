@@ -68,9 +68,34 @@ The current data release includes the following instruments:
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Healthv2 Inf</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Delivery and birth outcomes</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unknown</td>
-    </tr>      
+    </tr>    
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="substanceuse_all">Alcohol, Smoking and Substance Involvement Screening Test V1.0</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Assist V1</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Substance use and problematic use before and during pregnancy</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unknown</td>
+    </tr>    
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="substanceuse_all">Alcohol, Smoking and Substance Involvement Screening Test V2.0</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Assist V2</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Substance use during end of pregnancy ( between V1 and delivery) and postnatal (weeks 0-4, between delivery and V2)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unknown</td>
+    </tr>    
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="substanceuse_all">Alcohol, Smoking and Substance Involvement Screening Test V3.0</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Assist V3</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Substance use after pregnancy</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unknown</td>
+    </tr>           
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="substanceuse_all">Timeline Follow Back</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">TLFB</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Substance use before and during pregnancy</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unknown</td>
+    </tr>        
 </tbody>
 </table>
+
 
 ## Implementation & Data Collection
 Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). Additional information is as follows:
@@ -139,7 +164,31 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
         <td>V02</td>
         <td>10 min</td>
     </tr> 
+    <tr>
+        <td>Assist V1</td>
+        <td>RA-administered**</td>
+        <td>V01</td>
+        <td>5 min</td>
+    </tr>     
+    <tr>
+        <td>Assist V2</td>
+        <td>RA-administered**</td>
+        <td>V02</td>
+        <td>5 min</td>
+    </tr>     
+    <tr>
+        <td>Assist V3</td>
+        <td>RA-administered**</td>
+        <td>V03</td>
+        <td>3 min</td>
+    </tr>        
+    <tr>
+        <td>TLFB</td>
+        <td>RA-administered**</td>
+        <td>V01, V02</td>
+        <td>10 min</td>
+    </tr>         
 </tbody>
 </table>
-
+<small>**RA-administered in person except in Alabama, where participants were trained too self-administer</small>
 

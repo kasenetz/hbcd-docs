@@ -1,63 +1,10 @@
 # Substance Use Measures
-Substance use measures include NIDA-modified Alcohol, Smoking and Substance Involvement Screening Test (ASSIST) V1.0/V2.0/V3.0 and Timeline Follow Back (TLFB):
 
-<table dir="ltr" border="1" cellspacing="0" cellpadding="0" data-sheets-root="1" data-sheets-baot="1"><colgroup><col width="104" /><col width="555" /><col width="110" /><col width="142" /></colgroup>
-<tbody>
-<tr>
-  <td><strong>Measure</strong></td>
-  <td><strong>Construct</strong></td>
-  <td><strong>Respondant</strong></td>
-  <td><strong>Visit(s)</strong></td>
-</tr>
-<tr>
-  <td>Assist V1</td>
-  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Substance use and problematic use before and during pregnancy</small></td>
-  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Pregnant person</small></td>
-  <td>V01</td>
-</tr>
-<tr>
-  <td>Assist V2</td>
-  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Substance use during end of pregnancy ( between V1 and delivery) and postnatal (weeks 0-4, between delivery and V2)</small></td>
-  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Person who gave birth</small></td>
-  <td>V02</td>
-</tr>
-<tr>
-  <td>Assist V3</td>
-  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Substance use after pregnancy</small></td>
-  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Person who gave birth or primary caregiver</small></td>
-  <td>V03</td>
-</tr>
-<tr>
-  <td>TLFB</td>
-  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Substance use before and during pregnancy</small></td>
-  <td style="width: 400px; word-wrap: break-word; white-space: normal;"><small>Person who gave birth or primary caregiver</small></td>
-  <td>V01, V02</td>
-</tr>
-</tbody>
-</table>
-
-### Assist V1/V2/V3
+## Assist V1/V2/V3
 The list of substances for the Assist measures was greatly expanded. For each substance, participants indicated their frequency of use with options: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), or 4 (Daily or Almost Daily). For substances reported as used, participants were asked about modes of use, typical quantities of consumption for alcohol and opiods (if applicable), and disordered or problematic use - please see HBCD Modifications for details. Any reported use within three months before or during pregnancy triggered the Time Line Follow Back (TLFB).
 
-### TLFB
+## TLFB
 When triggered by Assist responses, the [Time Line Follow Back (TLFB)](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) was modified (see <a href="#hbcd-modifications">HBCD Modifications</a>) to record maternal substance use before and during pregnancy. Participants reported use during 9 weeks in total for each product type (e.g., edible cannabis) reported on the ASSIST. The sampled weeks included: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V2 to capture substance use during the last two full weeks of gestation (Weeks 8-9).
-
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Implementation & Data Collection Details</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-    <ul>
-    <li><b>Method of Administration</b>: RA-administered in person (except in Alabama, where participants were trained too self-administer) </li>
-    <li><b>REDCap Form Names</b>: Assist V1; Assist V2; Assist V3; TLFB </li>
-    <li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
-    <li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
-    <li><b>Estimated length of time for completion</b>: 5 min (Assist V1/2); 3 min (Assist V3); 10 min (TLFB)</li>
-    </ul>
-</div>
-</p>
 
 ## HBCD Modifications
 <p style="font-size: 1.2em; margin: 0 0 5px;"><b>Assist V1/V2/V3</b></p>
@@ -66,7 +13,6 @@ The **Assist V1, V2, & V3 measures** were created from combining the Family Hist
 
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction/Assessment Item Modifications</b></p>  
 The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding substances used and the timeline of their use before and during pregnancy. Please expand each section below to see specifics on added options/questions:
-
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
