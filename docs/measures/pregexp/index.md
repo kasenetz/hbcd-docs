@@ -1,7 +1,4 @@
 # Pregnancy & Exposure Including Substance Use
-
-# 🚧 🚧 UNDER CONSTRUCTION 🚧 🚧
-
 ## Instruments
 The current data release includes the following instruments:
 
@@ -93,18 +90,42 @@ The current data release includes the following instruments:
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Substance use before and during pregnancy</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unknown</td>
     </tr>        
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="substanceuse_all">Timeline Follow Back</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">TLFB</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Substance use before and during pregnancy</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unknown</td>
+    </tr>        
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="mentalhealth">DSM-5 Self-Rated Level 1 and Level 2 (version 8a) Cross-Cutting Symptom Measure—Adult</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">APA 1/2</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Mental Health</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unknown</td>
+    </tr>  
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="NSESSS">National Stressful Events Survey- PTSD Short Scale/Acute Stress Disorder</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NSESSS—PTSD/Acute Stress Disorder</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PTSD/acute stress disorder symptom severity</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unknown</td>
+    </tr>      
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="EPDS">Edinburgh Postnatal Depression Scale</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">EPDS</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Postnatal depression</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unknown</td>
+    </tr>      
 </tbody>
 </table>
 
-
 ## Implementation & Data Collection
-Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). Additional information is as follows:
+Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). All are child-unspecific except Healthv2 Inf. Additional information is as follows:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Administration</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Respondant*</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Visits</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Completion Time</th>      
     </tr>
@@ -112,83 +133,117 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
 <tbody>
     <tr>
         <td>FAM MH</td>
-        <td>Self-administered in person</td>
+        <td>Self (in person)</td>
+        <td>[1]</td>
         <td>V01</td>
         <td>5 min</td>
     </tr>
     <tr>
         <td>Pregnancy Health (PH)</td>
-        <td>Self-administered</td>
+        <td>Self</td>
+        <td>[1]</td>
         <td>V01</td>
         <td>5 min</td>
     </tr>    
     <tr>
         <td>PH-Vaccines</td>
-        <td>Self-administered</td>
+        <td>Self</td>
+        <td>[1]</td>
         <td>V01</td>
         <td>3 min</td>
     </tr>      
     <tr>
         <td>PH-Chronic Conditions</td>
-        <td>Self-administered</td>
+        <td>Self</td>
+        <td>[1]</td>
         <td>V01</td>
         <td>3 min</td>
     </tr>      
     <tr>
         <td>PH-Illness</td>
-        <td>RA-administered</td>
+        <td>RA</td>
+        <td>[1]</td>
         <td>V01</td>
         <td>3 min</td>
     </tr>          
     <tr>
         <td>PH-ER</td>
-        <td>RA-administered</td>
+        <td>RA</td>
+        <td>[1]</td>
         <td>V01</td>
         <td>5 min</td>
     </tr>       
     <tr>
         <td>PH-Medications</td>
-        <td>RA-administered</td>
+        <td>RA</td>
+        <td>[1]</td>
         <td>V01</td>
         <td>5 min</td>
     </tr>       
     <tr>
         <td>PH-V2</td>
-        <td>RA-administered</td>
+        <td>RA</td>
+        <td>[1]</td>
         <td>V02</td>
         <td>10 min</td>
     </tr>     
     <tr>
         <td>Healthv2 Inf</td>
-        <td>RA-administered</td>
+        <td>RA</td>
+        <td>[2]/[3]</td>
         <td>V02</td>
         <td>10 min</td>
     </tr> 
     <tr>
         <td>Assist V1</td>
-        <td>RA-administered**</td>
+        <td>RA**</td>
+        <td>[1]</td>
         <td>V01</td>
         <td>5 min</td>
     </tr>     
     <tr>
         <td>Assist V2</td>
-        <td>RA-administered**</td>
+        <td>RA**</td>
+        <td>[2]</td>
         <td>V02</td>
         <td>5 min</td>
     </tr>     
     <tr>
         <td>Assist V3</td>
-        <td>RA-administered**</td>
+        <td>RA**</td>
+        <td>[2]/[3]</td>
         <td>V03</td>
         <td>3 min</td>
     </tr>        
     <tr>
         <td>TLFB</td>
-        <td>RA-administered**</td>
+        <td>RA**</td>
+        <td>[2]/[3]</td>
         <td>V01, V02</td>
         <td>10 min</td>
     </tr>         
+    <tr>
+        <td>APA 1/2</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Self (in person or remote)</td>
+        <td>[1]/[2]/[3]</td>
+        <td>V01, V02, V03</td>
+        <td>5 min</td>
+    </tr>    
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NSESSS—PTSD/Acute Stress Disorder</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Self (in person or remote)</td>
+        <td>[1]/[2]/[3]</td>
+        <td>V01, V02, V03</td>
+        <td>3 min</td>
+    </tr>       
+    <tr>
+        <td>EPDS</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Self (in person or remote)</td>
+        <td>[1]/[2]</td>
+        <td>V01, V02, V03</td>
+        <td>3 min</td>
+    </tr>    
 </tbody>
 </table>
-<small>**RA-administered in person except in Alabama, where participants were trained too self-administer</small>
-
+<small> * [1] Pregnant Person, [2] Person Who Gave Birth, [3] Primary Caregiver</small><br>
+<small> ** RA-administered in person except in Alabama, where participants were trained too self-administer</small>

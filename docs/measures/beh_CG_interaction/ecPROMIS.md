@@ -1,8 +1,4 @@
 # ecPROMIS Child-Caregiver Interaction
-**Full Name**: Early Childhood Patient-Reported Outcome Measurement Information System Child/Caregiver Relationship Scale.  
-**Acronym/Brief Name**: ecPROMIS Child-Caregiver Interaction    
-**Construct**: Relationships  
-
 The Early Childhood Patient-Reported Outcome Measurement Information System (ecPROMIS) offers clinicians and researchers a brief, efficient, and precise way to evaluate young children’s well-being. The ecPROMIS Child-Caregiver Relationship Scale assesses the degree to which young children develop close, satisfying relationships with caregivers. Questions inquire about the focal child/caregiver relationship over the past 7 days. The ecPROMIS Child/Caregiver relationship form (Infancy: < 1 year) was developed for HBCD based on the “PROMIS Early Childhood Parent-Report Short Form v1.0 - Social Relationships – Child-Caregiver Interactions 5a” form.
 
 Each of the 5 items for ecPROMIS Child-Caregiver Interaction is answered on a scale of 1-5: 1, Never 2, Rarely 3, Sometimes 4, Often 5, Always. A sum score is generated when the caregiver answers at least 3 out of the 5 items (*ecpromis1*, *ecpromis2*, *ecpromis3*, *ecpromis4*, *ecpromis5*). If caregivers answer 3 or 4 items, a prorated sum score is calculated using the formula: `(sum of items answered/the number of items answered)*5`. If fewer than 3 items are completed, the sum score is marked as missing. 

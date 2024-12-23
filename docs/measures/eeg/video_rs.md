@@ -3,7 +3,7 @@ The Video Resting State (v.11.29.23) task provides assessment of the development
 
 In V03, a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task:
 
->>![](images/eeg-RS-V03.png)
+![](images/eeg-RS-V03.png)
 <br>
 <br>
 

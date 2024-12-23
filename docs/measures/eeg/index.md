@@ -2,23 +2,9 @@
 
 ## EEG Parameters
 
+EEG tasks are acquired during visits V03, V04, and V06.
+
 ![](images/EEG_acquisition_protocol.png)
-
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Implementation & Data Collection Details</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-    <ul>
-    <li><b>Method of Administration</b>: RA administered in person</li>
-    <li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
-    <li><b>Visits</b>: V03, V04, V06</li>
-    <li><b>Estimated length of time for completion</b>: Video RS 3 min; Face 5 min, MMN 11.5(V03) & 8.5 (V04/06) min; VEP 1 min</li>
-    </ul>
-</div>
-</p>
 
 ## Quality Control & Known Issues    
 After EEG acquisition, quality control checks are performed using [EEG2BIDS Wizard](https://github.com/aces/eeg2bids), a custom MATLAB application installed at all HBCD sites. These checks are immediately provided to the user to ensure the data's integrity and usability. The process includes:

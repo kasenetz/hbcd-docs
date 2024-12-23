@@ -27,17 +27,11 @@ Autism-specific
 <p>We recommend following these recommendations for the responsible use and communication of race and <a href="https://www.nature.com/articles/s41593-024-01608-4">ethnicity</a>.</p>
 </div><br>
 
-
-**Full Name**: DSM-5 Self-Rated Level 1 and Level 2 (version 8a) Cross-Cutting Symptom Measure—Adult   
-**Acronym/Brief Name**: APA 1/2  
-**Construct**: Mental health   
-     
 This is a highly sensitive screening tool for use in community samples. It combines two measures: the [DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure—Adult](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf) and the DSM-5 Level 2 Cross-Cutting Symptom Measures:
 
 ![](images/DSM-5Level2Cross-CuttingSymptomMeasures.png)
 
 The mental health screening instrument has two levels. Level 1 includes one to two questions for each of thirteen mental health conditions. When symptoms were reported for Level 1, the participant answered several subsequent questions pertaining to additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems. Slight modifications were made due to the use of other measures and the study population (see [HBCD Modifications](#hbcd-modifications) for details). Alerts for study staff were triggered when APA suicide ('Thoughts of actually hurting yourself?') and/or APA depression (from 'I felt worthless' to 'I felt that nothing could cheer me up') were scored greater than 0 and 32, respectively.
-
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
@@ -51,25 +45,6 @@ The mental health screening instrument has two levels. Level 1 includes one to t
     <li><a href="https://heal.nih.gov/files/CDEs/2024-07/promis-sleep-disturbance-8a-crf.pdf">Promis 8a Level 2 Sleep Disturbance: The PROMIS Short Form v1.0-Sleep Disturbance 8a</a> questionnaire includes 8 questions related to sleep in the past 7 days. Each question is based on a five-point scale with the first question being from 1=Very Poor to 5=Very Good and the following seven questions on a five point scale from 1=Not at all and 5=Very Much with a few of the items reverse scored. See information on scoring <a href="https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Sleep_Scoring_Manual.pdf">here</a></li>
     <li><a href="https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures">All other Level 2 measures (except depression and sleep)</a></li>
     <li>The <a href="https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf">Personality Inventory for DSM-5 Brief</a> assesses 5 personality trait domains including negative affect, detachment, antagonism, disinhibition, and psychoticism, with each trait domain consisting of 5 items.</li>
-    </ul>
-</div>
-</p>
-
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Implementation & Data Collection Details</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-    <ul>
-      <li><b>Method of Administration</b>: self-administered in person or remote </li>
-      <li><b>REDCap Form Name</b>: APA Level 1/2 </li>
-      <li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
-      <li><b>Child Specific/Unspecific Form</b>: Child Unspecific </li>
-      <li><b>Respondent:</b> pregnant person/person who gave birth/primary caregiver </li>
-      <li><b>Visits</b>:  V01, V02, V03 </li>
-      <li><b>Estimated length of time for completion</b>: 5 minutes</li>
     </ul>
 </div>
 </p>

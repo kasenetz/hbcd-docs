@@ -1,10 +1,9 @@
 # Visual Evoked Potential Task (VEP)
 
 The Visual Evoked Potential Task (v.11.29.23) measures development of visual cortex and response to stimuli, reflecting underlying cortical development via measurement of cortical responses to flashing checkerboard visual stimuli, shown for the duration of the task: 
->>>>>![VEP checkerboard image](images/eeg-vep-checkerboard.png)
+![VEP checkerboard image](images/eeg-vep-checkerboard.png)
 
 VEP amplitude and latency decreases with age during the first three years of life. The VEP has been associated with concurrent and later developmental outcomes as a function of prenatal substance exposures (Margolis et al., 2024), early visual enrichment or deprivation (Jensen et al., 2019), vision system maturation (Lippé et al., 2009), neurodevelopmental disorders (e.g., ASD and ADHD; Cremone- Caira et al., 2023; Nazhvani et al., 2013), and reading and learning disabilities (Shandiz et al., 2017). The morphology of the VEP likely reflects varying degrees of synaptic efficiency and as such, can be used as a readout of general cortical function. The task elicits a VEP response in the occipital area (Oz), consisting of the, N1 (first negative peak), P1 (first positive peak), and N2 (second negative peak) components. See Fox et al. (2024) for more information about the VEP task.  
-
 
 <details class="collapsible references">
   <summary class="references">References</summary>
