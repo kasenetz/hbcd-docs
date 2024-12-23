@@ -1,11 +1,41 @@
 # Physical Health Measures
 
-## Breastfeeding
-**Full Name**: Breast Feeding History AKA PHENX BF questionnaire    
-**Acronym/Brief Name**: PHENX BF    
-**Construct**: Nutrition        
-Breastfeeding measures initiation, exclusivity, and cessation of breast milk feedings.   
+## Instruments
+The current data release includes the following Physical Health Measures instruments:
 
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Name of Instrument</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Acronym</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Construct</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Table Name</th>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#breastfeeding">Breast Feeding History</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PHENX BF</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Nutrition</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">ph_cg_phx_i_bfh</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#food-insecurity">2-item Food Insecurity</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">USDA short form</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Food insecurity</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sed_cg_foodins</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#growth">Height/Weight/Head Circumference</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Growth</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Growth</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unknown</td>
+  </tr>  
+</tbody>
+</table>
+
+## Breastfeeding     
+Breastfeeding measures initiation, exclusivity, and cessation of breast milk feedings.   
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
@@ -15,7 +45,6 @@ Breastfeeding measures initiation, exclusivity, and cessation of breast milk fee
 <div class="notification-collapsible-content">
     <ul>
       <li><b>Method of Administration</b>: Parent survey (remote)</li>
-      <li><b>REDCap Form Name</b>: ph_cg_phx_i_bfh</li>
       <li><b>Pilot Data Dictionary</b>: Breast Feeding History</li>
       <li><b>Spanish Translation</b>: Translated for HBCD by BURG</li>
       <li><b>Child Specific/Unspecific Form</b>: Child Specific</li>
@@ -30,10 +59,6 @@ Breastfeeding measures initiation, exclusivity, and cessation of breast milk fee
 Users should note that, as breast feeding history is obtained via self-report, it is vulnerable to recall bias concerning the timing of starting and/or stopping breast feeding. In addition, as the data is obtained via a survey, it is likely that missing data will need to be statistically addressed during analysis.
 
 ## Food Insecurity
-**Full Name**: 2-item Food Insecurity   
-**Acronym/Brief Name**: USDA short form  
-**Construct**: Food Insecurity   
-
 Food Insecurity, based on two items assessing the availability of food, is a screening measure used across many populations indicating risk of food insecurity in the last 12 months. Each question uses the same response options. This measure was modified slightly for HBCD to use gender-neutral terms (children aare referred to as “the child” in place of gendered pronouns) as well as inclusion of "Don't know" as a response option to survey questions. Researchers should be aware that the validated measure uses Yes/No answers and does not account for missing data. 
 
 
@@ -45,7 +70,6 @@ Food Insecurity, based on two items assessing the availability of food, is a scr
 <div class="notification-collapsible-content">
     <ul>
       <li><b>Method of Administration</b>: Remote survey </li>
-      <li><b>REDCap Form Name</b>: sed_cg_foodins </li>
       <li><b>Pilot Data Dictionary</b>: 2-Item Food Insecurity </li>
       <li><b>Spanish Translation</b>: Translated for HBCD by BURG </li>
       <li><b>Child Specific/Unspecific Form</b>: Child Specific </li>
@@ -56,10 +80,7 @@ Food Insecurity, based on two items assessing the availability of food, is a scr
 </div>
 </p>
 
-## Growth
-**Full Name**: Height/Weight/Head Circumference       
-**Acronym/Brief Name**: growth    
-**Construct**: Growth       
+## Growth   
 Growth is a standard direct measure of child height or length (in cm), weight (in kg), head circumference (cm). In older children, will also include abdominal circumference (cm).     
 
 
@@ -71,7 +92,7 @@ Growth is a standard direct measure of child height or length (in cm), weight (i
 <div class="notification-collapsible-content">
     <ul>
       <li><b>Method of Administration</b>: Direct measure in person </li>
-      <li><b>REDCap Form Name</b>: N/A (entered into Loris) </li>
+      <li><b>REDCap Form Name</b>:  </li>
       <li><b>Pilot Data Dictionary</b>: Height/Weight/Head Circumference </li>
       <li><b>Child Specific/Unspecific Form</b>: Child Specific </li>
       <li><b>Visits</b>: V02, V03, V04, V06, V08 (31-45 months) </li>
