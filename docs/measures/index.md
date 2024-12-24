@@ -2,13 +2,12 @@
 
 In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures and known issues, and references. For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). 
 
-The visits and corresponding ages of the infant/child are listed below. **Only data measures provided in the current release, including V01 - V03, are described**. Please visit the [HBCD Study page](https://hbcdstudy.org/study-protocols/) for full study protocols.
+The visits and corresponding ages of the infant/child are listed below. **Only data measures provided in the current release that includes V01 - V03 are described**. Please visit the [HBCD Study page](https://hbcdstudy.org/study-protocols/) for full study protocols.
 
 ![](../images/timeline-img.png)
 
-<br>
-
-## HBCD Workgroups & Data Measures
+<p>
+<p style="text-align: center; font-size: 1.6em">HBCD Workgroups & Data Measures</p>
 <ul>
 <li><a href="beh_CG_interaction">Behavior & Caregiver-Child Interaction</a></li>
 <li><a href="biospecimens">Biospecimens & Omics</a></li>
@@ -21,3 +20,4 @@ The visits and corresponding ages of the infant/child are listed below. **Only d
 <li><a href="pregexp">Pregnancy & Exposure, Including Substance Use</a></li>
 <li><a href="socenv_determinants">Social & Environmental Determinants</a></li>
 </ul>
+</p>

@@ -1,9 +1,7 @@
-# Overview
-
-## Brain Imaging Data Structure (BIDS)
+# Brain Imaging Data Structure (BIDS)
 As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) (BIDS) standard for data organization. At a high level, raw HBCD BIDS data has the folder structure displayed below. The three main folders are:
 
-- `raw/`: raw imaging, EEG, and motion data (see details [here](imaging.md))
+- `raw/`: raw imaging, EEG, and motion data (see details [here](rawbids.md))
 - `derivatives/`: pre-processed imaging, EEG, and motion data (see details [here](derivatives.md))
 - `phenotype/`: demographic, phenotype, and instrument data (see details [here](phenotypes.md))
 

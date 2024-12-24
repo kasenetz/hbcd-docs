@@ -203,7 +203,7 @@
 <div class="notification-collapsible-content">
 <br>
 <p>
-Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for an overview of BIDS and details of raw dMRI data <a href="../datacuration/imaging/#diffusion-dwi">here</a>. Processed gradient tables, adjusted for head rotation, are additionally provided in the QSIPrep <code>derivatives/</code> - see details <a href="../datacuration/derivatives/#qsiprep-qsiprep">here</a>.
+Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing raw data standardized to the Brain Imaging Data Structure (BIDS). See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for an overview of BIDS and details of raw dMRI data <a href="../datacuration/rawbids/#diffusion-dwi">here</a>. Processed gradient tables, adjusted for head rotation, are additionally provided in the QSIPrep <code>derivatives/</code> - see details <a href="../datacuration/derivatives/#qsiprep-qsiprep">here</a>.
 </p>
 </div>
 </p>
@@ -218,7 +218,7 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>HBCD image processing pipelines use field maps to perform distortion correction for structural and functional MRI data. Most researchers will likely use the processed data for their analyses and therefore do not need to use the fieldmaps for anything, as all pipeline output derivatives are already distortion corrected. However, if using the <a href="../datacuration/imaging">raw BIDS data</a> for your research, note that each fMRI acquisition will have a specific pair of fieldmaps associated with it, acquired in AP and PA phase encoding directions, located under <code>fmap/</code>. The matching EPI fieldmaps can easily be identified by the run number, specified by <code>run-&lt;label&gt;</code> in the filename (see details <a href="../datacuration/imaging/#functional-func-and-fieldmaps-fmap">here</a>).
+<p>HBCD image processing pipelines use field maps to perform distortion correction for structural and functional MRI data. Most researchers will likely use the processed data for their analyses and therefore do not need to use the fieldmaps for anything, as all pipeline output derivatives are already distortion corrected. However, if using the <a href="../datacuration/rawbids">raw BIDS data</a> for your research, note that each fMRI acquisition will have a specific pair of fieldmaps associated with it, acquired in AP and PA phase encoding directions, located under <code>fmap/</code>. The matching EPI fieldmaps can easily be identified by the run number, specified by <code>run-&lt;label&gt;</code> in the filename (see details <a href="../datacuration/rawbids/#functional-func-and-fieldmaps-fmap">here</a>).
 </p>
 </div>
 </p>
@@ -233,7 +233,7 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Imaging QC metrics are provided for each scan in the session-level <code>scans.tsv</code> file - see details about this file <a href="../datacuration/imaging/#participant-session-scan-level-data">here</a>. Automated QC metrics were generated for all data described under <a href="../measures/mri/qc">HBCD MR QC Procedures</a>. However, only a subset of series are selected for manual review based on the automated QC metrics. Therefore, not all scans will have both automated and manual QC metrics.</p>
+<p>Imaging QC metrics are provided for each scan in the session-level <code>scans.tsv</code> file - see details about this file <a href="../datacuration/rawbids/#participant-session-scan-level-data">here</a>. Automated QC metrics were generated for all data described under <a href="../measures/mri/qc">HBCD MR QC Procedures</a>. However, only a subset of series are selected for manual review based on the automated QC metrics. Therefore, not all scans will have both automated and manual QC metrics.</p>
 </div>
 </p>
 
@@ -247,7 +247,7 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>All QC metrics derived from the <a href="../measures/mri/qc/#raw-mr-data-qc">raw data QC procedures</a> are included in the session-level <code>scans.tsv</code> file-see details <a href="../datacuration/imaging/#participant-session-scan-level-data">here</a>. Following QC, data curation, and BIDS conversion, raw structural and functional MRI data are additionally run through MRIQC to generate image quality metrics. See <a href="../datacuration/derivatives/#mriqc-mriqc">here</a> for an overview of the MRIQC derivatives provided. Researchers may use these outputs for additional curation if desired. Note that, with the exception of images that failed to meet the <a href="../datacuration/exclusions/#imaging">Exclusion Criteria</a> for inclusion in the data pool, all data are included in the BIDS raw data despite their QC ratings.</p>
+<p>All QC metrics derived from the <a href="../measures/mri/qc/#raw-mr-data-qc">raw data QC procedures</a> are included in the session-level <code>scans.tsv</code> file-see details <a href="../datacuration/rawbids/#participant-session-scan-level-data">here</a>. Following QC, data curation, and BIDS conversion, raw structural and functional MRI data are additionally run through MRIQC to generate image quality metrics. See <a href="../datacuration/derivatives/#mriqc-mriqc">here</a> for an overview of the MRIQC derivatives provided. Researchers may use these outputs for additional curation if desired. Note that, with the exception of images that failed to meet the <a href="../datacuration/exclusions/#imaging">Exclusion Criteria</a> for inclusion in the data pool, all data are included in the BIDS raw data despite their QC ratings.</p>
 
 <p>However, most researchers will likely use preprocessed data their analyses. Several processing pipelines use the <code>scans.tsv</code> file to determine which input files to use - see the <a href="../processing/pipelines">overview of data processing</a> for details. In addition, for fMRI, dMRI, MRS, and EEG, the visual summary reports included in the pipeline derivatives can be inspected to inform the selection of which files to include/exclude in analyses (e.g. <code>sub-&lt;label&gt;_ses-&lt;label&gt;_executive_summary.html</code> report generated by <a href="../datacuration/derivatives/#xcp-d-xcpd_d">XCP-D</a>). Several modalities have undergone visual QC, many of which are based on these visual reports, via <a href="../measures/mri/qc/#brainswipes">BrainSwipes</a> as well, the outputs of which are also made available in the BIDS <a href="../datacuration/phenotypes">phenotype/</a> folder.</p>
 </div>

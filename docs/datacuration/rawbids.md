@@ -6,23 +6,23 @@ The `raw/` folder includes raw MR, EEG, and motion data organized under subject/
 ```
 root/
 |__ raw/ 
-|   |__ sub-<label>/
-|   |   |__ sub-<label>_sessions.tsv
-|   |   |__ sub-<label>_sessions.json
-|   |   |__ ses-<label>/
-|   |       |__ anat/
-|   |       |__ dwi/
-|   |       |__ eeg/
-|   |       |__ fmap/
-|   |       |__ func/
-|   |       |__ motion/
-|   |       |__ mrs/
-|   |       |__ sub-<label>_ses-<label>_scans.tsv
-|   |       |__ sub-<label>_ses-<label>_scans.json
-|   |
-|   |__ dataset_description.json
-|   |__ participants.tsv
-|   |__ participants.json 
+    |__ sub-<label>/
+    |   |__ sub-<label>_sessions.tsv
+    |   |__ sub-<label>_sessions.json
+    |   |__ ses-<label>/
+    |       |__ anat/
+    |       |__ dwi/
+    |       |__ eeg/
+    |       |__ fmap/
+    |       |__ func/
+    |       |__ motion/
+    |       |__ mrs/
+    |       |__ sub-<label>_ses-<label>_scans.tsv
+    |       |__ sub-<label>_ses-<label>_scans.json
+    |
+    |__ dataset_description.json
+    |__ participants.tsv
+    |__ participants.json 
 ```
 In a large infant study, missing data is common, leading to variations in the number of folders and files available per subject and session. The HBCD acquisition spans multiple modalities, often collected at different times, with some acquisitions occurring on separate days even within the same modality. 
 
@@ -113,7 +113,7 @@ mrs/
 ```
 
 ## EEG
-For EEG BIDS data, the specific **location of electrodes**, placed on either the head (`acq-eeg`) or chest (`acq-ecg`), is specified in the `*_electrodes.tsv` files following cartesian coordinates provided by the accompanying `*_coordsystem.json` file. For **task acquisitions**, the task is specified by `task-<label>`, with task options of `FACE`, `MMN`, `RS`, and `VEP` (see task details [here](../measures/eeg/index.md#eeg-parameters)).
+For EEG BIDS data, the specific **location of electrodes**, placed on either the head (`acq-eeg`) or chest (`acq-ecg`), is specified in the `*_electrodes.tsv` files following cartesian coordinates provided by the accompanying `*_coordsystem.json` file. For **task acquisitions**, the task is specified by `task-<label>`, with task options of `FACE`, `MMN`, `RS`, and `VEP` (see task details [here](../measures/eeg/index.md)).
 
 ```
 eeg/
