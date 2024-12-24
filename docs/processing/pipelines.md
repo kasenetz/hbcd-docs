@@ -1,7 +1,12 @@
 # Processing Pipelines & Documentation
+<p>
+<div id="faq-qcrec" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">For full documentation on how each pipeline was used for HBCD processing, please visit the external <a href="https://hbcd-cbrain-processing.readthedocs.io/latest/">HBCD Processing</a> page</span>
+</div>
+</p>
 
-<p style="font-size: 1.2em; margin: 40px 0 0; font-weight: normal; padding-bottom: 5px; border-bottom: none;">
-<i>For full documentation on how each pipeline was used for HBCD processing, please visit the external <a href="https://hbcd-cbrain-processing.readthedocs.io/latest/">HBCD Processing</a> page</i>. The following pipelines were used for HBCD data processing:</p> 
+Note that several of the processing pipelines query the `scans.tsv` file (described [here](../datacuration/imaging.md/#participant-session-scan-level-data)) to determine which files to include/exclude for processing (e.g. query to check that `HBCD_compliant` has a value of `Yes`). The criteria used are listed under the 'Quality Control Selection Information' under [Tool Names](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html#tool-names) on the HBCD Processing page. Please visit the [HBCD Processing](https://hbcd-cbrain-processing.readthedocs.io/latest/) webpage for full documentation on how each of  the following pipelines was used for HBCD processing.
 
 ### Magnetic Resonance Imaging (MRI)
 <ul style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
