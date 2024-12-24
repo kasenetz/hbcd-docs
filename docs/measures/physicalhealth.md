@@ -1,4 +1,4 @@
-# Physical Health Measures
+# Physical Health
 
 ## Instruments
 The current data release includes the following Physical Health Measures instruments:
