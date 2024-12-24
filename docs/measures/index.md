@@ -10,14 +10,14 @@ The visits and corresponding ages of the infant/child are listed below. **Only d
 
 ## HBCD Workgroups & Data Measures
 <ul>
-<li><a href="beh_CG_interaction">BEHAVIOR & CAREGIVER-CHILD INTERACTION</a></li>
-<li><a href="biospecimens">BIOSPECIMENS & OMICS</a></li>
-<li><a href="demographics">DEMOGRAPHICS</a></li>
-<li><a href="eeg">ELECTROENCEPHALOGRAM (EEG) </a></li>
-<li><a href="mri">MAGNETIC RESONANCE IMAGING (MRI)</a></li>
-<li><a href="neurocog">NEUROCOGNITION & LANGUAGE</a> </li>
-<li><a href="sensors">NOVEL TECHNOLOGIES & WEARABLE SENSORS </a></li>
-<li><a href="physicalhealth">PHYSICAL HEALTH</a></li>
-<li><a href="pregexp">PREGNANCY & EXPOSURE, INCLUDING SUBSTANCE USE</a></li>
-<li><a href="socenv_determinants">SOCIAL & ENVIRONMENTAL DETERMINANTS</a></li>
+<li><a href="beh_CG_interaction">Behavior & Caregiver-Child Interaction</a></li>
+<li><a href="biospecimens">Biospecimens & Omics</a></li>
+<li><a href="demographics">Demographics</a></li>
+<li><a href="eeg">Electroencephalogram (EEG) </a></li>
+<li><a href="mri">Magnetic Resonance Imaging (MRI)</a></li>
+<li><a href="neurocog">Neurocognition & Language</a> </li>
+<li><a href="sensors">Novel Technologies & Wearable Sensors</a></li>
+<li><a href="physicalhealth">Physical Health</a></li>
+<li><a href="pregexp">Pregnancy & Exposure, Including Substance Use</a></li>
+<li><a href="socenv_determinants">Social & Environmental Determinants</a></li>
 </ul>
