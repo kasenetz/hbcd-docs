@@ -1,4 +1,5 @@
 # Demographics
+<p>
 <div id="alert-banner" class="alert-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
@@ -10,47 +11,16 @@
 <br>
 <p>When using HBCD data, all data users must agree to responsible use as described in the DUC. When conceptualizing studies, analyzing data, and communicating findings from studies that use variables such as race, ethnicity, country of origin, and socioeconomic data, it is critical to consider strategies to avoid stigmatization of any groups and perpetuating harmful biases.</p> 
 <p>Race and ethnicity are collected as a part of the HBCD protocol to reflect social experiences (i.e. representing social constructs) and should not be conceptualized as as biological, natural, intrinsic, or fixed categories of people. In addition, researchers sometimes use race/ethnicity variables as a proxy for unmeasured social experiences or environmental exposures. HBCD measures a wide variety of social experiences and environmental exposures; in analyzing HBCD data, race/ethnicity should not be used as a proxy for measured variables</p>
-</div><br>
-
-**Full Name**: HBCD Demographics V01  
-**Acronym/Brief Name**: Demographics  
-**Construct**: Basic social characteristics related to the birthing parent, the other biological parent, and their household.  
-
-Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. The HBCD Study demographics survey is designed to gather comprehensive information on socioeconomic status and various demographic factors. Its primary purpose is to capture data on race, ethnicity, nativity, income, education, and occupation, as well as gender identity, sexual orientation, relationship status, primary residence, and household composition of the parent carrying the child, and some basic information on the other biological parent. 
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Description from <a href="https://doi.org/10.1016/j.dcn.2024.101429">Cioffredi et al. 2024</a></span>
-  <span class="notification-arrow">▸</span>
-</div>
-
-<div class="notification-collapsible-content">
-<br>
-<p>
-<i>The HBCD Demographics survey was designed to collect social and economic information including race, ethnicity, nativity, income, maternal education, and occupation, as well as to characterize gender identity, sexual orientation, relationship status, primary residence, and household composition. The household composition matrix asks for details on all household members including age, gender, relationship to the child, relationship to the primary caregiver, and time spent caring for the child. Participants and families who endorse no primary residence, or that they are living in a shelter or treatment facility, are not asked to complete the household matrix. The survey includes a limited set of questions on the child’s “other biological parent” (i.e., race, ethnicity, nativity, education, occupation), provided the respondent endorsed an item indicating that they could answer this set of questions. Although there are no direct questions about the primary caregiver’s spouse/partner in the demographics, details of this relationship can be found within the household composition roster. The questions on Occupation ask for detailed information about exposures to environmental toxicants.</i><br>
-<br><i>Careful consideration was given to ensure that questions were inclusive of diverse populations and could capture a wide range of family structures and living situations that may impact child health outcomes. As a result, survey elements available within the PhenX Toolkit and other large-scale NIH studies were reviewed and modified by the Social and Environmental Determinants working group and the HBCD Diversity, Equity, and Inclusion (DEI) Committee to reduce bias and correct for embedded assumptions of heteronormative nuclear-family structures (see Table with sources below). Future demographics surveys will repeat survey elements from Visit 4 for both the primary caregiver and the child.</i>
-</p>
 </div>
 </p>
 
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Implementation & Data Collection Details</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-<ul>
-<li><b>Method of Administration</b>: RA administered in person</li>
-<li><b>Child Specific/Unspecific Form</b>: Child Unspecific</li>
-<li><b>Respondent:</b> Adult Participant</li>
-<li><b>Visits</b>: V01</li>
-<li><b>Estimated length of time for completion</b>: 10 minutes</li>
-</ul>
-</div>
-</p>
+Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. The HBCD Study demographics survey is designed to gather comprehensive information on socioeconomic status and various demographic factors. Its primary purpose is to capture data on race, ethnicity, nativity, income, education, and occupation, as well as gender identity, sexual orientation, relationship status, primary residence, and household composition of the parent carrying the child, and some basic information on the other biological parent. Please see [Cioffredi et al. 2024](https://doi.org/10.1016/j.dcn.2024.101429) for a detailed description of the HBCD Demographics survey.
+
+**Implementation & Data Collection Details**    
+The HBCD Demographic survey is administered by a research assistant in-person and takes approximately 10 minutes to complete. The current release includes survey information acquired during Visit 1 and will be repeated during Visit 4 for both the primary caregiver and the child. 
 
 ## HBCD Modifications
-Below are alterations made to demographic constructs, informed by a DEI (diversity, equity, and inclusion) lens, to capture a more inclusive and accurate breadth of demographic information:
+Below are alterations made to demographic constructs, informed by the HBCD Social and Environmental Determinants workgroup and Diversity, Equity, and Inclusion (DEI) Committee. The modifications wre made to reduce bias and capture a more inclusive and accurate breadth of demographic information, e.g. by correcting for embedded assumptions of heteronormative nuclear-family structures. 
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
