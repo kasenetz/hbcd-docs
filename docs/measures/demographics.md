@@ -25,9 +25,9 @@ Below are alterations made to demographic constructs, informed by the HBCD Socia
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
     <span class="text">DEI Alterations/Modifications</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="collapsible-content">
     <ul>
       <li><b>Marital & Relationship Status</b> alterations to reduce heteronormative bias:
         <ul>
@@ -61,9 +61,9 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
     <span class="text">Table 1. Demographics of Birth Parent</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="collapsible-content">
 <p>
 <table class="docutils">
     <thead>
@@ -187,9 +187,9 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
     <span class="text">Table 2. Demographics of Other Biological Parent</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="collapsible-content">
 <p>
 <table class="docutils">
 <thead>
