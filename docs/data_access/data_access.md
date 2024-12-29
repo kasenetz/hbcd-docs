@@ -5,9 +5,9 @@
     <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
     <span class="text">NOTIFICATION: Potential Data Access Issues</span>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="collapsible-content">
 <br>
 <p>Users may encounter issues with their DUC applications or renewals due to the Biden administration's expansion of Executive Order 13873 of May 15, 2019 (Securing the Information and Communications Technology and Services Supply Chain) and Executive Order 14034 of June 9, 2021 (Protecting Americans’ Sensitive Data from Foreign Adversaries) that, among other things, prohibits the sharing of Americans’ bulk personal data, including genomic data, in certain cases. The ABCD Study has reported issues for users from countries identified in the Executive Order (see <a href="https://wiki.abcdstudy.org/">ABCD Wiki 11.6.2024: Data Access Issues</a>) and it will likely impact HBCD as well.</p> 
 

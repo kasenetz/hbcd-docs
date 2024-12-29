@@ -45,6 +45,23 @@
 .collapsible-content.open {
   max-height: none;
 }
+.collapsible-content ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+.collapsible-content li {
+  margin-bottom: 0.3rem;
+}
+.collapsible-content ul ul {
+  margin-top: 0.5rem;
+}
+.collapsible-content ul ul li {
+  margin-bottom: 0.3rem;
+}
+.collapsible-content li b {
+  color: #0077cc;
+}
 
 /* arrow */
 .arrow {
