@@ -11,7 +11,7 @@
 </div>
 <div class="collapsible-content">
 <br>
-<p>Please see instructions for data access in the <a href="../data_access/data_access">How To Access Data</a></p>
+<p>Please see instructions for data access in the <a href="../data_access">How To Access Data</a></p>
 </div>
 </p>
 
@@ -26,7 +26,7 @@
 <div class="collapsible-content">
 <br>
 <p>HBCD data are openly available to qualified researchers who have a legitimate research purpose and are affiliated with an institution that holds an active <a href="https://ohrp.cit.nih.gov/search/fwasearch.aspx?styp=bsc">Federal Wide Assurance</a>, a designation held by numerous institutions worldwide.</p>
-<p>Please also see this important <a href="../data_access/data_access/#notification-banner">notification about Executive Order 13873</a> that may cause data access issues for users within certain countries.</p>
+<p>Please also see this important <a href="../data_access/#notification-banner">notification about Executive Order 13873</a> that may cause data access issues for users within certain countries.</p>
 </div>
 </p>
 

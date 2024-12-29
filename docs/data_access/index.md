@@ -65,13 +65,13 @@ This section of the DUC process asks you to agree to electronically signing the 
 
 <ol>
     <p>
-    <li>First select the Electronic records and signature agreement checkbox, which will enable the <b>CONTINUE</b> button - click this<br><img src="../images/submit_step1.png" alt="submit step 1"></li>
+    <li>First select the Electronic records and signature agreement checkbox, which will enable the <b>CONTINUE</b> button - click this<br><img src="images/submit_step1.png" alt="submit step 1"></li>
     </p>
     <p>
-    <li>You will now see the form that requires your signature. Read through the contract and select <b>START</b> once you are ready to apply your electronic signature:<br><img src="../images/esign_start.png" alt="Esign Start"></li>
+    <li>You will now see the form that requires your signature. Read through the contract and select <b>START</b> once you are ready to apply your electronic signature:<br><img src="images/esign_start.png" alt="Esign Start"></li>
     </p>
     <p>
-    <li>Input your full name and initials in the fields of the following <i>Adopt Your Signature</i> dialogue box that appears:<br><img src="../images/adopt_your_sig.png" alt="Adopt Your Signature"></li>
+    <li>Input your full name and initials in the fields of the following <i>Adopt Your Signature</i> dialogue box that appears:<br><img src="images/adopt_your_sig.png" alt="Adopt Your Signature"></li>
     </p>
     <p>
     <li>Select <b>ADOPT AND SIGN</b> to apply the signature to the document signature page.</li>
