@@ -87,9 +87,9 @@ For HBCD, BrainSwipes is currently used for QA of images derived from visual rep
   <span>
     <span class="text">BrainSwipes QC Procedures</span>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="collapsible-content">
 <p>
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Surface Delineation:</b></p>
 For structural QA, swipers are presented with image slices in coronal, axial, and sagittal planes to assess the accuracy of T1w and T2w surface delineations in differentiating gray and white matter. Images are derived from XCP-D visual reports.

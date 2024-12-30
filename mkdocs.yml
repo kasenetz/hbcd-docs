@@ -36,7 +36,7 @@ docs_dir: docs
 nav: 
   - ABOUT: index.md
   - Access Data:
-    - How To Access Data: data_access/data_access.md
+    - How To Access Data: data_access/index.md
     - Go To NBDC Portal: data_access/nbdcquicklink.html
     - Responsible Data Use: data_access/resp_data_use.md
     - Data Dictionary Explorer: data_access/datadictionary.md
