@@ -41,4 +41,3 @@ As mentioned in the measure description, in addition to the overall *Surgency, N
     <p>Rothbart, M. K. (1981). Measurement of temperament in infancy. <i>Child Development</i>, 52(2), 569–578. <a href="https://doi.org/10.1111/j.1467-8624.1981.tb03082.x" target="_blank">https://doi.org/10.1111/j.1467-8624.1981.tb03082.x</a></p>  
   </ul>  
 </details>
-<br>

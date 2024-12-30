@@ -178,3 +178,41 @@
 .notification-collapsible-content li b {
   color: #0077cc;
 }
+
+
+/* References Banner */
+.references-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 20px;
+  border-radius: 5px;
+  font-family: Lato; 
+  color: #505050;
+  cursor: pointer; 
+}
+.references-collapsible-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  border-top: none;
+  padding: 0 20px;
+  border-radius: 0 0 5px 5px;
+}
+.references-collapsible-content.open {
+  max-height: none;
+}
+.references-text {
+  font-size: 1.5rem; 
+  font-weight: bold; 
+}
+.references-arrow {
+  font-size: 1.8rem;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  transform-origin: center;
+  color: #505050;
+}
+.references-arrow.rotate {
+  transform: rotate(90deg);
+}

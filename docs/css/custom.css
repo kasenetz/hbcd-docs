@@ -10,7 +10,7 @@
 
 /* References section collapsible styling */
 summary.references {
-  font-size: 1.4em;
+  font-size: 1.3rem;
   margin-top: 1px;
   margin-bottom: 1px;
   font-weight: normal;
@@ -28,15 +28,17 @@ summary.references::-webkit-details-marker {
 }
 /* References section collapsible styling */
 details.references, .collapsible.references {
+  font-size: 0.2rem;
   padding: 10px;
   margin: 10px 1 10px;
   border-radius: 5px;
   list-style: none; /* help ensure arrow doesn't appear */
+  padding-bottom: 50px; 
 }
 /* Arrow positioning to the right */
 summary.references::after {
   content: '▸';
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   position: absolute;
   right: 20px; /* Push the arrow to the far right */
   transform: rotate(0deg);
