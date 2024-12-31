@@ -128,43 +128,20 @@ For future publications, authors should note that this measure is a combination 
 
 
 ### APA 1/2
-This highly sensitive screening tool is designed for community samples and combines two measures: the [DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure—Adult](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf) and the DSM-5 Level 2 Cross-Cutting Symptom Measures. Level 1 includes 1-2 questions for each of thirteen mental health conditions. If symptoms are reported in Level 1, the participant answers additional questions about related symptoms, such as anger, anxiety, depression, somatic symptoms, and sleep problems as noted below: 
+This highly sensitive screening tool adapted for HBCD is designed for community samples and combines two measures: the [DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure—Adult](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf) and the DSM-5 Level 2 Cross-Cutting Symptom Measures (Table 1):
 
 ![](images/DSM-5Level2Cross-CuttingSymptomMeasures.png)
 
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Additional Level Scale/Scoring Details and Resources</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-    <ul>
-    <li><a href="https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf">Level 1 scoring</a></li>
-    <li><a href="https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://www.phenxtoolkit.org/toolkit_content/supplemental_info/psychiatric/measures/07_Depressed_Mood.doc&amp;ved=2ahUKEwjyl8-7t_-IAxW7H0QIHcyBJTEQFnoECC8QAQ&amp;usg=AOvVaw1dPWhSyXkbVCQ3BgmjwAtC">Promis 8a Level 2 depression: The PROMIS Short Form v1.0 - Depression 8a</a> questionnaire includes 8 questions related to depressed mood in the past 7 days. Each question is rated on a five-point scale from 1=Never to 5=Always.  </li>
-    <li><a href="https://heal.nih.gov/files/CDEs/2024-07/promis-sleep-disturbance-8a-crf.pdf">Promis 8a Level 2 Sleep Disturbance: The PROMIS Short Form v1.0-Sleep Disturbance 8a</a> questionnaire includes 8 questions related to sleep in the past 7 days. Each question is based on a five-point scale with the first question being from 1=Very Poor to 5=Very Good and the following seven questions on a five point scale from 1=Not at all and 5=Very Much with a few of the items reverse scored. See information on scoring <a href="https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Sleep_Scoring_Manual.pdf">here</a></li>
-    <li><a href="https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures">All other Level 2 measures (except depression and sleep)</a></li>
-    <li>The <a href="https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf">Personality Inventory for DSM-5 Brief</a> assesses 5 personality trait domains including negative affect, detachment, antagonism, disinhibition, and psychoticism, with each trait domain consisting of 5 items.</li>
-    </ul>
-</div>
-</p>
+APA Level 1 includes one to two questions for each of thirteen mental health conditions. If symptoms are reported in Level 1, participants answer questions about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems (see Level 1 scoring procedures [here](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf)). Level 2 measures include the [PROMIS Short Form v1.0 - Depression 8a questionnaire](https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://www.phenxtoolkit.org/toolkit_content/supplemental_info/psychiatric/measures/07_Depressed_Mood.doc&amp;ved=2ahUKEwjyl8-7t_-IAxW7H0QIHcyBJTEQFnoECC8QAQ&amp;usg=AOvVaw1dPWhSyXkbVCQ3BgmjwAtC) and [PROMIS Short Form v1.0-Sleep Disturbance 8a](https://heal.nih.gov/files/CDEs/2024-07/promis-sleep-disturbance-8a-crf.pdf) used for Depression and Sleep Disturbance, respectively. The Sleep Disturbance measure includes 8 questions related to sleep in the past 7 days and the scoring procedures are outlined [here](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Sleep_Scoring_Manual.pdf). All other Level 2 measures are described [here](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures). The [Personality Inventory for DSM-5 Brief](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf) was also utilized; it assesses 5 personality trait domains including negative affect, detachment, antagonism, disinhibition, and psychoticism, with each trait domain consisting of 5 items.
 
-**HBCD Modifications**      
-Modifications were made to combine two measures and adapt them for the study population. Level 1 questions on personality functioning and substance use were removed (as these are covered by other measures), allowing automatic progression to Level 2—Repetitive Thoughts and Behaviors—Adult (adapted from the Florida Obsessive-Compulsive Inventory [FOCI] Severity Scale [Part B]). All participants answer Level 1 questions on depression but proceed to Level 2 questions regardless of responses. Gates for 'Somatic Symptoms' were removed to go directly to Level 2—Somatic Symptom—Adult (Patient Health Questionnaire 15 [PHQ-15]).
+Slight modifications were made due to the use of other measures and the study population. Specifically, Level 1 Questions related to personality functioning and substance use were excluded, as these are addressed by other measures. This allows automatic progression to LEVEL 2-Repetitive Thoughts and Behaviors—Adult (see **Table 1**). Similarly, gates for 'Somatic Symptoms' were removed, enabling direct progression to LEVEL 2—Somatic Symptom—Adult. Future publications should acknowledge the removal of Level 1-2 substance use (section XIII) and the gating mechanisms for sections V (somatic symptoms) and XII (personality functioning).
 
-Study staff are alerted if responses to the APA suicide question ('Thoughts of actually hurting yourself?') or APA depression question (ranging from 'I felt worthless' to 'I felt that nothing could cheer me up') exceed thresholds of 0 and 32, respectively.
-
-Additionally, a 'refuse to answer' option was added to all questions, which does not affect scoring as skipped questions are ignored. Future publications should note the removal of Level 1-2 substance use (section XIII) and gates for sections V (somatic) and XII (personality).
-
+This instrument was also modified for HBCD to alert study staff if responses to the APA suicide question ('Thoughts of actually hurting yourself?') or APA depression question (ranging from 'I felt worthless' to 'I felt that nothing could cheer me up') exceed thresholds of 0 and 32, respectively. Additionally, a 'refuse to answer' option was added to all questions (note that this does not affect scoring as skipped questions are ignored). 
 
 ### DSM5 PTSD/Acute Stress Short Scale
 This measure was created to capture maternal PTSD and acute stress symptoms. The Severity of Posttraumatic/Acute Stress Symptoms is a measure that assesses the severity of symptoms of post-traumatic stress disorder and acute stress disorder in individuals ages 18 and older following an extremely stressful event or experience. It combines items 1-9 from the National Stressful Events Survey PTSD Short Scale ([NSESSS-PTSD](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf) and Item 3 from the National Stressful Events Survey Acute Stress Disorder Short Scale ([NSESSS-Acute Stress Disorder](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Acute-Stress-Symptoms-Adult.pdf)) into a single assessment for the HBCD study. The only additional modification was that we added ‘refuse to answer’, but not ‘don’t know,’ to the response options. In future publications, authors should note that this measure is a combination of NSESSS-PTSD and NSESSS-Acute Stress Disorder.
 
-Note that scores on these scales do not differentiate between symptoms of PTSD versus Acute Stress Disorder, but rather assess for trauma-related stress symptoms. As such, researchers should review the individual items to determine which scale best meets their interest. Total raw scores for each scale are computed as follows:
-
-- Total Raw Score Acute Stress: sum of scores from questions 1, 2, 3, 7, 8, 9, and 10
-- Total Raw Score PTSD: sum of scores from questions 1, 2, 3, 4, 5, 6, 7, 8, and 9
-
-
+Note that scores on these scales do not differentiate between symptoms of PTSD versus Acute Stress Disorder, but rather assess for trauma-related stress symptoms. As such, researchers should review the individual items to determine which scale best meets their interest. Total raw scores are computed as the sum of scores from questions 1-3 & 7-10 for Acute Stress, and sum of scores from questions 1-9 for PTSD.
 
 ### EPDS
 <ul>
@@ -172,6 +149,7 @@ The Edinburgh Postnatal Depression Scale (<a href="https://downloads.aap.org/AAP
     <li>EPDS suicide ('The thought of harming myself has occurred to me'), score greater than 1</li>
     <li>EPDS depression, overall score greater than 11</li>
 </ul>
+
 
 <details class="collapsible references">
   <summary class="references">References</summary>
