@@ -72,14 +72,7 @@ nav:
             - "Pregnancy & Infant Health": measures/pregexp/preghealth.md
             - Substance Use: measures/pregexp/substanceuse.md
             - Mental Health: measures/pregexp/mentalhealth.md
-        - "Social & Environmental Determinants":
-            - Overview: measures/socenv_determinants/index.md
-            - Baby's First Years: measures/socenv_determinants/bfy.md
-            - Discrimination: measures/socenv_determinants/discrimination.md 
-            - Intimate Partner Violence: measures/socenv_determinants/eHITS.md               
-            - Neighborhood Safety: measures/socenv_determinants/neighborhood_safety.md  
-            - PACES: measures/socenv_determinants/PACES.md            
-            - PROMIS: measures/socenv_determinants/PROMIS.md
+        - "Social & Environmental Determinants": measures/socenvdet.md
     - MRI Protocols: mriprotocols/mriprotocols.md
     - HBCD BIDS Data:
         - Overview: datacuration/overview.md
