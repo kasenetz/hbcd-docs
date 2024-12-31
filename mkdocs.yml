@@ -73,14 +73,9 @@ nav:
         - "Novel Technologies & Wearable Sensors": measures/sensors.md                     
         - Physical Health: measures/physicalhealth.md
         - "Pregnancy & Exposure": 
-            - Overview: measures/pregexp/index.md
-            - "Personal & Family Psychiatric History": measures/pregexp/psych_history.md
-            - Pregnancy Health: measures/pregexp/preghealth_all.md
-            - Infant Health: measures/pregexp/infanthealth.md
-            - Substance Use: measures/pregexp/substanceuse_all.md
+            - "Pregnancy & Infant Health": measures/pregexp/preghealth.md
+            - Substance Use: measures/pregexp/substanceuse.md
             - Mental Health: measures/pregexp/mentalhealth.md
-            - Acute Stress or PTSD: measures/pregexp/NSESSS.md
-            - Postnatal Depression: measures/pregexp/EPDS.md
         - "Social & Environmental Determinants":
             - Overview: measures/socenv_determinants/index.md
             - Baby's First Years: measures/socenv_determinants/bfy.md

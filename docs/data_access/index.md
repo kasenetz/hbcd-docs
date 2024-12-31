@@ -16,12 +16,11 @@
 </p>
 
 ## Overview
-HBCD data is publicly shared with all researchers associated with an NIH-recognized research institution via the individual or investigator-led group NBDC Data Use Agreement/Certification (DUC) process, which governs data use for both the ABCD and HBCD studies. The DUC outlines rules that must be followed for data use and is signed electronically by both the submitter and the Institutional Signing Officer at their institution. Public access to release data is conducted through the [NIH Brain Development Cohort (NBDC) portal supported by Lasso](https://nbdc-hbcd-beta.lassoinformatics.com), enabling seamless data queries, downloads, and sharing. 
+HBCD data is publicly shared with all researchers associated with an NIH-recognized research institution via the individual or investigator-led group NBDC Data Use Agreement/Certification (DUC) process, which governs data use for both the ABCD and HBCD studies. The DUC outlines rules that must be followed for data use and is signed electronically by both the submitter and the Institutional Signing Officer at their institution. 
 
-**NOTE:** Recipients who intend to disseminate findings from analyses of American Indian/Alaska Native (AI/AN) data separated out from other groups in
-presentations, pre-prints, publications, website posts, etc. must submit a second DUC governing use of AI/AN data (A-DUC) after obtaining approval on the general DUC. 
+DUC approval is handled by the NIH Brain Development Cohort (NBDC) Data Access Committee (DAC), consisting of federal staff from NIH with expertise in science, policy, or bioinformatics resources. DUCs are approved based on satisfaction of basic pre-requisites and whether the data access request is reasonable and aligns with the terms of the DUC. Note that the quality of the science for which the data is intended to be used is not reviewed.
 
-The steps involved for DUC submission are outlined below.
+DUC submission and data access are both conducted through the [NBDC portal supported by Lasso](https://nbdc-hbcd-beta.lassoinformatics.com). This platform enables seamless data queries, downloads, and sharing. The steps for signing onto this platform and submitting a DUC are outlined below.
 
 ## DUC Submission: Before You Begin
 Before you begin the DUC process, please do the following:
@@ -36,7 +35,9 @@ Before you begin the DUC process, please do the following:
 
 **Decide whether to submit an individual or group-level DUC**. Users may submit either an **individual** or **group-level** DUC. You may submit a DUC either as an individual recipient or submit a group-level DUC as a lead PI with others from your institution listed on the same DUC (recommended). For group-level DUCs, the lead PI must ensure that all listed recipients on the DUC comply with its terms and conditions. *Note: Recipients may only be listed on one DUC.*
 
-## DUC Submission Instructions & Workflow
+**Check whether you will need to submit second DUC.** Recipients who intend to disseminate findings from analyses of American Indian/Alaska Native (AI/AN) data separated out from other groups in presentations, pre-prints, publications, website posts, etc. must submit a second DUC governing use of AI/AN data (A-DUC) after obtaining approval on the general DUC. 
+
+## DUC Submission Instructions
 ### Fill Out DUC Forms
 Once you have an account and have logged into the Lasso Informatics platform, please follow these steps to request access to the data.
 
@@ -79,13 +80,18 @@ This section of the DUC process asks you to agree to electronically signing the 
     <p>
     <li>Select <b>FINISH</b> in the upper right-hand corner of the page to submit the signed document.</li>
     </p>
-    <p>
-    <li>Wait for the Signing Official to review and sign the DocuSign document.</li>
-    </p>
 </ol>
 
-### Instructions for Signing Officials
-The Signing Official will receive an email from DocuSign asking that they review and sign the DocuSign document. The Signing Official must sign the document for the DUC process to continue as follows: 
+### Review by NBDC DAC
+After submitting the DUC, DocuSign automatically notifies the Signing Official at your institution to add their signature, after which it is routed to the NBDC DAC for final review. You will recieve an email notification once approved and be prompted to undergo additional mandatory training on responsible data use after signing into the platform. Once this training is complete, you will have access to the requested data. **Access is valid for one year. To maintain access, recipients must submit a renewal request before the DUC expires.**
+
+![](images/decline_banner.png)
+
+![](images/new_request.png)
+
+
+## Instructions for Signing Officials
+The submitted DUC is required to be signed by a Signing Official in order to be routed to the DAC for final review. Signing Officials receive an automated email from DocuSign asking for their review and signature each time a new DUC is submitted. If you are a Signing Official, please follow the steps below to complete the DUC:
 
 <ol>
     <li>Open the email received from Lasso Informatics via DocuSign.</li>
@@ -96,17 +102,6 @@ The Signing Official will receive an email from DocuSign asking that they review
     <li>Review the document.</li>    
     <li>Sign the document to approve or, if you choose to decline to sign, select <b>Decline to Sign</b> from <b>OTHER ACTIONS</b> drop-down list in the upper right-hand corner of page.</li> 
     <li>Select <b>FINISH</b>.</li>     
-    <li>Wait for the DUC committee (NIDA) to approve the request.</li> 
+    <li>Wait for the NBDC Data Access Committee to approve the request.</li> 
 </ol>
-
-
-![](images/decline_banner.png)
-
-![](images/new_request.png)
-
-### Review
-This is the step where the NBDC Data Access Committee (DAC) reviews your request. The DAC consists of federal staff from NIH with expertise in science, policy, or bioinformatics resources. DUCs are approved based on satisfaction of basic pre-requisites and whether the data access request is reasonable and aligns with the terms of the DUC. The quality of the science for which the data is intended to be used is not reviewed.
-
-When your request is approved, you will receive an email notifying you of the approval. After signing in to the platform, you will have access to the requested data. If your DUC request is denied, your access to the platform will be limited, but you will be allowed to submit a new DUC request. Access is valid for one year. To maintain access, recipients must submit a renewal request before the DUC expires.
-
-Please note: For beta testing, users do not have to undergo any additional training. But for the public release, each user needs to go through a mandatory training on responsible data use before accessing the data.  
+<br>

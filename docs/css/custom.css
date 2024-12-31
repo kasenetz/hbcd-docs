@@ -28,7 +28,6 @@ summary.references::-webkit-details-marker {
 }
 /* References section collapsible styling */
 details.references, .collapsible.references {
-  font-size: 0.2rem;
   padding: 10px;
   margin: 10px 1 10px;
   border-radius: 5px;

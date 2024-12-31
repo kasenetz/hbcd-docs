@@ -17,7 +17,13 @@ The visits and corresponding ages of the infant/child are listed below. **Only d
 <li><a href="neurocog">Neurocognition & Language</a> </li>
 <li><a href="sensors">Novel Technologies & Wearable Sensors</a></li>
 <li><a href="physicalhealth">Physical Health</a></li>
-<li><a href="pregexp">Pregnancy & Exposure, Including Substance Use</a></li>
+<li>Pregnancy & Exposure, Including Substance Use
+<ul>
+    <li><a href="pregexp/preghealth">Pregnancy & Infant Health</a></li>
+    <li><a href="pregexp/substanceuse">Substance Use</a></li>
+    <li><a href="pregexp/mentalhealth">Mental Health</a></li>    
+</ul>
+</li>
 <li><a href="socenv_determinants">Social & Environmental Determinants</a></li>
 </ul>
 </p>
