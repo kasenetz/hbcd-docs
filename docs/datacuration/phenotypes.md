@@ -36,7 +36,7 @@ root/
 <li>Mother demographics: race, ethnicity, education, language at home</li>
 <li>Substance Use (SU) flags raised by any of the following (to see the detail per visit, consult the Visit Data section):
     <ul>
-    <li>Self-reported use (<a href="../../measures/pregexp/substanceuse_all/#tlfb">TLFB</a>)</li>
+    <li>Self-reported use (<a href="../../measures/pregexp/substanceuse/#tlfb">TLFB</a>)</li>
     <li>Biospecimen results</li>
     <li>Health-V2 instrument <em>pex_bm_healthv2_inf</em> (field “007”) if option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) was selected</li>
     </ul>
@@ -51,9 +51,9 @@ root/
 <li>Withdrawal (if the participant withdrew from the study, the reason, and date) and Protocol violation (if there was a protocol exception and the date) information</li>
 <li>Substance Use (SU) flags from three locations:
     <ul>
-    <li>Self-reported use (<a href="../../measures/pregexp/substanceuse_all/#tlfb">TLFB</a>)</li>
-    <li><a href="../../measures/pregexp/infanthealth">Health-V2</a></li>
-    <li><a href="../../measures/biospecimens/urine">Biosample Urine</a></li>
+    <li>Self-reported use (<a href="../../measures/pregexp/substanceuse/#tlfb">TLFB</a>)</li>
+    <li><a href="../../measures/pregexp/preghealth/#instrument-details">Health-V2</a></li>
+    <li><a href="../../measures/biospec/#urine">Biosample Urine</a></li>
     </ul>
 </li>
 </ul>

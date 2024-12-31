@@ -141,7 +141,7 @@ eeg/
 
 <ul>
 The accompanying <code>sourcedata/</code> files include:
-<li>Information about quality control flags and acquisition (<code>*_flags.json</code>- see QC details <a href="../../measures/eeg/index#quality-control-known-issues">here</a>)</li>
+<li>Information about quality control flags and acquisition (<code>*_flags.json</code>- see QC details <a href="../../measures/eeg/#quality-control-known-issues">here</a>)</li>
 <li>Impedance values used to ensure good electrode contact (<code>*_impedence.json</code>)</li>
 <li>Task stimuli presentations (<code>*_eventlogs.txt</code>)</li>
 </ul>

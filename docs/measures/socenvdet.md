@@ -206,6 +206,7 @@ The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/
 </table>
 <i>**Added based on participant feedback/comments</i>
 <br>
+<br>
 
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Scoring Changes</b></p>
 <p>For the *Everyday Discrimination Scale* and *Major Experiences of Discrimination*, the Follow-up Question ("What do you think is the main reason for these experiences?") was asked once after both were complete to capture the main reasons for any items marked “a few times a year” (*Everyday Discrimination Scale*) or “yes” (*Major Experiences of Discrimination*). The original logic asked this question at the end of each individual scale.</p>
@@ -286,7 +287,7 @@ The eHITS is a self-administered 5 question Likert scale screener for experience
 	<tr>
 		<td>1 - Never<br /> 2 - Rarely<br /> 3 - Sometimes<br /> 4 -Fairly often<br /> 5 - Frequently</td>
 		<td>1 - Never<br /> 2 - Rarely<br /> 3 - Sometimes<br /> 4 - Fairly often<br /> 5 - Frequently</td>
-		<td>0 - Never<br /> 1 - Rarely<br /> 2 - Seldom<br /> 3 - Very often<br /> 4 - Frequently<br /> Not applicable, Don't know, or Decline to answer </td>
+		<td>0 - Never<br /> 1 - Rarely<br /> 2 - Seldom<br /> 3 - Very often<br /> 4 - Frequently<br /> NA, Don't know, or Decline to answer </td>
 	</tr>
 </tbody>
 </table>
