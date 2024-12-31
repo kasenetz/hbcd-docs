@@ -27,6 +27,8 @@ Autism-specific
 <p>We recommend following these recommendations for the responsible use and communication of race and <a href="https://www.nature.com/articles/s41593-024-01608-4">ethnicity</a>.</p>
 </div>
 
+
+## Instruments
 The current data release for Pregnancy & Exposure, Including Substance Use, includes the following instruments related to mental health:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
@@ -40,7 +42,7 @@ The current data release for Pregnancy & Exposure, Including Substance Use, incl
   </thead>
 <tbody>
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#personal--family-psychiatric-history">Personal and family psychiatric history</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#personal-family-psychiatric-history">Personal and family psychiatric history</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">FAM MH</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Personal and family mental health</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_psych</td>
@@ -116,7 +118,8 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
 ## Quality Control & Known Issues
 For all mental health instruments, response distributions were reviewed for outliers and no common issues were identified. No potential issues were flagged by subject matter experts.
 
-## Personal & Family Psychiatric History 
+## Instrument Details
+### Personal & Family Psychiatric History 
 This measure assesses self-reported diagnoses and mental health conditions of the biologic mother, father, maternal parents and paternal parents. It was created from combining and modifying the [Family History Assessment Module (FHAM)](https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/) and the [All of Us Personal and Family Health History](https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf). 
 
 From FHAM, only alcohol-schizophrenia were selected; items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder were not included. Additionally, ‘trouble with law’ and ‘nervous breakdown’ were excluded. Response options (originally including 'parents', 'grandparents', 'siblings', 'aunts', 'uncles', and 'cousins') were modified to include only biological mom, dad and grandparents. From All of Us, we were only interested in a few mental health outcomes (AUD, anxiety, ASD, BPD, depression, SUD, schizophrenia and ADHD) and were not interested in age of diagnosis or medications to treat. Response options (originally 'mom', 'dad', 'sibling', 'daughter', 'son', and 'grandparent') were modified to include only biological mom and dad.
@@ -124,8 +127,7 @@ From FHAM, only alcohol-schizophrenia were selected; items for Antisocial Person
 For future publications, authors should note that this measure is a combination of FHAM and All of Us. Also note that it is not a scored scale, but simply descriptive for family history.
 
 
-
-## APA 1/2
+### APA 1/2
 This highly sensitive screening tool is designed for community samples and combines two measures: the [DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure—Adult](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf) and the DSM-5 Level 2 Cross-Cutting Symptom Measures. Level 1 includes 1-2 questions for each of thirteen mental health conditions. If symptoms are reported in Level 1, the participant answers additional questions about related symptoms, such as anger, anxiety, depression, somatic symptoms, and sleep problems as noted below: 
 
 ![](images/DSM-5Level2Cross-CuttingSymptomMeasures.png)
@@ -154,7 +156,7 @@ Study staff are alerted if responses to the APA suicide question ('Thoughts of a
 Additionally, a 'refuse to answer' option was added to all questions, which does not affect scoring as skipped questions are ignored. Future publications should note the removal of Level 1-2 substance use (section XIII) and gates for sections V (somatic) and XII (personality).
 
 
-## DSM5 PTSD/Acute Stress Short Scale
+### DSM5 PTSD/Acute Stress Short Scale
 This measure was created to capture maternal PTSD and acute stress symptoms. The Severity of Posttraumatic/Acute Stress Symptoms is a measure that assesses the severity of symptoms of post-traumatic stress disorder and acute stress disorder in individuals ages 18 and older following an extremely stressful event or experience. It combines items 1-9 from the National Stressful Events Survey PTSD Short Scale ([NSESSS-PTSD](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf) and Item 3 from the National Stressful Events Survey Acute Stress Disorder Short Scale ([NSESSS-Acute Stress Disorder](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Acute-Stress-Symptoms-Adult.pdf)) into a single assessment for the HBCD study. The only additional modification was that we added ‘refuse to answer’, but not ‘don’t know,’ to the response options. In future publications, authors should note that this measure is a combination of NSESSS-PTSD and NSESSS-Acute Stress Disorder.
 
 Note that scores on these scales do not differentiate between symptoms of PTSD versus Acute Stress Disorder, but rather assess for trauma-related stress symptoms. As such, researchers should review the individual items to determine which scale best meets their interest. Total raw scores for each scale are computed as follows:
@@ -164,7 +166,7 @@ Note that scores on these scales do not differentiate between symptoms of PTSD v
 
 
 
-## EPDS
+### EPDS
 <ul>
 The Edinburgh Postnatal Depression Scale (<a href="https://downloads.aap.org/AAP/PDF/Postnatal%20Depression%20Scale.pdf">EPDS</a>), a sensitive, 10-item screening tool for prenatal and postpartum depression symptoms, was selected to capture symptoms of maternal depression due to its ease of administration and widely accepted use. The EPDS scoring procedure is described <a href="https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS_text_added.pdf">here</a>. For HBCD, the option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped). The following scores on the EPDS triggered a clinical alert for study staff:
     <li>EPDS suicide ('The thought of harming myself has occurred to me'), score greater than 1</li>
