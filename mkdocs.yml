@@ -47,11 +47,7 @@ nav:
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
         - "Behavior & Caregiver-Child Interaction": measures/behCGinteraction.md   
-        - Biospecimens: 
-            - Overview: measures/biospecimens/index.md        
-            - Blood: measures/biospecimens/blood.md
-            - Nails: measures/biospecimens/nails.md 
-            - Urine: measures/biospecimens/urine.md    
+        - Biospecimens: measures/biospec.md   
         - Demographics: measures/demographics.md
         - Electroencephalogram: measures/eeg/index.md
         - Magnetic Resonance Imaging:

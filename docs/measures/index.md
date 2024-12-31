@@ -10,7 +10,7 @@ The visits and corresponding ages of the infant/child are listed below. **Only d
 <p style="text-align: center; font-size: 1.6em">HBCD Workgroups & Data Measures</p>
 <ul>
 <li><a href="behCGinteraction">Behavior & Caregiver-Child Interaction</a></li>
-<li><a href="biospecimens">Biospecimens & Omics</a></li>
+<li><a href="biospec">Biospecimens & Omics</a></li>
 <li><a href="demographics">Demographics</a></li>
 <li><a href="eeg">Electroencephalogram (EEG) </a></li>
 <li><a href="mri">Magnetic Resonance Imaging (MRI)</a></li>
