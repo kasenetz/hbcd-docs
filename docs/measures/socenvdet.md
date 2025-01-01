@@ -207,12 +207,10 @@ The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/
 <i>**Added based on participant feedback/comments</i>
 <br>
 <br>
-
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Scoring Changes</b></p>
 <p>For the *Everyday Discrimination Scale* and *Major Experiences of Discrimination*, the Follow-up Question ("What do you think is the main reason for these experiences?") was asked once after both were complete to capture the main reasons for any items marked “a few times a year” (*Everyday Discrimination Scale*) or “yes” (*Major Experiences of Discrimination*). The original logic asked this question at the end of each individual scale.</p>
 </div>
 </p>
-
 
 ### eHITS    
 The eHITS is a self-administered 5 question Likert scale screener for experiences of psychological aggression, physical assault, sexual coercion, and injury. Originally created for quick administration in a health care setting or emergency department, the eHITS asks individuals to indicate whether their partner has done any of the following over the past 12 months: "physically hurt you", "insulted you", "threatened to harm you", "screamed or cursed at you", or "forced you to have sexual activities."
@@ -344,10 +342,11 @@ The following language was updated for this assessment item:
 </p>
 
 ### Perceived Stress/Social Support
-The Perceived Stress and Social support tools measure perceived stress and perceptions of emotional support by one’s social network in the caregivers in this study longitudinally. These measures of perceived stress and social support are a combination of the PROMIS emotional support 4a questionnaire and the Perceived Stress Scale – 4 (PSS-4). The first 4 questions are the PROMIS emotional support 4a questionnaire which measures the quality of the emotional support to which the participant has access. The last 4 questions (PSS-4) represent the shortened version of the PSS-14. This questionnaire measures perceived general stress in the past month. It has been used in many populations world wide including pregnant individuals and young families.      
+The Perceived Stress and Social Support tools assess caregivers’ perceived stress and emotional support within their social networks longitudinally. These tools combine the PROMIS Emotional Support 4a questionnaire and the Perceived Stress Scale-4 (PSS-4).
 
-In the original measure, all items had to be completed to allow for scoring via the tables provided in the manual. For HBCD, with the addition of response options “Don’t know” and “Decline to answer,” this was updated so that items with “don’t know” answers will not have a total score reported. For the PROMIS emotional support, complete data is necessary to use scoring tables provided in the manual. If scoring will utilize the PROMIS HealthMeasures Scoring Service, total scores can include missing data (this can be done by individual investigators). Complete data is always necessary to calculate a score PSS-4, therefore should not be reported for participants who answer any questions “don’t know.”
+The PROMIS Emotional Support 4a questionnaire (first 4 questions) evaluates the quality of emotional support available to the participant, while the PSS-4 (last 4 questions) measures general perceived stress over the past month. The PSS-4 is a shortened version of the PSS-14, which has been widely used across diverse populations, including pregnant individuals and young families.
 
+Note that the HBCD measures include the addition of response options “Don’t know” and “Decline to answer.” The original measure requires that all items are completed to allow for scoring via the tables provided in the manual, so items with “don’t know” answers will not have a total score reported. If scoring will utilize the PROMIS HealthMeasures Scoring Service, total scores can include missing data (this can be done by individual investigators). For the PSS-4, complete data is essential, and scores should not be reported if any question is answered as “Don’t know.”
 
 <details class="collapsible references">
   <summary class="references">References</summary>
