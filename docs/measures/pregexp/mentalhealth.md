@@ -115,7 +115,6 @@ For all mental health instruments, response distributions were reviewed for outl
 ## Instrument Details
 ### Personal & Family Psychiatric History 
 The HBCD FAM MH assesses self-reported diagnoses and mental health conditions of the biologic mother, father, maternal parents and paternal parents. It was created from combining and modifying the [Family History Assessment Module (FHAM)](https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/) and the [All of Us Personal and Family Health History](https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf). The HBCD FAM MH includes (1) FHAM items Alcohol-Schizophrenia and (2) All of Us mental health outcomes for AUD, anxiety, ASD, BPD, depression, SUD, schizophrenia and ADHD (excluding age of diagnosis or medications to treat). Future publications should note that this measure is a combination of these and that this is not a scored scale, but simply descriptive for family history.
-
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
@@ -142,30 +141,47 @@ The HBCD FAM MH assesses self-reported diagnoses and mental health conditions of
 </div>
 </p>
 
-
 ### APA 1/2
-This highly sensitive screening tool adapted for HBCD is designed for community samples and combines two measures: the [DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure—Adult](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf) and the DSM-5 Level 2 Cross-Cutting Symptom Measures (Table 1):
+This highly sensitive screening tool adapted for HBCD is designed for community samples and combines two measures: the [DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure—Adult](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf) and the DSM-5 Level 2 Cross-Cutting Symptom Measures (below):
 
 ![](images/DSM-5Level2Cross-CuttingSymptomMeasures.png)
 
-APA Level 1 includes one to two questions for each of thirteen mental health conditions. If symptoms are reported in Level 1, participants answer questions about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems (see Level 1 scoring procedures [here](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf)). Level 2 measures include the [PROMIS Short Form v1.0 - Depression 8a questionnaire](https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://www.phenxtoolkit.org/toolkit_content/supplemental_info/psychiatric/measures/07_Depressed_Mood.doc&amp;ved=2ahUKEwjyl8-7t_-IAxW7H0QIHcyBJTEQFnoECC8QAQ&amp;usg=AOvVaw1dPWhSyXkbVCQ3BgmjwAtC) and [PROMIS Short Form v1.0-Sleep Disturbance 8a](https://heal.nih.gov/files/CDEs/2024-07/promis-sleep-disturbance-8a-crf.pdf) used for Depression and Sleep Disturbance, respectively. The Sleep Disturbance measure includes 8 questions related to sleep in the past 7 days and the scoring procedures are outlined [here](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Sleep_Scoring_Manual.pdf). All other Level 2 measures are described [here](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures). The [Personality Inventory for DSM-5 Brief](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf) was also utilized; it assesses 5 personality trait domains including negative affect, detachment, antagonism, disinhibition, and psychoticism, with each trait domain consisting of 5 items.
+**Level 1** includes 1-2 questions for each of thirteen mental health conditions. If symptoms are reported in Level 1, participants answer questions about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems (see scoring procedures [here](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf)). 
 
-Slight modifications were made due to the use of other measures and the study population. Specifically, Level 1 Questions related to personality functioning and substance use were excluded, as these are addressed by other measures. This allows automatic progression to LEVEL 2-Repetitive Thoughts and Behaviors—Adult (see **Table 1**). Similarly, gates for 'Somatic Symptoms' were removed, enabling direct progression to LEVEL 2—Somatic Symptom—Adult. Future publications should acknowledge the removal of Level 1-2 substance use (section XIII) and the gating mechanisms for sections V (somatic symptoms) and XII (personality functioning).
 
-This instrument was also modified for HBCD to alert study staff if responses to the APA suicide question ('Thoughts of actually hurting yourself?') or APA depression question (ranging from 'I felt worthless' to 'I felt that nothing could cheer me up') exceed thresholds of 0 and 32, respectively. Additionally, a 'refuse to answer' option was added to all questions (note that this does not affect scoring as skipped questions are ignored). 
+**Level 2** measures include all [Level 2 Cross-Cutting Symptom Measures](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures) with the exception of Depression and Sleep Disturbance, for which the **PROMIS Short Forms v1.0** [Depression 8a questionnaire](https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://www.phenxtoolkit.org/toolkit_content/supplemental_info/psychiatric/measures/07_Depressed_Mood.doc&amp;ved=2ahUKEwjyl8-7t_-IAxW7H0QIHcyBJTEQFnoECC8QAQ&amp;usg=AOvVaw1dPWhSyXkbVCQ3BgmjwAtC) and [Sleep Disturbance 8a](https://heal.nih.gov/files/CDEs/2024-07/promis-sleep-disturbance-8a-crf.pdf) were used instead (see Sleep Disturbance scoring procedures [here](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Sleep_Scoring_Manual.pdf))
+
+Finally, the HBCD measure also integrates the [Personality Inventory for DSM-5 Brief](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf), which assesses 5 personality trait domains including negative affect, detachment, antagonism, disinhibition, and psychoticism, with each trait domain consisting of 5 items.
+
+Additional modifications are described below. Future publications should be sure to acknowledge the removal of Level 1-2 substance use (section XIII) and the gating mechanisms for sections V (somatic symptoms) and XII (personality functioning):
+
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="text">HBCD Modification Details</span>
+  </span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Excluded Questions and Gating</b></p>
+<p>Modifications were made to adjust to the study population as well as remove items addressed in other measures. This included removing Level 1 questions related to personality functioning and Level 1-2 substance use, allowing automatic progression to LEVEL 2-Repetitive Thoughts and Behaviors—Adult. Similarly, gates for 'Somatic Symptoms' were removed, enabling direct progression to LEVEL 2—Somatic Symptom—Adult.</p>
+
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Clinical Alerts</b></p>
+<p>For HBCD, this measure was modified to alert study staff if responses to the APA suicide question ('Thoughts of actually hurting yourself?') or APA depression question (ranging from 'I felt worthless' to 'I felt that nothing could cheer me up') exceed thresholds of 0 and 32, respectively.</p>
+
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Response Option Changes</b></p>
+<p>'Refuse to answer' option was added to all questions (note that this does not affect scoring as skipped questions are ignored).</p> 
+</div>
+</p>
 
 ### DSM5 PTSD/Acute Stress Short Scale
-This measure was created to capture maternal PTSD and acute stress symptoms. The Severity of Posttraumatic/Acute Stress Symptoms is a measure that assesses the severity of symptoms of post-traumatic stress disorder and acute stress disorder in individuals ages 18 and older following an extremely stressful event or experience. It combines items 1-9 from the National Stressful Events Survey PTSD Short Scale ([NSESSS-PTSD](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf) and Item 3 from the National Stressful Events Survey Acute Stress Disorder Short Scale ([NSESSS-Acute Stress Disorder](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Acute-Stress-Symptoms-Adult.pdf)) into a single assessment for the HBCD study. The only additional modification was that we added ‘refuse to answer’, but not ‘don’t know,’ to the response options. In future publications, authors should note that this measure is a combination of NSESSS-PTSD and NSESSS-Acute Stress Disorder.
+The HBCD Severity of Posttraumatic/Acute Stress Symptoms measure was developed to capture maternal PTSD and acute stress symptoms, assessing the severity of PTSD and acute stress disorder following a traumatic event (for individuals aged 18 and older). It combines National Stressful Events Survey items 1-9 from the PTSD Short Scale ([NSESSS-PTSD](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf)) and item 3 from the Acute Stress Disorder Short Scale ([NSESSS-Acute Stress Disorder](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Acute-Stress-Symptoms-Adult.pdf)) into a single assessment for the HBCD study, with the addition of a 'refuse to answer' response option (but not 'don’t know'). Future publications should note that this measure combines NSESSS-PTSD and NSESSS-Acute Stress Disorder.
 
-Note that scores on these scales do not differentiate between symptoms of PTSD versus Acute Stress Disorder, but rather assess for trauma-related stress symptoms. As such, researchers should review the individual items to determine which scale best meets their interest. Total raw scores are computed as the sum of scores from questions 1-3 & 7-10 for Acute Stress, and sum of scores from questions 1-9 for PTSD.
+Scores on these scales assess trauma-related stress symptoms and do not differentiate between PTSD and Acute Stress Disorder. Researchers should review individual items to determine the most relevant scale to their research. Total raw scores are computed as the sum of scores from questions 1-9 for PTSD and questions 1-3 & 7-10 for Acute Stress.
 
 ### EPDS
-<ul>
-The Edinburgh Postnatal Depression Scale (<a href="https://downloads.aap.org/AAP/PDF/Postnatal%20Depression%20Scale.pdf">EPDS</a>), a sensitive, 10-item screening tool for prenatal and postpartum depression symptoms, was selected to capture symptoms of maternal depression due to its ease of administration and widely accepted use. The EPDS scoring procedure is described <a href="https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS_text_added.pdf">here</a>. For HBCD, the option ‘refuse to answer’ was added to all questions. Note that this does not impact scoring (questions answered with ‘refuse to answer’ are skipped). The following scores on the EPDS triggered a clinical alert for study staff:
-    <li>EPDS suicide ('The thought of harming myself has occurred to me'), score greater than 1</li>
-    <li>EPDS depression, overall score greater than 11</li>
-</ul>
-
+The Edinburgh Postnatal Depression Scale (<a href="https://downloads.aap.org/AAP/PDF/Postnatal%20Depression%20Scale.pdf">EPDS</a>), a sensitive, 10-item screening tool for prenatal and postpartum depression symptoms, was selected to capture symptoms of maternal depression due to its ease of administration and widely accepted use. For HBCD, the response option 'refuse to answer' was added to all questions. Note that this does not impact scoring as questions answered with ‘refuse to answer’ are skipped (see EPDS scoring procedure [here](https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS_text_added.pdf)). In addition, scores for EPDS suicide (score>1) or depression (overall score>11) triggered clinical alerts for study staff.
 
 <details class="collapsible references">
   <summary class="references">References</summary>
