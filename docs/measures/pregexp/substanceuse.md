@@ -15,7 +15,7 @@ The current data release for Pregnancy & Exposure, Including Substance Use, incl
 <tbody>   
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#assist-v1v2v3">Alcohol, Smoking and Substance Involvement Screening Test V1.0</a></td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Assist V1</td>
+        <td>Assist V1</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Substance use and problematic use before and during pregnancy</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_assistv1</td>
     </tr>    
@@ -35,21 +35,20 @@ The current data release for Pregnancy & Exposure, Including Substance Use, incl
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#tlfb">Timeline Follow Back</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">TLFB</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Substance use before and during pregnancy</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Unknown</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_ch_tlfb</td>
     </tr>         
 </tbody>
 </table>
 
 
 ## Implementation & Data Collection
-Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). Additional information is as follows:
+Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). All surveys were administered in-person by a research assistant except in Alabama, where participants were trained to self-administer. Additional information is as follows:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Administration</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Respondant*</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Respondant</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Visits</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Completion Time</th>      
     </tr>
@@ -57,53 +56,41 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
 <tbody>
     <tr>
         <td>Assist V1</td>
-        <td>RA**</td>
-        <td>[1]</td>
+        <td>Pregnant Person</td>
         <td>V01</td>
         <td>5 min</td>
     </tr>     
     <tr>
         <td>Assist V2</td>
-        <td>RA**</td>
-        <td>[2]</td>
+        <td>Person Who Gave Birth</td>
         <td>V02</td>
         <td>5 min</td>
     </tr>     
     <tr>
         <td>Assist V3</td>
-        <td>RA**</td>
-        <td>[2]/[3]</td>
+        <td>Person Who Gave Birth or Primary Caregiver</td>
         <td>V03</td>
         <td>3 min</td>
     </tr>        
     <tr>
         <td>TLFB</td>
-        <td>RA**</td>
-        <td>[2]/[3]</td>
+        <td>Person Who Gave Birth or Primary Caregiver</td>
         <td>V01, V02</td>
         <td>10 min</td>
-    </tr>         
-    <tr>
-        <td>APA 1/2</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Self (in person or remote)</td>
-        <td>[1]/[2]/[3]</td>
-        <td>V01, V02, V03</td>
-        <td>5 min</td>
-    </tr>       
+    </tr>              
 </tbody>
 </table>
-<small> * [1] Pregnant Person, [2] Person Who Gave Birth, [3] Primary Caregiver</small><br>
-<small> ** RA-administered in person except in Alabama, where participants were trained too self-administer</small>
-
 
 ## Quality Control & Known Issues
-For all measures, QC procedures involved review of response distributions (crossed with TLFB for Assist V1/V2 and vice versa) for outlier detection. One common issue noted was that reported substances used on the TLFB were not always noted on the Assist V1/V2, which triggered a query to the site to correct it. 
+For all measures, QC procedures involved review of response distributions (crossed with TLFB for Assist V1/V2 and vice versa) for outlier detection. One common issue noted was that reported substances used on the TLFB were not always noted on the Assist V1/V2, which triggered a query to the site to correct it. Regarding potential issues flagged by subject matter experts:
 
-Subject matter experts note that it was difficult for some participants to self-report the typical size of a single drink (in oz) to capture ‘standard drinks’ of alcohol for Assist. Some reports are therefore outside expected range. In addition, occasions of substance use is difficult to report for substances such as electronic cigarette devices, also resulting in outliers. Sites were queried on outliers, but participants were not always able to be re-contacted. 
+### ASSIST
+It was difficult for some participants to self-report the typical size of a single drink (in oz) to capture ‘standard drinks’ of alcohol for Assist, leading to some reports falling outside the expected range. Similarly, reporting the frequency of use for substances like electronic cigarette devices proved difficult, resulting in outliers. While sites were queried on these outliers, participants could not always be re-contacted for clarification.
 
-For the TLFB, note that it samples only specific weeks before (Weeks 1-2) and during (Weeks 3-9) pregnancy. As a result, substance use could be reported during pregnancy, but may not appear in the TLFB if it falls outside these sampled weeks. Likewise, a positive biospecimen could lack corresponding TLFB data for the same reason. This sampling method — covering periods before, early, mid, and late pregnancy — aims to reduce participant burden (avoiding a full 40-week TLFB) while capturing key pregnancy phases when behaviors tend to shift (i.e. before and after pregnancy recognition and late pregnancy). 
+### TLFB
+The sampling covers specific weeks before pregnancy (Weeks 1-2) and during pregnancy (Weeks 3-9). Consequently, substance use reported outside these weeks may not appear in the TLFB, and a positive biospecimen may lack corresponding TLFB data for the same reason. This sampling approach balances participant burden (avoiding a full 40-week TLFB) with capturing key pregnancy phases when behaviors often shift, such as before and after pregnancy recognition and in late pregnancy.
 
-The TLFB data should be combined with the biospecimen and Assist data. One could also create trajectories of use from the TLFB with assumptions by using data on early pregnancy (weeks 3-6) carried forward until stated pregnancy recognition (V1 Health), then using enrollment (week 7) information and carrying that forward until late pregnancy (weeks 8-9). 
+TLFB data should be integrated with biospecimen and Assist data. Trajectories of use can be inferred by carrying early pregnancy data (Weeks 3-6) forward until reported pregnancy recognition (V1 Health) and using enrollment data (Week 7) to project use into late pregnancy (Weeks 8-9).
 
 ## Instrument Details
 ### Assist V1/V2/V3

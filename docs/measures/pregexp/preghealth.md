@@ -132,12 +132,11 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
 ## Quality Control & Known Issues
 For quality control, response distributions were reviewed for outliers and no common issues were identified. However, subject matter experts note that there are potential issues relating to correct coding for (1) ICD codes from BioPortal ICD (used to capture reason(s) for medication use, ER visits, and hospitalizations), (2) symptom codes from World Health Organization, and (3) medication names from RxNORM. For instruments utilizing these coding systems, it was at times difficult for the participant to name or the RA to correctly find the correct code/name in a databases.
 
-Below we note which instruments use one or more of these coding databases and were noted to have potential issues as a result. Subject matter experts provided these specific observations as well for the following instruments:
-
-**PH-Illness**      
+**Below we note which instruments use one or more of these coding databases and were noted to have potential issues as a result. Subject matter experts provided these specific observations as well for the following instruments:**
+### Pregnancy Health-Illness      
 BioPortal ICD coding difficulty was particularly apparent for use of the ER for normal care (no diagnosis) or false alarms (e.g. thought water broke but it did not), resulting in the use of ‘don’t know.’
 
-**PH-Medications**      
+### Pregnancy Health-Medications     
 The RxNORM database provided no option for coding preventive use, making it difficult to code aspirin use for preeclampsia. Aspirin was therefore specifically moved to the prenatal vitamin section a few months into the study. Some medications were also coded with dose, but this was not asked and should not be used.
 
 
