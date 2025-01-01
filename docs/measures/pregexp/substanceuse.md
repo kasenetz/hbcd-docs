@@ -48,7 +48,7 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
   <thead>
     <tr>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Respondant</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Respondent</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Visits</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Completion Time</th>      
     </tr>
@@ -123,7 +123,7 @@ The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs,
 </div>
 </p>
 
-The list of substances was also greatly expanded for HBCD. For each substance, participants indicated their frequency of use with options: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), or 4 (Daily or Almost Daily). For substances reported as used, participants were asked about modes of use, typical quantities of consumption for alcohol and opiods (if applicable), and disordered or problematic use. 
+The list of substances was also greatly expanded for HBCD. For each substance, participants indicated their frequency of use with options: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), or 4 (Daily or Almost Daily). For substances reported as used, participants were asked about modes of use, typical quantities of consumption for alcohol and opioids (if applicable), and disordered or problematic use. 
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
@@ -162,11 +162,11 @@ The list of substances was also greatly expanded for HBCD. For each substance, p
 </div>
 </p>
 
-Finally, additional screening for substance use (within three months before or during pregnancy) was implemented for Assist V1 to trigger the Time Line Follow Back (TLFB). The additional questions ask which substances (from the list above) the person used for any reason (1) in the three months before becoming pregnant and (2) during pregnancy. For substances used, respondants were then asked to specify the specific substance type as well (e.g. type of alcohol, cannabinoid, stimulant, tobacco, hallucinogen, and/or opioid)
+Finally, additional screening for substance use (within three months before or during pregnancy) was implemented for Assist V1 to trigger the Time Line Follow Back (TLFB). The additional questions ask which substances (from the list above) the person used for any reason (1) in the three months before becoming pregnant and (2) during pregnancy. For substances used, respondents were then asked to specify the specific substance type as well (e.g. type of alcohol, cannabinoid, stimulant, tobacco, hallucinogen, and/or opioid)
 
 
 ### TLFB
-The [original Timline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the last 7 days from when the survey is administered. The [HBCD TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf), triggered by Assist responses, was adapted to instead record maternal substance use before and during pregnancy. Participants reported use during 9 weeks in total for each product type (e.g., edible cannabis) reported on the ASSIST. For V1, this includes: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V2 to capture substance use during the last two full weeks of gestation (Weeks 8-9). Daily usage frequency was recorded for all products except for cigarettes/cigarillos (count per day) and alcohol (single servings per day).
+The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the last 7 days from when the survey is administered. The [HBCD TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf), triggered by Assist responses, was adapted to instead record maternal substance use before and during pregnancy. Participants reported use during 9 weeks in total for each product type (e.g., edible cannabis) reported on the ASSIST. For V1, this includes: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V2 to capture substance use during the last two full weeks of gestation (Weeks 8-9). Daily usage frequency was recorded for all products except for cigarettes/cigarillos (count per day) and alcohol (single servings per day).
 
 <details class="collapsible references">
   <summary class="references">References</summary>

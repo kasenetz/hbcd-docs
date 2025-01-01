@@ -69,50 +69,44 @@ The current data release for Pregnancy & Exposure, Including Substance Use, incl
 </table>
 
 ## Implementation & Data Collection
-Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). All are child-unspecific except Healthv2 Inf. Additional information is as follows:
+Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). All are child-unspecific and were self-administered either in-person or remote with the exception of FAM MH, which was only self-administered in-person. Additional information is as follows:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Administration</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Respondant*</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Visits</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Completion Time</th>      
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Instrument</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Respondent</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Visits</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Completion Time</th>      
     </tr>
   </thead>
 <tbody>
     <tr>
         <td>FAM MH</td>
-        <td>Self (in person)</td>
-        <td>[1]</td>
+        <td>Pregnant Person</td>
         <td>V01</td>
         <td>5 min</td>
     </tr>       
     <tr>
         <td>APA 1/2</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Self (in person or remote)</td>
-        <td>[1]/[2]/[3]</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnant Person, Person Who Gave Birth, or Primary Caregiver</td>
         <td>V01, V02, V03</td>
         <td>5 min</td>
     </tr>    
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NSESSS—PTSD/Acute Stress Disorder</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Self (in person or remote)</td>
-        <td>[1]/[2]/[3]</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnant Person, Person Who Gave Birth, or Primary Caregiver</td>
         <td>V01, V02, V03</td>
         <td>3 min</td>
     </tr>       
     <tr>
         <td>EPDS</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Self (in person or remote)</td>
-        <td>[1]/[2]</td>
+        <td>Pregnant Person or Person Who Gave Birth</td>
         <td>V01, V02, V03</td>
         <td>3 min</td>
     </tr>    
 </tbody>
 </table>
-<small> * [1] Pregnant Person, [2] Person Who Gave Birth, [3] Primary Caregiver</small><br>
 
 
 ## Quality Control & Known Issues
@@ -120,11 +114,33 @@ For all mental health instruments, response distributions were reviewed for outl
 
 ## Instrument Details
 ### Personal & Family Psychiatric History 
-This measure assesses self-reported diagnoses and mental health conditions of the biologic mother, father, maternal parents and paternal parents. It was created from combining and modifying the [Family History Assessment Module (FHAM)](https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/) and the [All of Us Personal and Family Health History](https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf). 
+The HBCD FAM MH assesses self-reported diagnoses and mental health conditions of the biologic mother, father, maternal parents and paternal parents. It was created from combining and modifying the [Family History Assessment Module (FHAM)](https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/) and the [All of Us Personal and Family Health History](https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf). The HBCD FAM MH includes (1) FHAM items Alcohol-Schizophrenia and (2) All of Us mental health outcomes for AUD, anxiety, ASD, BPD, depression, SUD, schizophrenia and ADHD (excluding age of diagnosis or medications to treat). Future publications should note that this measure is a combination of these and that this is not a scored scale, but simply descriptive for family history.
 
-From FHAM, only alcohol-schizophrenia were selected; items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder were not included. Additionally, ‘trouble with law’ and ‘nervous breakdown’ were excluded. Response options (originally including 'parents', 'grandparents', 'siblings', 'aunts', 'uncles', and 'cousins') were modified to include only biological mom, dad and grandparents. From All of Us, we were only interested in a few mental health outcomes (AUD, anxiety, ASD, BPD, depression, SUD, schizophrenia and ADHD) and were not interested in age of diagnosis or medications to treat. Response options (originally 'mom', 'dad', 'sibling', 'daughter', 'son', and 'grandparent') were modified to include only biological mom and dad.
-
-For future publications, authors should note that this measure is a combination of FHAM and All of Us. Also note that it is not a scored scale, but simply descriptive for family history.
+<p>
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="text">Additional HBCD Modification Details</span>
+  </span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p style="margin-bottom: 0; padding-bottom: 0;"><u>FHAM</u></p>
+    <ul>
+      <li>FHAM items excluded from HBCD measure:
+          <ul>
+              <li>Items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder</li>
+              <li>'Trouble With Law’ and ‘Nervous Breakdown’</li>
+          </ul>
+      </li>
+      <li>Original response options including 'parents', 'grandparents', 'siblings', 'aunts', 'uncles', and 'cousins' were modified to include only biological mom, dad and grandparents</li>
+    </ul>
+<p style="margin-bottom: 0; padding-bottom: 0;"><u>All of Us</u></p>
+<ul>
+  <li>Original response options including 'mom', 'dad', 'sibling', 'daughter', 'son', and 'grandparent' were modified to include only biological mom and dad</li>
+</ul>
+</div>
+</p>
 
 
 ### APA 1/2
