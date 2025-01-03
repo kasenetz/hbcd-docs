@@ -5,11 +5,11 @@
 Quality control metrics for raw MRI images, generated according to the procedures outlined [here](../measures/mri/index.md), are provided in the `scans.tsv` file within the session folder. Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional quality checks to ensure data integrity. For instance, all images were verified to be acquired using a head coil before inclusion in the BIDS dataset. Additional exclusion criteria for each imaging modality are detailed below.
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="exclusions-dropdown" class="notification-banner" onclick="toggleCollapse(this)">
     <span class="text">Exclusion Criteria</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="collapsible-content">
 <ul>
 <u>T1w:</u>
   <li>TR outside of range 2.3-2.41</li>
@@ -50,21 +50,35 @@ Quality control metrics for raw MRI images, generated according to the procedure
 
 
 ## PHENOTYPES
-Below is a list of static elements (i.e. precisely identified hard-coded elements such as participants, instruments, and instrument fields) and dynamic elements excluded during the data release process as well as general rules applied to all data:
+Below is a list of general rules applied to all data as well as static (i.e. precisely identified hard-coded elements such as participants, instruments, and instrument fields) and dynamic elements excluded during the data release process:
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Static Element Exclusions</span>
-  <span class="notification-arrow">▸</span>
+<div id="general-rules-dropdown" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">General Rules Applied to All Data</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="collapsible-content">
+<ul>
+    <li>For all participants with only one active V01 visit, sex is changed from "Male/Female" to “Other”</li>
+    <li>All empty strings (“”) or missing values are replaced with the default ReproSchema-compliant string “n/a”</li>
+    <li>“Candidate_Age” is computed in years except for V01, for which values are replaced with "n/a"</li>
+    <li>Some fields can have out-of-range values. They are considered “extreme” values and are changed to “n/a”. This filter was applied to <code>pex_bm_healthv2_inf</code> - see <a href="../../measures/pregexp/preghealth#field-exclusions">Pregnancy & Infant Health > Field Exclusions</a> for details.
+</ul>
+</div>
+</p>
+
+<p>
+<div id="static-exclusions-dropdown" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="text">Static Element Exclusions</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
 <br>
 <b>Participant Filters:</b>
 <ul>
     <li>Participants with a 'Postnatal Recruitment' visit  </li>
     <li>Multiple Birth Participants</li>
 </ul>
-
 <b>Excluded Instruments:</b>
 <ul>
     <li>Biosensor Receipt Form ('sens_ch_rcpt')</li>
@@ -105,7 +119,6 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
     <li>Urgent Events ('adm_fd_urgent')</li>
     <li>Transitions in Care Questionnaire ('sed_cg_tic')</li>
 </ul>
-
 <br><b>Excluded Instrument Fields:</b>
 <ul>
     <li>Examiner ('Examiner’)  </li>
@@ -144,11 +157,11 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
 </p>
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="dynamic-exclusions-dropdown" class="notification-banner" onclick="toggleCollapse(this)">
     <span class="text">Dynamic Element Exclusions</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="collapsible-content">
 </p>
 <b>Participant Filters:</b>
 <ul>
@@ -157,12 +170,10 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
     <li>Participants from Data Coordination Center (DCC) and University of Florida (UFL) sites are not selected</li>
     <li>Only participants with PSCIDs starting with “CH” are selected (excluding all test participants e.g. QI, YI, XI, PI)</li>
 </ul>
-
 <b>Visit Filters:</b>
 <ul>
     <li>Only visits whose 'LaunchPad Complete' Status was set to 'Complete' before July 1st, 2024 are included</li>
 </ul>
-
 <b>Domain Filters:</b>
 <ul>
     <li>BioSpecimens</li>
@@ -173,30 +184,7 @@ Below is a list of static elements (i.e. precisely identified hard-coded element
 </div>
 </p>
 
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">General Rules Applied to All Data</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-<p>
-<ul>
-    <li>All participants having only one active visit that is V01 will have their sex changed to “Other” instead of “Male” or “Female”</li>
-    <li>All empty string “” or missing values will be replaced with the default ReproSchema-compliant string “n/a”</li>
-    <li>For V01, all “Candidate_Age” values are replaced with “n/a”</li>
-    <li>For other visits, “Candidate_Age” will be computed in years</li>
-    <li>Some fields can have out of range values. They are considered “extreme” values and are changed to “n/a”. Filters apply to:
-        <ul>
-            <li>Pex Bm Healthv2 Inf (‘pex_bm_healthv2_inf’) instrument:
-                <ul>
-                    <li>Field “001_i_01”: higher than 16</li>
-                    <li>Field “001_i_02”: higher than 66</li>
-                    <li>Field “002”: outside of range 12-51</li>
-                    <li>Field “002_i_01”: outside of range 30-130</li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-</ul>
-</p>
-</div><br>
+
+
+
 
