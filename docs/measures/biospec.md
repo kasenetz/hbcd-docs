@@ -153,13 +153,26 @@ These data are the results of toxicology assays in dried blood spots collected a
 </p>
 
 ### NAILS
-These data are the results of toxicology assays in fingernails and toenails collected at V01 and V02. The nail processing workflow was re-developed and implemented on July 1, 2024 to consider the amount of specimen available and offer the opportunity for additional confirmation tests in case of low sample quantity. Specimens are sorted by weight and screened following the workflow outlined in **Figure 1**. Specimens that contain at least 20 mg of nail are screened using ELISA with subsequent LCMSMS confirmation for presumptive positives, each confirmation of which requires an additional 20 mg. In the updated workflow, if additional specimen is not available for LCMSMS confirmation, the remnant of ELISA extract is instead used for confirmation. Nail weights and test ordered (custom 14 panel test; EtG only; cancelled) are noted in the sample-data dictionary below (**Table 2**).
+<p>
+<div id="nails-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">NAILS: Known Issues</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>On July 1, 2024, the nail processing workflow was updated to optimize specimen use and enable confirmation testing for low sample quantities as described below. Data collected this point therefore does not use the remnant of ELISA extract for confirmation for specimens with too little sample.</p> 
+</div>
+</p>
 
-##### Figure 1. Schematic for nail processing
+This dataset includes the results of toxicology assays conducted on fingernails and toenails. Specimens are sorted by weight, and those weighing at least 20 mg undergo ELISA screening, followed by LCMSMS confirmation for presumptive positives, each requiring an additional 20 mg. If insufficient specimen remains for LCMSMS, the remnant ELISA extract is used for confirmation.
+
 <img src="../biospec_images/Fig1_nails.png" width="100%" height="auto">
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="usdtl-assay-details" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="text">USDTL Assay Details</span>
   </span>
@@ -716,11 +729,30 @@ These data are the results of toxicology assays in fingernails and toenails coll
 </div>
 </p>  
 
-#### NAILS-Known Issues
-The nail processing workflow was re-developed and implemented on July 1, 2024 and thus data collected before that point will does not use the remnant of ELISA extract for confirmation for specimens with too little sample.
+
+
+
 
 ### URINE
-These data are the results of toxicology assays in urine collected at V01. Test results for substances were determined to be positive, negative, or invalid based on predefined thresholds. Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs).
+<p>
+<div id="urine-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">URINE: Known Issues</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>Only the initial creatinine results from sample validation are included in the data release: creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds. Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs).</p> 
+</div>
+</p>
+
+These data are the results of urine toxicology assays. Test results for substances were determined to be positive or negative based on predefined thresholds, or invalid (for specimens identified as dilute, substituted, adulterated, or otherwise insufficient based on validation).
+<img src="../biospec_images/Fig1_biospec_urine.png" width="90%" height="auto">
+
+Validation is based on creatinine, pH, and nitrite measurements. Specimens with low creatinine (<20 mg/dL) are confirmed using specific gravity via refractometer (decision grid below), and the creatinine analysis is repeated to rule out issues with the first analysis (e.g. sample mix-ups, air bubble in a line on the instrument, etc.):
+<img src="../biospec_images/Table1_biospec_urine.png" width="90%" height="auto">
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
@@ -732,7 +764,6 @@ These data are the results of toxicology assays in urine collected at V01. Test 
 <div class="notification-collapsible-content">
 <br>
 <p>Based on the predefined thresholds (<a href="#urine-table1">Table 1</a>), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (<a href="#urine-table2">Table 2</a>). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in <a href="#urine-table3">Table 3</a>.</p> 
-
 <table id="urine-table1" class="docutils">
 <caption style="font-weight: bold; text-align: left; font-style: normal;">Table 1. Urine Assay Thresholds for Analytes</caption>
 <thead>
@@ -1141,7 +1172,6 @@ These data are the results of toxicology assays in urine collected at V01. Test 
 <i>*Based on DRI® Cotinine assay for the qualitative and semiquantitative determination of Cotinine</i><br>
 <i>LOD: limit of detection; LOQ: limit of quantification: Cutoff concentration used to categorize metabolite as positive/negative</i>
 <br>
-
 <table id="urine-table2" class="docutils">
 <caption style="font-weight: bold; text-align: left; font-style: normal;">Table 2. Sample Data Dictionary from Urine Assays</caption>
   <br>
@@ -1204,7 +1234,6 @@ These data are the results of toxicology assays in urine collected at V01. Test 
     </tr>
 </tbody>
 </table>
-
 <table id="urine-table3" class="docutils">
 <caption style="font-weight: bold; text-align: left; font-style: normal;">Table 3. Mapping From Class to Screening Tests and Confirmatory Tests</caption>
   <br>
@@ -1460,16 +1489,6 @@ These data are the results of toxicology assays in urine collected at V01. Test 
 </table>
 </div>
 </p>  
-
-
-#### URINE-Known Issues
-Urine specimen validation is determined based on creatinine, pH, and nitrite measurements (**Figure 1**). Specimens with low creatinine (<20 mg/dL) are confirmed using specific gravity via refractometer (**Table 1**), and the creatinine analysis is repeated to rule out issues with the first analysis (e.g. sample mix-ups, air bubble in a line on the instrument, etc.). All assays are marked as invalid for specimens identified as dilute, substituted, adulterated, or otherwise insufficient. **However, for data release, only the initial creatinine results are reported:** creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds.
-
-**Figure 1. Urine Processing Schematic**
-<img src="../biospec_images/Fig1_biospec_urine.png" width="90%" height="auto">
-
-**Table 1. Urine Validity (Creatinine/Specific Gravity) Decision Grid**
-<img src="../biospec_images/Table1_biospec_urine.png" width="90%" height="auto">
 
 
 
