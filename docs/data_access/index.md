@@ -17,7 +17,7 @@
 
 ## Overview
 <div style="display: flex; justify-content: space-between; padding: 0 20%; align-items: center;">
-  <img src="images/NBDC-logo.jpg" width="170" alt="NBDC-logo" style="margin-left: 20px;">
+  <img src="images/NBDC-logo.jpg" width="170" alt="NBDC-logo">
   <img src="images/LASSO-logo.jpg" width="100" alt="Lasso-logo" style="margin-right: 30px;">
 </div>
 <br>
