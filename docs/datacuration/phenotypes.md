@@ -27,24 +27,60 @@ root/
 ```
 
 ## Demographics Data
-<p style="margin: 0 0 5px;">The <code>sed_basic_demographics</code> files contain demographics data of each participant useful with phenotype context, including:</p>
+<p style="margin: 0 0 5px;">The <code>sed_basic_demographics</code> files provide demographic information for each participant that is useful for understanding their phenotypic data in context. This includes:</p>
 <ul>
 <li>Gestational age at birth</li>
 <li>Sex</li>
 <li>Recruitment site</li>
 <li>Child demographics: race, ethnicity</li>
 <li>Mother demographics: race, ethnicity, education, language at home</li>
-<li>Substance Use (SU) flags raised by any of the following (to see the detail per visit, consult the Visit Data section):
+<li>Substance Use (SU) flags raised by any of the following (<a href="#visit-data">Visit Data</a> for details per visit):
     <ul>
     <li>Self-reported use (<a href="../../measures/pregexp/substanceuse/#tlfb">TLFB</a>)</li>
-    <li>Biospecimen results</li>
-    <li>Health-V2 instrument <em>pex_bm_healthv2_inf</em> (field “007”) if option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) was selected</li>
+    <li><a href="../../measures/biospec">Biospecimen results</a></li>
+    <li><a href="../../measures/pregexp/preghealth/#instruments">Health-V2 instrument</a> (<code>pex_bm_healthv2_inf</code>) Field <em>007</em> if option 1 (NOWS - Neonatal Opioid Withdrawal Syndrome) or 5 (FAS - Fetal Alcohol Syndrome) was selected</li>
     </ul>
 </li>
 </ul>
 
+Caregiver Type is included in demographic information as well. The cohort types included in the data release are as follows:
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Caregiver Type</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Definition</th>   
+    </tr>
+  </thead>
+<tbody>
+	<tr>
+		<td>Type A</td>
+		<td>Temporary Alternative Caregiver</td>
+	</tr>
+	<tr>
+		<td>Type B</td>
+		<td style="word-wrap: break-word; white-space: normal;">Change in Primary Caregiver (Placement Only) Without Change in Legal Custody (But BP Unable to Complete Visit)</td>
+	</tr>
+	<tr>
+		<td>Type C</td>
+		<td>Change in Joint Custody</td>
+	</tr>
+	<tr>
+		<td>Type D</td>
+		<td style="word-wrap: break-word; white-space: normal;">Child Removed From BP and Placed in Foster Care (Change in Placement)</td>
+	</tr>
+	<tr>
+		<td>Type E</td>
+		<td>Change in Legal Custody and Placement (e.g. adoption)</td>
+	</tr>
+	<tr>
+		<td>Type F</td>
+		<td>Original Consented Parent</td>
+	</tr>            
+</tbody>
+</table>
+
 ## Visit Data
-<p style="margin: 0 0 5px;">The <code>par_visit_data.tsv|json</code> files contain all participant visit data, including:</p>
+<p style="margin: 0 0 5px;">The <code>par_visit_data</code> files contain all participant visit data, including:</p>
 <ul>
 <li>Visit information (Label, Stage, Date, and if the visit was missed and the reason)</li>
 <li>Project, Cohort, and Site</li>
@@ -59,7 +95,7 @@ root/
 </ul>
 
 ## BioSpecimens
-All BioSpecimen file are prepended with `bio_`. The `bio_biosample_urine` urine files include BioSpecimen USDTL Urine and DCCID, Visit Label, and Scannable code.
+All BioSpecimen file are prepended with `bio_`. The `bio_biosample_urine` urine files include BioSpecimen USDTL Urine and DCCID, Visit Label, and Scannable code. See details of BioSpecimen screens [here](../measures/biospec.md).
 
 ## Instrument Data
 Each instrument has a `<instrument_name>.tsv` Data Table containing instrument values and a `<instrument_name>.json` Data Dictionary describing instrument fields for all participants.
