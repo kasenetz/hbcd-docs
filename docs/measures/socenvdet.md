@@ -219,41 +219,62 @@ The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/
     </td>
   </tr>
 </table>
+<br>
 
 <p style="font-size: 1em; margin: 0 5px 5px;"><b>Answer/Response Option Changes</b></p>
 <p>Modifications made to the Everyday Discrimination Scale ("What do you think is the main reason for these experiences?") include:</p>
 <table style="border-collapse: collapse;">
+<tfoot><tr><td colspan="2"><small><b>**</b> Modified/added on 01/2024 based on participant feedback/comments</small></td></tr></tfoot>
   <tr>
-    <th>Options Added</th>
-    <th>Options Removed or Replaced</th>
+    <th>Original Response Options</th>
+    <th>Modified Response Options</th>
   </tr>
   <tr>
     <td>
-        <ul>
-            <li>Substance Use/Addiction</li>
-            <li>Don't Know</li>
-            <li>Decline to Answer</li>
-            <li>Mental health or neurodivergence**</li>
-            <li>Physical health**</li>
-            <li>A reason not listed**</li>
-        </ul>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your ancestry or national origin</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your gender</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your race</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your religion</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your height</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your weight</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Some other aspect of your physical appearance</label></li>  
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your sexual orientation</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your education or income level</label></li>  
+    <br>
+    <li style="margin-bottom: 5px; font-size: small;"><label> OTHER POSSIBLE CATEGORIES TO CONSIDER</label></li>    
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> A physical disability</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your shade of skin color <i><b>(removed)</b></i></label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your tribe <i><b>(removed)</b></i></label></li>
+    <br>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Other (SPECIFY) _______________ <i><b>(removed)</b></i></label></li>
     </td>
-    <td style="width: 400px; word-wrap: break-word; white-space: normal;">
-        <ul>
-            <li>Your shade of skin color (removed)</li>
-            <li>Your tribe (removed)</li>
-            <li>“A physical disability” replaced with “A disability”**</li>
-        </ul>
+    <td>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your Ancestry or National Origin</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your Gender</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your Race</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your Religion</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your Height</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your Weight</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Some other Aspect of your Physical Appearance</label></li>  
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your Sexual Orientation</label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Your Education or Income Level</label></li> 
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> A Disability<b>**</b> <i><b>(modified)</b></i></label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Mental Health or Neurodivergence<b>**</b> <i><b>(added)</b></i></label></li> 
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Physical Health<b>**</b> <i><b>(added)</b></i></label></li> 
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Substance Use / Addiction <i><b>(added)</b></i></label></li> 
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> A Reason Not Listed<b>**</b> <i><b>(added)</b></i></label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Don't Know <i><b>(added)</b></i></label></li>
+    <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Decline to Answer <i><b>(added)</b></i></label></li>    
     </td>
   </tr>
 </table>
-<i>**Added based on participant feedback/comments</i>
-<br>
+
 <br>
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Scoring Changes</b></p>
 <p>For the *Everyday Discrimination Scale* and *Major Experiences of Discrimination*, the Follow-up Question ("What do you think is the main reason for these experiences?") was asked once after both were complete to capture the main reasons for any items marked “a few times a year” (*Everyday Discrimination Scale*) or “yes” (*Major Experiences of Discrimination*). The original logic asked this question at the end of each individual scale.</p>
 </div>
 </p>
+
 
 ### eHITS    
 The eHITS is a self-administered 5 question Likert scale screener for experiences of psychological aggression, physical assault, sexual coercion, and injury. Originally created for quick administration in a health care setting or emergency department, the eHITS asks individuals to indicate whether their partner has done any of the following over the past 12 months: "physically hurt you", "insulted you", "threatened to harm you", "screamed or cursed at you", or "forced you to have sexual activities."
