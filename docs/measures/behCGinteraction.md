@@ -79,7 +79,7 @@ Because the psychometric validation for these measures was done using items from
 <li>Examine missingness (count the number of items answered for each participant)</li>
 <li>Calculate sum scores and means, applying prorated scoring to account for missing data</li>
 <li>Generate summary statistics and visualizations for item-level frequencies, age, and scores</li>
-<li>Use Calculate Cronbach's Alpha for reliability </li>
+<li>Calculate Cronbach's Alpha for reliability </li>
 </ul>
 
 Common errors noted during QC include incorrect administration ages and prorated scoring not being accurately applied to observations with missing responses. Subject matter experts note that these measures (ecPROMIS, IBQ-R (VSF)+BI, and MAPS-TL) assess normative variability in child behavior and should be considered in relation to the child’s age and developmental context. *These are not a clinical or diagnostic tool*.

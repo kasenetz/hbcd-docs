@@ -109,7 +109,7 @@ For the majority of instruments, the data dashboard was monitored for variable m
 
 ## Instrument Details
 ### Baby’s First Years
-BFY assesses economic stress, financial instability, ability to meet basic needs, and benefits/services received over the past 12 months on a 10 Likert Scale. Selected questions from the [Year 1 protocol](https://www.babysfirstyears.com/_files/ugd/88a466_5a28f2b284e74fa4b61b2c483008416e.docx?dn=BFY_Age%201%20Survey.docx) of the NIH-funded Baby’s First Years study of infant and child development and originated from the Moving to Opportunity (MTO) study. Some slight modifications were made for the HBCD study by removing the Medicaid coverage question asked elsewhere in the study and adding a question asking whether anyone in the family receives free and reduced lunch.
+The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instrument](https://www.babysfirstyears.com/_files/ugd/88a466_5a28f2b284e74fa4b61b2c483008416e.docx?dn=BFY_Age%201%20Survey.docx). [Baby’s First Years](https://www.babysfirstyears.com/) is an NIH-funded study of infant and child development and assesses economic stress (originally sourced from the Moving to Opportunity (MTO) study), financial instability, ability to meet basic needs, and benefits/services received over the past 12 months on a 10-point Likert Scale ([Noble et al. 2021](https://doi.org/10.1542/peds.2020-049702)). 
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
@@ -120,32 +120,75 @@ BFY assesses economic stress, financial instability, ability to meet basic needs
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction/Assessment Item Modifications</b></p>
+<p>Some slight modifications were made for the HBCD study by removing the Medicaid coverage question (asked elsewhere in the study) as well as the following assessment and response option modifications:</p>
+
 <table>
   <tr>
-    <th>Original Text</th>
-    <th>Modified Text</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Original Text</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Modified Text</th>   
   </tr>
   <tr>
     <td style="width: 400px; word-wrap: break-word; white-space: normal;">
       <small>I am going to read a list of services, government benefits, and support. Please tell me after each one if you receive it or not</small>
+      <br>
+      <br>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Food stamps SNAP / EBT</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Free or reduced childcare</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Early Head Start</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Head Start</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Women, Infants and Children (WIC)</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> State Unemployment</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Cash assistance</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Medicaid coverage for self</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Housing assistance</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> LIHEAP/heat/AC assistance</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Other</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> None</label></li>
+      <br>
+      <br>
     </td>
     <td style="width: 400px; word-wrap: break-word; white-space: normal;">
       <small>Have you received any of these services in the past 12 months</small>
+      <br>
+      <br>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Food stamps SNAP / EBT</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Free or reduced childcare</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Early Head Start</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Head Start</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Women, Infants and Children (WIC)</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> State Unemployment</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Cash assistance</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> <b>Free or reduced school lunch</b></label></li>      
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Medicaid coverage for self</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Housing assistance</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> LIHEAP/heat/AC assistance</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Other</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> None</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> <b>Don't know</b></label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> <b>Decline to answer</b></label></li>
     </td>
   </tr>
     <tr>
     <td style="width: 400px; word-wrap: break-word; white-space: normal;">
       <small>Since [CHILDNAMEF]’s birth, have you EVER been forced to leave or were evicted from your home?</small>
+      <br>
+      <br>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Yes</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> No</label></li>
+      <br>
+      <br>
     </td>
     <td style="width: 400px; word-wrap: break-word; white-space: normal;">
       <small>In the past 12 months, have you EVER been forced to leave or were evicted from your home?</small>
+      <br>
+      <br>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> Yes</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> No</label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> <b>Don't know</b></label></li>
+      <li style="margin-bottom: 5px; font-size: small;"><label><input type="checkbox"> <b>Decline to answer</b></label></li>
     </td>
   </tr>
 </table>
-
-<p style="font-size: 1em; margin: 0 0 5px;"><b>Answer/Response Option Changes</b></p>
-<p>Options "Don't Know" and "Decline to Answer" were added for both questions shown in the section above. The response option "Free or reduced school lunch" was also added for the first question about services.</p>
 </div>
 </p>
 
@@ -330,13 +373,21 @@ Protective and Compensatory Experience (PACES) is a 10-question scale with score
 </div>
 <div class="notification-collapsible-content">
 <br>
-<ul>
-The following language was updated for this assessment item:
-    <li>Original: "When answering these questions, think about the last 12 months. On a scale of 1 to 5, fill the circle of the number that best describes how often each of the items occurred."</li>
-    <li>HBCD: "When answering these questions, think about the last 12 months. Please select the response that best describes you."</li>
-</ul>
-</details>
-
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Instruction Item Modifications</b></p>
+<table>
+  <tr>
+    <th>Original Text</th>
+    <th>Modified Text</th>
+  </tr>
+  <tr>
+    <td style="width: 400px; word-wrap: break-word; white-space: normal;">
+      <small>When answering these questions, think about the last 12 months. On a scale of 1 to 5, fill the circle of the number that best describes how often each of the items occurred.</small>
+    </td>
+    <td style="width: 400px; word-wrap: break-word; white-space: normal;">
+      <small>When answering these questions, think about the last 12 months. Please select the response that best describes you.</small>
+    </td>
+  </tr>
+</table>
 <p>For responses options, “Declined to answer” was added as an option.</p>
 </div>
 </p>
@@ -348,7 +399,8 @@ The PROMIS Emotional Support 4a questionnaire (first 4 questions) evaluates the 
 
 Note that the HBCD measures include the addition of response options “Don’t know” and “Decline to answer.” The original measure requires that all items are completed to allow for scoring via the tables provided in the manual, so items with “don’t know” answers will not have a total score reported. If scoring will utilize the PROMIS HealthMeasures Scoring Service, total scores can include missing data (this can be done by individual investigators). For the PSS-4, complete data is essential, and scores should not be reported if any question is answered as “Don’t know.”
 
-<details class="collapsible references">
+
+<details id="references" class="collapsible references">
   <summary class="references">References</summary>
 <ul>
 <br>

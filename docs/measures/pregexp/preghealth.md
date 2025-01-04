@@ -6,10 +6,10 @@ The current data release for Pregnancy & Exposure, Including Substance Use, incl
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Name of Instrument</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Acronym</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Construct</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Table Name</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Name of Instrument</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Acronym</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Construct</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Table Name</th>
     </tr>
   </thead>
 <tbody>   
@@ -71,8 +71,8 @@ In the instrument `.tsv` files provided in the release, some fields can have out
 <caption style="font-weight: bold; text-align: left; font-style: normal;">Healthv2 Inf (<code>pex_bm_healthv2_inf</code>) Field Exclusions</caption>
   <thead>
     <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Field</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Exclusion Filter (Values Changed to "n/a")</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Field</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Exclusion Filter (Values Changed to "n/a")</th>
     </tr>
   </thead>
 <tbody>        
@@ -101,10 +101,10 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Instrument</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Administration</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Visits</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Completion Time</th>      
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Administration</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Visits</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Completion Time</th>      
     </tr>
   </thead>
 <tbody>
@@ -177,9 +177,9 @@ The following table outlines the information collected for each instrument and w
  <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Instrument</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Information Collected</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Database</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Information Collected</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Database</th>
     </tr>
   </thead>
 <tbody>   
