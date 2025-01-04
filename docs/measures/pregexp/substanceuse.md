@@ -82,18 +82,26 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
 </table>
 
 ## Quality Control & Known Issues
-For all measures, QC procedures involved review of response distributions (crossed with TLFB for Assist V1/V2 and vice versa) for outlier detection. One common issue noted was that reported substances used on the TLFB were not always noted on the Assist V1/V2, which triggered a query to the site to correct it. Regarding potential issues flagged by subject matter experts:
+For all measures, QC procedures involved review of response distributions (crossed with TLFB for Assist V1/V2 and vice versa) for outlier detection. One common issue noted was that reported substances used on the TLFB were not always noted on the Assist V1/V2, which triggered a query to the site to correct it.
 
-### ASSIST
-It was difficult for some participants to self-report the typical size of a single drink (in oz) to capture ‘standard drinks’ of alcohol for Assist, leading to some reports falling outside the expected range. Similarly, reporting the frequency of use for substances like electronic cigarette devices proved difficult, resulting in outliers. While sites were queried on these outliers, participants could not always be re-contacted for clarification.
-
-### TLFB
-The sampling covers specific weeks before pregnancy (Weeks 1-2) and during pregnancy (Weeks 3-9). Consequently, substance use reported outside these weeks may not appear in the TLFB, and a positive biospecimen may lack corresponding TLFB data for the same reason. This sampling approach balances participant burden (avoiding a full 40-week TLFB) with capturing key pregnancy phases when behaviors often shift, such as before and after pregnancy recognition and in late pregnancy.
-
-TLFB data should be integrated with biospecimen and Assist data. Trajectories of use can be inferred by carrying early pregnancy data (Weeks 3-6) forward until reported pregnancy recognition (V1 Health) and using enrollment data (Week 7) to project use into late pregnancy (Weeks 8-9).
+Potential issues identified by subject matter experts and data use recommendations are described in the relevant instrument details sections below - see [ASSIST](#assist-known-issues) and [TLFB](#tlfb-known-issues).
 
 ## Instrument Details
 ### Assist V1/V2/V3
+<p>
+<div id="assist-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">ASSIST: Known Issues</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>It was difficult for some participants to self-report the typical size of a single drink (in oz) to capture ‘standard drinks’ of alcohol for Assist, leading to some reports falling outside the expected range. Similarly, reporting the frequency of use for substances like electronic cigarette devices proved difficult, resulting in outliers. While sites were queried on these outliers, participants could not always be re-contacted for clarification.</p> 
+</div>
+</p>
+
 The Assist V1, V2, and V3 measures were created from combining the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History, which was then modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored. To acknowledged these changes in future publications, authors can note that questions were motivated from the NIDA Modified Assist.
 
 The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding substances used and the timeline of use before and during pregnancy:
@@ -166,7 +174,23 @@ Finally, additional screening for substance use (within three months before or d
 
 
 ### TLFB
-The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the last 7 days from when the survey is administered. The [HBCD TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf), triggered by Assist responses, was adapted to instead record maternal substance use before and during pregnancy. Participants reported use during 9 weeks in total for each product type (e.g., edible cannabis) reported on the ASSIST. For V1, this includes: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V2 to capture substance use during the last two full weeks of gestation (Weeks 8-9). Daily usage frequency was recorded for all products except for cigarettes/cigarillos (count per day) and alcohol (single servings per day).
+<p>
+<div id="tlfb-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">TLFB: Known Issues</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>The sampling covers specific weeks before pregnancy (Weeks 1-2) and during pregnancy (Weeks 3-9). Consequently, substance use reported outside these weeks may not appear in the TLFB, and a positive biospecimen may lack corresponding TLFB data for the same reason. This sampling approach balances participant burden (avoiding a full 40-week TLFB) with capturing key pregnancy phases when behaviors often shift, such as before and after pregnancy recognition and in late pregnancy.</p>
+
+<p>TLFB data should be integrated with biospecimen and Assist data. Trajectories of use can be inferred by carrying early pregnancy data (Weeks 3-6) forward until reported pregnancy recognition (V1 Health) and using enrollment data (Week 7) to project use into late pregnancy (Weeks 8-9).</p> 
+</div>
+</p>
+
+The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the last 7 days from when the survey is administered. The [HBCD TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf), triggered by Assist responses, was adapted to instead record maternal substance use before and during pregnancy. Participants reported use during 9 weeks in total for each substance type (e.g., edible cannabis) reported on the ASSIST. For V01, this includes: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V02 to capture substance use during the last two full weeks of gestation (Weeks 8-9). Daily usage frequency was recorded for all products except for cigarettes/cigarillos (count per day) and alcohol (single servings per day).
 
 <details class="collapsible references">
   <summary class="references">References</summary>
