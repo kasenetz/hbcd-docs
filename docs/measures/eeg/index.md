@@ -4,7 +4,23 @@ EEG tasks are acquired during visits V03, V04, and V06.
 
 ![](images/EEG_acquisition_protocol.png)
 
+
+## Quality Control    
+After EEG acquisition, quality control checks are performed using [EEG2BIDS Wizard](https://github.com/aces/eeg2bids), a custom MATLAB application installed at all HBCD sites. These checks are immediately provided to the user to ensure the data's integrity and usability. The process includes:
+
+- Verifying event markers in the EEG data to confirm all required events are accurately recorded.
+- Ensuring the setup for stimulus presentation and EEG data acquisition adheres to the study protocol.
+- Inspecting electrode impedances to ensure they are within acceptable limits.
+- Detecting multiple task runs and incomplete recordings.
+- Confirming the use of correct E-Prime task versions.
+
+Both study sites and the EEG Core team use an EEG Quality Control dashboard developed by LORIS to access and monitor incoming EEG data and QC metrics, such as retained epochs and line noise levels. Outputs from the HBCD-Maryland Analysis of Developmental EEG ([HBCD-MADE](https://github.com/DCAN-Labs/HBCD-MADE)) pipeline, which handles preprocessing and data cleaning, are also integrated into the dashboard. These outputs include key metrics like outlier statistics for specific task epochs ([Debnath et al., 2020](https://doi.org/10.1111/psyp.13580)). Regular site-specific check-ins and troubleshooting are conducted to ensure consistent protocol adherence and data quality across sites. For a detailed description of QC procedures in the HBCD Study EEG protocol, refer to [Fox et al. (2024)](https://doi.org/10.1016/j.dcn.2024.101447).
+
+During quality control, a frequently observed issue across all tasks was the irregular application of EEG sensors. Additionally, partial task completion due to infant fussing and missing stimulus flags were commonly noted for the faces and auditory mismatch negativity tasks.
+
+
 ## EEG Task Details
+
 ### Faces Task
 The Faces task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability. To assess child and infant face processing abilities as well as the underlying neural activity supporting face and object processing, the task involves 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task.     
    
@@ -14,9 +30,37 @@ The Faces task (v.11.29.23) is used to assess neural activity supporting face an
 ERPs are computed as a function of repeated presentation of faces and objects. The ERPs index different stages of processing including attention, perception, categorization, individuation and memory. The ERP components elicited by the Faces task are the P1, N290, and P400 components. See Fox et al. (2024) for additional information on the rationale for task/stimulus development and ERP findings from pilot data.   
 
 ### Auditory Mismatch Negativity Task (MMN)
+<p>
+<div id="eeg-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>Researchers should be aware that the interstimulus interval (ISI) was updated between V03 and V04/V06. Please see <a href="https://doi.org/10.1016/j.dcn.2024.101447">Fox et al. 2024</a> and <a href="https://doi.org/10.1097/00003446-200204000-00005">Morr et al. 2002</a> for details.</p> 
+</div>
+</p>
+
 The Auditory mismatch negativity (MMN) Task (v.11.29.23) provides a comprehensive assessment of infant speech sound processing and includes rigorous QC procedures to ensure data integrity and reliability. The MMN facilitates examining auditory evoked potentials and habituation/dishabituation to auditory stimuli by capturing differences in neural responses to standard (“ba”) and deviant (“da”) stimuli. During auditory presentation of syllables, a video is played on an iPad as a distractor (with brightness all the way up, in airplane mode, and not plugged in). From this task the MMN difference wave is computed, which is also known as the Mismatch Response (MMR). The amplitude/latency of this difference wave has been linked to language (Choudhury & Benasich, 2011), temperament/personality (Gurrera et al., 2001; Marshall et al., 2009), internalizing problems (Reeb-Sutherland et al., 2009), externalizing/attention problems (Gumenyuk et al., 2005), and disorders including autism (Lepistö et al., 2005; Schwartz et al., 2018) and reading ability/dyslexia (Leppänen et al., 2010; Norton, Beach, et al., 2021). See Fox et al. (2024) for more information about the MMN task.   
 
 ### Video Resting State (RS)
+<p>
+<div id="eeg-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>Researchers should be aware that the video content for the video RS task was modified between V03 and V04/V06.</p> 
+</div>
+</p>
+
 The Video Resting State (v.11.29.23) task provides assessment of the development of large scale neural networks during infancy and early childhood via information about neural oscillations measured in EEG power across the scalp. Developmental changes in oscillatory activity reflect underlying developing large scale neural networks associated with early self-regulatory, cognitive, and affective processes and developmental outcomes (Gabard-Durnam et al., 2019; E. J. Jones et al., 2020; Whedon et al., 2020). The metrics derived from the resting EEG signal include power across the frequency spectrum (Gabard-Durnam et al., 2019) and relative power between different scalp locations (Davidson & Fox, 1982). See Fox et al. (2024) for more information about the RS.       
 
 In V03, a silent video plays with a variety of colorful and abstract toys and visuals on screen. The child watches the video for the duration of the task:
@@ -35,22 +79,6 @@ The Visual Evoked Potential Task (v.11.29.23) measures development of visual cor
 ![VEP checkerboard image](images/eeg-vep-checkerboard.png)
 
 VEP amplitude and latency decreases with age during the first three years of life. The VEP has been associated with concurrent and later developmental outcomes as a function of prenatal substance exposures (Margolis et al., 2024), early visual enrichment or deprivation (Jensen et al., 2019), vision system maturation (Lippé et al., 2009), neurodevelopmental disorders (e.g., ASD and ADHD; Cremone- Caira et al., 2023; Nazhvani et al., 2013), and reading and learning disabilities (Shandiz et al., 2017). The morphology of the VEP likely reflects varying degrees of synaptic efficiency and as such, can be used as a readout of general cortical function. The task elicits a VEP response in the occipital area (Oz), consisting of the, N1 (first negative peak), P1 (first positive peak), and N2 (second negative peak) components. See Fox et al. (2024) for more information about the VEP task.  
-
-## Quality Control & Known Issues    
-After EEG acquisition, quality control checks are performed using [EEG2BIDS Wizard](https://github.com/aces/eeg2bids), a custom MATLAB application installed at all HBCD sites. These checks are immediately provided to the user to ensure the data's integrity and usability. The process includes:
-
-- Verifying event markers in the EEG data to confirm all required events are accurately recorded.
-- Ensuring the setup for stimulus presentation and EEG data acquisition adheres to the study protocol.
-- Inspecting electrode impedances to ensure they are within acceptable limits.
-- Detecting multiple task runs and incomplete recordings.
-- Confirming the use of correct E-Prime task versions.
-
-Both study sites and the EEG Core team use an EEG Quality Control dashboard developed by LORIS to access and monitor incoming EEG data and QC metrics, such as retained epochs and line noise levels. Outputs from the HBCD-Maryland Analysis of Developmental EEG ([HBCD-MADE](https://github.com/DCAN-Labs/HBCD-MADE)) pipeline, which handles preprocessing and data cleaning, are also integrated into the dashboard. These outputs include key metrics like outlier statistics for specific task epochs ([Debnath et al., 2020](https://doi.org/10.1111/psyp.13580)). Regular site-specific check-ins and troubleshooting are conducted to ensure consistent protocol adherence and data quality across sites. For a detailed description of QC procedures in the HBCD Study EEG protocol, refer to [Fox et al. (2024)](https://doi.org/10.1016/j.dcn.2024.101447).
-
-### Potential Issues
-During quality control, a frequently observed issue across all tasks was the irregular application of EEG sensors. Additionally, partial task completion due to infant fussing and missing stimulus flags were commonly noted for the faces and auditory mismatch negativity tasks.
-
-Subject matter experts flagged potential issues related to task design changes between versions V03 and V04/6. These include updates to the video content in the video RS task and modifications to the interstimulus interval (ISI) in the auditory mismatch negativity task (see Fox et al., 2024; Morr et al., 2002, for details on the ISI changes). No potential issues were identified for the faces or visual evoked potential tasks.
 
 ## Resources
 - [HBCD E-Prime Task Manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)

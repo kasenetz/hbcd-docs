@@ -66,15 +66,43 @@ The Breastfeeding and Food Insecurity surveys are child-specific and filled out 
 </table>
 <small>**Only administered if still breastfeeding at prior visit</small>
 
-## Quality Control & Known Issues
-The QC procedures for all three measures involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency. If present, any common issues identified with QC or potential issues flagged by subject matter experts are described below.
+## Quality Control
+The QC procedures for all three measures involved monitoring the data dashboard for variable missingness, possible coding errors, scoring verification when needed, and data consistency.
 
 ## Instrument Details
 ### Breastfeeding     
-Breastfeeding measures initiation, exclusivity, and cessation of breast milk feedings. Subject matter experts note that, *as breast feeding history is obtained via self-report, it is vulnerable to recall bias* concerning the timing of starting and/or stopping breast feeding. In addition, as the data is obtained via a survey, it is likely that missing data will need to be statistically addressed during analysis.
+<p>
+<div id="bf-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>Subject matter experts emphasize that, as breast feeding history is obtained via self-report, it is vulnerable to recall bias* concerning the timing of starting and/or stopping breast feeding. In addition, as the data is obtained via a survey, it is likely that missing data will need to be statistically addressed during analysis.</p> 
+</div>
+</p>
+
+Breastfeeding measures initiation, exclusivity, and cessation of breast milk feedings.
 
 ### Food Insecurity
-Food Insecurity, based on two items assessing the availability of food, is a screening measure used across many populations indicating risk of food insecurity in the last 12 months. Each question uses the same response options. This measure was modified slightly for HBCD to use gender-neutral terms (children are referred to as “the child” in place of gendered pronouns) as well as inclusion of "Don't know" as a response option to survey questions. Researchers should be aware that the validated measure uses Yes/No answers and does not account for missing data. 
+<p>
+<div id="foodins-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>Researchers should be aware that the validated measure uses Yes/No answers and does not account for missing data.</p> 
+</div>
+</p>
+
+Food Insecurity, based on two items assessing the availability of food, is a screening measure used across many populations indicating risk of food insecurity in the last 12 months. Each question uses the same response options. This measure was modified slightly for HBCD to use gender-neutral terms (children are referred to as “the child” in place of gendered pronouns) as well as inclusion of "Don't know" as a response option to survey questions.
 
 ### Growth   
 Growth is a standard direct measure of child height or length (in cm), weight (in kg), head circumference (cm). In older children, it will also include abdominal circumference (cm).     

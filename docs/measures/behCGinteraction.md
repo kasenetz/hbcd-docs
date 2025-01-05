@@ -71,14 +71,15 @@ Alterations were made to ecPROMIS, IBQ-R (VSF)+BI, and MAPS-TL for use of gender
 
 Because the psychometric validation for these measures was done using items from the original measures, future publications should account for and note edits made to individual items as part of HBCD DEI review.
 
-## Quality Control & Known Issues  
+## Quality Control 
 QC procedures involved examining age to ensure that it falls within an expected range (3-9 months for ecPROMIS/MAPS-TL and 3-18 months for IBQ-R (VSF)+BI) and missingness (by counting the number of items answered for each participant). Summary statistics and visualizations were generated to review item-level frequencies, age, and scores (calculated with application of prorated scoring to account for missing data). Finally, Cronbach's Alpha was calculated to assess reliability. Common errors noted during QC include incorrect administration ages and prorated scoring not being accurately applied to observations with missing responses.
 
+## Instrument Details
 <p>
 <div id="behcgintknown-issues" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Known or Potential Issues</span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   </span>
   <span class="arrow">▸</span>
 </div>
@@ -88,7 +89,6 @@ QC procedures involved examining age to ensure that it falls within an expected 
 </div>
 </p>
 
-## Instrument Details
 ### ecPROMIS Child-Caregiver Interaction
 The ecPROMIS (Early Childhood Patient-Reported Outcome Measurement Information System) offers clinicians and researchers a brief, efficient, and precise way to evaluate young children’s well-being. One component is the Child-Caregiver Relationship Scale, which assesses the degree to which young children develop close, satisfying relationships with caregivers. 
 

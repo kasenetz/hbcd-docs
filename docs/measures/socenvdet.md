@@ -104,7 +104,7 @@ With the exception of PROMIS, all surveys, filled out by the parent, are child-u
 </tbody>
 </table>
 
-## Quality Control & Known Issues
+## Quality Control
 For the majority of instruments, the data dashboard was monitored for variable missingness, possible coding errors, scoring verification when needed, and data consistency - Neighborhood Safety was monitored only for missingness. No potential issues were identified via the QC procedures or flagged by subject matter experts for any survey.
 
 ## Instrument Details

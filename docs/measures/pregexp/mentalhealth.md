@@ -109,7 +109,7 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
 </table>
 
 
-## Quality Control & Known Issues
+## Quality Control
 For all mental health instruments, response distributions were reviewed for outliers and no common issues were identified. No potential issues were flagged by subject matter experts.
 
 ## Instrument Details

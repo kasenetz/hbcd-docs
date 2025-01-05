@@ -159,69 +159,101 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
 </tbody>
 </table>
 
-
-## Quality Control & Known Issues
-For quality control, response distributions were reviewed for outliers and no common issues were identified. However, subject matter experts note that there are potential issues relating to correct coding for (1) ICD codes from BioPortal ICD (used to capture reason(s) for medication use, ER visits, and hospitalizations), (2) symptom codes from World Health Organization, and (3) medication names from RxNORM. For instruments utilizing these coding systems, it was at times difficult for the participant to name or the RA to correctly find the correct code/name in a databases.
-
-**Below we note which instruments use one or more of these coding databases and were noted to have potential issues as a result. Subject matter experts provided these specific observations as well for the following instruments:**
-### Pregnancy Health-Illness      
-BioPortal ICD coding difficulty was particularly apparent for use of the ER for normal care (no diagnosis) or false alarms (e.g. thought water broke but it did not), resulting in the use of ‘don’t know.’
-
-### Pregnancy Health-Medications     
-The RxNORM database provided no option for coding preventive use, making it difficult to code aspirin use for preeclampsia. Aspirin was therefore specifically moved to the prenatal vitamin section a few months into the study. Some medications were also coded with dose, but this was not asked and should not be used.
-
+## Quality Control
+For quality control, response distributions were reviewed for outliers. 
 
 ## Instrument Details
-The following table outlines the information collected for each instrument and which database, if any, was used for coding (relevant to [Known Issues](#quality-control-known-issues) described above):
-
+<p>
+<div id="ph-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>Subject matter experts note that there are potential issues relating to correct coding for (1) ICD codes from BioPortal ICD (used to capture reason(s) for medication use, ER visits, and hospitalizations), (2) symptom codes from World Health Organization, and (3) medication names from RxNORM. For instruments utilizing these coding systems, it was at times difficult for the participant to name or the RA to correctly find the correct code/name in a databases. The following instruments were impacted:</p> 
  <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Information Collected</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Database</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Additional Notes</th>
+    </tr>
+  </thead>
+<tbody>          
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-Illness</td>
+        <td>BioPortal & WHO</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><small>Coding difficulty noted for use of the ER for normal care (no diagnosis) or false alarms (e.g. thought water broke but it did not), resulting in the use of ‘don’t know.’</small></td>
+    </tr>     
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-ER/Hospitalizations</td>
+        <td>BioPortal</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><small>None</small></td>
+    </tr>  
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-Medications</td>
+        <td>RxNORM</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><small>No option for preventive use made it difficult to code aspirin use for preeclampsia. Aspirin was specifically moved to the prenatal vitamin section a few months into the study. Some medications were also coded with dose, but this was not asked and should not be used.</small></td>
+    </tr>  
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-V2 (End of Pregnancy)</td>    
+        <td>BioPortal & RxNORM</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><small>None</small></td>
+    </tr>     
+    <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Infant health- V2</td>
+        <td>BioPortal & RxNORM</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><small>None</small></td>
+    </tr>   
+</tbody>
+</table>
+</div>
+</p>
+<br>
+
+ <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+ <caption style="font-weight: bold; text-align: left; font-style: normal;">Instrument Details</caption>
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Information Collected</th>
     </tr>
   </thead>
 <tbody>   
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Gravidity and parity, height and weight, pregnancy intentions, use of assisted reproductive technology, start of prenatal care, prenatal vitamin or aspirin use, and secondhand smoke</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NA</td>
     </tr>          
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-Vaccines</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Receipt of common vaccines in pregnancy and trimester received</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NA</td>
     </tr>    
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-Chronic Conditions</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Chronic conditions and sexually transmitted infections in pregnancy, including whether they are ongoing or resolved</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NA</td>
     </tr>  
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-Illness</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Covid-19 or other illnesses in pregnancy, including start and stop dates and whether the person had a fever</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">BioPortal & WHO</td>
     </tr>     
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-ER/Hospitalizations</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Occurrence(s) and reason(s) for ER visit(s) or hospitalization(s) during pregnancy</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">BioPortal</td>
     </tr>  
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-Medications</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Medications (prescription or over-the-counter) used since last menstrual period (name, indication, frequency, and start/stop date)</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">RxNORM</td>
     </tr>  
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-V2 (End of Pregnancy)</td>    
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Updates on prenatal vitamins, aspirin, infections, vaccines, medications (both ongoing and new), and illnesses. Also covers pregnancy complications (e.g., gestational diabetes), labor details, delivery method, place of delivery, and the length of hospital stay.</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">BioPortal & RxNORM</td>
     </tr>     
     <tr>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Infant health- V2</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Infant birth weight, length, hospital stay duration, newborn conditions (e.g. neonatal abstinence syndrome), birth defects, genetic diagnoses, NICU admission and stay, intubation, adverse outcomes (e.g. BPD, congenital syphilis), medications (name, indication, status), healthcare access, specialist visits, and newborn hearing test results</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">BioPortal & RxNORM</td>
     </tr>   
 </tbody>
 </table>

@@ -29,43 +29,50 @@ The current data release includes the following instruments:
 Sensor and associated questionaire data are collected during V02 and V03. Sensors are placed on the child by a research assistant during a visit and then worn for 72 hours, during which data were collected across typical activities in the natural environment.
 The child-specific Infant Sensor Questionnaire surveys (translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/)) were sent automatically to caregivers via their preferred method of contact (email or text message) marked by the research assistant during the visit.
 
+## Quality Control
+Raw calibration files were checked during active data collection to verify the presence of sufficient data for each of the six axes. For the 72-hour sensor as well as survey data, a random selection of files were manually reviewed on a weekly basis. Sensor data was checked for presence of data, labeling of right and left leg, and sampling rate used and surveys were checked to confirm presence of responses. Note that a small percentage of total files were reviewed due to the procedure being manual.
+
+Issues were generally rare for sensor data and most data were deemed to be present and accurately collected. Errors that did arise were corrected when possible (though this was typically not feasible). Common errors noted include inadequate or missing data (due to human error, technical issues, or a parent/legal guardian declining to participate in this aspect of the study), sensors being removed for extended periods during the 72-hour collection, and incorrect sampling rate.
+
+When no survey responses were received, research assistants were contacted to confirm whether the surveys had been sent to participants as intended. The most common cause of missing responses was caregiver non-response, and less commonly due to human error (preferred contact/contact method not selected by RA) or technological malfunction. 
+
 ## Instrument Details
 ### Wearable Sensors
-Infant leg movement data collected by wearable sensors for HBCD, which captures information related to motor behavior, physical activity, sleep. Wearable sensor data (accelerometer and gyroscope) were collected continuously over 72 hours from sensors placed on infants’ right and left ankles to estimate movement frequency, intensity, and sleep periods. Caregivers followed normal routines, removing sensors only for water exposure (e.g., baths) and replacing them afterward. Each sensor (Axivity AX6) was calibrated by recording 10 seconds on each of its six flat surfaces before data collection. Sensors recorded accelerometer (±16 g) and gyroscope (±2000 dps) data at 25 Hz, enabling estimates of sedentary, light, moderate-to-vigorous activity, and sleep. See [Pini et al. 2024](https://doi.org/10.1016/j.dcn.2024.101446) for a full measure description.
-
-#### Quality Control & Known Issues  
-Raw calibration files were checked during active data collection to verify the presence of sufficient data for each of the six axes. A random selection of 72-hour data files were reviewed on a weekly basis to check for the presence of data, labeling of right and left leg, and sampling rate used. Since the QC process is manual and visual, only a small percentage of files were reviewed each week.
-
-Quality control revealed that issues were generally rare and most data were deemed to be present and accurately collected. Errors that did arise were corrected when possible (though this was typically not feasible). 
-
 <p>
-<summary>Common QC errors include:</summary>
-<ul>
-    <li>Calibration files:
-        <ul>
-            <li>Inadequate data for each of the six axes, often due to human error</li>
-            <li>Missing data, caused by either human error or technical difficulties</li>
-        </ul>
-    </li>
-    <li>72-hour files:
-    <ul>
-        <li>Missing data, due to human error, technical issues, or a parent/legal guardian declining to participate in this aspect of the study</li>
-        <li>Sensors being removed for extended periods during the 72-hour collection</li>
-        <li>Incorrect sampling rate</li>
-    </ul>
-</ul>
+<div id="sensors-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>Subject matter experts would like users to note that accelerometer sensor timestamps can drift over time. Although right and left leg sensors start recording simultaneously with the same sampling rate and duration, exact time alignment cannot be assumed. By our estimates, Axivity AX6 sensors recording at 25 samples/sec diverge from one another by a couple of seconds over 72 hours, with the magnitude of this discrepancy increasing over time. Furthermore, offsets differed between sensors, necessitating a calibration procedure to correct for these differences (<a href="https://doi.org/10.3390/s24175736">Oh et al. 2024</a>).</p>
+
+<p>In addition, for raw data downloads, when calibration files are missing, it is technically possible to use a different set of calibration files from the same 2 sensors that were collected from a different data collection session close in time. For processed data downloads, when calibration files are missing, data are not processed. In analysis, users are advised to use caution in analyzing datasets with missing data.</p> 
+</div>
 </p>
 
-Subject matter experts would like users to note that accelerometer sensor timestamps can drift over time. Although right and left leg sensors start recording simultaneously with the same sampling rate and duration, exact time alignment cannot be assumed. By our estimates, Axivity AX6 sensors recording at 25 samples/sec diverge from one another by a couple of seconds over 72 hours, with the magnitude of this discrepancy increasing over time. Furthermore, offsets differed between sensors, necessitating a calibration procedure to correct for these differences ([Oh et al., 2024](https://doi.org/10.3390/s24175736)).
+Infant leg movement data collected by wearable sensors for HBCD, which captures information related to motor behavior, physical activity, sleep. Wearable sensor data (accelerometer and gyroscope) were collected continuously over 72 hours from sensors placed on infants’ right and left ankles to estimate movement frequency, intensity, and sleep periods. Caregivers followed normal routines, removing sensors only for water exposure (e.g., baths) and replacing them afterward. Each sensor (Axivity AX6) was calibrated by recording 10 seconds on each of its six flat surfaces before data collection. Sensors recorded accelerometer (±16 g) and gyroscope (±2000 dps) data at 25 Hz, enabling estimates of sedentary, light, moderate-to-vigorous activity, and sleep. See [Pini et al. 2024](https://doi.org/10.1016/j.dcn.2024.101446) for a full measure description.
 
-In addition, for raw data downloads, when calibration files are missing, it is technically possible to use a different set of calibration files from the same 2 sensors that were collected from a different data collection session close in time. For processed data downloads, when calibration files are missing, data are not processed. In analysis, users are advised to use caution in analyzing datasets with missing data.
 
 ### Infant Sensor Questionnaire
+<p>
+<div id="sens-quest-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>Researchers should consider that occurrence of caregiver non-response (see <a href="#quality-control">Quality Control</a>) may not be randomly distributed across the sample.</p>
+</div>
+</p>
+
 The Infant Sensor Questionnaire, developed by the HBCD Workgroup, is daily survey about infant heart rate and leg movement sensors that capture information about motor behavior, physical activity, and sleep. The survey is sent daily over 3 days while the infant wore heart rate and leg movement sensors to capture context for the recordings. Sent automatically to primary caregivers at 24, 48, and 72 hours, the survey covered the preceding 24 hours, asking if sensors were worn consistently and gathering information on daily activities (e.g., typicality of the day; nap and sleep duration; time spent in car seat, swing, or other restraining device; time in a moving car or stroller; and leg swaddling during sleep). See [Pini et al. 2024](https://doi.org/10.1016/j.dcn.2024.101446) for a full description of this measure. 
-
-#### Quality Control & Known Issues 
-A small percentage of surveys (due to the procedure being manual) were randomly spot-checked on a weekly basis to confirm presence of responses. When no responses were received, RAs were contacted to confirm whether the surveys had been sent to participants as intended. The most common cause of missing responses was caregiver non-response, and less commonly due to human error (preferred contact/contact method not selected by RA) or technological malfunction. Please consider that occurrence of caregiver non-response may not be randomly distributed across the sample.
-
 
 <details class="collapsible references">
   <summary class="references">References</summary>

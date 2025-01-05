@@ -29,8 +29,8 @@ The current data release includes the following toxicology screens collected fro
 </tbody>
 </table>
 
-## Quality Control & Known Issues
-QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were identified from QC. Potential issues identified by subject matter experts are described in the relevant instrument details sections below as needed and were specifcally noted for [NAILS](#nails-known-issues) and [URINE](#urine-known-issues).
+## Quality Control
+QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were observed from QC.
 
 ## Instrument Details
 ### BLOOD    
@@ -157,7 +157,7 @@ These data are the results of toxicology assays in dried blood spots collected a
 <div id="nails-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">NAILS: Known or Potential Issues</span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   </span>
   <span class="arrow">▸</span>
 </div>
@@ -730,15 +730,12 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 </p>  
 
 
-
-
-
 ### URINE
 <p>
 <div id="urine-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">URINE: Known or Potential Issues</span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   </span>
   <span class="arrow">▸</span>
 </div>

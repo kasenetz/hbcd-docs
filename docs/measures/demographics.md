@@ -14,10 +14,23 @@
 </div>
 </p>
 
-Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. The HBCD Study demographics survey is designed to gather comprehensive information on socioeconomic status and various demographic factors. Its primary purpose is to capture data on race, ethnicity, nativity, income, education, and occupation, as well as gender identity, sexual orientation, relationship status, primary residence, and household composition of the parent carrying the child, and some basic information on the other biological parent. Please see [Cioffredi et al. 2024](https://doi.org/10.1016/j.dcn.2024.101429) for a detailed description of the HBCD Demographics survey.
+<p>
+<div id="demo-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>Some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours).</p> 
+</div>
+</p>
 
-**Implementation & Data Collection Details**    
 The HBCD Demographic survey is administered by a research assistant in-person and takes approximately 10 minutes to complete. The current release includes survey information acquired during Visit 1 and will be repeated during Visit 4 for both the primary caregiver and the child. 
+
+Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. The HBCD Study demographics survey is designed to gather comprehensive information on socioeconomic status and various demographic factors. Its primary purpose is to capture data on race, ethnicity, nativity, income, education, and occupation, as well as gender identity, sexual orientation, relationship status, primary residence, and household composition of the parent carrying the child, and some basic information on the other biological parent. Please see [Cioffredi et al. 2024](https://doi.org/10.1016/j.dcn.2024.101429) for a detailed description of the HBCD Demographics survey.
 
 ## HBCD Modifications
 Below are alterations made to demographic constructs, informed by the HBCD Social and Environmental Determinants workgroup and Diversity, Equity, and Inclusion (DEI) Committee. The modifications wre made to reduce bias and capture a more inclusive and accurate breadth of demographic information, e.g. by correcting for embedded assumptions of heteronormative nuclear-family structures. 
@@ -53,11 +66,10 @@ Below are alterations made to demographic constructs, informed by the HBCD Socia
 </div>
 </p>
 
-## Quality Control & Known Issues
-QC was performed by monitoring the data dashboard for variable missingness and data consistency. The only common issue noted was high missingness for income, although this is in line with expectations. Subject matter experts flagged the following as a potential issue with this measure: RA reports show that some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours). 
+## Quality Control
+QC was performed by monitoring the data dashboard for variable missingness and data consistency. The only common QC issue noted was high missingness for income, although this is in line with expectations. 
 
 ## Demographic Protocol Sources & DEI Modifications
-
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
     <span class="text">Table 1. Demographics of Birth Parent</span>

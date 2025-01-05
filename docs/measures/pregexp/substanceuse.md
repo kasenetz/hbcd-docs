@@ -81,10 +81,8 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
 </tbody>
 </table>
 
-## Quality Control & Known Issues
+## Quality Control
 For all measures, QC procedures involved review of response distributions (crossed with TLFB for Assist V1/V2 and vice versa) for outlier detection. One common issue noted was that reported substances used on the TLFB were not always noted on the Assist V1/V2, which triggered a query to the site to correct it.
-
-Potential issues identified by subject matter experts and data use recommendations are described in the relevant instrument details sections below - see [ASSIST](#assist-known-issues) and [TLFB](#tlfb-known-issues).
 
 ## Instrument Details
 ### Assist V1/V2/V3
@@ -92,7 +90,7 @@ Potential issues identified by subject matter experts and data use recommendatio
 <div id="assist-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">ASSIST: Known Issues</span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   </span>
   <span class="arrow">▸</span>
 </div>
@@ -178,7 +176,7 @@ Finally, additional screening for substance use (within three months before or d
 <div id="tlfb-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">TLFB: Known Issues</span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   </span>
   <span class="arrow">▸</span>
 </div>

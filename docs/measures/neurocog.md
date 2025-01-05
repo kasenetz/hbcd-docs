@@ -52,33 +52,68 @@ All surveys are child-specific and filled out remotely by the primary caregiver.
 </tbody>
 </table>
 
+## Quality Control
+For MLDS, QC procedures involve monitoring frequency of decline to answer and completeness during data collection. Initial data showed that about 10% of questionnaires were not complete. For SPM-2, a measure expert periodically reviews data capture to ensure that items are being fully completed and scoring is spot checked to assure algorithms are being correctly employed. 
+
 ## Instrument Details
 ### MLDS
+<p>
+<div id="mlds-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>Subject matter experts did not identify any issues with MLDS. However, they emphasize that this measure assesses a child’s exposure to language to guide the selection of appropriate measures for their next in-person study visit. It estimates the percentage of time the child is exposed to languages in caregiving environments, based on caregiver reports. These estimates are approximate and also may not account for all languages the child encounters. The measure does not evaluate or quantify the child’s interactions or their expressive or receptive language skills in a given language, but rather provides an estimate of the time spent in environments where specific languages are spoken.</p> 
+</div>
+</p>
+
 The Multilingual Language Development Screener (MLDS) consists of questionnaires evaluating parental concerns about the child’s hearing and the presence of English, Spanish, or other languages in the child’s home and childcare environments. The measure estimates the child’s language exposure and identifies hearing concerns through forced-choice questions and sliding scales, which assess the percentage of time spent in various environments (i.e., home, daycare, other family member household, babysitter). Up to ten non-parental childcare arrangements were sampled.
 
 Designed specifically for HBCD, this measure informs assessment teams conducting neurocognitive and language evaluations. Responses help determine whether assessments are conducted in English or Spanish and identify potential challenges such as hearing impairments or other languages. Caregivers select their child’s language preference (English or Spanish) for in-person tasks like the NIH Baby Toolbox, Bayley-4, or Deferred Imitation. For the MacArthur-Bates Communicative Development Inventories (CDI), an algorithm determines whether it is administered in English, Spanish, both, or not at all.
 
-#### Scoring Procedures
-Total days per week and total hours per day were calculated for up to 10 non-parental childcare arrangements (Daycare, With Babysitter, With other family members outside of the household, and Other non-parental childcare arrangement). The language environment for each non-parental childcare arrangement was described based on the percentage of Spanish vs English spoken in the environment:
+<p>
+<div id="mlds-scoring-procedures" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="text">Scoring Procedures</span>
+  </span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>Total days per week and total hours per day were calculated for up to 10 non-parental childcare arrangements (Daycare, With Babysitter, With other family members outside of the household, and Other non-parental childcare arrangement). The language environment for each non-parental childcare arrangement was described based on the percentage of Spanish vs English spoken in the environment:</p>
 
-- **Only Spanish OR Only English**: ≥30% of language AND <30% of the other language is spoken     
-- **Both Spanish & English**: ≥30% of both languages are spoken       
-- **Neither**: <30% of Spanish and <30% English spoken
+<ul>
+  <li><strong>Only Spanish OR Only English</strong>: ≥30% of language AND &lt;30% of the other language is spoken</li>
+  <li><strong>Both Spanish &amp; English</strong>: ≥30% of both languages are spoken</li>
+  <li><strong>Neither</strong>: &lt;30% of Spanish and &lt;30% English spoken</li>
+</ul>
 
-The total frequency of Spanish and English was computed by multiplying the percentage of English and Spanish language provided per environment by the total hours per week in both the home and other care environments. The values are provided for home and for the overall total child experience, combining home and other care environments. 
-
-#### Quality Control & Known Issues
-For QC, frequency of decline to answer and completeness was monitored during data collection. A common issue identified was that initial data shows that about 10% of questionnaires were not complete.
-
-Subject matter experts wish to remind researchers that this measure assesses a child’s exposure to language to guide the selection of appropriate measures for their next in-person study visit. It estimates the percentage of time the child is exposed to languages in caregiving environments, based on caregiver reports. These estimates are approximate and also may not account for all languages the child encounters. The measure does not evaluate or quantify the child’s interactions or their expressive or receptive language skills in a given language, but rather provides an estimate of the time spent in environments where specific languages are spoken.
+<p>The total frequency of Spanish and English was computed by multiplying the percentage of English and Spanish language provided per environment by the total hours per week in both the home and other care environments. The values are provided for home and for the overall total child experience, combining home and other care environments.</p>
+</div>
+</p> 
 
 ### SPM-2
+<p>
+<div id="spm2-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span>
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>The "Decline to answer" instructions were updated November 8, 2024 to differentiate from behaviors that have never been seen (i.e. developmentally inappropriate). Therefore, "Decline to answer" is not an option available to individuals who completed this form in the reference sample from which the standard scores were derived.</p> 
+</div>
+</p>
+
 The Sensory Processing Measure – Infant/Toddler (SPM-2) is designed to assess whether a child’s nervous system integrates visual, auditory, tactile, olfactory, gustatory, vestibular, and proprioceptive sensory information from the body and environment efficiently and effectively.  Effective sensory processing contributes to the development of emotion regulation, motor skills, and social relatedness. Difficulties in the integration of sensory information can hinder the development of these skills and higher-level functions such as learning to plan and organize behaviors. The sensory systems serve as foundation for increasingly more complex behaviors and are critical to development.
 
 This questionnaire asks about the ways the child sensory systems contribute to daily functioning. The caregiver selects whether their child’s behavior during the past month never, occasionally, frequently, or always resembles the behavior described. Seven sensory domains are assessed as well as functions related to ideas/planning and social relatedness.
-
-#### Quality Control & Known Issues
-For QC, a measure expert periodically reviews data capture to ensure that items are being fully completed and scoring is spot checked to assure algorithms are being correctly employed. One common QC issue identified by subject matter experts was that the "Decline to answer" instructions were updated to differentiate from behaviors that have never been seen (i.e. developmentally inappropriate).
 
 <details class="collapsible references">
   <summary class="references">References</summary>
