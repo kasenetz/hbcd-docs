@@ -37,7 +37,7 @@ QC procedures involved examining assay ranges and categorical versus continuous 
 These data are the results of toxicology assays in dried blood spots collected at V1. Processing of Blood Spot Cards consists of preparing three 1/8” punches of dried blood spot followed by extraction using an organic solvent. Detection of PETH in the extract is accomplished with a single pass using LCMSMS (**Figure 1**):
 
 **Figure 1. Blood Processing**
-<img src="../biospec_images/Fig1_blood.png" width="100%" height="auto">
+<img src="../../images/biospec/Fig1_blood.png" width="100%" height="auto">
 
 <br>
 
@@ -157,7 +157,7 @@ These data are the results of toxicology assays in dried blood spots collected a
 <div id="nails-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">NAILS: Known Issues</span>
+    <span class="text">NAILS: Known or Potential Issues</span>
   </span>
   <span class="arrow">▸</span>
 </div>
@@ -169,7 +169,7 @@ These data are the results of toxicology assays in dried blood spots collected a
 
 This dataset includes the results of toxicology assays conducted on fingernails and toenails. Specimens are sorted by weight, and those weighing at least 20 mg undergo ELISA screening, followed by LCMSMS confirmation for presumptive positives, each requiring an additional 20 mg. If insufficient specimen remains for LCMSMS, the remnant ELISA extract is used for confirmation.
 
-<img src="../biospec_images/Fig1_nails.png" width="100%" height="auto">
+<img src="../../images/biospec/Fig1_nails.png" width="100%" height="auto">
 
 <p>
 <div id="usdtl-assay-details" class="notification-banner" onclick="toggleCollapse(this)">
@@ -738,7 +738,7 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 <div id="urine-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">URINE: Known Issues</span>
+    <span class="text">URINE: Known or Potential Issues</span>
   </span>
   <span class="arrow">▸</span>
 </div>
@@ -749,10 +749,10 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 </p>
 
 These data are the results of urine toxicology assays. Test results for substances were determined to be positive or negative based on predefined thresholds, or invalid (for specimens identified as dilute, substituted, adulterated, or otherwise insufficient based on validation).
-<img src="../biospec_images/Fig1_biospec_urine.png" width="90%" height="auto">
+<img src="../../images/biospec/Fig1_biospec_urine.png" width="90%" height="auto">
 
 Validation is based on creatinine, pH, and nitrite measurements. Specimens with low creatinine (<20 mg/dL) are confirmed using specific gravity via refractometer (decision grid below), and the creatinine analysis is repeated to rule out issues with the first analysis (e.g. sample mix-ups, air bubble in a line on the instrument, etc.):
-<img src="../biospec_images/Table1_biospec_urine.png" width="90%" height="auto">
+<img src="../../images/biospec/Table1_biospec_urine.png" width="90%" height="auto">
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
