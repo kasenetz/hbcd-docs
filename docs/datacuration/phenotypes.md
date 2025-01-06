@@ -58,7 +58,7 @@ Caregiver Type is included in demographic information as well. The cohort types 
 	</tr>
 	<tr>
 		<td>Type B</td>
-		<td style="word-wrap: break-word; white-space: normal;">Change in Primary Caregiver (Placement Only) Without Change in Legal Custody (But BP Unable to Complete Visit)</td>
+		<td style="word-wrap: break-word; white-space: normal;">Change in Primary Caregiver (Placement Only) Without Change in Legal Custody (But Birth Parent Unable to Complete Visit)</td>
 	</tr>
 	<tr>
 		<td>Type C</td>
@@ -66,7 +66,7 @@ Caregiver Type is included in demographic information as well. The cohort types 
 	</tr>
 	<tr>
 		<td>Type D</td>
-		<td style="word-wrap: break-word; white-space: normal;">Child Removed From BP and Placed in Foster Care (Change in Placement)</td>
+		<td style="word-wrap: break-word; white-space: normal;">Child Removed From Birth Parent and Placed in Foster Care (Change in Placement)</td>
 	</tr>
 	<tr>
 		<td>Type E</td>

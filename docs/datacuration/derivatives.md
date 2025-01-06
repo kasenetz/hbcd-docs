@@ -324,8 +324,88 @@ dwi/
 figures/
 ```
 
-## QSIRecon (`qsirecon/`) 🚧 
+## QSIRecon (`qsirecon/`)
 QSIPrep derivatives are passed to QSIRecon for reconstruction, including ODF/FOD reconstruction, tractography, Fixel estimation and regional connectivity. Please see their [webpage](https://qsirecon.readthedocs.io/en/latest/) for a detailed description of the derivatives.
+
+### qsirecon-DIPYDKI
+*Labels for `MDP` (`mdp-<MDP>`) include `AD`, `AK`, `KFA`, `MD`, `MKT`, `MK`, `RD`, & `RK`*
+```
+dwi/
+|__ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-dki_mdp-<MPD>_dwimap.nii.gz
+|__ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mdp-FA_dwimap.nii.gz
+|__ sub-<L>_ses-<L>_space-T1w_desc-preproc_bundles-DSIStudio_scalarstats.tsv
+|__ sub-<L>_ses-<L>_space-T1w_desc-preproc_model-dki_mdp-<MDP>_dwimap.nii.gz
+|__ sub-<L>_ses-<L>_space-T1w_desc-preproc_model-tensor_mdp-FA_dwimap.nii.gz
+```
+
+### qsirecon-DSIStudio
+- *Labels for `MDP` (`mdp-<MDP>`) include `ad`, `fa`, `ha`, `md`, & `rd`*
+- *Labels for `MFP` (`mfp-<MFP>`) include `txx`, `txy`, `tyy`, `tyz`, & `tzz`*
+- *Labels for `ASSOC` (`Association_<ASSOC>`) include `ArcuateFasciculus<L|R>`, `FrontalAslantTract<L|R>`, `InferiorFrontoOccipitalFasciculus<L|R>`, `InferiorLongitudinalFasciculus<L|R>`, `MiddleLongitudinalFasciculus<L|R>`, `ParietalAslantTract<L|R>`, `UncinateFasciculus<L|R>`, & `VerticalOccipitalFasciculus<L|R>`*
+- *Labels for `PBG` (`ProjectionBasalGanglia_<PBG>`) include `FasciculusLenticularis<L|R>`, `FasciculusSubthalamicus<L|R>`, `Fornix<L|R>`, & `OpticRadiation<L|R>`*
+- *Labels for `PB` (`ProjectionBrainstem_<PB>`) include `CorticospinalTract<L|R>` & `ReticularTract<L|R>`*
+
+```
+dwi/
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_fit-GQI_mdp-gfa_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_fit-GQI_mdp-iso_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-GQI_mdp-qa_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-RDI_mdp-rd<1|2>_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mdp-<MPD>_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mfp-<MFP>_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_bundle-Association_<ASSOC>_streamlines.tck
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_bundle-ProjectionBasalGanglia_<PBG>_streamlines.tck
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_bundle-ProjectionBrainstem_<PB>_streamlines.tck
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_bundles-DSIStudio_scalarstats.tsv
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_bundles-DSIStudio_tdistats.tsv
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_bundlestats.csv
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_dwimap.fib.gz
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_fit-GQI_mdp-gfa_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_fit-GQI_mdp-iso_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_mapping.map.gz
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_model-GQI_mdp-qa_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_model-RDI_mdp-rd<1|2>_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_model-tensor_mdp-<MDP>_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_model-tensor_mfp-<MFP>_dwimap.nii.gz
+```
+
+### qsirecon-NODDI
+```
+dwi/
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-noddi_mdp-icvf_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-noddi_mdp-isovf_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-noddi_mdp-od_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_bundles-DSIStudio_scalarstats.tsv
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_dwimap.fib.gz
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_model-NODDI_mfp-AMICOconfig_dwimap.pickle.gz
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_model-noddi_mdp-<MDP>_dwimap.nii.gz
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_model-noddi_mfp-direction_dwimap.nii.gz
+```
+
+### qsirecon-TORTOISE_model-MAPMRI
+- *Labels for `MDP` (`model-mapmri_mdp-<MDP>`) include `NG`, `NGpar`, `NGPerp`, `PA`, `PAth`, `RTAP`, `RTOP`, & `RTPP`*
+- *Labels for `TMDP` (`model-tensor_mdp-<TMDP>`) include `ad`, `fa`, `li`, & `rd`*
+```
+dwi/
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-mapmri_mdp-<MDP>_dwimap.nii
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mdp-<TMDP>_dwimap.nii
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mfp-AM_dwimap.nii
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_bundles-DSIStudio_scalarstats.tsv
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_model-mapmri_mdp-<MDP>_dwimap.nii
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_model-tensor_mdp-<TMDP>_dwimap.nii
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_model-tensor_mfp-AM_dwimap.nii
+```
+
+### qsirecon-TORTOISE_model-tensor
+- *Labels for `TMDP` (`model-tensor_mdp-<TMDP>`) include `ad`, `fa`, `li`, & `rd`*
+```
+dwi/
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mdp-<TMDP>_dwimap.nii
+|_ sub-<L>_ses-<L>_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mfp-AM_dwimap.nii
+|_ sub-<L>_ses-<L>_space-T1w_desc-preproc_bundles-DSIStudio_scalarstats.tsv
+```
+
+
 
 ## SyMRI (`symri/`)
 [SyMRI](https://syntheticmr.com/products/symri-neuro/) is proprietary software for quantitative MRI. For HBCD it is used to generate synthetic contrast weighted images derived from measures of the absolute properties of [QALAS](https://pubmed.ncbi.nlm.nih.gov/25526880/) brain images. These outputs are then minimally preprocessed by [qMRI Postproc](#qmri-postproc-qmri_postproc). Files include synthetic T1w and T2w images (`sub-<L>_ses-<L>_acq-QALAS_<T1w|T2w>.nii.gz`), derived relaxometry maps (`sub-<L>_ses-<L>_acq-QALAS_T2map.nii.gz`).
