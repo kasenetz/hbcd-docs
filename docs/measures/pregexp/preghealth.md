@@ -20,37 +20,37 @@ The current data release for Pregnancy & Exposure, Including Substance Use, incl
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__healthhx</td>
     </tr>          
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">PH-Vaccines</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-Vaccines</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Vacc</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Vaccines in pregnancy</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__exp__vacc</td>
     </tr>    
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">PH-Chronic Conditions</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-Chronic Conditions</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Exp I chroncond</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Chronic conditions and sexually transmitted infections in pregnancy</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__chroncond</td>
     </tr>  
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">PH-Illness</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-Illness</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Exp I illness</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Illness in pregnancy</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__illness</td>
     </tr>     
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">PH-ER/Hospitalizations</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-ER/Hospitalizations</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Exp I ERhosp</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">ER visit or hospitalization in pregnancy</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__erhosp</td>
     </tr>  
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">PH-Medications</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-Medications</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Exp I Meds</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Prescription and over the counter medications in pregnancy</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__meds</td>
     </tr>  
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">PH-V2 (End of Pregnancy)</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-V2 (End of Pregnancy)</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Healthv2 Preg</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Updates information between enrollment and delivery</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_healthv2_preg</td>
@@ -109,43 +109,43 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
   </thead>
 <tbody>
     <tr>
-        <td>Pregnancy Health (PH)</td>
+        <td>Pregnancy Health</td>
         <td>Self</td>
         <td>V01</td>
         <td>5 min</td>
     </tr>    
     <tr>
-        <td>PH-Vaccines</td>
+        <td>Pregnancy Health-Vaccines</td>
         <td>Self</td>
         <td>V01</td>
         <td>3 min</td>
     </tr>      
     <tr>
-        <td>PH-Chronic Conditions</td>
+        <td>Pregnancy Health-Chronic Conditions</td>
         <td>Self</td>
         <td>V01</td>
         <td>3 min</td>
     </tr>      
     <tr>
-        <td>PH-Illness</td>
+        <td>Pregnancy Health-Illness</td>
         <td>RA</td>
         <td>V01</td>
         <td>3 min</td>
     </tr>          
     <tr>
-        <td>PH-ER</td>
+        <td>Pregnancy Health-ER</td>
         <td>RA</td>
         <td>V01</td>
         <td>5 min</td>
     </tr>       
     <tr>
-        <td>PH-Medications</td>
+        <td>Pregnancy Health-Medications</td>
         <td>RA</td>
         <td>V01</td>
         <td>5 min</td>
     </tr>       
     <tr>
-        <td>PH-V2</td>
+        <td>Pregnancy Health-V2</td>
         <td>RA</td>
         <td>V02</td>
         <td>10 min</td>
@@ -182,22 +182,22 @@ For quality control, response distributions were reviewed for outliers.
   </thead>
 <tbody>          
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-Illness</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-Illness</td>
         <td>BioPortal & WHO</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><small>Coding difficulty noted for use of the ER for normal care (no diagnosis) or false alarms (e.g. thought water broke but it did not), resulting in the use of ‘don’t know.’</small></td>
     </tr>     
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-ER/Hospitalizations</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-ER/Hospitalizations</td>
         <td>BioPortal</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><small>None</small></td>
     </tr>  
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-Medications</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-Medications</td>
         <td>RxNORM</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><small>No option for preventive use made it difficult to code aspirin use for preeclampsia. Aspirin was specifically moved to the prenatal vitamin section a few months into the study. Some medications were also coded with dose, but this was not asked and should not be used.</small></td>
     </tr>  
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-V2 (End of Pregnancy)</td>    
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-V2 (End of Pregnancy)</td>    
         <td>BioPortal & RxNORM</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><small>None</small></td>
     </tr>     
@@ -225,27 +225,27 @@ For quality control, response distributions were reviewed for outliers.
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Gravidity and parity, height and weight, pregnancy intentions, use of assisted reproductive technology, start of prenatal care, prenatal vitamin or aspirin use, and secondhand smoke</td>
     </tr>          
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-Vaccines</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-Vaccines</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Receipt of common vaccines in pregnancy and trimester received</td>
     </tr>    
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-Chronic Conditions</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-Chronic Conditions</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Chronic conditions and sexually transmitted infections in pregnancy, including whether they are ongoing or resolved</td>
     </tr>  
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-Illness</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-Illness</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Covid-19 or other illnesses in pregnancy, including start and stop dates and whether the person had a fever</td>
     </tr>     
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-ER/Hospitalizations</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-ER/Hospitalizations</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Occurrence(s) and reason(s) for ER visit(s) or hospitalization(s) during pregnancy</td>
     </tr>  
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-Medications</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-Medications</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Medications (prescription or over-the-counter) used since last menstrual period (name, indication, frequency, and start/stop date)</td>
     </tr>  
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">PH-V2 (End of Pregnancy)</td>    
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-V2 (End of Pregnancy)</td>    
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Updates on prenatal vitamins, aspirin, infections, vaccines, medications (both ongoing and new), and illnesses. Also covers pregnancy complications (e.g., gestational diabetes), labor details, delivery method, place of delivery, and the length of hospital stay.</td>
     </tr>     
     <tr>

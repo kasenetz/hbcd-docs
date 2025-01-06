@@ -72,9 +72,8 @@
   font-size: 1rem; 
   font-weight: bold; 
   text-align-last: left;
-  margin-right: 20px; /* Adds space between text and the arrow */
+  margin-right: 10px; /* Adds space between text and the arrow */
   word-wrap: break-word; /* Ensures text wraps if too long */
-  hyphens: auto;
 }
 
 /* Individual Collapsible Banner Settings */

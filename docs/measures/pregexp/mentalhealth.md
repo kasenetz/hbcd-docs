@@ -71,8 +71,8 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th
-      <th sty>le="border: 1px solid #ddd; padding: 8px; text-align: left;">Respondent</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Respondent</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Visits</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Completion Time</th>      
     </tr>
