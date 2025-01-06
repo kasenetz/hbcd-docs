@@ -1,10 +1,8 @@
 # How To Access HBCD Data
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">NOTIFICATION: Potential Data Access Issues</span>
-  </span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">NOTIFICATION: Potential Data Access Issues</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
