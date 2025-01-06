@@ -14,10 +14,8 @@
 
 <p>
 <div id="demo-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  </span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -35,7 +33,7 @@ Below are alterations made to demographic constructs, informed by the HBCD Socia
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">DEI Alterations/Modifications</span>
+  <span class="text">DEI Alterations/Modifications</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -70,7 +68,7 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 ## Demographic Protocol Sources & DEI Modifications
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Table 1. Demographics of Birth Parent</span>
+  <span class="text">Table 1. Demographics of Birth Parent</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -196,7 +194,7 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Table 2. Demographics of Other Biological Parent</span>
+  <span class="text">Table 2. Demographics of Other Biological Parent</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

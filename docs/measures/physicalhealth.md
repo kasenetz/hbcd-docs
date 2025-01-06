@@ -73,10 +73,8 @@ The QC procedures for all three measures involved monitoring the data dashboard 
 ### Breastfeeding     
 <p>
 <div id="bf-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  </span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -90,10 +88,8 @@ Breastfeeding measures initiation, exclusivity, and cessation of breast milk fee
 ### Food Insecurity
 <p>
 <div id="foodins-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  </span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

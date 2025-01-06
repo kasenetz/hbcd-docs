@@ -59,10 +59,8 @@ For MLDS, QC procedures involve monitoring frequency of decline to answer and co
 ### MLDS
 <p>
 <div id="mlds-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  </span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -77,9 +75,7 @@ Designed specifically for HBCD, this measure informs assessment teams conducting
 
 <p>
 <div id="mlds-scoring-procedures" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="text">Scoring Procedures</span>
-  </span>
+  <span class="text">Scoring Procedures</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -99,10 +95,8 @@ Designed specifically for HBCD, this measure informs assessment teams conducting
 ### SPM-2
 <p>
 <div id="spm2-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  </span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

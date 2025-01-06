@@ -40,10 +40,8 @@ When no survey responses were received, research assistants were contacted to co
 ### Wearable Sensors
 <p>
 <div id="sensors-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  </span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -60,10 +58,8 @@ Infant leg movement data collected by wearable sensors for HBCD, which captures 
 ### Infant Sensor Questionnaire
 <p>
 <div id="sens-quest-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  </span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

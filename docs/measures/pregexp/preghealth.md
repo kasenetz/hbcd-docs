@@ -165,10 +165,8 @@ For quality control, response distributions were reviewed for outliers.
 ## Instrument Details
 <p>
 <div id="ph-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  </span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -212,10 +210,9 @@ For quality control, response distributions were reviewed for outliers.
 </table>
 </div>
 </p>
-<br>
 
+**Instrument details are as follows:**
  <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
- <caption style="font-weight: bold; text-align: left; font-style: normal;">Instrument Details</caption>
   <thead>
     <tr>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>

@@ -75,9 +75,7 @@ For HBCD, BrainSwipes is currently used for QA of images derived from visual rep
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="text">BrainSwipes QC Procedures</span>
-  </span>
+  <span class="text">BrainSwipes QC Procedures</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

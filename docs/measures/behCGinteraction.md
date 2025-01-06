@@ -77,10 +77,8 @@ QC procedures involved examining age to ensure that it falls within an expected 
 ## Instrument Details
 <p>
 <div id="behcgintknown-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  </span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -95,9 +93,7 @@ The ecPROMIS (Early Childhood Patient-Reported Outcome Measurement Information S
 The **ecPROMIS Child-Caregiver Relationship Form (Infancy: < 1 year)** was developed for HBCD based on this scale (specifically the *ecPROMIS Parent-Report Short Form v1.0 - Social Relationships – Child-Caregiver Interactions 5a Form*) with updated language to make the items suitable for the pre-V03 age range (3 to 9 months) (i.e. the term ‘my child’ was replaced with 'my baby,' per the guidance of ecPROMIS developers, as the original measure was designed for 1-5 year old children).
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="text">Scoring Procedures</span>
-  </span>
+  <span class="text">Scoring Procedures</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -113,7 +109,7 @@ In addition to the overall *Surgency, Negative Affect and Effortful Control* sca
 
 <p>
 <div id="BIscaleitems" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">BI Scale Items</span>
+  <span class="text">BI Scale Items</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -135,9 +131,7 @@ In addition to the overall *Surgency, Negative Affect and Effortful Control* sca
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="text">Scoring Procedures</span>
-  </span>
+  <span class="text">Scoring Procedures</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -156,9 +150,7 @@ Multidimensional Assessment Profiles- Temper Loss scale (MAPS-TL) is a well-vali
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="text">Scoring Procedures</span>
-  </span>
+  <span class="text">Scoring Procedures</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">

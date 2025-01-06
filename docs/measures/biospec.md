@@ -43,9 +43,7 @@ These data are the results of toxicology assays in dried blood spots collected a
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="text">PEth Assay Details</span>
-  </span>
+  <span class="text">PEth Assay Details</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -155,9 +153,8 @@ These data are the results of toxicology assays in dried blood spots collected a
 ### NAILS
 <p>
 <div id="nails-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   </span>
   <span class="arrow">▸</span>
 </div>
@@ -173,9 +170,7 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 
 <p>
 <div id="usdtl-assay-details" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="text">USDTL Assay Details</span>
-  </span>
+  <span class="text">USDTL Assay Details</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -733,10 +728,8 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 ### URINE
 <p>
 <div id="urine-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  </span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

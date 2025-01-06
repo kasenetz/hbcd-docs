@@ -88,10 +88,8 @@ For all measures, QC procedures involved review of response distributions (cross
 ### Assist V1/V2/V3
 <p>
 <div id="assist-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  </span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -133,7 +131,7 @@ The list of substances was also greatly expanded for HBCD. For each substance, p
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Assist Substance Type Options</span>
+  <span class="text">Assist Substance Type Options</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -174,10 +172,8 @@ Finally, additional screening for substance use (within three months before or d
 ### TLFB
 <p>
 <div id="tlfb-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  </span>
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

@@ -10,15 +10,6 @@
   justify-content: flex-start;
   align-items: flex-start; /* Aligns emoji with the first line of text */
 }
-.banner .emoji {
-  font-size: 1.5rem; 
-  margin-right: 10px;
-  color: #14b955;
-}
-.banner .text {
-  font-size: 1rem;
-  font-weight: bold;
-}
 
 /* General Collapsible Banner Settings */
 /* collapsible content */
