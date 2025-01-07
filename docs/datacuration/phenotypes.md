@@ -1,5 +1,4 @@
 # Phenotype BIDS Data
-
 The `phenotype/` folder includes instrument data, visit data, biosample, and demographics information for all participants, each of which include a `tsv` data file and associated `json` file with explanation of the data fields. 
 ```
 root/

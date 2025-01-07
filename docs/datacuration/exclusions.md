@@ -1,8 +1,7 @@
 # Exclusion Criteria 
 
-
 ## IMAGING
-Quality control metrics for raw MRI images, generated according to the procedures outlined [here](../measures/mri/index.md), are provided in the `scans.tsv` file within the session folder. Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional quality checks to ensure data integrity. For instance, all images were verified to be acquired using a head coil before inclusion in the BIDS dataset. Additional exclusion criteria for each imaging modality are detailed below.
+Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional quality checks to ensure data integrity. For instance, all images were verified to be acquired using a head coil before inclusion in the BIDS dataset. Additional exclusion criteria for each imaging modality, parsed from the image JSON files, are as follows:
 
 <p>
 <div id="exclusions-dropdown" class="notification-banner" onclick="toggleCollapse(this)">
