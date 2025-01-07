@@ -273,7 +273,7 @@ qmri_postproc/
 ```
 
 ## QSIPrep (`qsiprep/`) 
-The QSIPrep pipeline is used for preprocessing the HBCD diffusion-weighted MRI (dMRI) data. Preprocessing includes head motion correction, susceptibility distortion correction, MP-PCA denoising, coregistration to T1w images, ANTS spatial normalization, and tissue segmentation. The QSIPrep derivatives are then passed to [QSIRecon](#qsirecon-qsirecon) for reconstruction. Please see a full description of this pipeline on their [webpage](https://qsiprep.readthedocs.io/en/latest/). Below, for readability, the `figures/` folder contents (contains all `svg` and `gif` files rendered in the visual report) are not listed. Actual filenames may also include `run-<label>`. 
+The QSIPrep pipeline is used for preprocessing the HBCD diffusion-weighted MRI (dMRI) data. Preprocessing includes head motion correction, susceptibility distortion correction, MP-PCA denoising, coregistration to T1w images, ANTS spatial normalization, and tissue segmentation. The QSIPrep derivatives are then passed to [QSIRecon](#qsirecon) for reconstruction. Please see a full description of this pipeline on their [webpage](https://qsiprep.readthedocs.io/en/latest/). Below, for readability, the `figures/` folder contents (contains all `svg` and `gif` files rendered in the visual report) are not listed. Actual filenames may also include `run-<label>`. 
 
 ```
 qsiprep/
