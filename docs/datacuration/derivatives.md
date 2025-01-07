@@ -143,7 +143,7 @@ Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and fun
   <ul>
     <li><b>&ltSPACE&gt</b> label values: <code>MNI152NLin6Asym_res-2</code>, <code>T2w</code></li>
     <li><b>&ltFMAPID&gt</b> label values: <code>auto00000</code>, <code>auto00001</code>, <code>auto00002</code>, & <code>auto000003</code>, <code>auto000004</code></li>
-    </ul>
+  </ul>
 </details>
 ```
 nibabies/

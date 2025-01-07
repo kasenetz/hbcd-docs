@@ -174,12 +174,11 @@
   color: #0077cc;
 }
 
-
-/* References Banner - UNDER CONSTRUCTION */
+/* References sections */
 .references-banner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  border: 1px solid #3333331a;
   padding: 4px 20px;
   border-radius: 5px;
   font-family: Lato; 
@@ -190,27 +189,18 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
+  background-color: #fff;
+  border: 1px solid #3333331a;
   border-top: none;
-  padding: 0 20px;
+  padding: 20px 20px;
   border-radius: 0 0 5px 5px;
 }
 .references-collapsible-content.open {
   max-height: none;
 }
-.references-text {
-  font-size: 1.5rem; 
-  font-weight: bold; 
+/* Optional: Specific styles for text elements inside collapsible content */
+.references-collapsible-content p,
+.references-collapsible-content li {
+  font-size: 14px; /* Adjust the text size for <p> and <li> if necessary */
+  line-height: 1.6; /* Adjust line spacing for better readability */
 }
-.references-arrow {
-  font-size: 1.8rem;
-  transition: transform 0.3s ease;
-  display: inline-block;
-  transform-origin: center;
-  color: #505050;
-  margin-left: auto; /* Pushes the arrow to the right */
-}
-.references-arrow.rotate {
-  transform: rotate(90deg);
-}
-
-
