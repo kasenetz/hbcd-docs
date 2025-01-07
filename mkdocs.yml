@@ -21,6 +21,7 @@ extra_javascript:
 extra_css:
   - css/custom.css
   - css/banners.css
+  - css/legends.css
   - css/headers.css
   - css/tables.css
   - overrides/styles.css
