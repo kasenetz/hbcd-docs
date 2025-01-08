@@ -1,4 +1,17 @@
 # Functional MRI (fMRI)
+<p>
+<div id="behcgintknown-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>🚧 UNDER CONSTRUCTION 🚧</p> 
+<p>An issue was discovered related to signal intensity clipping in a portion of Philips fMRI scans where high intensity values are clipped to a maximum value (4095) due to a scaling issue in the real-time recon. These images can be characterized by hyperintense regions, often at the maximum intensity, that drown out the signal of the grey and white matter in that region. Note that this will have consequences for derived measures such as ROI-ROI correlations.</p> 
+<p>Values of over 3700 for <code>brain_median</code> (provided in the <a href="../../../datacuration/rawbids/#participant-session-scan-level-data"><code>scans.tsv</code> file</a>) serves as a predictor of clipping artifacts. The most severe cases also typically fail manual QC (<code>QC</code>=0), however less severe cases typically pass (<code>QC</code>=1) as it is not necessarily noticeable through visual inspection.</p> 
+</div>
+</p>
 
 Whole-brain functional activity as measured by functional magnetic resonance imaging (fMRI). The blood oxygen level dependent (BOLD) signal is measured at each voxel in 2mm isotropic space with a repetition time (TR) of 1725 ms and multi-band (MB) factor of 4. 
 

@@ -101,6 +101,17 @@ Breastfeeding measures initiation, exclusivity, and cessation of breast milk fee
 Food Insecurity, based on two items assessing the availability of food, is a screening measure used across many populations indicating risk of food insecurity in the last 12 months. Each question uses the same response options. This measure was modified slightly for HBCD to use gender-neutral terms (children are referred to as “the child” in place of gendered pronouns) as well as inclusion of "Don't know" as a response option to survey questions.
 
 ### Growth   
+<p>
+<div id="bf-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>Please note that range checks were implemented in the database on 7/1/2024 so are not reflected in data included in the first data release. Outliers are possible.</p> 
+</div>
+</p>
 Growth is a standard direct measure of child height or length (in cm), weight (in kg), head circumference (cm). In older children, it will also include abdominal circumference (cm).
 
 <p>
