@@ -1,15 +1,11 @@
 # Exclusion Criteria 
 
 ## IMAGING
-Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional quality checks to ensure data integrity. All images verified to be acquired using a head coil before inclusion in the BIDS dataset. Modality-specific criteria, parsed from the image JSON files, are as follows:
+**Only raw BIDS image data files that pass quality control (QC=1 from the `scans.tsv` file) are included in the data release and used for subsequent processing.** Please see [Raw MR Data QC](../measures/mri/qc.md#raw-mr-data-qc) for details on the QC procedures.
 
-<p>
-<div id="exclusions-dropdown" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Inclusion Criteria</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="collapsible-content">
-<br>
+In addition, following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional checks to ensure data integrity. All images are verified to be acquired using a head coil before inclusion in the BIDS dataset. Modality-specific inclusion criteria, parsed from the image JSON files, are as follows:
+
+<p style="font-size: 1.2em; margin: 0 0 5px;"><u>Acquisition Parameter Ranges for Data Release Eligibility</u></p>
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
 <tfoot><tr><td colspan="6"><b>**</b><i>Number of volumes between DWI AP and DWI PA</i></td></tr></tfoot>
   <thead>
@@ -69,88 +65,10 @@ Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additi
     <td>0.0369 - 0.0371</td>
 		<td>NA</td>    
     <td>2</td>  
-    <td style="word-wrap: break-word; white-space: normal;">≥87 (~2.5 min)</td>   
+    <td>≥87 (~2.5 min)</td>   
 	</tr>  
 </tbody>
 </table>
-</div>
-</p>
-
-<p>
-<div id="exclusions-dropdown" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Exclusion Criteria</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="collapsible-content">
-<br>
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">File</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Exclusion Criteria</th>     
-    </tr>
-  </thead>
-<tbody>
-	<tr>
-		<td>T1w</td>
-		<td>
-      <ul>
-        <li>TR outside of range 2.3-2.41</li>
-        <li>TE outside of range 0.002-0.0035</li>
-        <li>TI outside of range 1.06-1.1</li>
-        <li>Slice thickness not being 0.8</li>
-      </ul>
-    </td>
-	</tr>
-	<tr>
-		<td>T2w & MRS Localizer</td>
-		<td>
-      <ul>
-        <li>TR outside of range 2.5-4.5</li>
-        <li>TE outside of range 0.09-0.15</li>
-        <li>TI outside of range 0.29-0.33</li>
-        <li>Slice thickness outside of range 0.563-0.565</li>
-      </ul>
-    </td>
-	</tr>
-	<tr>
-		<td>Diffusion</td>
-		<td>
-      <ul>
-        <li>TR not being set to 4.8</li>
-        <li>TE outside of range 0.0880-0.0980</li>
-        <li>Slice thickness not being set to 1.7</li>
-        <li>&lt90 total number of volumes between DWI AP & PA</li>
-      </ul>
-    </td>
-	</tr>
-	<tr>
-		<td>EPI Fieldmap</td>
-		<td>
-      <ul>
-        <li>TR outside of range 8.4-9.2</li>
-        <li>TE outside of range 0.064-0.0661</li>
-        <li>TI not being set to 2</li>
-        <li>Slice thickness outside of range 0.563-0.565</li>
-      </ul>
-    </td>
-	</tr>
-	<tr>
-		<td>Functional</td>
-		<td>
-      <ul>
-        <li>TR not being set to 1.725</li>
-        <li>TE outside of range 0.0369-0.0371</li>
-        <li>Slice thickness not being set to 2</li>
-        <li>fMRI is shorter than 87 volumes (~2.5 minutes)</li>
-      </ul>
-    </td>
-	</tr>
-</tbody>
-</table>
-</div>
-</p>
-
 
 ## PHENOTYPES
 Below is a list of general rules applied to all data as well as static (i.e. precisely identified hard-coded elements such as participants, instruments, and instrument fields) and dynamic elements excluded during the data release process:
