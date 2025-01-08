@@ -6,6 +6,7 @@
 </div>
 <div class="collapsible-content">
 <br>
+<p><b><i>The text below is sourced directly from the ABCD Wiki <a href="https://data.abcdstudy.org/reports/wiki-release6/data-doc/non-imaging/mental-health.html#use-mh">Responsible Use Warning: Mental Health</a></i></b></p>
 <p>When writing about mental health symptoms or diagnoses, it is important to use person-centered language. One exception to this is in the area of autism, where there is ongoing dialogue within the affected community about preferred language. It is important to take guidance from those with lived experiences and professional stakeholders when considering any language. Please see the following resources:</p> 
 <ul>
 General
