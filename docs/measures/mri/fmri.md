@@ -7,11 +7,13 @@
 </div>
 <div class="collapsible-content">
 <br>
-<p>🚧 UNDER CONSTRUCTION 🚧</p> 
-<p>An issue was discovered related to signal intensity clipping in a portion of Philips fMRI scans where high intensity values are clipped to a maximum value (4095) due to a scaling issue in the real-time recon. These images can be characterized by hyperintense regions, often at the maximum intensity, that drown out the signal of the grey and white matter in that region. Note that this will have consequences for derived measures such as ROI-ROI correlations.</p> 
-<p>Values of over 3700 for <code>brain_median</code> (provided in the <a href="../../../datacuration/rawbids/#participant-session-scan-level-data"><code>scans.tsv</code> file</a>) serves as a predictor of clipping artifacts. The most severe cases also typically fail manual QC (<code>QC</code>=0), however less severe cases typically pass (<code>QC</code>=1) as it is not necessarily noticeable through visual inspection.</p> 
+<p>An issue with signal intensity clipping has been identified in a portion of Philips fMRI scans. Due to a scaling error in real-time reconstruction, high-intensity values are capped at 4095, creating hyperintense regions that drown out the signal of gray and white matter in that region. This affects derived measures such as ROI-ROI correlations.</p>
+<p>Initially detected during manual QC, the issue was rare early in the study and has since been addressed with a protocol patch applied at most Philips sites. However, sites VAN and CCH experienced more severe cases, as the patch was only implemented there in October 2024. Since then, no new severe cases have been observed. Overall, 20% of scans from VAN and CCH show varying levels of clipping, with 6.3% classified as severe and failing QC.</p> 
+<p>A <code>brain_median</code> value above 3700 in the <a href="../../../datacuration/rawbids/#participant-session-scan-level-data"><code>scans.tsv</code> file</a> predicts clipping artifacts. Severe cases also typically fail manual QC (QC=0), but less severe cases often pass (QC=1) as they may not be visually apparent.</p> 
+<p></p> 
 </div>
 </p>
+
 
 Whole-brain functional activity as measured by functional magnetic resonance imaging (fMRI). The blood oxygen level dependent (BOLD) signal is measured at each voxel in 2mm isotropic space with a repetition time (TR) of 1725 ms and multi-band (MB) factor of 4. 
 
