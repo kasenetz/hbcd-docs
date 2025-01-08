@@ -101,11 +101,14 @@ Breastfeeding measures initiation, exclusivity, and cessation of breast milk fee
 Food Insecurity, based on two items assessing the availability of food, is a screening measure used across many populations indicating risk of food insecurity in the last 12 months. Each question uses the same response options. This measure was modified slightly for HBCD to use gender-neutral terms (children are referred to as “the child” in place of gendered pronouns) as well as inclusion of "Don't know" as a response option to survey questions.
 
 ### Growth   
-Growth is a standard direct measure of child height or length (in cm), weight (in kg), head circumference (cm). In older children, it will also include abdominal circumference (cm).     
+Growth is a standard direct measure of child height or length (in cm), weight (in kg), head circumference (cm). In older children, it will also include abdominal circumference (cm).
 
-<details class="collapsible references">
-  <summary class="references">References</summary>
-  <ul>
+<p>
+<div id="references-banner" class="references-banner" onclick="toggleCollapse(this)">
+    <span class="text">References</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="references-collapsible-content">
 <p>Hager, E. R., Quigg, A. M., Black, M. M., Coleman, S. M., Heeren, T., Rose-Jacobs, R., Cook, J. T., Ettinger de Cuba, S. A., Casey, P. H., Chilton, M., Cutts, D. B., Meyers, A. F., &amp; Frank, D. A. (2010). Development and validity of a 2-item screen to identify families at risk for food insecurity. <em>Pediatrics</em>, 126(1), e26-32. <a href="https://doi.org/10.1542/peds.2009-3146">https://doi.org/10.1542/peds.2009-3146</a></p>
-</ul>
-</details>
+</div>
+</p>

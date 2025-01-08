@@ -12,9 +12,12 @@ Additional metabolites measured include NAA, lactate, ascorbate, creatine, myo-i
 
 One limitation to the incorporation of MRS into human connectome studies is proper control for scanner drift. Because MRS relies on the frequency of the measured signals, uncorrected frequency drift during data acquisition is very detrimental to data quality, as it changes the contribution of coedited signals as well as editing efficiency (Harris et al., 2014). To mitigate drift, an innovative approach was taken to incorporate interleaved water referencing (Edden et al., 2016) for real-time frequency correction, implemented on the Philips platform at the outset of HBCD, and in Y2 for Siemens and GE.
 
-<details class="collapsible references">
-  <summary class="references">References</summary>
-<ul>
+<p>
+<div id="references-banner" class="references-banner" onclick="toggleCollapse(this)">
+    <span class="text">References</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="references-collapsible-content">
 <p>Bottomley, P. A. (1987). Spatial localization in NMR spectroscopy in vivo. <em>Annals of the New York Academy of Sciences</em>, 508(1), 333–348. <a href="https://doi.org/10.1111/j.1749-6632.1987.tb32915.x">https://doi.org/10.1111/j.1749-6632.1987.tb32915.x</a></p>
 
 <p>Edden, R. A. E., Oeltzschner, G., Harris, A. D., Puts, N. A. J., Chan, K. L., Boer, V. O., Schär, M., & Barker, P. B. (2016). Prospective frequency correction for macromolecule-suppressed GABA editing at 3T. <em>Journal of Magnetic Resonance Imaging</em>, 44(6), 1474–1482.. <a href="https://doi.org/10.1002/jmri.25304">https://doi.org/10.1002/jmri.25304</a></p>
@@ -26,9 +29,8 @@ One limitation to the incorporation of MRS into human connectome studies is prop
 <p>Oeltzschner, G., Saleh, M. G., Rimbault, D., Mikkelsen, M., Chan, K. L., Puts, N. A. J., & Edden, R. A. E. (2019). Advanced Hadamard-encoded editing of seven low-concentration brain metabolites: Principles of HERCULES. <em>NeuroImage</em>, 185, 181–190. <a href="https://doi.org/10.1016/j.neuroimage.2018.10.002">https://doi.org/10.1016/j.neuroimage.2018.10.002</a></p>
 
 <p>Träber, F., Block, W., Lamerichs, R., Gieseke, J., & Schild, H. H. (2004). 1H metabolite relaxation times at 3.0 tesla: Measurements of T1 and T2 values in normal brain and determination of regional differences in transverse relaxation. <em>Journal of Magnetic Resonance Imaging</em>, 19(5), 537–545. <a href="https://doi.org/10.1002/jmri.20053">https://doi.org/10.1002/jmri.20053</a></p>
-</ul>
-</details>
-
+</div>
+</p>
 
 
 

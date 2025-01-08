@@ -55,9 +55,12 @@ For dMRI, fMRI, and field maps, scored artifacts include **susceptibility artifa
 
 Series with severe artifacts that compromise data usability are rejected (QC = 0) and excluded from subsequent processing and analysis. The post-processing team selects from remaining series based on manual ratings, notes, and automated scores (e.g., minimum of 60% diffusion encoding volumes without significant artifacts).
 
-<details class="collapsible references">
-<summary class="references">References</summary>
-<ul>
+<p>
+<div id="references-banner" class="references-banner" onclick="toggleCollapse(this)">
+    <span class="text">References</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="references-collapsible-content">
 <p>Dean III, D. C., Tisdall, M. D., Wisnowski, J. L., Feczko, E., Gagoski, B., Alexander, A. L., ... &amp; HBCD MRI Working Group. (2024). Quantifying brain development in the HEALthy Brain and Child Development (HBCD) Study: The magnetic resonance imaging and spectroscopy protocol. <em>Developmental Cognitive Neuroscience</em>, 70, 101452. <a href="https://doi.org/10.1016/j.dcn.2024.101452">https://doi.org/10.1016/j.dcn.2024.101452</a></p>
 
 <p>Hagler, D. J., Jr, Ahmadi, M. E., Kuperman, J., Holland, D., McDonald, C. R., Halgren, E., &amp; Dale, A. M. (2009). Automated white-matter tractography using a probabilistic diffusion tensor atlas: Application to temporal lobe epilepsy. Human Brain Mapping, 30(5), 1535–1547. <a href="https://doi.org/10.1002/hbm.20619">https://doi.org/10.1002/hbm.20619</a></p>
@@ -65,8 +68,9 @@ Series with severe artifacts that compromise data usability are rejected (QC = 0
 <p>Power, J. D., Barnes, K. A., Snyder, A. Z., Schlaggar, B. L., &amp; Petersen, S. E. (2012). Spurious but systematic correlations in functional connectivity MRI networks arise from subject motion. NeuroImage, 59(3), 2142–2154. <a href="https://doi.org/10.1016/j.neuroimage.2011.10.018">https://doi.org/10.1016/j.neuroimage.2011.10.018</a></p>
 
 <p>Triantafyllou, C., Hoge, R. D., Krueger, G., Wiggins, C. J., Potthast, A., Wiggins, G. C., &amp; Wald, L. L. (2005). Comparison of physiological noise at 1.5 T, 3 T and 7 T and optimization of fMRI acquisition parameters. NeuroImage, 26(1), 243–250. <a href="https://doi.org/10.1016/j.neuroimage.2005.01.007">https://doi.org/10.1016/j.neuroimage.2005.01.007</a></p>
-</ul>
-</details>
+</div>
+</p>
+
 
 ## BrainSwipes
 Quality control procedures for various pipeline outputs—such as structural and functional derivatives XCP-D and diffusion derivatives from the QSIPrep-rely on manual visual inspection to identify image artifacts. Though automated methods for QC do exist and are under active development, visual inspection remains the gold standard. To streamline this process, the visual reports included in these derivatives are integrated into [BrainSwipes](https://brainswipes.us/about), a gamified platform built off of the open-source [Swipes For Science](https://swipesforscience.org/) project.
@@ -103,16 +107,3 @@ Swipes presents nine-image mosaics from the third of the five-volume QALAS scans
 </p>
 </div>
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-  

@@ -80,9 +80,12 @@ Infant leg movement data collected by wearable sensors for HBCD, which captures 
 
 The Infant Sensor Questionnaire, developed by the HBCD Workgroup, is daily survey about infant heart rate and leg movement sensors that capture information about motor behavior, physical activity, and sleep. The survey is sent daily over 3 days while the infant wore heart rate and leg movement sensors to capture context for the recordings. Sent automatically to primary caregivers at 24, 48, and 72 hours, the survey covered the preceding 24 hours, asking if sensors were worn consistently and gathering information on daily activities (e.g., typicality of the day; nap and sleep duration; time spent in car seat, swing, or other restraining device; time in a moving car or stroller; and leg swaddling during sleep). See [Pini et al. 2024](https://doi.org/10.1016/j.dcn.2024.101446) for a full description of this measure. 
 
-<details class="collapsible references">
-  <summary class="references">References</summary>
- <ul>
+<p>
+<div id="references-banner" class="references-banner" onclick="toggleCollapse(this)">
+    <span class="text">References</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="references-collapsible-content">
 <p>Ghazi, M. A., Zhou, J., Havens, K. L., &amp; Smith, B. A. (2024). Accelerometer thresholds for estimating physical activity intensity levels in infants: A preliminary study. <em>Sensors</em> (Basel, Switzerland), 24(14), 4436. <a href="https://doi.org/10.3390/s24144436">https://doi.org/10.3390/s24144436</a></p>
 <p>Jeung, S., Cockx, H., Appelhoff, S., Berg, T., Gramann, K., Grothkopp, S., Warmerdam, E., Hansen, C., Oostenveld, R., BIDS Maintainers, &amp; Welzel, J. (2024). Motion-BIDS: an extension to the brain imaging data structure to organize motion data for reproducible research. <em>Scientific Data</em>, 11(1), 716. <a href="https://doi.org/10.1038/s41597-024-03559-8">https://doi.org/10.1038/s41597-024-03559-8</a></p>
 <p>Oh, J., Loeb, G. E., &amp; Smith, B. A. (2024). The utility of calibrating wearable sensors before quantifying infant leg movements. <em>Sensors</em> (Basel, Switzerland), 24(17), 5736. <a href="https://doi.org/10.3390/s24175736">https://doi.org/10.3390/s24175736</a></p>
@@ -91,6 +94,5 @@ The Infant Sensor Questionnaire, developed by the HBCD Workgroup, is daily surve
 <p>Smith, B. A., Trujillo-Priego, I. A., Lane, C. J., Finley, J. M., &amp; Horak, F. B. (2015). Daily quantity of infant leg movement: Wearable sensor algorithm and relationship to walking onset. <em>Sensors</em> (Basel, Switzerland), 15(8), 19006–19020. <a href="https://doi.org/10.3390/s150819006">https://doi.org/10.3390/s150819006</a></p>
 <p>Trujillo-Priego, I. A., &amp; Smith, B. A. (2017). Kinematic characteristics of infant leg movements produced across a full day. <em>Journal of Rehabilitation and Assistive Technologies Engineering</em>, 4, 205566831771746. <a href="https://doi.org/10.1177/2055668317717461">https://doi.org/10.1177/2055668317717461</a></p>
 <p>Trujillo-Priego, I. A., Zhou, J., Werner, I. F., Deng, W., &amp; Smith, B. A. (2020). Infant leg activity intensity before and after naps. <em>Journal for the Measurement of Physical Behaviour</em>, 3(2), 157–163.<a href="https://doi.org/10.1123/jmpb.2019-0011">https://doi.org/10.1123/jmpb.2019-0011</a></p>
-</ul>
-</details>
-
+</div>
+</p>

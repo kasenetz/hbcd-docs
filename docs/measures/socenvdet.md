@@ -420,11 +420,12 @@ The PROMIS Emotional Support 4a questionnaire (first 4 questions) evaluates the 
 
 Note that the HBCD measures include the addition of response options “Don’t know” and “Decline to answer.” The original measure requires that all items are completed to allow for scoring via the tables provided in the manual, so items with “don’t know” answers will not have a total score reported. If scoring will utilize the PROMIS HealthMeasures Scoring Service, total scores can include missing data (this can be done by individual investigators). For the PSS-4, complete data is essential, and scores should not be reported if any question is answered as “Don’t know.”
 
-
-<details id="references" class="collapsible references">
-  <summary class="references">References</summary>
-<ul>
-<br>
+<p>
+<div id="references-banner" class="references-banner" onclick="toggleCollapse(this)">
+    <span class="text">References</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="references-collapsible-content">
 <p><u>Baby’s First Years</u></p>
 <p>Noble, K. G., Magnuson, K., Gennetian, L. A., Duncan, G. J., Yoshikawa, H., Fox, N. A., &amp; Halpern-Meekin, S. (2021). Baby’s First Years: Design of a randomized controlled trial of poverty reduction in the United States. <em>Pediatrics</em>, 148(4), e2020049702. <a href="https://doi.org/10.1542/peds.2020-049702">https://doi.org/10.1542/peds.2020-049702</a></p>
 <p>Sanbonmatsu, L., Marvakov, J., Potter, N. A., Yang, F., Adam, E. K., Congdon, W. J., Duncan, G. J., Gennetian, L. A., Katz, L. F., Kling, J. R., Kessler, R. C., Lindau, S. T., Ludwig, J., &amp; McDade, T. W. (2012). The long-term effects of moving to opportunity on adult health and economic self-sufficiency. <em>Cityscape: A Journal of Policy Development and Research</em>, 14, 109-136.</p>
@@ -450,5 +451,5 @@ Note that the HBCD measures include the addition of response options “Don’t 
 <p><u>PROMIS</u></p>
 <p>Cohen, S., Kamarck, T., &amp; Mermelstein, R. (1983). A global measure of perceived stress. <em>Journal of Health and Social Behavior</em>, 24(4), 385–396. <a href="https://doi.org/10.2307/2136404">https://doi.org/10.2307/2136404</a></p>
 <p>Hahn, E. A., Cella, D., Bode, R. K., &amp; Hanrahan, R. T. (2010). Measuring social well-being in people with chronic illness. <em>Social Indicators Research</em>, 96(3), 381–401. <a href="https://doi.org/10.1007/s11205-009-9484-z">https://doi.org/10.1007/s11205-009-9484-z</a></p>
-</ul>
-</details>
+</div>
+</p>
