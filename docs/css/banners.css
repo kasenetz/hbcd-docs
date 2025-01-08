@@ -199,9 +199,11 @@
   max-height: none;
   padding: 10px 20px;
 }
-/* Optional: Specific styles for text elements inside collapsible content */
+/* Adjust styles for text elements inside collapsible content */
 .references-collapsible-content p,
 .references-collapsible-content li {
-  font-size: 14px; /* Adjust the text size for <p> and <li> if necessary */
-  line-height: 1.6; /* Adjust line spacing for better readability */
+  font-size: 14px; /* Keep text size as needed */
+  line-height: 1.2; /* Reduce line spacing (default is around 1.5-1.6) */
+  margin: 5px 0; /* Reduce spacing between paragraphs or list items */
+  padding: 2.5px; /* Remove default padding if any */
 }

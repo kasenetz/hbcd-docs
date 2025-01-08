@@ -266,7 +266,7 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 </small>
 </p>
 </div>
-<br>
+</p>
 
 <p>
 <div id="references-banner" class="references-banner" onclick="toggleCollapse(this)">

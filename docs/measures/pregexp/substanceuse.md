@@ -186,11 +186,13 @@ Finally, additional screening for substance use (within three months before or d
 
 The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the last 7 days from when the survey is administered. The [HBCD TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf), triggered by Assist responses, was adapted to instead record maternal substance use before and during pregnancy. Participants reported use during 9 weeks in total for each substance type (e.g., edible cannabis) reported on the ASSIST. For V01, this includes: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V02 to capture substance use during the last two full weeks of gestation (Weeks 8-9). Daily usage frequency was recorded for all products except for cigarettes/cigarillos (count per day) and alcohol (single servings per day).
 
-<details class="collapsible references">
-  <summary class="references">References</summary>
- <ul>
+<p>
+<div id="references-banner" class="references-banner" onclick="toggleCollapse(this)">
+    <span class="text">References</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="references-collapsible-content">
 <p>National Institute on Drug Abuse. (n.d.). <em>NIDA Modified ASSIST</em>.</p>
 <p>Sobell, L., &amp; Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In <em>Handbook of psychiatric measures.</em> (p. 477). American Psychiatric Association.</p>
-</ul>
-</details>
-<br>
+</div>
+</p>

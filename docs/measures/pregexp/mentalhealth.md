@@ -180,20 +180,23 @@ Scores on these scales assess trauma-related stress symptoms and do not differen
 ### EPDS
 The Edinburgh Postnatal Depression Scale (<a href="https://downloads.aap.org/AAP/PDF/Postnatal%20Depression%20Scale.pdf">EPDS</a>), a sensitive, 10-item screening tool for prenatal and postpartum depression symptoms, was selected to capture symptoms of maternal depression due to its ease of administration and widely accepted use. For HBCD, the response option 'refuse to answer' was added to all questions. Note that this does not impact scoring as questions answered with ‘refuse to answer’ are skipped (see EPDS scoring procedure [here](https://med.stanford.edu/content/dam/sm/ppc/documents/DBP/EDPS_text_added.pdf)). In addition, scores for EPDS suicide (score>1) or depression (overall score>11) triggered clinical alerts for study staff.
 
-<details class="collapsible references">
-  <summary class="references">References</summary>
-<p><u>Personal & Family Psychiatric History</u></p>
-  <ul>
-    <p>Rice, J. P., Reich, T., Bucholz, K., Neuman, R. J., Fishman, R., Rochberg, N., Hesselbrock, V. M., Numberger, J. I., Shuckit, M. A., & Begleiter, H. (1995). Comparison of Direct Interview and Family History Diagnoses of Alcohol Dependence.  <em>Alcoholism: Clinical and Experimental Research</em>, <em>19</em>, 1018-1023. <a href="https://doi.org/10.1111/j.1530-0277.1995.tb00983.x">https://doi.org/10.1111/j.1530-0277.1995.tb00983.x</a></p>
-    </ul>
+<p>
+<div id="references-banner" class="references-banner" onclick="toggleCollapse(this)">
+    <span class="text">References</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="references-collapsible-content">
+<p style="margin-bottom: 0; padding-bottom: 0;"><u>Personal & Family Psychiatric History</u></p>
+<ul>
+<p>Rice, J. P., Reich, T., Bucholz, K., Neuman, R. J., Fishman, R., Rochberg, N., Hesselbrock, V. M., Numberger, J. I., Shuckit, M. A., & Begleiter, H. (1995). Comparison of Direct Interview and Family History Diagnoses of Alcohol Dependence.  <em>Alcoholism: Clinical and Experimental Research</em>, <em>19</em>, 1018-1023. <a href="https://doi.org/10.1111/j.1530-0277.1995.tb00983.x">https://doi.org/10.1111/j.1530-0277.1995.tb00983.x</a></p>
+</ul>
 
-<p><u>APA 1/2 Mental Health</u></p>
- <ul>
+<p style="margin-bottom: 0; padding-bottom: 0;"><u>APA 1/2 Mental Health</u></p>
+<ul>
 <p>Doss, R. A., &amp; Lowmaster, S. E. (2022). Validation of the DSM-5 Level 1 Cross-Cutting Symptom Measure in a Community  Sample. <em>Psychiatry Research</em>, <em>318</em>, 114935. <a href="https://doi.org/10.1016/j.psychres.2022.114935">https://doi.org/10.1016/j.psychres.2022.114935</a></p>
 <p>Roche, M. J., Pincus, A. L., &amp; Cole, P. E. (2019). Linking dimensions and dynamics in psychopathology research: An example using DSM-5 instruments. <em>Journal of Research in Personality</em>, <em>82</em>, 103852. <a href="https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852">https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852</a></p>
 
-<p><u>EPDS</u></p>
+<p style="margin-bottom: 0; padding-bottom: 0;"><u>EPDS</u></p>
 <p>Cox, J. L., Holden, J. M., &amp; Sagovsky, R. (1987). Detection of postnatal depression . Development of the 10-item Edinburgh Postnatal Depression Scale. <em>British Journal of Psychiatry</em>, <em>150</em>, 782–786. <a href="https://doi.org/10.1192/bjp.150.6.782">https://doi.org/10.1192/bjp.150.6.782</a></p>
-</details>
-
-
+</div>
+</p>
