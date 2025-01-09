@@ -1,5 +1,4 @@
 # Electroencephalogram (EEG)
-
 EEG tasks are acquired during visits V03, V04, and V06.
 
 ![](images/EEG_acquisition_protocol.png)
@@ -18,6 +17,27 @@ Both study sites and the EEG Core team use an EEG Quality Control dashboard deve
 During quality control, a frequently observed issue across all tasks was the irregular application of EEG sensors. Additionally, partial task completion due to infant fussing and missing stimulus flags were commonly noted for the faces and auditory mismatch negativity tasks.
 
 ## EEG Task Details
+<p>
+<div id="alert-banner" class="alert-banner" onclick="toggleCollapse(this)">
+    <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
+    <span class="text">Responsible Data Use Warning</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>The HBCD EEG data and EEG preprocessing outputs do not contain any personally identifiable information. It is important to consider that potentially stigmatizing conclusions could emerge from the inappropriate use of the EEG data together with available demographic information or questionnaires (for commentary on this from the ABCD study, see <a href="https://www.nature.com/articles/s41593-024-01608-4">Cardenas-Iniguez et al., 2024</a>). Furthermore, all EEG tasks are all passive at the V03 age range and therefore conclusions should not be drawn about behavioral performance.</p> 
+<p>Methodologically, there are a number of best practices for responsible data use that will be included with each file. The first is selecting files that maintain a minimum trial threshold recommendation. For each task, there are three levels of quality control thresholds that can be used: (1) our QC thresholds used to provide feedback to sites on each upload, (2) a 30% trial retention threshold (which we use internally to indicate usability of an EEG recording), and (3) the reliability recommendations for each task.</p>
+<p><li>Threshold recommendations by task:</li>
+<li>RS - 108 trials</li>
+<li>FACE - 15 trials for each condition of interest</li>
+<li>MMN - 30 trials for each condition of interest</li>
+<li>VEP - 36 trials.</li></p>
+<p>As a second consideration, researchers should only select files that have usable net application, as proper placement of the REF and COM electrodes is the ground truth for all localizable, cluster specific EEG analyses. As such, we recommend excluding the files denoted as having “unusable” net application in the QC outputs for each task.</p>
+<p>An additional consideration for responsible use of the HBCD EEG dataset applies to disproportionate missing data. It is possible that some participant data may be systematically excluded from this dataset by virtue of not meeting the QC thresholds. For instance, with infants that are inattentive and prone to fussing out during the EEG recording, more data may be removed from their datasets by our preprocessing scripts. A similar risk holds with participants historically underrepresented in EEG research due to racial and cultural differences in hairstyling and texture which may impact capping success, impedance, and data quality (Adams et al., 2024). The consortium has proactively worked to address this risk by using culturally-sensitive scheduling procedures and by purchasing 3 long pedestal nets per site in sizes appropriate for the V03, V04, and V06 visits (Adams et al., 2024; <a href="https://doi.org/10.1016/j.dcn.2024.101396">Mlandu et al., 2024</a>). Preliminary analyses indicate that capping quality for visits where the long pedestal net was used have been consistent with capping quality seen for the dataset at large.</p>
+<p>A final recommendation for best practices in the use of the HBCD EEG data pertains to culturally and racially sensitive hypothesis formulation, analyses, and communication of findings. It is important to use these data in a manner which takes into account that physical and neurological differences between groups are not necessarily representative of intrinsic qualities of a given racial or ethnic group. Stigmatizing language should be avoided and discussions around data patterns should be sensitive to societal and historical factors. In addition, it is important to note that variation within historically designated populations (i.e. racial and cultural subpopulations) is greater than variation across populations. Demographic markers are categorical proxies that cannot capture or explain the causal mechanisms that may account for evident differences. As such, we suggest following the guidelines presented in the linked Nature Neuroscience article, “Recommendations for the responsible use and communication of race and ethnicity in neuroimaging research” (<a href="https://www.nature.com/articles/s41593-024-01608-4">Cardenas-Iniguez et al., 2024</a>).</p>
+</div>
+</p>
+
 ### Faces Task
 The Faces task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability. To assess child and infant face processing abilities as well as the underlying neural activity supporting face and object processing, the task involves 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task.     
    
