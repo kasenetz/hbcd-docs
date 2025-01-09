@@ -152,7 +152,7 @@ These data are the results of toxicology assays in dried blood spots collected a
 
 ### NAILS
 <p>
-<div id="nails-warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="nails-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   </span>
@@ -727,7 +727,7 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 
 ### URINE
 <p>
-<div id="urine-warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="urine-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>

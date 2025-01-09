@@ -87,7 +87,7 @@ For all measures, QC procedures involved review of response distributions (cross
 ## Instrument Details
 ### Assist V1/V2/V3
 <p>
-<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
@@ -171,7 +171,7 @@ Finally, additional screening for substance use (within three months before or d
 
 ### TLFB
 <p>
-<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>

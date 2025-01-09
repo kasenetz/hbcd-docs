@@ -1,6 +1,6 @@
 # Demographics
 <p>
-<div id="alert-banner" class="alert-banner" onclick="toggleCollapse(this)">
+<div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
     <span class="text">Responsible Data Use Warning</span>
   <span class="arrow">▸</span>
@@ -13,7 +13,7 @@
 </p>
 
 <p>
-<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>

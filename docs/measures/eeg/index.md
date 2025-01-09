@@ -18,7 +18,7 @@ During quality control, a frequently observed issue across all tasks was the irr
 
 ## EEG Task Details
 <p>
-<div id="alert-banner" class="alert-banner" onclick="toggleCollapse(this)">
+<div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
     <span class="text">Responsible Data Use Warning</span>
   <span class="arrow">▸</span>

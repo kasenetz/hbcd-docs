@@ -72,7 +72,7 @@ The QC procedures for all three measures involved monitoring the data dashboard 
 ## Instrument Details
 ### Breastfeeding     
 <p>
-<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="bf-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
@@ -87,7 +87,7 @@ Breastfeeding measures initiation, exclusivity, and cessation of breast milk fee
 
 ### Food Insecurity
 <p>
-<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="foodins-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
@@ -102,7 +102,7 @@ Food Insecurity, based on two items assessing the availability of food, is a scr
 
 ### Growth   
 <p>
-<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="growth-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
