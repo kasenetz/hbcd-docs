@@ -40,7 +40,7 @@ bibsnet/
             |__ SUBSES_space-<T1w|T2w>_desc-aseg_brain-mask.json
 ```
 
-## HBCD-Motion (`hbcd_motion/`) 🚧 
+## HBCD-Motion (`hbcd_motion/`)  
 The HBCD-Motion pipeline is used to process the HBCD Axivity Ax6 sensor recordings of infant leg movements across 72 continuous hours. Please see a full description of the output files on their webpage [here](https://hbcd-motion-postproc.readthedocs.io/en/latest/outputs.html#outputs).
 ```
 hbcd_motion/
@@ -197,48 +197,43 @@ nibabies/
 ** Unlike `anat/`, all `func/` files have json files as well- these are removed above for readability
 
 
-## OSPREY-BIDS (`osprey/`) 🚧 
-OSPREY-BIDS is the BIDS extension to the OSPREY pipeline used to process HBCD magnetic resonance spectroscopy (MRS) data. The `HERCULES` and `unedited` folders have matching structures, so only one is displayed below. For readability, the `jpg`/`png` images under the `figures/` and `.json` files accompanying `.tsv` and `.mat` files are not listed. Also note that filenames may additionally include `run-<label>`. Please see their [webpage](https://osprey-bids.readthedocs.io/en/latest/index.html) for a detailed explanation of these outputs.
-
+## OSPREY-BIDS (`osprey/`)
+OSPREY-BIDS is the BIDS extension to the OSPREY pipeline used to process HBCD magnetic resonance spectroscopy (MRS) data. The `HERCULES` and `unedited` folders have matching structures, so only one is displayed below. For readability, the image files under `figures/` are not listed. Also note that filenames may additionally include `run-<label>`. Please see their [webpage](https://osprey-bids.readthedocs.io/en/latest/index.html) for a detailed explanation of these outputs.
 ```
 osprey/
 |__ sub-<label>/
     |__ ses-<label>/
         |__ HERCULES/
         |   |__ PreOspreyLocalizerReg/
-        |   |   |__ figures/*
+        |   |   |__ figures/
         |   |   |__ aalreference_seg_aligned_to_localizer.nii.gz
-        |   |   |__ c1reference_seg_aligned_to_localizer.nii.gz
-        |   |   |__ c2reference_seg_aligned_to_localizer.nii.gz
-        |   |   |__ c3reference_seg_aligned_to_localizer.nii.gz
+        |   |   |__ c<1|2|3>reference_seg_aligned_to_localizer.nii.gz
         |   |   |__ readme.txt
-        |   |   |__ reference_img_aligned_to_localizer.nii.gz
-        |   |   |__ reference_seg_aligned_to_localizer.nii.gz
+        |   |   |__ reference_<img|seg>_aligned_to_localizer.nii.gz
         |   |   |__ registration_summary.json
         |   |   |__ transform_mat.npy
         |   |
         |   |__ QuantifyResults/
-        |   |   |__ diff<1|2>_AlphaCorrWaterScaledGroupNormed_Voxel_1_Basis_1.tsv
-        |   |   |__ diff<1|2>_AlphaCorrWaterScaled_Voxel_1_Basis_1.tsv
-        |   |   |__ diff<1|2>_amplMets_Voxel_1_Basis_1.tsv
-        |   |   |__ diff<1|2>_CSFWaterScaled_Voxel_1_Basis_1.tsv
-        |   |   |__ diff<1|2>_rawWaterScaled_Voxel_1_Basis_1.tsv
-        |   |   |__ diff<1|2>_tCr_Voxel_1_Basis_1.tsv
-        |   |   |__ diff<1|2>_TissCorrWaterScaled_Voxel_1_Basis_1.tsv
-        |   |   |__ sum_AlphaCorrWaterScaledGroupNormed_Voxel_1_Basis_1.tsv
-        |   |   |__ sum_AlphaCorrWaterScaled_Voxel_1_Basis_1.tsv
-        |   |   |__ sum_amplMets_Voxel_1_Basis_1.tsv
-        |   |   |__ sum_CSFWaterScaled_Voxel_1_Basis_1.tsv
-        |   |   |__ sum_rawWaterScaled_Voxel_1_Basis_1.tsv
-        |   |   |__ sum_tCr_Voxel_1_Basis_1.tsv
-        |   |   |__ sum_TissCorrWaterScaled_Voxel_1_Basis_1.tsv
+        |   |   |__ <diff1|diff2|sum>_AlphaCorrWaterScaledGroupNormed_Voxel_1_Basis_1.tsv
+        |   |   |__ <diff1|diff2|sum>_AlphaCorrWaterScaledGroupNormed_Voxel_1_Basis_1.json
+        |   |   |__ <diff1|diff2|sum>_AlphaCorrWaterScaled_Voxel_1_Basis_1.tsv
+        |   |   |__ <diff1|diff2|sum>_AlphaCorrWaterScaled_Voxel_1_Basis_1.json        
+        |   |   |__ <diff1|diff2|sum>_amplMets_Voxel_1_Basis_1.tsv
+        |   |   |__ <diff1|diff2|sum>_amplMets_Voxel_1_Basis_1.json
+        |   |   |__ <diff1|diff2|sum>_<CSF|raw>WaterScaled_Voxel_1_Basis_1.tsv
+        |   |   |__ <diff1|diff2|sum>_<CSF|raw>WaterScaled_Voxel_1_Basis_1.json
+        |   |   |__ <diff1|diff2|sum>_tCr_Voxel_1_Basis_1.tsv
+        |   |   |__ <diff1|diff2|sum>_tCr_Voxel_1_Basis_1.json
+        |   |   |__ <diff1|diff2|sum>_TissCorrWaterScaled_Voxel_1_Basis_1.tsv
+        |   |   |__ <diff1|diff2|sum>_TissCorrWaterScaled_Voxel_1_Basis_1.json
         |   |
         |   |__ Reports/
-        |   |   |__ reportFigures/*
+        |   |   |__ reportFigures/
         |   |   |__ sub-<label>-report.html
         |   |
         |   |__ SegMaps/
         |   |   |__ TissueFractions_Voxel_1.tsv
+        |   |   |__ TissueFractions_Voxel_1.json
         |   |   |__ SUBSES_acq-hercules_svs.nii_space-scanner_Voxel-1_label-CSF.nii.gz
         |   |   |__ SUBSES_acq-hercules_svs.nii_space-scanner_Voxel-1_label-GM.nii.gz
         |   |   |__ SUBSES_acq-hercules_svs.nii_space-scanner_Voxel-1_label-Tha.nii.gz
@@ -248,12 +243,15 @@ osprey/
         |   |   |__ SUBSES_acq-hercules_svs_space-scanner_mask.nii.gz
         |   |
         |   |__ LogFile.txt
-        |   |__ subject_names_and_excluded.tsv
-        |   |__ SummaryMRSinMRS.md
         |   |__ QM_processed_spectra.tsv
+        |   |__ QM_processed_spectra.json
+        |   |__ SummaryMRSinMRS.md
+        |   |__ subject_names_and_excluded.tsv
+        |   |__ subject_names_and_excluded.json
         |   |__ wrapper_settings.mat
+        |   |__ wrapper_settings.json
         |
-        |__ unedited/*
+        |__ unedited/
 ```
 
 ## qMRI Postproc (`qmri_postproc/`)🚧 
