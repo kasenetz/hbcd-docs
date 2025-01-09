@@ -9,7 +9,12 @@ The visits and corresponding ages of the infant/child are listed below. **Only d
 
 
 ## Responsible Use & Expert Review Warnings
-To promote responsible use of the data and offer additional context for users, warnings are displayed at the top of each measure/instrument section where relevant. These warnings have been incorporated into the data dictionary that link directly to the release notes. We encourage all data users to examine the warnings for any variables you plan to download/utilize and adhere to the recommended guidelines. There are two types of warnings:
+To promote responsible use of the data and offer additional context for users, warnings are displayed at the top of each measure/instrument section where relevant. These warnings have been incorporated into the data dictionary that link directly to the release notes. We encourage all data users to examine the warnings for any variables you plan to download/utilize and adhere to the recommended guidelines. 
+
+**For consistency with ABCD, Responsible Data Use Warnings for overlapping measures were provided by the ABCD Wiki. These warnings are clearly labeled as such and contain a direct link to the Wiki source, as is demonstrated in the example and explanation below.** 
+
+
+There are two types of warnings:
 <p>
 <div id="alert-banner" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
@@ -18,7 +23,8 @@ To promote responsible use of the data and offer additional context for users, w
 </div>
 <div class="collapsible-content">
 <br>
-<p>The purpose of this warning is to aid in transparency and refers to technical data issues (e.g., data quality issues, information about how variables are constructed, instructions on how to calculate or analyze specific variables, code if necessary).</p> 
+<p><b><i>The text below is sourced directly from the ABCD Wiki <a href="https://data.abcdstudy.org/reports/wiki-release6/jedi.html#warnings-in-release-noteswiki">Data Warning</a></i></b></p>
+<blockquote>The purpose of this warning is to provide guidance for responsible data use, interpretation, and communication. This also includes conceptual warnings (e.g., difference between sex assigned at birth and gender identity, bias due to attrition or non-response).</blockquote>
 </div>
 </p>
 <p>
@@ -29,7 +35,7 @@ To promote responsible use of the data and offer additional context for users, w
 </div>
 <div class="collapsible-content">
 <br>
-<p>The purpose of this warning is to provide guidance for responsible data use, interpretation, and communication. This also includes conceptual warnings (e.g., difference between sex assigned at birth and gender identity, bias due to attrition or non-response).</p> 
+<p>The Expert Review warnings provide critical guidance for researchers from subject matter experts including information such as considerations and recommendations for measure usage, known issues, and important reminders. This information is intended to aid in transparency, best practice, and ease of use for a given measure/data type.</p> 
 </div>
 </p>
 
