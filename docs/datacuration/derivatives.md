@@ -25,7 +25,7 @@ root/
     |__ xcp_d/
 ```
 
-## BIBSNet (`bibsnet/`)
+## BIBSNet (`bibsnet/`) 
 BIBSNet outputs brain segmentations and masks in native T1w and T2w space as well as `volumes.tsv` files with ROI volume statistics. Additional details can be found [here](https://bibsnet.readthedocs.io/en/latest/outputs/).
 ```
 bibsnet/
@@ -40,7 +40,7 @@ bibsnet/
             |__ SUBSES_space-<T1w|T2w>_desc-aseg_brain-mask.json
 ```
 
-## HBCD-Motion (`hbcd_motion/`)
+## HBCD-Motion (`hbcd_motion/`) 🚧 
 The HBCD-Motion pipeline is used to process the HBCD Axivity Ax6 sensor recordings of infant leg movements across 72 continuous hours. Please see a full description of the output files on their webpage [here](https://hbcd-motion-postproc.readthedocs.io/en/latest/outputs.html#outputs).
 ```
 hbcd_motion/
@@ -117,32 +117,32 @@ made/
 
 
 ## MRIQC (`mriqc/`)
-MRIQC extracts no-reference IQMs (image quality metrics) from structural (T1w and T2w) and functional MRI (magnetic resonance imaging) data (contained in the JSON files under `anat/` and `func/`) and also generates visual html report files. Please refer to the [MRIQC webpage](https://mriqc.readthedocs.io/en/latest/about.html) to read details about the outputs displayed below.
+MRIQC extracts no-reference IQMs (image quality metrics) from structural (T1w and T2w) and functional MRI (magnetic resonance imaging) data (contained in the JSON files under `anat/` and `func/`) and also generates visual html report files in the root pipeline folder. Please refer to the [MRIQC webpage](https://mriqc.readthedocs.io/en/latest/about.html) to read details about the outputs displayed below.
 ```
 mriqc/
 |__ sub-<label>/
-    |__ ses-<label>/
-        |__ anat/
-        |   |__ SUBSES_run-<label>_T1w.json
-        |   |__ SUBSES_run-<label>_T2w.json
-        |
-        |__ func/
-        |   |__ SUBSES_task-rest_dir-<label>_run-<label>_bold.json
-        |
-        |__ SUBSES_run-<label>_T1w.html
-        |__ SUBSES_run-<label>_T2w.html
-        |__ SUBSES_task-rest_dir-<label>_run-<label>_bold.html
-        |__ SUBSES_dir-<label>_run-<label>_bold.html
+|   |__ ses-<label>/
+|       |__ anat/
+|       |   |__ SUBSES_run-<label>_T1w.json
+|       |   |__ SUBSES_run-<label>_T2w.json
+|       |
+|       |__ func/
+|           |__ SUBSES_task-rest_dir-PA_run-<label>_bold.json
+|        
+|__ SUBSES_run-<label>_T1w.html
+|__ SUBSES_run-<label>_T2w.html
+|__ SUBSES_task-rest_dir-PA_run-<label>_bold.html
 ```
 
 ## Infant-fMRIPrep (`nibabies/`)
-Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report, `SUBSES.html`) and sidecar JSON files are not included below. Also note that filenames may have additional BIDS entities including `run-<label>`.
+Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report, `SUBSES.html`) and `func/` sidecar JSON files are not included below. Also note that filenames may have additional BIDS entities including `run-<label>`.
 
 <details>
   <summary>Label Values Legend</summary>
   <ul>
+    <li><b>&ltXFMSPACE&gt</b> label values: <code>MNI152NLin6Asym_res-2</code>, <code>MNIInfant+1</code>, <code>fsnative</code></li>
     <li><b>&ltSPACE&gt</b> label values: <code>MNI152NLin6Asym_res-2</code>, <code>T2w</code></li>
-    <li><b>&ltFMAPID&gt</b> label values: <code>auto00000</code>, <code>auto00001</code>, <code>auto00002</code>, & <code>auto000003</code>, <code>auto000004</code></li>
+    <li><b>&ltFMAPID&gt</b> potential label values: <code>auto00000</code>, <code>auto00001</code>, <code>auto00002</code>, & <code>auto000003</code>, <code>auto000004</code></li>
   </ul>
 </details>
 ```
@@ -151,31 +151,32 @@ nibabies/
     |__ ses-<label>/
         |__ anat/
         |   |__ SUBSES_desc-preproc_T2w.nii.gz
-        |   |__ SUBSES_from-MNI152NLin6Asym_to-T2w_mode-image_xfm.h5
-        |   |__ SUBSES_from-MNIInfant+1_to-T2w_mode-image_xfm.h5
-        |   |__ SUBSES_from-T2w_to-MNI152NLin6Asym_mode-image_xfm.h5
-        |   |__ SUBSES_from-T2w_to-MNIInfant+1_mode-image_xfm.h5
-        |   |__ SUBSES_from-T2w_to-fsnative_mode-image_xfm.txt
-        |   |__ SUBSES_from-fsnative_to-T2w_mode-image_xfm.txt
+        |   |__ SUBSES_desc-preproc_T2w.json
+        |   |__ SUBSES_from-<XFMSPACE>_to-T2w_mode-image_xfm.h5
+        |   |__ SUBSES_from-T2w_to-<XFMSPACE>_mode-image_xfm.h5
+        |   |__ SUBSES_hemi-<L|R>_<curv|sulc|thickness>.shape.gii
         |   |__ SUBSES_hemi-<L|R>_<inflated|midthickness|pial|sphere|white>.surf.gii
         |   |__ SUBSES_hemi-<L|R>_space-<dhcpAsym|fsaverage>_desc-reg_sphere.surf.gii
-        |   |__ SUBSES_hemi-<L|R>_<curv|sulc|thickness>.shape.gii
         |   |__ SUBSES_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz
+        |   |__ SUBSES_space-MNI152NLin6Asym_res-2_desc-brain_mask.json
         |   |__ SUBSES_space-MNI152NLin6Asym_res-2_desc-preproc_T2w.nii.gz
+        |   |__ SUBSES_space-MNI152NLin6Asym_res-2_desc-preproc_T2w.json
         |   |__ SUBSES_space-MNI152NLin6Asym_res-2_dseg.nii.gz
-        |   |__ SUBSES_space-MNI152NLin6Asym_res-2_label-<CSF|GM|WM>_probseg.nii.gz
+        |   |__ SUBSES_space-MNI152NLin6Asym_res-2_dseg.json
+        |   |__ SUBSES_space-<SPACE>_label-<CSF|GM|WM>_probseg.nii.gz
         |   |__ SUBSES_space-T2w_desc-<aparcaseg|aseg>_dseg.nii.gz
-        |   |__ SUBSES_space-T2w_desc-ribbon_mask.nii.gz
         |   |__ SUBSES_space-T2w_dseg.nii.gz
-        |   |__ SUBSES_space-T2w_label-<CSF|GM|WM>_probseg.nii.gz
+        |   |__ SUBSES_space-T2w_desc-ribbon_mask.nii.gz
+        |   |__ SUBSES_space-T2w_desc-ribbon_mask.json
         |   |__ SUBSES_space-fsLR_den-91k_<curv|sulc|thickness>.dscalar.nii
+        |   |__ SUBSES_space-fsLR_den-91k_<curv|sulc|thickness>.json
         |
         |__ fmap/
         |   |__ SUBSES_fmapid-<FMAPID>_desc-coeff_fieldmap.nii.gz
         |   |__ SUBSES_fmapid-<FMAPID>_desc-epi_fieldmap.nii.gz
         |   |__ SUBSES_fmapid-<FMAPID>_desc-preproc_fieldmap.nii.gz
         |
-        |__ func/
+        |__ func/**
         |   |__ SUBSES_task-rest_dir-PA_desc-brain_mask.nii.gz
         |   |__ SUBSES_task-rest_dir-PA_desc-confounds_timeseries.tsv
         |   |__ SUBSES_task-rest_dir-PA_desc-coreg_boldref.nii.gz
@@ -193,8 +194,10 @@ nibabies/
         |__ figures/
         |__ SUBSES.html
 ```
+** Unlike `anat/`, all `func/` files have json files as well- these are removed above for readability
 
-## OSPREY-BIDS (`osprey/`) 
+
+## OSPREY-BIDS (`osprey/`) 🚧 
 OSPREY-BIDS is the BIDS extension to the OSPREY pipeline used to process HBCD magnetic resonance spectroscopy (MRS) data. The `HERCULES` and `unedited` folders have matching structures, so only one is displayed below. For readability, the `jpg`/`png` images under the `figures/` and `.json` files accompanying `.tsv` and `.mat` files are not listed. Also note that filenames may additionally include `run-<label>`. Please see their [webpage](https://osprey-bids.readthedocs.io/en/latest/index.html) for a detailed explanation of these outputs.
 
 ```
@@ -253,7 +256,7 @@ osprey/
         |__ unedited/*
 ```
 
-## qMRI Postproc (`qmri_postproc/`)
+## qMRI Postproc (`qmri_postproc/`)🚧 
 This pipeline performs minimal post-processing for SyMRI synthetic images derived from QALAS acquisition. Please visit the [qMRI PostProc webpage](https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html) for a description of the file outputs below.
 
 ```
@@ -272,7 +275,7 @@ qmri_postproc/
             |__ SUBSES_space-T2w_desc-QALAS_T2map.nii.gz
 ```
 
-## QSIPrep (`qsiprep/`) 
+## QSIPrep (`qsiprep/`) 🚧 
 The QSIPrep pipeline is used for preprocessing the HBCD diffusion-weighted MRI (dMRI) data. Preprocessing includes head motion correction, susceptibility distortion correction, MP-PCA denoising, coregistration to T1w images, ANTS spatial normalization, and tissue segmentation. The QSIPrep derivatives are then passed to [QSIRecon](#qsirecon) for reconstruction. Please see a full description of this pipeline on their [webpage](https://qsiprep.readthedocs.io/en/latest/). Below, for readability, the `figures/` folder contents (contains all `svg` and `gif` files rendered in the visual report) are not listed. Actual filenames may also include `run-<label>`. 
 
 ```
@@ -307,7 +310,7 @@ qsiprep/
 
 ```
 
-## QSIRecon
+## QSIRecon🚧 
 QSIPrep derivatives are passed to QSIRecon for reconstruction, including ODF/FOD reconstruction, tractography, Fixel estimation and regional connectivity. The main `qsirecon/` folder contains the visual `.html` reports (contents of `figures/`, which contains the source image files, not listed below for readability).
 
 The remaining QSIRecon folders contain derivatives generated using a variety of methods and all have the same folder structure as displayed for `qsirecon-DIPYDKI/` below. The folder names are based either on the imaging software (e.g. [Dipy](https://dipy.org/), [MRTrix](https://www.mrtrix.org/), [DSI Studio](https://dsi-studio.labsolver.org/, etc) utilized or model name, e.g. NODDI ([Zhang et al. 2012](https://doi.org/10.1016/j.neuroimage.2012.03.072)). Please see their [webpage](https://qsirecon.readthedocs.io/en/latest/) for a detailed description of the derivatives.
@@ -406,7 +409,7 @@ The [TORTOISE](https://github.com/QMICodeBase/TORTOISEV4) software calculates MA
     </ul>
 </details>
 ```
-## TORTOISE MAPMRI Model (qsirecon-TORTOISE_model-MAPMRI/)
+# TORTOISE MAPMRI Model (qsirecon-TORTOISE_model-MAPMRI/)
 dwi/
  |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-mapmri_mdp-<MDP>_dwimap.nii
  |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mdp-<TMDP>_dwimap.nii
@@ -415,8 +418,9 @@ dwi/
  |__ SUBSES_space-T1w_desc-preproc_model-mapmri_mdp-<MDP>_dwimap.nii
  |__ SUBSES_space-T1w_desc-preproc_model-tensor_mdp-<TMDP>_dwimap.nii
  |__ SUBSES_space-T1w_desc-preproc_model-tensor_mfp-AM_dwimap.nii
-
-## TORTOISE Tensor Model (qsirecon-TORTOISE_model-tensor/)
+```
+```
+# TORTOISE Tensor Model (qsirecon-TORTOISE_model-tensor/)
 dwi/
  |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mdp-<TMDP>_dwimap.nii
  |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mfp-AM_dwimap.nii
@@ -439,7 +443,7 @@ symri/
             |__ SUBSES_acq-QALAS_desc-SymriContainer.log
 ```
 
-## XCP-D (`xcp_d/`)
+## XCP-D (`xcp_d/`)🚧 
 XCP-D performs functional MRI post-processing and noise regression from Infant-fMRIPrep derivatives. Please see the [XCP-D webpage](https://xcp-d.readthedocs.io/en/latest/) to learn more and read details about the output file types. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar `.json` files are not included below. Also note that files may have additional BIDS entities including `dir-<label>` (to specify its derivation from data acquired in the `AP` or `PA` phase encoding directions) or `run-<label>` as appropriate. 
 
 <details>
