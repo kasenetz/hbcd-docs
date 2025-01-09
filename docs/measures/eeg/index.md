@@ -48,7 +48,7 @@ ERPs are computed as a function of repeated presentation of faces and objects. T
 
 ### Auditory Mismatch Negativity Task (MMN)
 <p>
-<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="mmn-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
@@ -63,7 +63,7 @@ The Auditory mismatch negativity (MMN) Task (v.11.29.23) provides a comprehensiv
 
 ### Video Resting State (RS)
 <p>
-<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="rs-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
