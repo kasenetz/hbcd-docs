@@ -1,7 +1,7 @@
 # Quantitative MRI (qMRI)
 <p>
-<div id="qmri-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>

@@ -4,7 +4,6 @@ EEG tasks are acquired during visits V03, V04, and V06.
 
 ![](images/EEG_acquisition_protocol.png)
 
-
 ## Quality Control    
 After EEG acquisition, quality control checks are performed using [EEG2BIDS Wizard](https://github.com/aces/eeg2bids), a custom MATLAB application installed at all HBCD sites. These checks are immediately provided to the user to ensure the data's integrity and usability. The process includes:
 
@@ -18,9 +17,7 @@ Both study sites and the EEG Core team use an EEG Quality Control dashboard deve
 
 During quality control, a frequently observed issue across all tasks was the irregular application of EEG sensors. Additionally, partial task completion due to infant fussing and missing stimulus flags were commonly noted for the faces and auditory mismatch negativity tasks.
 
-
 ## EEG Task Details
-
 ### Faces Task
 The Faces task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability. To assess child and infant face processing abilities as well as the underlying neural activity supporting face and object processing, the task involves 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task.     
    
@@ -31,8 +28,8 @@ ERPs are computed as a function of repeated presentation of faces and objects. T
 
 ### Auditory Mismatch Negativity Task (MMN)
 <p>
-<div id="eeg-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
@@ -46,8 +43,8 @@ The Auditory mismatch negativity (MMN) Task (v.11.29.23) provides a comprehensiv
 
 ### Video Resting State (RS)
 <p>
-<div id="eeg-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>

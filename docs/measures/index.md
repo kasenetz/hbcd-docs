@@ -9,10 +9,9 @@ The visits and corresponding ages of the infant/child are listed below. **Only d
 
 
 ## Responsible Use & Expert Review Warnings
-To promote responsible use of the data and offer additional context for users, warnings are displayed at the top of each measure/instrument section where relevant. These warnings have been incorporated into the data dictionary that link directly to the release notes. We encourage all data users to examine the warnings for any variables you plan to download/utilize and adhere to the recommended guidelines. 
+To promote responsible use of the data and offer additional context for users, warnings are displayed at the top of each measure/instrument section as necessary. These warnings have been incorporated into the data dictionary that link directly to the release notes. We encourage all data users to examine the warnings for any variables you plan to download/utilize and adhere to the recommended guidelines. 
 
-**For consistency with ABCD, Responsible Data Use Warnings for overlapping measures were provided by the ABCD Wiki. These warnings are clearly labeled as such and contain a direct link to the Wiki source, as is demonstrated in the example and explanation below.** 
-
+**For consistency with ABCD, Responsible Data Use Warnings for overlapping measures were provided by the ABCD Wiki (see additional information [here](https://data.abcdstudy.org/reports/wiki-release6/jedi.html#warnings-in-release-noteswiki)). These warnings are clearly labeled as such and contain a direct link to the Wiki source, as is demonstrated in the example and explanation below.** 
 
 There are two types of warnings:
 <p>
@@ -35,7 +34,7 @@ There are two types of warnings:
 </div>
 <div class="collapsible-content">
 <br>
-<p>The Expert Review warnings provide critical guidance for researchers from subject matter experts including information such as considerations and recommendations for measure usage, known issues, and important reminders. This information is intended to aid in transparency, best practice, and ease of use for a given measure/data type.</p> 
+<p>The Expert Review warnings provide critical guidance for researchers from subject matter experts on measures/data specifically within the context of HBCD, including considerations and recommendations for measure usage, known issues, and important reminders. This information is intended to aid in transparency, best practice, and ease of use for a given measure/data type.</p> 
 </div>
 </p>
 

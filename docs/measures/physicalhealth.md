@@ -72,8 +72,8 @@ The QC procedures for all three measures involved monitoring the data dashboard 
 ## Instrument Details
 ### Breastfeeding     
 <p>
-<div id="bf-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
@@ -87,8 +87,8 @@ Breastfeeding measures initiation, exclusivity, and cessation of breast milk fee
 
 ### Food Insecurity
 <p>
-<div id="foodins-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
@@ -102,8 +102,8 @@ Food Insecurity, based on two items assessing the availability of food, is a scr
 
 ### Growth   
 <p>
-<div id="bf-known-issues" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
   <span class="arrow">▸</span>
 </div>
