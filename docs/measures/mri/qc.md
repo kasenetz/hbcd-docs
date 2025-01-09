@@ -73,11 +73,16 @@ Series with severe artifacts that compromise data usability are rejected (QC = 0
 
 
 ## BrainSwipes
-Quality control procedures for various pipeline outputs—such as structural and functional derivatives XCP-D and diffusion derivatives from the QSIPrep-rely on manual visual inspection to identify image artifacts. Though automated methods for QC do exist and are under active development, visual inspection remains the gold standard. To streamline this process, the visual reports included in these derivatives are integrated into [BrainSwipes](https://brainswipes.us/about), a gamified platform built off of the open-source [Swipes For Science](https://swipesforscience.org/) project.
+Quality control procedures for various pipeline outputs—such as structural and functional derivatives from XCP-D and diffusion derivatives from QSIPrep-rely on manual visual inspection (the current gold standard for image QC) to identify image artifacts. To streamline this process, the visual reports included in these derivatives are integrated into [BrainSwipes](https://brainswipes.us/about), a gamified platform built off of the open-source [Swipes For Science](https://swipesforscience.org/) project.
 
 BrainSwipes harnesses the power of crowdsourcing to address the time-intensive task of evaluating MRI brain scan quality through visual inspection, particularly for large-scale studies. Users are guided through a simple [tutorial](https://brainswipes.us/tutorial-select) that teaches them how to navigate the platform and assess derivative files, enabling them to confidently classify images as either pass or fail. For a comprehensive guide to using BrainSwipes, visit the [BrainSwipes ReadTheDocs](https://brainswipes.readthedocs.io/).
 
-For HBCD, BrainSwipes is currently used for QA of images derived from visual reports produced by XCP-D (including T1w/T2w surfaces, atlas registration, and functional registration) and QSIPrep (diffusion). In addition, image mosaics generated for raw BIDS QALAS data are included for QA as well.
+<p>
+<div id="notification-banner" class="notification-banner">
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">Raw data (T1w, T2w, QALAS, etc.) is also available on BrainSwipes, but this is strictly for use in development of automated QC methods and not included in the data release.</span>
+</div>
+</p> 
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
@@ -100,10 +105,6 @@ Functional registration is evaluated by overlaying outlines of functional images
 
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Diffusion:</b></p>
 Swipes display GIFs of full-resolution T2w images as a grayscale background, with the "Direction Encoded Color" (DEC) map overlaid. These GIFs sweep through a portion of the brain across the three anatomical planes. High-quality processed DWI images exhibit bands of color that closely follow the folds and contours of the grayscale background. These visuals are derived from the QSIPrep report.
-
 <p>
-<p style="font-size: 1em; margin: 0 0 5px;"><b>QALAS:</b></p>
-Swipes presents nine-image mosaics from the third of the five-volume QALAS scans (raw BIDS data) collected for HBCD. Quality is assessed based on clear delineation between brain structures, minimal levels of blurring, and lack of image artifacts.
-</p>
 </div>
 </p>
