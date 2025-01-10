@@ -87,6 +87,19 @@ For all measures, QC procedures involved review of response distributions (cross
 ## Instrument Details
 ### Assist V1/V2/V3
 <p>
+<div id="assist-alert" class="alert-banner" onclick="toggleCollapse(this)">
+    <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
+    <span class="text">Responsible Data Use Warning</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>Implicit in responsible stewardship of prenatal drug exposure data is the recognition of the structural racism in which drug policy in the United States has long been embedded (Coles 1993; Wakeman et al., 2022). Responsible use of prenatal drug exposure data also requires thoughtful interpretation of exposure-related outcomes in the context of measured and unmeasured confounders. These confounders include, but are not limited to, phenotypic risks associated with persistent alcohol, tobacco, and other drug use during pregnancy by birthing parents (Massey et al., 2011), and confounding by familial risk from within-family studies (Estabrook et al., 2016).</p>
+<p>Finally, unwarranted speculation about ‘neural bases of behavior’ form differences in neuroimaging between exposed and unexposed children in the absence of differences in behavioral performance can exacerbate stigma already faced by birthing parents with substance use disorders and their children (McAllister & Hart 2015).</p> 
+</div>
+</p>
+
+<p>
 <div id="assist-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
@@ -192,7 +205,29 @@ The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/file
   <span class="arrow">▸</span>
 </div>
 <div class="references-collapsible-content">
-<p>National Institute on Drug Abuse. (n.d.). <em>NIDA Modified ASSIST</em>.</p>
-<p>Sobell, L., &amp; Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In <em>Handbook of psychiatric measures.</em> (p. 477). American Psychiatric Association.</p>
+<p>Coles, C. D. (1993). Saying “goodbye” to the “crack baby.” Neurotoxicology and Teratology, 15(5), 290–292; discussion 311-2. <a href="https://doi.org/10.1016/0892-0362(93)90024-i" target="_blank">https://doi.org/10.1016/0892-0362(93)90024-i</a></p>
+  <li>
+    Estabrook, R., Massey, S. H., Clark, C. A. C., Burns, J. L., Mustanski, B. S., Cook, E. H., O’Brien, T. C., Makowski, B., Espy, K. A., & Wakschlag, L. S. (2016). Separating family-level and direct exposure effects of smoking during pregnancy on offspring externalizing symptoms: Bridging the behavior genetic and behavior teratologic divide. <i>Behavior Genetics</i>, <b>46</b>(3), 389–402. <a href="https://doi.org/10.1007/s10519-015-9762-2" target="_blank">https://doi.org/10.1007/s10519-015-9762-2</a>
+  </li>
+  <li>
+    Gal, P., & Sharpless, M. K. (1984). Fetal drug exposure-behavioral teratogenesis. <i>Drug Intelligence & Clinical Pharmacy</i>, <b>18</b>(3), 186–201. <a href="https://doi.org/10.1177/106002808401800304" target="_blank">https://doi.org/10.1177/106002808401800304</a>
+  </li>
+  <li>
+    Level, R. A., Zhang, Y., Tiemeier, H., Estabrook, R., Shaw, D. S., Leve, L. D., Wakschlag, L. S., Reiss, D., Neiderhiser, J. M., & Massey, S. H. (2024). Unique influences of pregnancy and anticipated parenting on cigarette smoking: results and implications of a within-person, between-pregnancy study. <i>Archives of Women’s Mental Health</i>, <b>27</b>(2), 301–308. <a href="https://doi.org/10.1007/s00737-023-01396-z" target="_blank">https://doi.org/10.1007/s00737-023-01396-z</a>
+  </li>
+  <li>
+    Massey, S. H., Lieberman, D. Z., Reiss, D., Leve, L. D., Shaw, D. S., & Neiderhiser, J. M. (2010). Association of clinical characteristics and cessation of tobacco, alcohol, and illicit drug use during pregnancy. <i>The American Journal on Addictions</i>, no-no. <a href="https://doi.org/10.1111/j.1521-0391.2010.00110.x" target="_blank">https://doi.org/10.1111/j.1521-0391.2010.00110.x</a>
+  </li>
+  <li>
+    McAllister, D., & Hart, C. L. (2015). Inappropriate interpretations of prenatal drug use data can be worse than the drugs themselves. <i>Neurotoxicology and Teratology</i>, <b>52</b>, 57. <a href="https://doi.org/10.1016/j.ntt.2015.07.002" target="_blank">https://doi.org/10.1016/j.ntt.2015.07.002</a>
+  </li>
+  <p>National Institute on Drug Abuse. (n.d.). <em>NIDA Modified ASSIST</em>.</p>
+  <li>
+    Shah, S. K., Perez-Cardona, L., Helner, K., Massey, S. H., Premkumar, A., Edwards, R., Norton, E. S., Rogers, C. E., Miller, E. S., Smyser, C. D., Davis, M. M., & Wakschlag, L. S. (2023). How penalizing substance use in pregnancy affects treatment and research: a qualitative examination of researchers’ perspectives. <i>Journal of Law and the Biosciences</i>, <b>10</b>(2), lsad019. <a href="https://doi.org/10.1093/jlb/lsad019" target="_blank">https://doi.org/10.1093/jlb/lsad019</a>
+  </li>
+  <p>Sobell, L., &amp; Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In <em>Handbook of psychiatric measures.</em> (p. 477). American Psychiatric Association.</p>
+  <li>
+    Wakeman, S. E., Bryant, A., & Harrison, N. (2022). Redefining child protection. <i>Obstetrics and Gynecology</i>, <b>140</b>(2), 167–173. <a href="https://doi.org/10.1097/aog.0000000000004786" target="_blank">https://doi.org/10.1097/aog.0000000000004786</a>
+  </li>
 </div>
 </p>
