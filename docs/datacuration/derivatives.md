@@ -334,7 +334,7 @@ qsiprep/
 *See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder structure visual.*
 
 ## QSIRecon 
-QSIPrep derivatives are passed to QSIRecon for reconstruction, including ODF/FOD reconstruction, tractography, Fixel estimation and regional connectivity. The data are processed using a variety of methods and models (e.g. [Dipy](https://dipy.org/), [MRTrix](https://www.mrtrix.org/), [DSI Studio](https://dsi-studio.labsolver.org/), etc). Please see the [QSIRecon webpage](https://qsirecon.readthedocs.io/en/latest/) for a details.
+QSIPrep derivatives are passed to QSIRecon for reconstruction, including ODF/FOD reconstruction, tractography, Fixel estimation, and regional connectivity. The data are processed using a variety of methods and models (e.g. [Dipy](https://dipy.org/), [MRTrix](https://www.mrtrix.org/), [DSI Studio](https://dsi-studio.labsolver.org/), etc). Please see the [QSIRecon webpage](https://qsirecon.readthedocs.io/en/latest/) for a details.
 
 ```
 derivatives/ 
@@ -348,7 +348,7 @@ derivatives/
             |__ figures/
             |__ SUBSES.html    
 ```    
-Thought not displayed below, note that all `dwimap.nii.gz` files have associated JSON files (*see [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder trees*).
+Though not displayed below, note that all `dwimap.nii.gz` files have associated JSON files (*see [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder trees*).
 
 ### Dipy (`qsirecon-DIPYDKI/`)
 <p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">

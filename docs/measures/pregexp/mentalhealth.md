@@ -113,6 +113,19 @@ The HBCD FAM MH assesses self-reported diagnoses and mental health conditions of
 </p>
 
 ### APA 1/2
+<p>
+<div id="apa-warning" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>Consideration of Mental Health Symptoms Experienced During Pregnancy</strong></p>
+<p>Concurrence of psychiatric symptoms and substance use is well-recognized during pregnancy (Massey et al., 2011, 2012). Phenotypic risk in birthing parents may influence neurodevelopmental outcomes via prenatal and postnatal influences other than direct exposures alone (Estabrook et al., 2016, Massey et al., 2016, Massey et al., 2018). These influences may confound exposure-related neuroimaging and neurodevelopmental findings, and also represent malleable targets for prevention and early intervention. Thus, consideration of mental health symptoms experienced by birthing parents as covariates is strongly encouraged when possible.</p> 
+</div>
+</p>
+
 This highly sensitive screening tool adapted for HBCD is designed for community samples and combines two measures: the [DSM-5 Self-Rated Level 1 Cross-Cutting Symptom Measure—Adult](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf) and the DSM-5 Level 2 Cross-Cutting Symptom Measures (below):
 
 ![](images/DSM-5Level2Cross-CuttingSymptomMeasures.png)
@@ -168,7 +181,11 @@ The Edinburgh Postnatal Depression Scale (<a href="https://downloads.aap.org/AAP
 <p style="margin-bottom: 0; padding-bottom: 0;"><u>APA 1/2 Mental Health</u></p>
 <ul>
 <p>Doss, R. A., &amp; Lowmaster, S. E. (2022). Validation of the DSM-5 Level 1 Cross-Cutting Symptom Measure in a Community  Sample. <em>Psychiatry Research</em>, <em>318</em>, 114935. <a href="https://doi.org/10.1016/j.psychres.2022.114935">https://doi.org/10.1016/j.psychres.2022.114935</a></p>
+<p>Estabrook, R., Massey, S. H., Clark, C. A. C., Burns, J. L., Mustanski, B. S., Cook, E. H., O’Brien, T. C., Makowski, B., Espy, K. A., & Wakschlag, L. S. (2016). Separating family-level and direct exposure effects of smoking during pregnancy on offspring externalizing symptoms: Bridging the behavior genetic and behavior teratologic divide. Behavior Genetics, 46(3), 389–402. <a href="https://doi.org/10.1007/s10519-015-9762-2">https://doi.org/10.1007/s10519-015-9762-2</a></p>
+<p>Massey, S. H., Mroczek, D. K., Burns, J. L., Clark, C. A. C., Espy, K. A., & Wakschlag, L. S. (2018). Positive parenting behaviors in women who spontaneously quit smoking during pregnancy: Clues to putative targets for preventive interventions. Neurotoxicology and Teratology, 67, 18–24.<a href="https://doi.org/10.1016/j.ntt.2018.02.003">https://doi.org/10.1016/j.ntt.2018.02.003</a></p>
+<p>Massey, S. H., Reiss, D., Neiderhiser, J. M., Leve, L. D., Shaw, D. S., & Ganiban, J. M. (2016). Maternal personality traits associated with patterns of prenatal smoking and exposure: Implications for etiologic and prevention research. Neurotoxicology and Teratology, 53, 48–54. <a href="https://doi.org/10.1016/j.ntt.2015.11.010">https://doi.org/10.1016/j.ntt.2015.11.010</a></p>
 <p>Roche, M. J., Pincus, A. L., &amp; Cole, P. E. (2019). Linking dimensions and dynamics in psychopathology research: An example using DSM-5 instruments. <em>Journal of Research in Personality</em>, <em>82</em>, 103852. <a href="https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852">https://doi.org/https://doi.org/10.1016/j.jrp.2019.103852</a></p>
+
 
 <p style="margin-bottom: 0; padding-bottom: 0;"><u>EPDS</u></p>
 <p>Cox, J. L., Holden, J. M., &amp; Sagovsky, R. (1987). Detection of postnatal depression . Development of the 10-item Edinburgh Postnatal Depression Scale. <em>British Journal of Psychiatry</em>, <em>150</em>, 782–786. <a href="https://doi.org/10.1192/bjp.150.6.782">https://doi.org/10.1192/bjp.150.6.782</a></p>
