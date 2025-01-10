@@ -16,6 +16,17 @@ Both study sites and the EEG Core team use an EEG Quality Control dashboard deve
 
 During quality control, a frequently observed issue across all tasks was the irregular application of EEG sensors. Additionally, partial task completion due to infant fussing and missing stimulus flags were commonly noted for the faces and auditory mismatch negativity tasks.
 
+### EEG Net Placement ("Capping Quality") Ratings
+EEG capping quality ratings are used to determine inclusion in the data release pool and subsequent processing. Photos are taken for each acquisition from the front, back, top, left, and right angles of the participant's head and uploaded via the BIDS Wizard application to a secure computing environment. They are then reviewed by the EEG Core at the University of Maryland to rate the quality of EEG net placement, or "capping quality," for each acquisition. EEG data determined as unusable due to capping quality are not included in the initial public data release, as noted under [Exclusion Criteria > EEG](../../datacuration/exclusions.md#eeg). 
+
+“Average”, "Poor," and "Not usable" ratings correspond to net placement shifted 1-2 cm, 2-3 cm, and >3 cm from proper placement, respectively. To be rated as "Excellent," acquisitions must meet the following criteria:
+
+1.	Net placement is symmetrical with midline electrodes centered on the scalp
+2.	Ears are within the ear holes and not covered by sensors 
+3.	Reference electrode is placed on the vertex of the scalp
+4.	Electrode E17 is placed on the nasion
+
+
 ## EEG Task Details
 <p>
 <div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
