@@ -102,26 +102,26 @@ made/
             |   |__ SUBSES_desc-merged_eeg.set
             | 
             |__ processed_data/
-            |   |__ sub-<label>_task-MMN_desc-standard_topo.jpg
-            |   |__ sub-<label>_task-FACE_desc-upright_topo.jpg
-            |   |__ sub-<label>_task-VEP_topo.jpg
-            |   |__ sub-<label>_task-FACE_desc-inverted_topo.jpg
-            |   |__ sub-<label>_task-MMN_desc-preDeviant_topo.jpg
-            |   |__ sub-<label>_task-MMN-desc-Deviant_topo.jpg
-            |   |__ sub-<label>_task-FACE_desc-object_topo.jpg
-            |   |__ sub-<label>_task-MMN_desc-diffDevVsSta_topo.jpg
-            |   |__ sub-<label>_task-FACE_desc-upright2_topo.jpg
-            |   |__ sub-<label>_task-FACE_desc-diffInvVsUpr_topo.jpg
-            |   |__ sub-<label>_task-MMN_desc-diffDevVsPre_topo.jpg
-            |   |__ sub-<label>_task-FACE_desc-diffObjVsUp2_topo.jpg
             |   |__ sub-<label>_task-FACE_desc-Oz_diffERP.jpg
+            |   |__ sub-<label>_task-FACE_desc-diffInvVsUpr_topo.jpg
+            |   |__ sub-<label>_task-FACE_desc-diffObjVsUp2_topo.jpg
+            |   |__ sub-<label>_task-FACE_desc-inverted_topo.jpg
+            |   |__ sub-<label>_task-FACE_desc-object_topo.jpg
+            |   |__ sub-<label>_task-FACE_desc-oz_ERP.jpg
+            |   |__ sub-<label>_task-FACE_desc-upright_topo.jpg
+            |   |__ sub-<label>_task-FACE_desc-upright2_topo.jpg
+            |   |__ sub-<label>_task-MMN-desc-Deviant_topo.jpg
+            |   |__ sub-<label>_task-MMN_desc-diffDevVsSta_topo.jpg
+            |   |__ sub-<label>_task-MMN_desc-diffDevVsPre_topo.jpg
+            |   |__ sub-<label>_task-MMN_desc-preDeviant_topo.jpg
+            |   |__ sub-<label>_task-MMN_desc-standard_topo.jpg
             |   |__ sub-<label>_task-MMN_desc-T7t8_diffERP.jpg
-            |   |__ sub-<label>_task-FACE_desc-oz_ERP.jpg 
-            |   |__ sub-<label>_task-VEP_desc-oz_ERP.jpg
             |   |__ sub-<label>_task-MMN_desc-t7t8_ERP.jpg
             |   |__ sub-<label>_task-RS_desc-allChAvg_PSD.jpg
             |   |__ sub-<label>_task-RS_desc-allCh_PSD.jpg
             |   |__ sub-<label>_task-RS_desc-ROI_PSD.jpg
+            |   |__ sub-<label>_task-VEP_desc-oz_ERP.jpg
+            |   |__ sub-<label>_task-VEP_topo.jpg
             |   |__ SUBSES_task-<FACE|MMN|RS|VEP>_ERPSummaryStats.csv
             |   |__ SUBSES_task-<FACE|MMN|RS|VEP>_ERPTrialMeasures.csv
             |   |__ SUBSES_task-RS_powerSummaryStats.csv
