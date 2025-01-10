@@ -153,74 +153,63 @@ mriqc/
 ## Infant-fMRIPrep (`nibabies/`)
 Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs.
 
-<details>
+<details open>
   <summary>Label Values Legend</summary>
   <ul>
+    <li><b>SUBSES-(F)RUN</b>: For brevity, the BIDS entities below are replaced with the indicated strings:
+        <ul>
+        <li><code>sub-&lt;label&gt;_ses-&lt;label&gt;_run-&lt;label&gt;</code> ▸ <code>SUBSES-RUN</code></li>
+        <li><code>sub-&lt;label&gt;_ses-&lt;label&gt;_task-rest_dir-PA_run-&lt;label&gt;</code> ▸ <code>SUBSES-FRUN</code></li>
+        </ul>
+    </li>
+    <li><b>JSONs</b>: Files with corresponding JSONs (not displayed) are labeled with <code>(+JSON)</code> after the filename</li>
     <li><b>&ltXFMSPACE&gt</b> label values: <code>MNI152NLin6Asym_res-2</code>, <code>MNIInfant+1</code>, <code>fsnative</code></li>
     <li><b>&ltSURF&gt</b> label values: <code>inflated</code>, <code>midthickness</code>, <code>pial</code>, <code>sphere</code>, <code>white</code>
     <li><b>&ltSPACE&gt</b> label values: <code>MNI152NLin6Asym_res-2</code>, <code>T2w</code></li>
     <li><b>&ltFMAPID&gt</b> potential label values: <code>auto00000</code>, <code>auto00001</code>, <code>auto00002</code>, & <code>auto000003</code>, <code>auto000004</code></li>
-    <li><b>&ltFROM&gt</b> label values: <code>boldref_to-T2w_mode-image_desc-coreg</code>, <code>boldref_to-auto00000_mode-image</code>, 
-<code>orig_to-boldref_mode-image_desc-hmc</code>
+    <li><b>&ltFROM&gt</b> label values: <code>boldref_to-T2w_mode-image_desc-coreg</code>, <code>boldref_to-auto00000_mode-image</code>, <code>orig_to-boldref_mode-image_desc-hmc</code>
   </ul>
 </details>
+
 ```
 nibabies/
 |__ sub-<label>/
 |   |__ figures/
 |   |__ ses-<label>/
 |       |__ anat/
-|       |   |__ SUBSES_run-<label>_desc-preproc_T2w.nii.gz
-|       |   |__ SUBSES_run-<label>_desc-preproc_T2w.json
-|       |   |__ SUBSES_run-<label>_from-<XFMSPACE>_to-T2w_mode-image_xfm.h5
-|       |   |__ SUBSES_run-<label>_from-T2w_to-<XFMSPACE>_mode-image_xfm.h5
-|       |   |__ SUBSES_run-<label>_hemi-<L|R>_<curv|sulc|thickness>.shape.gii
-|       |   |__ SUBSES_run-<label>_hemi-<L|R>_<SURF>.surf.gii
-|       |   |__ SUBSES_run-<label>_hemi-<L|R>_space-dhcpAsym_desc-reg_sphere.surf.gii
-|       |   |__ SUBSES_run-<label>_hemi-<L|R>_space-fsaverage_desc-reg_sphere.surf.gii
-|       |   |__ SUBSES_run-<label>_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz
-|       |   |__ SUBSES_run-<label>_space-MNI152NLin6Asym_res-2_desc-brain_mask.json
-|       |   |__ SUBSES_run-<label>_space-MNI152NLin6Asym_res-2_desc-preproc_T2w.nii.gz
-|       |   |__ SUBSES_run-<label>_space-MNI152NLin6Asym_res-2_desc-preproc_T2w.json
-|       |   |__ SUBSES_run-<label>_space-MNI152NLin6Asym_res-2_dseg.nii.gz
-|       |   |__ SUBSES_run-<label>_space-MNI152NLin6Asym_res-2_dseg.json
-|       |   |__ SUBSES_run-<label>_space-<SPACE>_label-<CSF|GM|WM>_probseg.nii.gz
-|       |   |__ SUBSES_run-<label>_space-T2w_desc-<aparcaseg|aseg>_dseg.nii.gz
-|       |   |__ SUBSES_run-<label>_space-T2w_dseg.nii.gz
-|       |   |__ SUBSES_run-<label>_space-T2w_desc-ribbon_mask.nii.gz
-|       |   |__ SUBSES_run-<label>_space-T2w_desc-ribbon_mask.json
-|       |   |__ SUBSES_run-<label>_space-fsLR_den-91k_<curv|sulc|thickness>.dscalar.nii
-|       |   |__ SUBSES_run-<label>_space-fsLR_den-91k_<curv|sulc|thickness>.json
+|       |   |__ SUBSES-RUN_desc-preproc_T2w.nii.gz (+JSON)
+|       |   |__ SUBSES-RUN_from-<XFMSPACE>_to-T2w_mode-image_xfm.h5
+|       |   |__ SUBSES-RUN_from-T2w_to-<XFMSPACE>_mode-image_xfm.h5
+|       |   |__ SUBSES-RUN_hemi-<L|R>_<curv|sulc|thickness>.shape.gii
+|       |   |__ SUBSES-RUN_hemi-<L|R>_<SURF>.surf.gii
+|       |   |__ SUBSES-RUN_hemi-<L|R>_space-dhcpAsym_desc-reg_sphere.surf.gii
+|       |   |__ SUBSES-RUN_hemi-<L|R>_space-fsaverage_desc-reg_sphere.surf.gii
+|       |   |__ SUBSES-RUN_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz (+JSON)
+|       |   |__ SUBSES-RUN_space-MNI152NLin6Asym_res-2_desc-preproc_T2w.nii.gz (+JSON)
+|       |   |__ SUBSES-RUN_space-MNI152NLin6Asym_res-2_dseg.nii.gz (+JSON)
+|       |   |__ SUBSES-RUN_space-<SPACE>_label-<CSF|GM|WM>_probseg.nii.gz
+|       |   |__ SUBSES-RUN_space-T2w_desc-<aparcaseg|aseg>_dseg.nii.gz
+|       |   |__ SUBSES-RUN_space-T2w_dseg.nii.gz
+|       |   |__ SUBSES-RUN_space-T2w_desc-ribbon_mask.nii.gz (+JSON)
+|       |   |__ SUBSES-RUN_space-fsLR_den-91k_<curv|sulc|thickness>.dscalar.nii (+JSON)
 |       |
 |       |__ fmap/
-|       |   |__ SUBSES_run-<label>_fmapid-<FMAPID>_desc-coeff_fieldmap.nii.gz
-|       |   |__ SUBSES_run-<label>_fmapid-<FMAPID>_desc-epi_fieldmap.nii.gz
-|       |   |__ SUBSES_run-<label>_fmapid-<FMAPID>_desc-preproc_fieldmap.nii.gz
-|       |   |__ SUBSES_run-<label>_fmapid-<FMAPID>_desc-preproc_fieldmap.json
+|       |   |__ SUBSES-RUN_fmapid-<FMAPID>_desc-coeff_fieldmap.nii.gz
+|       |   |__ SUBSES-RUN_fmapid-<FMAPID>_desc-epi_fieldmap.nii.gz
+|       |   |__ SUBSES-RUN_fmapid-<FMAPID>_desc-preproc_fieldmap.nii.gz (+JSON)
 |       |
-|       |__ func/
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_desc-brain_mask.nii.gz
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_desc-brain_mask.json
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_desc-confounds_timeseries.tsv
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_desc-confounds_timeseries.json
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_desc-coreg_boldref.nii.gz
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_desc-coreg_boldref.json
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_desc-hmc_boldref.nii.gz
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_desc-hmc_boldref.json
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_desc-preproc_bold.nii.gz
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_desc-preproc_bold.json
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_from-<FROM>_xfm.txt
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_from-<FROM>_xfm.json
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_hemi-<L|R>_space-fsnative_bold.func.gii
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_hemi-<L|R>_space-fsnative_bold.json
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_space-<SPACE>_boldref.nii.gz
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_space-<SPACE>_boldref.json
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_space-<SPACE>_desc-brain_mask.nii.gz
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_space-<SPACE>_desc-brain_mask.json
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_space-<SPACE>_desc-preproc_bold.nii.gz
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_space-<SPACE>_desc-preproc_bold.json
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_space-fsLR_den-91k_bold.dtseries.nii
-|       |   |__ SUBSES_task-rest_dir-PA_run-<label>_space-fsLR_den-91k_bold.json
+|       |__ func/ (ALL +JSON)
+|       |   |__ SUBSES-FRUN_desc-brain_mask.nii.gz
+|       |   |__ SUBSES-FRUN_desc-confounds_timeseries.tsv
+|       |   |__ SUBSES-FRUN_desc-coreg_boldref.nii.gz
+|       |   |__ SUBSES-FRUN_desc-hmc_boldref.nii.gz 
+|       |   |__ SUBSES-FRUN_desc-preproc_bold.nii.gz
+|       |   |__ SUBSES-FRUN_from-<FROM>_xfm.txt
+|       |   |__ SUBSES-FRUN_hemi-<L|R>_space-fsnative_bold.func.gii
+|       |   |__ SUBSES-FRUN_space-<SPACE>_boldref.nii.gz
+|       |   |__ SUBSES-FRUN_space-<SPACE>_desc-brain_mask.nii.gz
+|       |   |__ SUBSES-FRUN_space-<SPACE>_desc-preproc_bold.nii.gz
+|       |   |__ SUBSES-FRUN_space-fsLR_den-91k_bold.dtseries.nii
 |       |
 |       |__ log/
 |
@@ -482,46 +471,55 @@ symri/
 ```
 *See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder tree above.*
 
-## XCP-D (`xcp_d/`)🚧 
-XCP-D performs functional MRI post-processing and noise regression from Infant-fMRIPrep derivatives. Please see the [XCP-D webpage](https://xcp-d.readthedocs.io/en/latest/) to learn more and read details about the output file types. For readability, the `figures/` folder contents (contains all `html` and `svg` files rendered in the visual report) and sidecar `.json` files are not included below. Also note that files may have additional BIDS entities including `dir-<label>` (to specify its derivation from data acquired in the `AP` or `PA` phase encoding directions) or `run-<label>` as appropriate. 
+## XCP-D (`xcp_d/`)
+XCP-D performs functional MRI post-processing and noise regression from Infant-fMRIPrep derivatives. Please see the [XCP-D webpage](https://xcp-d.readthedocs.io/en/latest/) to learn more and read details about the output file types.
 
-<details>
-  <summary>Label Values Legend</summary>
+<details open>
+<summary>Label Values Legend</summary>
   <ul>
     <li><b>&ltSEG&gt</b> label values: <code>4S1056Parcels</code>, <code>4S156Parcels</code>, <code>4S256Parcels</code>, <code>4S356Parcels</code>, <code>4S456Parcels</code>, <code>4S556Parcels</code>, <code>4S656Parcels</code>, <code>4S756Parcels</code>, <code>4S856Parcels</code>, <code>4S956Parcels</code>, <code>Glasser</code>, <code>Gordon</code>, <code>MIDB</code>,<code>MyersLabonte</code>, <code>Tian</code></li>
-    </ul>
+    <li><b>SUBSES-(F)RUN</b>: For brevity, the BIDS entities below are replaced with the indicated strings:
+        <ul>
+        <li><code>sub-&lt;label&gt;_ses-&lt;label&gt;_run-&lt;label&gt;</code> ▸ <code>SUBSES-RUN</code></li>
+        <li><code>sub-&lt;label&gt;_ses-&lt;label&gt;_task-rest_dir-PA_run-&lt;label&gt;</code> ▸ <code>SUBSES-FRUN</code></li>
+        </ul>
+    </li>
+    <li><b>Functional JSONs</b> are not displayed below, however corresponding JSONs should exist for all files except <code>.hdf5</code> and <code>*linc_qc.tsv</code></li>
+  </ul>
 </details>
 ```
 xcp_d/
 |_ sub-<label>/
 |  |_ ses-<label>/
 |     |_ anat/
-|     |  |__ SUBSES_space-MNI152NLin6Asym_desc-preproc_T2w.nii.gz
-|     |  |__ SUBSES_space-MNI152NLin6Asym_dseg.nii.gz
-|     |  |__ SUBSES_space-fsLR_den-91k_<curv|sulc|thickness>.dscalar.nii
-|     |  |__ SUBSES_space-fsLR_seg-<SEG>_stat-mean_desc-curv_morph.tsv
-|     |  |__ SUBSES_space-fsLR_seg-<SEG>_stat-mean_desc-sulc_morph.tsv
-|     |  |__ SUBSES_space-fsLR_seg-<SEG>_stat-mean_desc-thickness_morph.tsv
+|     |  |__ SUBSES-RUN_space-MNI152NLin6Asym_desc-preproc_T2w.nii.gz
+|     |  |__ SUBSES-RUN_space-fsLR_seg-<SEG>_stat-mean_desc-curv_morph.tsv
+|     |  |__ SUBSES-RUN_space-fsLR_seg-<SEG>_stat-mean_desc-sulc_morph.tsv
+|     |  |__ SUBSES-RUN_space-fsLR_seg-<SEG>_stat-mean_desc-thickness_morph.tsv
 |     |
 |     |_ func/
-|     |  |__ SUBSES_task-rest_desc-abcc_qc.hdf5
-|     |  |__ SUBSES_task-rest_<design|motion|outliers>.tsv
+|     |  |__ SUBSES_task-rest_desc-abcc_qc.hdf5 # No json
+|     |  |__ SUBSES_task-rest_<motion|outliers>.tsv
 |     |  |__ SUBSES_task-rest_space-fsLR_den-91k_desc-denoisedSmoothed_bold.dtseries.nii
 |     |  |__ SUBSES_task-rest_space-fsLR_den-91k_desc-denoised_bold.dtseries.nii
-|     |  |__ SUBSES_task-rest_space-fsLR_den-91k_desc-linc_qc.tsv
-|     |  |__ SUBSES_task-rest_space-fsLR_den-91k_stat-alff_boldmap.dscalar.nii
-|     |  |__ SUBSES_task-rest_space-fsLR_den-91k_stat-alff_desc-smooth_boldmap.dscalar.nii
-|     |  |__ SUBSES_task-rest_space-fsLR_den-91k_stat-reho_boldmap.dscalar.nii
-|     |  |__ SUBSES_task-rest_space-fsLR_seg-<SEG>_den-91k_stat-coverage_boldmap.pscalar.nii
 |     |  |__ SUBSES_task-rest_space-fsLR_seg-<SEG>_den-91k_stat-mean_timeseries.ptseries.nii
-|     |  |__ SUBSES_task-rest_space-fsLR_seg-<SEG>_stat-alff_bold.tsv
-|     |  |__ SUBSES_task-rest_space-fsLR_seg-<SEG>_stat-coverage_bold.tsv
 |     |  |__ SUBSES_task-rest_space-fsLR_seg-<SEG>_stat-mean_timeseries.tsv
-|     |  |__ SUBSES_task-rest_space-fsLR_seg-<SEG>_stat-reho_bold.tsv
-|     |  |__ SUBSES_task-rest_space-fsLR_seg-<SEG>_stat-pearsoncorrelation_relmat.tsv
+|     |  |__ SUBSES-FRUN_desc-abcc_qc.hdf5 # No json
+|     |  |__ SUBSES-FRUN_space-fsLR_den-91k_desc-linc_qc.tsv # No json
+|     |  |__ SUBSES-FRUN_<motion|design|outliers>.tsv
+|     |  |__ SUBSES-FRUN_space-fsLR_den-91k_desc-denoisedSmoothed_bold.dtseries.nii
+|     |  |__ SUBSES-FRUN_space-fsLR_den-91k_desc-denoised_bold.dtseries.nii
+|     |  |__ SUBSES-FRUN_space-fsLR_den-91k_stat-alff_boldmap.dscalar.nii
+|     |  |__ SUBSES-FRUN_space-fsLR_den-91k_stat-alff_desc-smooth_boldmap.dscalar.nii
+|     |  |__ SUBSES-FRUN_space-fsLR_den-91k_stat-reho_boldmap.dscalar.nii
+|     |  |__ SUBSES-FRUN_space-fsLR_seg-<SEG>_den-91k_stat-coverage_boldmap.pscalar.nii
+|     |  |__ SUBSES-FRUN_space-fsLR_seg-<SEG>_den-91k_stat-mean_timeseries.ptseries.nii
+|     |  |__ SUBSES-FRUN_space-fsLR_seg-<SEG>_stat-alff_bold.tsv
+|     |  |__ SUBSES-FRUN_space-fsLR_seg-<SEG>_stat-coverage_bold.tsv
+|     |  |__ SUBSES-FRUN_space-fsLR_seg-<SEG>_stat-mean_timeseries.tsv
+|     |  |__ SUBSES-FRUN_space-fsLR_seg-<SEG>_stat-reho_bold.tsv
 |     |
 |     |_ figures/
 |
 |_ sub-<label>_ses-<label>_executive_summary.html
 ```
-*See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder tree above.*
