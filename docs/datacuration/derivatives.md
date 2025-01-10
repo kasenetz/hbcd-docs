@@ -215,9 +215,7 @@ nibabies/
 |
 |__ SUBSES.html
 ```
-
-
-*See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder tree above.*
+*See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
 
 ## OSPREY-BIDS (`osprey/`)🚧
 OSPREY-BIDS is the BIDS extension to the OSPREY pipeline used to process HBCD magnetic resonance spectroscopy (MRS) data. The `HERCULES` and `unedited` folders have matching structures, so only one is displayed below. For readability, the image files under `figures/` are not listed. Also note that filenames may additionally include `run-<label>`. Please see their [webpage](https://osprey-bids.readthedocs.io/en/latest/index.html) for a detailed explanation of these outputs.
@@ -297,7 +295,7 @@ qmri_postproc/
 ```
 *See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder tree above.*
 
-## QSIPrep (`qsiprep/`) 🚧 
+## QSIPrep (`qsiprep/`) 
 The QSIPrep pipeline is used for preprocessing the HBCD diffusion-weighted MRI (dMRI) data. Preprocessing includes head motion correction, susceptibility distortion correction, MP-PCA denoising, coregistration to T1w images, ANTS spatial normalization, and tissue segmentation. The QSIPrep derivatives are then passed to [QSIRecon](#qsirecon) for reconstruction. Please see a full description of this pipeline on their [webpage](https://qsiprep.readthedocs.io/en/latest/). 
 ```
 qsiprep/
@@ -330,8 +328,7 @@ qsiprep/
         |   |__ SUBSES_space-ACPC_dwiref.nii.gz
         |   |__ SUBSES_space-ACPC_model-eddy_stat-cnr_dwimap.json
         |   |__ SUBSES_space-ACPC_model-eddy_stat-cnr_dwimap.nii.gz
-        |
-        |__ figures/ # Not listed
+        |__ figures/
         |__ SUBSES.html
 ```
 *See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder structure visual.*
