@@ -184,6 +184,18 @@ Finally, additional screening for substance use (within three months before or d
 
 ### TLFB
 <p>
+<div id="tlfb-alert" class="alert-banner" onclick="toggleCollapse(this)">
+    <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
+    <span class="text">Responsible Data Use Warning</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>HBCD was designed to enable the characterization of the known fluctuation in substance use across the perinatal period critical for advancing prevention and intervention (Massey et al., 2023, Bandoli et al., 2022, Si et al., 2024).</p>
+<p>Moreover, characterization of between- and within-person variability in substance use has been shown to enhance the sensitivity and specificity of risk prediction (Massey et al., 2021, Massey et al., 2018). Thus, the characterization of patterns or trajectories of use should be considered over the use of dichotomous exposure characterization. Another gap in literature concerns the extent, nature, and implications of polysubstance use during pregnancy since individual substances have primarily been examined alone in prior research (Massey et al., 2018). The power and scope of HBCD avails a unique opportunity to understand the prevalence and implications of such ‘real world’ patterns of substance use.</p> 
+</div>
+</p>
+<p>
 <div id="tlfb-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
@@ -205,6 +217,7 @@ The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/file
   <span class="arrow">▸</span>
 </div>
 <div class="references-collapsible-content">
+<p style="margin-bottom: 0; padding-bottom: 0;"><u>ASSIST</u></p>
 <p>Coles, C. D. (1993). Saying “goodbye” to the “crack baby.” Neurotoxicology and Teratology, 15(5), 290–292; discussion 311-2. <a href="https://doi.org/10.1016/0892-0362(93)90024-i" target="_blank">https://doi.org/10.1016/0892-0362(93)90024-i</a></p>
   <li>
     Estabrook, R., Massey, S. H., Clark, C. A. C., Burns, J. L., Mustanski, B. S., Cook, E. H., O’Brien, T. C., Makowski, B., Espy, K. A., & Wakschlag, L. S. (2016). Separating family-level and direct exposure effects of smoking during pregnancy on offspring externalizing symptoms: Bridging the behavior genetic and behavior teratologic divide. <i>Behavior Genetics</i>, <b>46</b>(3), 389–402. <a href="https://doi.org/10.1007/s10519-015-9762-2" target="_blank">https://doi.org/10.1007/s10519-015-9762-2</a>
@@ -225,9 +238,27 @@ The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/file
   <li>
     Shah, S. K., Perez-Cardona, L., Helner, K., Massey, S. H., Premkumar, A., Edwards, R., Norton, E. S., Rogers, C. E., Miller, E. S., Smyser, C. D., Davis, M. M., & Wakschlag, L. S. (2023). How penalizing substance use in pregnancy affects treatment and research: a qualitative examination of researchers’ perspectives. <i>Journal of Law and the Biosciences</i>, <b>10</b>(2), lsad019. <a href="https://doi.org/10.1093/jlb/lsad019" target="_blank">https://doi.org/10.1093/jlb/lsad019</a>
   </li>
-  <p>Sobell, L., &amp; Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In <em>Handbook of psychiatric measures.</em> (p. 477). American Psychiatric Association.</p>
   <li>
     Wakeman, S. E., Bryant, A., & Harrison, N. (2022). Redefining child protection. <i>Obstetrics and Gynecology</i>, <b>140</b>(2), 167–173. <a href="https://doi.org/10.1097/aog.0000000000004786" target="_blank">https://doi.org/10.1097/aog.0000000000004786</a>
+  </li>
+<p style="margin-bottom: 0; padding-bottom: 0;"><u>TLFB</u></p>
+  <li>
+    Bandoli, G., Kable, J. A., Coles, C. D., Del Campo, M., Suttie, M., & Chambers, C. D. (2022). Trajectories of prenatal alcohol exposure and behavioral outcomes: Findings from a community-based sample. <i>Drug and Alcohol Dependence</i>, <b>233</b>(109351), 109351. <a href="https://doi.org/10.1016/j.drugalcdep.2022.109351" target="_blank">https://doi.org/10.1016/j.drugalcdep.2022.109351</a>
+  </li>
+  <li>
+    Massey, S. H., Pool, L. R., Estabrook, R., Level, R. A., Shisler, S., Stacks, A. M., Neiderhiser, J. M., Espy, K. A., Wakschlag, L. S., Eiden, R. D., & Allen, N. B. (2022). Within-person decline in pregnancy smoking is observable prior to pregnancy awareness: Evidence across two independent observational cohorts. <i>Addiction Biology</i>, <b>27</b>(6), e13245. <a href="https://doi.org/10.1111/adb.13245" target="_blank">https://doi.org/10.1111/adb.13245</a>
+  </li>
+  <li>
+    Massey, S. H., Allen, N. B., Pool, L. R., Miller, E. S., Pouppirt, N. R., Barch, D. M., Luby, J., Perlman, S. B., Rogers, C. E., Smyser, C. D., & Wakschlag, L. S. (2021). Impact of prenatal exposure characterization on early risk detection: Methodologic insights for the HEALthy Brain and Child Development (HBCD) study. <i>Neurotoxicology and Teratology</i>, <b>88</b>(107035), 107035. <a href="https://doi.org/10.1016/j.ntt.2021.107035" target="_blank">https://doi.org/10.1016/j.ntt.2021.107035</a>
+  </li>
+  <li>
+    Massey, S. H., Mroczek, D. K., Reiss, D., Miller, E. S., Jakubowski, J. A., Graham, E. K., Shisler, S. M., McCallum, M., Huestis, M. A., Ganiban, J. M., Shaw, D. S., Leve, L. D., Eiden, R. D., Stroud, L. R., & Neiderhiser, J. M. (2018). Additive drug-specific and sex-specific risks associated with co-use of marijuana and tobacco during pregnancy: Evidence from 3 recent developmental cohorts (2003-2015). <i>Neurotoxicology and Teratology</i>, <b>68</b>, 97–106. <a href="https://doi.org/10.1016/j.ntt.2018.06.002" target="_blank">https://doi.org/10.1016/j.ntt.2018.06.002</a>
+  </li>
+  <li>
+    Si, Y., Bandoli, G., Cole, K. M., Daniele Fallin, M., Stuart, E. A., Gurka, K. K., Althoff, K. N., Thompson, W. K., & the HBCD Design Workgroup and Biostatistics Workgroup. (2024). Advancing high quality longitudinal data collection: Implications for the HEALthy Brain and Child Development (HBCD) Study design and recruitment. <i>Developmental Cognitive Neuroscience</i>, <b>69</b>(101432), 101432. <a href="https://doi.org/10.1016/j.dcn.2024.101432" target="_blank">https://doi.org/10.1016/j.dcn.2024.101432</a>
+  </li>
+  <li>
+    Sobell, L., & Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In <i>Handbook of psychiatric measures</i> (p. 477). American Psychiatric Association.
   </li>
 </div>
 </p>
