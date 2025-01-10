@@ -333,122 +333,69 @@ qsiprep/
 ```
 *See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder structure visual.*
 
-## QSIRecon🚧 
-QSIPrep derivatives are passed to QSIRecon for reconstruction, including ODF/FOD reconstruction, tractography, Fixel estimation and regional connectivity. The main `qsirecon/` folder contains the visual `.html` reports (contents of `figures/`, which contains the source image files, not listed below for readability).
+## QSIRecon 
+QSIPrep derivatives are passed to QSIRecon for reconstruction, including ODF/FOD reconstruction, tractography, Fixel estimation and regional connectivity. The data are processed using a variety of methods and models (e.g. [Dipy](https://dipy.org/), [MRTrix](https://www.mrtrix.org/), [DSI Studio](https://dsi-studio.labsolver.org/), etc). Please see the [QSIRecon webpage](https://qsirecon.readthedocs.io/en/latest/) for a details.
 
-The remaining QSIRecon folders contain derivatives generated using a variety of methods and all have the same folder structure as displayed for `qsirecon-DIPYDKI/` below. The folder names are based either on the imaging software (e.g. [Dipy](https://dipy.org/), [MRTrix](https://www.mrtrix.org/), [DSI Studio](https://dsi-studio.labsolver.org/, etc) utilized or model name, e.g. NODDI ([Zhang et al. 2012](https://doi.org/10.1016/j.neuroimage.2012.03.072)). Please see their [webpage](https://qsirecon.readthedocs.io/en/latest/) for a detailed description of the derivatives.
 ```
-root/
-|__ derivatives/ 
-    |__ qsirecon/
-    |  |__ sub-<label>/
-    |  |    |__ figures/*
-    |  |__ sub-<label>.html
-    |
-    |__ qsirecon-DIPYDKI/
-    |   |__ sub-<label>/
-    |       |__ ses-<label>/
-    |           |__ dwi/
-    |            
-    |__ qsirecon-DSIStudio/
-    |__ qsirecon-NODDI/
-    |__ qsirecon-TORTOISE_model-MAPMRI/
-    |__ qsirecon-TORTOISE_model-tensor/
+derivatives/ 
+|__ qsirecon/
+|  |__ log/
+|
+|__ qsirecon-*/
+    |__ sub-<label>/
+        |__ ses-<label>/
+            |__ dwi/
+            |__ figures/
+            |__ SUBSES.html    
 ```    
-Below, we list the file contents of the session-level `dwi/` folder for each method/model.
-
-*See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder trees.*
+Thought not displayed below, note that all `dwimap.nii.gz` files have associated JSON files (*see [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder trees*).
 
 ### Dipy (`qsirecon-DIPYDKI/`)
-<details>
-  <summary>Label Values Legend</summary>
-  <ul>
-    <li><b>&ltMDP&gt</b> label values: <code>AD</code>, <code>AK</code>, <code>KFAp</code>, <code>MD</code>, <code>MKT</code>, <code>MK</code>, <code>RD</code>, & <code>RK</code></li>
-    </ul>
-</details>
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
+  <b style="color: #0077cc;">&lt;PARAM&gt;</b> label values: 
+  <code>ad</code>, <code>ak</code>, <code>kfa</code>, <code>md</code>, 
+  <code>mk</code>, <code>mkt</code>, <code>rd</code>, <code>rk</code>
+</p>
 ```
 dwi/
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-dki_mdp-<MPD>_dwimap.nii.gz
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mdp-FA_dwimap.nii.gz
- |__ SUBSES_space-T1w_desc-preproc_bundles-DSIStudio_scalarstats.tsv
- |__ SUBSES_space-T1w_desc-preproc_model-dki_mdp-<MDP>_dwimap.nii.gz
- |__ SUBSES_space-T1w_desc-preproc_model-tensor_mdp-FA_dwimap.nii.gz
+ |__ SUBSES_space-ACPC_bundles-DSIStudio_scalarstats.tsv
+ |__ SUBSES_space-<ACPC|MNIInfant+1>_model-dki_param-<PARAM>_dwimap.nii.gz (+JSON)
+ |__ SUBSES_space-<ACPC|MNIInfant+1>_model-tensor_param-fa_dwimap.nii.gz (+JSON)
 ```
 
-###  DSI Studio (`qsirecon-DSIStudio/`)
-<details>
-  <summary>Label Values Legend</summary>
-  <ul>
-    <li><b>&ltMDP&gt</b> label values: <code>ad</code>, <code>fa</code>, <code>ha</code>, <code>md</code>, <code>rd</code>
-    <li><b>&ltMPF&gt</b> label values: <code>txx</code>, <code>txy</code>, <code>tyy</code>, <code>tyz</code>, <code>tzz</code></li>
-    <li><b>&ltASSOC&gt</b> label values: <code>ArcuateFasciculus</code>, <code>FrontalAslantTract</code>, <code>InferiorFrontoOccipitalFasciculus</code>, <code>InferiorLongitudinalFasciculus</code>, <code>MiddleLongitudinalFasciculus</code>, <code>ParietalAslantTract</code>, <code>UncinateFasciculus</code>, &amp; <code>VerticalOccipitalFasciculus</code></li>
-    <li><b>&ltPBG&gt</b> label values: <code>FasciculusLenticularis</code>, <code>FasciculusSubthalamicus</code>, <code>Fornix</code>, <code>OpticRadiation</code></li>
-    <li><b>&ltPB&gt</b> label values: <code>CorticospinalTract</code>, <code>ReticularTract</code></li>
-    </ul>
-</details>
+### DSI Studio (`qsirecon-DSIStudio/`)
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
+  <b style="color: #0077cc;">&lt;PARAM&gt;</b> label values: 
+  <code>ad</code>, <code>fa</code>, <code>ha</code>, <code>md</code>, 
+  <code>rd</code>, <code>txx</code>, <code>txy</code>, <code>tyy</code>,
+  <code>tyz</code>, <code>tzz</code>
+</p>
 ```
 dwi/
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_fit-GQI_mdp-gfa_dwimap.nii.gz
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_fit-GQI_mdp-iso_dwimap.nii.gz
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-GQI_mdp-qa_dwimap.nii.gz
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-RDI_mdp-rd<1|2>_dwimap.nii.gz
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mdp-<MPD>_dwimap.nii.gz
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mfp-<MFP>_dwimap.nii.gz
- |__ SUBSES_space-T1w_desc-preproc_bundle-Association_<ASSOC><L|R>_streamlines.tck
- |__ SUBSES_space-T1w_desc-preproc_bundle-ProjectionBasalGanglia_<PBG><L|R>_streamlines.tck
- |__ SUBSES_space-T1w_desc-preproc_bundle-ProjectionBrainstem_<PB><L|R>_streamlines.tck
- |__ SUBSES_space-T1w_desc-preproc_bundles-DSIStudio_scalarstats.tsv
- |__ SUBSES_space-T1w_desc-preproc_bundles-DSIStudio_tdistats.tsv
- |__ SUBSES_space-T1w_desc-preproc_bundlestats.csv
- |__ SUBSES_space-T1w_desc-preproc_dwimap.fib.gz
- |__ SUBSES_space-T1w_desc-preproc_fit-GQI_mdp-gfa_dwimap.nii.gz
- |__ SUBSES_space-T1w_desc-preproc_fit-GQI_mdp-iso_dwimap.nii.gz
- |__ SUBSES_space-T1w_desc-preproc_mapping.map.gz
- |__ SUBSES_space-T1w_desc-preproc_model-GQI_mdp-qa_dwimap.nii.gz
- |__ SUBSES_space-T1w_desc-preproc_model-RDI_mdp-rd<1|2>_dwimap.nii.gz
- |__ SUBSES_space-T1w_desc-preproc_model-tensor_mdp-<MDP>_dwimap.nii.gz
- |__ SUBSES_space-T1w_desc-preproc_model-tensor_mfp-<MFP>_dwimap.nii.gz
-```
-
-### NODDI Model (`qsirecon-NODDI/`)
-```
-dwi/
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-noddi_mdp-icvf_dwimap.nii.gz
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-noddi_mdp-isovf_dwimap.nii.gz
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-noddi_mdp-od_dwimap.nii.gz
- |__ SUBSES_space-T1w_desc-preproc_bundles-DSIStudio_scalarstats.tsv
- |__ SUBSES_space-T1w_desc-preproc_dwimap.fib.gz
- |__ SUBSES_space-T1w_desc-preproc_model-NODDI_mfp-AMICOconfig_dwimap.pickle.gz
- |__ SUBSES_space-T1w_desc-preproc_model-noddi_mdp-<MDP>_dwimap.nii.gz
- |__ SUBSES_space-T1w_desc-preproc_model-noddi_mfp-direction_dwimap.nii.gz
+ |__ SUBSES_space-ACPC_bundle-AssociationHippocampusAlveusR_streamlines.tck.gz
+ |__ SUBSES_space-ACPC_bundle-AssociationUncinateFasciculusR_streamlines.tck.gz
+ |__ SUBSES_space-ACPC_bundle-ProjectionBasalGangliaCorticostriatalTractR_streamlines.tck.gz
+ |__ SUBSES_space-ACPC_bundles-DSIStudio_<scalar|tdi>stats.tsv
+ |__ SUBSES_space-ACPC_bundlestats.csv
+ |__ SUBSES_space-ACPC_dwimap.fib.gz
+ |__ SUBSES_space-ACPC_mapping.map.gz
+ |__ SUBSES_space-<ACPC|MNIInfant+1>_model-gqi_param-<gfa|iso|qa>_dwimap.nii.gz (+JSON)
+ |__ SUBSES_space-<ACPC|MNIInfant+1>_model-rdi_param-<rd1|rd2>_dwimap.nii.gz (+JSON)
+ |__ SUBSES_space-<ACPC|MNIInfant+1>_model-tensor_param-<PARAM>_dwimap.nii.gz (+JSON)
 ```
 
 ### TORTOISE (`qsirecon-TORTOISE_model-<MAPMRI|tensor>/`)
-The [TORTOISE](https://github.com/QMICodeBase/TORTOISEV4) software calculates MAPMRI and Tensor fits and scalar maps.
-<details>
-  <summary>Label Values Legend</summary>
-  <ul>
-    <li><b>&ltMDP&gt</b> label values: <code>NG</code>, <code>NGpar</code>, <code>NGPerp</code>, <code>PA</code>, <code>PAth</code>, <code>RTAP</code>, <code>RTOP</code>, & <code>RTPP</code></li>
-    <li><b>&ltTMDP&gt</b> label values: <code>ad</code>, <code>fa</code>, <code>li</code>, & <code>rd</code></li>
-    </ul>
-</details>
+The [TORTOISE](https://github.com/QMICodeBase/TORTOISEV4) software calculates MAPMRI and Tensor fits and scalar maps, output to derivative folders `qsirecon-TORTOISE_model-MAPMRI/` and `qsirecon-TORTOISE_model-tensor/`, respectively, with matching folder structures:
+
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
+  <b style="color: #0077cc;">&lt;MAP-PARAM&gt;</b> label values: <code>ng</code>, <code>ngpar</code>, <code>ngperp</code>, <code>pa</code>, <code>path</code>, <code>rtap</code>, <code>rtop</code>, <code>rtpp</code></p>
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;"><b style="color: #0077cc;">&lt;TENSOR-PARAM&gt;</b> label values: 
+  <code>ad</code>, <code>am</code>, <code>fa</code>, <code>li</code>, <code>rd</code></p>
 ```
-# TORTOISE MAPMRI Model (qsirecon-TORTOISE_model-MAPMRI/)
 dwi/
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-mapmri_mdp-<MDP>_dwimap.nii
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mdp-<TMDP>_dwimap.nii
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mfp-AM_dwimap.nii
- |__ SUBSES_space-T1w_desc-preproc_bundles-DSIStudio_scalarstats.tsv
- |__ SUBSES_space-T1w_desc-preproc_model-mapmri_mdp-<MDP>_dwimap.nii
- |__ SUBSES_space-T1w_desc-preproc_model-tensor_mdp-<TMDP>_dwimap.nii
- |__ SUBSES_space-T1w_desc-preproc_model-tensor_mfp-AM_dwimap.nii
-```
-```
-# TORTOISE Tensor Model (qsirecon-TORTOISE_model-tensor/)
-dwi/
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mdp-<TMDP>_dwimap.nii
- |__ SUBSES_space-MNI152NLin2009cAsym_desc-preproc_model-tensor_mfp-AM_dwimap.nii
- |__ SUBSES_space-T1w_desc-preproc_bundles-DSIStudio_scalarstats.tsv
+ |__ SUBSES_space-ACPC_bundles-DSIStudio_scalarstats.tsv
+ |__ SUBSES_space-<ACPC|MNIInfant+1>_model-mapmri_param-<MAP-PARAM>_dwimap.nii.gz (+JSON)
+ |__ SUBSES_space-<ACPC|MNIInfant+1>_model-tensor_param-<TENSOR-PARAM>_dwimap.nii.gz (+JSON)
 ```
 
 ## SyMRI (`symri/`)
