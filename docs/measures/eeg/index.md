@@ -26,6 +26,7 @@ EEG capping quality ratings are used to determine inclusion in the data release 
 3.	Reference electrode is placed on the vertex of the scalp
 4.	Electrode E17 is placed on the nasion
 
+Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing) for additional information about capping requirements.
 
 ## EEG Task Details
 <p>
