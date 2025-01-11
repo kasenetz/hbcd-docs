@@ -33,10 +33,12 @@ root/
 </div>
 <div class="collapsible-content">
 <br>
-<p>Fields for age include candidate age (<code>age</code>) reported in years to 3 decimal points and gestational age (<code>gestational_age</code>) reported in days. Candidate age is computed based on a birthdate measure that is jittered up to 7 days. Note that V01 candidate age values will be "n/a" as these data are collected in the prenatal period. </p>
+<li style="margin-bottom: 5px; padding-bottom: 5px;">Fields for age include the following:
+<p><b>Gestational age</b> (<code>gestational_age</code>, reported in days): in the prenatal period, gestational age (GA) is the time between conception (or the first day of the mother's last menstrual period) and date of administration of the instrument. After birth, GA is time between conception and birth and doesn’t change.</p> 
+<p><b>Candidate age</b> (<code>candidate_age</code>, reported in years to 3 decimal point precision): time between birth (based on a birthdate measure that is jittered up to 7 days) and date of administration of instrument. Note that V01 candidate age values will be 'n/a' as these data are collected in the prenatal period.</p>
+</li>
 </div>
 </p>
-
 
 ## Demographics Data
 <p style="margin: 0 0 5px;">The <code>sed_basic_demographics</code> files provide demographic information for each participant that is useful for understanding their phenotypic data in context. This includes:</p>
