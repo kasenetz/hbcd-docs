@@ -43,7 +43,7 @@ root/
 ## Demographics Data
 <p style="margin: 0 0 5px;">The <code>sed_basic_demographics</code> files provide demographic information for each participant that is useful for understanding their phenotypic data in context. This includes:</p>
 <ul>
-<li>Gestational age at birth</li>
+<li>Gestational age</li>
 <li>Sex</li>
 <li>Recruitment site</li>
 <li>Child demographics: race, ethnicity</li>
