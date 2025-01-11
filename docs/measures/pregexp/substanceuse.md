@@ -204,7 +204,7 @@ Finally, additional screening for substance use (within three months before or d
 <div class="collapsible-content">
 <br>
 <p>The sampling covers specific weeks before pregnancy (Weeks 1-2) and during pregnancy (Weeks 3-9). Consequently, substance use reported outside these weeks may not appear in the TLFB, and a positive biospecimen may lack corresponding TLFB data for the same reason. This sampling approach balances participant burden (avoiding a full 40-week TLFB) with capturing key pregnancy phases when behaviors often shift, such as before and after pregnancy recognition and in late pregnancy.</p>
-
+<p>Also, of note- participants were asked to report occasions (except cigarettes/cigarillos and drinks, reported as number), but some substances (e.g. electronic cigarette devices) are difficult to report in occasions and have outliers.</p>
 <p>TLFB data should be integrated with biospecimen and Assist data. Trajectories of use can be inferred by carrying early pregnancy data (Weeks 3-6) forward until reported pregnancy recognition (V1 Health) and using enrollment data (Week 7) to project use into late pregnancy (Weeks 8-9).</p> 
 </div>
 </p>

@@ -160,6 +160,18 @@ Additional modifications are described below. Future publications should be sure
 </p>
 
 ### DSM5 PTSD/Acute Stress Short Scale
+<p>
+<div id="ptsd-warning" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>Consideration of Mental Health Symptoms Experienced During Pregnancy</strong></p>
+<p>Concurrence of psychiatric symptoms and substance use is well-recognized during pregnancy (Massey et al., 2011, 2012). Phenotypic risk in birthing parents may influence neurodevelopmental outcomes via prenatal and postnatal influences other than direct exposures alone (Estabrook et al., 2016, Massey et al., 2016, Massey et al., 2018). These influences may confound exposure-related neuroimaging and neurodevelopmental findings, and also represent malleable targets for prevention and early intervention. Thus, consideration of mental health symptoms experienced by birthing parents as covariates is strongly encouraged when possible.</p> 
+</div>
+</p>
 The HBCD Severity of Posttraumatic/Acute Stress Symptoms measure was developed to capture maternal PTSD and acute stress symptoms, assessing the severity of PTSD and acute stress disorder following a traumatic event (for individuals aged 18 and older). It combines National Stressful Events Survey items 1-9 from the PTSD Short Scale ([NSESSS-PTSD](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Posttraumatic-Stress-Symptoms-Adult.pdf)) and item 3 from the Acute Stress Disorder Short Scale ([NSESSS-Acute Stress Disorder](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_Severity-of-Acute-Stress-Symptoms-Adult.pdf)) into a single assessment for the HBCD study, with the addition of a 'refuse to answer' response option (but not 'don’t know'). Future publications should note that this measure combines NSESSS-PTSD and NSESSS-Acute Stress Disorder.
 
 Scores on these scales assess trauma-related stress symptoms and do not differentiate between PTSD and Acute Stress Disorder. Researchers should review individual items to determine the most relevant scale to their research. Total raw scores are computed as the sum of scores from questions 1-9 for PTSD and questions 1-3 & 7-10 for Acute Stress.
