@@ -33,7 +33,7 @@ root/
 </div>
 <div class="collapsible-content">
 <br>
-<p>Fields for age include candidate age (<code>age</code>) reported in years to 3 decimal points and gestational age (<code>gestational_age</code>) reported in days). Candidate age is computed based on a birthdate measure that is jittered up to 7 days. Note that V01 candidate age values will be "n/a" as these data are collected in the prenatal period. </p>
+<p>Fields for age include candidate age (<code>age</code>) reported in years to 3 decimal points and gestational age (<code>gestational_age</code>) reported in days. Candidate age is computed based on a birthdate measure that is jittered up to 7 days. Note that V01 candidate age values will be "n/a" as these data are collected in the prenatal period. </p>
 </div>
 </p>
 
