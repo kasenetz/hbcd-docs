@@ -26,7 +26,7 @@ root/
 ```
 
 <p>
-<div id="age-fyi" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
   <span class="text">Fields Reporting Age</span>
   <span class="arrow">▸</span>
