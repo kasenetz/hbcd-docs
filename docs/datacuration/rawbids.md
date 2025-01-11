@@ -27,13 +27,13 @@ In a large infant study, missing data is common, leading to variations in the nu
 ## Participant-, Session-, & Scan-Level Data
 Participant-, session-, and scan-level data is captured by `participants.tsv`, `sessions.tsv`, and `scans.tsv` files respectively, each accompanied by `json` files with column descriptions and field definitions. Each is explained in detail in the following sections.
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><u>Participant-Level Data</u></p>
+### Participant-Level Data
 Participant-level data is stored in the `participants.tsv` file. This file includes information such as participant sex. Descriptions of the `tsv` column names and their properties are provided in the accompanying `participants.json` sidecar file.
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><u>Session-Level Data</u></p>
+### Session-Level Data
 Session-level data is stored in the `sessions.tsv` file within the subject folder. This file provides details on the various sessions acquired for the participant, including the collection site, the participant’s age and gestational age at each session, and head size. *Note: age measures are computed based on a birthdate measure that is jittered up to 7 days.*
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><u>Scan-Level Data</u></p>
+### Scan-Level Data
 The `scans.tsv` file provided per session includes a variety of participant information (see [Fields included in `scans.tsv` file](#scanstsv)) as well as quality control (QC) metrics derived from raw data QC procedures (see [HBCD MR Quality Control Procedures](../measures/mri/qc.md)). Several of the processing pipelines query the `scans.tsv` to determine which files to include/exclude for processing. The criteria used are listed under the 'Quality Control Selection Information' under [Tool Names](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html#tool-names) on the HBCD Processing page.
 
 <p>

@@ -25,6 +25,19 @@ root/
     |__ <instrument_name>.json (repeat for all selected instruments)
 ```
 
+<p>
+<div id="age-fyi" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Fields Reporting Age</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>Fields for age include candidate age (<code>age</code>) reported in years to 3 decimal points and gestational age (<code>gestational_age</code>) reported in days). Candidate age is computed based on a birthdate measure that is jittered up to 7 days. Note that V01 candidate age values will be "n/a" as these data are collected in the prenatal period. </p>
+</div>
+</p>
+
+
 ## Demographics Data
 <p style="margin: 0 0 5px;">The <code>sed_basic_demographics</code> files provide demographic information for each participant that is useful for understanding their phenotypic data in context. This includes:</p>
 <ul>
