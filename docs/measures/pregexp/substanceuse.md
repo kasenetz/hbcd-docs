@@ -113,16 +113,16 @@ For all measures, QC procedures involved review of response distributions (cross
 
 The Assist V1, V2, and V3 measures were created from combining the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History, which was then modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored. To acknowledged these changes in future publications, authors can note that questions were motivated from the NIDA Modified Assist.
 
-The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding substances used and the timeline of use before and during pregnancy:
+The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding substances used and the timeline of use before and during pregnancy.
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
     <span class="text">Assist V1/2/3: replacement of questions 2-8</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="collapsible-content">
     <ul>
 <br>
-<u>V1: Replaced with following to assess lifetime use</u>
+<u>V1: Replaced with following to assess lifetime use and disordered use, or use causing problems in their lives</u>
 	<li>Have you EVER been concerned about your use of this substance or worried it was problematic use?</li>
 	<li>Has a friend, relative, or anyone else EVER expressed concern about your use of this substance</li>
 	<li>Have you EVER tried and failed to control, cut down, or stop using this substance?</li>
@@ -140,14 +140,13 @@ The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs,
 </div>
 </p>
 
-The list of substances was also greatly expanded for HBCD. For each substance, participants indicated their frequency of use with options: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), or 4 (Daily or Almost Daily). For substances reported as used, participants were asked about modes of use, typical quantities of consumption for alcohol and opioids (if applicable), and disordered or problematic use. 
-
+Lifetime and problematic use, pre-pregnancy and pregnancy use was expanded into the substances listed below for HBCD. For each substance, participants indicate whether they had ever used it and, if endorsed, frequency of use with options: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), or 4 (Daily or Almost Daily). For substances reported as used, participants were asked about modes of use and typical quantities of consumption for alcohol and opioids (if applicable) as outlined below:
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="text">Assist Substance Type Options</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="collapsible-content">
     <ul>
       <li>Nicotine or tobacco products (cigarettes, e-cigarettes, chewing tobacco, cigars, etc.)</li>
         <li>Alcoholic beverages (beer, wine, spirits, etc.)
@@ -179,7 +178,7 @@ The list of substances was also greatly expanded for HBCD. For each substance, p
 </div>
 </p>
 
-Finally, additional screening for substance use (within three months before or during pregnancy) was implemented for Assist V1 to trigger the Time Line Follow Back (TLFB). The additional questions ask which substances (from the list above) the person used for any reason (1) in the three months before becoming pregnant and (2) during pregnancy. For substances used, respondents were then asked to specify the specific substance type as well (e.g. type of alcohol, cannabinoid, stimulant, tobacco, hallucinogen, and/or opioid)
+Finally, additional screening for substance use (within three months before or during pregnancy) was implemented for Assist V1 to trigger the Time Line Follow Back (TLFB). The additional questions ask which substances (from the list above) the person used for any reason (1) in the three months before becoming pregnant and (2) during pregnancy. For substances used, respondents were then asked to specify the specific substance type as well (e.g. type of alcohol, cannabinoid, stimulant, tobacco, hallucinogen, and/or opioid).
 
 
 ### TLFB
