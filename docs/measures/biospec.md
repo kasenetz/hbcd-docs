@@ -1480,13 +1480,8 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
 </div>
 </p>  
 
-
-<p>
-<div id="references-banner" class="references-banner" onclick="toggleCollapse(this)">
-    <span class="text">References</span>
-  <span class="arrow">▸</span>
+## References
+<div class="references">
+    <p>Bandoli, G., Anunziata, F., Bogdan, R., Zilverstand, A., Chaiyachati, B. H., Gurka, K. K., Sullivan, E., Croff, J., & Bakhireva, L. N. (2024). Assessment of substance exposures in nail clipping samples: A systematic review. <i>Drug and Alcohol Dependence</i>, 254, 111038. <a href="https://doi.org/10.1016/j.drugalcdep.2023.111038" target="_blank">https://doi.org/10.1016/j.drugalcdep.2023.111038</a></p>
 </div>
-<div class="references-collapsible-content">
-<p>Bandoli, G., Anunziata, F., Bogdan, R., Zilverstand, A., Chaiyachati, B. H., Gurka, K. K., Sullivan, E., Croff, J., & Bakhireva, L. N. (2024). Assessment of substance exposures in nail clipping samples: A systematic review. <i>Drug and Alcohol Dependence</i>, 254, 111038. <a href="https://doi.org/10.1016/j.drugalcdep.2023.111038" target="_blank">https://doi.org/10.1016/j.drugalcdep.2023.111038</a></p>
-</div>
-</p>
+<br>
