@@ -210,54 +210,51 @@ Finally, additional screening for substance use (within three months before or d
 
 The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the last 7 days from when the survey is administered. The [HBCD TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf), triggered by Assist responses, was adapted to instead record maternal substance use before and during pregnancy. Participants reported use during 9 weeks in total for each substance type (e.g., edible cannabis) reported on the ASSIST. For V01, this includes: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V02 to capture substance use during the last two full weeks of gestation (Weeks 8-9). Daily usage frequency was recorded for all products except for cigarettes/cigarillos (count per day) and alcohol (single servings per day).
 
-<p>
-<div id="references-banner" class="references-banner" onclick="toggleCollapse(this)">
-    <span class="text">References</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="references-collapsible-content">
+
+## References
+<div class="references">
 <p style="margin-bottom: 0; padding-bottom: 0;"><u>ASSIST</u></p>
 <p>Coles, C. D. (1993). Saying “goodbye” to the “crack baby.” Neurotoxicology and Teratology, 15(5), 290–292; discussion 311-2. <a href="https://doi.org/10.1016/0892-0362(93)90024-i" target="_blank">https://doi.org/10.1016/0892-0362(93)90024-i</a></p>
-  <li>
+  <p>
     Estabrook, R., Massey, S. H., Clark, C. A. C., Burns, J. L., Mustanski, B. S., Cook, E. H., O’Brien, T. C., Makowski, B., Espy, K. A., & Wakschlag, L. S. (2016). Separating family-level and direct exposure effects of smoking during pregnancy on offspring externalizing symptoms: Bridging the behavior genetic and behavior teratologic divide. <i>Behavior Genetics</i>, <b>46</b>(3), 389–402. <a href="https://doi.org/10.1007/s10519-015-9762-2" target="_blank">https://doi.org/10.1007/s10519-015-9762-2</a>
-  </li>
-  <li>
+  </p>
+  <p>
     Gal, P., & Sharpless, M. K. (1984). Fetal drug exposure-behavioral teratogenesis. <i>Drug Intelligence & Clinical Pharmacy</i>, <b>18</b>(3), 186–201. <a href="https://doi.org/10.1177/106002808401800304" target="_blank">https://doi.org/10.1177/106002808401800304</a>
-  </li>
-  <li>
+  </p>
+  <p>
     Level, R. A., Zhang, Y., Tiemeier, H., Estabrook, R., Shaw, D. S., Leve, L. D., Wakschlag, L. S., Reiss, D., Neiderhiser, J. M., & Massey, S. H. (2024). Unique influences of pregnancy and anticipated parenting on cigarette smoking: results and implications of a within-person, between-pregnancy study. <i>Archives of Women’s Mental Health</i>, <b>27</b>(2), 301–308. <a href="https://doi.org/10.1007/s00737-023-01396-z" target="_blank">https://doi.org/10.1007/s00737-023-01396-z</a>
-  </li>
-  <li>
+  </p>
+  <p>
     Massey, S. H., Lieberman, D. Z., Reiss, D., Leve, L. D., Shaw, D. S., & Neiderhiser, J. M. (2010). Association of clinical characteristics and cessation of tobacco, alcohol, and illicit drug use during pregnancy. <i>The American Journal on Addictions</i>, no-no. <a href="https://doi.org/10.1111/j.1521-0391.2010.00110.x" target="_blank">https://doi.org/10.1111/j.1521-0391.2010.00110.x</a>
-  </li>
-  <li>
+  </p>
+  <p>
     McAllister, D., & Hart, C. L. (2015). Inappropriate interpretations of prenatal drug use data can be worse than the drugs themselves. <i>Neurotoxicology and Teratology</i>, <b>52</b>, 57. <a href="https://doi.org/10.1016/j.ntt.2015.07.002" target="_blank">https://doi.org/10.1016/j.ntt.2015.07.002</a>
-  </li>
+  </p>
   <p>National Institute on Drug Abuse. (n.d.). <em>NIDA Modified ASSIST</em>.</p>
-  <li>
+  <p>
     Shah, S. K., Perez-Cardona, L., Helner, K., Massey, S. H., Premkumar, A., Edwards, R., Norton, E. S., Rogers, C. E., Miller, E. S., Smyser, C. D., Davis, M. M., & Wakschlag, L. S. (2023). How penalizing substance use in pregnancy affects treatment and research: a qualitative examination of researchers’ perspectives. <i>Journal of Law and the Biosciences</i>, <b>10</b>(2), lsad019. <a href="https://doi.org/10.1093/jlb/lsad019" target="_blank">https://doi.org/10.1093/jlb/lsad019</a>
-  </li>
-  <li>
+  </p>
+  <p>
     Wakeman, S. E., Bryant, A., & Harrison, N. (2022). Redefining child protection. <i>Obstetrics and Gynecology</i>, <b>140</b>(2), 167–173. <a href="https://doi.org/10.1097/aog.0000000000004786" target="_blank">https://doi.org/10.1097/aog.0000000000004786</a>
-  </li>
+  </p>
 <p style="margin-bottom: 0; padding-bottom: 0;"><u>TLFB</u></p>
-  <li>
+  <p>
     Bandoli, G., Kable, J. A., Coles, C. D., Del Campo, M., Suttie, M., & Chambers, C. D. (2022). Trajectories of prenatal alcohol exposure and behavioral outcomes: Findings from a community-based sample. <i>Drug and Alcohol Dependence</i>, <b>233</b>(109351), 109351. <a href="https://doi.org/10.1016/j.drugalcdep.2022.109351" target="_blank">https://doi.org/10.1016/j.drugalcdep.2022.109351</a>
-  </li>
-  <li>
+  </p>
+  <p>
     Massey, S. H., Pool, L. R., Estabrook, R., Level, R. A., Shisler, S., Stacks, A. M., Neiderhiser, J. M., Espy, K. A., Wakschlag, L. S., Eiden, R. D., & Allen, N. B. (2022). Within-person decline in pregnancy smoking is observable prior to pregnancy awareness: Evidence across two independent observational cohorts. <i>Addiction Biology</i>, <b>27</b>(6), e13245. <a href="https://doi.org/10.1111/adb.13245" target="_blank">https://doi.org/10.1111/adb.13245</a>
-  </li>
-  <li>
+  </p>
+  <p>
     Massey, S. H., Allen, N. B., Pool, L. R., Miller, E. S., Pouppirt, N. R., Barch, D. M., Luby, J., Perlman, S. B., Rogers, C. E., Smyser, C. D., & Wakschlag, L. S. (2021). Impact of prenatal exposure characterization on early risk detection: Methodologic insights for the HEALthy Brain and Child Development (HBCD) study. <i>Neurotoxicology and Teratology</i>, <b>88</b>(107035), 107035. <a href="https://doi.org/10.1016/j.ntt.2021.107035" target="_blank">https://doi.org/10.1016/j.ntt.2021.107035</a>
-  </li>
-  <li>
+  </p>
+  <p>
     Massey, S. H., Mroczek, D. K., Reiss, D., Miller, E. S., Jakubowski, J. A., Graham, E. K., Shisler, S. M., McCallum, M., Huestis, M. A., Ganiban, J. M., Shaw, D. S., Leve, L. D., Eiden, R. D., Stroud, L. R., & Neiderhiser, J. M. (2018). Additive drug-specific and sex-specific risks associated with co-use of marijuana and tobacco during pregnancy: Evidence from 3 recent developmental cohorts (2003-2015). <i>Neurotoxicology and Teratology</i>, <b>68</b>, 97–106. <a href="https://doi.org/10.1016/j.ntt.2018.06.002" target="_blank">https://doi.org/10.1016/j.ntt.2018.06.002</a>
-  </li>
-  <li>
+  </p>
+  <p>
     Si, Y., Bandoli, G., Cole, K. M., Daniele Fallin, M., Stuart, E. A., Gurka, K. K., Althoff, K. N., Thompson, W. K., & the HBCD Design Workgroup and Biostatistics Workgroup. (2024). Advancing high quality longitudinal data collection: Implications for the HEALthy Brain and Child Development (HBCD) Study design and recruitment. <i>Developmental Cognitive Neuroscience</i>, <b>69</b>(101432), 101432. <a href="https://doi.org/10.1016/j.dcn.2024.101432" target="_blank">https://doi.org/10.1016/j.dcn.2024.101432</a>
-  </li>
-  <li>
+  </p>
+  <p>
     Sobell, L., & Sobell, M. (2000). Alcohol timeline follow-back (TLFB). In <i>Handbook of psychiatric measures</i> (p. 477). American Psychiatric Association.
-  </li>
+  </p>
 </div>
-</p>
+<br>

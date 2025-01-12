@@ -109,12 +109,9 @@ The Sensory Processing Measure – Infant/Toddler (SPM-2) is designed to assess 
 
 This questionnaire asks about the ways the child sensory systems contribute to daily functioning. The caregiver selects whether their child’s behavior during the past month never, occasionally, frequently, or always resembles the behavior described. Seven sensory domains are assessed as well as functions related to ideas/planning and social relatedness.
 
-<p>
-<div id="references-banner" class="references-banner" onclick="toggleCollapse(this)">
-    <span class="text">References</span>
-  <span class="arrow">▸</span>
+## References
+<div class="references">
+    <p>Parham, L. D., Ecker, C. L., Kuhaneck, H., Henry, D. A., & Glennon, T. J. (2021). <i>Sensory Processing Measure, Second Edition (SPM-2)</i> [Manual]. Torrance, CA: Western Psychological Services.</p>
 </div>
-<div class="references-collapsible-content">
-<p>Parham, L. D., Ecker, C. L., Kuhaneck, H., Henry, D. A., & Glennon, T. J. (2021). <i>Sensory Processing Measure, Second Edition (SPM-2)</i> [Manual]. Torrance, CA: Western Psychological Services.</p>
-</div>
-</p>
+<br>
+
