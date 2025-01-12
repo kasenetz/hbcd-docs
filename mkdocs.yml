@@ -81,6 +81,7 @@ nav:
     - Pending & Upcoming Updates: changelog/pending.md
     - Known Issues: changelog/knownissues.md
     - Version History:    
+        - Beta Release 11: changelog/versions/BR11.md
         - Beta Release 10: changelog/versions/BR10.md
         - Beta Release 9: changelog/versions/BR9.md
         - Beta Release 8: changelog/versions/BR8.md

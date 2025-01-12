@@ -2,17 +2,6 @@
 
 <p style="font-size: 1.1em">Release date: October 30, 2024</p>
 
-<ul>
-<p style="font-size: 1.1em; margin-bottom: 0px;"><u>Total number of unique participants and visits included in data dump:</u></p>
-<li>1,399 unique participants  </li>
-<li>1,919 visits
-<ul>
-<li>V01 visits: 1,127 (185 participants for which only V01 visit exists)  </li>
-<li>V02 visits: 666  </li>
-<li>V03 visits: 126</li></ul>
-</li>
-</ul>
-
 ## New features
 
 * Derived 'SU' flag variable has been populated in the 'Basic Demographics' category with a 'Yes'/'No' output based on meeting any of the following criteria:  
@@ -27,3 +16,10 @@
     * 'Visit label' added  
     * 111 entries excluded as no DCCID found for ‘specimen ID’
 
+## Counts
+* **Total number of unique participants and visits included in data dump:** 1,399
+* **Total number of visits:**   
+    * All: 1,919
+    * V01: 1,127 (185 participants for which only V01 visit exists)
+    * V02: 666
+    * V03: 126  

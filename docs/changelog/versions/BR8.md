@@ -2,17 +2,6 @@
 
 <p style="font-size: 1.1em">Release date: November 26, 2024</p>
 
-<ul>
-<p style="font-size: 1.1em; margin-bottom: 0px;"><u>Total number of unique participants and visits included in data dump:</u></p>
-<li>1,358 unique participants  </li>
-<li>1,919 visits
-<ul>
-<li>V01 visits: 1,127 (185 participants for which only V01 visit exists)  </li>
-<li>V02 visits: 666  </li>
-<li>V03 visits: 126</li></ul>
-</li>
-</ul>
-
 ## New Features
 <ul>
 <b>Parquet files set up:</b>
@@ -41,10 +30,15 @@
 
 ## Filters
 <ul>
-<li>Visit Data: <br />
-<ul>
-<li>Applied filter to only include visits whose 'status' is 'LaunchPad Complete'  </li></ul>
-</li>
-<li>Only include visits V01 to V03  </li>
+<li>Visit Data: Applied filter to only include visits whose 'status' is 'LaunchPad Complete'</li>
+<li>Only include visits V01 to V03</li>
 <li>Excluded 'screen_household_income' field for 'basic_demographics' category</li>
 </ul>
+
+## Counts
+* **Total number of unique participants and visits included in data dump:** 1,353
+* **Total number of visits:**   
+    * All: 1,919
+    * V01: 1,127 (185 participants for which only V01 visit exists)  
+    * V02: 666  
+    * V03: 126  

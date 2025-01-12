@@ -1,15 +1,8 @@
 # Version: BR9
-
 <p style="font-size: 1.1em">Release date: December 26, 2024</p>
 
-<ul>
-<p style="font-size: 1.1em; margin-bottom: 0px;"><u>Total number of unique participants and visits included in data dump:</u></p>
-<li>1,351 unique participants  </li>
-<li>1,919 visits  </li>
-</ul>
-
 ## Bug Fixes
-- ‘0’ to Null: Fields with '0' values are no longer passed as 'false' (Blank output)
+* **‘0’ to Null:** Fields with '0' values are no longer passed as 'false' (Blank output)
 
 ## New Features
 <ul>
@@ -52,7 +45,7 @@
 
 ## Filters
 <ul>
-<li>Demographics (sed_bm_demo): <br />
+<li>Demographics (sed_bm_demo):<br />
 <ul>
 <li>Excluded 'table' descriptive fields</li>
 <li>Excluded 'Disability' fields</li>
@@ -65,7 +58,6 @@
 </ul>
 
 ## Embedded Instrument Data Files Included
-
 Demographics / Visit Data:
 
 * par_visit_data.json  
@@ -429,3 +421,7 @@ MRI Derivatives:
 * img_xcpd_space-fsLR_seg-Tian_stat-coverage_bold.tsv  
 * img_xcpd_space-fsLR_seg-Tian_stat-reho_bold.json  
 * img_xcpd_space-fsLR_seg-Tian_stat-reho_bold.tsv
+
+## Counts
+* **Total number of unique participants and visits included in data dump:** 1,351
+* **Total number of visits:** 1,919

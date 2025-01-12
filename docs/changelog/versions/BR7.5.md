@@ -2,17 +2,6 @@
 
 <p style="font-size: 1.1em">Release date: November 19, 2024</p>
 
-<ul>
-<p style="font-size: 1.1em; margin-bottom: 0px;"><u>Total number of unique participants and visits included in data dump:</u></p>
-<li>1,358 unique participants  </li>
-<li>1,919 visits
-<ul>
-<li>V01 visits: 1,127 (185 participants for which only V01 visit exists)  </li>
-<li>V02 visits: 666  </li>
-<li>V03 visits: 126</li></ul>
-</li>
-</ul>
-
 ## New Features
 <ul>
 <b>BioSpecimen toxicology results:</b> Updated file with USDTL urine toxicology results was added  
@@ -36,3 +25,11 @@
 <li>Mother/Child - 'Demographics' form (sed<em>bm</em>demo): 'rc<em>mother</em>race'; 'rc<em>mother</em>ethnicity'; rc<em>child</em>race'; 'rc<em>child</em>ethnicity'</li></ul>
 </li>
 </ul>
+
+## Counts
+* **Total number of unique participants and visits included in data dump:** 1,395
+* **Total number of visits:**   
+    * All: 1,919
+    * V01: 1,127 (185 participants for which only V01 visit exists)
+    * V02: 666
+    * V03: 126  

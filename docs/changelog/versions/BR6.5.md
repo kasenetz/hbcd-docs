@@ -2,17 +2,6 @@
 
 <p style="font-size: 1.1em">Release date: November 5, 2024</p>
 
-<ul>
-<p style="font-size: 1.1em; margin-bottom: 0px;"><u>Total number of unique participants and visits included in data dump:</u></p>
-<li>1,399 unique participants  </li>
-<li>1,919 visits
-<ul>
-<li>V01 visits: 1,127 (185 participants for which only V01 visit exists)  </li>
-<li>V02 visits: 666  </li>
-<li>V03 visits: 126</li></ul>
-</li>
-</ul>
-
 ## New features
 
 **MRI Derivative tabular data** - Included in 'Phenotype' folder (.tsv & .json)  
@@ -48,3 +37,12 @@
     * 'visit_data' category with 'par' (par_visit_data)  
 * 'Administration' data now populating  
 * Child demographic data available
+
+
+## Counts
+* **Total number of unique participants and visits included in data dump:** 1,399
+* **Total number of visits:**   
+    * All: 1,919
+    * V01: 1,127 (185 participants for which only V01 visit exists)
+    * V02: 666
+    * V03: 126  
