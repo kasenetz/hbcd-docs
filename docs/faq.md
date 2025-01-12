@@ -124,7 +124,22 @@
 </div>
 </p>
 
-## Imaging
+## Non-Imaging Data
+<p>
+<div id="faq-age" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">What is the difference between the fields reporting age?</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<li>
+<p>There are a few different fields related to age included in the <code>.tsv</code> files provided within the <a href="../datacuration/rawbids">raw BIDS</a> and <a href="../datacuration/phenotypes">phenotype BIDS</a> data. These include gestational age at administration (<code>gestational_age</code>), gestational age at birth (<code>gestational_age_birth</code>), and candidate age (<code>candidate_age</code>). Please see the notification under <a href="../datacuration/phenotypes/#age">HBCD BIDS Data &gt; Phenotype</a> for a definition of these fields.</p>
+</li>
+</div>
+</p>
+
+## Imaging Data
 <p>
 <div id="faq-mriprotocol" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
@@ -227,3 +242,19 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 </div>
 </p>
 
+
+<p>
+<div id="age" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Fields Reporting Age</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<li>
+<p><b>Gestational age at administration</b> (<code>gestational_age</code>, reported in days): During the prenatal period, gestational age at administration (GAA) refers to the time elapsed between the jittered expected due date (EDD, used as a proxy for the time of conception, or the first day of the mother's last menstrual period) and the date of administration of the instrument. Note that GAA can be negative for instruments administered before the jittered EDD.</p> 
+<p><b>Gestational age at birth</b> (<code>gestational_age_birth</code>, reported in days): After birth, the gestational age at birth (GAB) represents the time between conception and birth and remains constant.</p> 
+<p><b>Candidate age</b> (<code>candidate_age</code>, reported in years with precision to 3 decimal places): The time elapsed between birth (based on a birthdate measure jittered up to 7 days) and the date of administration of the instrument. Note that V01 candidate age values are recorded as 'n/a' as this data pertains to the prenatal period.</p>
+</li>
+</div>
+</p>
