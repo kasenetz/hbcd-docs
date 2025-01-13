@@ -101,6 +101,7 @@ For all measures, QC procedures involved review of response distributions (cross
 </div>
 <div class="collapsible-content">
 <br>
+<p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>ASSIST V1</strong></p>
 <p>Implicit in responsible stewardship of prenatal drug exposure data is the recognition of the structural racism in which drug policy in the United States has long been embedded (Coles 1993; Wakeman et al., 2022). Responsible use of prenatal drug exposure data also requires thoughtful interpretation of exposure-related outcomes in the context of measured and unmeasured confounders. These confounders include, but are not limited to, phenotypic risks associated with persistent alcohol, tobacco, and other drug use during pregnancy by birthing parents (Massey et al., 2011), and confounding by familial risk from within-family studies (Estabrook et al., 2016).</p>
 <p>Finally, unwarranted speculation about ‘neural bases of behavior’ form differences in neuroimaging between exposed and unexposed children in the absence of differences in behavioral performance can exacerbate stigma already faced by birthing parents with substance use disorders and their children (McAllister & Hart 2015).</p> 
 </div>
