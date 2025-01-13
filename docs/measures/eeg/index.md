@@ -50,6 +50,19 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 </div>
 </p>
 
+<p>
+<div id="rs-warning" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>🚧 UNDER CONSTRUCTION 🚧</p> 
+<p>Please see this code provided to create databases with the summary of the EEG data.</p> 
+</div>
+</p>
+
 ### Faces Task
 The Faces task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability. To assess child and infant face processing abilities as well as the underlying neural activity supporting face and object processing, the task involves 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task.     
    
