@@ -34,7 +34,7 @@ root/
 <div class="collapsible-content">
 <br>
 <li>
-<p><b>Gestational age at administration</b> (<code>gestational_age</code>, reported in days): During the prenatal period, gestational age at administration (GAA) refers to the time elapsed between the jittered expected due date (EDD, used as a proxy for the time of conception, or the first day of the mother's last menstrual period) and the date of administration of the instrument. Note that GAA can be negative for instruments administered before the jittered EDD.</p> 
+<p><b>Gestational age at administration</b> (<code>gestational_age</code>, reported in days): During the prenatal period, gestational age at administration (GAA) refers to the time elapsed between the jittered expected due date (EDD, used as a proxy for the time of conception, or the first day of the mother's last menstrual period (LMP)) and the date of administration of the instrument. Note that GAA can be negative for instruments administered before the jittered EDD.</p> 
 <p><b>Candidate age</b> (<code>candidate_age</code>, reported in years with precision to 3 decimal places): The time elapsed between birth (based on a birthdate measure jittered up to 7 days) and the date of administration of the instrument. Note that V01 candidate age values are recorded as 'n/a' as this data pertains to the prenatal period.</p>
 </li>
 </div>

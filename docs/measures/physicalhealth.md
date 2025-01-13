@@ -79,7 +79,7 @@ The QC procedures for all three measures involved monitoring the data dashboard 
 </div>
 <div class="collapsible-content">
 <br>
-<p>Subject matter experts emphasize that, as breast feeding history is obtained via self-report, it is vulnerable to recall bias* concerning the timing of starting and/or stopping breast feeding. In addition, as the data is obtained via a survey, it is likely that missing data will need to be statistically addressed during analysis.</p> 
+<p>Breast feeding history is obtained via self-report, so is vulnerable to recall bias concerning the timing of starting and/or stopping breast feeding. In addition, as the data is obtained via a survey, it is likely that missing data will need to be statistically addressed during analysis.</p> 
 </div>
 </p>
 
