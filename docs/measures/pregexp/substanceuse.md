@@ -30,16 +30,23 @@ The current data release for Pregnancy & Exposure, Including Substance Use, incl
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Assist V3</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Substance use after pregnancy</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_assistv3</td>
-    </tr>           
-    <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#tlfb">Timeline Follow Back</a></td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">TLFB</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Substance use before and during pregnancy</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_ch_tlfb</td>
-    </tr>         
+    </tr>   
 </tbody>
 </table>
 
+<p>
+<div id="fyi-tlfb" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">NOTE: Timeline Follow Back (TLFB) Instrument</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<li>
+<p>The <a href="#tlfb">TLFB</a>, which captures substance use before and during pregnancy, is not included in the current release. However, it is still documented below in order to contextualize the Substance Use (SU) flag raised by TLFB (for self-reported use) included in basic demographics (see <a href="../../../datacuration/phenotypes#demographics-data">here</a> for details).</p>
+</li>
+</div>
+</p>
 
 ## Implementation & Data Collection
 Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). All surveys were administered in-person by a research assistant except in Alabama, where participants were trained to self-administer. Additional information is as follows:
@@ -179,7 +186,6 @@ Lifetime and problematic use, pre-pregnancy and pregnancy use was expanded into 
 </p>
 
 Finally, additional screening for substance use (within three months before or during pregnancy) was implemented for Assist V1 to trigger the Time Line Follow Back (TLFB). The additional questions ask which substances (from the list above) the person used for any reason (1) in the three months before becoming pregnant and (2) during pregnancy. For substances used, respondents were then asked to specify the specific substance type as well (e.g. type of alcohol, cannabinoid, stimulant, tobacco, hallucinogen, and/or opioid).
-
 
 ### TLFB
 <p>

@@ -134,7 +134,7 @@
 <div class="collapsible-content">
 <br>
 <li>
-<p>There are a few different fields related to age included in the <code>.tsv</code> files provided within the <a href="../datacuration/rawbids">raw BIDS</a> and <a href="../datacuration/phenotypes">phenotype BIDS</a> data. These include gestational age at administration (<code>gestational_age</code>), gestational age at birth (<code>gestational_age_birth</code>), and candidate age (<code>candidate_age</code>). Please see the notification under <a href="../datacuration/phenotypes/#age">HBCD BIDS Data &gt; Phenotype</a> for a definition of these fields.</p>
+<p>Fields reporting age in the <code>.tsv</code> files provided within the <a href="../datacuration/rawbids">raw BIDS</a> and <a href="../datacuration/phenotypes">phenotype BIDS</a> data include gestational age at administration (<code>gestational_age</code>) and candidate age (<code>candidate_age</code>). Please see the notification under <a href="../datacuration/phenotypes/#age">HBCD BIDS Data &gt; Phenotype</a> for a definition of these fields.</p>
 </li>
 </div>
 </p>
