@@ -34,7 +34,7 @@ There are two types of warnings:
 </div>
 <div class="collapsible-content">
 <br>
-<p>The Expert Review warnings provide critical guidance for researchers from subject matter experts on measures/data specifically within the context of HBCD, including considerations and recommendations for measure usage, known issues, and important reminders. This information is intended to aid in transparency, best practice, and ease of use for a given measure/data type.</p> 
+<p>The Expert Review warnings offer critical guidance from subject matter experts, tailored specifically to the context of HBCD measures and data. These warnings address considerations and recommendations for measure usage, highlight known issues, and provide important reminders. Additionally, they include detailed instructions and/or code to assist researchers with various aspects of data use, such as working with datasets, calculating variables, or performing specific analyses. This information is designed to enhance transparency, promote best practices, and streamline the use of each measure or data type.</p> 
 </div>
 </p>
 
