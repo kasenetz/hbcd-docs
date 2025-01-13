@@ -83,7 +83,7 @@ QC procedures involved examining age to ensure that it falls within an expected 
 </div>
 <div class="collapsible-content">
 <br>
-<p>Subject matter experts did not identify any issues with the ecPROMIS, IBQ-R (VSF)+BI, or MAPS-TL measures. However, they emphasize that these tools assess normative variations in child behavior and should be interpreted within the context of the child's age and developmental stage. It is important to note that these are not clinical or diagnostic instruments.</p> 
+<p>The ecPROMIS, IBQ-R (VSF)+BI, and MAPS-TL assess normative variations in child behavior and should be interpreted within the context of the child's age and developmental stage. These are not clinical or diagnostic instruments.</p> 
 </div>
 </p>
 
