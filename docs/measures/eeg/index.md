@@ -50,19 +50,6 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 </div>
 </p>
 
-<p>
-<div id="eeg-warning" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="collapsible-content">
-<br>
-<p>🚧 UNDER CONSTRUCTION 🚧</p> 
-<p>Please see this code provided to create databases with the summary of the EEG data.</p> 
-</div>
-</p>
-
 ### Faces Task
 The Faces task (v.11.29.23) is used to assess neural activity supporting face and object processing within the first years of life. It assesses child and infant face processing development including attention, perception, categorization, individuation and memory. The measure includes rigorous QC procedures to ensure data integrity and reliability. To assess child and infant face processing abilities as well as the underlying neural activity supporting face and object processing, the task involves 2 blocks: 50 trials of upright faces & 50 trials of inverted faces and 50 trials of upright faces & 50 trials of objects. If the child loses attention, an attention getter may be played to bring the child’s focus back to the task.     
    
@@ -119,8 +106,11 @@ The Visual Evoked Potential Task (v.11.29.23) measures development of visual cor
 VEP amplitude and latency decreases with age during the first three years of life. The VEP has been associated with concurrent and later developmental outcomes as a function of prenatal substance exposures (Margolis et al., 2024), early visual enrichment or deprivation (Jensen et al., 2019), vision system maturation (Lippé et al., 2009), neurodevelopmental disorders (e.g., ASD and ADHD; Cremone- Caira et al., 2023; Nazhvani et al., 2013), and reading and learning disabilities (Shandiz et al., 2017). The morphology of the VEP likely reflects varying degrees of synaptic efficiency and as such, can be used as a readout of general cortical function. The task elicits a VEP response in the occipital area (Oz), consisting of the, N1 (first negative peak), P1 (first positive peak), and N2 (second negative peak) components. See Fox et al. (2024) for more information about the VEP task.  
 
 ## Resources
+Refer to the [HBCD-EEG-data-release-notes](https://github.com/ChildDevLab/HBCD-EEG-data-release-notes) repository for additional resources on working with the EEG data from this release. The repository includes code to extract a complete derivative dataset of summary statistics and trial measures from the downloaded data. Additional resources include:
+
 - [HBCD E-Prime Task Manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)
 - [Official EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
+
 
 ## References
 <div class="references">
