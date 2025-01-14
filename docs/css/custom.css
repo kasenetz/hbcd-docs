@@ -14,5 +14,14 @@
     padding: 2.5px;
   }
 
+  .version-dropdown {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  #version-selector {
+    padding: 5px;
+    font-size: 14px;
+  }
 
   
