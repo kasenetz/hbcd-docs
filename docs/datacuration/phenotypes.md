@@ -157,15 +157,15 @@ Each instrument has a `<instrument_name>.tsv` Data Table containing instrument v
 <li>img_osprey_<b>&lt;PROC&gt;</b>_tCr_Voxel_1_Basis_1  </li>
 <li>img_osprey_HERCULES_qm_processed_spectra</li>
 <li>img_osprey_unedited_qm_processed_spectra</li>
-<li>img_xcpd_space-fsLR_seg-<b>&lt;SEG | HCP | Tian&gt;</b>_stat-alff_bold  </li>
-<li>img_xcpd_space-fsLR_seg-<b>&lt;SEG | HCP | Tian&gt;</b>_stat-coverage_bold  </li>
+<li>img_xcpd_space-fsLR_seg-<b>&lt;SEG&gt;</b>_stat-alff_bold  </li>
+<li>img_xcpd_space-fsLR_seg-<b>&lt;SEG&gt;</b>_stat-coverage_bold  </li>
 <li>img_xcpd_space-fsLR_seg-<b>&lt;SEG&gt;</b>_stat-mean_desc-curv_morph  </li>
 <li>img_xcpd_space-fsLR_seg-<b>&lt;SEG&gt;</b>_stat-mean_desc-sulc_morph  </li>
 <li>img_xcpd_space-fsLR_seg-<b>&lt;SEG&gt;</b>_stat-mean_desc-thickness_morph  </li>
-<li>img_xcpd_space-fsLR_seg-<b>&lt;SEG | HCP | Tian&gt;</b>_stat-reho_bold  </li>
+<li>img_xcpd_space-fsLR_seg-<b>&lt;SEG&gt;</b>_stat-reho_bold  </li>
 </ul>
 <li><b>PROC</b> = HERCULES_diff1, HERCULES_diff2, HERCULES_sum, unedited_A</li>
-<li><b>SEG</b> = 4S1056Parcels, 4S156Parcels, 4S256Parcels, 4S356Parcels, 4S456Parcels, 4S556Parcels, 4S656Parcels, 4S756Parcels, 4S856Parcels, 4S956Parcels, Glasser, Gordon, MIDB, MyersLabonte</li>
+<li><b>SEG</b> = 4S1056Parcels, 4S156Parcels, 4S256Parcels, 4S356Parcels, 4S456Parcels, 4S556Parcels, 4S656Parcels, 4S756Parcels, 4S856Parcels, 4S956Parcels, HCP, Glasser, Gordon, MIDB, MyersLabonte, Tian</li>
 <br>
 </div>
 </p>
