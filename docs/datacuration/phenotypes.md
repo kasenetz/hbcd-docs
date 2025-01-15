@@ -6,21 +6,25 @@ root/
     |__ phenotype.tsv
     |__ phenotype.json
     |
-# BioSpecimens
-    |__ bio_biosample_urine.tsv
-    |__ bio_biosample_urine.json
+  # BioSpecimen
     |__ bio_biosample_nails.tsv
     |__ bio_biosample_nails.json
+    |__ bio_biosample_urine.tsv
+    |__ bio_biosample_urine.json
     |  
-# Visit Data
+  # Visit Data
     |__ par_visit_data.tsv
     |__ par_visit_data.json
     |
-# Demographic Data
+  # Demographic Data
     |__ sed_basic_demographics.tsv
     |__ sed_basic_demographics.json
+    |__ adm_bm_screen.tsv
+    |__ adm_bm_screen.json
+    |__ sed_bm_demo.tsv
+    |__ sed_bm_demo.json
     |
-# Instruments
+  # Instruments
     |__ <instrument_name>.tsv (repeat for all selected instruments)
     |__ <instrument_name>.json (repeat for all selected instruments)
 ```
@@ -113,61 +117,55 @@ All BioSpecimen file are prepended with `bio_`. The `bio_biosample_urine` urine 
 
 ## Instrument Data
 Each instrument has a `<instrument_name>.tsv` Data Table containing instrument values and a `<instrument_name>.json` Data Dictionary describing instrument fields for all participants.
-
-<p>
-<div id="instruction-metadata-caution" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Instruction metadata - Caution, please read carefully:</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="collapsible-content">
-<br>
-<p>The text added to the 'instruction' column in the Data Dictionary metadata are extracted programmatically from the latest instruction field provided in the Data Dictionary of the form based on the order of the fields, and added to all fields up to the next set of instructions. Because of this, in some cases the instruction text may be broken into several instruction fields, of which only the last portion will currently be extracted, leading to partial instruction text. Likewise, since the instruction is provided for all fields up to the next set of instructions, in some cases the instruction provided may correspond to a previous section in the form. Instruction metadata will be fine-tuned manually for future releases. To ensure instructions are accurately interpreted, please refer to the original form.</p> 
-</div>
-</p>
-
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
   <span class="text">Instruments Included In Current Release</span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="collapsible-content">
+<br>
 <ul>
-<li>mh_cg_ibqr </li>
-<li>mh_cg_mapdb__inf </li>
-<li>mh_cg_pms__cc__inf</li>
-<li>ncl_cg_spm2__inf</li>
-<li>ncl_ch_mlds.tsv  </li>
-<li>nt_ch_sens__qtn_1 </li>
-<li>nt_ch_sens__qtn_2 </li>
-<li>nt_ch_sens__qtn_3</li>
-<li>pex_bm_apa</li>
-<li>pex_bm_assistv1</li>
-<li>pex_bm_assistv2</li>
-<li>pex_bm_assistv3</li>
-<li>pex_bm_epds</li>
-<li>pex_bm_health_preg__chroncond</li>
-<li>pex_bm_health_preg__erhosp</li>
-<li>pex_bm_health_preg__exp__vacc </li>
-<li>pex_bm_health_preg__healthhx</li>
-<li>pex_bm_health_preg__illness </li>
-<li>pex_bm_health_preg__meds</li>
-<li>pex_bm_healthv2_inf</li>
-<li>pex_bm_healthv2_preg</li>
-<li>pex_bm_psych </li>
-<li>pex_bm_str__ptsd  </li>
-<li>ph_cg_phx__bfh</li>
-<li>ph_ch_anthro</li>
-<li>sed_bm_bfy</li>
-<li>sed_bm_ehits</li>
-<li>sed_bm_nbhsaf</li>
-<li>sed_bm_paces</li>
-<li>sed_bm_phx__discr</li>
-<li>sed_bm_strsup </li>
+<p style="margin-bottom: 0; padding-bottom: 0;"><u>Phenotype Data:</u></p>
+<li>mh_cg_<b>&lt;ibqr | mapdb__inf | pms__cc__inf&gt;</b></li>
+<li>ncl_<b>&lt;cg_spm2__inf | ch_mlds&gt;</b></li>
+<li>nt_ch_sens__qtn_<b>&lt;1 | 2 | 3&gt;</b> </li>
+<li>pex_bm_<b>&lt;apa | assistv1 | assistv2 | assistv3 | epds | psych | str__ptsd&gt;</b> </li>
+<li>pex_bm_health_preg__<b>&lt;chroncond | erhosp | exp__vacc | healthhx | illness | meds&gt;</b></li>
+<li>pex_bm_healthv2_<b>&lt;inf | preg&gt;</b></li>
+<li>ph_<b>&lt;cg_phx__bfh | ch_anthro&gt;</b> </li>
+<li>sed_bm_<b>&lt;bfy | ehits | nbhsaf | paces | phx__discr | strsup&gt;</b></li>
 <li>sed_cg_foodins</li>
 <li>sens_ch_setup</li>
 </ul>
+
+<ul>
+<p style="margin-bottom: 0; padding-bottom: 0;"><u>EEG:</u></p>
+<li>eeg_made_task-<b>&lt;FACE | MMN | RS | VEP&gt;</b>_acq-eeg_MADE_preprocessing_report  </li>
+<li>eeg_made_task-VEP_ERP-summaryStats  </li>
+<li>eeg_qc_task-<b>&lt;FACE | MMN | RS | VEP&gt;</b></li>
+</ul>
+
+<ul>
+<p style="margin-bottom: 0; padding-bottom: 0;"><u>MRI Derivatives:</u></p>
+<li>img_bibsnet_space-<b>&lt;T1w | T2w&gt;</b>_desc-aseg_volumes  </li>
+<li>img_mriqc_<b>&lt;T1w | T2w&gt;</b>  </li>
+<li>img_mriqc_bold  </li>
+<li>img_osprey_<b>&lt;PROC&gt;</b>_AlphaCorrWaterScaledGroupNormed_Voxel_1_Basis_1  </li>
+<li>img_osprey_<b>&lt;PROC&gt;</b>_<b>&lt;AlphaCorr|CSF|TissCorr|raw&gt;</b>WaterScaled_Voxel_1_Basis_1</li>
+<li>img_osprey_<b>&lt;PROC&gt;</b>_amplMets_Voxel_1_Basis_1  </li>
+<li>img_osprey_<b>&lt;PROC&gt;</b>_tCr_Voxel_1_Basis_1  </li>
+<li>img_osprey_HERCULES_qm_processed_spectra</li>
+<li>img_osprey_unedited_qm_processed_spectra</li>
+<li>img_xcpd_space-fsLR_seg-<b>&lt;SEG | HCP | Tian&gt;</b>_stat-alff_bold  </li>
+<li>img_xcpd_space-fsLR_seg-<b>&lt;SEG | HCP | Tian&gt;</b>_stat-coverage_bold  </li>
+<li>img_xcpd_space-fsLR_seg-<b>&lt;SEG&gt;</b>_stat-mean_desc-curv_morph  </li>
+<li>img_xcpd_space-fsLR_seg-<b>&lt;SEG&gt;</b>_stat-mean_desc-sulc_morph  </li>
+<li>img_xcpd_space-fsLR_seg-<b>&lt;SEG&gt;</b>_stat-mean_desc-thickness_morph  </li>
+<li>img_xcpd_space-fsLR_seg-<b>&lt;SEG | HCP | Tian&gt;</b>_stat-reho_bold  </li>
+</ul>
+<li><b>PROC</b> = HERCULES_diff1, HERCULES_diff2, HERCULES_sum, unedited_A</li>
+<li><b>SEG</b> = 4S1056Parcels, 4S156Parcels, 4S256Parcels, 4S356Parcels, 4S456Parcels, 4S556Parcels, 4S656Parcels, 4S756Parcels, 4S856Parcels, 4S956Parcels, Glasser, Gordon, MIDB, MyersLabonte</li>
+<br>
 </div>
 </p>
-
