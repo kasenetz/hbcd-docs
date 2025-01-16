@@ -211,7 +211,7 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 </div>
 <div class="collapsible-content">
 <br>
-<p>Imaging QC metrics are provided for each scan in the session-level <code>scans.tsv</code> file - see details about this file <a href="../datacuration/rawbids/#participant-session-scan-level-data">here</a>. Automated QC metrics were generated for all data described under <a href="../measures/mri/qc">HBCD MR QC Procedures</a>. However, only a subset of series are selected for manual review based on the automated QC metrics. Therefore, not all scans will have both automated and manual QC metrics.</p>
+<p>Imaging QC metrics are provided for each scan in the session-level <code>scans.tsv</code> file - see details about this file <a href="../datacuration/rawbids/#scan-level-data">here</a>. Automated QC metrics were generated for all data described under <a href="../measures/mri/qc">HBCD MR QC Procedures</a>. However, only a subset of series are selected for manual review based on the automated QC metrics. Therefore, not all scans will have both automated and manual QC metrics.</p>
 </div>
 </p>
 
