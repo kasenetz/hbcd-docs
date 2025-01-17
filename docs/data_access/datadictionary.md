@@ -1,7 +1,8 @@
+<p style="text-align: center;">
+  <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC HBCD Lasso Portal</a>
+</p>
+
 # Data Dictionary Explorer
-
-<p style="text-align: center; font-size: 1.6em">🚧 🚧 UNDER CONSTRUCTION 🚧 🚧</p>
-
 <p>
 <div id="instruction-metadata-caution" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>

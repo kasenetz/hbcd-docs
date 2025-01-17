@@ -1,3 +1,7 @@
+<p style="text-align: center;">
+  <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC HBCD Lasso Portal</a>
+</p>
+
 # How To Access HBCD Data
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
