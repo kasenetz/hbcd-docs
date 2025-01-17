@@ -113,3 +113,7 @@ The submitted DUC is required to be signed by a Signing Official in order to be 
     <li>Wait for the NBDC Data Access Committee to approve the request.</li> 
 </ol>
 <br>
+
+<p style="text-align: center;">
+  <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC Lasso Portal &nbsp; ↗️</a>
+</p>

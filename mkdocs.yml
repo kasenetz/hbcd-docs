@@ -38,8 +38,8 @@ nav:
   - ABOUT: index.md
   - Access Data:
     - How To Access Data: data_access/index.md
+    - How To Download Data: data_access/querytool.md
     - Responsible Data Use: data_access/resp_data_use.md
-    - Query Tool: data_access/querytool.md
     - Data Dictionary Explorer: data_access/datadictionary.md
   - Get Help:
     - FAQs: faq.md

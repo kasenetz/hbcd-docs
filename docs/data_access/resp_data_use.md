@@ -12,3 +12,8 @@ Race and ethnicity are collected as a part of the HBCD protocol to reflect socia
     <span class="text">After obtaining DUC approval, users must complete mandatory training on responsible data use to gain access to the data.</span>
 </div>
 <br>
+
+
+<p style="text-align: center;">
+  <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC Lasso Portal &nbsp; ↗️</a>
+</p>
