@@ -2,7 +2,9 @@
   <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC HBCD Lasso Portal</a>
 </p>
 
-# Dictionary Query Tool
+# Query Tool
+
+*Below we describe how to use the Query Tool on the Lasso platform to download data.*
 
 **Step 1: Get Started with Approved Access**  
 Once your **Data Use Certification** has been approved and you’ve completed the required training, you’ll gain access to the **Query Data** tab in Lasso. This tab is conveniently located in the **left-hand side menu**.
