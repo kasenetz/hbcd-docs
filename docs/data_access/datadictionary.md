@@ -12,6 +12,11 @@ The **Variable Selection** page allows users to explore the ontology of data tab
 
 The **Manage Selections and Downloads** page allows users to manage their selection of variables and download a data dictionary containing just these variables. (This application does not allow to download the data itself. Users with a valid data use certificate can download the data through Lasso).
 
+Note that warning labels are included next to relevant Variables and Tables; these link directly to Responsible Use & Expert Review warnings provided in the release notes - see [here](../measures/index.md#responsible-use-expert-review-warnings) for details. 
+
+
+
+
 <p style="text-align: center;">
   <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC Lasso Portal &nbsp; ↗️</a>
 </p>
