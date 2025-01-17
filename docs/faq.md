@@ -39,6 +39,18 @@
 </p>
 
 <p>
+<div id="faq-los" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">I am writing a proposal to use HBCD data, can you write a letter of support?</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>The HBCD Administrative Core (HCAC) and the HBCD Data Coordinating Center (HDCC) do not provide letters that could be interpreted as endorsements for specific applications or projects proposing secondary analyses of HBCD Study data. However, we are committed to fostering open communication with the broader scientific community. To support this, we can provide a letter outlining our commitment to facilitating access to information about the HBCD Data Resource, helping researchers obtain the details they need to pursue their specific aims. To request such a letter, please contact Lilly Tureaud at ltureaud@health.ucsd.edu.</p>
+</div>
+</p>
+
+<p>
 <div id="faq-duc" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
   <span class="text">Can I have a student or trainee on my DUC? Can students have their own DUC?</span>
