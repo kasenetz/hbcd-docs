@@ -19,8 +19,6 @@ root/
   # Demographic Data
     |__ sed_basic_demographics.tsv
     |__ sed_basic_demographics.json
-    |__ adm_bm_screen.tsv
-    |__ adm_bm_screen.json
     |__ sed_bm_demo.tsv
     |__ sed_bm_demo.json
     |
@@ -46,7 +44,7 @@ root/
 </p>
 
 ## Demographics Data
-<p style="margin: 0 0 5px;">The <code>sed_basic_demographics</code> files provide demographic information for each participant that is useful for understanding their phenotypic data in context. This includes:</p>
+<p style="margin: 0 0 5px;">The <code>sed_basic_demographics</code> file provide demographic information for each participant that is useful for understanding their phenotypic data in context. This includes:</p>
 <ul>
 <li>Gestational age at birth</li>
 <li>Sex</li>
@@ -61,6 +59,9 @@ root/
     </ul>
 </li>
 </ul>
+
+<p>The <code>sed_bm_demo</code> file contains additional demographic information pertaining to the birth parent collected as part of <a href="../../measures/socenvdet/">Social & Environmental Determinants</a> measures.</p>
+
 
 Caregiver Type is included in demographic information as well. The cohort types included in the data release are as follows:
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
@@ -99,7 +100,7 @@ Caregiver Type is included in demographic information as well. The cohort types 
 </table>
 
 ## Visit Data
-<p style="margin: 0 0 5px;">The <code>par_visit_data</code> files contain all participant visit data, including:</p>
+<p style="margin: 0 0 5px;">The <code>par_visit_data</code> file contains all participant visit data, including:</p>
 <ul>
 <li>Visit information (Label, Stage, Date, and if the visit was missed and the reason)</li>
 <li>Project, Cohort, and Site</li>
