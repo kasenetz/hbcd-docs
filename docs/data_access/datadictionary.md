@@ -1,5 +1,5 @@
 <p style="text-align: center;">
-  <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC HBCD Lasso Portal</a>
+  <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC Lasso Portal &nbsp; ↗️</a>
 </p>
 
 # Data Dictionary Explorer

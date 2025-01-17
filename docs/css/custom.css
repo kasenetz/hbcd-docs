@@ -29,21 +29,14 @@
 /* Styling for NBDC Lasso quick link in Data Access section */ 
 .button-link {
   display: inline-block;
-  background-color: #199bd666;
-  color: white; /* Button text color */
-  padding: 10px 20px;
+  background-color: #24AE7066;
+  color: black; /* Button text color */
+  padding: 5px 15px;
   text-decoration: none;
   border-radius: 5px; /* Rounded corners */
   font-size: 1.2em;
   transition: background-color 0.3s ease;
 }
 .button-link:hover {
-  background-color: #199bd6; /* background color on hover */
+  background-color: #24AE70; /* background color on hover */
 }
-
-
-/* HBCD HEX color codes */ 
-/* green: #24AE70 */ 
-/* blue: #199bd6 */ 
-/* red: #be074c */ 
-/* black/gray: #6b6b6b */ 
