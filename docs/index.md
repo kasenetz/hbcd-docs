@@ -1,6 +1,3 @@
-<p style="text-align: center; font-size: 2em">🚧 🚧 COMING SOON 🚧 🚧</p>
-<p style="text-align: center; font-size: 1.6em"><i>Please note that this webpage is under production and will not be finalized until the public data release.</i></p>
-
 <p align="center">
 <img src="images/logo_HBCD_final.png" alt="logo" width="500"/>
 </p>

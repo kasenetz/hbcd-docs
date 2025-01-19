@@ -7,6 +7,7 @@
 /* Change color of upper left-hand background */ 
 .wy-side-nav-search {background-color: #199bd6;}
 
+/* References section */ 
 .references p {
     font-size: smaller;
     line-height: 1.2; /* Reduce line spacing (default is around 1.5-1.6) */
@@ -14,6 +15,7 @@
     padding: 2.5px;
   }
 
+/* Styling for dropdown menu for selecting webpage version if we want to use this instead of default flyout menu */ 
   .version-dropdown {
     margin: 10px 0;
     text-align: center;
@@ -24,4 +26,17 @@
     font-size: 14px;
   }
 
-  
+/* Styling for NBDC Lasso quick link in Data Access section */ 
+.button-link {
+  display: inline-block;
+  background-color: #24AE7066;
+  color: black; /* Button text color */
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+.button-link:hover {
+  background-color: #24AE70; /* background color on hover */
+}

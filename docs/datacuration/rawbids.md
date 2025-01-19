@@ -36,6 +36,8 @@ Session-level data is stored in the `sessions.tsv` file within the subject folde
 ### Scan-Level Data
 The `scans.tsv` file provided per session includes a variety of participant information (see [Fields included in `scans.tsv` file](#scanstsv)) as well as quality control (QC) metrics derived from raw data QC procedures (see [HBCD MR Quality Control Procedures](../measures/mri/qc.md)). Several of the processing pipelines query the `scans.tsv` to determine which files to include/exclude for processing. The criteria used are listed under the 'Quality Control Selection Information' under [Tool Names](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html#tool-names) on the HBCD Processing page.
 
+As a reminder, only a portion of data undergoes manual review for quality control. Files that have not undergone manual QC will be missing fields related to manual QC (e.g. fields prepended with `QU_` in the list below). **Note that the `QC` field is automatically 1 (Pass) if manual QC was not performed.**
+
 <p>
 <div id="scanstsv" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="text">Fields included in <code>scans.tsv</code> files</span>

@@ -46,14 +46,14 @@ All surveys are child-specific and filled out remotely by the primary caregiver.
     </tr>
     <tr>
         <td>SPM-2</td>
-        <td>V03, V05</td>
+        <td>V03 (<i>SPM Infant</i>), V05 (<i>SPM Toddler</i>)</td>
         <td>12 min</td>
     </tr>
 </tbody>
 </table>
 
 ## Quality Control
-For MLDS, QC procedures involve monitoring frequency of decline to answer and completeness during data collection. Initial data showed that about 10% of questionnaires were not complete. For SPM-2, a measure expert periodically reviews data capture to ensure that items are being fully completed and scoring is spot checked to assure algorithms are being correctly employed. 
+For MLDS, QC procedures involve monitoring frequency of decline to answer and completeness during data collection. Initial data showed that about 10% of questionnaires were not complete. For SPM-2, a measure expert periodically reviews data capture to ensure that items are being fully completed and scoring is spot checked to assure algorithms are being correctly employed.  
 
 ## Instrument Details
 ### MLDS
@@ -105,9 +105,9 @@ Designed specifically for HBCD, this measure informs assessment teams conducting
 </div>
 </p>
 
-The Sensory Processing Measure – Infant/Toddler (SPM-2) is designed to assess whether a child’s nervous system integrates visual, auditory, tactile, olfactory, gustatory, vestibular, and proprioceptive sensory information from the body and environment efficiently and effectively.  Effective sensory processing contributes to the development of emotion regulation, motor skills, and social relatedness. Difficulties in the integration of sensory information can hinder the development of these skills and higher-level functions such as learning to plan and organize behaviors. The sensory systems serve as foundation for increasingly more complex behaviors and are critical to development.
+The Sensory Processing Measure – Infant/Toddler (SPM-2) is designed to assess whether a child’s nervous system integrates visual, auditory, tactile, olfactory, gustatory, vestibular, and proprioceptive sensory information from the body and environment efficiently and effectively. Effective sensory processing contributes to the development of emotion regulation, motor skills, and social relatedness. Difficulties in the integration of sensory information can hinder the development of these skills and higher-level functions such as learning to plan and organize behaviors. The sensory systems serve as foundation for increasingly more complex behaviors and are critical to development.
 
-This questionnaire asks about the ways the child sensory systems contribute to daily functioning. The caregiver selects whether their child’s behavior during the past month never, occasionally, frequently, or always resembles the behavior described. Seven sensory domains are assessed as well as functions related to ideas/planning and social relatedness.
+This questionnaire asks about the ways the child sensory systems contribute to daily functioning. The caregiver selects whether their child’s behavior during the past month never, occasionally, frequently, or always resembles the behavior described. Seven sensory domains are assessed as well as functions related to ideas/planning and social relatedness. The reference sample tables from which the summary scores were derived are available from Western Psychological Services (Parham et al. 2021). As is the case with most measures in HBCD, respondents have the option to choose “decline to answer.” These items contain imputed scores based on tables from the publisher. At this time, released data does not specify the exact items that have been imputed. 
 
 ## References
 <div class="references">

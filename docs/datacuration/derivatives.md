@@ -421,7 +421,7 @@ XCP-D performs functional MRI post-processing and noise regression from Infant-f
 <details open>
 <summary>Label Values Legend</summary>
   <ul>
-    <li><b>&ltSEG&gt</b> label values: <code>4S1056Parcels</code>, <code>4S156Parcels</code>, <code>4S256Parcels</code>, <code>4S356Parcels</code>, <code>4S456Parcels</code>, <code>4S556Parcels</code>, <code>4S656Parcels</code>, <code>4S756Parcels</code>, <code>4S856Parcels</code>, <code>4S956Parcels</code>, <code>Glasser</code>, <code>Gordon</code>, <code>MIDB</code>,<code>MyersLabonte</code>, <code>Tian</code></li>
+    <li><b>&ltSEG&gt</b> label values: 4S1056Parcels, 4S156Parcels, 4S256Parcels, 4S356Parcels, 4S456Parcels, 4S556Parcels, 4S656Parcels, 4S756Parcels, 4S856Parcels, 4S956Parcels, Glasser, Gordon, HCP, MIDB, MyersLabonte, Tian</li>
     <li><b>SUBSES-(F)RUN</b>: For brevity, the BIDS entities below are replaced with the indicated strings:
         <ul>
         <li><code>sub-&lt;label&gt;_ses-&lt;label&gt;_run-&lt;label&gt;</code> ▸ <code>SUBSES-RUN</code></li>

@@ -23,9 +23,13 @@
 </div>
 <div class="collapsible-content">
 <br>
-<p>An issue with signal intensity clipping has been identified in a portion of Philips fMRI scans. Due to a scaling error in real-time reconstruction, high-intensity values are capped at 4095, creating hyperintense regions that drown out the signal of gray and white matter in that region. This affects derived measures such as ROI-ROI correlations. We are currently working to update the real-time reconstruction to address this issue.</p>
-<p>Initially detected during manual QC, the issue was rare early in the study and has since been addressed with a protocol patch applied at most Philips sites. However, sites VAN and CCH experienced more severe cases, as the patch was only implemented there in October 2024. Since then, no new severe cases have been observed. Overall, 20% of scans from VAN and CCH show varying levels of clipping, with 6.3% classified as severe and failing QC.</p> 
-<p>A <code>brain_median</code> value above 3700 in the <a href="../../../datacuration/rawbids/#participant-session-scan-level-data"><code>scans.tsv</code> file</a> predicts clipping artifacts. Severe cases also typically fail manual QC (QC=0), but less severe cases often pass (QC=1) as they may not be visually apparent.</p>  
+<p>An issue with signal intensity clipping has been identified in a portion of Philips fMRI scans. Due to a scaling error in real-time reconstruction, high-intensity values are capped at 4095, creating hyperintense regions that drown out the signal of gray and white matter in that region. This affects derived measures such as ROI-ROI correlations.</p>
+<p>Initially detected during manual QC, the issue was rare early in the study and has since been addressed with a protocol patch applied at most Philips sites. However, sites VAN and CCH experienced more severe cases, as the patch was only implemented there in October 2024. Since then, no new severe cases have been observed. Overall, 20% of scans from VAN and CCH show varying levels of clipping, with 6.3% classified as severe and failing QC. In the future, real-time reconstruction will be updated in order to salvage this data, but in the interim, impacted scans are excluded from the release.</p> 
+<p>Severe cases typically fail manual QC (QC=0), but less severe cases often pass (QC=1) as they may not be visually apparent. The severity of intensity clipping artifacts can be approximated from the ratio of the median to maximum image intensity and fraction of voxels at maximum intensity within the brain mask (available in the <a href="../../../datacuration/rawbids/#participant-session-scan-level-data"><code>scans.tsv</code> file</a>): </p> 
+<ul>
+<li>Severe clipping: brain_median / brain_max > 0.8 AND brain_fvox_max > 0.001</li> 
+<li>Potential clipping: brain_median / brain_max > 0.5 AND brain_fvox_max > 0.001</li> 
+</ul>
 </div>
 </p>
 

@@ -9,7 +9,9 @@ The visits and corresponding ages of the infant/child are listed below. **Only d
 
 
 ## Responsible Use & Expert Review Warnings
-To promote responsible use of the data and offer additional context for users, warnings are displayed at the top of each measure/instrument section as necessary. These warnings have been incorporated into the data dictionary that link directly to the release notes. We encourage all data users to examine the warnings for any variables you plan to download/utilize and adhere to the recommended guidelines. 
+To promote responsible use of the data and offer additional context for users, warnings are displayed at the top of each measure/instrument section as necessary. These warnings have been incorporated into the both the [Dictionary Query Tool on Lasso](../data_access/querytool.md) and the [Data Dictionary Explorer](../data_access/datadictionary.md) to link directly to the release notes. We encourage all data users to examine the warnings for any variables you plan to download/utilize and adhere to the recommended guidelines. 
+
+l next to the Variable or Table on our online Data Dictionary Explorer (DEAP). 
 
 **For consistency with [ABCD study data release](https://data.abcdstudy.org/reports/wiki-release6/) also hosted on the NBDC Lasso platform, Responsible Data Use Warnings for overlapping measures were provided by the ABCD Wiki (see additional information [here](https://data.abcdstudy.org/reports/wiki-release6/jedi.html#warnings-in-release-noteswiki)). These warnings are clearly labeled as such and contain a direct link to the Wiki source, as is demonstrated in the example and explanation below.** 
 
