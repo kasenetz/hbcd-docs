@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Collapsible content: toggles open class AND rotate class to ON when arrow is clicked to expand/collapse the section.
 function toggleCollapse(element) {
   const collapsibleContent = element.nextElementSibling;
-  const arrow = element.querySelector(['.arrow', '.notification-arrow', '.references-arrow']);
+  const arrow = element.querySelector(['.arrow', '.notification-arrow']);
 
   if (collapsibleContent.classList.contains('open')) {
     collapsibleContent.classList.remove('open');
@@ -28,7 +28,7 @@ function expandCollapsibleById(id) {
   const element = document.getElementById(id);
   if (element && element.classList.contains('notification-banner')) {
     const collapsibleContent = element.nextElementSibling;
-    const arrow = element.querySelector(['.arrow', '.notification-arrow', '.references-arrow']);
+    const arrow = element.querySelector(['.arrow', '.notification-arrow']);
 
     if (collapsibleContent && !collapsibleContent.classList.contains('open')) {
       collapsibleContent.classList.add('open');
@@ -40,8 +40,8 @@ function expandCollapsibleById(id) {
 
 // Auto-expand all collapsible banners on page load
 document.addEventListener('DOMContentLoaded', function () {
-  const collapsibleContents = document.querySelectorAll(['.collapsible-content', '.references-collapsible-content']);
-  const arrowIcons = document.querySelectorAll(['.arrow', '.references-arrow']);
+  const collapsibleContents = document.querySelectorAll(['.collapsible-content']);
+  const arrowIcons = document.querySelectorAll('.arrow');
 
   // Loop through all collapsible sections to open and rotate arrow
   collapsibleContents.forEach(content => content.classList.add('open'));
