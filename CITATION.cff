@@ -14,6 +14,20 @@ authors:
 - family-names: Chaudhry
   given-names: Aarushi 
   affiliation: "Lasso Informatics"
+- family-names: Cieslak
+  given-names: Matthew
+  affiliation: Department of Neuropsychiatry, University of Pennsylvania
+  orcid: https://orcid.org/0000-0002-1931-4734
+- family-names: Das
+  given-names: Samir
+  affiliation: "McGill Centre for Integrative Neuroscience"
+- family-names: Fesselier
+  given-names: Laetitia 
+  affiliation: "McGill Centre for Integrative Neuroscience"
+- family-names: Lee
+  given-names: Erik
+  affiliation: "Masonic Institute for the Developing Brain (MIDB), University of Minnesota"
+  orcid: https://orcid.org/0000-0001-9236-5100
 - family-names: Macgregor-Hannah
   given-names: Maren
   affiliation: "Masonic Institute for the Developing Brain (MIDB), University of Minnesota"
@@ -21,6 +35,17 @@ authors:
   given-names: Cécile
   affiliation: "McGill Centre for Integrative Neuroscience"
   orcid: https://orcid.org/0000-0003-1108-031X
+- family-names: Oeltzschner
+  given-names: Georg 
+  affiliation: "Johns Hopkins School of Medicine"
+  orcid: https://orcid.org/0000-0003-3083-9811
+- family-names: Oh
+  given-names: Jinseok
+  affiliation: "Children’s Hospital Los Angeles"
+  orcid: https://orcid.org/0000-0003-2763-628X
+- family-names: Ongaro-Carcy
+  given-names: Regis
+  affiliation: "McGill Centre for Integrative Neuroscience"
 - family-names: Torres
   given-names: Santiago
   affiliation: "McGill Centre for Integrative Neuroscience"
@@ -34,4 +59,4 @@ authors:
   orcid: https://orcid.org/0000-0001-8602-393X
 license: Apache-2.0
 version: v0.0.0-beta
-date-released: 2025-01-19
+date-released: 2025-01-19  

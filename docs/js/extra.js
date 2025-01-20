@@ -61,3 +61,21 @@ window.addEventListener('hashchange', () => {
     expandCollapsibleById(hash);
   }
 });
+
+// Click to copy 
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".copy-button").forEach(function (button) {
+      button.addEventListener("click", function () {
+          const textToCopy = this.previousElementSibling.textContent; // Get the text from the sibling element
+          navigator.clipboard.writeText(textToCopy).then(
+              () => {
+                  button.textContent = "Copied!";
+                  setTimeout(() => (button.textContent = "Copy"), 2000);
+              },
+              () => {
+                  button.textContent = "Error";
+              }
+          );
+      });
+  });
+});
