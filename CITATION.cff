@@ -46,6 +46,12 @@ authors:
 - family-names: Ongaro-Carcy
   given-names: Regis
   affiliation: "McGill Centre for Integrative Neuroscience"
+- family-names: Ossorio
+  given-names: Pilar
+  affiliation: "University of Wisconsin-Madison Law School"
+- family-names: Solod
+  given-names: Kaitlin
+  affiliation: "University of California San Diego"
 - family-names: Torres
   given-names: Santiago
   affiliation: "McGill Centre for Integrative Neuroscience"
@@ -60,3 +66,9 @@ authors:
 license: Apache-2.0
 version: v0.0.0-beta
 date-released: 2025-01-19  
+
+
+
+
+
+
