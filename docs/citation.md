@@ -8,7 +8,7 @@ Note that this website is version-controlled. We therefore recommend citing the 
 
 <div class="copy-box">
   <div class="copy-text-container">
-    <span id="specific-text">Moore, L. A., Averill, S., Chaudhry, A., Cieslak, M., Das, S., Fesselier, L., Lee, E., Macgregor-Hannah, M., Madjar, C., Oeltzschner, G., Oh, J., Ongaro-Carcy, R., Ossorio, P., Solod, K., Torres, S., Weldon, K. B., & Fair, D. A. (2025). HBCD Data Release Website (v0.0.2-beta). Zenodo. <a href="https://doi.org/10.5281/zenodo.14708091">https://doi.org/10.5281/zenodo.14708091</a></span>
+    <span id="specific-text">Moore, L. A., Averill, S., Chaudhry, A., Cieslak, M., Das, S., Fesselier, L., Lee, E., Macgregor-Hannah, M., MacIntyre, L., Madjar, C., Oeltzschner, G., Oh, J., Ongaro-Carcy, R., Ossorio, P., Solod, K., Torres, S., Weldon, K. B., & Fair, D. A. (2025). HBCD Data Release Website (v0.0.2-beta). Zenodo. <a href="https://doi.org/10.5281/zenodo.14708091">https://doi.org/10.5281/zenodo.14708091</a></span>
     <button class="copy-button">Copy</button>
   </div>
 </div>
