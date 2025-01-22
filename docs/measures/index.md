@@ -1,6 +1,6 @@
 # Data Measures & Quality Control
 
-## Release Notes for Data Measures
+## Data Measure Release Notes
 In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures, known issues, and references. For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/) as part of inclusion and equity efforts driven by the HBCD Spanish Language and Culture Committee (SLCC) [Anunziata et al. 2024](https://doi.org/10.1016/j.dcn.2024.101477).
 ![](../images/timeline-img.png)
 
