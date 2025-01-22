@@ -1,62 +1,25 @@
 # Data Measures & Quality Control
 
-## Information Provided
+## Release Notes for Data Measures
 In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures, known issues, and references. For measures that include surveys, all surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/) as part of inclusion and equity efforts driven by the HBCD Spanish Language and Culture Committee (SLCC) [Anunziata et al. 2024](https://doi.org/10.1016/j.dcn.2024.101477).
-
-The visits and corresponding ages of the infant/child are listed below. **Only data measures provided in the current release that includes V01 - V03 are described**. Please visit the [HBCD Study page](https://hbcdstudy.org/study-protocols/) for full study protocols.
-
 ![](../images/timeline-img.png)
 
+The current release data from Visits 1, 2, and 3. These data release notes only include documentation for measures included in the release. Below is a full summary of all of the measures included in the data release. Please visit the Workgroup pages for details and the [HBCD Study page](https://hbcdstudy.org/study-protocols/) for full study protocols.
 
-## Responsible Use & Expert Review Warnings
-To promote responsible use of the data and offer additional context for users, warnings are displayed at the top of each measure/instrument section as necessary. These warnings have been incorporated into the both the [Dictionary Query Tool on Lasso](../data_access/querytool.md) and the [Data Dictionary Explorer](../data_access/datadictionary.md) to link directly to the release notes. We encourage all data users to examine the warnings for any variables you plan to download/utilize and adhere to the recommended guidelines. 
-
-l next to the Variable or Table on our online Data Dictionary Explorer (DEAP). 
-
-**For consistency with [ABCD study data release](https://data.abcdstudy.org/reports/wiki-release6/) also hosted on the NBDC Lasso platform, Responsible Data Use Warnings for overlapping measures were provided by the ABCD Wiki (see additional information [here](https://data.abcdstudy.org/reports/wiki-release6/jedi.html#warnings-in-release-noteswiki)). These warnings are clearly labeled as such and contain a direct link to the Wiki source, as is demonstrated in the example and explanation below.** 
-
-There are two types of warnings:
-<p>
-<div id="alert-banner" class="alert-banner" onclick="toggleCollapse(this)">
-    <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
-    <span class="text">Responsible Data Use Warning</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="collapsible-content">
-<br>
-<p><b><i>The text below is sourced directly from the ABCD Wiki <a href="https://data.abcdstudy.org/reports/wiki-release6/jedi.html#warnings-in-release-noteswiki">Data Warning</a></i></b></p>
-<blockquote>The purpose of this warning is to provide guidance for responsible data use, interpretation, and communication. This also includes conceptual warnings (e.g., difference between sex assigned at birth and gender identity, bias due to attrition or non-response).</blockquote>
-</div>
-</p>
-<p>
-<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="collapsible-content">
-<br>
-<p>The Expert Review warnings offer critical guidance from subject matter experts, tailored specifically to the context of HBCD measures and data. These warnings address considerations and recommendations for measure usage, highlight known issues, and provide important reminders. Additionally, they include detailed instructions and/or code to assist researchers with various aspects of data use, such as working with datasets, calculating variables, or performing specific analyses. This information is designed to enhance transparency, promote best practices, and streamline the use of each measure or data type.</p> 
-</div>
-</p>
-
-## HBCD Workgroups & Data Measures
-
-Below is a full summary of all of the measures included in the data release. Please visit the Workgroup pages for details.
-
+### HBCD Workgroups & Data Measures
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <thead>
     <tr>
-      <th style="width: 40%; border: 1px solid #ddd; padding: 6px; text-align: left; font-size: 14px;">Name of Instrument</th>
-      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: left; font-size: 14px;">Acronym</th>
-      <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: left; font-size: 14px;">Construct</th>
-      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: left; font-size: 14px;">Table Name</th>
+      <th style="width: 40%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 16px;">Name of Instrument</th>
+      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 16px;">Acronym</th>
+      <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 16px;">Construct</th>
+      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 16px;">Table Name</th>
     </tr>
   </thead>
   <tbody>
   <tr>
     <td colspan="4" style="border: 1px solid #ddd; padding: 6px; font-weight: bold; background-color: #f0f0f0; text-align: left; font-size: 14px;">
-      Behavior & Caregiver-Child Interaction (<a href="behCGinteraction">Main Page</a>)
+      Behavior & Caregiver-Child Interaction (<a href="behCGinteraction">Main Page</a> )
     </td>
   </tr>
   <tr>
@@ -396,3 +359,37 @@ Below is a full summary of all of the measures included in the data release. Ple
   </tr>
 </tbody>
 </table>
+
+
+
+## Responsible Use & Expert Review Warnings
+To promote responsible use of the data and offer additional context for users, warnings are displayed at the top of each measure/instrument section as necessary. These warnings have been incorporated into the both the [Dictionary Query Tool on Lasso](../data_access/querytool.md) and the [Data Dictionary Explorer](../data_access/datadictionary.md) to link directly to the release notes. We encourage all data users to examine the warnings for any variables you plan to download/utilize and adhere to the recommended guidelines. 
+
+l next to the Variable or Table on our online Data Dictionary Explorer (DEAP). 
+
+**For consistency with [ABCD study data release](https://data.abcdstudy.org/reports/wiki-release6/) also hosted on the NBDC Lasso platform, Responsible Data Use Warnings for overlapping measures were provided by the ABCD Wiki (see additional information [here](https://data.abcdstudy.org/reports/wiki-release6/jedi.html#warnings-in-release-noteswiki)). These warnings are clearly labeled as such and contain a direct link to the Wiki source, as is demonstrated in the example and explanation below.** 
+
+There are two types of warnings:
+<p>
+<div id="alert-banner" class="alert-banner" onclick="toggleCollapse(this)">
+    <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
+    <span class="text">Responsible Data Use Warning</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p><b><i>The text below is sourced directly from the ABCD Wiki <a href="https://data.abcdstudy.org/reports/wiki-release6/jedi.html#warnings-in-release-noteswiki">Data Warning</a></i></b></p>
+<blockquote>The purpose of this warning is to provide guidance for responsible data use, interpretation, and communication. This also includes conceptual warnings (e.g., difference between sex assigned at birth and gender identity, bias due to attrition or non-response).</blockquote>
+</div>
+</p>
+<p>
+<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>The Expert Review warnings offer critical guidance from subject matter experts, tailored specifically to the context of HBCD measures and data. These warnings address considerations and recommendations for measure usage, highlight known issues, and provide important reminders. Additionally, they include detailed instructions and/or code to assist researchers with various aspects of data use, such as working with datasets, calculating variables, or performing specific analyses. This information is designed to enhance transparency, promote best practices, and streamline the use of each measure or data type.</p> 
+</div>
+</p>
