@@ -55,7 +55,7 @@ The current release data from Visits 1, 2, and 3. These data release notes only 
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="../measures/biospec/#nails">Nails Toxicology Screen</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nails</td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_blood</td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_nails</td>
   </tr>
   <tr>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="../measures/biospec/#urine">Urine Toxicology Screen</a></td>

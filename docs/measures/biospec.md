@@ -1,4 +1,39 @@
 # Biospecimens & Omics
+
+## Biospecimen Screens
+The current data release includes the following Biospecimen toxicology screens:
+
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Screen</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Acronym/Short Name</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Construct</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Table Name</th>
+    </tr>
+  </thead>
+<tbody>
+ <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#blood">Blood Toxicology Screen</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Blood</td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_blood</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#nails">Nails Toxicology Screen</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nails</td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_nails</td>
+  </tr>
+  <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#urine">Urine Toxicology Screen</a></td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Urine</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_urine</td>
+  </tr>
+</tbody>
+</table>
+
 ## Implementation & Data Collection
 The current data release includes the following toxicology screens collected from the pregnant/postpartum person (estimated time of completion 5 minutes per screen). Additional information is as follows:
 
