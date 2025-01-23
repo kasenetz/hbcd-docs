@@ -1,4 +1,6 @@
 # Pending & Upcoming Updates
+
+## Release 1.1 (Release Date TBA)
 The interim Release 1.1 will include:
 
 - Additional [Responsible Use & Expert Review warnings](../measures/index.md#responsible-use-expert-review-warnings)
