@@ -1,5 +1,5 @@
 # Pending & Upcoming Updates
-The pending interim release (version 1.1) will include:
+The interim Release 1.1 will include:
 
 - Additional [Responsible Use & Expert Review warnings](../measures/index.md#responsible-use-expert-review-warnings)
 - Multiple birth participants (i.e. twins or other cases where multiple participants from the same birth are enrolled in the study)
