@@ -393,3 +393,126 @@ There are two types of warnings:
 <p>The Expert Review warnings offer critical guidance from subject matter experts, tailored specifically to the context of HBCD measures and data. These warnings address considerations and recommendations for measure usage, highlight known issues, and provide important reminders. Additionally, they include detailed instructions and/or code to assist researchers with various aspects of data use, such as working with datasets, calculating variables, or performing specific analyses. This information is designed to enhance transparency, promote best practices, and streamline the use of each measure or data type.</p> 
 </div>
 </p>
+
+## ReproSchema
+### What is ReproSchema?
+ReproSchema is both a standardized schema and a software platform for managing questionnaires in research studies: As a schema, it provides a structured format for organizing questionnaires, ensuring consistency across different timepoints and studies. As a platform, it offers tools to:  
+
+- Store and version questionnaires  
+- Track changes over time  
+- Access specific versions  
+- Compare different versions  
+- Document modifications
+
+For more information about reproschema, please visit this website: [https://www.repronim.org/reproschema/](https://www.repronim.org/reproschema/)
+
+<div style="padding: 0;">In the HBCD Study, ReproSchema ensures all questionnaires are:
+  <ul style="margin: 0 0 20px 20px; padding: 0;">
+  <ul>
+<li>Consistently structured  </li>
+<li>Properly versioned  </li>
+<li>Easily accessible  </li>
+<li>Traceable across releases</li>
+</div>
+
+### Quick Start Guide
+- Each data release has its own set of questionnaire versions  
+- Access questionnaires through the data portal: [https://github.com/ReproNim/hbcd-loris2reproschema](https://github.com/ReproNim/hbcd-loris2reproschema)  
+- Compare versions to understand changes over time
+
+[Figure 1]
+
+### Overview
+<div style="padding: 0;">
+  ReproSchema manages questionnaire changes across data releases. Changes may include:
+  <ul style="margin: 0 0 20px 20px; padding: 0;">
+    <li>Fixing typos</li>
+    <li>Adjusting answer choices</li>
+    <li>Modifying question order</li>
+    <li>Adding/removing questions</li>
+  </ul>
+</div>
+
+<div style="padding: 0;">
+  Each change is tracked and documented, allowing you to:
+  <ul style="margin: 0 0 20px 20px; padding: 0;">
+<li>View exact questions used at any timepoint  </li>
+<li>Compare versions between releases  </li>
+<li>Match responses to specific question versions  </li>
+<li>Analyze data consistently across timepoints</li>
+</ul>
+</div>
+
+**Example**: A sleep quality question changed between Release 1.0 and 2.0
+
+Release 1.0: "How many hours do you usually sleep?"  
+Release 2.0: "In the past month, how many hours do you usually sleep per night?"
+
+### Structure  
+[Figure 2: Three-level hierarchy diagram]
+
+Protocol → Activity → Item hierarchy:
+
+<div style="padding: 0;">Protocol
+  <ul style="margin: 0 0 20px 20px; padding: 0;">
+<li>Full study collection  </li>
+<li>Contains all questionnaires (15 total)  </li>
+<li>Version matches data release</li>
+</div>
+
+<div style="padding: 0;">Activity (Questionnaires)
+  <ul style="margin: 0 0 20px 20px; padding: 0;">
+<li>Individual assessments  </li>
+<li>Examples: PHQ-9, GAD-7  </li>
+<li>Track additions/removals</li>
+</div>
+
+<div style="padding: 0;">Items (Questions)
+  <ul style="margin: 0 0 20px 20px; padding: 0;">
+<li>Individual questions  </li>
+<li>Track wording changes  </li>
+<li>Track response option changes  </li>
+<li>Track skip pattern updates</li>
+</div>
+
+### Accessing Questionnaires
+
+<div style="padding: 0;">Step-by-step guide:
+  <ul style="margin: 0 0 20px 20px; padding: 0;">
+<li>Find your data release version    </li>
+<li>Go to [PORTAL_URL]   </li>
+<li>Select version from dropdown  </li>
+<li>View/download questionnaires</li>
+</div>
+
+<div style="padding: 0;">Each questionnaire package includes:
+  <ul style="margin: 0 0 20px 20px; padding: 0;">
+<li>Questions  </li>
+<li>Response options  </li>
+<li>Skip patterns  </li>
+<li>Scoring instructions  </li>
+<li>Change history</li>
+</div>
+
+<div style="padding: 0;">Available formats:
+  <ul style="margin: 0 0 20px 20px; padding: 0;">
+<li>JSON (programmatic access)</li>
+</div>
+
+### Tracking Change
+[Figure 3: Screenshot of version comparison showing highlighted changes]
+
+View what changed between versions via [LINK]
+
+<div style="padding: 0;">Changes are clearly documented, including but not limited to:
+  <ul style="margin: 0 0 20px 20px; padding: 0;">
+<li>Question text updates  </li>
+<li>Response option modifications  </li>
+<li>Skip pattern adjustments  </li>
+<li>Question additions/removals  </li>
+<li>Implementation dates</li>
+</div>
+
+Need help? Open an issue on [GitHub](https://github.com/ReproNim/hbcd-loris2reproschema)
+
+

@@ -14,9 +14,13 @@ authors:
 - family-names: Chaudhry
   given-names: Aarushi 
   affiliation: "Lasso Informatics"
+- family-names: Chen
+  given-names: Yibei
+  affiliation: "McGovern Institute for Brain Research, Massachusetts Institute of Technology"
+  orcid: https://orcid.org/0000-0003-2882-0900
 - family-names: Cieslak
   given-names: Matthew
-  affiliation: Department of Neuropsychiatry, University of Pennsylvania
+  affiliation: "Department of Neuropsychiatry, University of Pennsylvania"
   orcid: https://orcid.org/0000-0002-1931-4734
 - family-names: Das
   given-names: Samir
@@ -24,6 +28,10 @@ authors:
 - family-names: Fesselier
   given-names: Laetitia 
   affiliation: "McGill Centre for Integrative Neuroscience"
+- family-names: Ghosh
+  given-names: Satrajit
+  affiliation: "Research Laboratory of Electronics, Massachusetts Institute of Technology"
+  orcid: https://orcid.org/0000-0002-5312-6729
 - family-names: Lee
   given-names: Erik
   affiliation: "Masonic Institute for the Developing Brain (MIDB), University of Minnesota"
@@ -69,9 +77,6 @@ authors:
 license: Apache-2.0
 version: v0.0.0-beta
 date-released: 2025-01-19  
-
-
-
 
 
 
