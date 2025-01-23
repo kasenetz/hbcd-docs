@@ -23,7 +23,7 @@ The interim Release 1.1 will include:
 <div style="padding: 0;">
   <b>Additional Brain Imaging Data:</b>
   <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Source data (e.g. DICOMs) for <a href="../../datacuration/rawbids">raw BIDS</a></li>
+<li>Source data (e.g. DICOMs) for <a href="../../datacuration/rawbids">raw BIDS</a> (all imaging modalities)</li>
 <li>Processed V03 <a href="../../datacuration/derivatives">derivatives</a> for structural and functional MRI</li>
 </ul>
 </div>
