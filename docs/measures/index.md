@@ -8,11 +8,12 @@ The current release data from Visits 1, 2, and 3. These data release notes only 
 
 ### HBCD Workgroups & Data Measures
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
+<tfoot><tr><td colspan="4"><small><b>**</b></small> Construct and Table Name are collapsed for EEG and MRI measures to list Table Names only</td></tr></tfoot>
   <thead>
     <tr>
       <th style="width: 40%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 16px;">Name of Instrument</th>
       <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 16px;">Acronym</th>
-      <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 16px;">Construct</th>
+      <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 16px;">Construct**</th>
       <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 16px;">Table Name</th>
     </tr>
   </thead>
@@ -302,23 +303,22 @@ The current release data from Visits 1, 2, and 3. These data release notes only 
     <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/eeg/#faces-task">Faces Task</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Face</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">EEG Task</td>
-    <td colspan="1" rowspan="4" style="word-wrap: break-word; white-space: normal;">N/A - see EEG-relevant sections under <a href="../datacuration/rawbids/#eeg">Raw BIDS Data</a> and <a href="../datacuration/derivatives/#hbcd-made-made">Derivatives</a></td>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">made (<a href="../datacuration/derivatives/#hbcd-made-made">Derivatives</a>)<br>eeg_made_task-FACE_acq-eeg_MADE_preprocessing_report<br>eeg_qc_task-FACE</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/eeg/#auditory-mismatch-negativity-task-mmn">Auditory Mismatch Negativity Task</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">MMN</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">EEG Task</td>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">made (<a href="../datacuration/derivatives/#hbcd-made-made">Derivatives</a>)<br>eeg_made_task-MMN_acq-eeg_MADE_preprocessing_report<br>eeg_qc_task-MMN</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/eeg/#video-resting-state-rs">Video Resting State Task</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">RS</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">EEG Task</td>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">made (<a href="../datacuration/derivatives/#hbcd-made-made">Derivatives</a>)<br>eeg_made_task-RS_acq-eeg_MADE_preprocessing_report<br>eeg_qc_task-RS</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/eeg/#visual-evoked-potential-task-vep">Visual Evoked Potential Task</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">VEP</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">EEG Task</td>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">made (<a href="../datacuration/derivatives/#hbcd-made-made">Derivatives</a>)<br>eeg_made_task-RS_acq-eeg_VEP_preprocessing_report<br>eeg_qc_task-VEP<br>eeg_made_task-VEP_ERP-summaryStats</td>
   </tr>
   <tr>
     <td colspan="4" style="border: 1px solid #ddd; padding: 6px; font-weight: bold; background-color: #f0f0f0; text-align: left; font-size: 14px;">
@@ -328,31 +328,31 @@ The current release data from Visits 1, 2, and 3. These data release notes only 
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/smri">Structural MRI</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sMRI</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Imaging</td>
-    <td colspan="1" rowspan="5" style="word-wrap: break-word; white-space: normal;">N/A - see imaging-relevant sections under <a href="../datacuration/rawbids/#imaging-spectroscopy">Raw BIDS Data</a> and <a href="../datacuration/derivatives">Derivatives</a></td>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">made (<a href="../datacuration/derivatives/#hbcd-made-made">Derivatives</a>)<br>eeg_made_task-RS_acq-eeg_VEP_preprocessing_report<br>eeg_qc_task-VEP<br>eeg_made_task-VEP_ERP-summaryStats</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/fmri">Functional MRI</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">fMRI</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Imaging</td>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">made (<a href="../datacuration/derivatives/#hbcd-made-made">Derivatives</a>)<br>eeg_made_task-RS_acq-eeg_VEP_preprocessing_report<br>eeg_qc_task-VEP<br>eeg_made_task-VEP_ERP-summaryStats</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/dmri">Diffusion MRI</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">dMRI</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Imaging</td>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">made (<a href="../datacuration/derivatives/#hbcd-made-made">Derivatives</a>)<br>eeg_made_task-RS_acq-eeg_VEP_preprocessing_report<br>eeg_qc_task-VEP<br>eeg_made_task-VEP_ERP-summaryStats</td>
   </tr>
     <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/qmri">Quantitative MRI</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">qMRI</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Imaging</td>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">made (<a href="../datacuration/derivatives/#hbcd-made-made">Derivatives</a>)<br>eeg_made_task-RS_acq-eeg_VEP_preprocessing_report<br>eeg_qc_task-VEP<br>eeg_made_task-VEP_ERP-summaryStats</td>
   </tr>
     <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/mrs">Magnetic Resonance Spectroscopy</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">MRS</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Spectroscopy</td>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">made (<a href="../datacuration/derivatives/#hbcd-made-made">Derivatives</a>)<br>eeg_made_task-RS_acq-eeg_VEP_preprocessing_report<br>eeg_qc_task-VEP<br>eeg_made_task-VEP_ERP-summaryStats</td>
   </tr>
 </tbody>
 </table>
+
 
 ## Responsible Use & Expert Review Warnings
 To promote responsible use of the data and offer additional context for users, warnings are displayed at the top of each measure/instrument section as necessary. These warnings are incorporated in both the [Dictionary Query Tool on Lasso](../data_access/querytool.md) and [Data Dictionary Explorer](../data_access/datadictionary.md) to link directly to the release notes for relevant Variable or Table warnings. We encourage all data users to examine the warnings for any variables you plan to download/utilize and adhere to the recommended guidelines. 
