@@ -16,7 +16,7 @@ The interim Release 1.1 will include:
   <ul style="margin: 0 0 20px 20px; padding: 0;">
 <li>Multiple birth participants (i.e. twins or other cases where multiple participants from the same birth are enrolled in the study)</li>
 <li>Participants from the University of Florida (UF is no longer an active site and participants were excluded from release 1.0)</li>
-<li>Postnatal Recruits (PNR): participants allowed to join the study in the postnatal period (will be missing V01 and start at V02)</li>
+<li>Postnatal Recruits (PNR): participants allowed to join the study in the postnatal period, completing a modified V01 and V02 after the child is born</li>
 </ul>
 </div>
 
