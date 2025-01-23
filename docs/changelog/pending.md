@@ -3,13 +3,32 @@
 ## Release 1.1 (Release Date TBA)
 The interim Release 1.1 will include:
 
-- Additional [Responsible Use & Expert Review warnings](../measures/index.md#responsible-use-expert-review-warnings)
-- Site Navigator Contact Form
-- Multiple birth participants (i.e. twins or other cases where multiple participants from the same birth are enrolled in the study)
-- Participants from the University of Florida (UF is no longer an active site and participants were excluded from release 1.0)
-- Postnatal Recruits (PNR): participants allowed to join the study in the postnatal period (will be missing V01 and start at V02)
+<div style="padding: 0;">
+  <b>Documentation/Resources:</b>
+  <ul style="margin: 0 0 20px 20px; padding: 0;">
+<li>Additional <a href="../../measures/#responsible-use-expert-review-warnings">Responsible Use & Expert Review warnings</a> </li>
+<li>Site Navigator Contact Form  </li>
+</ul>
+</div>
 
-Release 1.1 will additionally include the following measures:
+<div style="padding: 0;">
+  <b>Additional Participant Data:</b>
+  <ul style="margin: 0 0 20px 20px; padding: 0;">
+<li>Multiple birth participants (i.e. twins or other cases where multiple participants from the same birth are enrolled in the study)</li>
+<li>Participants from the University of Florida (UF is no longer an active site and participants were excluded from release 1.0)</li>
+<li>Postnatal Recruits (PNR): participants allowed to join the study in the postnatal period (will be missing V01 and start at V02)</li>
+</ul>
+</div>
+
+<div style="padding: 0;">
+  <b>Additional Brain Imaging Data:</b>
+  <ul style="margin: 0 0 20px 20px; padding: 0;">
+<li>Source data (e.g. DICOMs) for <a href="../../datacuration/rawbids">raw BIDS</a></li>
+<li>Processed V03 <a href="../../datacuration/derivatives">derivatives</a> for structural and functional MRI</li>
+</ul>
+</div>
+
+Release 1.1 will additionally include the addition of the following measures:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <thead>
