@@ -22,9 +22,15 @@ authors:
   given-names: Matthew
   affiliation: "Department of Neuropsychiatry, University of Pennsylvania"
   orcid: https://orcid.org/0000-0002-1931-4734
+- family-names: Croff
+  given-names: Julie 
+  affiliation: "Department of Rural Health, Oklahoma State University Center for Health Sciences"
 - family-names: Das
   given-names: Samir
   affiliation: "McGill Centre for Integrative Neuroscience"
+- family-names: Edwards
+  given-names: Renee
+  affiliation: "Northwestern University, Feinberg School of Medicine"
 - family-names: Fesselier
   given-names: Laetitia 
   affiliation: "McGill Centre for Integrative Neuroscience"
@@ -60,9 +66,16 @@ authors:
 - family-names: Ossorio
   given-names: Pilar
   affiliation: "University of Wisconsin-Madison Law School"
+- family-names: Planalp 
+  given-names: Elizabeth M
+  affiliation: "(1) Waisman Center, University of Wisconsin, Madison; (2) Department of Psychology, University of Wisconsin, Madison"
 - family-names: Solod
   given-names: Kaitlin
   affiliation: "University of California San Diego"
+- family-names: Sullivan
+  given-names: Elinor
+  affiliation: "(1) Department of Behavioral Neuroscience, Oregon Health & Science University (OHSU); (2) Department of Psychiatry, OHSU; (3) Division of Neuroscience, Oregon National Primate Research Center"
+  orcid: https://orcid.org/0000-0003-2630-8890
 - family-names: Torres
   given-names: Santiago
   affiliation: "McGill Centre for Integrative Neuroscience"
@@ -80,3 +93,11 @@ date-released: 2025-01-19
 
 
 
+
+
+
+
+
+
+ 
+ 
