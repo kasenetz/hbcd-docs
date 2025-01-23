@@ -7,8 +7,6 @@ root/
     |__ phenotype.json
     |
   # BioSpecimen
-    |__ bio_biosample_blood.tsv
-    |__ bio_biosample_blood.json
     |__ bio_biosample_nails.tsv
     |__ bio_biosample_nails.json
     |__ bio_biosample_urine.tsv

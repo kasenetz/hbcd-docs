@@ -13,12 +13,6 @@ The current data release includes the following Biospecimen toxicology screens:
     </tr>
   </thead>
 <tbody>
- <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#blood">Blood Toxicology Screen</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Blood</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_blood</td>
-  </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#nails">Nails Toxicology Screen</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nails</td>

@@ -7,7 +7,7 @@ The interim Release 1.1 will include:
   <b>Documentation/Resources:</b>
   <ul style="margin: 0 0 20px 20px; padding: 0;">
 <li>Additional <a href="../../measures/#responsible-use-expert-review-warnings">Responsible Use & Expert Review warnings</a> </li>
-<li>Site Navigator Contact Form  </li>
+<li>Study Navigator Contact Form  </li>
 </ul>
 </div>
 
