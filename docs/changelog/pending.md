@@ -2,10 +2,10 @@
 The interim Release 1.1 will include:
 
 - Additional [Responsible Use & Expert Review warnings](../measures/index.md#responsible-use-expert-review-warnings)
+- Site Navigator Contact Form
 - Multiple birth participants (i.e. twins or other cases where multiple participants from the same birth are enrolled in the study)
 - Participants from the University of Florida (UF is no longer an active site and participants were excluded from release 1.0)
 - Postnatal Recruits (PNR): participants allowed to join the study in the postnatal period (will be missing V01 and start at V02)
-- Site Navigator Contact Form (DOUBLE CHECK)
 
 Release 1.1 will additionally include the following measures:
 
