@@ -36,7 +36,6 @@ docs_dir: docs
 
 nav: 
   - ABOUT: index.md
-  - How to Cite Website: citation.md
   - Access Data:
     - How To Access Data: data_access/index.md
     - How To Download Data: data_access/querytool.md
@@ -83,6 +82,7 @@ nav:
     - Known Issues: changelog/knownissues.md
     - Version History:    
         - Release 1: changelog/versions/R1.md
+  - How to Cite Website: citation.md
 
   
 
