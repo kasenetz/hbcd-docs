@@ -203,12 +203,10 @@ Finally, additional screening for substance use (within three months before or d
 <br>
 <p>The sampling covers specific weeks before pregnancy (Weeks 1-2) and during pregnancy (Weeks 3-9). Consequently, substance use reported outside these weeks may not appear in the TLFB, and a positive biospecimen may lack corresponding TLFB data for the same reason. This sampling approach balances participant burden (avoiding a full 40-week TLFB) with capturing key pregnancy phases when behaviors often shift, such as before and after pregnancy recognition and in late pregnancy.</p>
 <p>Also, of note- participants were asked to report occasions (except cigarettes/cigarillos and drinks, reported as number), but some substances (e.g. electronic cigarette devices) are difficult to report in occasions and have outliers.</p>
-<p>TLFB data should be integrated with biospecimen and Assist data. Trajectories of use can be inferred by carrying early pregnancy data (Weeks 3-6) forward until reported pregnancy recognition (V1 Health) and using enrollment data (Week 7) to project use into late pregnancy (Weeks 8-9).</p> 
 </div>
 </p>
 
 The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the last 7 days from when the survey is administered. The [HBCD TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf), triggered by Assist responses, was adapted to instead record maternal substance use before and during pregnancy. Participants reported use during 9 weeks in total for each substance type (e.g., edible cannabis) reported on the ASSIST. For V01, this includes: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V02 to capture substance use during the last two full weeks of gestation (Weeks 8-9). Daily usage frequency was recorded for all products except for cigarettes/cigarillos (count per day) and alcohol (single servings per day).
-
 
 ## References
 <div class="references">
