@@ -58,7 +58,7 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 </div>
 <div class="collapsible-content">
 <br>
-<p>The EEG Core of the DCAC has a GitHub repository with file notes and scripts for working with the first HBCD EEG data release. We recommend all users to review this page for important resources.</p> 
+<p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has a GitHub repository with file notes and scripts for working with the first HBCD EEG data release. We recommend all users to review this page for important resources.</p> 
 <p>The GitHub website can be found here: <a href="https://github.com/ChildDevLab/HBCD-data-release-notes">https://github.com/ChildDevLab/HBCD-data-release-notes</a>.</p> 
 <p>Additionally, the user can contact us with any questions about working with the EEG data or using the GitHub repository at eegdata@umd.edu.</p>
 </div>
