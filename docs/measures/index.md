@@ -298,7 +298,7 @@ The current release data from Visits 1, 2, and 3. These data release notes only 
 </table>
 
 ### Brain Activity (MRI, EEG) & Spectroscopy Data
-The following tabulated data is included in the release for magnetic resonance imaaging (MRI), spectroscopy (MRS), and EEG data. The release also includes raw and processed derivative data converted to the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) standard is included as well - see the section on [HBCD BIDS Data](../datacuration/overview.md) for details. Note that the file-based data includes sensor recordings as well for leg motion data acquired by [wearable sensors](sensors.md).
+The following tabulated data is included in the release for magnetic resonance imaaging (MRI), spectroscopy (MRS), and EEG data. The release also includes raw and processed derivative data converted to the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) standard for all data types listed below - see the section on [HBCD BIDS Data](../datacuration/overview.md) for details. Note that the file-based data includes sensor recordings as well for leg motion data acquired by [wearable sensors](sensors.md).
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <tfoot><tr>
