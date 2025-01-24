@@ -1,10 +1,12 @@
 # Data Measures & Quality Control
 
 ## Data Measure Release Notes
-In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures, known issues, and references. For measures that include surveys, many were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/) as part of inclusion and equity efforts driven by the HBCD Spanish Language and Culture Committee (SLCC) [Anunziata et al. 2024](https://doi.org/10.1016/j.dcn.2024.101477).
+The current release includes data from Visits 1, 2, and 3 (V01, V02, and V03). In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures, known issues, and references. For measures that include surveys, many were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/) as part of inclusion and equity efforts driven by the HBCD Spanish Language and Culture Committee (SLCC) [Anunziata et al. 2024](https://doi.org/10.1016/j.dcn.2024.101477).
+
 ![](../images/timeline-img.png)
 
-The current release data from Visits 1, 2, and 3 (*also referred to as V01, V02, and V03 throughout the release notes*). These data release notes only include documentation for measures included in the release. Below is a full summary of all of the measures included in the data release. For a preview of additional measures to be included in the interim Release 1.1, see [Pending & Upcoming Updates](../changelog/pending.md). Please visit the Workgroup pages linked in the tables below and in the table of contents for details and the [HBCD Study page](https://hbcdstudy.org/study-protocols/) for full study protocols.
+Below is a summary of measures included in Release 1.0. Note that the HBCD Data Release Docs only cover the measures currently available, with additional documentation to follow in future updates as additional measure data are released. For details on upcoming additions in Release 1.1, see [Pending & Upcoming Updates](../changelog/pending.md). Full study protocols are available on the [HBCD Study site](https://hbcdstudy.org/study-protocols/).
+
 
 <p>
 <div class="notification-banner" onclick="toggleCollapse(this)">
