@@ -1,4 +1,4 @@
-site_name: HBCD Data Release
+site_name: HBCD Data Release Docs
 
 theme:
   name: readthedocs
@@ -36,10 +36,9 @@ docs_dir: docs
 
 nav: 
   - ABOUT: index.md
-  - How to Cite Website: citation.md
   - Access Data:
-    - How To Access Data: data_access/index.md
-    - How To Download Data: data_access/querytool.md
+    - How to Access Data: data_access/index.md
+    - How to Download Data: data_access/querytool.md
     - Responsible Data Use: data_access/resp_data_use.md
     - Data Dictionary Explorer: data_access/datadictionary.md
   - Get Help:
@@ -50,16 +49,7 @@ nav:
         - Overview: measures/index.md
         - "Behavior & Caregiver-Child Interaction": measures/behCGinteraction.md   
         - Biospecimens: measures/biospec.md   
-        - Demographics: measures/demographics.md
-        - Electroencephalogram: measures/eeg/index.md
-        - Magnetic Resonance Imaging:
-            - Overview: measures/mri/index.md
-            - Quality Control Procedures: measures/mri/qc.md
-            - Structural MRI: measures/mri/smri.md
-            - Functional MRI: measures/mri/fmri.md
-            - Diffusion MRI: measures/mri/dmri.md
-            - Quantitative MRI: measures/mri/qmri.md
-            - Magnetic Resonance Spectroscopy: measures/mri/mrs.md  
+        - Demographics: measures/demographics.md 
         - "Neurocognition & Language": measures/neurocog.md    
         - "Novel Technologies & Wearable Sensors": measures/sensors.md                     
         - Physical Health: measures/physicalhealth.md
@@ -68,6 +58,15 @@ nav:
             - Substance Use: measures/pregexp/substanceuse.md
             - Mental Health: measures/pregexp/mentalhealth.md
         - "Social & Environmental Determinants": measures/socenvdet.md
+        - Electroencephalogram: measures/eeg/index.md
+        - Magnetic Resonance Imaging:
+            - Overview: measures/mri/index.md
+            - Quality Control Procedures: measures/mri/qc.md
+            - Structural MRI: measures/mri/smri.md
+            - Functional MRI: measures/mri/fmri.md
+            - Diffusion MRI: measures/mri/dmri.md
+            - Quantitative MRI: measures/mri/qmri.md
+            - Magnetic Resonance Spectroscopy: measures/mri/mrs.md 
     - MRI Protocols: mriprotocols/mriprotocols.md
     - HBCD BIDS Data:
         - Overview: datacuration/overview.md
@@ -83,6 +82,7 @@ nav:
     - Known Issues: changelog/knownissues.md
     - Version History:    
         - Release 1: changelog/versions/R1.md
+  - HOW TO CITE RELEASE DOCS: citation.md
 
   
 

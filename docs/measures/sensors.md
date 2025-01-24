@@ -36,11 +36,11 @@ The current data release includes the following instruments:
 </table>
 
 ## Implementation & Data Collection
-Sensor and associated questionaire data are collected during V02 and V03. Sensors are placed on the child by a research assistant during a visit and then worn for 72 hours, during which data were collected across typical activities in the natural environment.
+Sensor and associated questionaire data are collected during V02 and V03. Sensors are placed on the child by an HBCD Study team member during a visit and then worn for 72 hours, during which data were collected across typical activities in the natural environment.
 The child-specific Infant Sensor Questionnaire surveys (translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/)) were sent automatically to caregivers via their preferred method of contact (email or text message) marked by the research assistant during the visit.
 
 ## Quality Control
-Raw calibration files were checked during active data collection to verify the presence of sufficient data for each of the six axes. For the 72-hour sensor as well as survey data, a random selection of files were manually reviewed on a weekly basis. Sensor data was checked for presence of data, labeling of right and left leg, and sampling rate used and surveys were checked to confirm presence of responses. Note that a small percentage of total files were reviewed due to the procedure being manual.
+For the calibration files, the 72-hour sensor data files, and the survey data, a random selection of files were manually reviewed on a weekly basis. Raw calibration files were checked to verify the presence of sufficient data for each of the six axes. Seventy-two hour sensor data files were checked for presence of data, labeling of right and left leg, and sampling rate used. Surveys were checked to confirm presence of responses. Note that only a small percentage of total files were reviewed due to the procedure being manual.
 
 Issues were generally rare for sensor data and most data were deemed to be present and accurately collected. Errors that did arise were corrected when possible (though this was typically not feasible). Common errors noted include inadequate or missing data (due to human error, technical issues, or a parent/legal guardian declining to participate in this aspect of the study), sensors being removed for extended periods during the 72-hour collection, and incorrect sampling rate.
 
@@ -57,8 +57,7 @@ When no survey responses were received, research assistants were contacted to co
 <div class="collapsible-content">
 <br>
 <p>Subject matter experts would like users to note that accelerometer sensor timestamps can drift over time. Although right and left leg sensors start recording simultaneously with the same sampling rate and duration, exact time alignment cannot be assumed. By our estimates, Axivity AX6 sensors recording at 25 samples/sec diverge from one another by a couple of seconds over 72 hours, with the magnitude of this discrepancy increasing over time. Furthermore, offsets differed between sensors, necessitating a calibration procedure to correct for these differences (<a href="https://doi.org/10.3390/s24175736">Oh et al. 2024</a>).</p>
-
-<p>In addition, for raw data downloads, when calibration files are missing, it is technically possible to use a different set of calibration files from the same 2 sensors that were collected from a different data collection session close in time. For processed data downloads, when calibration files are missing, data are not processed. In analysis, users are advised to use caution in analyzing datasets with missing data.</p> 
+<p>In addition, for raw data downloads, when calibration files are missing or not collected correctly, it is technically possible to use a different set of calibration files from the same 2 sensors that were collected from a different data collection session close in time. It is also possible to manually adjust (downsample) an incorrect sampling rate if it was set too high. For processed data downloads, when calibration files are missing or not collected correctly, or the sampling rate is incorrect, data are not processed. In analysis, users are advised to use caution in analyzing datasets with missing data as missing data may not be randomly distributed across the sample.</p> 
 </div>
 </p>
 

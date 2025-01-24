@@ -7,6 +7,10 @@
 /* Change color of upper left-hand background */ 
 .wy-side-nav-search {background-color: #199bd6;}
 
+.blue-text {
+  color: blue;
+}
+
 /* Centering images */ 
 .center {
   display: block;

@@ -2,7 +2,7 @@
   <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC Lasso Portal &nbsp; ↗️</a>
 </p>
 
-# How To Access HBCD Data
+# How to Access HBCD Data
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
@@ -37,7 +37,7 @@ Before you begin the DUC process, please do the following:
 
 1. You must have a research-related need to access the data. 
 2. You must be associated with an NIH-recognized research institution and have the approval of an authorized signatory official of that institution. Visit [Signing Official (SO)](https://www.era.nih.gov/erahelp/commons/commons/roles/SO.htm) on eRA Commons to learn about institutional signing officials.
-3. Your institution must have an active Federalwide Assurance (FWA) 
+3. Your institution must have an active Federalwide Assurance (FWA). 
 
 **Identify an authorized signatory official at your institution**. If you are unsure of who at your institution is an authorized signing official, do not know whether your institution has an FWA, or have any other questions, please email nbdc@mail.nih.gov.
 
@@ -67,14 +67,14 @@ Provide the (1) name and (2) email address of the Institutional Signing Official
 
 ![](images/cont_signing.png)
 
-Select **Continue Signing** and folllow the steps below to apply your electronic signature.
+Select **Continue Signing** and follow the steps below to apply your electronic signature.
 
 ### Sign DUC Electronically
 This section of the DUC process asks you to agree to electronically signing the DUC. If you wish to proceed with signing, follow these steps.
 
 <ol>
     <p>
-    <li>First select the Electronic records and signature agreement checkbox, which will enable the <b>CONTINUE</b> button - click this<br><img src="images/submit_step1.png" alt="submit step 1"></li>
+    <li>First select the Electronic Record and Signature Disclosure checkbox, which will enable the <b>CONTINUE</b> button - click this<br><img src="images/submit_step1.png" alt="submit step 1"></li>
     </p>
     <p>
     <li>You will now see the form that requires your signature. Read through the contract and select <b>START</b> once you are ready to apply your electronic signature:<br><img src="images/esign_start.png" alt="Esign Start"></li>
@@ -91,7 +91,9 @@ This section of the DUC process asks you to agree to electronically signing the 
 </ol>
 
 ### Review by NBDC DAC
-After submitting the DUC, DocuSign automatically notifies the Signing Official at your institution to add their signature, after which it is routed to the NBDC DAC for final review. You will recieve an email notification once approved and be prompted to undergo additional mandatory training on responsible data use after signing into the platform. Once this training is complete, you will have access to the requested data. **Access is valid for one year. To maintain access, recipients must submit a renewal request before the DUC expires.**
+After submitting the DUC, DocuSign automatically notifies the Signing Official at your institution to add their signature, after which it is routed to the NBDC DAC for final review. You will recieve an email notification once approved and be prompted to undergo additional mandatory training on responsible data use after signing into the platform. Once this training is complete, you will have access to the requested data. 
+
+**Access is valid for one year. To maintain access, recipients must submit a renewal request before the DUC expires. If the DUC expires prior to a renewal request being submitted, a New Request submission will be required.**
 
 ![](images/decline_banner.png)
 
@@ -103,7 +105,7 @@ The submitted DUC is required to be signed by a Signing Official in order to be 
 
 <ol>
     <li>Open the email received from Lasso Informatics via DocuSign.</li>
-    <li>Select <b>REVIEW DOCUMENT</b></li>
+    <li>Select <b>REVIEW DOCUMENT</b>.</li>
     <li>Select the Electronic Record and Signature Disclosure checkbox. <b>REMINDER: The checkbox must be selected in order to enable the CONTINUE button.</b></li>
     <li>Select <b>CONTINUE</b>.</li>
     <li>Select <b>START</b>.</li>

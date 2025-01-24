@@ -352,7 +352,7 @@ As a reminder, only a portion of data undergoes manual review for quality contro
 </div>
 </p>
 
-## Imaging
+## Imaging & Spectroscopy
 ### Anatomical (anat/)
 Anatomical files include T1- and T2-weighted MRI images, MRS localizer files (`acq-mrsLocAx` and `acq-mrsLocCor` indicate axial and coronal localizers, respectively), and Quantitative MRI QALAS files. 
 ```

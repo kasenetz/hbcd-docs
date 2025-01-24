@@ -54,7 +54,7 @@ bibsnet/
 ```
 *See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder tree above.*
 
-## HBCD-Motion (`hbcd_motion/`)  🚧
+## HBCD-Motion (`hbcd_motion/`)
 The HBCD-Motion pipeline is used to process the HBCD Axivity Ax6 sensor recordings of infant leg movements across 72 continuous hours. Please see a full description of the output files on their webpage [here](https://hbcd-motion-postproc.readthedocs.io/en/latest/outputs.html#outputs).
 ```
 hbcd_motion/
@@ -80,7 +80,7 @@ hbcd_motion/
 ```
 *See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder structure visual.*
 
-## HBCD-MADE (`made/`)🚧
+## HBCD-MADE (`made/`)
 HBCD-MADE produces preprocessed EEG derivatives. Please see the [HBCD-MADE webpage](https://docs-hbcd-made.readthedocs.io/en/latest) for a full explanation of the derivative files displayed below.
 ```
 made/
@@ -217,7 +217,7 @@ nibabies/
 ```
 *See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
 
-## OSPREY-BIDS (`osprey/`)🚧
+## OSPREY-BIDS (`osprey/`)
 OSPREY-BIDS is the BIDS extension to the OSPREY pipeline used to process HBCD magnetic resonance spectroscopy (MRS) data. The `HERCULES` and `unedited` folders have matching structures, so only one is displayed below. For readability, the image files under `figures/` are not listed. Also note that filenames may additionally include `run-<label>`. Please see their [webpage](https://osprey-bids.readthedocs.io/en/latest/index.html) for a detailed explanation of these outputs.
 ```
 osprey/

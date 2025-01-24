@@ -95,7 +95,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Each institution has their own definitions and requirements surrounding whether whether the use of the de-identified HBCD data is considered to be human subjects research. Please consult directly with your IRB. </p>
+<p>Each institution has their own definitions and requirements surrounding whether the use of the de-identified HBCD data is considered to be human subjects research. Please consult directly with your IRB. </p>
 </div>
 </p>
 

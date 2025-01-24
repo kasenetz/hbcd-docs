@@ -28,7 +28,7 @@ The current data release includes the following Neurocognition & Language instru
 </table>
 
 ## Implementation & Data Collection
-All surveys are child-specific and filled out remotely by the primary caregiver. MLDS is completed prior to when cognitive and language assessments will be performed. If the caregiver does not complete the assessment remotely, it is conducted at the visit to document the child’s language exposure environments. The instrument can be administered by an RA in person or via video as needed. Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). Additional information is as follows:
+All surveys are child-specific and filled out remotely by the primary caregiver. MLDS is completed prior to when cognitive and language assessments will be performed. If the caregiver does not complete the assessment remotely, it is conducted at the visit to document the child’s language exposure environments. The instrument can be administered by an HBCD Study team member in-person or via video as needed. Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). Additional information is as follows:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
@@ -101,7 +101,7 @@ Designed specifically for HBCD, this measure informs assessment teams conducting
 </div>
 <div class="collapsible-content">
 <br>
-<p>The "Decline to answer" instructions were updated November 8, 2024 to differentiate from behaviors that have never been seen (i.e. developmentally inappropriate). Therefore, "Decline to answer" is not an option available to individuals who completed this form in the reference sample from which the standard scores were derived.</p> 
+<p>Instructions were updated with the additional response option of "Decline to answer" on November 8, 2024 to differentiate from behaviors that have never been seen (i.e. developmentally inappropriate). Therefore, "Decline to answer" is not an option available to individuals who completed this form in the reference sample from which the standard scores were derived.</p> 
 </div>
 </p>
 
