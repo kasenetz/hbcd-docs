@@ -28,7 +28,7 @@ The interim Release 1.1 will include:
 </ul>
 </div>
 
-Release 1.1 will additionally include the addition of the following measures:
+Release 1.1 will also include the addition of the following measures:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <thead>
