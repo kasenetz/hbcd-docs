@@ -38,7 +38,9 @@ The current data release includes the following Behavioral and Caregiver-Child I
 All surveys are child-specific and filled out remotely by the primary caregiver. Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). Additional information is as follows:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-<tfoot><tr><td colspan="3"><b>**</b><i>Validated for ages 3 months 0 days to 17 months 30 days for HBCD</i></td></tr></tfoot>
+<tfoot><tr><td colspan="3">
+<b>**</b><i>Validated for ages 3 months 0 days to 17 months 30 days for HBCD</i></td>
+</tr></tfoot>
   <thead>
     <tr>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
