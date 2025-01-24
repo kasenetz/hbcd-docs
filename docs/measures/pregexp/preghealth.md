@@ -101,10 +101,10 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Administration</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Visits</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Completion Time</th>      
+      <th>Instrument</th>
+      <th>Administration</th>
+      <th>Visits</th>
+      <th>Completion Time</th>      
     </tr>
   </thead>
 <tbody>
@@ -128,31 +128,31 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
     </tr>      
     <tr>
         <td>Pregnancy Health-Illness</td>
-        <td>RA</td>
+        <td>HBCD Study Staff</td>
         <td>V01</td>
         <td>3 min</td>
     </tr>          
     <tr>
         <td>Pregnancy Health-ER</td>
-        <td>RA</td>
+        <td>HBCD Study Staff</td>
         <td>V01</td>
         <td>5 min</td>
     </tr>       
     <tr>
         <td>Pregnancy Health-Medications</td>
-        <td>RA</td>
+        <td>HBCD Study Staff</td>
         <td>V01</td>
         <td>5 min</td>
     </tr>       
     <tr>
         <td>Pregnancy Health-V2</td>
-        <td>RA</td>
+        <td>HBCD Study Staff</td>
         <td>V02</td>
         <td>10 min</td>
     </tr>     
     <tr>
         <td>Healthv2 Inf</td>
-        <td>RA</td>
+        <td>HBCD Study Staff</td>
         <td>V02</td>
         <td>10 min</td>
     </tr>       
@@ -184,7 +184,7 @@ For quality control, response distributions were reviewed for outliers.
 </div>
 <div class="collapsible-content">
 <br>
-<p>Subject matter experts note that there are potential issues relating to correct coding for (1) ICD codes from BioPortal ICD (used to capture reason(s) for medication use, ER visits, and hospitalizations), (2) symptom codes from World Health Organization, and (3) medication names from RxNORM. For instruments utilizing these coding systems, it was at times difficult for the participant to name or the RA to correctly find the correct code/name in a databases. The following instruments were impacted:</p> 
+<p>Subject matter experts note that there are potential issues relating to correct coding for (1) ICD codes from BioPortal ICD (used to capture reason(s) for medication use, ER visits, and hospitalizations), (2) symptom codes from World Health Organization, and (3) medication names from RxNORM. For instruments utilizing these coding systems, it was at times difficult for the participant to name or HBCD Study team member conducting the survey to find the correct code/name in a databases. The following instruments were impacted:</p> 
  <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>

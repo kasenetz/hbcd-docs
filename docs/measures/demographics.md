@@ -24,12 +24,12 @@
 </div>
 </p>
 
-The HBCD Demographic survey is administered by a research assistant in-person and takes approximately 10 minutes to complete. The current release includes survey information acquired during Visit 1 and will be repeated during Visit 4 for both the primary caregiver and the child. 
+The HBCD Demographic survey is administered by a research assistant in-person and takes approximately 10 minutes to complete. The current release includes survey information acquired during Visit 1 and will be repeated during Visit 4 for both the primary caregiver and the child to be included in future releases. 
 
 Demographic information is crucial for understanding the child’s environment and identifying how social, structural, and economic factors influence development over time in a longitudinal study of child development. The HBCD Study demographics survey is designed to gather comprehensive information on socioeconomic status and various demographic factors. Its primary purpose is to capture data on race, ethnicity, nativity, income, education, and occupation, as well as gender identity, sexual orientation, relationship status, primary residence, and household composition of the parent carrying the child, and some basic information on the other biological parent. Please see [Cioffredi et al. 2024](https://doi.org/10.1016/j.dcn.2024.101429) for a detailed description of the HBCD Demographics survey.
 
 ## HBCD Modifications
-Below are alterations made to demographic constructs, informed by the HBCD Social and Environmental Determinants workgroup and Diversity, Equity, and Inclusion (DEI) Committee. The modifications wre made to reduce bias and capture a more inclusive and accurate breadth of demographic information, e.g. by correcting for embedded assumptions of heteronormative nuclear-family structures. 
+Below are alterations made to demographic constructs, informed by the HBCD Social and Environmental Determinants workgroup and Diversity, Equity, and Inclusion (DEI) Committee. The modifications were made to reduce bias and capture a more inclusive and accurate breadth of demographic information, e.g. by correcting for embedded assumptions of heteronormative nuclear-family structures. 
 
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
@@ -45,9 +45,9 @@ Below are alterations made to demographic constructs, informed by the HBCD Socia
         <li>"Member of an Unmarried Couple" replaced by "Partnered"</li>
         </ul>
       </li>
-      <li><b>Gender Identity</b> alterations to reduce heteronormative bias: Transgender Man/Transgender Woman options moved to primary tier of 2-tier question</li>
+      <li><b>Gender Identity</b> alterations to reduce heteronormative bias: Transgender Man/Transgender Woman options moved to primary tier of 2-tier question.</li>
       <li><b>Sexual Orientation</b> alterations to reduce heteronormative bias: Inclusion of diverse response options to capture sexual orientation across three dimensions: attraction, identity, and behavior. Participant can select all that apply.</li>
-      <li><b>Primary Residence</b> destigmatization of diverse living situations: Inclusion of options for individuals in treatment facilities, shelters, or unhoused</li>
+      <li><b>Primary Residence</b> destigmatization of diverse living situations: Inclusion of options for individuals in treatment facilities, shelters, or unhoused.</li>
       <li><b>Household Roster</b> alterations to reduce heteronormative bias and nuclear family assumptions:
         <ul>
         <li>Changed "Sex" to "Gender"</li>
@@ -56,8 +56,8 @@ Below are alterations made to demographic constructs, informed by the HBCD Socia
         </ul>
       </li>
       <li><b>Race/Ethnicity</b> and <b>Others Describe You</b>: Inclusion of diverse racial and ethnic categories aligned with proposed <a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB recommendations</a> using a combined race and ethnicity variable with 7 response options (<a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards 
-      ">Federal Register 2023</a>). Participant can select all that apply</li>
-      <li><b>Income</b>: Alteration of household income brackets</li>
+      ">Federal Register 2023</a>). Participant can select all that apply.</li>
+      <li><b>Income</b>: Alteration of household income brackets.</li>
     </ul>
 </div>
 </p>

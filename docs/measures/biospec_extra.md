@@ -32,7 +32,7 @@ The current data release includes the following toxicology screens collected fro
 </table>
 
 ### BLOOD    
-These data are the results of toxicology assays in dried blood spots collected at V1. Processing of Blood Spot Cards consists of preparing three 1/8” punches of dried blood spot followed by extraction using an organic solvent. Detection of PETH in the extract is accomplished with a single pass using LCMSMS (**Figure 1**):
+These data are the results of toxicology assays in dried blood spots collected at V1. Processing of Blood Spot Cards consists of preparing three 1/8” punches of dried blood spot followed by extraction using an organic solvent. Detection of PEth in the extract is accomplished with a single pass using LCMSMS (**Figure 1**):
 
 **Figure 1. Blood Processing**
 <img src="../../images/biospec/Fig1_blood.png" width="100%" height="auto">

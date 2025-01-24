@@ -36,7 +36,7 @@ The current data release includes the following instruments:
 </table>
 
 ## Implementation & Data Collection
-Sensor and associated questionaire data are collected during V02 and V03. Sensors are placed on the child by a research assistant during a visit and then worn for 72 hours, during which data were collected across typical activities in the natural environment.
+Sensor and associated questionaire data are collected during V02 and V03. Sensors are placed on the child by an HBCD Study team member during a visit and then worn for 72 hours, during which data were collected across typical activities in the natural environment.
 The child-specific Infant Sensor Questionnaire surveys (translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/)) were sent automatically to caregivers via their preferred method of contact (email or text message) marked by the research assistant during the visit.
 
 ## Quality Control

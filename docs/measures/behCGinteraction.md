@@ -69,7 +69,7 @@ All surveys are child-specific and filled out remotely by the primary caregiver.
 ## HBCD Modifications
 Alterations were made to ecPROMIS, IBQ-R (VSF)+BI, and MAPS-TL for use of gender-neutral terms. Measure instructions and individuals items that reference gendered pronouns (‘her/him’, ‘she/he’) were changed to “my/the baby/child” or “they/them” as fit for the wording. In addition, “parent” was replaced with “parent/caregiver” where appropriate. Additional HBCD modifications made to specific measures are outlined in each section as needed.
 
-Because the psychometric validation for these measures was done using items from the original measures, future publications should account for and note edits made to individual items as part of HBCD DEI review.
+Because the psychometric validation for these measures was done using items from the original measures, future publications should account for and note edits made to individual items as part of the HBCD Diversity, Equity, and Inclusion (DEI) Committee review.
 
 ## Quality Control 
 QC procedures involved examining age to ensure that it falls within an expected range (3-9 months for ecPROMIS/MAPS-TL and 3-18 months for IBQ-R (VSF)+BI) and missingness (by counting the number of items answered for each participant). Summary statistics and visualizations were generated to review item-level frequencies, age, and scores (calculated with application of prorated scoring to account for missing data). Finally, Cronbach's Alpha was calculated to assess reliability. Common errors noted during QC include incorrect administration ages and prorated scoring not being accurately applied to observations with missing responses.
