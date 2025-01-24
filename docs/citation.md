@@ -1,4 +1,4 @@
-# How to Cite HBCD Data Release Website
+# How to Cite HBCD Data Release Docs
 
 <p style="text-align: center; font-size: 1.6em">🚧 🚧 UNDER CONSTRUCTION 🚧 🚧</p>
 <p style="text-align: center; font-size: 1.1em">Please note that the author list is still under development. To be added as an author, please email Luci Moore (lmoore@umn.edu)</p>
@@ -8,7 +8,7 @@ Note that this website is version-controlled. We therefore recommend citing the 
 
 <div class="copy-box">
   <div class="copy-text-container">
-    <span id="specific-text">Moore, L. A., Averill, S., Chaudhry, A., Chen, Y., Cieslak, M., Croff, J., Das, S., Edwards, R., Fesselier, L., Ghosh, S., Lee, E., Macgregor-Hannah, M., MacIntyre, L., Madjar, C., Oeltzschner, G., Oh, J., Ongaro-Carcy, R., Ossorio, P., Planalp, E.M., Solod, K., Sullivan, E., Torres, S., Weldon, K. B., & Fair, D. A. (2025). HBCD Data Release Website (v0.0.2-beta). Zenodo. <a href="https://doi.org/10.5281/zenodo.14708091">https://doi.org/10.5281/zenodo.14708091</a></span>
+    <span id="specific-text">Moore, L. A., Acheson, A., Averill, S., Bandoli, G., Chaudhry, A., Chen, Y., Cieslak, M., Cioffredi, L., Coles, C., Croff, J., Dale, A., Das, S., DeMauro, S.B., Edwards, R., Fesselier, L., Fifer, B., Fox, P., Ghosh, S., Kable, J., Lee, E., Macgregor-Hannah, M., MacIntyre, L., Madjar, C., Oeltzschner, G., Oh, J., Ongaro-Carcy, R., Ossorio, P., Perez-Edgar, K., Planalp, E.M., Potter, A., Smith, B., Smith, L., Smyser, C., Solod, K., Sullivan, E., Torres, S., Weldon, K. B., Yerby, L.G., & Fair, D. A. (2025). HBCD Data Release Website (v0.0.2-beta). Zenodo. <a href="https://doi.org/10.5281/zenodo.14708091">https://doi.org/10.5281/zenodo.14708091</a></span>
     <button class="copy-button">Copy</button>
   </div>
 </div>

@@ -34,6 +34,9 @@ authors:
 - family-names: Fesselier
   given-names: Laetitia 
   affiliation: "McGill Centre for Integrative Neuroscience"
+- family-names: Fox
+  given-names: Nathan
+  affiliation: "Department of Human Development and Quantitative Methodology, University of Maryland"
 - family-names: Ghosh
   given-names: Satrajit
   affiliation: "Research Laboratory of Electronics, Massachusetts Institute of Technology"
@@ -66,6 +69,10 @@ authors:
 - family-names: Ossorio
   given-names: Pilar
   affiliation: "University of Wisconsin-Madison Law School"
+- family-names: Perez-Edgar
+  given-names: Koraly  
+  affiliation: "Department of Psychology, The Pennsylvania State University"
+  orcid: https://orcid.org/0000-0003-4051-9563  
 - family-names: Planalp 
   given-names: Elizabeth M
   affiliation: "(1) Waisman Center, University of Wisconsin, Madison; (2) Department of Psychology, University of Wisconsin, Madison"
@@ -90,6 +97,11 @@ authors:
 license: Apache-2.0
 version: v0.0.0-beta
 date-released: 2025-01-19  
+
+
+
+
+
 
 
 
