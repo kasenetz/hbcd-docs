@@ -6,7 +6,6 @@ In this section we provide a brief overview of each data measure provided in the
 
 The current release data from Visits 1, 2, and 3 (*also referred to as V01, V02, and V03 throughout the release notes*). These data release notes only include documentation for measures included in the release. Below is a full summary of all of the measures included in the data release. For a preview of additional measures to be included in the interim Release 1.1, see [Pending & Upcoming Updates](../changelog/pending.md). Please visit the Workgroup pages linked in the tables below and in the table of contents for details and the [HBCD Study page](https://hbcdstudy.org/study-protocols/) for full study protocols.
 
-
 <p>
 <div class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>

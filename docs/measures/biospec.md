@@ -6,23 +6,23 @@ The current data release includes the following Biospecimen toxicology screens:
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Screen</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Acronym/Short Name</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Name of Measure</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Short Name</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Construct</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Table Name</th>
     </tr>
   </thead>
 <tbody>
   <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#nails">Nails Toxicology Screen</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#nails">Maternal Nails</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nails</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Toxicology screen for substances & environmental exposures</td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_nails</td>
   </tr>
   <tr>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#urine">Urine Toxicology Screen</a></td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#urine">Maternal Urine</a></td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Urine</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
+      <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Toxicology screen for substances & environmental exposures</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_urine</td>
   </tr>
 </tbody>
@@ -41,12 +41,12 @@ The current data release includes the following toxicology screens collected fro
   </thead>
 <tbody>
 <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#nails">Nails</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#nails">Maternal Nails</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Self-collected under research team supervision, or collected by research team</td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">V01, V02</td>
 </tr>
 <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#urine">Urine</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#urine">Maternal Urine</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Self-collected</td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">V01</td>
 </tr>
