@@ -34,7 +34,7 @@ After selecting the desired fields, click on **Download** and choose your prefer
 
 ![](images/query3.png)
 
-**Step 5: Query the associated data**
+**Step 5: Query the Associated Data**
 
 If you need both the data dictionary and the associated data:
 
