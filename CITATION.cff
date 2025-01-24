@@ -40,6 +40,7 @@ authors:
 - family-names: Croff
   given-names: Julie 
   affiliation: "Department of Rural Health, Oklahoma State University Center for Health Sciences"
+  orcid: https://orcid.org/0000-0002-0415-3237
 - family-names: Dale
   given-names: Anders
   affiliation: "University of California San Diego"
@@ -54,6 +55,7 @@ authors:
 - family-names: Edwards
   given-names: Renee
   affiliation: "Northwestern University, Feinberg School of Medicine"
+  orcid: https://orcid.org/0000-0002-0101-3570
 - family-names: Fesselier
   given-names: Laetitia 
   affiliation: "McGill Centre for Integrative Neuroscience"
