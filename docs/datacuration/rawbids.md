@@ -34,13 +34,67 @@ Participant-level data is stored in the `participants.tsv` file. This file inclu
 Session-level data is stored in the `sessions.tsv` file within the subject folder. This file provides details on the various sessions acquired for the participant, including the collection site, the participant’s age and gestational age at each session, and head size. *Note: age measures are computed based on a birthdate measure that is jittered up to 7 days.*
 
 ### Scan-Level Data
-The `scans.tsv` file provided per session includes a variety of participant information (see [Fields included in `scans.tsv` file](#scanstsv)) as well as quality control (QC) metrics derived from raw data QC procedures (see [HBCD MR Quality Control Procedures](../measures/mri/qc.md)). Several of the processing pipelines query the `scans.tsv` to determine which files to include/exclude for processing. The criteria used are listed under the 'Quality Control Selection Information' under [Tool Names](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html#tool-names) on the HBCD Processing page.
-
-As a reminder, only a portion of data undergoes manual review for quality control. Files that have not undergone manual QC will be missing fields related to manual QC (e.g. fields prepended with `QU_` in the list below). **Note that the `QC` field is automatically 1 (Pass) if manual QC was not performed.**
+The `scans.tsv` file provided per session includes a variety of participant information as well as quality control (QC) metrics derived from raw data QC procedures (see [HBCD MR Quality Control Procedures](../measures/mri/qc.md)). The main QC score field, `QC`, is the overall manual QC score and will be a value of either 1 (pass) or 0 (fail). As a reminder, only a portion of data is selected for manual review: scans that underwent only automated QC will have have a `QC` value of 1. 
 
 <p>
+<div class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Note that the `QC` field is automatically 1 (Pass) if manual QC was not performed</span>
+</div>
+</p>
+
+<p style="font-size: 1rem; font-weight: bold; margin-bottom: 0.5em;">The following fields are strictly relevant to manual QC and will not be present for all scans:</p>
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<tbody>
+	<thead>
+		<tr>
+			<th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Field</th>
+			<th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Description</th>
+			<th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Relevant Scan Types</th>
+		</tr>
+	</thead>
+	<tr>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">nrev</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Number of reviewers for manual QC</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: left;">All</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">revdisp</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Whether there was disparity / disagreement between reviewers</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: left;">All</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">notes</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Optional notes associated with manual quality control review</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: left;">All</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">QU_motion</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Qualitative manual QC score for motion</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: left;">T1w, T2w, qMRI</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">QU_sus</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Qualitative manual QC score for susceptibility artifact</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: left;">dMRI, fMRI, field maps</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">QU_cutoff</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Qualitative manual QC score for FOV cutoff artifact</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: left;">dMRI, fMRI, field maps</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">QU_line</td>
+		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Qualitative manual QC score for line artifact</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: left;">dMRI, fMRI, field maps</td>
+	</tr>
+	</thead>
+</tbody>
+</table>
+	
+<p>
 <div id="scanstsv" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">Fields included in <code>scans.tsv</code> files</span>
+  <span class="text">Full list of fields included in <code>scans.tsv</code> files</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
