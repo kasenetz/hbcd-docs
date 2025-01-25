@@ -32,7 +32,7 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 <p>
 <div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
-    <span class="text">Responsible Data Use Warning</span>
+    <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -53,7 +53,7 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 <p>
 <div id="eeg-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -76,7 +76,7 @@ ERPs are computed as a function of repeated presentation of faces and objects. T
 <p>
 <div id="mmn-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -91,7 +91,7 @@ The Auditory mismatch negativity (MMN) Task (v.11.29.23) provides a comprehensiv
 <p>
 <div id="rs-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

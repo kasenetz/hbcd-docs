@@ -51,7 +51,7 @@ When no survey responses were received, research assistants were contacted to co
 <p>
 <div id="sensors-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -68,7 +68,7 @@ Infant leg movement data collected by wearable sensors for HBCD, which captures 
 <p>
 <div id="survey-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

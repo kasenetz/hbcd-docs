@@ -2,7 +2,7 @@
 <p>
 <div id="qc-alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
-    <span class="text">Responsible Data Use Warning</span>
+    <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

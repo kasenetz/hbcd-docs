@@ -62,7 +62,7 @@ QC procedures involved examining assay ranges and categorical versus continuous 
 <p>
 <div id="nails-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   </span>
   <span class="arrow">▸</span>
 </div>
@@ -637,7 +637,7 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 <p>
 <div id="urine-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

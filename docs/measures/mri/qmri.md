@@ -2,7 +2,7 @@
 <p>
 <div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
