@@ -12,11 +12,29 @@ To facilitate responsible data use, warnings have been added to some variables i
  
 There are 2 types of warnings, both of which may aid in more scientifically rigorous use of HBCD data:
 
-**Data Warning**    
-The purpose of this warning is to improve transparency and offer technical assistance by alerting the user to issues of data quality, providing information on how variables were constructed, providing instructions on how to calculate or analyze specific variables, or providing code (if necessary).
- 
-**Responsible Use Warning**   
-The purpose of this warning is to offer guidance for research design, data interpretation, and communication of findings. These warnings also include conceptual information (e.g., difference between sex assigned at birth and gender identity, the possibility of bias due to attrition or non-response).
+<p>
+<div id="warning-banner" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text">Data Warning</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>The purpose of this warning is to improve transparency and offer technical assistance by alerting the user to issues of data quality, providing information on how variables were constructed, providing instructions on how to calculate or analyze specific variables, or providing code (if necessary).</p> 
+</div>
+</p>
+
+<p>
+<div id="alert-banner" class="alert-banner" onclick="toggleCollapse(this)">
+    <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
+    <span class="text">Responsible Use Warning</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>The purpose of this warning is to offer guidance for research design, data interpretation, and communication of findings. These warnings also include conceptual information (e.g., difference between sex assigned at birth and gender identity, the possibility of bias due to attrition or non-response).</p>
+</div>
+</p>
 
 ## Recommendations for Rigorous, Reproducible, and Responsible Data Use
 The HBCD Responsible Use of Data Committee (RUDC) provides the following guidance for researchers planning to use HBCD data:
