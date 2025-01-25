@@ -402,7 +402,6 @@ The following tabulated data is included in the release for magnetic resonance i
 </table>
 
 
-
 ## Responsible Use & Expert Review Warnings
 To promote responsible use of the data and offer additional context for users, warnings are displayed at the top of each measure/instrument section as necessary. These warnings are incorporated in both the [Dictionary Query Tool on Lasso](../data_access/querytool.md) and [Data Dictionary Explorer](../data_access/datadictionary.md) to link directly to the release notes for relevant Variable or Table warnings. We encourage all data users to examine the warnings for any variables you plan to download/utilize and adhere to the recommended guidelines. 
 

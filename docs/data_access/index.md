@@ -93,6 +93,12 @@ This section of the DUC process asks you to agree to electronically signing the 
 ### Review by NBDC DAC
 After submitting the DUC, DocuSign automatically notifies the Signing Official at your institution to add their signature, after which it is routed to the NBDC DAC for final review. You will recieve an email notification once approved and be prompted to undergo additional mandatory training on responsible data use after signing into the platform. Once this training is complete, you will have access to the requested data. 
 
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">After obtaining DUC approval, users must complete mandatory training on responsible data use to gain access to the data.</span>
+</div>
+<br>
+
 **Access is valid for one year. To maintain access, recipients must submit a renewal request before the DUC expires. If the DUC expires prior to a renewal request being submitted, a New Request submission will be required.**
 
 ![](images/decline_banner.png)
