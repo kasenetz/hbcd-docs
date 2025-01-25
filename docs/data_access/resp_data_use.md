@@ -8,7 +8,7 @@ To facilitate responsible data use, warnings have been added to some variables i
 
 1.    	Review the data warnings for any variable that you will be downloading and/or using by clicking the link and reviewing the warning associated with that variable
 2.    	Review any resources and citations included with the warning and follow recommended guidelines
-3.    	Reach out to the HBCD Responsible Use of Data Committee (RUDC) chair Pilar Ossorio (pnossorio@wisc.edu) with any questions about data warnings or responsible data use.
+3.    	Reach out to the HBCD Responsible Use of Data Committee (RUDC) chair Pilar Ossorio (<span class="blue-text">pnossorio@wisc.edu</span>) with any questions about data warnings or responsible data use.
  
 There are 2 types of warnings, both of which may aid in more scientifically rigorous use of HBCD data:
 
