@@ -70,7 +70,7 @@ QC procedures involved examining assay ranges and categorical versus continuous 
 <br>
 <p>On July 1, 2024, the nail processing workflow was updated to optimize specimen use and enable confirmation testing for low sample quantities as described below. Data collected this point therefore does not use the remnant of ELISA extract for confirmation for specimens with too little sample.</p> 
 
-<p>In addition, continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs), or the cutoff concentration used to categorize metabolite as positive or negative (see <a href="#table1">Table 1 Nail Assay Thresholds</a>).</p>
+<p>In addition, continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs), or the cutoff concentration used to categorize metabolite as positive or negative (see <a href="#nails-table1">Table 1 Nail Assay Thresholds</a>).</p>
 </div>
 </p>
 
@@ -80,14 +80,14 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 
 
 #### USDTL Assay Details
-Based on the predefined threshold outlined in [Table 1](#table1), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (*QNS* i.e. *quantity not sufficient*) ([Table 2](#table2)). With the exception of Ethyl glucuronide (finger nails: 3 months; toe nails: no consensus), the window of detection for all analytes is 3-6 and 10-14 months for finger and toe nails, respectively. Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs), the cutoff concentration used to categorize metabolite as positive/negative.
+Based on the predefined threshold outlined in [Table 1](#nails-table1), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (*QNS* i.e. *quantity not sufficient*) ([Table 2](#nails-table2)). With the exception of Ethyl glucuronide (finger nails: 3 months; toe nails: no consensus), the window of detection for all analytes is 3-6 and 10-14 months for finger and toe nails, respectively. Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs), the cutoff concentration used to categorize metabolite as positive/negative.
 
 <p>
-<div id="table1" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">Table 1. Nail Assay Thresholds</span>
-  <span class="notification-arrow">▸</span>
+<div id="nails-table1" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 1. Nail Assay Thresholds</span>
+  <span class="table-arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="table-collapsible-content">
 <br>
 <li><b class="blue-text">LOD</b> / <b class="blue-text">LOQ</b> = limit of detection / quantification</li>
 <br>
@@ -386,14 +386,12 @@ Based on the predefined threshold outlined in [Table 1](#table1), a confirmatory
 </tbody>
 </table>
 </div>
-</p> 
 
-<p>
-<div id="table2" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">Table 2. Sample-Data Dictionary Nail Assays</span>
-  <span class="notification-arrow">▸</span>
+<div id="nails-table2" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 2. Sample-Data Dictionary Nail Assays</span>
+  <span class="table-arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="table-collapsible-content">
 <br>
 <table class="docutils">
     <thead>
@@ -480,15 +478,15 @@ Based on the predefined threshold outlined in [Table 1](#table1), a confirmatory
 </tbody>
 </table>
 </div>
-</p>  
+</p>
 
-Based on the confirmatory test (i.e. reflexes from positive screening test) result for any substance, the class-level (e.g. *c_nictotine_u*) and sample-level (e.g. *c_any_specimen_n*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in [Table 3](#table3).
+Based on the confirmatory test (i.e. reflexes from positive screening test) result for any substance, the class-level (e.g. *c_nictotine_u*) and sample-level (e.g. *c_any_specimen_n*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in [Table 3](#nails-table3).
 
-<div id="table3" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">Table 3. Mapping from Class to Screening Tests and Confirmatory Tests for Nails</span>
-  <span class="notification-arrow">▸</span>
+<div id="nails-table3" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 3. Mapping from Class to Screening Tests and Confirmatory Tests for Nails</span>
+  <span class="table-arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="table-collapsible-content">
 <br>
 <table class="docutils">
 <thead>
@@ -625,18 +623,15 @@ These data are the results of urine toxicology assays. Test results for substanc
 Validation is based on creatinine, pH, and nitrite measurements. Specimens with low creatinine (<20 mg/dL) are confirmed using specific gravity via refractometer (decision grid below), and the creatinine analysis is repeated to rule out issues with the first analysis (e.g. sample mix-ups, air bubble in a line on the instrument, etc.):
 <img src="../../images/biospec/Table1_biospec_urine.png" width="90%" height="auto">
 
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="text">Assay Details</span>
-  </span>
-  <span class="notification-arrow">▸</span>
+#### Assay Details
+Based on the predefined thresholds ([Table 1](#urine-table1)), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid ([Table 2](#urine-table2)). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs).
+
+<div id="urine-table1" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 1. Urine Assay Thresholds for Analytes</span>
+  <span class="table-arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
-<br>
-<p>Based on the predefined thresholds (<a href="#urine-table1">Table 1</a>), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (<a href="#urine-table2">Table 2</a>). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in <a href="#urine-table3">Table 3</a>.</p> 
-<table id="urine-table1" class="docutils">
-<caption style="font-weight: bold; text-align: left; font-style: normal;">Table 1. Urine Assay Thresholds for Analytes</caption>
+<div class="table-collapsible-content">
+<table class="docutils">
 <thead>
       <tr>
         <th>Analyte</th>
@@ -1042,10 +1037,15 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
 </table>
 <i>*Based on DRI® Cotinine assay for the qualitative and semiquantitative determination of Cotinine</i><br>
 <i>LOD: limit of detection; LOQ: limit of quantification: Cutoff concentration used to categorize metabolite as positive/negative</i>
-<br>
-<table id="urine-table2" class="docutils">
-<caption style="font-weight: bold; text-align: left; font-style: normal;">Table 2. Sample Data Dictionary from Urine Assays</caption>
-  <br>
+</div>
+
+
+<div id="urine-table2" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 2. Sample Data Dictionary from Urine Assays</span>
+  <span class="table-arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
+<table class="docutils">
     <thead>
       <tr>
         <th>Variable</th>
@@ -1105,9 +1105,16 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
     </tr>
 </tbody>
 </table>
-<table id="urine-table3" class="docutils">
-<caption style="font-weight: bold; text-align: left; font-style: normal;">Table 3. Mapping From Class to Screening Tests and Confirmatory Tests</caption>
-  <br>
+</div>
+
+The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in [Table 3](#urine-table3).
+
+<div id="urine-table3" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 3. Mapping From Class to Screening Tests and Confirmatory Tests</span>
+  <span class="table-arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
+<table class="docutils">
     <thead>
       <tr>
         <th>Class</th>
@@ -1118,10 +1125,10 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
     <tbody>
     <tr>
         <td colspan="1" rowspan="6">
-            <div>stimulant<br /> (c_any_stim_u)</div>
+            <div>stimulant (c_any_stim_u)</div>
         </td>
         <td colspan="1" rowspan="2">
-            <div>amp<br /> (s_amp_u)</div>
+            <div>amp (s_amp_u)</div>
         </td>
         <td>Amphetamine (c_amp_u)</td>
     </tr>
@@ -1130,7 +1137,7 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
     </tr>
     <tr>
         <td colspan="1" rowspan="3">
-            <div>mdma<br /> (s_mdma_u)</div>
+            <div>mdma (s_mdma_u)</div>
         </td>
         <td>MDM (c_mdm_u)</td>
     </tr>
@@ -1141,7 +1148,7 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
         <td>MDEA (c_mdea_u)</td>
     </tr>
     <tr>
-        <td>coc <br /> (s_coc_u)</td>
+        <td>coc (s_coc_u)</td>
         <td>Benzoylecgonine (c_ben_u)</td>
     </tr>
     <tr>
@@ -1149,7 +1156,7 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
             <div>cannabinoid<br /> (c_any_cannabinoid_u)</div>
         </td>
         <td colspan="1" rowspan="3">
-            <div>thc<br /> (s_thc_u)</div>
+            <div>thc (s_thc_u)</div>
         </td>
         <td>Carboxy-delta-9-THC (c_delta-9-THC_u)</td>
     </tr>
@@ -1164,28 +1171,20 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
             <div>barbiturate<br /> (c_any_barb_u)</div>
         </td>
         <td colspan="1" rowspan="5">
-            <div>bar <br /> (s_bar_u)</div>
+            <div>bar (s_bar_u)</div>
         </td>
         <td>Amobarbital (c_amobarb_u)</td>
     </tr>
-    <tr>
-        <td>Secobarbital (c_secobarb_u)</td>
-    </tr>
-    <tr>
-        <td>Pentobarbital (c_pentobarb_u)</td>
-    </tr>
-    <tr>
-        <td>Phenobarbital (c_phenobarb_u)</td>
-    </tr>
-    <tr>
-        <td>Butalbital (c_butalbital_u)</td>
-    </tr>
+    <tr><td>Secobarbital (c_secobarb_u)</td></tr>
+    <tr><td>Pentobarbital (c_pentobarb_u)</td></tr>
+    <tr><td>Phenobarbital (c_phenobarb_u)</td></tr>
+    <tr><td>Butalbital (c_butalbital_u)</td></tr>
     <tr>
         <td colspan="1" rowspan="11">
             <div>benzodiazepine<br /> (c_any_benzo_u)</div>
         </td>
         <td colspan="1" rowspan="11">
-            <div>benz <br /> (s_benz_u)</div>
+            <div>benz (s_benz_u)</div>
         </td>
         <td>Oxazepam (c_oxaz_u)</td>
     </tr>
@@ -1195,67 +1194,38 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
     <tr>
         <td>Temazepam (c_tema_u)</td>
     </tr>
-    <tr>
-        <td>Hydroxymidazolam (c_homi_u)</td>
-    </tr>
-    <tr>
-        <td>Alphahydroxyalprazolam (c_aha_u)</td>
-    </tr>
-    <tr>
-        <td>2hydroxyethylflurazepam (c_2hef_u)</td>
-    </tr>
-    <tr>
-        <td>7Aminoclonazepam (c_7ac_u)</td>
-    </tr>
-    <tr>
-        <td>7Aminoflunitrazepam (c_7af_u)</td>
-    </tr>
-    <tr>
-        <td>7Aminonitrazepam (c_7an_u)</td>
-    </tr>
-    <tr>
-        <td>Alphahydroxytriazolam (c_aht_u)</td>
-    </tr>
-    <tr>
-        <td>Lorazepam (c_lor_u)</td>
-    </tr>
+    <tr><td>Hydroxymidazolam (c_homi_u)</td></tr>
+    <tr><td>Alphahydroxyalprazolam (c_aha_u)</td></tr>
+    <tr><td>2hydroxyethylflurazepam (c_2hef_u)</td></tr>
+    <tr><td>7Aminoclonazepam (c_7ac_u)</td></tr>
+    <tr><td>7Aminoflunitrazepam (c_7af_u)</td></tr>
+    <tr><td>7Aminonitrazepam (c_7an_u)</td></tr>
+    <tr><td>Alphahydroxytriazolam (c_aht_u)</td></tr>
+    <tr><td>Lorazepam (c_lor_u)</td></tr>
     <tr>
         <td colspan="1" rowspan="20">
-            <div>opioids<br /> (c_any_opioid_u)</div>
+            <div>opioids (c_any_opioid_u)</div>
         </td>
         <td colspan="1" rowspan="5">
-            <div>opi <br /> (s_opi_u)</div>
+            <div>opi (s_opi_u)</div>
         </td>
-        <td>Codeine (c_cod_u)</td>
-    </tr>
+        <td>Codeine (c_cod_u)</td></tr>
+    <tr><td>Morphine (c_mor_u)</td></tr>
+    <tr><td>MAM (c_mam_u)</td></tr>
+    <tr><td>Hydrocodone (c_hydroc_u)</td></tr>
+    <tr><td>Hydromorphone (c_hydrom_u)</td></tr>
     <tr>
-        <td>Morphine (c_mor_u)</td>
-    </tr>
+        <td colspan="1" rowspan="2"><div>mtd (s_mtd_u)</div></td>
+        <td>Methadone (c_mtd_u)</td></tr>
     <tr>
-        <td>MAM (c_mam_u)</td>
-    </tr>
-    <tr>
-        <td>Hydrocodone (c_hydroc_u)</td>
-    </tr>
-    <tr>
-        <td>Hydromorphone (c_hydrom_u)</td>
-    </tr>
-    <tr>
-        <td colspan="1" rowspan="2">
-            <div>mtd <br /> (s_mtd_u)</div>
-        </td>
-        <td>Methadone (c_mtd_u)</td>
-    </tr>
-    <tr>
-        <td>EDDP (c_eddp_u)</td>
-    </tr>
+    <td>EDDP (c_eddp_u)</td></tr>
     <tr>
         <td>ppx <br /> (s_ppx_u)</td>
         <td>Norpropoxyphene (c_nppx_u)</td>
     </tr>
     <tr>
         <td colspan="1" rowspan="2">
-            <div>oxyc <br /> (s_oxyc_u)</div>
+            <div>oxyc (s_oxyc_u)</div>
         </td>
         <td>Oxycodone (c_oxyc_u)</td>
     </tr>
@@ -1272,29 +1242,26 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
         <td>Normeperidine (c_nmep_u)</td>
     </tr>
     <tr>
-        <td>tram <br /> (s_tram_u)</td>
+        <td>tram (s_tram_u)</td>
         <td>Tramadol (c_tram_u)</td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="3">
-            <div>fent <br /> (s_fent_u)</div>
-        </td>
+        <td colspan="1" rowspan="3"><div>fent (s_fent_u)</div></td>
         <td>Fentanyl (c_fent_u)</td>
     </tr>
     <tr>
-        <td>Norfentanyl (c_nfent_u)</td>
-    </tr>
+        <td>Norfentanyl (c_nfent_u)</td></tr>
     <tr><td>Alfentanil (c_afent_u)</td></tr>
     <tr>
         <td colspan="1" rowspan="2">
-            <div>suf <br /> (s_suf_u)</div>
+            <div>suf (s_suf_u)</div>
         </td>
         <td>Norsufentanil (c_nsuf_u)</td>
     </tr>
     <tr><td>Sufentanil (c_suf_u)</td></tr>
     <tr>
         <td colspan="1" rowspan="2">
-            <div>bup <br /> (s_bup_u)</div>
+            <div>bup (s_bup_u)</div>
         </td>
         <td>Buprenorphine (c_bup_u)</td>
     </tr>
@@ -1308,27 +1275,21 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
         </td>
         <td>Carisoprodol (c_crs_u)</td>
     </tr>
+    <tr><td>Meprobamate (c_mepb_u)</td></tr>
     <tr>
-        <td>Meprobamate (c_mepb_u)</td>
-    </tr>
-    <tr>
+        <td colspan="1" rowspan="2"><div>ethanol (c_ethanol_u)</div></td>
         <td colspan="1" rowspan="2">
-            <div>ethanol <br /> (c_ethanol_u)</div>
-        </td>
-        <td colspan="1" rowspan="2">
-            <div>etgeia <br /> (s_etgeia_u)</div>
+            <div>etgeia (s_etgeia_u)</div>
         </td>
         <td>EthylGluc-0100 (c_ethglu_u0)</td>
     </tr>
-    <tr>
-        <td>EthylSul-100 (c_ethsyl_u)</td>
-    </tr>
+    <tr><td>EthylSul-100 (c_ethsyl_u)</td></tr>
     <tr>
         <td colspan="1" rowspan="2">
-            <div>sedative <br /> (c_sedative_u)</div>
+            <div>sedative (c_sedative_u)</div>
         </td>
         <td colspan="1" rowspan="2">
-            <div>zol <br /> (s_zol_u)</div>
+            <div>zol (s_zol_u)</div>
         </td>
         <td>Zolpidem (c_zol_u0)</td>
     </tr>
@@ -1336,19 +1297,13 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
         <td>Zolpidem CA (c_zolc_u)</td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="3">
-            <div>dissociative anesthetic<br />(c_disanesth_u)</div>
-        </td>
-        <td colspan="1" rowspan="2">
-            <div>ket <br /> (s_ket_u)</div>
-        </td>
+        <td colspan="1" rowspan="3"><div>dissociative anesthetic<br />(c_disanesth_u)</div></td>
+        <td colspan="1" rowspan="2"><div>ket (s_ket_u)</div></td>
         <td>Ketamine (c_ket_u)</td>
     </tr>
+    <tr><td>Norketamine (c_nket_u)</td></tr>
     <tr>
-        <td>Norketamine (c_nket_u)</td>
-    </tr>
-    <tr>
-        <td>pcp <br /> (s_pcp_u)</td>
+        <td>pcp (s_pcp_u)</td>
         <td>Phencyclidine (c_pcp_u)</td>
     </tr>
     <tr>
@@ -1359,7 +1314,6 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
     </tbody>
 </table>
 </div>
-</p>  
 
 ## References
 <div class="references">

@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Collapsible content: toggles open class AND rotate class to ON when arrow is clicked to expand/collapse the section.
 function toggleCollapse(element) {
   const collapsibleContent = element.nextElementSibling;
-  const arrow = element.querySelector(['.arrow', '.notification-arrow']);
+  const arrow = element.querySelector(['.arrow', '.notification-arrow', '.table-arrow']);
 
   if (collapsibleContent.classList.contains('open')) {
     collapsibleContent.classList.remove('open');
@@ -26,9 +26,11 @@ function toggleCollapse(element) {
 // Utility function to expand a collapsible section by ID
 function expandCollapsibleById(id) {
   const element = document.getElementById(id);
-  if (element && element.classList.contains('notification-banner')) {
+  
+  if (element && (element.classList.contains('notification-banner') || 
+                  element.classList.contains('table-banner'))) {
     const collapsibleContent = element.nextElementSibling;
-    const arrow = element.querySelector(['.arrow', '.notification-arrow']);
+    const arrow = element.querySelector(['.arrow', '.notification-arrow', '.table-arrow']);
 
     if (collapsibleContent && !collapsibleContent.classList.contains('open')) {
       collapsibleContent.classList.add('open');
