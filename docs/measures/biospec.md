@@ -624,7 +624,7 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
 <img src="../../images/biospec/Table1_biospec_urine.png" width="90%" height="auto">
 
 #### Assay Details
-Based on the predefined thresholds ([Table 1](#urine-table1)), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid ([Table 2](#urine-table2)). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs).
+Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) is determined to be positive, negative, or invalid ([Table 2](#urine-table2)). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs).
 
 <div id="urine-table1" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Table 1. Urine Assay Thresholds for Analytes</span>
@@ -1168,7 +1168,7 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
     </tr>
     <tr>
         <td colspan="1" rowspan="5">
-            <div>barbiturate<br /> (c_any_barb_u)</div>
+            <div>barbiturate (c_any_barb_u)</div>
         </td>
         <td colspan="1" rowspan="5">
             <div>bar (s_bar_u)</div>
@@ -1188,12 +1188,8 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
         </td>
         <td>Oxazepam (c_oxaz_u)</td>
     </tr>
-    <tr>
-        <td>Nordiazepam (c_nord_u)</td>
-    </tr>
-    <tr>
-        <td>Temazepam (c_tema_u)</td>
-    </tr>
+    <tr><td>Nordiazepam (c_nord_u)</td></tr>
+    <tr><td>Temazepam (c_tema_u)</td></tr>
     <tr><td>Hydroxymidazolam (c_homi_u)</td></tr>
     <tr><td>Alphahydroxyalprazolam (c_aha_u)</td></tr>
     <tr><td>2hydroxyethylflurazepam (c_2hef_u)</td></tr>
@@ -1220,7 +1216,7 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
     <tr>
     <td>EDDP (c_eddp_u)</td></tr>
     <tr>
-        <td>ppx <br /> (s_ppx_u)</td>
+        <td>ppx (s_ppx_u)</td>
         <td>Norpropoxyphene (c_nppx_u)</td>
     </tr>
     <tr>
@@ -1234,13 +1230,11 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
     </tr>
     <tr>
         <td colspan="1" rowspan="2">
-            <div>mep <br /> (s_mep_u)</div>
+            <div>mep (s_mep_u)</div>
         </td>
         <td>Meperidinem (c_mep_u)</td>
     </tr>
-    <tr>
-        <td>Normeperidine (c_nmep_u)</td>
-    </tr>
+    <tr><td>Normeperidine (c_nmep_u)</td></tr>
     <tr>
         <td>tram (s_tram_u)</td>
         <td>Tramadol (c_tram_u)</td>
@@ -1253,9 +1247,7 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
         <td>Norfentanyl (c_nfent_u)</td></tr>
     <tr><td>Alfentanil (c_afent_u)</td></tr>
     <tr>
-        <td colspan="1" rowspan="2">
-            <div>suf (s_suf_u)</div>
-        </td>
+        <td colspan="1" rowspan="2"><div>suf (s_suf_u)</div></td>
         <td>Norsufentanil (c_nsuf_u)</td>
     </tr>
     <tr><td>Sufentanil (c_suf_u)</td></tr>
@@ -1268,10 +1260,10 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
     <tr><td>Norbuprenorpine (c_nbup_u)</td></tr>
     <tr>
         <td colspan="1" rowspan="2">
-            <div>muscle relaxant<br />(c_any_mscrlx_u)</div>
+            <div>muscle relaxant<br>(c_any_mscrlx_u)</div>
         </td>
         <td colspan="1" rowspan="2">
-            <div>crs <br /> (s_crs_u)</div>
+            <div>crs (s_crs_u)</div>
         </td>
         <td>Carisoprodol (c_crs_u)</td>
     </tr>
@@ -1302,12 +1294,9 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
         <td>Ketamine (c_ket_u)</td>
     </tr>
     <tr><td>Norketamine (c_nket_u)</td></tr>
-    <tr>
-        <td>pcp (s_pcp_u)</td>
-        <td>Phencyclidine (c_pcp_u)</td>
-    </tr>
-    <tr>
-        <td>nicotine (c_nicotine_u)</td>
+    <tr><td>pcp (s_pcp_u)</td>
+    <td>Phencyclidine (c_pcp_u)</td></tr>
+    <tr><td>nicotine (c_nicotine_u)</td>
         <td>&nbsp;</td>
         <td>Cotinine (c_cot_u)</td>
     </tr>
