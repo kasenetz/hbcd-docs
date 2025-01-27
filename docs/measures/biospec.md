@@ -1,5 +1,31 @@
 # Biospecimens & Omics
 
+<div id="nails-table1" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 1. Nail Assay Thresholds</span>
+  <span class="table-arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
+  <table class="docutils" style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th style="width: 25%; word-wrap: break-word; white-space: normal;">Analyte</th>
+        <th style="width: 25%;">LOD (pg/mL)</th>
+        <th style="width: 25%;">LOQ (pg/mL)</th>
+        <th style="width: 25%;">Cutoff (pg/mL)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Cotinine<b>**</b></td>
+        <td>34</td>
+        <td>34</td>
+        <td>500</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
 ## Biospecimen Screens
 The current data release includes the following Biospecimen toxicology screens:
 
@@ -642,6 +668,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
 </div>
 <div class="table-collapsible-content">
 <table class="docutils">
+<tfoot><tr><td colspan="5"><i><b>**</b> Based on DRI® Cotinine assay for the qualitative and semiquantitative determination of Cotinine</i></td></tr></tfoot>
 <thead>
       <tr>
         <th>Analyte</th>
@@ -709,7 +736,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
         <td>No consensus</td>
     </tr>
         <tr>
-        <td>Cotinine*</td>
+        <td>Cotinine<b>**</b></td>
         <td>34</td>
         <td>34</td>
         <td>500</td>
@@ -1045,8 +1072,6 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
     </tr>
 </tbody>
 </table>
-<i>*Based on DRI® Cotinine assay for the qualitative and semiquantitative determination of Cotinine</i><br>
-<i>LOD: limit of detection; LOQ: limit of quantification: Cutoff concentration used to categorize metabolite as positive/negative</i>
 </div>
 
 

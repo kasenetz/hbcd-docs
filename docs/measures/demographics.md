@@ -66,14 +66,13 @@ Below are alterations made to demographic constructs, informed by the HBCD Socia
 QC was performed by monitoring the data dashboard for variable missingness and data consistency. The only common QC issue noted was high missingness for income, although this is in line with expectations. 
 
 ## Demographic Protocol Sources & DEI Modifications
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">Table 1. Demographics of Birth Parent</span>
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 1. Demographics of Birth Parent</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<p>
 <table class="docutils">
+<tfoot><tr><td style="width: 300px; word-wrap: break-word; white-space: normal;" colspan="3"><b>ABCD</b>: Adolescent Brain Child Development Study; <b>BFY</b>: Baby's First Years; <b>BRFSS</b>: Behavioral Risk Factor Surveillance System; <b>ECHO</b>: Environmental Influences On Child Health Outcomes; <b>OMB</b>: Office of Management & Budget</td></tr></tfoot>
     <thead>
       <tr>
         <th>Construct</th>
@@ -180,26 +179,17 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 		<td>BFY**</td>
 		<td>Year 1 Protocol - G39, SchedMain</td>
 	</tr>
-    </tbody>
+  </tbody>
   </table>
-<small>   
-<b>ABCD</b>- Adolescent Brain Child Development Study; <b>BFY</b>- Baby's First Years; <b>BRFSS</b>- Behavioral Risk Factor Surveillance System; <b>ECHO</b>- Environmental Influences On Child Health Outcomes; <b>OMB</b>- Office of Management & Budget
-</small>
-</p>
 </div>
-</p>
 
-
-
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">Table 2. Demographics of Other Biological Parent</span>
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 2. Demographics of Other Biological Parent</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<p>
 <table class="docutils">
+<tfoot><tr><td colspan="3"><b>OMB</b>: Office of Management & Budget</td></tr></tfoot>
 <thead>
     <tr>
     <th>Construct</th>
@@ -261,12 +251,7 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 </tr>
 </tbody>
 </table>
-<small>   
-<b>OMB</b>- Office of Management & Budget<br> 
-</small>
-</p>
 </div>
-</p>
 
 ## References
 <div class="references">
