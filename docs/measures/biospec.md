@@ -641,18 +641,18 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
-<table class="docutils">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
 <tfoot><tr><td colspan="5"><i><b>**</b> Based on DRI® Cotinine assay for the qualitative and semiquantitative determination of Cotinine</i></td></tr></tfoot>
 <thead>
       <tr>
-        <th>Analyte</th>
-        <th>LOD<br />(ng/mL)</th>
-        <th>LOQ<br />(ng/mL)</th>
-        <th>Cutoff<br />(ng/mL)</th>
-        <th>Detection Window</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Analyte</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">LOD (ng/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">LOQ (ng/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Cutoff (ng/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Detection Window</th>
       </tr>
 </thead>
-    <tbody>
+<tbody>
     <tr>
         <td>Amphetamine</td>
         <td>50</td>
@@ -693,7 +693,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
         <td>3</td>
         <td>7.5</td>
         <td>15</td>
-        <td style="width: 200px; word-wrap: break-word; white-space: normal;">2-5 days for casual use; 10-14 for chronic use</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">2-5 days for casual use; 10-14 for chronic use</td>
     </tr>
     <tr>
         <td>Carboxy-delta-8-THC</td>
@@ -997,24 +997,25 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
         <td>2-3 days</td>
     </tr>
 </tbody>
-  <br>
-  <table class="docutils" style="width: 100%;">
-    <thead>
-      <tr>
-        <th>Analyte</th>
-        <th>LOD (pg/mL)</th>
-        <th>LOQ (pg/mL)</th>
-        <th>Cutoff (pg/mL)</th>
-        <th>Detection Window</th>
-      </tr>
-    </thead>
-    <tbody>
+</table>
+<br>
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<thead>
+    <tr>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Analyte</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">LOD (pg/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">LOQ (pg/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Cutoff (pg/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Detection Window</th>
+    </tr>
+</thead>
+<tbody>
     <tr>
         <td>Fentanyl</td>
-        <td>40</td>
-        <td>40</td>
-        <td>100</td>
-        <td>2-3 days</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">40</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">40</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">100</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">2-3 days</td>
     </tr>
     <tr>
         <td>Norfentanyl</td>
@@ -1054,13 +1055,13 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
-<table class="docutils">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
     <thead>
       <tr>
-        <th>Variable</th>
-        <th>Description</th>
-        <th>Form</th>
-        <th>Options</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Variable</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Description</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Form</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Options</th>
        </tr>
     </thead>
     <tbody>
@@ -1080,31 +1081,41 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
         <td>Visit_time_point</td>
         <td>Visit time point</td>
         <td>Categorical</td>
-        <td>1: visit 1<br />2: visit 2</td>
+        <td>1: visit 1</li>
+        <li>2: visit 2</li></td>
     </tr>
     <tr>
         <td>c_any_specimen_u</td>
         <td style="width: 200px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
         <td>Categorical</td>
-        <td>1: positive<br />0: negative<br />3: invalid</td>
+        <td><li>1: positive</li>
+        <li>0: negative</li>
+        <li>3: invalid</li></td>
     </tr>
     <tr>
         <td>c_any_stim_u</td>
         <td style="width: 200px; word-wrap: break-word; white-space: normal;">Any stimulants in urine (based on confirmatory results for amphetamine, methamphetamine, MDM, MDA, MDEA, benzoylecgonine)</td>
         <td>Categorical</td>
-        <td>1: positive<br />0: negative<br />3: invalid</td>
+        <td><li>1: positive</li>
+        <li>0: negative</li>
+        <li>3: invalid</li></td>
     </tr>
     <tr>
         <td>s_amp_u</td>
         <td style="width: 200px; word-wrap: break-word; white-space: normal;">Screening test in urine: amphetamines (amp)</td>
         <td>Categorical</td>
-        <td>1: positive<br />0: negative<br />3: invalid</td>
+        <td><li>1: positive</li>
+        <li>0: negative</li>
+        <li>3: invalid</li></td>
     </tr>
     <tr>
         <td>c_amp_u_cat</td>
         <td style="width: 200px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (categorical) (amp)</td>
         <td>Categorical</td>
-        <td>1: positive<br />0: negative<br />3: cancelled<br />4: screen negative</td>
+        <td><li>1: positive</li>
+        <li>0: negative</li>
+        <li>3: cancelled</li>
+        <li>4: screen negative</li></td>
     </tr>
     <tr>
         <td>c_amp_u</td>
@@ -1123,12 +1134,12 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
-<table class="docutils">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
     <thead>
       <tr>
-        <th>Class</th>
-        <th>Screening Test</th>
-        <th>Confirmatory Test (positive screen reflex)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Class</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Screening Test</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Confirmatory Test (positive screen reflex)</th>
       </tr>
     </thead>
     <tbody>
@@ -1161,8 +1172,8 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
         <td>Benzoylecgonine (c_ben_u)</td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="3">
-            <div>cannabinoid<br /> (c_any_cannabinoid_u)</div>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;" colspan="1" rowspan="3">
+            <div>cannabinoid (c_any_cannabinoid_u)</div>
         </td>
         <td colspan="1" rowspan="3">
             <div>thc (s_thc_u)</div>
@@ -1189,8 +1200,8 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
     <tr><td>Phenobarbital (c_phenobarb_u)</td></tr>
     <tr><td>Butalbital (c_butalbital_u)</td></tr>
     <tr>
-        <td colspan="1" rowspan="11">
-            <div>benzodiazepine<br /> (c_any_benzo_u)</div>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;" colspan="1" rowspan="11">
+            <div>benzodiazepine (c_any_benzo_u)</div>
         </td>
         <td colspan="1" rowspan="11">
             <div>benz (s_benz_u)</div>
@@ -1268,8 +1279,8 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
     </tr>
     <tr><td>Norbuprenorpine (c_nbup_u)</td></tr>
     <tr>
-        <td colspan="1" rowspan="2">
-            <div>muscle relaxant<br>(c_any_mscrlx_u)</div>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;" colspan="1" rowspan="2">
+            <div>muscle relaxant (c_any_mscrlx_u)</div>
         </td>
         <td colspan="1" rowspan="2">
             <div>crs (s_crs_u)</div>
@@ -1298,7 +1309,7 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
         <td>Zolpidem CA (c_zolc_u)</td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="3"><div>dissociative anesthetic<br />(c_disanesth_u)</div></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;" colspan="1" rowspan="3"><div>dissociative anesthetic (c_disanesth_u)</div></td>
         <td colspan="1" rowspan="2"><div>ket (s_ket_u)</div></td>
         <td>Ketamine (c_ket_u)</td>
     </tr>
@@ -1309,7 +1320,7 @@ The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are corre
         <td>&nbsp;</td>
         <td>Cotinine (c_cot_u)</td>
     </tr>
-    </tbody>
+</tbody>
 </table>
 </div>
 

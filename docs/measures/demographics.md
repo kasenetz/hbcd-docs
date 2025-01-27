@@ -176,7 +176,7 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 	</tr>
 	<tr>
 		<td>Jobs During Pregnancy - Shift Schedule</td>
-		<td>BFY**</td>
+		<td>BFY</td>
 		<td>Year 1 Protocol - G39, SchedMain</td>
 	</tr>
   </tbody>
