@@ -998,7 +998,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
     </tr>
 </tbody>
 </table>
-<br>
+
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
 <thead>
     <tr>
@@ -1012,10 +1012,10 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
 <tbody>
     <tr>
         <td>Fentanyl</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">40</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">40</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">100</td>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">2-3 days</td>
+        <td>40</td>
+        <td>40</td>
+        <td>100</td>
+        <td>2-3 days</td>
     </tr>
     <tr>
         <td>Norfentanyl</td>
