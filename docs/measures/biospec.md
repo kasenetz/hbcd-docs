@@ -57,6 +57,18 @@ The current data release includes the following toxicology screens collected fro
 QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were observed from QC.
 
 ## Instrument Details
+<p>
+<div id="biospec-warning" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text">Data Warning</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p>For all toxicology screens, continuous variables should be interpreted with cautiong based on the threshold limits of quantification (LOQs), or the cutoff concentration used to categorize metabolites as positive or negative. LOQs are provided in <a href="#nails-table1">Table 1. Nail Assay Thresholds</a> and <a href="#urine-table1">Table 1. Urine Assay Thresholds for Analytes</a>.</p> 
+</div>
+</p>
 
 ### NAILS
 <p>
@@ -69,8 +81,6 @@ QC procedures involved examining assay ranges and categorical versus continuous 
 <div class="collapsible-content">
 <br>
 <p>On July 1, 2024, the nail processing workflow was updated to optimize specimen use and enable confirmation testing for low sample quantities as described below. Data collected this point therefore does not use the remnant of ELISA extract for confirmation for specimens with too little sample.</p> 
-
-<p>In addition, continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs), or the cutoff concentration used to categorize metabolite as positive or negative (see <a href="#nails-table1">Table 1 Nail Assay Thresholds</a>).</p>
 </div>
 </p>
 
@@ -80,7 +90,7 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 
 
 #### USDTL Assay Details
-Based on the predefined threshold outlined in [Table 1](#nails-table1), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (*QNS* i.e. *quantity not sufficient*) ([Table 2](#nails-table2)). With the exception of Ethyl glucuronide (finger nails: 3 months; toe nails: no consensus), the window of detection for all analytes is 3-6 and 10-14 months for finger and toe nails, respectively. Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs), the cutoff concentration used to categorize metabolite as positive/negative.
+Based on the predefined threshold outlined in [Table 1](#nails-table1), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (*QNS* i.e. *quantity not sufficient*) ([Table 2](#nails-table2)). With the exception of Ethyl glucuronide (finger nails: 3 months; toe nails: no consensus), the window of detection for all analytes is 3-6 and 10-14 months for finger and toe nails, respectively.
 
 <p>
 <div id="nails-table1" class="table-banner" onclick="toggleCollapse(this)">
@@ -613,7 +623,7 @@ Based on the confirmatory test (i.e. reflexes from positive screening test) resu
 </div>
 <div class="collapsible-content">
 <br>
-<p>Only the initial creatinine results from sample validation are included in the data release: creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds. Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs).</p> 
+<p>Only the initial creatinine results from sample validation are included in the data release: creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds.</p> 
 </div>
 </p>
 
@@ -624,7 +634,7 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
 <img src="../../images/biospec/Table1_biospec_urine.png" width="90%" height="auto">
 
 #### Assay Details
-Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) is determined to be positive, negative, or invalid ([Table 2](#urine-table2)). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs).
+Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) is determined to be positive, negative, or invalid ([Table 2](#urine-table2)). 
 
 <div id="urine-table1" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Table 1. Urine Assay Thresholds for Analytes</span>
