@@ -125,8 +125,7 @@ This highly sensitive screening tool adapted for HBCD is designed for community 
 
 ![](images/DSM-5Level2Cross-CuttingSymptomMeasures.png)
 
-**Level 1** includes 1-2 questions for each of thirteen mental health conditions. If symptoms are reported in Level 1, participants answer questions about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems (see scoring procedures [here](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf)). 
-
+**Level 1** includes 1-2 questions for each of thirteen mental health conditions. If symptoms are reported in Level 1, participants answer questions about additional symptoms associated with each mental health condition, including anger, anxiety, depression, mania, repetitive thoughts, and sleep problems (see scoring procedures [here](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf)). 
 
 **Level 2** measures include all [Level 2 Cross-Cutting Symptom Measures](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures) with the exception of Depression and Sleep Disturbance, for which the **PROMIS Short Forms v1.0** [Depression 8a questionnaire](https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://www.phenxtoolkit.org/toolkit_content/supplemental_info/psychiatric/measures/07_Depressed_Mood.doc&amp;ved=2ahUKEwjyl8-7t_-IAxW7H0QIHcyBJTEQFnoECC8QAQ&amp;usg=AOvVaw1dPWhSyXkbVCQ3BgmjwAtC) and [Sleep Disturbance 8a](https://heal.nih.gov/files/CDEs/2024-07/promis-sleep-disturbance-8a-crf.pdf) were used instead (see Sleep Disturbance scoring procedures [here](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Sleep_Scoring_Manual.pdf))
 
@@ -144,7 +143,7 @@ Additional modifications are described below. Future publications should be sure
 <div class="notification-collapsible-content">
 <br>
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Excluded Questions and Gating</b></p>
-<p>Modifications were made to adjust to the study population as well as remove items addressed in other measures. This included removing Level 1 questions related to personality functioning and Level 1-2 substance use, allowing automatic progression to LEVEL 2-Repetitive Thoughts and Behaviors—Adult. Similarly, gates for 'Somatic Symptoms' were removed, enabling direct progression to LEVEL 2—Somatic Symptom—Adult.</p>
+<p>Slight modifications were made due to the use of other measures and the study population. Specifically, the Level 1 questions for substance use were not included. Also, participants proceed automatically to level 2 measures for personality inventory and somatic symptoms. In addition, all participants answer the level 1 questions on depression, but proceed to level 2 questions irrespective of answers.</p>
 
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Clinical Alerts</b></p>
 <p>For HBCD, this measure was modified to alert study staff if responses to the APA suicide question ('Thoughts of actually hurting yourself?') or APA depression question (ranging from 'I felt worthless' to 'I felt that nothing could cheer me up') exceed thresholds of 0 and 32, respectively.</p>
