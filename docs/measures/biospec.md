@@ -92,22 +92,21 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 #### USDTL Assay Details
 Based on the predefined threshold outlined in [Table 1](#nails-table1), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (*QNS* i.e. *quantity not sufficient*) ([Table 2](#nails-table2)). With the exception of Ethyl glucuronide (finger nails: 3 months; toe nails: no consensus), the window of detection for all analytes is 3-6 and 10-14 months for finger and toe nails, respectively.
 
+<li><b class="blue-text">LOD</b> / <b class="blue-text">LOQ</b> = limit of detection / quantification</li>
+
 <p>
 <div id="nails-table1" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Table 1. Nail Assay Thresholds</span>
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
-<br>
-<li><b class="blue-text">LOD</b> / <b class="blue-text">LOQ</b> = limit of detection / quantification</li>
-<br>
-<table class="docutils">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
     <thead>
       <tr>
-        <th style="width: 180px; word-wrap: break-word; white-space: normal;">Analyte</th>
-        <th>LOD (pg/mL)</th>
-        <th>LOQ (pg/mL)</th>
-        <th>Cutoff (pg/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Analyte</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">LOD (pg/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">LOQ (pg/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Cutoff (pg/mL)</th>
       </tr>
     </thead>
     <tbody>
@@ -392,7 +391,7 @@ Based on the predefined threshold outlined in [Table 1](#nails-table1), a confir
         <td>20</td>
         <td>40</td>
         <td>100</td>
-</tr>
+    </tr>
 </tbody>
 </table>
 </div>
@@ -402,8 +401,7 @@ Based on the predefined threshold outlined in [Table 1](#nails-table1), a confir
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
-<br>
-<table class="docutils">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
     <thead>
       <tr>
         <th>Variable</th>
@@ -433,7 +431,7 @@ Based on the predefined threshold outlined in [Table 1](#nails-table1), a confir
     </tr>
     <tr>
         <td>Nail_weight</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Weight of nails available to assay</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Weight of nails available to assay</td>
         <td>Continuous</td>
         <td>nail weight (grams)</td>
     </tr>
@@ -447,41 +445,41 @@ Based on the predefined threshold outlined in [Table 1](#nails-table1), a confir
         <td>test_ordered_n</td>
         <td>Test ordered</td>
         <td>Categorical</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">1: custom 14 panel test<br />2: Only enough to run EtG<br />3: Canceled because we could not run anything (no results generated)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">1: custom 14 panel test<br />2: Only enough to run EtG<br />3: Canceled because we could not run anything (no results generated)</td>
     </tr>
     <tr>
         <td>c_any_specimen_n</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
         <td>Categorical</td>
         <td>1: positive<br />0: negative<br />3: QNS</td>
     </tr>
     <tr>
         <td>c_any_stim_n</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Any stimulants in nails (based on confirmatory results for amphetamine, methamptheamine, MDM, MDA, MDEA)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Any stimulants in nails (based on confirmatory results for amphetamine, methamptheamine, MDM, MDA, MDEA)</td>
         <td>Categorical</td>
         <td>1: positive<br />0: negative<br />3: QNS</td>
     </tr>
     <tr>
         <td>s_amp_n</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Screening test in nails: amphetamine/MDA dual test (amp/mamp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Screening test in nails: amphetamine/MDA dual test (amp/mamp)</td>
         <td>Categorical</td>
         <td>1: positive<br />0: negative<br />3: QNS</td>
     </tr>
     <tr>
         <td>s_mamp_n</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Screening test in nails: methamphetamine/MDMA dual test (amp/mamp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Screening test in nails: methamphetamine/MDMA dual test (amp/mamp)</td>
         <td>Categorical</td>
         <td>1: positive<br />0: negative<br />3: QNS</td>
     </tr>
     <tr>
         <td>c_amp_n_cat</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (categorical) (amp/mamp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">>Confirmatory test in nails: amphetamine (categorical) (amp/mamp)</td>
         <td>Categorical</td>
         <td>1: positive<br />0: negative<br />3: QNS<br />4: screen negative</td>
     </tr>
     <tr>
         <td>c_amp_n</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (amp/mamp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (amp/mamp)</td>
         <td>Continuous</td>
         <td>concentration value -999</td>
     </tr>
@@ -497,7 +495,6 @@ Based on the confirmatory test (i.e. reflexes from positive screening test) resu
   <span class="table-arrow">▸</span>
 </div>
 <div class="table-collapsible-content">
-<br>
 <table class="docutils">
 <thead>
 <tr>
@@ -635,6 +632,8 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
 
 #### Assay Details
 Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) is determined to be positive, negative, or invalid ([Table 2](#urine-table2)). 
+
+<p><b class="blue-text">LOD</b> / <b class="blue-text">LOQ</b> = limit of detection / quantification</p>
 
 <div id="urine-table1" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Table 1. Urine Assay Thresholds for Analytes</span>
@@ -996,20 +995,19 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
         <td>50</td>
         <td>2-3 days</td>
     </tr>
-</tbody>
-</table>
-
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-<thead>
     <tr>
+    <td colspan="5"></td>
+</tr>  
+</tbody>
+<thead>
+      <tr>
         <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Analyte</th>
         <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">LOD (pg/mL)</th>
         <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">LOQ (pg/mL)</th>
         <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Cutoff (pg/mL)</th>
         <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Detection Window</th>
-    </tr>
+      </tr>
 </thead>
-<tbody>
     <tr>
         <td>Fentanyl</td>
         <td>40</td>
@@ -1045,7 +1043,6 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
         <td>100</td>
         <td>2-3 days</td>
     </tr>
-</tbody>
 </table>
 </div>
 
@@ -1086,7 +1083,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
     </tr>
     <tr>
         <td>c_any_specimen_u</td>
-        <td style="width: 200px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
         <td>Categorical</td>
         <td><li>1: positive</li>
         <li>0: negative</li>
@@ -1094,7 +1091,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
     </tr>
     <tr>
         <td>c_any_stim_u</td>
-        <td style="width: 200px; word-wrap: break-word; white-space: normal;">Any stimulants in urine (based on confirmatory results for amphetamine, methamphetamine, MDM, MDA, MDEA, benzoylecgonine)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Any stimulants in urine (based on confirmatory results for amphetamine, methamphetamine, MDM, MDA, MDEA, benzoylecgonine)</td>
         <td>Categorical</td>
         <td><li>1: positive</li>
         <li>0: negative</li>
@@ -1102,7 +1099,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
     </tr>
     <tr>
         <td>s_amp_u</td>
-        <td style="width: 200px; word-wrap: break-word; white-space: normal;">Screening test in urine: amphetamines (amp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Screening test in urine: amphetamines (amp)</td>
         <td>Categorical</td>
         <td><li>1: positive</li>
         <li>0: negative</li>
@@ -1110,7 +1107,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
     </tr>
     <tr>
         <td>c_amp_u_cat</td>
-        <td style="width: 200px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (categorical) (amp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (categorical) (amp)</td>
         <td>Categorical</td>
         <td><li>1: positive</li>
         <li>0: negative</li>
@@ -1119,7 +1116,7 @@ Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test r
     </tr>
     <tr>
         <td>c_amp_u</td>
-        <td style="width: 200px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (amp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (amp)</td>
         <td>Continuous</td>
         <td>concentration value; -999</td>
     </tr>
