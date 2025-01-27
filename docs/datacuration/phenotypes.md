@@ -30,7 +30,7 @@ bids/
 <p>
 <div id="age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Fields Reporting Age</span>
+  <span class="text">Instrument Data: Fields Reporting Age</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

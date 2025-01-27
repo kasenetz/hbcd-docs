@@ -27,11 +27,27 @@ In a large infant study, missing data is common, leading to variations in the nu
 ## Participant-, Session-, & Scan-Level Data
 Participant-, session-, and scan-level data is captured by `participants.tsv`, `sessions.tsv`, and `scans.tsv` files respectively, each accompanied by `json` files with column descriptions and field definitions. Each is explained in detail in the following sections.
 
+<p>
+<div id="age" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Raw BIDS Data: Fields Reporting Age</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<li>
+<p><i>Age is reported with the following fields in the <code>sessions.tsv</code> and <code>scans.tsv</code> files:</i></p>
+<p><b>Gestational Age at Administration</b> (<code>gestational_age</code> reported in days): During the prenatal period, gestational age at administration (GAA) refers to the time elapsed between the expected due date (EDD, used as a proxy for the time of conception, or the first day of the mother's last menstrual period (LMP)) and the date of administration of the instrument. Note that GAA can be negative for instruments administered before the EDD.</p> 
+<p><b>Candidate Age at Administration</b> (<code>age</code>, reported in years with precision to 3 decimal places): This is the time elapsed between birth (based on a birthdate measure jittered up to 7 days to mitigate identification risks) and the date of instrument administration. For a given participant and visit, candidate age will vary by no more than 0.082 years (equivalent to 30 days) across all protocol elements. For visit V01, candidate age is recorded as "n/a" because this data corresponds to the prenatal period. The decision to report age in years, rather than months, ensures consistency with how this variable will be reported at later developmental stages (e.g., toddlerhood and childhood). Reporting in years with three decimal places provides greater precision, compensating for the adjusted birthdate and yielding values closer to the actual age than reporting in years and months.</p>
+</li>
+</div>
+</p>
+
 ### Participant-Level Data
 Participant-level data is stored in the `participants.tsv` file. This file includes information such as participant sex. Descriptions of the `tsv` column names and their properties are provided in the accompanying `participants.json` sidecar file.
 
 ### Session-Level Data
-Session-level data is stored in the `sessions.tsv` file within the subject folder. This file provides details on the various sessions acquired for the participant, including the collection site, the participant’s age and gestational age at each session, and head size. *Note: age measures are computed based on a birthdate measure that is jittered up to 7 days.*
+Session-level data is stored in the `sessions.tsv` file within the subject folder. This file provides details on the various sessions acquired for the participant, including the collection site, the participant’s age and gestational age at each session, and head size.
 
 ### Scan-Level Data
 The `scans.tsv` file provided per session includes a variety of participant information as well as quality control (QC) metrics derived from raw data QC procedures (see [HBCD MR Quality Control Procedures](../measures/mri/qc.md)). The main QC score field, `QC`, is the overall manual QC score and will be a value of either 1 (pass) or 0 (fail). As a reminder, only a portion of data is selected for manual review: scans that underwent only automated QC will have have a `QC` value of 1. 
