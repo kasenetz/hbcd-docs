@@ -96,19 +96,14 @@ The HBCD FAM MH assesses self-reported diagnoses and mental health conditions of
 <div class="notification-collapsible-content">
 <br>
 <p style="margin-bottom: 0; padding-bottom: 0;"><u>FHAM</u></p>
+<p style="margin-bottom: 0; padding-bottom: 0;">FHAM items excluded from HBCD measure:</p>
     <ul>
-      <li>FHAM items excluded from HBCD measure:
-          <ul>
-              <li>Items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder</li>
-              <li>'Trouble With Law’ and ‘Nervous Breakdown’</li>
-          </ul>
-      </li>
-      <li>Original response options including 'parents', 'grandparents', 'siblings', 'aunts', 'uncles', and 'cousins' were modified to include only biological mom, dad and grandparents</li>
+        <li>Items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder</li>
+        <li>'Trouble With Law’ and ‘Nervous Breakdown’</li>
     </ul>
+    <p style="margin-bottom: 0; padding-bottom: 0;">Original response options including 'parents', 'grandparents', 'siblings', 'aunts', 'uncles', and 'cousins' were modified to include only biological mom, dad and grandparents</p>
 <p style="margin-bottom: 0; padding-bottom: 0;"><u>All of Us</u></p>
-<ul>
   <li>Original response options including 'mom', 'dad', 'sibling', 'daughter', 'son', and 'grandparent' were modified to include only biological mom and dad</li>
-</ul>
 </div>
 </p>
 

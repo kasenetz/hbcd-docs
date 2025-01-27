@@ -1,31 +1,5 @@
 # Biospecimens & Omics
 
-<div id="nails-table1" class="table-banner" onclick="toggleCollapse(this)">
-  <span class="table-text">Table 1. Nail Assay Thresholds</span>
-  <span class="table-arrow">▸</span>
-</div>
-<div class="table-collapsible-content">
-  <table class="docutils" style="width: 100%; border-collapse: collapse;">
-    <thead>
-      <tr>
-        <th style="width: 25%; word-wrap: break-word; white-space: normal;">Analyte</th>
-        <th style="width: 25%;">LOD (pg/mL)</th>
-        <th style="width: 25%;">LOQ (pg/mL)</th>
-        <th style="width: 25%;">Cutoff (pg/mL)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Cotinine<b>**</b></td>
-        <td>34</td>
-        <td>34</td>
-        <td>500</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-
 ## Biospecimen Screens
 The current data release includes the following Biospecimen toxicology screens:
 
