@@ -146,7 +146,7 @@
 <div class="notification-collapsible-content">
 <br>
 <li>
-<p>Fields reporting age in the participant-, session-, & scan-level <code>.tsv</code> files provided within the <a href="../datacuration/rawbids">raw BIDS</a> and <a href="../datacuration/phenotypes">phenotype BIDS</a> tabulated data include Maternal Age at V01  (<code>????</code>), Maternal Age at Delivery (<code>?????</code>), Gestational Age at Administration (<code>?????</code>), and Gestational Age at Delivery (<code>?????</code>). Please see the notification under <a href="../datacuration/phenotypes/#age">HBCD BIDS Data &gt; Phenotype</a> for a definition of these fields.</p>
+<p>Fields reporting age in the participant-, session-, & scan-level <code>.tsv</code> files provided within the <a href="../datacuration/rawbids">raw BIDS</a> and <a href="../datacuration/phenotypes">phenotype BIDS</a> tabulated data include Maternal Age at V01  (<code>mother_age_v01</code>), Maternal Age at Delivery (<code>mother_age_delivery</code>), Gestational Age at Delivery (<code>gestational_age_delivery</code>), and Gestational Age at Administration (<code>gestational_age</code>). Please see the notification under <a href="../datacuration/phenotypes/#age">HBCD BIDS Data &gt; Phenotype</a> for a definition of these fields.</p>
 </li>
 </div>
 </p>
@@ -250,22 +250,5 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 <div class="notification-collapsible-content">
 <br>
 <p>Due to the relatively limited brain coverage in dMRI and fMRI acquisitions, the superior or inferior edges of the brain may occasionally fall outside the slice stack, referred to as field of view (FOV) cutoff. In cases where the cutoff is extreme (>30% of the image), the dMRI and fMRI series fail QC and will have a value of 0 in the <code>QC</code> field of <code>scans.tsv</code> (see <a href="#faq-qcrec">this FAQ</a> for details). However, mild (<10%) to moderate (10–30%) FOV cutoff does not lead to QC failure. Brain regions outside of the FOV will have missing values in the tabulated imaging data, but the remaining areas remain usable. Automated post-processing QC metrics provide measurements of superior and inferior FOV cutoff, which researchers use for the exclusion of participants with significant FOV cutoff from analyses. See <a href="../measures/mri/qc/#hbcd-raw-mri-data-qc">HBCD Raw MRI Data QC</a> in the Release Notes for a description of automated and manual quality control procedures for raw imaging data.</p>
-</div>
-</p>
-
-
-<p>
-<div id="age" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Fields Reporting Age</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-<br>
-<li>
-<p><b>Gestational age at administration</b> (<code>gestational_age</code>, reported in days): During the prenatal period, gestational age at administration (GAA) refers to the time elapsed between the jittered expected due date (EDD, used as a proxy for the time of conception, or the first day of the mother's last menstrual period) and the date of administration of the instrument. Note that GAA can be negative for instruments administered before the jittered EDD.</p> 
-<p><b>Gestational age at birth</b> (<code>gestational_age_birth</code>, reported in days): After birth, the gestational age at birth (GAB) represents the time between conception and birth and remains constant.</p> 
-<p><b>Candidate age</b> (<code>candidate_age</code>, reported in years with precision to 3 decimal places): The time elapsed between birth (based on a birthdate measure jittered up to 7 days) and the date of administration of the instrument. Note that V01 candidate age values are recorded as 'n/a' as this data pertains to the prenatal period.</p>
-</li>
 </div>
 </p>
