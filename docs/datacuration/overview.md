@@ -1,25 +1,13 @@
 # Brain Imaging Data Structure (BIDS)
-As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) (BIDS) standard for data organization. At a high level, raw HBCD BIDS data has the folder structure displayed below. The three main folders are:
+As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) (BIDS) standard for data organization. At a high level, raw HBCD BIDS data has the folder structure displayed below. The three main folders are as follows: see linked sections for further details on the contents and folder structure of each.
 
-- [Raw BIDS Data](rawbids.md): imaging, EEG, and motion data organized within subject folders under `raw/` in the root folder
-- [Phenotype BIDS Data](phenotypes.md): tabulated demographic, phenotype, and instrument data for all participants under `phenotype/` in `raw/`
-- [Derivatives](derivatives.md): pre-processed imaging, EEG, and motion data under `derivatives/` in the root folder 
+- [Raw BIDS Data](rawbids.md) (`rawdata/`): raw imaging, EEG, and motion data converted to BIDS
+- [Derivatives](derivatives.md) (`derivatives/`): pre-processed imaging, EEG, and motion data derived from processing pipelines
+- [Phenotype BIDS Data](phenotypes.md) (`phenotype/`): tabulated demographic, biospecimen, and instrument data  
 
 ```
-root/
-|__ raw/ 
-|   |__ phenotype/
-|   |   |__ phenotype.tsv
-|   |   |__ phenotype.json
-|   |   |__ bio_biosample_<nails|urine>.tsv
-|   |   |__ bio_biosample_<nails|urine>.json
-|   |   |__ par_visit_data.tsv
-|   |   |__ par_visit_data.json
-|   |   |__ sed_basic_demographics.tsv
-|   |   |__ sed_basic_demographics.json
-|   |   |__ <instrument_name>.tsv (repeat for all selected instruments)
-|   |   |__ <instrument_name>.json (repeat for all selected instruments)
-|   |
+bids/
+|__ rawdata/ 
 |   |__ sub-<label>/
 |   |   |__ sub-<label>_sessions.tsv
 |   |   |__ sub-<label>_sessions.json
@@ -50,6 +38,18 @@ root/
 |   |__ qsirecon/
 |   |__ symri/
 |   |__ xcp_d/
+|
+|__ phenotype/
+|   |__ phenotype.tsv
+|   |__ phenotype.json
+|   |__ bio_biosample_<nails|urine>.tsv
+|   |__ bio_biosample_<nails|urine>.json
+|   |__ par_visit_data.tsv
+|   |__ par_visit_data.json
+|   |__ sed_basic_demographics.tsv
+|   |__ sed_basic_demographics.json
+|   |__ <instrument_name>.tsv (repeat for all selected instruments)
+|   |__ <instrument_name>.json (repeat for all selected instruments)
 |
 |__ README    
 ```

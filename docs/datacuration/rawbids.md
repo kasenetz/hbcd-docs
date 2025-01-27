@@ -1,9 +1,9 @@
 # Raw BIDS Data
-The `raw/` folder includes raw MR, EEG, and motion data organized under subject/session-specific directories. 
+The `rawdata/` folder includes raw MR, EEG, and motion data converted to BIDS, organized under subject and session-specific directories. 
 
 ```
-root/
-|__ raw/ 
+bids/
+|__ rawdata/ 
     |__ sub-<label>/
     |   |__ sub-<label>_sessions.tsv
     |   |__ sub-<label>_sessions.json

@@ -2,7 +2,7 @@
 
 The `derivatives/` folder contains minimally preprocessed outputs from the [processing pipelines](../processing/pipelines.md). A description of HBCD-specific processing parameters used for each pipeline is available on the [HBCD Processing](https://hbcd-cbrain-processing.readthedocs.io/latest/) webpage. The following sections outline the session-level file and folder contents for each pipeline. 
 ```
-root/
+bids/
 |__ derivatives/ 
     |__ bibsnet/
     |__ hbcd_motion/
@@ -275,7 +275,7 @@ osprey/
 ```
 *See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder tree above.*
 
-## qMRI Postproc (`qmri_postproc/`)🚧 
+## qMRI Postproc (`qmri_postproc/`)
 This pipeline performs minimal post-processing for SyMRI synthetic images derived from QALAS acquisition. Please visit the [qMRI PostProc webpage](https://hbcd-symri-postproc.readthedocs.io/en/latest/index.html) for a description of the file outputs below.
 
 ```
