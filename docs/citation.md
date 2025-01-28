@@ -27,6 +27,3 @@ To view previous versions of the Release Docs website, select a specific version
     <p style="text-align: center;"><i>Opened flyout menu example (source: ReadtheDocs)</i></p>
 </div>
 
-
-
-
