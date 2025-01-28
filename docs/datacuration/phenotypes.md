@@ -35,12 +35,10 @@ bids/
 </div>
 <div class="collapsible-content">
 <br>
-<li>
 <p><b>Maternal Age at V01</b> (<code>mother_age_v01</code>): This variable (MAV01) represents the birthing parent's age on the start date of Visit 1. It is reported in years, rounded to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time.</p> 
 <p><b>Maternal Age at Delivery</b> (<code>mother_age_delivery</code>): This variable (MAD) represents the birthing parent's age at the time of their child's delivery (date of birth). It is reported in years to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time.</p>
 <p><b>Gestational Age at Delivery</b> (<code>gestational_age_delivery</code>): This variable (GAD) represents the time elapsed between the first day of the mother’s last menstrual period (LMP) and the child’s date of birth. It is reported in whole weeks, rounded down to the nearest week. This variable is static and does not change over time.</p> 
 <p><b>Gestational Age at Administration</b> (<code>gestational_age</code>): This variable (GAA) refers to the time elapsed between the first day of the birthing parent's last menstrual period (LMP) and the date the instrument was administered. GAA is reported in whole weeks, rounded down to the nearest week, and provided for each instrument across all available timepoints. For a given participant and visit, GAA will vary by no more than 4 weeks across all protocol elements.</p>
-</li>
 </div>
 </p>
 

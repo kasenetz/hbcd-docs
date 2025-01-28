@@ -411,7 +411,7 @@ ReproSchema is both a standardized schema and a software platform for managing q
 - Compare different versions  
 - Document modifications
 
-For more information about reproschema, please visit this website: [https://www.repronim.org/reproschema/](https://www.repronim.org/reproschema/)
+For more information about reproschema, please visit [https://www.repronim.org/reproschema/](https://www.repronim.org/reproschema/).
 
 <div style="padding: 0;">In the HBCD Study, ReproSchema ensures all questionnaires are:
   <ul style="margin: 0 0 20px 20px; padding: 0;">
@@ -426,8 +426,6 @@ For more information about reproschema, please visit this website: [https://www.
 - Each data release has its own set of questionnaire versions  
 - Access questionnaires through the data portal: [https://github.com/ReproNim/hbcd-loris2reproschema](https://github.com/ReproNim/hbcd-loris2reproschema)  
 - Compare versions to understand changes over time
-
-[Figure 1]
 
 ### Overview
 <div style="padding: 0;">
@@ -450,15 +448,19 @@ For more information about reproschema, please visit this website: [https://www.
 </ul>
 </div>
 
-**Example**: A sleep quality question changed between Release 1.0 and 2.0
-
-Release 1.0: "How many hours do you usually sleep?"  
-Release 2.0: "In the past month, how many hours do you usually sleep per night?"
+<div id="age" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Example: A sleep quality question changed between Release 1.0 and 2.0</span>
+</div>
+<div class="collapsible-content">
+<br>
+<li>Release 1.0: "How many hours do you usually sleep?"</li> 
+<li>Release 2.0: "In the past month, how many hours do you usually sleep per night?"</li>
+</div>
 
 ### Structure  
-[Figure 2: Three-level hierarchy diagram]
 
-Protocol → Activity → Item hierarchy:
+**Protocol → Activity → Item hierarchy**
 
 <div style="padding: 0;">Protocol
   <ul style="margin: 0 0 20px 20px; padding: 0;">
@@ -507,8 +509,6 @@ Protocol → Activity → Item hierarchy:
 </div>
 
 ### Tracking Change
-[Figure 3: Screenshot of version comparison showing highlighted changes]
-
 View what changed between versions via [LINK]
 
 <div style="padding: 0;">Changes are clearly documented, including but not limited to:
