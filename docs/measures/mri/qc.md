@@ -88,8 +88,8 @@ BrainSwipes harnesses the power of crowdsourcing to address the time-intensive t
 </p> 
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">BrainSwipes QC Procedures</span>
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">BrainSwipes QC Procedures</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

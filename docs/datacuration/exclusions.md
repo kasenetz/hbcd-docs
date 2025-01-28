@@ -137,8 +137,8 @@ EEG file inclusion in the data release is based on EEG capping quality: acquisit
 Below is a list of general rules applied to all data as well as static (i.e. precisely identified hard-coded elements such as participants, instruments, and instrument fields) and dynamic elements excluded during the data release process:
 
 <p>
-<div id="general-rules-dropdown" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">General Rules Applied to All Data</span>
+<div id="general-rules-dropdown" class="table-banner" onclick="toggleCollapse(this)">
+    <span class="table-text">General Rules Applied to All Data</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -152,8 +152,8 @@ Below is a list of general rules applied to all data as well as static (i.e. pre
 </p>
 
 <p>
-<div id="static-exclusions-dropdown" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Static Element Exclusions</span>
+<div id="static-exclusions-dropdown" class="table-banner" onclick="toggleCollapse(this)">
+    <span class="table-text">Static Element Exclusions</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -241,8 +241,8 @@ Below is a list of general rules applied to all data as well as static (i.e. pre
 </p>
 
 <p>
-<div id="dynamic-exclusions-dropdown" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Dynamic Element Exclusions</span>
+<div id="dynamic-exclusions-dropdown" class="table-banner" onclick="toggleCollapse(this)">
+    <span class="table-text">Dynamic Element Exclusions</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">

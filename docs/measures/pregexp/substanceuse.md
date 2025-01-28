@@ -113,16 +113,15 @@ For all measures, QC procedures involved review of response distributions (cross
 
 The Assist V1, V2, and V3 measures were created from combining the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History, which was then modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored. To acknowledged these changes in future publications, authors can note that questions were motivated from the NIDA Modified Assist.
 
-The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding substances used and the timeline of use before and during pregnancy.
+The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding substances used and the timeline of use before and during pregnancy:
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Assist V1/2/3: replacement of questions 2-8</span>
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+    <span class="table-text">Assist V1/2/3 Replacement Questions</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-    <ul>
-<br>
-<u>V1: Replaced with following to assess lifetime use and disordered use, or use causing problems in their lives</u>
+<ul>
+<b>V1: Assess lifetime use and disordered use, or use causing problems in their lives</b>
 	<li>Have you EVER been concerned about your use of this substance or worried it was problematic use?</li>
 	<li>Has a friend, relative, or anyone else EVER expressed concern about your use of this substance</li>
 	<li>Have you EVER tried and failed to control, cut down, or stop using this substance?</li>
@@ -130,10 +129,10 @@ The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs,
 	<li>Have you EVER been clinically diagnosed with abuse, dependence, or a substance use disorder related to your use of this substance</li>
 	<li>Have you EVER taken (prescribed or otherwise) medication(s) as treatment for a problem substance</li>
 <br>  
-<u>V2: Replaced with following to assess use after pregnancy:</u>
+<b>V2: Assess use after pregnancy:</b>
 	<li>FROM THE TIME THAT YOU DELIVERED your child until now, how often have you used any of the following substances for any reason [followed by list of substance options from section above]</li>
 <br>  
-<u>V3: Replaced with following to assess impact of substance use after pregnancy:</u>
+<b>V3: Assess impact of substance use after pregnancy:</b>
 	<li>DURING THE PAST THREE MONTHS, has your use of this substance led to physical or mental health, social,or financial problems?</li>
     <li>DURING THE PAST THREE MONTHS, have you ever failed to do what was normally expected of you  (like work, go to school, be a parent, or household tasks) because of your use of this substance?</li>
     </ul>
@@ -142,8 +141,8 @@ The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs,
 
 Lifetime and problematic use, pre-pregnancy and pregnancy use was expanded into the substances listed below for HBCD. For each substance, participants indicate whether they had ever used it and, if endorsed, frequency of use with options: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), or 4 (Daily or Almost Daily). For substances reported as used, participants were asked about modes of use and typical quantities of consumption for alcohol and opioids (if applicable) as outlined below:
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">Assist Substance Type Options</span>
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Assist Substance Type Options</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
