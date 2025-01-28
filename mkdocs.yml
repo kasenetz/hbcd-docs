@@ -44,6 +44,7 @@ nav:
   - Get Help:
     - FAQs: faq.md
     - Report Issues: reportissue.md
+    - How to Cite Release Docs: citation.md
   - Release Notes:
     - "Data Measures & Quality Control":
         - Overview: measures/index.md
@@ -82,7 +83,6 @@ nav:
     - Known Issues: changelog/knownissues.md
     - Version History:    
         - Release 1: changelog/versions/R1.md
-  - HOW TO CITE RELEASE DOCS: citation.md
 
   
 
