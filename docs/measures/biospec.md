@@ -90,7 +90,7 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 
 
 #### USDTL Assay Details
-Based on the predefined threshold outlined in [Table 1](#nails-table1), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (*QNS* i.e. *quantity not sufficient*) ([Table 2](#nails-table2)). With the exception of Ethyl glucuronide (finger nails: 3 months; toe nails: no consensus), the window of detection for all analytes is 3-6 and 10-14 months for finger and toe nails, respectively.
+Based on the predefined threshold outlined in [Table 1](#nails-table1), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (*QNS* i.e. *quantity not sufficient*) ([Table 2](#nails-table2)).
 
 <p><b class="blue-text">LOD</b> / <b class="blue-text">LOQ</b> = limit of detection / quantification</p>
 
