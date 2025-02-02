@@ -2,7 +2,7 @@
 <img src="images/logo_HBCD_final.png" alt="logo" width="500"/>
 </p>
 
-<p style="text-align: center; font-size: 1.6em">Welcome to the Data Release Docs page for the HEALthy Brain and Child Development (HBCD) Study!</p>
+<p style="text-align: center; font-size: 1.6em">Welcome to the Data Release Docs for the HEALthy Brain and Child Development (HBCD) Study!</p>
 
 <p style="text-align: center; font-size: 1.1em">Explore detailed information about HBCD Study Data Releases, including access guidelines, responsible data use policies, measure descriptions, and standardized procedures for data formatting, quality control, and processing.
 
