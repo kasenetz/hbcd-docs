@@ -76,13 +76,6 @@ Series with severe artifacts that compromise data usability are rejected (QC = 0
 
 
 ## BrainSwipes
-<p>
-<div id="notification-banner" class="notification-banner">
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">BrainSwipes QC results will be made available in the future interim data release.</span>
-</div>
-</p> 
-
 Quality control procedures for various pipeline outputs—such as structural and functional derivatives from XCP-D and diffusion derivatives from QSIPrep-rely on manual visual inspection (the current gold standard for image QC) to identify image artifacts. To streamline this process, the visual reports included in these derivatives are integrated into [BrainSwipes](https://brainswipes.us/about), a gamified platform built off of the open-source [Swipes For Science](https://swipesforscience.org/) project.
 
 BrainSwipes harnesses the power of crowdsourcing to address the time-intensive task of evaluating MRI brain scan quality through visual inspection, particularly for large-scale studies. Users are guided through a simple [tutorial](https://brainswipes.us/tutorial-select) that teaches them how to navigate the platform and assess derivative files, enabling them to confidently classify images as either pass or fail. For a comprehensive guide to using BrainSwipes, visit the [BrainSwipes ReadTheDocs](https://brainswipes.readthedocs.io/).
@@ -111,6 +104,9 @@ Swipes display GIFs of full-resolution T2w images as a grayscale background, wit
 <p>
 </div>
 </p>
+
+*How are final QC scores determined for a given modality?*      
+As described above, a series of visual reports generated in different fields of view are used to evaluate one or more aspects of processing quality. For example, for T1w images, atlas registration is rated based on 2 separate modes of visualization and surface delineation is rated based on 7 separate images displaying the brain in the coronal, axial, and sagittal planes at different target regions. Each of these 9 visual reports are required to be evaluated by at least 10 separate reviewers (and is otherwise marked as incomplete), each of whom assigns a score of either 1 for Pass for 0 for Fail. The average QC score must be at least 0.7 for the visual report to recieve an overall pass. The overall QC score for the T1w is then based on the QC performance across these 9 visual reports: all 9 elements must receive a passing QC score in order for the overall T1w QC to pass.
 
 ## References
 <div class="references">
