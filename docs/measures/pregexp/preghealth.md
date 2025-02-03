@@ -20,7 +20,7 @@ The current data release for Pregnancy & Exposure, Including Substance Use, incl
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__healthhx</td>
     </tr>          
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-Vaccines</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-Exposures and Vaccines</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Vacc</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Vaccines in pregnancy</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__exp__vacc</td>
@@ -115,7 +115,7 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
         <td>5 min</td>
     </tr>    
     <tr>
-        <td>Pregnancy Health-Vaccines</td>
+        <td>Pregnancy Health-Exposures and Vaccines</td>
         <td>Self</td>
         <td>V01</td>
         <td>3 min</td>
@@ -238,7 +238,7 @@ For quality control, response distributions were reviewed for outliers.
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Gravidity and parity, height and weight, pregnancy intentions, use of assisted reproductive technology, start of prenatal care, prenatal vitamin or aspirin use, and secondhand smoke</td>
     </tr>          
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-Vaccines</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-Exposures and Vaccines</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Receipt of common vaccines in pregnancy and trimester received</td>
     </tr>    
     <tr>
