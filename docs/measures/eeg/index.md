@@ -123,7 +123,7 @@ VEP amplitude and latency decreases with age during the first three years of lif
 
 - [HBCD EEG Data Release Notes GitHub Repository](https://github.com/ChildDevLab/HBCD-EEG-data-release-notes) 
 - [HBCD E-Prime Task Manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)
-- [Official EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
+- [Official EEG Acquisition Manual](https://zenodo.org/records/14795030)
 
 ## References
 <div class="references">
