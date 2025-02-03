@@ -1,8 +1,9 @@
+# DEAP Data Dictionary Explorer
+
 <p style="text-align: center;">
-  <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC Lasso Portal &nbsp; ↗️</a>
+  <a class="button-link" href="https://nbdc-splash-beta.lassoinformatics.com/hbcd-study">HBCD Study on NBDC Data Hub &nbsp; ↗️</a>
 </p>
 
-# DEAP Data Dictionary Explorer
 
 We provide a Data Dictionary Explorer hosted by the Data Exploration and Analysis Portal (DEAP) open to users who do not yet have data access.
 
@@ -13,7 +14,3 @@ The **Variable Selection** page allows users to explore the ontology of data tab
 The **Manage Selections and Downloads** page allows users to manage their selection of variables and download a data dictionary containing just these variables. (This application does not allow to download the data itself. Users with a valid data use certificate can download the data through Lasso).
 
 Note that warning labels are included next to relevant Variables and Tables; these link directly to Data and Responsible Use warnings provided in the release notes - see [here](resp_data_use.md#warnings) for details. 
-
-<p style="text-align: center;">
-  <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC Lasso Portal &nbsp; ↗️</a>
-</p>
