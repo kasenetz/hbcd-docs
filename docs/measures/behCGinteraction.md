@@ -110,28 +110,6 @@ The IBQ-R (VSF)+BI is a caregiver report form used to assess temperamental react
 In addition to the overall *Surgency, Negative Affect and Effortful Control* scales derived from the validated IBQ-R-VSF, the HBCD Workgroup and measure experts added a Behavior Inhibition (or Social Fear) scale using items from the long form of the IBQ-R (IBQ-R-LF) (see scale items listed in drowpdown menu below). The HBCD measure therefore consists of 4 scale domains: surgency/extraversion (13 items), negative affectivity (12 items), effortful control (12 items), and behavioral inhibition (13 items). 
 
 <p>
-<div id="BIscaleitems" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">BI Scale Items</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-<ul>
-<li>38. When introduced to an unfamiliar adult, how often did the baby hang back from the adult?</li>
-<li>39. When introduced to an unfamiliar adult, how often did the baby never “warm up” to the unfamiliar adult?</li>
-<li>40. When in the presence of several unfamiliar adults, how often did the baby cry?</li>
-<li>41. When in the presence of several unfamiliar adults, how often did the baby continue to be upset for 10 minutes or longer?</li>
-<li>42. When visiting a new place, how often did the baby show distress for the first few minutes?</li>
-<li>43. When visiting a new place, how often did the baby continue to be upset for 10 minutes or more?</li>
-<li>44. When your baby was approached by an unfamiliar person when you and your baby were out (for example, shopping), how often did the baby show distress?</li>
-<li>45. When your baby was approached by an unfamiliar person when you and your baby were out (for example, shopping), how often did the baby cry?</li>
-<li>46R. When an unfamiliar person came to your home or apartment, how often did your baby allow themselves to be picked up without protest?</li>
-<li>47. When an unfamiliar person came to your home or apartment, how often did your baby cry when the visitor attempted to pick them up?</li>
-</ul>
-</p>
-</div>
-</p>
-
-<p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="text">Scoring Procedures</span>
   <span class="notification-arrow">▸</span>

@@ -1,4 +1,4 @@
-# How to Cite HBCD Data Release Docs
+# How To Cite HBCD Data Release Docs
 
 ### Citation Instructions
 The HBCD Data Release Docs is version-controlled and enables researchers to both cite and render specific versions of the website. We highly recommend citing the specific version from which you obtained information as the documentation will be updated over time. The citation for the current version of this website, provided in APA format, is as follows:

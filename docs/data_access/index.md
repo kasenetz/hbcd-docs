@@ -2,7 +2,7 @@
   <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC Lasso Portal &nbsp; ↗️</a>
 </p>
 
-# How to Access HBCD Data
+# How To Access HBCD Data
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>

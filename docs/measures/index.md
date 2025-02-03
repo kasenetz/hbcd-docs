@@ -1,8 +1,7 @@
 # Data Measures & Quality Control
 
 ## Data Measure Release Notes
-The current release includes data from Visits 1, 2, and 3 (V01, V02, and V03). In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures, known issues, and references. For measures that include surveys, many were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/) as part of inclusion and equity efforts driven by the HBCD Spanish Language and Culture Committee (SLCC) [Anunziata et al. 2024](https://doi.org/10.1016/j.dcn.2024.101477).
-
+The current release includes data from Visits 1, 2, and 3 (V01, V02, and V03). In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures, known issues, and references.
 ![](../images/timeline-img.png)
 
 Below is a summary of measures included in Release 1.0. Note that the HBCD Data Release Docs only cover the measures currently available, with additional documentation to follow in future updates as additional measure data are released. For details on upcoming additions in Release 1.1, see [Pending & Upcoming Updates](../changelog/pending.md). Full study protocols are available on the [HBCD Study site](https://hbcdstudy.org/study-protocols/).
