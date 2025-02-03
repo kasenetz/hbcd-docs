@@ -26,7 +26,7 @@
 </div>
 <br>
 
-HBCD data is publicly shared with all researchers associated with an NIH-recognized research institution via the individual or investigator-led group NBDC Data Use Agreement/Certification (DUC) process, which governs data use for both the ABCD and HBCD studies. The DUC outlines rules that must be followed for data use and is signed electronically by both the submitter and the Institutional Signing Officer at their institution. 
+HBCD data is publicly shared with all researchers associated with an NIH-recognized research institution via the individual or investigator-led group NBDC [Data Use Agreement/Certification (DUC) process](https://nbdc-splash-beta.lassoinformatics.com/data-access-process), which governs data use for both the ABCD and HBCD studies. The DUC outlines rules that must be followed for data use and is signed electronically by both the submitter and the Institutional Signing Officer at their institution. 
 
 DUC approval is handled by the NIH Brain Development Cohort (NBDC) Data Access Committee (DAC), consisting of federal staff from NIH with expertise in science, policy, or bioinformatics resources. DUCs are approved based on satisfaction of basic pre-requisites and whether the data access request is reasonable and aligns with the terms of the DUC. Note that the quality of the science for which the data is intended to be used is not reviewed.
 
