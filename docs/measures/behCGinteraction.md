@@ -93,51 +93,43 @@ QC procedures involved examining age to ensure that it falls within an expected 
 The ecPROMIS (Early Childhood Patient-Reported Outcome Measurement Information System) offers clinicians and researchers a brief, efficient, and precise way to evaluate young children’s well-being. One component is the Child-Caregiver Relationship Scale, which assesses the degree to which young children develop close, satisfying relationships with caregivers. 
 
 The **ecPROMIS Child-Caregiver Relationship Form (Infancy: < 1 year)** was developed for HBCD based on this scale (specifically the *ecPROMIS Parent-Report Short Form v1.0 - Social Relationships – Child-Caregiver Interactions 5a Form*) with updated language to make the items suitable for the pre-V03 age range (3 to 9 months) (i.e. the term ‘my child’ was replaced with 'my baby,' per the guidance of ecPROMIS developers, as the original measure was designed for 1-5 year old children).
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text">Scoring Procedures</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<br>
 <p>Each of the 5 items for ecPROMIS Child-Caregiver Interaction is answered on a scale of 1-5: 1 (Never), 2 (Rarely), 3  (Sometimes), 4 (Often), and 5 (Always). A sum score is generated when the caregiver answers at least 3 out of the 5 items (<i>ecpromis1, ecpromis2, ecpromis3, ecpromis4, ecpromis5</i>). If caregivers answer 3 or 4 items, a prorated sum score is calculated using the formula: <code>(sum of items answered/the number of items answered)*5</code>. If fewer than 3 items are completed, the sum score is marked as missing.</p>
 </div>
-</p>
+<br>
 
 ### IBQ-R Very Short Form + Behavioral Inhibition
 The IBQ-R (VSF)+BI is a caregiver report form used to assess temperamental reactivity and regulation in infancy, focusing on key traits that influence development and behavior during the early years. It is adapted from the well-validated IBQ-R Very Short Form with additional items reflecting Behavioral Inhibition from the long form of the IBQ-R.
 
 In addition to the overall *Surgency, Negative Affect and Effortful Control* scales derived from the validated IBQ-R-VSF, the HBCD Workgroup and measure experts added a Behavior Inhibition (or Social Fear) scale using items from the long form of the IBQ-R (IBQ-R-LF) (see scale items listed in drowpdown menu below). The HBCD measure therefore consists of 4 scale domains: surgency/extraversion (13 items), negative affectivity (12 items), effortful control (12 items), and behavioral inhibition (13 items). 
 
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text">Scoring Procedures</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<br>
 <p>Caregivers are asked to report on the infant’s behaviors on a 7-point Likert scale: 1 [Never], 2 [Very rarely], 3 [Less than half the time], 4 [About half the time], 5 [More than half the time], 6 [Almost always], 7 [Always].</p>
-
 <p>Scale scores, generated for each domain, are the mean score of all scale items applicable to the child as judged by the caregiver (<code>sum of item scores / total # of items</code>). Importantly, this calculation only includes items with scores of 1 through 7: items where the caregiver selects "does not apply" or “choose not to respond" receive no numerical score and are not included in the total number of items for the scale. Items with an “R” are reverse scored and already implemented in the HBCD scoring algorithm.</p>
-
 <p>For additional information, please see the scoring manual for details on items and scales as well as <a href="https://research.bowdoin.edu/rothbart-temperament-questionnaires">Mary Rothbart's Temperament Questionnaires</a>.</p>
 </div>
-</p>
-
+<br>
 
 ### MAPS-TL
 Multidimensional Assessment Profiles- Temper Loss scale (MAPS-TL) is a well-validated survey assessing irritability that serves as a tool for characterizing the developmental expression of early mental health risk. MAPS-TL measures a range of behaviors that encompass dysregulation, responsiveness to environmental input, and context. Questions inquire about the behaviors of the focal child over the past month. Irritability has been identified as an early dimensional marker of lifespan mental health risk. MAPS-TL aims to delineate the typical-to-atypical spectrum of irritability in early childhood and identify those young children at high probability of subsequent adaptational problems based on problems with dysregulation. 
 
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text">Scoring Procedures</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
-<br>
 <p>Each of the 17 items for MAPS-TL is answered on a scale of 1 to 6: 1 [Never], 2 [Rarely (Less than once per week)], 3 [Some (1-3) days of the week], 4 [Most (4-6) days of the week], 5 [Every day of the week], 6 [Many times each day]. A **sum score** is generated when the caregiver provides a numerical score of 1 to 6 for at least 9 out of the 17 items. If fewer than 9 items are completed, the score is marked as missing. When responses are available for 9 to 16 items, a prorated score is calculated using the formula: <code>(sum of items answered / number of items answered) * 17</code>.</p>
 </div>
-</p>
+<br>
 
 ## References
 <div class="references">

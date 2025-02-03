@@ -61,15 +61,22 @@ bids/
 
 <p>The <code>sed_bm_demo</code> file contains additional demographic information pertaining to the birth parent collected as part of <a href="../../measures/socenvdet/">Social & Environmental Determinants</a> measures.</p>
 
+Cohort types included in the data release are as follows, with Types E-F indicating [Caregiver Type](#CGtype):
 
-Caregiver Type is included in demographic information as well. The cohort types included in the data release are as follows:
+- HBCD Main Child
+- HBCD Main Child - Postnatal Recruitment
+- HBCD Main Child - Type E-F
+- HBCD Multiple Birth - Main Child
+- HBCD Multiple Birth - Postnatal Recruitment
+- HBCD Multiple Birth - Postnatal Recruitment - Sibling
+- HBCD Multiple Birth - Type E-F
+
+<div id="CGtype" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Caregiver Type Definitions</span>
+  <span class="table-arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Caregiver Type</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Definition</th>   
-    </tr>
-  </thead>
 <tbody>
 	<tr>
 		<td>Type A</td>
@@ -97,6 +104,8 @@ Caregiver Type is included in demographic information as well. The cohort types 
 	</tr>            
 </tbody>
 </table>
+</div>
+
 
 ## Visit Data
 <p style="margin: 0 0 5px;">The <code>par_visit_data</code> file contains all participant visit data, including:</p>
