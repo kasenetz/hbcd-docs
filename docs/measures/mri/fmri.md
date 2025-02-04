@@ -41,7 +41,7 @@ Each rsfMRI run is additionally preceded by acquisition of single shot spin-echo
 
 <div style="text-align: center;">
   <p style="font-size: 1.1em; margin-bottom: 0px;"><strong>Figure 1.</strong> HBCD fMRI Acquisition Protocol (<i>Courtesy of <a href="https://doi.org/10.1016/j.dcn.2024.101452">Dean et al. 2024</a></i>)</p>
-  <img src="Deanetal2024_fMRI.jpg" width="83%" height="auto">
+  <img src="../images/Deanetal2024_fMRI.jpg" width="83%" height="auto">
 </div>
 
 <br>

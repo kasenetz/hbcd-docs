@@ -80,8 +80,13 @@ Quality control procedures for various pipeline outputs—such as structural and
 
 BrainSwipes harnesses the power of crowdsourcing to address the time-intensive task of evaluating MRI brain scan quality through visual inspection, particularly for large-scale studies. Users are guided through a simple [tutorial](https://brainswipes.us/tutorial-select) that teaches them how to navigate the platform and assess derivative files, enabling them to confidently classify images as either pass or fail. For a comprehensive guide to using BrainSwipes, visit the [BrainSwipes ReadTheDocs](https://brainswipes.readthedocs.io/).
 
+<div class="img-with-text" style="width: 80%; margin: 0 auto; text-align: center;">
+    <img src="../images/brainswipes.png" alt="Example quality assessment of surface delineation in BrainSwipes" style="width: 100%; height: auto;">
+    <p><i>Example quality assessment of surface delineation on BrainSwipes platform (displaying brain in axial plane at level of basal ganglia/putamen).</i></p>
+</div>
+
 <p>
-<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+<div id="swipes-procedures" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">BrainSwipes QC Procedures</span>
   <span class="arrow">▸</span>
 </div>
@@ -92,21 +97,31 @@ For structural QA, swipers are presented with image slices in coronal, axial, an
 </p>
 
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Atlas Registration:</b></p>
-Another structural QA, registrations are evaluated by overlaying delineations of the subject’s image onto the atlas, and vice versa. Swipes display nine T1w slices for visual inspection, with three slices per anatomical plane. Quality is assessed based on the alignment of the outer boundaries of the overlaid contours with those of the underlying image, ensuring minimal gaps or misalignments. Images are derived from XCP-D visual reports.
+In addition to surface delineation, structural QA also includes atlas registration quality, evaluated by overlaying delineations of the subject’s image onto the atlas, and vice versa. Swipes display nine T1w slices for visual inspection, with three slices per anatomical plane. Quality is assessed based on the alignment of the outer boundaries of the overlaid contours with those of the underlying image, ensuring minimal gaps or misalignments. Images are derived from XCP-D visual reports.
 
 <p>
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Functional Registration:</b></p>
 Functional registration is evaluated by overlaying outlines of functional images onto structural images and vice versa. Swipes display nine slices of the same functional image for visual inspection, with three slices per anatomical plane. Quality is assessed similarly to structural atlas registration, focusing on the alignment of the overlaid contours. Additional evaluation includes checking for artifacts such as signal dropout. Images are derived from XCP-D visual reports.
 </p>
 
-<p style="font-size: 1em; margin: 0 0 5px;"><b>Diffusion:</b></p>
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Diffusion Direction Encoding:</b></p>
 Swipes display GIFs of full-resolution T2w images as a grayscale background, with the "Direction Encoded Color" (DEC) map overlaid. These GIFs sweep through a portion of the brain across the three anatomical planes. High-quality processed DWI images exhibit bands of color that closely follow the folds and contours of the grayscale background. These visuals are derived from the QSIPrep report.
 <p>
 </div>
 </p>
 
-*How are final QC scores determined for a given modality?*      
-As described above, a series of visual reports generated in different fields of view are used to evaluate one or more aspects of processing quality. For example, for T1w images, atlas registration is rated based on 2 separate modes of visualization and surface delineation is rated based on 7 separate images displaying the brain in the coronal, axial, and sagittal planes at different target regions. Each of these 9 visual reports are required to be evaluated by at least 10 separate reviewers (and is otherwise marked as incomplete), each of whom assigns a score of either 1 for Pass for 0 for Fail. The average QC score must be at least 0.7 for the visual report to recieve an overall pass. The overall QC score for the T1w is then based on the QC performance across these 9 visual reports: all 9 elements must receive a passing QC score in order for the overall T1w QC to pass.
+#### How are final QC scores determined for a given modality? 
+Final QC scores are based on the evaluation of visual reports associated with each [QC procedure](#swipes-procedures) described above. Each report is independently reviewed, and the results are combined to calculate an overall QC score.
+
+For example, **T1w/T2w image quality** is assessed through:
+
+- **Atlas registration quality**: Rated using 2 visual reports (atlas overlaid on T1w/T2w and T1w/T2w overlaid on the atlas).
+- **Surface delineation:** Rated using 7 visual reports showing different brain regions in coronal, axial, and sagittal planes.
+
+Each of these 9 reports must be reviewed by at least 10 independent reviewers (or it's marked as incomplete). Reviewers assign a score of 1 (Pass) or 0 (Fail) for each report. For a report to receive an overall Pass, the average QC score across reviewers must be at least 0.7. 
+
+To achieve an overall QC Pass for T1w/T2w images, **all 9 reports** must meet the passing threshold.
+Summary QC scores for BOLD and DWI are generated in the same fashion, based on visual reports evaluating functional registration and diffusion direction encoding, respectively.
 
 ## References
 <div class="references">
