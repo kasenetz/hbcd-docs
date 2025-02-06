@@ -28,9 +28,23 @@ bids/
 ```
 
 ## Demographics Data
+<p>
+<div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Demographics: Fields Reporting Age</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<p><b>Maternal Age at V01</b> (<code>mother_age_v01</code>): This variable (MAV01) represents the birthing parent's age on the start date of Visit 1 (reported at Ripple ‘Screening’). It is reported in years, rounded to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time.</p> 
+<p><b>Maternal Age at Delivery</b> (<code>mother_age_delivery</code>): This variable (MAD) represents the birthing parent's age (derived from age reported at Ripple ‘Screening’) at the time of their child's delivery (date of birth). It is reported in years to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time.</p>
+<p><b>Gestational Age at Delivery</b> (<code>gestational_age_delivery</code>): This variable (GAD) represents the time elapsed between the first day of the mother’s last menstrual period (LMP)  and the child’s date of birth. It is reported in whole weeks, rounded down to the nearest week. This variable is static and does not change over time.  Note that LMP is derived from the  estimated date of delivery (EDD) minus 280 days.</p> 
+</div>
+</p>
+
 <p style="margin: 0 0 5px;">The <code>sed_basic_demographics</code> file provide demographic information for each participant that is useful for understanding their phenotypic data in context. This includes:</p>
 <ul>
-<li>Gestational age at birth</li>
+<li>Gestational Age at Delivery</li>
 <li>Sex</li>
 <li>Recruitment site</li>
 <li>Child demographics: race, ethnicity</li>
@@ -91,8 +105,6 @@ Cohort types included in the data release are as follows, with Types E-F indicat
 </table>
 </div>
 
-
-
 ## Visit Data
 <p style="margin: 0 0 5px;">The <code>par_visit_data</code> file contains all participant visit data, including:</p>
 <ul>
@@ -112,19 +124,23 @@ Cohort types included in the data release are as follows, with Types E-F indicat
 All BioSpecimen file are prepended with `bio_`. The `bio_biosample_urine` urine files include BioSpecimen USDTL Urine and DCCID, Visit Label, and Scannable code. See details of BioSpecimen screens [here](../measures/biospec.md).
 
 ## Instrument Data
+<p>
+<div id="instrument-age" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Instrument-Specific Fields Reporting Age</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<li>
+<p><b>Chronological Age at Administration</b> (<code>&lt;instrument_name&gt;_adjusted_chronological_age</code>): This is the time elapsed between birth (based on a birthdate measure jittered up to 7 days to mitigate identification risks) and the date of data instrument administration. It is reported in years to three decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12.  For visit V01, candidate age is recorded as "n/a" because this data corresponds to the prenatal period. The decision to report age in years, rather than months, ensures consistency with how this variable will be reported at later developmental stages (e.g., toddlerhood and childhood). Reporting in years with three decimal places provides greater precision, compensating for the adjusted birthdate and yielding values closer to the actual age than reporting in years and months.</p> 
+
+<p><b>Gestational Age at Administration</b> (<code>&lt;instrument_name&gt;_gestational_age</code>): This variable (GAA) refers to the time elapsed between the first day of the birthing parent's last menstrual period (LMP) and the date the instrument was administered. GAA is reported in whole weeks, rounded down to the nearest week, and provided for each instrument across all available timepoints. For a given participant and visit, GAA will vary by no more than 4 weeks across all protocol elements.</p> 
+
+<p><b>Adjusted Chronological Age at Administration</b> (<code>&lt;instrument_name&gt;_adjusted_chronological_age</code>): This variable (ACAA) refers to the time elapsed between the estimated date of delivery (EDD) and date of instrument administration. ACAA  is reported in whole weeks, rounded down to the nearest week.</p> 
+</li>
+</div>
+</p>
+
 Each instrument has a `<instrument_name>.tsv` Data Table containing instrument values and a `<instrument_name>.json` Data Dictionary describing instrument fields for all participants. For a full list of instrument files included in the release, see the overview section under [Data Measures Release Notes](../measures/index.md#data-measure-release-notes) overview.
 
-## Variables Reporting Age
-### Global Variables
-<b class="blue-text">Maternal Age at V01</b> (`mother_age_v01`): This variable (MAV01) represents the birthing parent's age on the start date of Visit 1 (reported at Ripple ‘Screening’). It is reported in years, rounded to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time.
-
-<b class="blue-text">Maternal Age at Delivery</b> (`mother_age_delivery`): This variable (MAD) represents the birthing parent's age (derived from age reported at Ripple ‘Screening’) at the time of their child's delivery (date of birth). It is reported in years to two decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time.
-
-<b class="blue-text">Gestational Age at Delivery</b> (`gestational_age_delivery`): This variable (GAD) represents the time elapsed between the first day of the mother’s last menstrual period (LMP)  and the child’s date of birth. It is reported in whole weeks, rounded down to the nearest week. This variable is static and does not change over time.  Note that LMP is derived from the  estimated date of delivery (EDD) minus 280 days.
-
-### Instrument-Specific Variables
-<b class="blue-text">Gestational Age at Administration</b> (`<instrument name>_gestational_age`): This variable (GAA) refers to the time elapsed between the first day of the birthing parent's last menstrual period (LMP) and the date the instrument was administered. GAA is reported in whole weeks, rounded down to the nearest week, and provided for each instrument across all available timepoints. For a given participant and visit, GAA will vary by no more than 4 weeks across all protocol elements.
-
-<b class="blue-text">Adjusted Chronological Age at Administration</b> (`<instrument name>_adjusted_chronological_age`): This variable (ACAA) refers to the time elapsed between the estimated date of delivery (EDD) and date of instrument administration. ACAA  is reported in whole weeks, rounded down to the nearest week.
-
-<b class="blue-text">Candidate Age</b> (`<instrument name>_adjusted_chronological_age`): This is the time elapsed between birth (based on a birthdate measure jittered up to 7 days to mitigate identification risks) and the date of data instrument administration.  It is reported in years to three decimal places, with fractional years calculated by dividing the total whole months (rounded down) by 12.  For visit V01, candidate age is recorded as "n/a" because this data corresponds to the prenatal period. The decision to report age in years, rather than months, ensures consistency with how this variable will be reported at later developmental stages (e.g., toddlerhood and childhood). Reporting in years with three decimal places provides greater precision, compensating for the adjusted birthdate and yielding values closer to the actual age than reporting in years and months.
