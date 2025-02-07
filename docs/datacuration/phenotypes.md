@@ -38,6 +38,7 @@ bids/
 <br>
 <i>Note that all of the following are single-point and static values.</i>
 <br>
+<br>
 <b>Maternal Age at V01 </b> (<code>mother_age_v01</code>): 'MAV01' is the birth parent's age at the V01 visit. Reported in years to two decimal places, with fractional years calculated by dividing whole months (rounded down) by 12.
 <br>
 <br>
