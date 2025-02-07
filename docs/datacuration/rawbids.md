@@ -35,10 +35,10 @@ In a large infant study, missing data is common, leading to variations in the nu
 <i>Age is reported with the following fields in the <code>sessions.tsv</code> and <code>scans.tsv</code> files for V02 onwards:</i>
 <br>
 <br>
-<b>Gestational Age at Time of Scan</b> (<code>age_gestational</code>): Gestational age, reported in days, is the time elapsed between the estimated date of delivery (EDD), used as a proxy for the time of conception (the first day of the mother's last menstrual period (LMP)), and the date of data acquisition.
+<b>Gestational Age at Time of Scan</b> (<code>age_gestational</code>): Reported in days, gestational age is the time from the estimated date of delivery (EDD)—a proxy for conception based on the first day of the birth parent's last menstrual period (LMP)—to the scan date.
 <br>
 <br>
-<b>Chronological Age at Time of Scan</b> (<code>age</code>): Chronological age,  reported in years with precision to 3 decimal places, is the time elapsed between birth (based on a birthdate measure jittered up to 7 days to mitigate identification risks) and the date of data acquisition. Fractional years are calculated by dividing the total number of days (rounded down) by 365.25. The decision to report age in years, rather than months, ensures consistency with how this variable will be reported at later developmental stages (e.g., toddlerhood and childhood). Reporting in years with three decimal places provides greater precision, compensating for the adjusted birthdate and yielding values closer to the actual age than reporting in years and months.
+<b>Chronological Age at Time of Scan</b> (<code>age</code>): Reported in years (to three decimal places), chronological age is the time from birth (with the birthdate jittered up to 7 days to mitigate identification risks) to the scan date. It is calculated by dividing the total days elapsed (rounded down) by 365.25. Reporting in years, rather than months, ensures consistency across developmental stages (e.g., toddlerhood, childhood), while three-decimal precision compensates for birthdate adjustments, yielding values closer to actual age.
 <br>
 <br>
 </div>
