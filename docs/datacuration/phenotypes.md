@@ -36,7 +36,6 @@ bids/
 </div>
 <div class="collapsible-content">
 <br>
-<br>
 <i>Note: The age metrics included for Basic Demographics are inherently static and do not change between visits.</i>
 <br>
 <br>
