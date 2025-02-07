@@ -29,9 +29,9 @@ bids/
 
 ## Demographics Data
 <p>
-<div id="demo-age-warning" class="warning-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Data Warning: Age-Related Demographics Variables</span>
+<div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Demographics: Fields Reporting Age</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
