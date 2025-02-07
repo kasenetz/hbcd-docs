@@ -68,7 +68,7 @@ th, td {
   border-top: none;
   padding: 0 0 0 0; /* Horizontal padding, no top or bottom padding */
   border-radius: 0 0 5px 5px;
-  margin-bottom: 10px; /* Adds spacing below the section */
+  margin-bottom: 20px; /* Adds spacing below the section */
   width: 100%; /* Make the collapsible section span the full width of its container */
   box-sizing: border-box; /* Include padding and borders in the width calculation */
 }

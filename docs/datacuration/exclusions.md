@@ -1,83 +1,23 @@
 # Exclusion Criteria 
 
 ## IMAGING
-
-### Quality Control Criteria
-Only raw BIDS image data files that pass quality control (`QC`=1 from the `scans.tsv` file) are included in the data release and used for subsequent processing. Please see [Raw MR Data QC](../measures/mri/qc.md#raw-mr-data-qc) for details on the QC procedures. In addition, for certain structural and diffusion MRI sequences, **only the best scan was selected in cases where multiple were acquired that passed QC.** The raw BIDS data provided in the release only includes data that was used for processing and thus will match the derived pipeline outputs exactly. The selection process is described below:
-
-#### Structural MRI: Selecting Best T1w & T1w Scans
-For structural MRI, in cases where multiple T1w and/or T2w images were acquired that passed QC, only the best T1w and T2w were selected for processing based on additional QC metrics such as motion (see [here](rawbids.md#scan-level-data) for details) and thus included in the raw BIDS data provided in the release.
-
-#### Diffusion MRI: Selecting Best DWI Scans
-Similarly, for diffusion MRI, if there were multiple scans available that passed QC, only the best quality scan was selected for processing based on additional QC metrics. For subjects with manual QC scores for all DWI images in a session (only a portion of data was selected for manual QC), to choose the best scan, the following metrics, in order of priority, were used to compare scan quality until the best was identified: `NumHeadCoilElem`, `QU_cotuff`, `QU_sus`, `QU_line`, `ngood_frames`, `line_mean_score`, and `tSNR_b0`. In the absence of manual QC metrics, the following were prioritized to select the best scan: `NumHeadCoilElem`, `ngood_frames`, `line_mean_score`, and `tSNR_b0`. These metrics are defined in the following table:
-
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-<tfoot><tr><td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;" colspan="3"><b>**</b><i>Available for Siemens only: There are some visits on Siemens scanners with one or more scans for which some of the head coil elements were disabled (following detachment and reattachment of the anterior coil elements). In very rare cases, the site may recognize the problem at the time and reacquire the images. In cases like that, the scan with higher "NumHeadCoilElem” would be preferred.</i></td></tr></tfoot>
-  <thead>
-    <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">QC Metric</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Defnition</th>  
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Scoring</th>   
-    </tr>
-  </thead>
-<tbody>
-	<tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">QC</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Overall manual QC score of 1 (pass) or 0 (fail)</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">1 (pass) or 0 (fail)</td>
-	</tr>
-  <tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NumHeadCoilElem**</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Number of head coil elements</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NA</td>
-	</tr>  
-	<tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">QU_cotuff</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Qualitative manual QC score for FOV cutoff artifact</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">0 = absent ; 1 = mild; 2 = moderate; 3 = severe </td>
-	</tr>  
-  <tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">QU_sus</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Qualitative manual QC score for susceptibility artifact</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">0 = absent ; 1 = mild; 2 = moderate; 3 = severe </td>
-	</tr>  
-  <tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">QU_line</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Qualitative manual QC score for line artifact</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">0 = absent ; 1 = mild; 2 = moderate; 3 = severe </td>
-	</tr>  
-  <tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">ngood_frames</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Number of frames without outlier slices for dMRI</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NA</td>
-	</tr>  
-  <tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">line_mean_score</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Average line artifact score in frames with line artifacts</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NA</td>
-	</tr>  
-  <tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">tSNR_b0</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Median temporal SNR in brain mask for b=0 frames</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NA</td>
-	</tr>  
-</tbody>
-</table>
-
 ### Acquisition Parameter Criteria
-In addition, following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional checks to ensure data integrity. All images are verified to be acquired using a head coil before inclusion in the BIDS dataset. Modality-specific inclusion criteria, parsed from the image JSON files, are as follows:
+Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional checks to ensure data integrity. All images are verified to be acquired using a head coil before inclusion in the BIDS dataset. Modality-specific inclusion criteria, parsed from the image JSON files, are as follows:
 
-<p style="font-size: 1.2em; margin: 0 0 5px;"><u>Acquisition Parameter Ranges for Data Release Eligibility</u></p>
+<div id="acq-param-table" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Acquisition Parameter Ranges for Data Release Eligibility</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="table-open-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-<tfoot><tr><td colspan="6"><b>**</b><i>Number of volumes between DWI AP and DWI PA</i></td></tr></tfoot>
   <thead>
     <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">File</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">TR</th>   
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">TE</th>        
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">TI</th>    
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Slice Thickness</th>  
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;"># Volumes</th>  
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">File</th>
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">TR</th>   
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">TE</th>        
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">TI</th>    
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">Slice Thickness</th>  
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">Volume #</th>  
     </tr>
   </thead>
 <tbody>
@@ -111,12 +51,12 @@ In addition, following conversion to BIDS format, the MRI NIfTI and JSON files u
     <td>0.0880-0.0980</td>
 		<td>NA</td>    
     <td>1.7</td>    
-    <td>≥90**</td>  
+    <td style="word-wrap: break-word; white-space: normal;">≥ 90 (AP + PA)</td>  
 	</tr>  
 	<tr>
 		<td>EPI Fieldmap</td>
-		<td>8.4 - 9.2</td>
-    <td>0.064 - 0.0661</td>
+		<td>8.4-9.2</td>
+    <td>0.064-0.0661</td>
 		<td>2</td>    
     <td>0.563-0.565</td>    
     <td>NA</td>
@@ -124,20 +64,36 @@ In addition, following conversion to BIDS format, the MRI NIfTI and JSON files u
 	<tr>
 		<td>Functional</td>
 		<td>1.725</td>
-    <td>0.0369 - 0.0371</td>
+    <td>0.0369-0.0371</td>
 		<td>NA</td>    
     <td>2</td>  
-    <td>≥87 (~2.5 min)</td>   
+    <td>≥ 87 (~2.5 min)</td>   
 	</tr>  
 </tbody>
 </table>
+</div>
+
+### Quality Control Criteria
+#### File Selection for the First Release
+Because the HBCD project uses multiple processing pipelines—each with its own requirements—the files included in this release represent the union of all files that satisfy at least one pipeline’s criteria. In other words, only raw BIDS files used for processing are included in the release, corresponding directly with the derived pipeline outputs. You can see the detailed requirements for each pipeline on the processing documentation webpage, in the “Quality Control Selection Information” sections for each tool. At a broad level, onl files that pass quality control (`QC`=1 from the `scans.tsv` file) are included in the data release (see [Raw MR Data QC](../measures/mri/qc.md#raw-mr-data-qc) for details). Some tools require a specific file type (e.g., T2w images), but assess it using two or more sets of QC (Quality Control) criteria. Typically, the first set of criteria combines manual and automated QC fields, while the second set uses only automated fields. In some cases, only the single highest-quality image is included; in others, any file that meets a defined threshold is included.
+
+#### Data Categories Without Pre-Processing QC
+Certain data categories—such as motion (accelerometry), electroencephalography (EEG), and magnetic resonance spectroscopy (MRS)—do not have QC measures before processing. As a result, these files will vary in quality. In the case of MRS anatomical localizers, file selection does not rely on QC information at all, because the timing of the localizer acquisition is deemed more critical than its image quality.
+
+#### Where QC Information Is Stored
+All quality control information is stored in the `sub-<label>_ses-<label>_scans.tsv` file located in each BIDS session folder. Most MRI file-selection procedures begin by requiring that an “overall QC” field equals 1. Next, many look at the `QU_Motion` field (a manual assessment of motion artifacts). If `QU_Motion` is unavailable or if two scans have the same value, other quality measures are used. For this first release, all high-resolution T1w and T2w scans—and most QALAS acquisitions—used `QU_Motion` to guide selection.
+
+#### Pipeline Requirements and Tool Combinations
+Some pipelines require file types in specific combinations. If an imaging session (e.g., ses-V02 or ses-V03) only contains one of two (or more) necessary file types for a given pipeline, that lone file will not be used by that pipeline. However, because each tool has unique requirements, the same file might still be included if it fulfills another pipeline’s criteria.
+Finally, two data sources—TB1 MRI acquisitions and electrocardiogram (ECG) data—are included in this release even though they are not used in current processing. The ECG data is acquired alongside EEG data using the same device.
 
 
 ## EEG
 EEG file inclusion in the data release is based on EEG capping quality: acquisitions with QC ratings of "excellent", "average", and "poor" are all included and those rated as "not usable" are excluded. See details of quality control procedures under [Data Measures > EEG > EEG Net Placement ("Capping Quality") Ratings](../measures/eeg/index.md#eeg-net-placement-capping-quality-ratings). Capping ratings are made available to users in the QC instrument files provided for each EEG task under `phenotype/` (`eeg_qc_task-FACE.tsv`, `eeg_qc_task-MMN.tsv`, `eeg_qc_task-RS.tsv`, and `eeg_qc_task-VEP.tsv` - see details [here](phenotypes.md#instrument-data)).
 
 
-## PHENOTYPES
+
+## TABULATED DATA
 Below is a list of general rules applied to all data as well as static (i.e. precisely identified hard-coded elements such as participants, instruments, and instrument fields) and dynamic elements excluded during the data release process:
 
 <p>
