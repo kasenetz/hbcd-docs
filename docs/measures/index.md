@@ -357,7 +357,7 @@ The following tabulated data is included in the release for magnetic resonance i
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/smri">Structural MRI</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sMRI</td>
     <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">
-    img_mriqc_T1w<br>img_mriqc_T2w<br>
+    img_brainswipes_xcpd-T1w<br>img_brainswipes_xcpd-T2w<br>img_mriqc_T1w<br>img_mriqc_T2w<br>
     img_bibsnet_space-T1w_desc-aseg_volumes<br>
     img_bibsnet_space-T2w_desc-aseg_volumes<br>
     </td>
@@ -365,7 +365,7 @@ The following tabulated data is included in the release for magnetic resonance i
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/fmri">Functional MRI</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">fMRI</td>
-    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">img_mriqc_bold<br>
+    <td colspan="2" rowspan="1" style="word-wrap: break-word; white-space: normal;">img_brainswipes_xcpd-bold<br>img_mriqc_bold<br>
     <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-alff_bold  </li>
     <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-coverage_bold  </li>
     <li>img_xcpd_space-fsLR_seg-<span class="blue-text">&lt;SEG&gt;</span>_stat-mean_desc-curv_morph  </li>
@@ -376,7 +376,7 @@ The following tabulated data is included in the release for magnetic resonance i
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/dmri">Diffusion MRI</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">dMRI</td>
-    <td>N/A</td>
+    <td>img_brainswipes_qsiprep-dwi</td>
   </tr>
     <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/mri/qmri">Quantitative MRI</a></td>
