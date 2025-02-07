@@ -32,9 +32,15 @@ In a large infant study, missing data is common, leading to variations in the nu
 </div>
 <div class="collapsible-content">
 <br>
-<p><i>Age is reported with the following fields in the <code>sessions.tsv</code> and <code>scans.tsv</code> files for V02 onwards:</i></p>
-<p><b>Gestational Age at Time of Scan</b> (<code>age_gestational</code>): Gestational age, reported in days, is the time elapsed between the estimated date of delivery (EDD), used as a proxy for the time of conception (the first day of the mother's last menstrual period (LMP)), and the date of data acquisition. Note that GAA can be negative for data acquired before the EDD.</p> 
-<p><b>Chronological Age at Time of Scan</b> (<code>age</code>): Chronological age,  reported in years with precision to 3 decimal places, is the time elapsed between birth (based on a birthdate measure jittered up to 7 days to mitigate identification risks) and the date of data acquisition. Fractional years are calculated by dividing the total number of days (rounded down) by 365.25. The decision to report age in years, rather than months, ensures consistency with how this variable will be reported at later developmental stages (e.g., toddlerhood and childhood). Reporting in years with three decimal places provides greater precision, compensating for the adjusted birthdate and yielding values closer to the actual age than reporting in years and months.</p>
+<i>Age is reported with the following fields in the <code>sessions.tsv</code> and <code>scans.tsv</code> files for V02 onwards:</i>
+<br>
+<br>
+<b>Gestational Age at Time of Scan</b> (<code>age_gestational</code>): Gestational age, reported in days, is the time elapsed between the estimated date of delivery (EDD), used as a proxy for the time of conception (the first day of the mother's last menstrual period (LMP)), and the date of data acquisition.
+<br>
+<br>
+<b>Chronological Age at Time of Scan</b> (<code>age</code>): Chronological age,  reported in years with precision to 3 decimal places, is the time elapsed between birth (based on a birthdate measure jittered up to 7 days to mitigate identification risks) and the date of data acquisition. Fractional years are calculated by dividing the total number of days (rounded down) by 365.25. The decision to report age in years, rather than months, ensures consistency with how this variable will be reported at later developmental stages (e.g., toddlerhood and childhood). Reporting in years with three decimal places provides greater precision, compensating for the adjusted birthdate and yielding values closer to the actual age than reporting in years and months.
+<br>
+<br>
 </div>
 </p>
 

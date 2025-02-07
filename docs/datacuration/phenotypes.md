@@ -36,9 +36,15 @@ bids/
 </div>
 <div class="collapsible-content">
 <br>
-<p><b>Maternal Age at V01</b> (<code>mother_age_v01</code>): This variable (MAV01) is the birthing parent's age at the date of the visit for V01  (derived from their date of birth reported at Ripple ‘Screening’) . It is reported in years, with two decimal place precision, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time.</p> 
-<p><b>Maternal Age at Delivery</b> (<code>mother_age_delivery</code>): This variable (MAD) is the birthing parent's age (derived from their date of birth reported at Ripple ‘Screening’) at the time of their child's delivery (date of birth). It is reported in years, with two decimal place precision, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time.</p>
-<p><b>Gestational Age at Delivery</b> (<code>gestational_age_delivery</code>): This variable (GAD) is the time elapsed between the first day of the mother’s last menstrual period (LMP; derived from the estimated date of delivery (EDD) minus 280 days) and the child’s date of birth. It is reported in whole weeks, rounded down to the nearest week. This variable is static and does not change over time.</p> 
+<b>Maternal Age at V01</b> (<code>mother_age_v01</code>): This variable (MAV01) is the birthing parent's age at the date of the visit for V01  (derived from their date of birth reported at Ripple ‘Screening’) . It is reported in years, with two decimal place precision, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time.
+<br>
+<br>
+<b>Maternal Age at Delivery</b> (<code>mother_age_delivery</code>): This variable (MAD) is the birthing parent's age (derived from their date of birth reported at Ripple ‘Screening’) at the time of their child's delivery (date of birth). It is reported in years, with two decimal place precision, with fractional years calculated by dividing the total whole months (rounded down) by 12. This variable is static and does not change over time.
+<br>
+<br>
+<b>Gestational Age at Delivery</b> (<code>gestational_age_delivery</code>): This variable (GAD) is the time elapsed between the first day of the mother’s last menstrual period (LMP; derived from the estimated date of delivery (EDD) minus 280 days) and the child’s date of birth. It is reported in whole weeks, rounded down to the nearest week. This variable is static and does not change over time.
+<br>
+<br>
 </div>
 </p>
 
@@ -132,9 +138,15 @@ All BioSpecimen file are prepended with `bio_`. The `bio_biosample_urine` urine 
 </div>
 <div class="collapsible-content">
 <br>
-<p><b>Chronological Age at Administration</b> (<code>&lt;instrument_name&gt;_candidate_age</code>): Chronological age is the time elapsed between birth (based on a birthdate measure jittered up to 7 days to mitigate identification risks) and the date of  instrument administration (for V02 onwards). It is reported in years to three decimal places, with fractional years calculated by dividing the total number of days (rounded down) by 365.25. The decision to report age in years, rather than months, ensures consistency with how this variable will be reported at later developmental stages (e.g., toddlerhood and childhood). Reporting in years with three decimal places provides greater precision, compensating for the adjusted birthdate and yielding values closer to the actual age than reporting in years and months.</p> 
-<p><b>Gestational Age at Administration</b> (<code>&lt;instrument_name&gt;_gestational_age</code>): This variable (GAA) refers to the time elapsed between the first day of the birthing parent's last menstrual period  (LMP; derived from the estimated date of delivery (EDD) minus 280 days)  and the date the instrument was administered (reported only for V01 visit). GAA is reported in whole weeks, rounded down to the nearest week, and provided for each instrument across all available timepoints. For a given participant and visit, GAA will vary by no more than 4 weeks across all protocol elements.</p> 
-<p><b>Adjusted Chronological Age at Administration</b> (<code>&lt;instrument_name&gt;_adjusted_chronological_age</code>): This variable (ACAA) refers to the time elapsed between the estimated date of delivery (EDD) and date of instrument administration (for V02 onward). ACAA is reported in whole weeks, rounded down to the nearest week.</p> 
+<b>Chronological Age at Administration</b> (<code>&lt;instrument_name&gt;_candidate_age</code>): Chronological age is the time elapsed between birth (based on a birthdate measure jittered up to 7 days to mitigate identification risks) and the date of  instrument administration (for V02 onwards). It is reported in years to three decimal places, with fractional years calculated by dividing the total number of days (rounded down) by 365.25. The decision to report age in years, rather than months, ensures consistency with how this variable will be reported at later developmental stages (e.g., toddlerhood and childhood). Reporting in years with three decimal places provides greater precision, compensating for the adjusted birthdate and yielding values closer to the actual age than reporting in years and months.
+<br>
+<br>
+<b>Gestational Age at Administration</b> (<code>&lt;instrument_name&gt;_gestational_age</code>): This variable (GAA) is the time elapsed between the first day of the birthing parent's last menstrual period  (LMP; derived from the estimated date of delivery (EDD) minus 280 days)  and the date the instrument was administered (reported only for V01 visit). GAA is reported in whole weeks, rounded down to the nearest week, and provided for each instrument across all available timepoints. For a given participant and visit, GAA will typically vary by no more than 4 weeks across all protocol elements except in cases where protocol exceptions were granted.
+<br>
+<br>
+<b>Adjusted Chronological Age at Administration</b> (<code>&lt;instrument_name&gt;_adjusted_chronological_age</code>): This variable (ACAA) is the time elapsed between the estimated date of delivery (EDD) and date of instrument administration (for V02 onward). ACAA is reported in whole weeks, rounded down to the nearest week.
+<br>
+<br>
 </div>
 </p>
 
