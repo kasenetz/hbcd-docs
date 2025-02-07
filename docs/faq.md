@@ -145,8 +145,8 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Fields reporting age in the tabulated data for <a href="../measures/#non-imaging-data-measures">non-imaging instruments</a> include Maternal Age at V01 (<code>mother_age_v01</code>), Maternal Age at Delivery (<code>mother_age_delivery</code>), Gestational Age at Delivery (<code>gestational_age_delivery</code>), and Gestational Age at Administration (<code>gestational_age</code>). Please see <a href="../datacuration/phenotypes/#age">Instrument Data: Fields Reporting Age</a> for details.</p>
-<p>Note that separate metrics for age are reported in the session- and scan-level <code>.tsv</code> files provided within the <a href="../datacuration/rawbids">raw BIDS</a> data, including Gestational Age at Administration (<code>gestational_age</code>) and Candidate Age at Administration (<code>age</code>) - see <a href="../datacuration/rawbids/#age">Raw BIDS Data: Fields Reporting Age</a> for details.</p>
+<p>Fields reporting age in the tabulated data include global, single-point (i.e. static) variables in Basic Demographics (see details <a href="../datacuration/phenotypes/#demo-age">here</a>), e.g. <b>Maternal Age at V01</b>, and instrument-specific variables for age (see details <a href="../datacuration/phenotypes/#instrument-age">here</a>) that vary depending on the date of administration for a given instrument.</p>
+<p>For the <a href="../datacuration/rawbids">raw BIDS</a> data (EEG, magnetic resonance imaging/spectroscropy, and motion sensor data), metrics for age are reported in the session- and scan-level <code>.tsv</code> files. Please see the description of these variables under <a href="../datacuration/rawbids/#age">Raw BIDS Data: Fields Reporting Age</a>.</p>
 </div>
 </p>
 
