@@ -36,6 +36,8 @@ bids/
 </div>
 <div class="collapsible-content">
 <br>
+<i>Note that all of the following are single-point and static values.</i>
+<br>
 <b>Maternal Age at V01 </b> (<code>mother_age_v01</code>): 'MAV01' is the birth parent's age at the V01 visit. Reported in years to two decimal places, with fractional years calculated by dividing whole months (rounded down) by 12.
 <br>
 <br>
@@ -144,7 +146,7 @@ All BioSpecimen file are prepended with `bio_`. The `bio_biosample_urine` urine 
 <b>Chronological Age at Administration</b> (<code>&lt;instrument_name&gt;_candidate_age</code>): Reported in years (to three decimal places), chronological age is the time from birth (with the birthdate jittered up to 7 days to mitigate identification risks) to the date of instrument administration (for V02 onward). It is calculated by dividing the total days elapsed (rounded down) by 365.25. Reporting in years, rather than months, ensures consistency across developmental stages (e.g., toddlerhood, childhood), while three-decimal precision compensates for birthdate adjustments, yielding values closer to actual age.
 <br>
 <br>
-<b>Adjusted Chronological Age at Administration</b> (<code>&lt;instrument_name&gt;_adjusted_chronological_age</code>): 'ACAA' is the time elapsed between the estimated date of delivery (EDD) and date of instrument administration (for V02 onward), reported in whole weeks rounded down to the nearest week.
+<b>Adjusted Chronological Age at Administration</b> (<code>&lt;instrument_name&gt;_adjusted_age</code>): 'ACAA' is the time elapsed between the estimated date of delivery (EDD) and date of instrument administration (for V02 onward), reported in whole weeks rounded down to the nearest week.
 <br>
 <br>
 </div>
