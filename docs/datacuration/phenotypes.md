@@ -28,31 +28,10 @@ bids/
 ```
 
 ## Demographics Data
-
 <p>
 <div id="demo-age-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Data Warning: Age-Related Demographic Variables</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="collapsible-content">
-<br>
-<b>Maternal Age at V01 </b> (<code>mother_age_v01</code>): 'MAV01' is the birth parent's age at the V01 visit. Reported in years to two decimal places, with fractional years calculated by dividing whole months (rounded down) by 12.
-<br>
-<br>
-<b>Maternal Age at Delivery</b> (<code>mother_age_delivery</code>): 'MAD' is the birth parent’s age at their child’s birth. Reported in years to two decimal places, with fractional years calculated by dividing whole months (rounded down) by 12.
-<br>
-<br>
-<b>Gestational Age at Delivery</b> (<code>gestational_age_delivery</code>): 'GAD' is the time from the first day of the birth parent’s last menstrual period (LMP), derived from the estimated date of delivery (EDD) minus 280 days, to the child’s birth. Reported in whole weeks, rounded down.
-<br>
-<br>
-</div>
-</p>
-
-<p>
-<div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Demographics: Fields Reporting Age</span>
+  <span class="text">Data Warning: Age-Related Demographics Variables</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
