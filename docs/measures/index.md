@@ -452,9 +452,8 @@ For more information about reproschema, please visit [https://www.repronim.org/r
   <span class="text">Example: A sleep quality question changed between Release 1.0 and 2.0</span>
 </div>
 <div class="collapsible-content">
-<br>
-<li>Release 1.0: "How many hours do you usually sleep?"</li> 
-<li>Release 2.0: "In the past month, how many hours do you usually sleep per night?"</li>
+<p>Release 1.0: "How many hours do you usually sleep?"</p> 
+<p>Release 2.0: "In the past month, how many hours do you usually sleep per night?"</p>
 </div>
 
 ### Structure  

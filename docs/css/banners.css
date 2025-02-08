@@ -39,6 +39,12 @@
 .collapsible-content.open {
   max-height: none;
 }
+.collapsible-content p {
+  font-size: 1.0em;
+  line-height: 1.3;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
 .collapsible-content b {
   color: #0077cc;
 }

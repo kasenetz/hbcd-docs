@@ -78,7 +78,6 @@ The QC procedures for all three measures involved monitoring the data dashboard 
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Breast feeding history is obtained via self-report, so is vulnerable to recall bias concerning the timing of starting and/or stopping breast feeding. In addition, as the data is obtained via a survey, it is likely that missing data will need to be statistically addressed during analysis.</p> 
 </div>
 </p>
@@ -93,7 +92,6 @@ Breastfeeding measures initiation, exclusivity, and cessation of breast milk fee
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Researchers should be aware that the validated measure uses Yes/No answers and does not account for missing data.</p> 
 </div>
 </p>
@@ -108,7 +106,6 @@ Food Insecurity, based on two items assessing the availability of food, is a scr
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Please note that range checks were implemented in the database on 7/1/2024 so are not reflected in data included in the first data release. Outliers are possible.</p> 
 </div>
 </p>

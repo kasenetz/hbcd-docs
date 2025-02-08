@@ -112,13 +112,13 @@ The `scans.tsv` file provided per session includes participant information such 
 </tbody>
 </table>
 	
-<p>
-<div id="scanstsv" class="notification-banner" onclick="toggleCollapse(this)">
+
+	
+<div id="scanstsv" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text">Full list of fields included in <code>scans.tsv</code> files</span>
-  <span class="notification-arrow">▸</span>
+  <span class="table-arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
-<p>
+<div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
 <tfoot><tr><td colspan="2"><b>**</b> <i>Age measures are computed based on a birthdate measure that is jittered up to 7 days</i></td></tr></tfoot>
 <tbody>
@@ -422,9 +422,7 @@ The `scans.tsv` file provided per session includes participant information such 
 	</tr>
 </tbody>
 </table>
-</p>
 </div>
-</p>
 
 ## Imaging & Spectroscopy
 ### Anatomical (anat/)

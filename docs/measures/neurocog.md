@@ -64,7 +64,6 @@ For MLDS, QC procedures involve monitoring frequency of decline to answer and co
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Subject matter experts did not identify any issues with MLDS. However, they emphasize that this measure assesses a child’s exposure to language to guide the selection of appropriate measures for their next in-person study visit. It estimates the percentage of time the child is exposed to languages in caregiving environments, based on caregiver reports. These estimates are approximate and also may not account for all languages the child encounters. The measure does not evaluate or quantify the child’s interactions or their expressive or receptive language skills in a given language, but rather provides an estimate of the time spent in environments where specific languages are spoken.</p> 
 </div>
 </p>
@@ -98,7 +97,6 @@ Designed specifically for HBCD, this measure informs assessment teams conducting
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Instructions were updated with the additional response option of "Decline to answer" on November 8, 2024 to differentiate from behaviors that have never been seen (i.e. developmentally inappropriate). Therefore, "Decline to answer" is not an option available to individuals who completed this form in the reference sample from which the standard scores were derived.</p> 
 </div>
 </p>
