@@ -88,7 +88,7 @@ With the exception of TB1 MRI and electrocardiogram (ECG) data, raw BIDS files a
 At a minimum, processing requires specific file types, excluding data that failed QC (see [Quality Control Criteria](#quality-control-criteria) above). When additional QC criteria apply, filtering typically occurs in two stages: first, using both manual and automated QC fields, and second, using only automated fields. For example, only the highest-quality T1w and T2w are selected for structural MRI processing when multiple scans passing QC are present. In this first release, all high-resolution T1w and T2w scans — and most QALAS acquisitions — were selected using `QU_Motion`, a manual assessment of motion artifacts.
 
 **Non-QC Criteria**   
-Processing pipeline criteria also include metrics unrelated to QC, particularly for modalities for which raw data QC metrics are unavailable (e.g. motion/accelerometry). For example, file selection for magnetic resonance spectroscopy (MRS) anatomical localizers is based on the timing of the localizer acquisition as this is more critical than its image quality.
+Some pipeline criteria are unrelated to QC, particularly for modalities without available raw data QC metrics (e.g., motion/accelerometry). For instance, file selection for magnetic resonance spectroscopy (MRS) anatomical localizers is based on the timing of acquisition, which is more critical than image quality.
 
 ## Tabulated Instrument Data
 Below is a list of general rules applied to all data as well as static (i.e. precisely identified hard-coded elements such as participants, instruments, and instrument fields) and dynamic elements excluded during the data release process:
