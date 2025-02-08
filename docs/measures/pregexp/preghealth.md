@@ -65,7 +65,7 @@ The current data release for Pregnancy & Exposure, Including Substance Use, incl
 </table>
 
 ### Field Exclusions
-In the instrument `.tsv` files provided in the release, some fields can have out-of-range values. They are considered “extreme” values and are changed to “n/a.” See [Exclusion Criteria > Phenotypes](../../datacuration/exclusions.md/#phenotypes) for additional information. This filter applies to `pex_bm_healthv2_inf.tsv` as follows:
+In the instrument `.tsv` files provided in the release, some fields can have out-of-range values. They are considered “extreme” values and are changed to “n/a.” See [Exclusion Criteria > Tabulated Instrument Data](../../datacuration/exclusions.md/#tabulated-instrument-data) for additional information. This filter applies to `pex_bm_healthv2_inf.tsv` as follows:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
 <caption style="font-weight: bold; text-align: left; font-style: normal;">Healthv2 Inf (<code>pex_bm_healthv2_inf</code>) Field Exclusions</caption>
