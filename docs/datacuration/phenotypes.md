@@ -57,7 +57,7 @@ bids/
 <li>Sex</li>
 <li>Recruitment site</li>
 <li>Child demographics: race, ethnicity</li>
-<li>Mother demographics: race, ethnicity, education, language at home</li>
+<li>Birth parent's demographics: race, ethnicity, education, language at home</li>
 <li>Substance Use (SU) flags raised by any of the following (<a href="#visit-data">Visit Data</a> contains details per visit):
     <ul>
     <li>Self-reported use (<a href="../../measures/pregexp/substanceuse/#tlfb">TLFB</a>)</li>
