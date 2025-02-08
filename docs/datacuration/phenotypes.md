@@ -39,7 +39,7 @@ bids/
 <i>Note that all of the following are single-point and static values.</i>
 <br>
 <br>
-<b>Maternal Age at V01 </b> (<code>mother_age_v01</code>): 'MAV01' is the birth parent's age at the time of initial study screening. Reported in years to two decimal places, with fractional years calculated by dividing whole months (rounded down) by 12.
+<b>Maternal Age at V01 </b> (<code>mother_age_v01</code>): 'MAV01' is the birth parent's age at the first V01 visit. Reported in years to two decimal places, with fractional years calculated by dividing whole months (rounded down) by 12.
 <br>
 <br>
 <b>Maternal Age at Delivery</b> (<code>mother_age_delivery</code>): 'MAD' is the birth parent’s age at their child’s birth. Reported in years to two decimal places, with fractional years calculated by dividing whole months (rounded down) by 12.
