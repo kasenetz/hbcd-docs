@@ -6,7 +6,7 @@
 </div>
 </p>
 
-Several of the processing pipelines query the `scans.tsv` (see [Scan-Level Data](../datacuration/rawbids.md#scan-level-data)) to determine which files to include/exclude for processing. The criteria used are listed under the 'Quality Control Selection Information' under [Tool Names](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html#tool-names) on the HBCD Processing page. Please visit the [HBCD Processing](https://hbcd-cbrain-processing.readthedocs.io/latest/) webpage for full documentation on how each of  the following pipelines was used for HBCD processing.
+Several of the processing pipelines query the `scans.tsv` (see [Scan-Level Data](../datacuration/rawbids.md#scan-level-data)) to determine which files to include/exclude for processing. The criteria used are listed under the 'Quality Control Selection Information' under [Tool Names](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html#tool-names) on the HBCD Processing page. Please visit the [HBCD Processing](https://hbcd-cbrain-processing.readthedocs.io/latest/) webpage for full documentation on how each of the following pipelines was used for HBCD processing.
 
 ### Magnetic Resonance Imaging (MRI)
 <ul style="list-style-type: none; padding: 0; font-family: Arial, sans-serif;">
