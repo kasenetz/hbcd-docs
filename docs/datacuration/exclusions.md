@@ -77,7 +77,7 @@ Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additi
 #### Imaging Data
 For imaging data, only files that pass [raw data quality control](../measures/mri/qc.md#raw-mr-data-qc) are included in the data release and utilized for data processing. All quality control information is stored in the `sub-<label>_ses-<label>_scans.tsv` file located in each BIDS session folder. Some modalities undergo additional, more stringent QC filtering based on additional QC metrics to select only the best data for processing - see [Processing Pipeline Criteria](#processing-pipeline-criteria) below for details.
 
-#### Electroencephalography (EEG): Capping Quality Criteria
+#### Electroencephalography
 EEG file inclusion in the data release is based in part on EEG capping quality: acquisitions with QC ratings of "excellent", "average", and "poor" are all included and those rated as "not usable" are excluded. See details of quality control procedures under [Data Measures > EEG > EEG Net Placement ("Capping Quality") Ratings](../measures/eeg/index.md#eeg-net-placement-capping-quality-ratings). Capping ratings are made available to users in the QC instrument files provided for each EEG task under `phenotype/` (`eeg_qc_task-FACE.tsv`, `eeg_qc_task-MMN.tsv`, `eeg_qc_task-RS.tsv`, and `eeg_qc_task-VEP.tsv` - see details [here](phenotypes.md#instrument-data)).
 
 ## Processing Pipeline Criteria
