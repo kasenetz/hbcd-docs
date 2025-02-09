@@ -4,16 +4,34 @@
 /* red: #be074c */ 
 /* black/gray: #6b6b6b */ 
 
+/* Style for folder tree display */
+.folder-tree {
+  font-family: monospace;
+  background-color: #282c34; 
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre;
+  display: block;
+  overflow-x: auto; /* Allows horizontal scrolling */
+}
+/* Style for placeholder variables in angle brackets */
+.folder-tree .placeholder {
+  color: #199bd6
+}
+
+
+
 .gray-text {
   color: #505050;
+}
+.blue-text {
+  color: blue;
 }
 
 /* Change color of upper left-hand background */ 
 .wy-side-nav-search {background-color: #199bd6;}
-
-.blue-text {
-  color: blue;
-}
 
 /* Centering images */ 
 .center {
