@@ -66,6 +66,6 @@ In the [Lasso portal](https://nbdc-hbcd-beta.lassoinformatics.com), click **Quer
 
 **If using the Lasso Download Client**, install it locally and open the application. Follow the on-screen instructions to specify the download directory. You will be redirected to log into the Lasso Portal. Once logged in, the Download Client will monitor the download queue. It should now be detectable in the Lasso Portal, where you will be prompted to confirm the installed client when initiating file transfers. After the transfer begins, the Download Client will display the download progress:
 
-<img src="../images/downloadclient3.png" width="75%" height="auto" class="center">
+<img src="../images/downloadclient3.png" width="80%" height="auto" class="center">
 
 
