@@ -5,13 +5,13 @@ As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure]
 - [Derivatives](derivatives.md) (`derivatives/`): pre-processed imaging, EEG, and motion data derived from processing pipelines
 - [Phenotype BIDS Data](phenotypes.md) (`phenotype/`): tabulated demographic, biospecimen, and instrument data  
 
-```
+<pre class="folder-tree">
 bids/
 |__ rawdata/ 
-|   |__ sub-<label>/
-|   |   |__ sub-<label>_sessions.tsv
-|   |   |__ sub-<label>_sessions.json
-|   |   |__ ses-<label>/
+|   |__ sub-<span class="placeholder">&lt;label&gt;</span>/
+|   |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_sessions.tsv
+|   |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_sessions.json
+|   |   |__ ses-<span class="placeholder">&lt;label&gt;</span>/
 |   |       |__ anat/
 |   |       |__ dwi/
 |   |       |__ eeg/
@@ -19,8 +19,8 @@ bids/
 |   |       |__ func/
 |   |       |__ motion/
 |   |       |__ mrs/
-|   |       |__ sub-<label>_ses-<label>_scans.tsv
-|   |       |__ sub-<label>_ses-<label>_scans.json
+|   |       |__ sub-<span class="placeholder">&lt;label&gt;</span>_ses-<span class="placeholder">&lt;label&gt;</span>_scans.tsv
+|   |       |__ sub-<span class="placeholder">&lt;label&gt;</span>_ses-<span class="placeholder">&lt;label&gt;</span>_scans.json
 |   |
 |   |__ dataset_description.json
 |   |__ participants.tsv
@@ -40,19 +40,17 @@ bids/
 |   |__ xcp_d/
 |
 |__ phenotype/
-|   |__ phenotype.tsv
-|   |__ phenotype.json
-|   |__ bio_biosample_<nails|urine>.tsv
-|   |__ bio_biosample_<nails|urine>.json
+|   |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.tsv
+|   |__ bio_biosample_<span class="placeholder">&lt;nails|urine&gt;</span>.json
 |   |__ par_visit_data.tsv
 |   |__ par_visit_data.json
 |   |__ sed_basic_demographics.tsv
 |   |__ sed_basic_demographics.json
-|   |__ <instrument_name>.tsv (repeat for all selected instruments)
-|   |__ <instrument_name>.json (repeat for all selected instruments)
+|   |__ <span class="placeholder">&lt;instrument_name&gt;</span>.tsv (repeat for all selected instruments)
+|   |__ <span class="placeholder">&lt;instrument_name&gt;</span>.json (repeat for all selected instruments)
 |
 |__ README    
-```
+</pre>
 
 ## Raw BIDS Conversion Procedures
 For most imaging data, DICOM image files are converted to BIDS standard formatting using an [HBCD-customized version](https://github.com/rordenlab/dcm2niix/tree/c5caaa9f858b704b61d3ff4a7989282922dd712e) of the [dcm2niix](https://github.com/rordenlab/dcm2niix) tool. One exception is MRS, for which vendor-specific raw data formats (Siemens `.dat`; Philips data/list; GE P-file) were converted to BIDS using [spec2nii v0.7.0](https://github.com/wtclarke/spec2nii). 

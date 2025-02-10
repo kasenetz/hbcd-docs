@@ -1,31 +1,30 @@
 # Phenotype BIDS Data
 The `phenotype/` folder includes instrument data, visit data, biosample, and demographics information for all participants, each of which includes a `tsv` data file and associated `json` file with explanation of the data fields. 
-```
+
+<pre class="folder-tree">
 bids/
 |__ phenotype/
-    |__ phenotype.tsv
-    |__ phenotype.json
     |
-  # BioSpecimen
+    | <span class="hashtag"># BioSpecimen Data</span>
     |__ bio_biosample_nails.tsv
     |__ bio_biosample_nails.json
     |__ bio_biosample_urine.tsv
     |__ bio_biosample_urine.json
     |  
-  # Visit Data
+    | <span class="hashtag"># Visit Data</span>
     |__ par_visit_data.tsv
     |__ par_visit_data.json
     |
-  # Demographic Data
+    | <span class="hashtag"># Demographics Data</span>
     |__ sed_basic_demographics.tsv
     |__ sed_basic_demographics.json
     |__ sed_bm_demo.tsv
     |__ sed_bm_demo.json
     |
-  # Instruments
-    |__ <instrument_name>.tsv (repeat for all selected instruments)
-    |__ <instrument_name>.json (repeat for all selected instruments)
-```
+    | <span class="hashtag"># Instruments</span>
+    |__ <span class="placeholder">&lt;instrument_name&gt;</span>.tsv
+    |__ <span class="placeholder">&lt;instrument_name&gt;</span>.json
+</pre>
 
 ## Demographics Data
 <p>
