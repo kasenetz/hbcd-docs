@@ -8,10 +8,10 @@ As much as possible, HBCD processing utilizes the [Brain Imaging Data Structure]
 <pre class="folder-tree">
 bids/
 |__ rawdata/ 
-|   |__ sub-<span class="placeholder">&lt;label&gt;</span>/
-|   |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_sessions.tsv
-|   |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_sessions.json
-|   |   |__ ses-<span class="placeholder">&lt;label&gt;</span>/
+|   |__ sub-<span class="label">&lt;label&gt;</span>/
+|   |   |__ sub-<span class="label">&lt;label&gt;</span>_sessions.tsv
+|   |   |__ sub-<span class="label">&lt;label&gt;</span>_sessions.json
+|   |   |__ ses-<span class="label">&lt;label&gt;</span>/
 |   |       |__ anat/
 |   |       |__ dwi/
 |   |       |__ eeg/
@@ -19,8 +19,8 @@ bids/
 |   |       |__ func/
 |   |       |__ motion/
 |   |       |__ mrs/
-|   |       |__ sub-<span class="placeholder">&lt;label&gt;</span>_ses-<span class="placeholder">&lt;label&gt;</span>_scans.tsv
-|   |       |__ sub-<span class="placeholder">&lt;label&gt;</span>_ses-<span class="placeholder">&lt;label&gt;</span>_scans.json
+|   |       |__ sub-<span class="label">&lt;label&gt;</span>_ses-<span class="label">&lt;label&gt;</span>_scans.tsv
+|   |       |__ sub-<span class="label">&lt;label&gt;</span>_ses-<span class="label">&lt;label&gt;</span>_scans.json
 |   |
 |   |__ dataset_description.json
 |   |__ participants.tsv
@@ -46,8 +46,8 @@ bids/
 |   |__ par_visit_data.json
 |   |__ sed_basic_demographics.tsv
 |   |__ sed_basic_demographics.json
-|   |__ <span class="placeholder">&lt;instrument_name&gt;</span>.tsv (repeat for all selected instruments)
-|   |__ <span class="placeholder">&lt;instrument_name&gt;</span>.json (repeat for all selected instruments)
+|   |__ <span class="placeholder">&lt;instrument_name&gt;</span>.tsv
+|   |__ <span class="placeholder">&lt;instrument_name&gt;</span>.json
 |
 |__ README    
 </pre>

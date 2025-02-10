@@ -45,8 +45,8 @@ BIBSNet outputs brain segmentations and masks in native T1w and T2w space as wel
 
 <pre class="folder-tree">
 bibsnet/
-|__ sub-<span class="placeholder">&lt;label&gt;</span>/
-    |__ ses-<span class="placeholder">&lt;label&gt;</span>/
+|__ sub-<span class="label">&lt;label&gt;</span>/
+    |__ ses-<span class="label">&lt;label&gt;</span>/
         |__ anat/
             |__ SUBSES_space-<span class="placeholder">&lt;T1w|T2w&gt;</span>_desc-aseg_dseg.nii.gz
             |__ SUBSES_space-<span class="placeholder">&lt;T1w|T2w&gt;</span>_desc-aseg_dseg.json
@@ -64,8 +64,8 @@ The HBCD-Motion pipeline is used to process the HBCD Axivity Ax6 sensor recordin
 
 <pre class="folder-tree">
 hbcd_motion/
-|__ sub-<span class="placeholder">&lt;label&gt;</span>/
-    |__ ses-<span class="placeholder">&lt;label&gt;</span>/
+|__ sub-<span class="label">&lt;label&gt;</span>/
+    |__ ses-<span class="label">&lt;label&gt;</span>/
         |__ motion/
             |__ Kinematics/
             |   |__ SUBSES_desc-kinematics_recording-20_motion.json
@@ -91,8 +91,8 @@ HBCD-MADE produces preprocessed EEG derivatives. Please see the [HBCD-MADE webpa
 
 <pre class="folder-tree">
 made/
-|__ sub-<span class="placeholder">&lt;label&gt;</span>/
-    |__ ses-<span class="placeholder">&lt;label&gt;</span>/
+|__ sub-<span class="label">&lt;label&gt;</span>/
+    |__ ses-<span class="label">&lt;label&gt;</span>/
         |__ eeg/
             |__ filtered_data/
             |   |__ SUBSES_task-<span class="placeholder">&lt;FACE|MMN|RS|VEP&gt;</span>_acq-eeg_desc-filtered_eeg.fdt
@@ -109,26 +109,26 @@ made/
             |   |__ SUBSES_desc-merged_eeg.set
             | 
             |__ processed_data/
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-FACE_desc-Oz_diffERP.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-FACE_desc-diffInvVsUpr_topo.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-FACE_desc-diffObjVsUp2_topo.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-FACE_desc-inverted_topo.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-FACE_desc-object_topo.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-FACE_desc-oz_ERP.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-FACE_desc-upright_topo.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-FACE_desc-upright2_topo.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-MMN-desc-Deviant_topo.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-MMN_desc-diffDevVsSta_topo.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-MMN_desc-diffDevVsPre_topo.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-MMN_desc-preDeviant_topo.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-MMN_desc-standard_topo.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-MMN_desc-T7t8_diffERP.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-MMN_desc-t7t8_ERP.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-RS_desc-allChAvg_PSD.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-RS_desc-allCh_PSD.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-RS_desc-ROI_PSD.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-VEP_desc-oz_ERP.jpg
-            |   |__ sub-<span class="placeholder">&lt;label&gt;</span>_task-VEP_topo.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-Oz_diffERP.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-diffInvVsUpr_topo.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-diffObjVsUp2_topo.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-inverted_topo.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-object_topo.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-oz_ERP.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-upright_topo.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-upright2_topo.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN-desc-Deviant_topo.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-diffDevVsSta_topo.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-diffDevVsPre_topo.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-preDeviant_topo.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-standard_topo.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-T7t8_diffERP.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-t7t8_ERP.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_desc-allChAvg_PSD.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_desc-allCh_PSD.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_desc-ROI_PSD.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-VEP_desc-oz_ERP.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-VEP_topo.jpg
             |   |__ SUBSES_task-<span class="placeholder">&lt;FACE|MMN|RS|VEP&gt;</span>_ERPSummaryStats.csv
             |   |__ SUBSES_task-<span class="placeholder">&lt;FACE|MMN|RS|VEP&gt;</span>_ERPTrialMeasures.csv
             |   |__ SUBSES_task-RS_powerSummaryStats.csv
@@ -143,18 +143,18 @@ MRIQC extracts no-reference IQMs (image quality metrics) from structural (T1w an
 
 <pre class="folder-tree">
 mriqc/
-|__ sub-<span class="placeholder">&lt;label&gt;</span>/
-|   |__ ses-<span class="placeholder">&lt;label&gt;</span>/
+|__ sub-<span class="label">&lt;label&gt;</span>/
+|   |__ ses-<span class="label">&lt;label&gt;</span>/
 |       |__ anat/
-|       |   |__ SUBSES_run-<span class="placeholder">&lt;label&gt;</span>_T1w.json
-|       |   |__ SUBSES_run-<span class="placeholder">&lt;label&gt;</span>_T2w.json
+|       |   |__ SUBSES_run-<span class="label">&lt;label&gt;</span>_T1w.json
+|       |   |__ SUBSES_run-<span class="label">&lt;label&gt;</span>_T2w.json
 |       |
 |       |__ func/
-|           |__ SUBSES_task-rest_dir-PA_run-<span class="placeholder">&lt;label&gt;</span>_bold.json
+|           |__ SUBSES_task-rest_dir-PA_run-<span class="label">&lt;label&gt;</span>_bold.json
 |        
-|__ SUBSES_run-<span class="placeholder">&lt;label&gt;</span>_T1w.html
-|__ SUBSES_run-<span class="placeholder">&lt;label&gt;</span>_T2w.html
-|__ SUBSES_task-rest_dir-PA_run-<span class="placeholder">&lt;label&gt;</span>_bold.html
+|__ SUBSES_run-<span class="label">&lt;label&gt;</span>_T1w.html
+|__ SUBSES_run-<span class="label">&lt;label&gt;</span>_T2w.html
+|__ SUBSES_task-rest_dir-PA_run-<span class="label">&lt;label&gt;</span>_bold.html
 </pre>
 *See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder tree above.*
 
@@ -181,9 +181,9 @@ Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and fun
 
 <pre class="folder-tree">
 nibabies/
-|__ sub-<span class="placeholder">&lt;label&gt;</span>/
+|__ sub-<span class="label">&lt;label&gt;</span>/
 |   |__ figures/
-|   |__ ses-<span class="placeholder">&lt;label&gt;</span>/
+|   |__ ses-<span class="label">&lt;label&gt;</span>/
 |       |__ anat/
 |       |   |__ SUBSES-RUN_desc-preproc_T2w.nii.gz (+JSON)
 |       |   |__ SUBSES-RUN_from-<span class="placeholder">&lt;XFMSPACE&gt;</span>_to-T2w_mode-image_xfm.h5
@@ -231,8 +231,8 @@ OSPREY-BIDS is the BIDS extension to the OSPREY pipeline used to process HBCD ma
 
 <pre class="folder-tree">
 osprey/
-|__ sub-<span class="placeholder">&lt;label&gt;</span>/
-    |__ ses-<span class="placeholder">&lt;label&gt;</span>/
+|__ sub-<span class="label">&lt;label&gt;</span>/
+    |__ ses-<span class="label">&lt;label&gt;</span>/
         |__ HERCULES/
         |   |__ PreOspreyLocalizerReg/
         |   |   |__ figures/
@@ -259,7 +259,7 @@ osprey/
         |   |
         |   |__ Reports/
         |   |   |__ reportFigures/
-        |   |   |__ sub-<span class="placeholder">&lt;label&gt;</span>-report.html
+        |   |   |__ sub-<span class="label">&lt;label&gt;</span>-report.html
         |   |
         |   |__ SegMaps/
         |   |   |__ TissueFractions_Voxel_1.tsv
@@ -290,8 +290,8 @@ This pipeline performs minimal post-processing for SyMRI synthetic images derive
 
 <pre class="folder-tree">
 qmri_postproc/
-|__ sub-<span class="placeholder">&lt;label&gt;</span>/
-    |__ ses-<span class="placeholder">&lt;label&gt;</span>/
+|__ sub-<span class="label">&lt;label&gt;</span>/
+    |__ ses-<span class="label">&lt;label&gt;</span>/
         |__ anat/  
             |__ SUBSES_desc-AsegROIs_scalarstats.json
             |__ SUBSES_desc-AsegROIs_scalarstats.tsv
@@ -310,9 +310,9 @@ The QSIPrep pipeline is used for preprocessing the HBCD diffusion-weighted MRI (
 
 <pre class="folder-tree">
 qsiprep/
-|__ sub-<span class="placeholder">&lt;label&gt;</span>/
+|__ sub-<span class="label">&lt;label&gt;</span>/
     |__ log/
-    |__ ses-<span class="placeholder">&lt;label&gt;</span>/
+    |__ ses-<span class="label">&lt;label&gt;</span>/
         |__ anat/
         |   |__ SUBSES_from-ACPC_to-MNIInfant+1_mode-image_xfm.h5
         |   |__ SUBSES_from-ACPC_to-anat_mode-image_xfm.mat
@@ -353,8 +353,8 @@ derivatives/
 |  |__ log/
 |
 |__ qsirecon-*/
-    |__ sub-<span class="placeholder">&lt;label&gt;</span>/
-        |__ ses-<span class="placeholder">&lt;label&gt;</span>/
+    |__ sub-<span class="label">&lt;label&gt;</span>/
+        |__ ses-<span class="label">&lt;label&gt;</span>/
             |__ dwi/
             |__ figures/
             |__ SUBSES.html    
@@ -419,8 +419,8 @@ dwi/
 [SyMRI](https://syntheticmr.com/products/symri-neuro/) is proprietary software for quantitative MRI. For HBCD it is used to generate synthetic contrast weighted images derived from measures of the absolute properties of [QALAS](https://pubmed.ncbi.nlm.nih.gov/25526880/) brain images. These outputs are then minimally preprocessed by [qMRI Postproc](#qmri-postproc-qmri_postproc). Files include synthetic T1w and T2w images (`SUBSES_acq-QALAS_<T1w|T2w>.nii.gz`), derived relaxometry maps (`SUBSES_acq-QALAS_T2map.nii.gz`).
 <pre class="folder-tree">
 symri/
-|__ sub-<span class="placeholder">&lt;label&gt;</span>/
-    |__ ses-<span class="placeholder">&lt;label&gt;</span>/
+|__ sub-<span class="label">&lt;label&gt;</span>/
+    |__ ses-<span class="label">&lt;label&gt;</span>/
         |__ anat/
             |__ SUBSES_acq-QALAS_T1w.nii.gz
             |__ SUBSES_acq-QALAS_T1w.json
@@ -452,8 +452,8 @@ XCP-D performs functional MRI post-processing and noise regression from Infant-f
 
 <pre class="folder-tree">
 xcp_d/
-|_ sub-<span class="placeholder">&lt;label&gt;</span>/
-|  |_ ses-<span class="placeholder">&lt;label&gt;</span>/
+|_ sub-<span class="label">&lt;label&gt;</span>/
+|  |_ ses-<span class="label">&lt;label&gt;</span>/
 |     |_ anat/
 |     |  |__ SUBSES-RUN_space-MNI152NLin6Asym_desc-preproc_T2w.nii.gz
 |     |  |__ SUBSES-RUN_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_desc-curv_morph.tsv
@@ -484,5 +484,5 @@ xcp_d/
 |     |
 |     |_ figures/
 |
-|_ sub-<span class="placeholder">&lt;label&gt;</span>_ses-<span class="placeholder">&lt;label&gt;</span>_executive_summary.html
+|_ sub-<span class="label">&lt;label&gt;</span>_ses-<span class="label">&lt;label&gt;</span>_executive_summary.html
 </pre>

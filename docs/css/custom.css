@@ -18,13 +18,14 @@
 }
 /* Style for placeholder variables in angle brackets */
 .folder-tree .placeholder {
-  color: #199bd6
+  color: #0af0e1
 }
 .folder-tree .hashtag {
   color: #b0d619
 }
-
-
+.folder-tree .label {
+  color: #199bd6
+}
 
 
 .gray-text {

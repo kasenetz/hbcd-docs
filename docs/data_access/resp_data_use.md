@@ -19,7 +19,6 @@ There are 2 types of warnings, both of which may aid in more scientifically rigo
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>The purpose of this warning is to improve transparency and offer technical assistance by alerting the user to issues of data quality, providing information on how variables were constructed, providing instructions on how to calculate or analyze specific variables, or providing code (if necessary).</p> 
 </div>
 </p>
@@ -31,7 +30,6 @@ There are 2 types of warnings, both of which may aid in more scientifically rigo
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>The purpose of this warning is to offer guidance for research design, data interpretation, and communication of findings. These warnings also include conceptual information (e.g., difference between sex assigned at birth and gender identity, the possibility of bias due to attrition or non-response).</p>
 </div>
 </p>
