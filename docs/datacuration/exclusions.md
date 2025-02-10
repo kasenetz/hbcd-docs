@@ -78,7 +78,7 @@ Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additi
 For imaging data, only files that pass [raw data quality control](../measures/mri/qc.md#raw-mr-data-qc) are included in the data release and utilized for data processing. All quality control information is stored in the `sub-<label>_ses-<label>_scans.tsv` file located in each BIDS session folder. Some modalities undergo additional, more stringent QC filtering based on additional QC metrics to select only the best data for processing - see [Processing Pipeline Criteria](#processing-pipeline-criteria) below for details.
 
 #### Electroencephalography
-EEG file inclusion in the data release is based in part on EEG capping quality: acquisitions with QC ratings of "excellent", "average", and "poor" are all included and those rated as "not usable" are excluded. See details of quality control procedures under [Data Measures > EEG > EEG Net Placement ("Capping Quality") Ratings](../measures/eeg/index.md#eeg-net-placement-capping-quality-ratings). Capping ratings are made available to users in the QC instrument files provided for each EEG task under `phenotype/` (`eeg_qc_task-FACE.tsv`, `eeg_qc_task-MMN.tsv`, `eeg_qc_task-RS.tsv`, and `eeg_qc_task-VEP.tsv` - see details [here](phenotypes.md#instrument-data)).
+EEG file inclusion in the data release is based in part on EEG capping quality: acquisitions with QC ratings of "excellent", "average", and "poor" are all included and those rated as "not usable" are excluded. See details of quality control procedures under [Data Measures > EEG > EEG Net Placement ("Capping Quality") Ratings](../measures/eeg/index.md#eeg-net-placement-capping-quality-ratings). Capping ratings are made available to users in the QC [instrument files](phenotypes.md#instrument-data) provided for each EEG task in the `phenotype/` folder (`eeg_qc_task-FACE.tsv`, `eeg_qc_task-MMN.tsv`, `eeg_qc_task-RS.tsv`, and `eeg_qc_task-VEP.tsv`).
 
 ## Processing Pipeline Criteria
 **File Selection for the First Release**    
@@ -101,7 +101,6 @@ Below is a list of general rules applied to all data as well as static (i.e. pre
 <ul>
     <li>For all participants with only one active V01 visit, sex is changed from "Male/Female" to “Other”</li>
     <li>All empty strings (“”) or missing values are replaced with the default ReproSchema-compliant string “n/a”</li>
-    <li>“Candidate_Age” is computed in years except for V01, for which values are replaced with "n/a"</li>
     <li>Some fields can have out-of-range values. They are considered “extreme” values and are changed to “n/a”. This filter was applied to <code>pex_bm_healthv2_inf</code> - see <a href="../../measures/pregexp/preghealth#field-exclusions">Pregnancy & Infant Health > Field Exclusions</a> for details.
 </ul>
 </div>
@@ -159,7 +158,8 @@ Below is a list of general rules applied to all data as well as static (i.e. pre
     <li>Urgent Events ('adm_fd_urgent')</li>
     <li>Transitions in Care Questionnaire ('sed_cg_tic')</li>
 </ul>
-<br><b>Excluded Instrument Fields:</b>
+
+<b>Excluded Instrument Fields:</b>
 <ul>
     <li>Examiner ('Examiner’)  </li>
     <li>Date of Birth (‘DOB’)  </li>

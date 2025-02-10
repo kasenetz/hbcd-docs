@@ -50,17 +50,17 @@
 }
 .collapsible-content ul {
   margin-top: 1rem;
-  padding-left: 1.5rem;
-  line-height: 1.6;
+  padding-left: 0.4rem;
+  line-height: 1;
 }
 .collapsible-content li {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.1rem;
 }
 .collapsible-content ul ul {
-  margin-top: 0.5rem;
+  margin-top: 0.1rem;
 }
 .collapsible-content ul ul li {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.1rem;
 }
 .collapsible-content li b {
   color: #0077cc;
