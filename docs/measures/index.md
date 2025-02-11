@@ -13,7 +13,9 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 </div>
 </p>
 
-### Non-Imaging Data Measures
+### Phenotype Data Measures
+The data provided within the `phenotype/` folder includes demographic, toxicology, and measure instrument data - see [Phenotype BIDS Data](../datacuration/phenotypes.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details. The tabulated data provided for these data measures are as follows:
+
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <thead>
     <tr>
@@ -96,12 +98,6 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
     <td colspan="4" style="border: 1px solid #ddd; padding: 6px; font-weight: bold; background-color: #f0f0f0; text-align: left; font-size: 14px;">
       Novel Technologies & Wearable Sensors (<a href="sensors">Main Page</a>)
     </td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/sensors/#wearable-sensors">Wearable Sensors</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">N/A</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Channel setup</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sens_ch_setup</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/sensors/#infant-sensor-questionnaire">Infant Sensor Questionnaire</a></td>
@@ -304,8 +300,8 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 </tbody>
 </table>
 
-### Brain Activity (MRI, EEG) & Spectroscopy Data
-The following tabulated data is included in the release for magnetic resonance imaaging (MRI), spectroscopy (MRS), and EEG data. The release also includes raw and processed derivative data converted to the [Brain Imaging Data Structure](https://bids-specification.readthedocs.io/en/stable/) standard for all data types listed below - see the section on [HBCD BIDS Data](../datacuration/overview.md) for details. Note that the file-based data includes sensor recordings as well for leg motion data acquired by [wearable sensors](sensors.md).
+### Imaging, Spectroscopy, EEG, & Accelerometry
+The release also includes raw and processed data from magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](sensors.md) recordings for leg motion). The file-based data includes raw and processed ("derivative") data formatted to adhere to the Brain Imaging Data Structure (BIDS) standard - see [Raw BIDS Data](../datacuration/rawbids.md) and [Derivatives](../datacuration/derivatives.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details. The tabulated data provided are as follows:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <tfoot><tr>
@@ -317,12 +313,22 @@ The following tabulated data is included in the release for magnetic resonance i
   </tfoot>
   <thead>
     <tr>
-      <th style="width: 10%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 16px;">Name</th>
+      <th style="width: 20%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 16px;">Name</th>
       <th style="width: 10%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 16px;">Acronym</th>
       <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 16px;">Table Name(s)</th>
     </tr>
   </thead>
   <tbody>
+    <tr>
+    <td colspan="3" style="border: 1px solid #ddd; padding: 6px; font-weight: bold; background-color: #f0f0f0; text-align: left; font-size: 14px;">
+      Novel Technologies & Wearable Sensors (<a href="sensors">Main Page</a>)
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/sensors/#wearable-sensors">Wearable Sensors</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Channel setup</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">sens_ch_setup</td>
+  </tr>
   <tr>
       <td colspan="3" style="border: 1px solid #ddd; padding: 6px; font-weight: bold; background-color: #f0f0f0; text-align: left; font-size: 14px;">
         Electroencephalogram (EEG) (<a href="eeg">Main Page</a>)
