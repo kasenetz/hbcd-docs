@@ -1,8 +1,11 @@
 # Exclusion Criteria 
 
-## Imaging: Acquisition Parameter Criteria
+## Imaging, Spectroscopy, EEG, & Accelerometry
+
+#### Acquisition Parameter Criteria
 Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional checks to ensure data integrity. All images are verified to be acquired using a head coil before inclusion in the BIDS dataset. Modality-specific inclusion criteria, parsed from the image JSON files, are as follows:
 
+<p>
 <div id="acq-param-table" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Acquisition Parameter Ranges for Data Release Eligibility</span>
   <span class="table-arrow">▸</span>
@@ -71,11 +74,7 @@ Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additi
 </tbody>
 </table>
 </div>
-
-
-## Quality Control Criteria
-#### Imaging Data
-For imaging data, only files that pass [raw data quality control](../measures/mri/qc.md#raw-mr-data-qc) are included in the data release and utilized for data processing. All quality control information is stored in the `sub-<label>_ses-<label>_scans.tsv` file located in each BIDS session folder. Some modalities undergo additional, more stringent QC filtering based on additional QC metrics to select only the best data for processing - see [Processing Pipeline Criteria](#processing-pipeline-criteria) below for details.
+</p>
 
 #### Electroencephalography
 EEG file inclusion in the data release is based in part on EEG capping quality: acquisitions with QC ratings of "excellent", "average", and "poor" are all included and those rated as "not usable" are excluded. See details of quality control procedures under [Data Measures > EEG > EEG Net Placement ("Capping Quality") Ratings](../measures/eeg/index.md#eeg-net-placement-capping-quality-ratings). Capping ratings are made available to users in the QC [instrument files](phenotypes.md#instrument-data) provided for each EEG task in the `phenotype/` folder (`eeg_qc_task-FACE.tsv`, `eeg_qc_task-MMN.tsv`, `eeg_qc_task-RS.tsv`, and `eeg_qc_task-VEP.tsv`).
@@ -83,7 +82,7 @@ EEG file inclusion in the data release is based in part on EEG capping quality: 
 #### Processing Pipeline Criteria
 With the exception of TB1 MRI and electrocardiogram (ECG) data, raw BIDS files are included in the release only if they were used in at least one processing pipeline, ensuring alignment with derived pipeline outputs. Since HBCD employs multiple pipelines — each with its own requirements — the released data represent the union of all files that meet at least one pipeline’s criteria. 
 
-For some data categories, files are selected for processing based on pipeline-specific criteria detailed under *Quality Control Selection Information* in the [Tool Names](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html#tool-names) section of the HBCD Processing website. When additional QC criteria apply, filtering typically occurs in two stages: first, using both manual and automated QC fields, and second, using only automated fields. For example, only the highest-quality T1w and T2w are selected for structural MRI processing when multiple scans passing QC are present. In this first release, all high-resolution T1w and T2w scans — and most QALAS acquisitions — were selected using `QU_Motion`, a manual assessment of motion artifacts.
+For some data categories, files are selected for processing based on pipeline-specific criteria detailed under *Quality Control Selection Information* in the [Tool Names](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html#tool-names) section of the HBCD Processing website. For imaging data that underwent [raw data quality control](../measures/mri/qc.md#raw-mr-data-qc), only files that pass are included in the data release and utilized for data processing. All quality control information is stored in the `sub-<label>_ses-<label>_scans.tsv` file located in each BIDS session folder. When additional QC criteria apply, filtering typically occurs in two stages: first, using both manual and automated QC fields, and second, using only automated fields. For example, only the highest-quality T1w and T2w are selected for structural MRI processing when multiple scans passing QC are present. In this first release, all high-resolution T1w and T2w scans — and most QALAS acquisitions — were selected using `QU_Motion`, a manual assessment of motion artifacts.
 
 
 ## Tabulated Instrument Data
