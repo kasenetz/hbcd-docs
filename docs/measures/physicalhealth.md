@@ -111,6 +111,34 @@ Food Insecurity, based on two items assessing the availability of food, is a scr
 </p>
 Growth is a standard direct measure of child height or length (in cm), weight (in kg), head circumference (cm). In older children, it will also include abdominal circumference (cm).
 
+**Out-Of-Range Value Exclusion**    
+In the instrument .tsv files provided in the release, some fields can have out-of-range values. They are considered “extreme” values and are changed to “n/a.” See [Exclusion Criteria > Tabulated Instrument Data](../datacuration/exclusions.md#tabulated-instrument-data) for additional information. This filter applies to `ph_ch_anthro` as follows:
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Field</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Valid Range</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Z-Score Exclusion Filter (Values Changed to "n/a")</th>
+    </tr>
+  </thead>
+<tbody>        
+    <tr>
+        <td>Length</td>
+        <td>30 to 130 cm</td>
+        <td>-8 to 40</td>
+    </tr>     
+    <tr>
+        <td>Head Circumference</td>
+        <td>25 to 55 cm</td>
+        <td>-6 to 16</td>
+    </tr>          
+    <tr>
+        <td>Weight</td>
+        <td>0.5 to 30 kg</td>
+        <td>-6 to 18</td>
+    </tr>         
+</tbody>
+</table>
 
 ## References
 <div class="references">
