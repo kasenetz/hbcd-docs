@@ -192,7 +192,7 @@ For quality control, response distributions were reviewed for outliers.
 </div>
 </p>
 
-<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
+<div id="healthv2inf-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
   <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
