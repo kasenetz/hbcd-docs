@@ -165,9 +165,9 @@ Static elements are precisely identified hard-coded elements such as participant
     <li>Line fields</li>
     <li>Extreme values filtered for 'Height/Weight/Head Circumference' ('ph_ch_anthro') fields:
         <ul>
-        <li>Length ('len_001_i_03'): Min => 30 / Max => 130  </li>
-        <li>Weight ('wei_001_i_03'): Min => 0.5 / Max => 30  </li>
-        <li>Head Circumference ('head_001_i_03'): Min => 25 / Max => 55  </li>
+        <li>Length ('len_001_i_03'): min 30 / max 130  </li>
+        <li>Weight ('wei_001_i_03'): min 0.5 / max 30  </li>
+        <li>Head Circumference ('head_001_i_03'): min 25 / max 55  </li>
         </ul>
     </li>
     <li>Extreme values filtered for 'Infant health- V2' ('pex_bm_healthv2_inf') fields:
