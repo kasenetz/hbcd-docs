@@ -86,34 +86,20 @@ For some data categories, files are selected for processing based on pipeline-sp
 
 
 ## Tabulated Instrument Data
-Below is a list of general rules applied to all data as well as static (i.e. precisely identified hard-coded elements such as participants, instruments, and instrument fields) and dynamic elements excluded during the data release process:
-<p>
-<div id="general-rules-dropdown" class="table-banner" onclick="toggleCollapse(this)">
-    <span class="table-text">General Rules Applied to All Data</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="collapsible-content">
-<ul>
-    <li>For all participants with only one active V01 visit, sex is changed from "Male/Female" to “Other”</li>
-    <li>All empty strings (“”) or missing values are replaced with the default ReproSchema-compliant string “n/a”</li>
-    <li>Some fields can have out-of-range values. They are considered “extreme” values and are changed to “n/a”. This filter was applied to <code>pex_bm_healthv2_inf</code> - see <a href="../../measures/pregexp/preghealth#field-exclusions">Pregnancy & Infant Health > Field Exclusions</a> for details.
-</ul>
-</div>
-</p>
 
-<p>
+### General Rules Applied to All Data
+- For all participants with only one active V01 visit, sex is changed from "Male/Female" to “Other”
+- All empty strings (“”) or missing values are replaced with the default ReproSchema-compliant string “n/a”
+- Some fields can have out-of-range values. They are considered “extreme” values and are changed to “n/a”. Filtered fields are listed under [Excluded Instrument Fields](#static-exclusions-fields)
+  
+### Static Element Exclusions
+Static elements are precisely identified hard-coded elements such as participants, instruments, and instrument fields. The current data release excludes participants with a 'Postnatal Recruitment' visit as well as Multiple Birth Participants (to be included in the [interim release](../changelog/pending.md#release-11-release-date-tba)). Excluded instruments and instrument fields are as follows:
+
 <div id="static-exclusions-dropdown" class="table-banner" onclick="toggleCollapse(this)">
-    <span class="table-text">Static Element Exclusions</span>
+    <span class="table-text">Excluded Instruments</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
-<b>Participant Filters:</b>
-<ul>
-    <li>Participants with a 'Postnatal Recruitment' visit  </li>
-    <li>Multiple Birth Participants</li>
-</ul>
-<b>Excluded Instruments:</b>
 <ul>
     <li>Biosensor Receipt Form ('sens_ch_rcpt')</li>
     <li>EEG Acquisition Checklists
@@ -153,8 +139,13 @@ Below is a list of general rules applied to all data as well as static (i.e. pre
     <li>Urgent Events ('adm_fd_urgent')</li>
     <li>Transitions in Care Questionnaire ('sed_cg_tic')</li>
 </ul>
+</div>
 
-<b>Excluded Instrument Fields:</b>
+<div id="static-exclusions-fields" class="table-banner" onclick="toggleCollapse(this)">
+    <span class="table-text">Excluded Instrument Fields</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
 <ul>
     <li>Examiner ('Examiner’)  </li>
     <li>Date of Birth (‘DOB’)  </li>
@@ -166,58 +157,52 @@ Below is a list of general rules applied to all data as well as static (i.e. pre
     <li>Stop timestamp (‘timestamp_stop’)  </li>
     <li>REDCap timestamp (‘timestamp_redcap_locked’)  </li>
     <li>Visit Data ('visit_stage' removed from the 'visit_data' category)  </li>
-    <li>'Height/Weight/Head Circumference' ('ph_ch_anthro')
-        <ul>
-        <li>BMI-related fields removed  </li>
-        </ul>
-    </li>
-    <li>Breast Feeding History ('ph_cg_phx_i_bfh')
-        <ul>
-        <li>All fields except '001' excluded  </li>
-        </ul>
-    </li>
-    <li>Filter out extreme values for 'Height/Weight/Head Circumference' ('ph_ch_anthro')
+    <li>'Height/Weight/Head Circumference' ('ph_ch_anthro') - BMI-related fields removed  </li>
+    <li>Breast Feeding History ('ph_cg_phx_i_bfh') - All fields except '001' excluded  </li>
+    <li>Clinical Alerts  </li>
+    <li>REDCap Complete status ('complete')  </li>
+    <li>Scannable codes (BioSamples codes, tracking Nos, etc...)  </li>
+    <li>Line fields</li>
+    <li>Extreme values filtered for 'Height/Weight/Head Circumference' ('ph_ch_anthro') fields:
         <ul>
         <li>Length ('len_001_i_03'): Min => 30 / Max => 130  </li>
         <li>Weight ('wei_001_i_03'): Min => 0.5 / Max => 30  </li>
         <li>Head Circumference ('head_001_i_03'): Min => 25 / Max => 55  </li>
         </ul>
     </li>
-    <li>Clinical Alerts  </li>
-    <li>REDCap Complete status ('complete')  </li>
-    <li>Scannable codes (BioSamples codes, tracking Nos, etc...)  </li>
-    <li>Line fields</li>
+    <li>Extreme values filtered for 'Infant health- V2' ('pex_bm_healthv2_inf') fields:
+        <ul>
+        <li>'001_i_01': values > 16 </li>
+        <li>'001_i_02': values > 66 </li>
+        <li>'002': values outside of range 12-51</li>
+        <li>'002_i_01': values outside of range 30-130 </li>
+        </ul>
+    </li>
 </ul>
 </div>
-</p>
 
-<p>
+### Dynamic Element Exclusions
 <div id="dynamic-exclusions-dropdown" class="table-banner" onclick="toggleCollapse(this)">
     <span class="table-text">Dynamic Element Exclusions</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-</p>
-<b>Participant Filters:</b>
 <ul>
+<b>Participant Filters:</b>
     <li>No brain rating or brain rating noted “abnormal” are not selected</li>
     <li>Only active participants and sessions are selected</li>
     <li>Participants from Data Coordination Center (DCC) and University of Florida (UFL) sites are not selected</li>
     <li>Only participants with PSCIDs starting with “CH” are selected (excluding all test participants e.g. QI, YI, XI, PI)</li>
 </ul>
-<b>Visit Filters:</b>
+<ul><b>Visit Filters:</b> Only visits whose 'LaunchPad Complete' Status was set to 'Complete' before July 1st, 2024 are included</ul>
 <ul>
-    <li>Only visits whose 'LaunchPad Complete' Status was set to 'Complete' before July 1st, 2024 are included</li>
-</ul>
 <b>Domain Filters:</b>
-<ul>
     <li>BioSpecimens</li>
     <li>Geocoding data</li>
     <li>Transition in Care</li>
     <li>REDCap surveys filled out directly in LORIS (Identified based on LORIS 'Examiner' field not set to 'REDCap')</li>
 </ul>
 </div>
-</p>
 
 
 

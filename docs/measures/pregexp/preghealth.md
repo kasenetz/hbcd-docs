@@ -64,36 +64,6 @@ The current data release for Pregnancy & Exposure, Including Substance Use, incl
 </tbody>
 </table>
 
-### Field Exclusions
-In the instrument `.tsv` files provided in the release, some fields can have out-of-range values. They are considered “extreme” values and are changed to “n/a.” See [Exclusion Criteria > Tabulated Instrument Data](../../datacuration/exclusions.md/#tabulated-instrument-data) for additional information. This filter applies to `pex_bm_healthv2_inf` as follows:
-
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-<caption style="font-weight: bold; text-align: left; font-style: normal;">Healthv2 Inf (<code>pex_bm_healthv2_inf</code>) Field Exclusions</caption>
-  <thead>
-    <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Field</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Exclusion Filter (Values Changed to "n/a")</th>
-    </tr>
-  </thead>
-<tbody>        
-    <tr>
-        <td>001_i_01</td>
-        <td>values > 16</td>
-    </tr>     
-    <tr>
-        <td>001_i_02</td>
-        <td>values > 66</td>
-    </tr>         
-    <tr>
-        <td>002</td>
-        <td>values outside of range 12-51</td>
-    </tr>     
-    <tr>
-        <td>002_i_01</td>
-        <td>values outside of range 30-130</td>
-    </tr>         
-</tbody>
-</table>
 
 ## Implementation & Data Collection
 Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). All are child-unspecific and completed by the pregnant person with the exception of **Healthv2 Inf**, which is child-specific and completed by either the person who gave birth or primary caregiver. Additional information is as follows:
@@ -221,6 +191,17 @@ For quality control, response distributions were reviewed for outliers.
 </table>
 </div>
 </p>
+
+<div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text">Data Warning</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<p>Note that out-of-range values were filtered (i.e. changed to "n/a") for Healthv2 Inf (<code>pex_bm_healthv2_inf</code>). See <a href="../../../datacuration/exclusions#static-exclusions-fields">Excluded Instrument Fields</a> for details.</p> 
+</div>
+
+<br>
 
 **Instrument details are as follows:**
  <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
