@@ -107,7 +107,12 @@ Food Insecurity, based on two items assessing the availability of food, is a scr
 </div>
 <div class="collapsible-content">
 <p>Please note that range checks for Growth (<code>ph_ch_anthro</code>) were implemented in the database on 7/1/2024 so are not reflected in data included in the first data release. Outliers are possible.</p> 
-<p>Out-of-range values were filtered (i.e. changed to "n/a") to some extent as detailed under <a href="../../datacuration/exclusions#static-exclusions-fields">Excluded Instrument Fields</a>.</p>
+<p>However, out-of-range values were filtered (i.e. changed to "n/a") to some extent. Valid values for Growth fields are documented in the section on <a href="../../datacuration/exclusions">Exclusion Criteria</a> (see <a href="../../datacuration/exclusions#filtered-values">Filtered Out-Of-Range Field Values</a>) and provided below for quick reference:</p>
+<ul>
+  <li>Length (<code>len_001_i_03</code>): min 30 / max 130 (cm) </li>
+  <li>Weight (<code>wei_001_i_03</code>): min 0.5 / max 30  (kg)</li>
+  <li>Head Circumference (<code>head_001_i_03</code>): min 25 / max 55 (cm)</li>
+</ul>
 </div>
 </p>
 Growth is a standard direct measure of child height or length (in cm), weight (in kg), head circumference (cm). In older children, it will also include abdominal circumference (cm).

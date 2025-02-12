@@ -90,16 +90,16 @@ For some data categories, files are selected for processing based on pipeline-sp
 ### General Rules Applied to All Data
 - For all participants with only one active V01 visit, sex is changed from "Male/Female" to “Other”
 - All empty strings (“”) or missing values are replaced with the default ReproSchema-compliant string “n/a”
-- Some fields can have out-of-range values. They are considered “extreme” values and are changed to “n/a”. Filtered fields are listed under [Excluded Instrument Fields](#static-exclusions-fields)
+- Some fields can have out-of-range values considered “extreme” that are changed to “n/a." Filtered fields are listed under [Filtered Out-Of-Range Field Values](#filtered-values).
   
 ### Static Element Exclusions
 Static elements are precisely identified hard-coded elements such as participants, instruments, and instrument fields. The current data release excludes participants with a 'Postnatal Recruitment' visit as well as Multiple Birth Participants (to be included in the [interim release](../changelog/pending.md#release-11-release-date-tba)). Excluded instruments and instrument fields are as follows:
 
 <div id="static-exclusions-dropdown" class="table-banner" onclick="toggleCollapse(this)">
     <span class="table-text">Excluded Instruments</span>
-  <span class="arrow">▸</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="notification-collapsible-content">
 <ul>
     <li>Biosensor Receipt Form ('sens_ch_rcpt')</li>
     <li>EEG Acquisition Checklists
@@ -143,9 +143,9 @@ Static elements are precisely identified hard-coded elements such as participant
 
 <div id="static-exclusions-fields" class="table-banner" onclick="toggleCollapse(this)">
     <span class="table-text">Excluded Instrument Fields</span>
-  <span class="arrow">▸</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="notification-collapsible-content">
 <ul>
     <li>Examiner ('Examiner’)  </li>
     <li>Date of Birth (‘DOB’)  </li>
@@ -163,30 +163,65 @@ Static elements are precisely identified hard-coded elements such as participant
     <li>REDCap Complete status ('complete')  </li>
     <li>Scannable codes (BioSamples codes, tracking Nos, etc...)  </li>
     <li>Line fields</li>
-    <li>Extreme values filtered for 'Height/Weight/Head Circumference' ('ph_ch_anthro') fields:
-        <ul>
-        <li>Length ('len_001_i_03'): min 30 / max 130 (cm) </li>
-        <li>Weight ('wei_001_i_03'): min 0.5 / max 30  (kg)</li>
-        <li>Head Circumference ('head_001_i_03'): min 25 / max 55 (cm)</li>
-        </ul>
-    </li>
-    <li>Extreme values filtered for 'Infant health- V2' ('pex_bm_healthv2_inf') fields:
-        <ul>
-        <li>'001_i_01': values > 16 </li>
-        <li>'001_i_02': values > 66 </li>
-        <li>'002': values outside of range 12-51</li>
-        <li>'002_i_01': values outside of range 30-130 </li>
-        </ul>
-    </li>
 </ul>
 </div>
+
+<div id="filtered-values" class="table-banner" onclick="toggleCollapse(this)">
+    <span class="table-text">Filtered Out-Of-Range Field Values</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<p>Some fields can have out-of-range values considered “extreme.” Values outside of the valid ranges listed for the instruments below were filtered, i.e. changed to "n/a."</p>
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Field</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Valid Range</th>
+    </tr>
+  </thead>
+<tbody>        
+<td colspan="1" rowspan="4" style="word-wrap: break-word; white-space: normal;">Growth (<code>ph_ch_anthro</code>)</td>
+    <tr>
+        <td>Length (<code>len_001_i_03</code>)</td>
+        <td>30 to 130 cm</td>
+    </tr>     
+    <tr>
+        <td>Head Circumference (<code>head_001_i_03</code>)</td>
+        <td>25 to 55 cm</td>
+    </tr>          
+    <tr>
+        <td>Weight (<code>wei_001_i_03</code>)</td>
+        <td>0.5 to 30 kg</td>
+    </tr>         
+<td colspan="1" rowspan="5" style="word-wrap: break-word; white-space: normal;">Healthv2 Inf (<code>pex_bm_healthv2_inf</code>)</td>
+    <tr>
+        <td><code>001_i_01</code></td>
+        <td>≤ 16</td>
+    </tr>     
+    <tr>
+        <td><code>001_i_02</code></td>
+        <td>≤ 66</td>
+    </tr>     
+    <tr>
+        <td><code>002</code></td>
+        <td>12 - 51</td>
+    </tr>     
+    <tr>
+        <td><code>002_i_01</code></td>
+        <td>30 - 130</td>
+    </tr>     
+</tbody>
+</table>
+</div>
+<br>
 
 ### Dynamic Element Exclusions
 <div id="dynamic-exclusions-dropdown" class="table-banner" onclick="toggleCollapse(this)">
     <span class="table-text">Dynamic Element Exclusions</span>
-  <span class="arrow">▸</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="collapsible-content">
+<div class="notification-collapsible-content">
 <ul>
 <b>Participant Filters:</b>
     <li>No brain rating or brain rating noted “abnormal” are not selected</li>
@@ -203,8 +238,4 @@ Static elements are precisely identified hard-coded elements such as participant
     <li>REDCap surveys filled out directly in LORIS (Identified based on LORIS 'Examiner' field not set to 'REDCap')</li>
 </ul>
 </div>
-
-
-
-
 
