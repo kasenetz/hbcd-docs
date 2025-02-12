@@ -198,12 +198,10 @@ For quality control, response distributions were reviewed for outliers.
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<p>Note that out-of-range values were filtered (i.e. changed to "n/a") for Healthv2 Inf (<code>pex_bm_healthv2_inf</code>). See <a href="../../../datacuration/exclusions#static-exclusions-fields">Excluded Instrument Fields</a> for details.</p> 
-</div>
+<p>Please note that out-of-range values were filtered (i.e. changed to "n/a") for Healthv2 Inf (<code>pex_bm_healthv2_inf</code>). Valid field values are documented in <a href="../../../datacuration/exclusions#filtered-values">Filtered Out-Of-Range Field Values</a> under the section on <a href="../../../datacuration/exclusions">Exclusion Criteria</a>.</p>
+</div><br>
 
-<br>
-
-**Instrument details are as follows:**
+#### Instrument details are as follows:
  <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
