@@ -183,7 +183,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Unprocessed raw imaging DICOM files will be made publicly available in future releases. However, raw data converted to the Brain Imaging Data Structure (BIDS) standard is included in HBCD Release 1.0. See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for a description of BIDS as well as conversion procedures.</p>
+<p>Unprocessed raw imaging DICOM files will be made publicly available in the interim <a href="../../changelog/pending/#release-11-release-date-tba">Release 1.1</a>. However, raw data converted to the Brain Imaging Data Structure (BIDS) standard is included in HBCD Release 1.0. See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for a description of BIDS as well as conversion procedures.</p>
 </div>
 </p>
 
@@ -222,7 +222,7 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Quality control (QC) metrics derived from automated and manual raw data QC procedures (described in the section <a href="../measures/mri/qc/#raw-mr-data-qc">Raw MR Data QC</a>) are provided for each scan in the session-level <code>scans.tsv</code> file (see details <a href="../datacuration/rawbids/#scan-level-data">here</a>). A sampling approach was used to select a subset of data for manual review based on the automated QC metrics. Therefore, while automated QC metrics are available for all scans, only a portion will additionally have manual QC metrics in the <code>scans.tsv</code> file. Also note that although the <code>QC</code> field is the overall manual QC score of 1 (pass) or 0 (fail), this field will automatically have a score of 1 if manual QC was not performed.</p>
+<p>Quality control (QC) metrics derived from automated and manual raw data QC procedures (described in the section <a href="../measures/mri/qc/#raw-mr-data-qc">Raw MR Data QC</a>) are provided for each scan in the session-level <code>scans.tsv</code> file (see details <a href="../datacuration/rawbids/#scan-level-data">here</a>). A sampling approach was used to select a subset of data for manual review based on the automated QC metrics. Therefore, while automated QC metrics are available for all scans, not all will include manual QC metrics in the <code>scans.tsv</code> file. Also note that although the <code>QC</code> field is the overall manual QC score of 1 (pass) or 0 (fail), this field will automatically have a score of 1 if manual QC was not performed.</p>
 </div>
 </p>
 
