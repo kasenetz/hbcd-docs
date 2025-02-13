@@ -256,11 +256,11 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 <p>
 <div id="faq-fov" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Why is the cerebellum sometimes cutoff in fMRI and dMRI that have passed QC?</span>
+  <span class="text">Why is the cerebellum sometimes cut off in functional and diffusion MRI scans?</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Due to the relatively limited brain coverage in dMRI and fMRI acquisitions, the superior or inferior edges of the brain may occasionally fall outside the slice stack, referred to as field of view (FOV) cutoff. In cases where the cutoff is extreme (>30% of the image), the dMRI and fMRI series fail QC and will have a value of 0 in the <code>QC</code> field of <code>scans.tsv</code> (see <a href="#faq-qcrec">this FAQ</a> for details). However, mild (<10%) to moderate (10–30%) FOV cutoff does not lead to QC failure. Brain regions outside of the FOV will have missing values in the tabulated imaging data, but the remaining areas remain usable. Automated post-processing QC metrics provide measurements of superior and inferior FOV cutoff, which researchers use for the exclusion of participants with significant FOV cutoff from analyses. See <a href="../measures/mri/qc/#hbcd-raw-mri-data-qc">HBCD Raw MRI Data QC</a> in the Release Notes for a description of automated and manual quality control procedures for raw imaging data.</p>
+<p>Due to the relatively limited brain coverage in dMRI and fMRI acquisitions, the superior or inferior edges of the brain may occasionally fall outside the slice stack, referred to as field of view (FOV) cutoff. In cases where the cutoff is extreme (>30% of the image), the dMRI and fMRI series fail QC and are therefore excluded from inclusion in the data release. However, mild (<10%) to moderate (10–30%) FOV cutoff does not lead to QC failure. Brain regions outside of the FOV will have missing values in the tabulated imaging data, but the remaining areas remain usable. Automated post-processing QC metrics provide measurements of superior and inferior FOV cutoff, which researchers use for the exclusion of participants with significant FOV cutoff from analyses. See <a href="../measures/mri/qc/#hbcd-raw-mri-data-qc">HBCD Raw MRI Data QC</a> in the Release Notes for a description of automated and manual quality control procedures for raw imaging data.</p>
 </div>
 </p>
