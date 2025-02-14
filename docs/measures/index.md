@@ -13,8 +13,8 @@ Below is a summary of measures included in Release 1.0. Note that the HBCD Data 
 </div>
 </p>
 
-### Phenotype Data Measures
-The data provided within the `phenotype/` folder includes demographic, toxicology, and measure instrument data - see [Phenotype BIDS Data](../datacuration/phenotypes.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details. The data provided for these measures include the following instruments as well as tabulated data associated with the instruments detailed under git a[Imaging, Spectroscopy, EEG, & Accelerometry](#imaging-spectroscopy-eeg-accelerometry).
+### Phenotypic & Behavioral Data
+The data provided within the `phenotype/` folder includes demographic, toxicology, and measure instrument data - see [Phenotype BIDS Data](../datacuration/phenotypes.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details. The data provided for these measures include the following instruments as well as tabulated data associated with the instruments detailed under [Imaging, Spectroscopy, EEG, & Accelerometry](#imaging-spectroscopy-eeg-accelerometry).
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <thead>

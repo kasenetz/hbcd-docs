@@ -1,11 +1,10 @@
 # Data Measures & Quality Control
 
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em">
+  <a href="behCGinteraction" style="color: #00008B; text-decoration: none;">Behavior & Caregiver-Child Interaction</a>
+</p>
 <table style="background-color: #199bd666; width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <thead>
-    <tr>
-    <td colspan="4" style="border: 1px solid #ddd; padding: 6px; text-align: left; font-size: 18px;">
-     <a href="behCGinteraction">Behavior & Caregiver-Child Interaction</a>
-    </td>
   </tr>
   <tr>
     <tr>
@@ -38,20 +37,19 @@
   </tbody>
   </table>
 
+
+
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em">
+  <a href="biospec" style="color: #00008B; text-decoration: none;">Biospecimen & Omics</a>
+</p>
   <table style="background-color:rgba(141, 181, 55, 0.4); width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <thead>
-    <tr>
-    <td colspan="4" style="border: 1px solid #ddd; padding: 6px; text-align: left; font-size: 18px;">
-     <a href="behCGinteraction">Biospecimen & Omics</a>
-    </td>
-  </tr>
   <tr>
-    <tr>
-      <th style="width: 40%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Name of Instrument</th>
-      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Acronym</th>
-      <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Construct</th>
-      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Table Name</th>
-    </tr>
+    <th style="width: 40%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Name of Instrument</th>
+    <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Acronym</th>
+    <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Construct</th>
+    <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Table Name</th>
+  </tr>
   </thead>
   <tbody>
     <tr>
@@ -69,7 +67,36 @@
   </tbody>
   </table>
 
-<br>
+
+
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em">
+  <a href="demographics" style="color: #00008B; text-decoration: none;">Demographics</a>
+</p>
+<table style="background-color:rgba(255, 255, 0, 0.4); width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
+  <thead>
+  </tr>
+  <tr>
+    <tr>
+      <th style="width: 40%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Name of Instrument</th>
+      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Acronym</th>
+      <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Construct</th>
+      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Table Name</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="../measures/demographics">HBCD Demographics V01</a></td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Demographics</td>
+      <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Basic social characteristics related to the birthing parent, the other biological parent, and their household</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">sed_basic_demographics</td>
+  </tr>
+  </tbody>
+  </table>
+
+
+
+
+
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <thead>
@@ -81,17 +108,6 @@
     </tr>
   </thead>
   <tbody>
-  <tr>
-    <td colspan="4" style="border: 1px solid #ddd; padding: 6px; font-weight: bold; background-color: #f0f0f0; text-align: left; font-size: 14px;">
-      Demographics
-    </td>
-  </tr>
-  <tr>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="../measures/demographics">HBCD Demographics V01</a></td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Demographics</td>
-      <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Basic social characteristics related to the birthing parent, the other biological parent, and their household</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">sed_basic_demographics</td>
-  </tr>
   <tr>
     <td colspan="4" style="border: 1px solid #ddd; padding: 6px; font-weight: bold; background-color: #f0f0f0; text-align: left; font-size: 14px;">
       Neurocognition & Language (<a href="neurocog">Main Page</a>)
