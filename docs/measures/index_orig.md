@@ -1,9 +1,20 @@
 # Data Measures & Quality Control
 
-<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em">
-  <a href="behCGinteraction" style="color: #00008B; text-decoration: none;">Behavior & Caregiver-Child Interaction</a>
+## Data Measure Release Notes
+The current release includes data from Visits 1, 2, and 3 (V01, V02, and V03). In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures, known issues, and references.
+![](../images/timeline-img.png)
+
+Below is a summary of measures included in Release 1.0. Note that the HBCD Data Release Docs only cover the measures currently available, with additional documentation to follow in future updates as additional measure data are released. For details on upcoming additions in Release 1.1, see [Pending & Upcoming Updates](../changelog/pending.md). Full study protocols are available on the [HBCD Study site](https://hbcdstudy.org/study-protocols/).
+
+<p>
+<div class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Visit numbers are labeled as Visit X or V0X in the release notes (e.g., V01 = Visit 1)</span>
+</div>
 </p>
-<table style="background-color: #199bd666; width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
+
+### [Behavior & Caregiver-Child Interaction](behCGinteraction.md)
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <thead>
   </tr>
   <tr>
@@ -36,65 +47,9 @@
   <tr>
   </tbody>
   </table>
-
-
-
-<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em">
-  <a href="biospec" style="color: #00008B; text-decoration: none;">Biospecimen & Omics</a>
-</p>
-  <table style="background-color:rgba(141, 181, 55, 0.4); width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
-  <thead>
-  <tr>
-    <th style="width: 40%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Name of Instrument</th>
-    <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Acronym</th>
-    <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Construct</th>
-    <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Table Name</th>
-  </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="../measures/biospec/#nails">Nails Toxicology Screen</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nails</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_nails</td>
-  </tr>
-  <tr>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="../measures/biospec/#urine">Urine Toxicology Screen</a></td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Urine</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_urine</td>
-  </tr>
-  </tbody>
-  </table>
-
-
-
-<p style="margin-bottom: 0; padding-bottom: 0; font-size: 1.2em">
-  <a href="demographics" style="color: #00008B; text-decoration: none;">Demographics</a>
-</p>
-<table style="background-color:rgba(255, 255, 0, 0.4); width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
-  <thead>
-  </tr>
-  <tr>
-    <tr>
-      <th style="width: 40%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Name of Instrument</th>
-      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Acronym</th>
-      <th style="width: 30%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Construct</th>
-      <th style="width: 15%; border: 1px solid #ddd; padding: 6px; text-align: center; font-size: 12px;">Table Name</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="../measures/demographics">HBCD Demographics V01</a></td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Demographics</td>
-      <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Basic social characteristics related to the birthing parent, the other biological parent, and their household</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">sed_basic_demographics</td>
-  </tr>
-  </tbody>
-  </table>
-
-
-
+  
+### Phenotypic & Behavioral Data
+The data provided within the `phenotype/` folder includes demographic, toxicology, and measure instrument data - see [Phenotype BIDS Data](../datacuration/phenotypes.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details. The data provided for these measures include the following instruments as well as tabulated data associated with the instruments detailed under [Imaging, Spectroscopy, EEG, & Accelerometry](#imaging-spectroscopy-eeg-accelerometry).
 
 
 
@@ -108,6 +63,57 @@
     </tr>
   </thead>
   <tbody>
+  <tr>
+    <td colspan="4" style="border: 1px solid #ddd; padding: 6px; font-weight: bold; background-color: #f0f0f0; text-align: left; font-size: 14px;">
+      Behavior & Caregiver-Child Interaction (<a href="behCGinteraction">Main Page</a> )
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/behCGinteraction/#ecpromis-child-caregiver-interaction">Early Childhood Patient-Reported Outcome Measurement Information System Child/Caregiver Relationship Scale</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">ecPROMIS</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Relationships</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">mh_cg_pms__cc__inf</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/behCGinteraction/#ibq-r-very-short-form-behavioral-inhibition">Infant Behavior Questionnaire &ndash; Revised Very Short Form + Behavior Inhibition</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">IBQ-R (VSF)+BI</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Temperamental Surgency/Extraversion, Negative Affectivity, Effortful Control, and Behavioral Inhibition</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">mh_cg_ibqr</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="../measures/behCGinteraction/#maps-tl">Multidimensional Assessment Profiles - Temper Loss scale</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">MAPS-TL</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Irritability</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">mh_cg_mapdb__inf</td>
+  </tr>
+  <tr>
+    <td colspan="4" style="border: 1px solid #ddd; padding: 6px; font-weight: bold; background-color: #f0f0f0; text-align: left; font-size: 14px;">
+      Biospecimens & Omics (<a href="biospec">Main Page</a>)
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="../measures/biospec/#nails">Nails Toxicology Screen</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nails</td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_nails</td>
+  </tr>
+  <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="../measures/biospec/#urine">Urine Toxicology Screen</a></td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Urine</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_urine</td>
+  </tr>
+  <tr>
+    <td colspan="4" style="border: 1px solid #ddd; padding: 6px; font-weight: bold; background-color: #f0f0f0; text-align: left; font-size: 14px;">
+      Demographics
+    </td>
+  </tr>
+  <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="../measures/demographics">HBCD Demographics V01</a></td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Demographics</td>
+      <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Basic social characteristics related to the birthing parent, the other biological parent, and their household</td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">sed_basic_demographics</td>
+  </tr>
   <tr>
     <td colspan="4" style="border: 1px solid #ddd; padding: 6px; font-weight: bold; background-color: #f0f0f0; text-align: left; font-size: 14px;">
       Neurocognition & Language (<a href="neurocog">Main Page</a>)
