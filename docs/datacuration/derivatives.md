@@ -171,58 +171,58 @@ mriqc/
 ## Infant-fMRIPrep (`nibabies/`)
 Infant-fMRIPrep (also known as NiBabies) outputs from minimal structural and functional MRI processing include visual quality assessment reports, preprocessed derivatives, and confounds to be used for denoising in subsequent processing procedures. Please see their webpage [here](https://nibabies.readthedocs.io/en/latest/outputs.html) for a detailed description of the file outputs.
 
-<details open>
-<summary>Label Values Legend</summary>
-  <p><b>XFMSPACE</b>: MNI152NLin6Asym_res-2, MNIInfant+1, fsnative</p>
-  <p><b>SURF</b>: inflated, midthickness, pial, sphere, white</p>
-  <p><b>SPACE</b>: MNI152NLin6Asym_res-2, T2w</p>
-  <p><b>FMAPID</b>: auto00000, auto00001, auto00002, & auto000003, auto000004</p>
-  <p><b>FROM</b>: boldref_to-T2w_mode-image_desc-coreg, boldref_to-auto00000_mode-image, orig_to-boldref_mode-image_desc-hmc</p>
-</details>
-
 <pre class="folder-tree">
 nibabies/
-|__ sub-<span class="label">&lt;label&gt;</span>/
-|   |__ figures/
-|   |__ ses-<span class="label">&lt;label&gt;</span>/
-|       |__ anat/
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_desc-preproc_T2w.nii.gz <span class="hashtag">(+JSON)</span>
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_from-<span class="placeholder">&lt;XFMSPACE&gt;</span>_to-T2w_mode-image_xfm.h5
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_from-T2w_to-<span class="placeholder">&lt;XFMSPACE&gt;</span>_mode-image_xfm.h5
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_<span class="placeholder">&lt;curv|sulc|thickness&gt;</span>.shape.gii
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_<span class="placeholder">&lt;SURF&gt;</span>.surf.gii
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_space-dhcpAsym_desc-reg_sphere.surf.gii
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_space-fsaverage_desc-reg_sphere.surf.gii
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz <span class="hashtag">(+JSON)</span>
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-MNI152NLin6Asym_res-2_desc-preproc_T2w.nii.gz <span class="hashtag">(+JSON)</span>
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-MNI152NLin6Asym_res-2_dseg.nii.gz <span class="hashtag">(+JSON)</span>
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-<span class="placeholder">&lt;SPACE&gt;</span>_label-<span class="placeholder">&lt;CSF|GM|WM&gt;</span>_probseg.nii.gz
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-T2w_desc-<span class="placeholder">&lt;aparcaseg|aseg&gt;</span>_dseg.nii.gz
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-T2w_dseg.nii.gz
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-T2w_desc-ribbon_mask.nii.gz <span class="hashtag">(+JSON)</span>
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-fsLR_den-91k_<span class="placeholder">&lt;curv|sulc|thickness&gt;</span>.dscalar.nii <span class="hashtag">(+JSON)</span>
-|       |
-|       |__ fmap/
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_fmapid-<span class="placeholder">&lt;FMAPID&gt;</span>_desc-coeff_fieldmap.nii.gz
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_fmapid-<span class="placeholder">&lt;FMAPID&gt;</span>_desc-epi_fieldmap.nii.gz
-|       |   |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_fmapid-<span class="placeholder">&lt;FMAPID&gt;</span>_desc-preproc_fieldmap.nii.gz <span class="hashtag">(+JSON)</span>
-|       |
-|       |__ func/ <span class="hashtag">(ALL +JSON)</span>
-|       |   |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_desc-brain_mask.nii.gz
-|       |   |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_desc-confounds_timeseries.tsv
-|       |   |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_desc-coreg_boldref.nii.gz
-|       |   |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_desc-hmc_boldref.nii.gz 
-|       |   |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_desc-preproc_bold.nii.gz
-|       |   |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_from-<span class="placeholder">&lt;FROM&gt;</span>_xfm.txt
-|       |   |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_space-fsnative_bold.func.gii
-|       |   |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-<span class="placeholder">&lt;SPACE&gt;</span>_boldref.nii.gz
-|       |   |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-<span class="placeholder">&lt;SPACE&gt;</span>_desc-brain_mask.nii.gz
-|       |   |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-<span class="placeholder">&lt;SPACE&gt;</span>_desc-preproc_bold.nii.gz
-|       |   |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_bold.dtseries.nii
-|       |
-|       |__ log/
+sub-<span class="label">&lt;label&gt;</span>/
+|_ figures/
+|_ ses-<span class="label">&lt;label&gt;</span>/
+|  |_ log/
+|  |
+|  |_ anat/
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_desc-preproc_T2w.nii.gz <span class="hashtag">(+JSON)</span>
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_from-<span class="placeholder">&lt;MNI152NLin6Asym_res-2|MNIInfant+1&gt;</span>_to-T2w_mode-image_xfm.h5
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_from-T2w_to-<span class="placeholder">&lt;MNI152NLin6Asym_res-2|MNIInfant+1&gt;</span>_mode-image_xfm.h5
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_from-T2w_to-fsnative_mode-image_xfm.txt
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_from-fsnative_to-T2w_mode-image_xfm.txt
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_<span class="placeholder">&lt;curv|sulc|thickness&gt;</span>.shape.gii
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_<span class="placeholder">&lt;inflated|midthickness|pial|sphere|white&gt;</span>.surf.gii
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_space-dhcpAsym_den-32k_midthickness.surf.gii
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_space-dhcpAsym_den-32k_pial.surf.gii
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_space-dhcpAsym_den-32k_white.surf.gii
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_space-<span class="placeholder">&lt;dhcpAsym|fsaverage&gt;</span>_den-32k_sphere.surf.gii
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz <span class="hashtag">(+JSON)</span>
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-MNI152NLin6Asym_res-2_desc-preproc_T2w.nii.gz <span class="hashtag">(+JSON)</span>
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-MNI152NLin6Asym_res-2_dseg.nii.gz <span class="hashtag">(+JSON)</span>
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-<span class="placeholder">&lt;MNI152NLin6Asym_res-2|T2w&gt;</span>_label-<span class="placeholder">&lt;CSF|GM|WM&gt;</span>_probseg.nii.gz
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-T2w_desc-<span class="placeholder">&lt;aparcaseg|aseg&gt;</span>_dseg.nii.gz
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-T2w_dseg.nii.gz
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-T2w_desc-ribbon_mask.nii.gz <span class="hashtag">(+JSON)</span>
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-fsLR_den-91k_<span class="placeholder">&lt;curv|sulc|thickness&gt;</span>.dscalar.nii <span class="hashtag">(+JSON)</span>
+|  |
+|  |_ fmap/
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_fmapid-auto00000<span class="label">#</span>_desc-coeff_fieldmap.nii.gz
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_fmapid-auto00000<span class="label">#</span>_desc-epi_fieldmap.nii.gz
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_fmapid-auto00000<span class="label">#</span>_desc-preproc_fieldmap.nii.gz <span class="hashtag">(+JSON)</span>
+|  |
+|  |_ func/ <span class="hashtag">(ALL +JSON)</span>
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_desc-brain_mask.nii.gz
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_desc-confounds_timeseries.tsv
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_desc-coreg_boldref.nii.gz
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_desc-hmc_boldref.nii.gz 
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_desc-preproc_bold.nii.gz
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_from-boldref_to-T2w_mode-image_desc-coreg_xfm.txt
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_from-boldref_to-auto00000_mode-image_xfm.txt
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_from-orig_to-boldref_mode-image_desc-hmc_xfm.txt
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_space-fsnative_bold.func.gii
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-MNI152NLin6Asym_res-2_boldref.nii.gz
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-MNI152NLin6Asym_res-2_desc-brain_mask.nii.gz
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-MNI152NLin6Asym_res-2_desc-preproc_bold.nii.gz
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-T2w_boldref.nii.gz
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-T2w_desc-brain_mask.nii.gz
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-T2w_desc-preproc_bold.nii.gz
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_bold.dtseries.nii
 |
-|__ SUBSES.html
+<span class="subses">SUBSES</span>.html
 </pre>
 
 *See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
