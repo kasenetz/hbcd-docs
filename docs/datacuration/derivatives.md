@@ -118,24 +118,33 @@ made/
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-oz_ERP.jpg
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-upright_topo.jpg
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-upright2_topo.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN-desc-Deviant_topo.jpg
+            |   |
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN-desc-deviant_topo.jpg
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-diffDevVsSta_topo.jpg
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-diffDevVsPre_topo.jpg
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-preDeviant_topo.jpg
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-standard_topo.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-T7t8_diffERP.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-t7t8_diffERP.jpg
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-t7t8_ERP.jpg
+            |   |
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_desc-allChAvg_PSD.jpg
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_desc-allCh_PSD.jpg
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_desc-ROI_PSD.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_spectra.csv
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_spectra.mat
+            |   |__ <span class="subses">SUBSES</span>_task-RS_powerSummaryStats.csv
+            |   |
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-VEP_desc-oz_ERP.jpg
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-VEP_topo.jpg
-            |   |__ <span class="subses">SUBSES</span>_task-<span class="placeholder">&lt;FACE|MMN|RS|VEP&gt;</span>_ERPSummaryStats.csv
-            |   |__ <span class="subses">SUBSES</span>_task-<span class="placeholder">&lt;FACE|MMN|RS|VEP&gt;</span>_ERPTrialMeasures.csv
-            |   |__ <span class="subses">SUBSES</span>_task-RS_powerSummaryStats.csv
+            |   |
+            |   |__ <span class="subses">SUBSES</span>_task-<span class="placeholder">&lt;FACE|MMN|VEP&gt;</span>_acq-eeg_ERP.mat
+            |   |__ <span class="subses">SUBSES</span>_task-<span class="placeholder">&lt;FACE|MMN|RS|VEP&gt;</span>_acq-eeg_desc-filteredprocessed_eeg.fdt
+            |   |__ <span class="subses">SUBSES</span>_task-<span class="placeholder">&lt;FACE|MMN|RS|VEP&gt;</span>_acq-eeg_desc-filteredprocessed_eeg.set
+            |   |__ <span class="subses">SUBSES</span>_task-<span class="placeholder">&lt;FACE|MMN|VEP&gt;</span>_ERPSummaryStats.csv
+            |   |__ <span class="subses">SUBSES</span>_task-<span class="placeholder">&lt;FACE|MMN|VEP&gt;</span>_ERPTrialMeasures.csv
             | 
             |__ <span class="subses">SUBSES</span>_acq-eeg_preprocessingReport.csv
-            |__ <span class="subses">SUBSES</span>_task-<span class="placeholder">&lt;FACE|MMN|RS|VEP&gt;</span>_acq-eeg_specification.json
+            |__ <span class="subses">SUBSES</span>_task-<span class="placeholder">&lt;FACE|MMN|RS|VEP&gt;</span>_acq-eeg_MADEspecification.json
 </pre>
 *See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder tree above.*
 
