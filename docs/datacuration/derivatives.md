@@ -34,7 +34,7 @@ bids/
 <li><strong>The following formatting was employed to enhance readability of the file structure visuals:</strong></li>
 <ul>
 <li>The BIDS entities <code>sub-&lt;label&gt;_ses-&lt;label&gt;</code> are replaced with the string <code>SUBSES</code></li>
-<li>Some entities include a set of specific values, each of which is associated with a separate file: these values are either enclosed within <code>&lt;&gt;</code> as a list, separated by <code>|</code>, or listed separately within a <strong>Label Values Legend</strong></li>
+<li>Some entities include a set of specific values, each of which is associated with a separate file: these values are either enclosed within <code>&lt;&gt;</code> as a list, separated by <code>|</code>, or listed separately above the file tree</li>
 <li>For brevity, sidecar JSON files may not be displayed, in which case files with corresponding JSONs are labeled with <code>(+JSON)</code> after the filename</li>
 <li>Several pipelines produce an <code>.html</code> visual summary report intended to be used for quality assessment of processed outputs. These files, typically located at either the pipeline folder or session-level, source their images from a <code>figures/</code> folder found in the derivatives. For readability, the contents of the <code>figures/</code> folders are not listed</li>
 </ul>
@@ -432,10 +432,10 @@ symri/
 ## XCP-D (`xcp_d/`)
 XCP-D performs functional MRI post-processing and noise regression from Infant-fMRIPrep derivatives. Please see the [XCP-D webpage](https://xcp-d.readthedocs.io/en/latest/) to learn more and read details about the output file types.
 
-<details open>
-<summary>Label Values Legend</summary>
-<p><b>SEG</b>: 4S1056Parcels, 4S156Parcels, 4S256Parcels, 4S356Parcels, 4S456Parcels, 4S556Parcels, 4S656Parcels, 4S756Parcels, 4S856Parcels, 4S956Parcels, Glasser, Gordon, HCP, MIDB, MyersLabonte, Tian</p>
-</details>
+
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
+  <b style="color: #0077cc;">SEG</b> label values: 4S1056Parcels, 4S156Parcels, 4S256Parcels, 4S356Parcels, 4S456Parcels, 4S556Parcels, 4S656Parcels, 4S756Parcels, 4S856Parcels, 4S956Parcels, Glasser, Gordon, HCP, MIDB, MyersLabonte, Tian
+</p>
 
 <pre class="folder-tree">
 xcp_d/
@@ -471,6 +471,6 @@ sub-<span class="label">&lt;label&gt;</span>/
 |  
 |_ figures/
 |
-sub-<span class="label">&lt;label&gt;</span>_ses-<span class="label">&lt;label&gt;</span>_executive_summary.html
+<span class="subses">SUBSES</span>_executive_summary.html
 sub-<span class="label">&lt;label&gt;</span>.html
 </pre>
