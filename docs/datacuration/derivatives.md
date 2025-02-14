@@ -35,7 +35,7 @@ bids/
 <ul>
 <li>The BIDS entities <code>sub-&lt;label&gt;_ses-&lt;label&gt;</code> are replaced with the string <code>SUBSES</code></li>
 <li>Some entities include a set of specific values, each of which is associated with a separate file: these values are either enclosed within <code>&lt;&gt;</code> as a list, separated by <code>|</code>, or listed separately within a <strong>Label Values Legend</strong></li>
-<li>For brevity, side JSON files may not be displayed, in which case files with corresponding JSONs are labeled with <code>(+JSON)</code> after the filename</li>
+<li>For brevity, sidecar JSON files may not be displayed, in which case files with corresponding JSONs are labeled with <code>(+JSON)</code> after the filename</li>
 <li>Several pipelines produce an <code>.html</code> visual summary report intended to be used for quality assessment of processed outputs. These files, typically located at either the pipeline folder or session-level, source their images from a <code>figures/</code> folder found in the derivatives. For readability, the contents of the <code>figures/</code> folders are not listed</li>
 </ul>
 </div>
@@ -430,37 +430,38 @@ XCP-D performs functional MRI post-processing and noise regression from Infant-f
 
 <pre class="folder-tree">
 xcp_d/
-|_ sub-<span class="label">&lt;label&gt;</span>/
-|  |_ ses-<span class="label">&lt;label&gt;</span>/
-|     |_ anat/
-|     |  |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-MNI152NLin6Asym_desc-preproc_T2w.nii.gz
-|     |  |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_desc-curv_morph.tsv
-|     |  |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_desc-sulc_morph.tsv
-|     |  |__ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_desc-thickness_morph.tsv
-|     |
-|     |_ func/ <span class="hashtag"># All func files have JSONs with exception of .hdf5 & *linc_qc.tsv</span>
-|     |  |__ <span class="subses">SUBSES</span>_task-rest_desc-abcc_qc.hdf5 <span class="hashtag">(No JSON)</span>
-|     |  |__ <span class="subses">SUBSES</span>_task-rest_<span class="placeholder">&lt;motion|outliers&gt;</span>.tsv
-|     |  |__ <span class="subses">SUBSES</span>_task-rest_space-fsLR_den-91k_desc-denoisedSmoothed_bold.dtseries.nii
-|     |  |__ <span class="subses">SUBSES</span>_task-rest_space-fsLR_den-91k_desc-denoised_bold.dtseries.nii
-|     |  |__ <span class="subses">SUBSES</span>_task-rest_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_den-91k_stat-mean_timeseries.ptseries.nii
-|     |  |__ <span class="subses">SUBSES</span>_task-rest_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_timeseries.tsv
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_desc-abcc_qc.hdf5 <span class="hashtag">(No JSON)</span>
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_desc-linc_qc.tsv <span class="hashtag">(No JSON)</span>
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_<span class="placeholder">&lt;motion|design|outliers&gt;</span>.tsv
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_desc-denoisedSmoothed_bold.dtseries.nii
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_desc-denoised_bold.dtseries.nii
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_stat-alff_boldmap.dscalar.nii
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_stat-alff_desc-smooth_boldmap.dscalar.nii
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_stat-reho_boldmap.dscalar.nii
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_den-91k_stat-coverage_boldmap.pscalar.nii
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_den-91k_stat-mean_timeseries.ptseries.nii
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-alff_bold.tsv
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-coverage_bold.tsv
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_timeseries.tsv
-|     |  |__ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-reho_bold.tsv
-|     |
-|     |_ figures/
+sub-<span class="label">&lt;label&gt;</span>/
+|_ ses-<span class="label">&lt;label&gt;</span>/
+|  |_ anat/
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-MNI152NLin6Asym_desc-preproc_T2w.nii.gz
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_desc-curv_morph.tsv
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_desc-sulc_morph.tsv
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_desc-thickness_morph.tsv
+|  |
+|  |_ func/ <span class="hashtag"># All func files have JSONs with exception of .hdf5 & *linc_qc.tsv</span>
+|     |_ <span class="subses">SUBSES</span>_task-rest_desc-abcc_qc.hdf5 <span class="hashtag">(No JSON)</span>
+|     |_ <span class="subses">SUBSES</span>_task-rest_<span class="placeholder">&lt;motion|outliers&gt;</span>.tsv
+|     |_ <span class="subses">SUBSES</span>_task-rest_space-fsLR_den-91k_desc-denoisedSmoothed_bold.dtseries.nii
+|     |_ <span class="subses">SUBSES</span>_task-rest_space-fsLR_den-91k_desc-denoised_bold.dtseries.nii
+|     |_ <span class="subses">SUBSES</span>_task-rest_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_den-91k_stat-mean_timeseries.ptseries.nii
+|     |_ <span class="subses">SUBSES</span>_task-rest_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_timeseries.tsv
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_desc-abcc_qc.hdf5 <span class="hashtag">(No JSON)</span>
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_desc-linc_qc.tsv <span class="hashtag">(No JSON)</span>
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_<span class="placeholder">&lt;motion|design|outliers&gt;</span>.tsv
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_desc-denoisedSmoothed_bold.dtseries.nii
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_desc-denoised_bold.dtseries.nii
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_stat-alff_boldmap.dscalar.nii
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_stat-alff_desc-smooth_boldmap.dscalar.nii
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_stat-reho_boldmap.dscalar.nii
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_den-91k_stat-coverage_boldmap.pscalar.nii
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_den-91k_stat-mean_timeseries.ptseries.nii
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-alff_bold.tsv
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-coverage_bold.tsv
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_timeseries.tsv
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-reho_bold.tsv
+|  
+|_ figures/
 |
-|_ sub-<span class="label">&lt;label&gt;</span>_ses-<span class="label">&lt;label&gt;</span>_executive_summary.html
+sub-<span class="label">&lt;label&gt;</span>_ses-<span class="label">&lt;label&gt;</span>_executive_summary.html
+sub-<span class="label">&lt;label&gt;</span>.html
 </pre>
