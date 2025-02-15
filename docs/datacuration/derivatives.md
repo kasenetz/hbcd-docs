@@ -315,10 +315,10 @@ qsiprep/
     |__ log/
     |__ ses-<span class="label">&lt;label&gt;</span>/
         |__ anat/
+        |   |__ <span class="subses">SUBSES</span>_from-ACPC_to-anat_mode-image_xfm.mat        
         |   |__ <span class="subses">SUBSES</span>_from-ACPC_to-MNIInfant+1_mode-image_xfm.h5
-        |   |__ <span class="subses">SUBSES</span>_from-ACPC_to-anat_mode-image_xfm.mat
-        |   |__ <span class="subses">SUBSES</span>_from-MNIInfant+1_to-ACPC_mode-image_xfm.h5
         |   |__ <span class="subses">SUBSES</span>_from-anat_to-ACPC_mode-image_xfm.mat
+        |   |__ <span class="subses">SUBSES</span>_from-MNIInfant+1_to-ACPC_mode-image_xfm.h5
         |   |__ <span class="subses">SUBSES</span>_from-orig_to-anat_mode-image_xfm.txt
         |   |__ <span class="subses">SUBSES</span>_space-ACPC_desc-aseg_dseg.nii.gz
         |   |__ <span class="subses">SUBSES</span>_space-ACPC_desc-brain_mask.nii.gz
@@ -328,8 +328,9 @@ qsiprep/
         |
         |__ dwi/
         |   |__ <span class="subses">SUBSES</span>_desc-confounds_timeseries.tsv
+        |   |__ <span class="subses">SUBSES</span>_desc-desc-pepolar_qc.tsv
         |   |__ <span class="subses">SUBSES</span>_space-ACPC_desc-brain_mask.nii.gz
-        |   |__ <span class="subses">SUBSES</span>_space-ACPC_desc-image_qc.csv
+        |   |__ <span class="subses">SUBSES</span>_space-ACPC_desc-image_qc.tsv
         |   |__ <span class="subses">SUBSES</span>_space-ACPC_desc-preproc_dwi.b
         |   |__ <span class="subses">SUBSES</span>_space-ACPC_desc-preproc_dwi.b_table.txt
         |   |__ <span class="subses">SUBSES</span>_space-ACPC_desc-preproc_dwi.bval
