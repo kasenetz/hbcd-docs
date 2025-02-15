@@ -110,33 +110,13 @@ made/
             |   |__ <span class="subses">SUBSES</span>_desc-merged_eeg.set
             | 
             |__ processed_data/
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-Oz_diffERP.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-diffInvVsUpr_topo.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-diffObjVsUp2_topo.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-inverted_topo.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-object_topo.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-oz_ERP.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-upright_topo.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-upright2_topo.jpg
-            |   |
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN-desc-deviant_topo.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-diffDevVsSta_topo.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-diffDevVsPre_topo.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-preDeviant_topo.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-standard_topo.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-t7t8_diffERP.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-MMN_desc-t7t8_ERP.jpg
-            |   |
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_desc-allChAvg_PSD.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_desc-allCh_PSD.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_desc-ROI_PSD.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-<span class="placeholder">&lt;FACE-JPG&gt;</span>.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-FACE_desc-<span class="placeholder">&lt;MMN-JPG&gt;</span>.jpg
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_desc-<span class="placeholder">&lt;allChAvg|allCh|ROI&gt;</span>_PSD.jpg
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_spectra.csv
             |   |__ sub-<span class="label">&lt;label&gt;</span>_task-RS_spectra.mat
             |   |__ <span class="subses">SUBSES</span>_task-RS_powerSummaryStats.csv
-            |   |
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-VEP_desc-oz_ERP.jpg
-            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-VEP_topo.jpg
-            |   |
+            |   |__ sub-<span class="label">&lt;label&gt;</span>_task-VEP_<span class="placeholder">&lt;desc-oz_ERP|topo&gt;</span>.jpg
             |   |__ <span class="subses">SUBSES</span>_task-<span class="placeholder">&lt;FACE|MMN|VEP&gt;</span>_acq-eeg_ERP.mat
             |   |__ <span class="subses">SUBSES</span>_task-<span class="placeholder">&lt;FACE|MMN|RS|VEP&gt;</span>_acq-eeg_desc-filteredprocessed_eeg.fdt
             |   |__ <span class="subses">SUBSES</span>_task-<span class="placeholder">&lt;FACE|MMN|RS|VEP&gt;</span>_acq-eeg_desc-filteredprocessed_eeg.set
@@ -146,6 +126,17 @@ made/
             |__ <span class="subses">SUBSES</span>_acq-eeg_preprocessingReport.csv
             |__ <span class="subses">SUBSES</span>_task-<span class="placeholder">&lt;FACE|MMN|RS|VEP&gt;</span>_acq-eeg_MADEspecification.json
 </pre>
+
+<details open>
+<summary>Label Values Legend</summary>
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
+  <b style="color: #0077cc;">FACE-JPG</b>: Oz_diffERP, diffInvVsUpr_topo, diffObjVsUp2_topo, inverted_topo, object_topo, oz_ERP, upright_topo, upright2_topo
+</p>
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
+  <b style="color: #0077cc;">MMN-JPG</b>: deviant_topo, diffDevVsSta_topo, diffDevVsPre_topo, preDeviant_topo, standard_topo, t7t8_diffERP, t7t8_ERP
+</p>
+</details>
+
 *See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder tree above.*
 
 ## MRIQC (`mriqc/`)
@@ -228,7 +219,7 @@ sub-<span class="label">&lt;label&gt;</span>/
 *See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
 
 ## OSPREY-BIDS (`osprey/`)
-OSPREY-BIDS is the BIDS extension to the OSPREY pipeline used to process HBCD magnetic resonance spectroscopy (MRS) data. The `HERCULES` and `unedited` folders have matching structures, so only one is displayed below. For readability, the image files under `figures/` are not listed. Also note that filenames may additionally include `run-<label>`. Please see their [webpage](https://osprey-bids.readthedocs.io/en/latest/index.html) for a detailed explanation of these outputs.
+OSPREY-BIDS is the BIDS extension to the OSPREY pipeline used to process HBCD magnetic resonance spectroscopy (MRS) data. Only the `HERCULES/` file tree is displayed below. The `unedited/` files generally follow similar naming conventions, with some exceptions (e.g., the BIDS field `acq-shortTE` is used instead of `acq-hercules`). Please see the [OSPREY-BIDS documentation](https://osprey-bids.readthedocs.io/en/latest/index.html) for a detailed explanation of these outputs.
 
 <pre class="folder-tree">
 osprey/
@@ -237,34 +228,27 @@ osprey/
         |__ HERCULES/
         |   |__ PreOspreyLocalizerReg/
         |   |   |__ figures/
-        |   |   |__ aalreference_seg_aligned_to_localizer.nii.gz
-        |   |   |__ c<span class="placeholder">&lt;1|2|3&gt;</span>reference_seg_aligned_to_localizer.nii.gz
-        |   |   |__ readme.txt
+        |   |   |__ <span class="placeholder">&lt;aal|c1|c2|c3&gt;</span>reference_seg_aligned_to_localizer.nii.gz
         |   |   |__ reference_<span class="placeholder">&lt;img|seg&gt;</span>_aligned_to_localizer.nii.gz
         |   |   |__ registration_summary.json
         |   |   |__ transform_mat.npy
+        |   |   |__ readme.txt
         |   |
-        |   |__ QuantifyResults/
+        |   |__ QuantifyResults/ <span class="hashtag">(ALL +JSON)</span>
         |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_AlphaCorrWaterScaledGroupNormed_Voxel_1_Basis_1.tsv
-        |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_AlphaCorrWaterScaledGroupNormed_Voxel_1_Basis_1.json
         |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_AlphaCorrWaterScaled_Voxel_1_Basis_1.tsv
-        |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_AlphaCorrWaterScaled_Voxel_1_Basis_1.json        
-        |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_amplMets_Voxel_1_Basis_1.tsv
-        |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_amplMets_Voxel_1_Basis_1.json
-        |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_<span class="placeholder">&lt;CSF|raw&gt;</span>WaterScaled_Voxel_1_Basis_1.tsv
-        |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_<span class="placeholder">&lt;CSF|raw&gt;</span>WaterScaled_Voxel_1_Basis_1.json
-        |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_tCr_Voxel_1_Basis_1.tsv
-        |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_tCr_Voxel_1_Basis_1.json
+        |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_CSFWaterScaled_Voxel_1_Basis_1.tsv 
         |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_TissCorrWaterScaled_Voxel_1_Basis_1.tsv
-        |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_TissCorrWaterScaled_Voxel_1_Basis_1.json
+        |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_amplMets_Voxel_1_Basis_1.tsv
+        |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_rawWaterScaled_Voxel_1_Basis_1.tsv
+        |   |   |__ <span class="placeholder">&lt;diff1|diff2|sum&gt;</span>_tCr_Voxel_1_Basis_1.tsv
         |   |
         |   |__ Reports/
         |   |   |__ reportFigures/
         |   |   |__ sub-<span class="label">&lt;label&gt;</span>-report.html
         |   |
         |   |__ SegMaps/
-        |   |   |__ TissueFractions_Voxel_1.tsv
-        |   |   |__ TissueFractions_Voxel_1.json
+        |   |   |__ TissueFractions_Voxel_1.tsv <span class="hashtag">(+JSON)</span>
         |   |   |__ <span class="subses">SUBSES</span>_acq-hercules_svs.nii_space-scanner_Voxel-1_label-CSF.nii.gz
         |   |   |__ <span class="subses">SUBSES</span>_acq-hercules_svs.nii_space-scanner_Voxel-1_label-GM.nii.gz
         |   |   |__ <span class="subses">SUBSES</span>_acq-hercules_svs.nii_space-scanner_Voxel-1_label-Tha.nii.gz
@@ -274,13 +258,10 @@ osprey/
         |   |   |__ <span class="subses">SUBSES</span>_acq-hercules_svs_space-scanner_mask.nii.gz
         |   |
         |   |__ LogFile.txt
-        |   |__ QM_processed_spectra.tsv
-        |   |__ QM_processed_spectra.json
+        |   |__ QM_processed_spectra.tsv <span class="hashtag">(+JSON)</span>
         |   |__ SummaryMRSinMRS.md
-        |   |__ subject_names_and_excluded.tsv
-        |   |__ subject_names_and_excluded.json
-        |   |__ wrapper_settings.mat
-        |   |__ wrapper_settings.json
+        |   |__ subject_names_and_excluded.tsv <span class="hashtag">(+JSON)</span>
+        |   |__ wrapper_settings.mat <span class="hashtag">(+JSON)</span>
         |
         |__ unedited/
 </pre>
