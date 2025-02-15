@@ -34,7 +34,7 @@ bids/
 <li><strong>The following formatting was employed to enhance readability of the file structure visuals:</strong></li>
 <ul>
 <li>The BIDS entities <code>sub-&lt;label&gt;_ses-&lt;label&gt;</code> are replaced with the string <code>SUBSES</code></li>
-<li>Some entities include a set of specific values, each of which is associated with a separate file: these values are either enclosed within <code>&lt;&gt;</code> as a list, separated by <code>|</code>, or listed separately above the file tree</li>
+<li>Some entities include a set of specific values, each of which is associated with a separate file: these values are either enclosed within <code>&lt;&gt;</code> as a list, separated by <code>|</code>, or listed in a <b>Label Values Legend</b></li>
 <li>For brevity, sidecar JSON files may not be displayed, in which case files with corresponding JSONs are labeled with <code>(+JSON)</code> after the filename</li>
 <li>Several pipelines produce an <code>.html</code> visual summary report intended to be used for quality assessment of processed outputs. These files, typically located at either the pipeline folder or session-level, source their images from a <code>figures/</code> folder found in the derivatives. For readability, the contents of the <code>figures/</code> folders are not listed</li>
 </ul>
@@ -361,13 +361,9 @@ derivatives/
             |__ figures/
             |__ <span class="subses">SUBSES</span>.html    
 </pre>  
-Though not displayed below, note that all `dwimap.nii.gz` files have associated JSON files (*see [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder trees*).
+*See [Format of File Structure Visuals](#visformat) for guidance on interpreting the folder trees*.
 
 ### Dipy (`qsirecon-DIPYDKI/`)
-<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
-  <b style="color: #0077cc;">PARAM</b> label values: ad, ak, kfa, md, mk, mkt, rd, rk
-</p>
-
 <pre class="folder-tree">
 dwi/
  |__ <span class="subses">SUBSES</span>_space-ACPC_bundles-DSIStudio_scalarstats.tsv
@@ -375,41 +371,76 @@ dwi/
  |__ <span class="subses">SUBSES</span>_space-<span class="placeholder">&lt;ACPC|MNIInfant+1&gt;</span>_model-tensor_param-fa_dwimap.nii.gz <span class="hashtag">(+JSON)</span>
 </pre>
 
-### DSI Studio (`qsirecon-DSIStudio/`)
+<details open>
+<summary>Label Values Legend</summary>
 <p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
-  <b style="color: #0077cc;">PARAM</b> label values: ad, fa, ha, md, rd, txx, txy, tyy, tyz, tzz
+  <b style="color: #0077cc;">PARAM</b>: ad, ak, kfa, md, mk, mkt, rd, rk
 </p>
+</details>
 
+### DSI Studio (`qsirecon-DSIStudio/`)
 <pre class="folder-tree">
 dwi/
- |__ <span class="subses">SUBSES</span>_space-ACPC_bundle-AssociationHippocampusAlveusR_streamlines.tck.gz
- |__ <span class="subses">SUBSES</span>_space-ACPC_bundle-AssociationUncinateFasciculusR_streamlines.tck.gz
- |__ <span class="subses">SUBSES</span>_space-ACPC_bundle-ProjectionBasalGangliaCorticostriatalTractR_streamlines.tck.gz
- |__ <span class="subses">SUBSES</span>_space-ACPC_bundles-DSIStudio_<span class="placeholder">&lt;scalar|tdi&gt;</span>stats.tsv
- |__ <span class="subses">SUBSES</span>_space-ACPC_bundlestats.csv
- |__ <span class="subses">SUBSES</span>_space-ACPC_dwimap.fib.gz
- |__ <span class="subses">SUBSES</span>_space-ACPC_mapping.map.gz
- |__ <span class="subses">SUBSES</span>_space-<span class="placeholder">&lt;ACPC|MNIInfant+1&gt;</span>_model-gqi_param-<span class="placeholder">&lt;gfa|iso|qa&gt;</span>_dwimap.nii.gz <span class="hashtag">(+JSON)</span>
- |__ <span class="subses">SUBSES</span>_space-<span class="placeholder">&lt;ACPC|MNIInfant+1&gt;</span>_model-rdi_param-<span class="placeholder">&lt;rd1|rd2&gt;</span>_dwimap.nii.gz <span class="hashtag">(+JSON)</span>
- |__ <span class="subses">SUBSES</span>_space-<span class="placeholder">&lt;ACPC|MNIInfant+1&gt;</span>_model-tensor_param-<span class="placeholder">&lt;PARAM&gt;</span>_dwimap.nii.gz <span class="hashtag">(+JSON)</span>
+|__ <span class="subses">SUBSES</span>_space-ACPC_bundles-DSIStudio_scalarstats.tsv
+|__ <span class="subses">SUBSES</span>_space-ACPC_bundles-DSIStudio_tdistats.tsv
+|__ <span class="subses">SUBSES</span>_space-ACPC_model-gqi_bundle-Association<span class="placeholder">&lt;ASSOC&gt;</span><span class="placeholder">&lt;L|R&gt;</span>_streamlines.tck.gz
+|__ <span class="subses">SUBSES</span>_space-ACPC_model-gqi_bundle-Cerebellum<span class="placeholder">&lt;CEREB&gt;</span>_streamlines.tck.gz
+|__ <span class="subses">SUBSES</span>_space-ACPC_model-gqi_bundle-CommissureAnteriorCommissure_streamlines.tck.gz
+|__ <span class="subses">SUBSES</span>_space-ACPC_model-gqi_bundle-CommissureCorpusCallosum_streamlines.tck.gz
+|__ <span class="subses">SUBSES</span>_space-ACPC_model-gqi_bundle-ProjectionBasalGanglia<span class="placeholder">&lt;BG&gt;</span><span class="placeholder">&lt;L|R&gt;</span>_streamlines.tck.gz
+|__ <span class="subses">SUBSES</span>_space-ACPC_model-gqi_bundle-ProjectionBrainstem<span class="placeholder">&lt;BRAINSTEM&gt;</span>_streamlines.tck.gz
+|__ <span class="subses">SUBSES</span>_space-ACPC_model-gqi_bundlestats.csv
+|__ <span class="subses">SUBSES</span>_space-ACPC_model-gqi_dwimap.fib.gz
+|__ <span class="subses">SUBSES</span>_space-ACPC_model-gqi_dwimap.fib.gz.icbm152_adult.map.gz
+|__ <span class="subses">SUBSES</span>_space-ACPC_model-gqi_param-<span class="placeholder">&lt;gfa|iso&gt;</span>_dwimap.nii.gz
+|__ <span class="subses">SUBSES</span>_space-ACPC_model-gqi_param-qa_dwimap.nii.gz <span class="hashtag">(+JSON)</span>
+|__ <span class="subses">SUBSES</span>_space-<span class="placeholder">&lt;ACPC|MNIInfant+1&gt;</span>_model-rdi_param-<span class="placeholder">&lt;rd1|rd2&gt;</span>_dwimap.nii.gz
+|__ <span class="subses">SUBSES</span>_space-<span class="placeholder">&lt;ACPC|MNIInfant+1&gt;</span>_model-tensor_param-<span class="placeholder">&lt;ad|fa|ha|md|rd&gt;</span>_dwimap.nii.gz
+|__ <span class="subses">SUBSES</span>_space-<span class="placeholder">&lt;ACPC|MNIInfant+1&gt;</span>_model-tensor_param-t<span class="placeholder">&lt;xx|xy|xz|yy|yz|zz&gt;</span>_dwimap.nii.gz
+|__ <span class="subses">SUBSES</span>_space-MNIInfant+1_model-gqi_param-<span class="placeholder">&lt;gfa|iso|qa&gt;</span>_dwimap.nii.gz
 </pre>
 
+<details open>
+<summary>Label Values Legend</summary>
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
+  <b style="color: #0077cc;">ASSOC</b>: ArcuateFasciculus, Cingulum, ExtremeCapsule, FrontalAslantTract, HippocampusAlveus, InferiorFrontoOccipitalFasciculus, InferiorLongitudinalFasciculus, MiddleLongitudinalFasciculus, ParietalAslantTract, SuperiorLongitudinalFasciculus, AssociationUncinateFasciculus, VerticalOccipitalFasciculus
+</p>
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
+  <b style="color: #0077cc;">CEREB</b>: Cerebellum(L/R), InferiorCerebellarPeduncle (L/R), MiddleCerebellarPeduncle, SuperiorCerebellarPeduncle, Vermis
+</p>
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
+  <b style="color: #0077cc;">BG</b>: AcousticRadiation, AnsaLenticularis, AnsaSubthalamica, CorticostriatalTract, FasciculusLenticularis, FasciculusSubthalamicus, Fornix, OpticRadiation, ThalamicRadiation
+</p>
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
+  <b style="color: #0077cc;">BRAINSTEM</b>: CorticobulbarTract(L\R), CorticopontineTract(L/R), CorticospinalTract(L/R), DentatorubrothalamicTractrl, MedialForebrainBundle(L/R), MedialLemniscus(L/R), NonDecussatingDentatorubrothalamicTract(L/R), ReticularTract(L/R)
+</p>
+</details>
 
 ### TORTOISE (`qsirecon-TORTOISE_model-<MAPMRI|tensor>/`)
-The [TORTOISE](https://github.com/QMICodeBase/TORTOISEV4) software calculates MAPMRI and Tensor fits and scalar maps, output to derivative folders `qsirecon-TORTOISE_model-MAPMRI/` and `qsirecon-TORTOISE_model-tensor/`, respectively, with matching folder structures:
-
-<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
-  <b style="color: #0077cc;">MAP-PARAM</b> label values: ng, ngpar, ngperp, pa, path, rtap, rtop, rtpp</p>
-<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;"><b style="color: #0077cc;">TENSOR-PARAM</b> label values: 
-  ad, am, fa, li, rd</p>
+The [TORTOISE](https://github.com/QMICodeBase/TORTOISEV4) software calculates MAPMRI and Tensor fits and scalar maps, output to derivative folders `qsirecon-TORTOISE_model-MAPMRI/` and `qsirecon-TORTOISE_model-tensor/`, respectively:
 
 <pre class="folder-tree">
-dwi/
- |__ <span class="subses">SUBSES</span>_space-ACPC_bundles-DSIStudio_scalarstats.tsv
- |__ <span class="subses">SUBSES</span>_space-<span class="placeholder">&lt;ACPC|MNIInfant+1&gt;</span>_model-mapmri_param-<span class="placeholder">&lt;MAP-PARAM&gt;</span>_dwimap.nii.gz <span class="hashtag">(+JSON)</span>
- |__ <span class="subses">SUBSES</span>_space-<span class="placeholder">&lt;ACPC|MNIInfant+1&gt;</span>_model-tensor_param-<span class="placeholder">&lt;TENSOR-PARAM&gt;</span>_dwimap.nii.gz <span class="hashtag">(+JSON)</span>
+qsirecon-TORTOISE_model-MAPMRI/
+ |_ dwi/ 
+   |_ <span class="subses">SUBSES</span>_space-ACPC_bundles-DSIStudio_scalarstats.tsv
+   |_ <span class="subses">SUBSES</span>_space-<span class="placeholder">&lt;ACPC|MNIInfant+1&gt;</span>_model-mapmri_param-<span class="placeholder">&lt;MAP-PARAM&gt;</span>_dwimap.nii.gz <span class="hashtag">(+JSON)</span>
+   |_ <span class="subses">SUBSES</span>_space-<span class="placeholder">&lt;ACPC|MNIInfant+1&gt;</span>_model-tensor_param-<span class="placeholder">&lt;TENSOR-PARAM&gt;</span>_dwimap.nii.gz <span class="hashtag">(+JSON)</span>
+
+qsirecon-TORTOISE_model-tensor/
+ |_ dwi/ 
+    |_ <span class="subses">SUBSES</span>_space-ACPC_bundles-DSIStudio_scalarstats.tsv
+    |_ <span class="subses">SUBSES</span>_space-MNIInfant+1_model-tensor_param-<span class="placeholder">&lt;TENSOR-PARAM&gt;</span>_dwimap.nii.gz <span class="hashtag">(+JSON)</span>
 </pre>
 
+<details open>
+<summary>Label Values Legend</summary>
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
+  <b style="color: #0077cc;">MAP-PARAM</b>: ng, ngpar, ngperp, pa, path, rtap, rtop, rtpp
+</p>
+<p style="margin-bottom: 0; padding-bottom: 0; font-size: smaller;">
+  <b style="color: #0077cc;">TENSOR-PARAM</b>: ad, am, fa, li, rd
+</p>
+</details>
 
 ## SyMRI (`symri/`)
 [SyMRI](https://syntheticmr.com/products/symri-neuro/) is proprietary software for quantitative MRI. For HBCD it is used to generate synthetic contrast weighted images derived from measures of the absolute properties of [QALAS](https://pubmed.ncbi.nlm.nih.gov/25526880/) brain images. These outputs are then minimally preprocessed by [qMRI Postproc](#qmri-postproc-qmri_postproc). Files include synthetic T1w and T2w images (`SUBSES_acq-QALAS_<T1w|T2w>.nii.gz`) and derived relaxometry maps (`SUBSES_acq-QALAS_T2map.nii.gz`).
@@ -446,6 +477,9 @@ sub-<span class="label">&lt;label&gt;</span>/
 |  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_desc-curv_morph.tsv
 |  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_desc-sulc_morph.tsv
 |  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_desc-thickness_morph.tsv
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_space-fsLR_den-32k_<span class="placeholder">&lt;inflated|vinflated&gt;</span>.surf.gii
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_hemi-<span class="placeholder">&lt;L|R&gt;</span>_space-fsLR_den-32k_<span class="placeholder">&lt;midthickness|pial|white&gt;</span>.surf.gii
+|  |  |_ <span class="subses">SUBSES</span>_run-<span class="label">#</span>_space-fsLR_den-91k_<span class="placeholder">&lt;curv|sulc|thickness&gt;</span>.dscalar.nii
 |  |
 |  |_ func/ <span class="hashtag"># All func files have JSONs with exception of .hdf5 & *linc_qc.tsv</span>
 |     |_ <span class="subses">SUBSES</span>_task-rest_desc-abcc_qc.hdf5 <span class="hashtag">(No JSON)</span>
@@ -454,9 +488,10 @@ sub-<span class="label">&lt;label&gt;</span>/
 |     |_ <span class="subses">SUBSES</span>_task-rest_space-fsLR_den-91k_desc-denoised_bold.dtseries.nii
 |     |_ <span class="subses">SUBSES</span>_task-rest_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_den-91k_stat-mean_timeseries.ptseries.nii
 |     |_ <span class="subses">SUBSES</span>_task-rest_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_timeseries.tsv
+|     |_ <span class="subses">SUBSES</span>_task-rest_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-pearsoncorrelation_relmat.tsv
 |     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_desc-abcc_qc.hdf5 <span class="hashtag">(No JSON)</span>
 |     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_desc-linc_qc.tsv <span class="hashtag">(No JSON)</span>
-|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_<span class="placeholder">&lt;motion|design|outliers&gt;</span>.tsv
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_<span class="placeholder">&lt;design|motion|outliers&gt;</span>.tsv
 |     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_desc-denoisedSmoothed_bold.dtseries.nii
 |     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_desc-denoised_bold.dtseries.nii
 |     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_stat-alff_boldmap.dscalar.nii
@@ -464,9 +499,11 @@ sub-<span class="label">&lt;label&gt;</span>/
 |     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_den-91k_stat-reho_boldmap.dscalar.nii
 |     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_den-91k_stat-coverage_boldmap.pscalar.nii
 |     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_den-91k_stat-mean_timeseries.ptseries.nii
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_den-91k_stat-pearsoncorrelation_boldmap.pconn.nii
 |     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-alff_bold.tsv
 |     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-coverage_bold.tsv
 |     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-mean_timeseries.tsv
+|     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-pearsoncorrelation_relmat.tsv
 |     |_ <span class="subses">SUBSES</span>-task-rest_dir-PA_run-<span class="label">#</span>_space-fsLR_seg-<span class="placeholder">&lt;SEG&gt;</span>_stat-reho_bold.tsv
 |  
 |_ figures/
