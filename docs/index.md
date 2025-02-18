@@ -1,5 +1,5 @@
 <p align="center">
-<img src="images/logo_HBCD_final.png" alt="logo" width="500"/>
+<img src="images/logo_HBCD_final.jpg" alt="logo" width="500">
 </p>
 
 <p style="text-align: center; font-size: 1.6em">Welcome to the Data Release Docs for the HEALthy Brain and Child Development (HBCD) Study!</p>

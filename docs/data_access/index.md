@@ -19,11 +19,10 @@
 </p>
 
 ## Overview
-<div style="display: flex; justify-content: space-between; padding: 0 20%; align-items: center;">
-  <img src="images/NBDC-logo.jpg" width="170" alt="NBDC-logo" style="margin-left: 2px;">
-  <img src="images/LASSO-logo.jpg" width="100" alt="Lasso-logo" style="margin-right: 40px;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="images/NBDC-C-Horizontal.png" alt="NBDC-logo" style="width: 40%;">
+  <img src="images/Format=Horizontal, Color=Black@2x.png" alt="Lasso-logo" style="width: 30%; margin-right: 80px;">
 </div>
-<br>
 
 HBCD data is publicly shared with all researchers associated with an NIH-recognized research institution via the individual or investigator-led group NBDC [Data Use Agreement/Certification (DUC) process](https://nbdc-splash-beta.lassoinformatics.com/data-access-process), which governs data use for both the ABCD and HBCD studies. The DUC outlines rules that must be followed for data use and is signed electronically by both the submitter and the Institutional Signing Officer at their institution. 
 
