@@ -5,7 +5,7 @@
   padding: 4px 20px;
   border-radius: 5px;
   font-family: Lato; 
-  color: #505050;
+  color: #3e3e3e;
   display: flex; 
   justify-content: flex-start;
   align-items: flex-start; /* Aligns emoji with the first line of text */
@@ -71,7 +71,7 @@
   font-size: 1.8rem;
   transition: transform 0.3s ease;
   transform-origin: center;
-  color: #505050;
+  color: #3e3e3e;
   margin-left: auto; /* Pushes the arrow to the right */
 }
 .arrow.rotate {
@@ -94,12 +94,12 @@
   display: flex;
   align-items: center; /* Ensures vertical alignment of items */
   justify-content: space-between; /* Ensures proper spacing */
-  background-color: #be074d3d; 
+  background-color: #be044537; 
   border: 1px solid #3333331a;
   padding: 0 20px;
   border-radius: 5px;
   font-family: Lato; 
-  color: #505050;
+  color: #3e3e3e;
   cursor: pointer;
 }
 .alert-banner .emoji {
@@ -117,7 +117,7 @@
   padding: 0 20px;
   border-radius: 5px;
   font-family: Lato; 
-  color: #505050;
+  color: #3e3e3e;
   cursor: pointer;
 }
 .warning-banner .emoji {
@@ -131,18 +131,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between; /* Ensures proper spacing */
-  background-color: #eaf9f0;
+  background-color: #25ae7049;
   border: 1px solid #3333331a;
   padding: 0 20px;
   border-radius: 5px;
   font-family: Lato; 
-  color: #505050;
+  color: #3e3e3e;
   cursor: pointer; 
 }
 .notification-banner .emoji {
   font-size: 1.2rem; 
   margin-right: 10px;
-  color: #24AE70;
+  color: #007f49;
 }
 .notification-collapsible-content {
   max-height: 0;
@@ -163,7 +163,7 @@
   transition: transform 0.3s ease;
   display: inline-block;
   transform-origin: center;
-  color: #505050;
+  color: #3e3e3e;
   margin-left: auto; /* Pushes the arrow to the right */
 }
 .notification-arrow.rotate {

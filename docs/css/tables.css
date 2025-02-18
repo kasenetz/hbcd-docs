@@ -15,7 +15,7 @@ th, td {
   display: flex;
   align-items: center; /* Ensures vertical alignment of items */
   justify-content: space-between; /* Ensures proper spacing */
-  background-color: #0cc5ea2e;
+  background-color: #d0dff0;
   border: 1px solid #3333331a;
   padding: 0 10px;
   border-radius: 5px;

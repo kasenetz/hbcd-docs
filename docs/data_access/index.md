@@ -1,10 +1,4 @@
 # How To Access HBCD Data
-
-<p style="text-align: center;">
-  <a class="button-link" href="https://nbdc-splash-beta.lassoinformatics.com/hbcd-study">HBCD Study on NBDC Data Hub &nbsp; ↗️</a>
-</p>
-
-
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
