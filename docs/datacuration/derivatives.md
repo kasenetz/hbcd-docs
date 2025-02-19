@@ -220,10 +220,10 @@ sub-<span class="label">&lt;label&gt;</span>/
 
 *See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
 
-## FreeSurfer & MCRIBS
+### FreeSurfer & MCRIBS
 FreeSurfer and MCRIBS source directories from [Infant-fMRIPrep](#infant-fmriprep-nibabies) processing are included in the derivatives as well. These are intermediate pipeline outputs used for surface reconstruction and organized for the release within the `freesurfer/` and `mcribs/` folders. Note that the folder structure uses `<pipeline>/sub-<label>_ses-<label>` instead of the typical derivatives structure `<pipeline_name>/sub-<label>/ses-<label>`. 
 
-### FreeSurfer
+#### FreeSurfer
 An overview of FreeSurfer file outputs (from Recon-all) is available in the [FreeSurfer Wiki](https://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllOutputFiles) as well as this [FreeSurfer Tutorial #3: Recon-all](https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html) from Andy's Brain Book.
 
 <pre class="folder-tree">
@@ -274,7 +274,7 @@ freesurfer/
         |__ <span class="placeholder">&lt;lh|rh&gt;</span>.<span class="placeholder">&lt;sulc|thickness|volume|white&gt;</span>
 </pre>
 
-### MCRIBS
+#### MCRIBS
 <pre class="folder-tree">
 mcribs/
 |__ <span class="subses">SUBSES</span>
