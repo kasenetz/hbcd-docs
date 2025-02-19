@@ -14,56 +14,155 @@
   <a class="button-link" href="https://nbdc-splash-beta.lassoinformatics.com/hbcd-study">HBCD Study on NBDC Data Hub &nbsp; ↗️</a>
 </p>
 
-
 *Below we describe how to use the Dictionary Query Tool on the [NBDC portal supported by Lasso](https://nbdc-hbcd-beta.lassoinformatics.com) to download data.*
 
-**Step 1: Get Started with Approved Access**  
+#### Step 1: Get Started with Approved Access  
 Once your **Data Use Certification** has been approved and you’ve completed the required training, you’ll gain access to the **Query Data** tab in Lasso. This tab is conveniently located in the **left-hand side menu**.
 
-**Step 2: Choose Your Query Method**  
-On the Query Data page, you can toggle between the **Query Wizard** and the **Dictionary Query Tool**. Both tools offer flexible ways to build your queries, letting you choose the approach that best suits your needs.
-![](images/query1.png)
+#### Step 2: Choose Your Query Method
+On the Query Data page, you can toggle between the **Query Wizard** and the **Dictionary Query Tool**. Both tools offer flexible ways to build your queries, letting you choose the approach that best suits your needs. 
+<img src="../images/querytool/query_step2.png" width="100%" height="auto" class="center">
 
-**Step 3: Navigate the Dictionary Query Tool**  
+#### Step 3: Navigate the Dictionary Query Tool
 When using the Dictionary Query Tool, you can filter data based on specific instruments or variables. Use the **column filters** or the **global search** to find exactly what you need quickly and efficiently.
+<img src="../images/querytool/query_step3.png" width="90%" height="auto" class="center">
 
-![](images/query2.png)
-
-**Step 4: Export the Data Dictionary**  
+#### Step 4: Export the Data Dictionary
 After selecting the desired fields, click on **Download** and choose your preferred export format for the data dictionary.
+<img src="../images/querytool/query_step4.png" width="90%" height="auto" class="center">
 
-![](images/query3.png)
-
-**Step 5: Query the Associated Data**
-
+#### Step 5: Query the Associated Data
 If you need both the data dictionary and the associated data:
 
 * Drag and drop the selected fields into the **Selected Tabular Data** area.  
 * Click on **Run Tabular Query**, and the system will generate and download the output file directly to your device in seconds.
 
-![](images/query4.png)
+<img src="../images/querytool/query_step5.png" width="100%" height="auto" class="center">
 
-**Step 6: Save and Reuse Your Queries**  
+#### Step 6: Save and Reuse Your Queries
 To save time on future queries, click the **Save Query** button. Your saved queries can be accessed later via the **Load Query** button. Select your saved query, click **Run**, and instantly download the most up-to-date data.
-
-![](images/query5.png)
-
-## Download Client
-
-In the [Lasso portal](https://nbdc-hbcd-beta.lassoinformatics.com), click **Query Data** on the left-hand side menu and **Choose Files For Download** at the bottom of the page and proceeed as follows:
-
-**Step 1:** Select the files you wish to download from the pop-up that appears. As you toggle to select more data to download, the text at the top of the window will update with the total count and size of files selected.       
-
-<img src="../images/downloadclient1.png" alt="Screenshot of pop-up" width="50%" height="auto" class="center">
-
-**Step 2:** Click **Trigger Transfer** to initiate download
-
-**Step 3:** Select preferred method for download - **Lasso Download Client** or **Globus Share**
-
-![](images/dc_transferoptions.png)
-
-**If using the Lasso Download Client**, install it locally and open the application. Follow the on-screen instructions to specify the download directory. You will be redirected to log into the Lasso Portal. Once logged in, the Download Client will monitor the download queue. It should now be detectable in the Lasso Portal, where you will be prompted to confirm the installed client when initiating file transfers. After the transfer begins, the Download Client will display the download progress:
-
-<img src="../images/downloadclient3.png" width="80%" height="auto" class="center">
+<img src="../images/querytool/query_step6.png" width="100%" height="auto" class="center">
 
 
+## Download Client User Guide (macOS Version)
+### Introduction
+The Download Client is a user-friendly application designed to help you securely download files from remote storage. This guide will walk you through downloading, installing, and using the client on macOS.
+
+### System Requirements
+Before installing the Download Client, ensure your macOS system meets the following requirements:
+
+- **Operating System**: macOS 11 (Big Sur) or later
+- **Internet Connection**: Required for downloading files
+- **Storage Space**: At least 500MB free disk space
+- **Authentication**: Lasso account credentials
+
+### Download & Installation Steps (macOS)
+1. Download the .dmg file from the download tools option on the [Pre-Release HBCD System](https://nbdc-hbcd-beta.lassoinformatics.com/download-tools) ![](images/querytool/dc_dmg.jpg)
+2. Alternatively, you can download the .dmg file from the Query Data Module (**Query Data** on the left-hand side menu within the [Lasso portal](https://nbdc-hbcd-beta.lassoinformatics.com)). Select **Choose Files For Download**, build a query, and click **Trigger Transfer**. Selecting "available here" on the Lasso Download Client (Beta) will redirect you to the Download Tools Page, where you can download the application based on your system. 
+<img src="../images/querytool/dc_choosefiles.jpg" width="50%" height="auto" class="center">
+<img src="../images/querytool/dc_transfer.jpg" width="70%" height="auto" class="center">
+3. Open the .dmg file and drag the application into the **Applications** folder.
+4. Open the application from **Launchpad**.
+5. If prompted, allow the application to run in **System Preferences** > **Security & Privacy** under the **General** tab.
+
+### Running the Application for the First Time
+Please follow these steps to proceed with the download process:
+
+#### Step 1: Open the Application
+When you first try to open the application, you will see a warning that Apple cannot verify the developer. Click **OK** to close the warning.
+<img src="../images/querytool/dc_open.jpg" width="30%" height="auto" class="center">
+
+#### Step 2: Go to System Preferences
+- Open **System Settings** from the Apple menu.
+- Navigate to **Privacy & Security**.
+- Scroll down to find the blocked application and click **Open Anyway**.
+<img src="../images/querytool/dc_security.jpg" width="80%" height="auto" class="center">
+
+#### Step 3: Confirm Security Exception
+- You will see another prompt asking if you are sure you want to open the app.
+- Click **Open Anyway**.
+
+#### Step 4: Enter Admin Credentials (If Asked)
+- Some macOS versions require an administrator password or Touch ID confirmation to proceed.
+- Enter your credentials and confirm.
+
+**You can now easily access the Lasso Download Client from your menu bar:**
+<img src="../images/querytool/dc_menu.jpg" width="80%" height="auto">
+
+### First-Time Setup
+#### Step 1: Login
+- When you open the application for the first time, you will be prompted to log in.
+- Select **LOGIN** and enter your Lasso username and password.
+- If you are already logged into the Pre-Release HBCD System on your browser, you may not be asked to enter your credentials again.
+- You will be directed to the [Lasso portal](https://nbdc-hbcd-beta.lassoinformatics.com) in your web browser - click **Globus** to proceed.
+
+<img src="../images/querytool/dc_lasso.jpg" width="50%" height="auto" class="center">
+
+- After successful login you will be redirected to a page with the message **Login Successful!**
+<img src="../images/querytool/dc_success.jpg" width="50%" height="auto" class="center">
+
+#### Step 2: Select a Download Directory
+If no download folder is detected, you will see a message prompting you to choose a folder. Click the Settings button (⚙) in the top-right corner, select a folder where you want files to be saved, and click **Confirm**.
+<img src="../images/querytool/dc_choosedir.jpg" width="70%" height="auto" class="center">
+
+#### Step 3: Register Your Client
+Some users may need to register their client before downloading. If prompted, follow the on-screen instructions to complete registration. 
+
+### Downloading Files
+- Once logged into the Pre-Release HBCD System, go to query data and click on choose files for download.
+- Select the files and tap on trigger transfer.
+- Next, select Download Client (Beta) as your preferred download tool.
+- The **Download Progress Section** will show the download speed, estimated time remaining, and file size.
+- Once a file is downloaded, it will appear in your selected folder.
+
+### Monitoring Downloads 
+***BETA TEST PHASE: the progress will be unavailable when downloading smaller datasets***
+<ul>
+<span>Active downloads will be listed in the <strong>Download Progress Section</strong>. Each file will display:</span>
+<li>Name</li>
+<li>Download speed</li>
+<li>Progress percentage</li>
+<li>Estimated time remaining</li>
+<li>Errors or retries (if any)</li>
+</ul>
+<img src="../images/querytool/dc_download.png" width="80%" height="auto" class="center">
+
+### Settings & Customization
+<ul>
+<span>Click the <strong>Settings</strong> (⚙) button in the top-right corner to:</span>
+<li>Change the download folder.</li>
+<li>View connection settings.</li>
+<li>Check for application updates.</li>
+</ul>
+
+### Troubleshooting
+<ul>
+<span><strong>Problem: Login Issues</strong></span>
+<li>Ensure you have entered the correct credentials.</li>
+<li>Check your internet connection.</li>
+<li>If the problem persists, contact your administrator.</li>
+</ul>
+
+<ul>
+<span><strong>Problem: No Download Directory Found</strong></span>
+<li>Click on the settings icon and manually select a folder.</li>
+</ul>
+
+<ul>
+<span><strong>Problem: Downloads Stuck or Slow</strong></span>
+<li>Check your internet connection.</li>
+<li>Restart the application and try again.</li>
+<li>Ensure you have enough free disk space.</li>
+</ul>
+
+### Future Updates
+Thank you for beta testing the Download Client on macOS. Your feedback has been invaluable, and we truly appreciate your patience as we work to make things better. We know the experience isn’t perfect yet—there are still bugs, and performance needs improvement. But we’re on it! Here’s what’s coming in the next update:
+
+**What's Changing in the Next Update:**
+
+**Windows Client** – We’re actively testing it, and it’s getting closer to launch.    
+**Create New Folders** – No more workarounds! You’ll be able to create a new folder when choosing a download directory.   
+**Stay Logged In** – No more frustrating logouts after inactivity—you’ll stay connected and receive new transfer requests seamlessly.   
+**Better Progress Tracking** – Instead of only seeing chunks (currently set to 100 files), you’ll get an overall progress indicator.    
+**More Accurate Download Estimates**    
+**Faster Downloads**
