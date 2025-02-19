@@ -58,7 +58,7 @@ Before installing the Download Client, ensure your macOS system meets the follow
 
 ### Download & Installation Steps (macOS)
 1. Download the .dmg file from the download tools option on the [Pre-Release HBCD System](https://nbdc-hbcd-beta.lassoinformatics.com/download-tools) ![](images/querytool/dc_dmg.jpg)
-2. Alternatively, you can download the .dmg file from the Query Data Module (**Query Data** on the left-hand side menu within the [Lasso portal](https://nbdc-hbcd-beta.lassoinformatics.com)). Select **Choose Files For Download**, build a query, and click **Trigger Transfer**. Selecting "available here" on the Lasso Download Client (Beta) will redirect you to the Download Tools Page, where you can download the application based on your system. 
+2. Alternatively, you can download the .dmg file from the Query Data Module: select **Choose Files For Download**, build a query, and click **Trigger Transfer**. Selecting "available here" on the Lasso Download Client (Beta) will redirect you to the Download Tools Page, where you can download the application based on your system. 
 <img src="../images/querytool/dc_choosefiles.jpg" width="50%" height="auto" class="center">
 <img src="../images/querytool/dc_transfer.jpg" width="70%" height="auto" class="center">
 3. Open the .dmg file and drag the application into the **Applications** folder.
@@ -93,8 +93,7 @@ When you first try to open the application, you will see a warning that Apple ca
 #### Step 1: Login
 - When you open the application for the first time, you will be prompted to log in.
 - Select **LOGIN** and enter your Lasso username and password.
-- If you are already logged into the Pre-Release HBCD System on your browser, you may not be asked to enter your credentials again.
-- You will be directed to the [Lasso portal](https://nbdc-hbcd-beta.lassoinformatics.com) in your web browser - click **Globus** to proceed.
+- If you are already logged into the Pre-Release HBCD System on your browser (click **Globus** to proceed), you may not be asked to enter your credentials again.
 
 <img src="../images/querytool/dc_lasso.jpg" width="50%" height="auto" class="center">
 
