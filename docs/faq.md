@@ -138,18 +138,6 @@
 
 ## Tabulated Data
 <p>
-<div id="faq-underscores" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">What is the significance of single versus double underscores in table and field names?</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-<br>
-<p>Instrument table names as well as fields may contain a double or single underscore. The double underscore is derived from when a table name/field contained <code>_i_</code>, which was converted to double underscore when the <code>i</code> is removed for the Data Release. In the case of field names, single underscores are a higher level than fields with <code>_i_</code>, and differentiate scales and sub-scale counters for fields across the instruments. For table names, double underscores indicate [TO DO]. For example, for MLDS (<code>ncl_ch_mlds</code>) and SPM-2 (<code>ncl_cg_spm2__inf</code>) instruments for <a href="../measures/neurocog/#neurocognition-language">Neurocognition & Language</a>.</p>
-</div>
-</p>
-
-<p>
 <div id="faq-age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
   <span class="text">What is the difference between the fields reporting age?</span>
@@ -159,6 +147,19 @@
 <br>
 <p>Fields reporting age in the tabulated data include global, single-point (i.e. static) variables in Basic Demographics (see details <a href="../datacuration/phenotypes/#demo-age">here</a>), e.g. <b>Maternal Age at V01</b>, and instrument-specific variables for age (see details <a href="../datacuration/phenotypes/#instrument-age">here</a>) that vary depending on the date of administration for a given instrument.</p>
 <p>For the <a href="../datacuration/rawbids">raw BIDS</a> data (EEG, magnetic resonance imaging/spectroscropy, and motion sensor data), metrics for age are reported in the session- and scan-level <code>.tsv</code> files. Please see the description of these variables under <a href="../datacuration/rawbids/#age">Raw BIDS Data: Fields Reporting Age</a>.</p>
+</div>
+</p>
+
+<p>
+<div id="faq-underscores" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">What is the significance of single versus double underscores in table and field names?</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>Instrument table and field names may contain either single or double underscores. For example: <code>ncl_ch_mlds</code> (MLDS) vs <code>ncl_cg_spm2__inf</code> (SPM-2) <a href="../measures/neurocog/#neurocognition-language">Neurocognition & Language</a> instruments. The double underscore (<code>__</code>) originates from instances where a table name or field previously contained <code>_i_</code>, which was later removed in the Data Release process. When <code>_i_</code> was removed, it was replaced by a double underscore.</p> 
+<p>In terms of its significance, in some cases single underscores (<code>_</code>) are used at a higher level in the hierarchy and help distinguish between scales and sub-scale counters across different instruments. <i>However</i>, a unified naming scheme has not yet been employed in the current release, so this will not be consistent across variables. Future releases aim to implement a standardized naming scheme for consistency.</p>
 </div>
 </p>
 
