@@ -136,7 +136,19 @@
 </div>
 </p>
 
-## Non-Imaging Data
+## Tabulated Data
+<p>
+<div id="faq-underscores" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">What is the significance of single versus double underscores in table and field names?</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>Instrument table names as well as fields may contain a double or single underscore. The double underscore is derived from when a table name/field contained <code>_i_</code>, which was converted to double underscore when the <code>i</code> is removed for the Data Release. In the case of field names, single underscores are a higher level than fields with <code>_i_</code>, and differentiate scales and sub-scale counters for fields across the instruments. For table names, double underscores indicate [TO DO]. For example, for MLDS (<code>ncl_ch_mlds</code>) and SPM-2 (<code>ncl_cg_spm2__inf</code>) instruments for <a href="../measures/neurocog/#neurocognition-language">Neurocognition & Language</a>.</p>
+</div>
+</p>
+
 <p>
 <div id="faq-age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
