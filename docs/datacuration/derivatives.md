@@ -228,7 +228,7 @@ M-CRIB-S `MCRIBReconAll` is a surface reconstruction method developed for neonat
 
 <pre class="folder-tree">
 mcribs/
-|__ <span class="subses">SUBSES</span>
+|__ <span class="subses">SUBSES</span>/
     |__ RawT2/
     |   |__ <span class="subses">SUBSES</span>.nii.gz
     |
@@ -302,7 +302,7 @@ MCRIBS converts and organizes its output into a FreeSurfer-compatible format, pr
 
 <pre class="folder-tree">
 freesurfer/
-|__ <span class="subses">SUBSES</span>
+|__ <span class="subses">SUBSES</span>/
     |__ label/
     |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.annot
     |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.auto.nomask.annot
