@@ -295,6 +295,7 @@ mcribs/
     |
     |__ command.txt
 </pre>
+*See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
 
 #### FreeSurfer
 MCRIBS converts and organizes its output into a FreeSurfer-compatible format, provided in the `freesurfer/` folder of the Data Release. The output files follow the structure of FreeSurfer’s `recon-all` results, which are documented in the [FreeSurfer Wiki](https://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllOutputFiles) and explained in [FreeSurfer Tutorial #3: Recon-all](https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html) from Andy's Brain Book.
@@ -346,6 +347,7 @@ freesurfer/
         |__ <span class="placeholder">&lt;lh|rh&gt;</span>.sphere.<span class="placeholder">&lt;reg|reg2&gt;</span>
         |__ <span class="placeholder">&lt;lh|rh&gt;</span>.<span class="placeholder">&lt;sulc|thickness|volume|white&gt;</span>
 </pre>
+*See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
 
 
 ## OSPREY-BIDS (`osprey/`)
