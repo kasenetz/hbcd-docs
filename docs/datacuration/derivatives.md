@@ -221,10 +221,10 @@ sub-<span class="label">&lt;label&gt;</span>/
 *See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
 
 ### MCRIBS & FreeSurfer Source Directories
-MCRIBS and FreeSurfer source directories from [Infant-fMRIPrep](#infant-fmriprep-nibabies) processing are included under `derivatives/` in the data release as well. These are intermediate pipeline outputs used for surface reconstruction, organized for the release within the `mcribs/`  and `freesurfer/` folders respctively. Note that the folder structure uses `<pipeline>/sub-<label>_ses-<label>` instead of the typical derivatives structure `<pipeline_name>/sub-<label>/ses-<label>`. 
+MCRIBS and FreeSurfer source directories from [Infant-fMRIPrep](#infant-fmriprep-nibabies) processing are included under `derivatives/` in the data release as well. These are intermediate pipeline outputs used for surface reconstruction, organized for the release within the `mcribs/`  and `freesurfer/` folders, respectively. Note that the folder structure uses `<pipeline>/sub-<label>_ses-<label>` instead of the typical derivatives structure `<pipeline_name>/sub-<label>/ses-<label>`. 
 
 #### MCRIBS
-M-CRIB-S *MCRIBReconAll* is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). 
+M-CRIB-S `MCRIBReconAll` is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). 
 
 <pre class="folder-tree">
 mcribs/
@@ -297,7 +297,7 @@ mcribs/
 </pre>
 
 #### FreeSurfer
-MCRIBS converts and remaps its output into FreeSurfer-compatible format, provided within the `freesurfer/` folder. An overview of FreeSurfer file outputs (from Recon-all) is available in the [FreeSurfer Wiki](https://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllOutputFiles) as well as this [FreeSurfer Tutorial #3: Recon-all](https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html) from Andy's Brain Book.
+MCRIBS converts and organizes its output into a FreeSurfer-compatible format, provided in the `freesurfer/` folder of the Data Release. The output files follow the structure of FreeSurfer’s `recon-all` results, which are documented in the [FreeSurfer Wiki](https://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllOutputFiles) and explained in [FreeSurfer Tutorial #3: Recon-all](https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html) from Andy's Brain Book.
 
 <pre class="folder-tree">
 freesurfer/
