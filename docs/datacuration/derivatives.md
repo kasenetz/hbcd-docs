@@ -220,61 +220,12 @@ sub-<span class="label">&lt;label&gt;</span>/
 
 *See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
 
-### FreeSurfer & MCRIBS
-FreeSurfer and MCRIBS source directories from [Infant-fMRIPrep](#infant-fmriprep-nibabies) processing are included in the derivatives as well. These are intermediate pipeline outputs used for surface reconstruction and organized for the release within the `freesurfer/` and `mcribs/` folders. Note that the folder structure uses `<pipeline>/sub-<label>_ses-<label>` instead of the typical derivatives structure `<pipeline_name>/sub-<label>/ses-<label>`. 
-
-#### FreeSurfer
-An overview of FreeSurfer file outputs (from Recon-all) is available in the [FreeSurfer Wiki](https://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllOutputFiles) as well as this [FreeSurfer Tutorial #3: Recon-all](https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html) from Andy's Brain Book.
-
-<pre class="folder-tree">
-freesurfer/
-|__ <span class="subses">SUBSES</span>
-    |__ label/
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.annot
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.auto.nomask.annot
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc.annot
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc.auto.nomask.annot
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.cortex.label
-    |
-    |__ mri/
-    |   |__ T2.mgz
-    |   |__ aparc+<span class="placeholder">&lt;DKTatlas&gt;</span>+aseg.mgz
-    |   |__ aseg.mgz
-    |   |__ aseg.<span class="placeholder">&lt;internal|presurf|presurf.preunwmfix&gt;</span>.mgz
-    |   |__ brain.mgz
-    |   |__ brainmask.mgz
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.ribbon.mgz
-    |   |__ norm.mgz
-    |   |__ orig.mgz
-    |   |__ ribbon.mgz
-    |
-    |__ scripts/
-    |   |__ mcribs.log
-    |
-    |__ stats/
-    |   |__aseg.stats
-    |   |__brainvol.stats
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.stats
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc.stats
-    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.curv.stats
-    |
-    |__ surf/
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.<span class="placeholder">&lt;area|area.mid|area.pial&gt;</span>
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.curv
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.inflated
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.inflated.<span class="placeholder">&lt;H|K&gt;</span>
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.midthickness
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.orig
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.pial
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.smoothwm
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.smoothwm.<span class="placeholder">&lt;BE|C|FI|H|K|K1|K2|S&gt;</span>.crv
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.smoothwm.<span class="placeholder">&lt;H|K&gt;</span>
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.sphere
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.sphere.<span class="placeholder">&lt;reg|reg2&gt;</span>
-        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.<span class="placeholder">&lt;sulc|thickness|volume|white&gt;</span>
-</pre>
+### MCRIBS & FreeSurfer Source Directories
+MCRIBS and FreeSurfer source directories from [Infant-fMRIPrep](#infant-fmriprep-nibabies) processing are included under `derivatives/` in the data release as well. These are intermediate pipeline outputs used for surface reconstruction, organized for the release within the `mcribs/`  and `freesurfer/` folders respctively. Note that the folder structure uses `<pipeline>/sub-<label>_ses-<label>` instead of the typical derivatives structure `<pipeline_name>/sub-<label>/ses-<label>`. 
 
 #### MCRIBS
+M-CRIB-S *MCRIBReconAll* is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). 
+
 <pre class="folder-tree">
 mcribs/
 |__ <span class="subses">SUBSES</span>
@@ -336,7 +287,8 @@ mcribs/
     |       |__ N4/
     |           |__ <span class="subses">SUBSES</span>.nii.gz_symlink_s3_object
     |
-    |__ freesurfer/*
+    |__ freesurfer/
+    |   |__ <span class="subses">SUBSES</span>/*
     |
     |__ logs/
     |   |__ <span class="subses">SUBSES</span>.log
@@ -344,6 +296,56 @@ mcribs/
     |__ command.txt
 </pre>
 
+#### FreeSurfer
+MCRIBS converts and remaps its output into FreeSurfer-compatible format, provided within the `freesurfer/` folder. An overview of FreeSurfer file outputs (from Recon-all) is available in the [FreeSurfer Wiki](https://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllOutputFiles) as well as this [FreeSurfer Tutorial #3: Recon-all](https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FS_ShortCourse/FS_03_ReconAll.html) from Andy's Brain Book.
+
+<pre class="folder-tree">
+freesurfer/
+|__ <span class="subses">SUBSES</span>
+    |__ label/
+    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.annot
+    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.auto.nomask.annot
+    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc.annot
+    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc.auto.nomask.annot
+    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.cortex.label
+    |
+    |__ mri/
+    |   |__ T2.mgz
+    |   |__ aparc+<span class="placeholder">&lt;DKTatlas&gt;</span>+aseg.mgz
+    |   |__ aseg.mgz
+    |   |__ aseg.<span class="placeholder">&lt;internal|presurf|presurf.preunwmfix&gt;</span>.mgz
+    |   |__ brain.mgz
+    |   |__ brainmask.mgz
+    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.ribbon.mgz
+    |   |__ norm.mgz
+    |   |__ orig.mgz
+    |   |__ ribbon.mgz
+    |
+    |__ scripts/
+    |   |__ mcribs.log
+    |
+    |__ stats/
+    |   |__aseg.stats
+    |   |__brainvol.stats
+    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc+DKTatlas.stats
+    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.aparc.stats
+    |   |__ <span class="placeholder">&lt;lh|rh&gt;</span>.curv.stats
+    |
+    |__ surf/
+        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.<span class="placeholder">&lt;area|area.mid|area.pial&gt;</span>
+        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.curv
+        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.inflated
+        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.inflated.<span class="placeholder">&lt;H|K&gt;</span>
+        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.midthickness
+        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.orig
+        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.pial
+        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.smoothwm
+        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.smoothwm.<span class="placeholder">&lt;BE|C|FI|H|K|K1|K2|S&gt;</span>.crv
+        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.smoothwm.<span class="placeholder">&lt;H|K&gt;</span>
+        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.sphere
+        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.sphere.<span class="placeholder">&lt;reg|reg2&gt;</span>
+        |__ <span class="placeholder">&lt;lh|rh&gt;</span>.<span class="placeholder">&lt;sulc|thickness|volume|white&gt;</span>
+</pre>
 
 
 ## OSPREY-BIDS (`osprey/`)
