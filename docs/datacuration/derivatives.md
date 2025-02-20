@@ -224,7 +224,7 @@ sub-<span class="label">&lt;label&gt;</span>/
 M-CRIB-S and FreeSurfer source directories from [Infant-fMRIPrep](#infant-fmriprep-nibabies) processing are included under `derivatives/` in the data release as well. These are intermediate pipeline outputs used for surface reconstruction, organized for the release within the `mcribs/` and `freesurfer/` folders, respectively. Note that the folder structure uses `<pipeline>/sub-<label>_ses-<label>` instead of the typical derivatives structure `<pipeline_name>/sub-<label>/ses-<label>`. 
 
 #### M-CRIB-S
-M-CRIB-S is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). 
+M-CRIB-S is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). Note that the `mcribs/SUBSES/freesurfer` folder contains most of the same files as the derivatives `freesurfer/` folder (see details in [following section](#freesurfer)) - the only difference is that the latter contains a few additional files (e.g. `surf/<l|r>h.midthickness`).
 
 <pre class="folder-tree">
 mcribs/
@@ -238,24 +238,20 @@ mcribs/
     |__ SurfReconDeformable/
     |   |__ <span class="subses">SUBSES</span>/
     |       |__ meshes/
-    |       |   |__ internal.vtp
-    |       |   |__ pial+internal.vtp
+    |       |   |__ <span class="placeholder">&lt;internal|pial+internal|pial|white+internal|white&gt;</span>.vtp
     |       |   |__ pial-<span class="placeholder">&lt;lh|rh&gt;</span>-reordered.vtp
     |       |   |__ pial-<span class="placeholder">&lt;lh|rh&gt;</span>.vtp
-    |       |   |__ pial.vtp
-    |       |   |__ white+internal.vtp
     |       |   |__ white-<span class="placeholder">&lt;lh|rh&gt;</span>.CortexMask.curv
     |       |   |__ white-<span class="placeholder">&lt;lh|rh&gt;</span>.Normals.surf
     |       |   |__ white-<span class="placeholder">&lt;lh|rh&gt;</span>.RegionId.curv
     |       |   |__ white-<span class="placeholder">&lt;lh|rh&gt;</span>.vtp
-    |       |   |__ white.vtp
     |       |
     |       |__ recon/
     |       |   |__ cortical-hull-dmap.nii.gz
     |       |   |__ regions.nii.gz 
     |       |
     |       |__ temp/
-    |           |__ brain-mask.nii.gz
+    |           |__ <span class="placeholder">&lt;brain|cortex&gt;</span>-mask.nii.gz
     |           |__ cerebrum-<span class="placeholder">&lt;1|2|3&gt;</span>.vtp
     |           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-<span class="placeholder">&lt;1|2|3&gt;</span>.vtp
     |           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-2-output_<span class="placeholder">#</span>.vtp
@@ -264,7 +260,6 @@ mcribs/
     |           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-iso.vtp
     |           |__ cerebrum-<span class="placeholder">&lt;lh|rh&gt;</span>-mask.nii.gz
     |           |__ corpus-callosum-mask-<span class="placeholder">&lt;1|2|3&gt;</span>.nii.gz
-    |           |__ cortex-mask.nii.gz
     |           |__ deep-gray-matter-mask-<span class="placeholder">&lt;1|2&gt;</span>.nii.gz
     |           |__ gray-matter-mask-<span class="placeholder">&lt;1|2&gt;</span>.nii.gz
     |           |__ pial-<span class="placeholder">&lt;#|#-output_#&gt;</span>.vtp
@@ -287,8 +282,7 @@ mcribs/
     |       |__ N4/
     |           |__ <span class="subses">SUBSES</span>.nii.gz_symlink_s3_object
     |
-    |__ freesurfer/
-    |   |__ <span class="subses">SUBSES</span>/*
+    |__ freesurfer/ <span class="hashtag"># Files match contents of freesurfer/ folder displayed in section below</span>
     |
     |__ logs/
     |   |__ <span class="subses">SUBSES</span>.log
