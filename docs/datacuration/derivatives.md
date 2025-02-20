@@ -220,11 +220,11 @@ sub-<span class="label">&lt;label&gt;</span>/
 
 *See [Format of File Structure Visuals](#visformat) for further guidance on interpreting the folder tree above.*
 
-### MCRIBS & FreeSurfer Source Directories
-MCRIBS and FreeSurfer source directories from [Infant-fMRIPrep](#infant-fmriprep-nibabies) processing are included under `derivatives/` in the data release as well. These are intermediate pipeline outputs used for surface reconstruction, organized for the release within the `mcribs/`  and `freesurfer/` folders, respectively. Note that the folder structure uses `<pipeline>/sub-<label>_ses-<label>` instead of the typical derivatives structure `<pipeline_name>/sub-<label>/ses-<label>`. 
+### M-CRIB-S & FreeSurfer Source Directories
+M-CRIB-S and FreeSurfer source directories from [Infant-fMRIPrep](#infant-fmriprep-nibabies) processing are included under `derivatives/` in the data release as well. These are intermediate pipeline outputs used for surface reconstruction, organized for the release within the `mcribs/` and `freesurfer/` folders, respectively. Note that the folder structure uses `<pipeline>/sub-<label>_ses-<label>` instead of the typical derivatives structure `<pipeline_name>/sub-<label>/ses-<label>`. 
 
-#### MCRIBS
-M-CRIB-S `MCRIBReconAll` is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). 
+#### M-CRIB-S
+M-CRIB-S is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). 
 
 <pre class="folder-tree">
 mcribs/

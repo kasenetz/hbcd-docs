@@ -189,6 +189,18 @@
 </p>
 
 <p>
+<div id="faq-FS" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Are FreeSurfer processing outputs included in the release data?</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>FreeSurfer outputs, generated as part of Infant-fMRIPrep pipeline processing, are included in the data release within the <code>freesurfer/</code> folder of the derivatives. See <a href="../datacuration/derivatives/#m-crib-s-freesurfer-source-directories">M-CRIB-S & FreeSurfer Source Directories</a> for details. M-CRIB-S, a surface reconstruction method optimized for neonates, is used in place of FreeSurfer for processing. The FreeSurfer files are derived from the M-CRIB-S outputs, which are converted and remapped into FreeSurfer-compatible format.</p>
+</div>
+</p>
+
+<p>
 <div id="faq-raw" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
   <span class="text">How can I download raw DICOM or source data?</span>
