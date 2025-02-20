@@ -226,13 +226,39 @@ M-CRIB-S and FreeSurfer source directories from [Infant-fMRIPrep](#infant-fmripr
 #### M-CRIB-S
 M-CRIB-S is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). The contents of the `mcribs/SUBSES/freesurfer` folder are not listed below because they largely mirror the files found in the `derivatives/freesurfer/` folder (see details in the [following section](#freesurfer)). One key difference is that the `derivatives/freesurfer/` folder contains a few additional files, such as `surf/<l|r>h.midthickness`.
 
-Additionally, the `mcribs/SUBSES/freesurfer` folder and other subfolders contain a few symlink files, which act as references to data stored elsewhere. When uploaded to the release bucket, these symlink files are labeled with `*_symlink_s3_object` to distinguish them from regular files. To restore these symlink files, run the following command in the terminal:
+<div id="symlinks-banner" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Restoring Symlink Files</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<p>The <code>mcribs/SUBSES/freesurfer/</code> folder and other subfolders contain a few symlink files, which act as references to data stored elsewhere. When uploaded to the release bucket, these symlink files are labeled with <code>*_symlink_s3_object</code> to distinguish them from regular files. To restore these symlink files, use one of the following commands in the terminal:</p>
 
+<p>Option 1: This command simply prints what commands to run to restore individual symlinks and does not change anything:</p>
 <div class="copy-box">
   <div class="copy-text-container">
-    <span id="specific-text-code">find . -type f -name "*_symlink_s3_object" -print | while read path ; do val=$(cat $path) ; link=$(echo $path | sed -e 's/_symlink_s3_object//'); ln -s "$val" "$link" && rm -f $path || break ; done</span>
+    <span id="specific-text-code">find . -type f -name "*_symlink_s3_object" -print | while read path ; do
+  symval=$(cat "$path")
+  symdir=$(dirname "$path")
+  symbase=$(basename "$path" _symlink_s3_object)
+  echo ln -s "$symval" "$symdir/$symbase" '&&' rm -f "$path"
+done
+    </span>
     <button class="copy-button">Copy</button>
   </div>
+</div>
+
+<p>Option 2: This restores all symlink files within the directory and renames them without <code>*_symlink_s3_object</code> to match the original sourcedata filenames:</p>
+<div class="copy-box">
+  <div class="copy-text-container">
+    <span id="specific-text-code">find . -type f -name "*_symlink_s3_object" -print | while read path ; do
+  symval=$(cat "$path")
+  symdir=$(dirname "$path")
+  symbase=$(basename "$path" _symlink_s3_object)
+  ln -s "$symval" "$symdir/$symbase" && rm -f "$path" || break
+done</span>
+    <button class="copy-button">Copy</button>
+  </div>
+</div>
 </div>
 
 <pre class="folder-tree">

@@ -20,7 +20,7 @@ th, td {
   padding: 0 10px;
   border-radius: 5px;
   font-family: Lato; 
-  color: #505050;
+  color: #474646;
   cursor: pointer;
 }
 .table-arrow {
@@ -28,7 +28,7 @@ th, td {
   transition: transform 0.3s ease;
   transform-origin: center;
   display: inline-block;
-  color: #505050;
+  color: #474646;
   margin-left: auto; 
 }
 .table-arrow.rotate {
