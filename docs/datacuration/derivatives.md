@@ -224,7 +224,15 @@ sub-<span class="label">&lt;label&gt;</span>/
 M-CRIB-S and FreeSurfer source directories from [Infant-fMRIPrep](#infant-fmriprep-nibabies) processing are included under `derivatives/` in the data release as well. These are intermediate pipeline outputs used for surface reconstruction, organized for the release within the `mcribs/` and `freesurfer/` folders, respectively. Note that the folder structure uses `<pipeline>/sub-<label>_ses-<label>` instead of the typical derivatives structure `<pipeline_name>/sub-<label>/ses-<label>`. 
 
 #### M-CRIB-S
-M-CRIB-S is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). Note that the `mcribs/SUBSES/freesurfer` folder contains most of the same files as the derivatives `freesurfer/` folder (see details in [following section](#freesurfer)) - the only difference is that the latter contains a few additional files (e.g. `surf/<l|r>h.midthickness`).
+M-CRIB-S is a surface reconstruction method developed for neonates using the surface-based Melbourne Children's Regional Infant Brain atlases ([Adamson et al. 2020](https://doi.org/10.1038/s41598-020-61326-2)). The contents of `mcribs/SUBSES/freesurfer` is not listed below because it contains most of the same files as the derivatives `freesurfer/` folder (see details in [following section](#freesurfer)). One difference is that the derivatives `freesurfer/` folder contains a few additional files (e.g. `surf/<l|r>h.midthickness`). In addition, the `mcribs/SUBSES/freesurfer` folder as well as other subfolders contain a few symlink files, which are labeled with `*_symlink_s3_object`. These files can be recovered by running the following on the command line:
+
+
+<div class="copy-box">
+  <div class="copy-text-container">
+    <span id="specific-text-code">find . -type f -name "*_symlink_s3_object" -print | while read path ; do val=$(cat $path) ; link=$(echo $path | sed -e 's/_symlink_s3_object//'); ln -s "$val" "$link" && rm -f $path || break ; done</span>
+    <button class="copy-button">Copy</button>
+  </div>
+</div>
 
 <pre class="folder-tree">
 mcribs/
