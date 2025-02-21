@@ -95,8 +95,6 @@ If you are already logged in, allow Lasso to use your globus id.
 <img src="../images/querytool/gb14.jpg" width="100%" height="auto" class="center">
 
 
-
-
 ## Download Client User Guide (macOS Version)
 ### Introduction
 The Download Client is a user-friendly application designed to help you securely download files from remote storage. This guide will walk you through downloading, installing, and using the client on macOS.
