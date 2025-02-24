@@ -172,7 +172,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Please see <a href="../mriprotocols/mriprotocols">MRI Protocols</a>.</p>
+<p>Please see <a href="https://hbcdsequences.readthedocs.io">HBCD Study MRI Protocols</a>.</p>
 </div>
 </p>
 

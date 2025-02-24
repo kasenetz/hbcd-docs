@@ -1,4 +1,4 @@
-site_name: HBCD Data Release Docs
+site_name: HBCD Data Release Docs (BETA)
 
 theme:
   name: readthedocs
@@ -63,13 +63,13 @@ nav:
         - Electroencephalogram: measures/eeg/index.md
         - Magnetic Resonance Imaging:
             - Overview: measures/mri/index.md
+            - MRI Protocols (Leave Site): measures/mri/protocols.md            
             - Quality Control Procedures: measures/mri/qc.md
             - Structural MRI: measures/mri/smri.md
             - Functional MRI: measures/mri/fmri.md
             - Diffusion MRI: measures/mri/dmri.md
             - Quantitative MRI: measures/mri/qmri.md
             - Magnetic Resonance Spectroscopy: measures/mri/mrs.md 
-    - MRI Protocols: mriprotocols/mriprotocols.md
     - HBCD BIDS Data:
         - Overview: datacuration/overview.md
         - Raw Data: datacuration/rawbids.md
