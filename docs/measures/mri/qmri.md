@@ -2,11 +2,10 @@
 <p>
 <div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Subject matter experts note that different sites might have different criteria for what a motion-degraded QALAS and B1+ mapping scans look like. Regarding 3D-QALAS, the SyMRI toolbox does not incorporate externally acquired B1+ field maps into the quantitative T1, T2, and PD estimation. There are also variations of the estimated quantitative T1 values across the three MRI vendors and across age. Current estimates do not align well with prior literature and may result from certain assumptions in the modeling procedures. This is currently a work in progress to correct. As a result, the quantitative T1 (and consequently the PD) values will not be initially released.</p> 
 </div>
 </p>

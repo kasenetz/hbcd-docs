@@ -1,79 +1,25 @@
 # Exclusion Criteria 
 
-## IMAGING
+## Imaging, Spectroscopy, EEG, & Accelerometry
 
-### Quality Control Criteria
-Only raw BIDS image data files that pass quality control (`QC`=1 from the `scans.tsv` file) are included in the data release and used for subsequent processing. Please see [Raw MR Data QC](../measures/mri/qc.md#raw-mr-data-qc) for details on the QC procedures.
+#### Acquisition Parameter Criteria
+Following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional checks to ensure data integrity. All images are verified to be acquired using a head coil before inclusion in the BIDS dataset. Modality-specific inclusion criteria, parsed from the image JSON files, are as follows:
 
-In addition, for **diffusion MRI**, if there were multiple scans available that passed QC, only the best quality scan was selected for processing based on additional QC metrics. For subjects with manual QC scores for all DWI images in a session (only a portion of data was selected for manual QC), to choose the best scan, the following metrics, in order of priority, were used to compare scan quality until the best was identified: `NumHeadCoilElem`, `QU_cotuff`, `QU_sus`, `QU_line`, `ngood_frames`, `line_mean_score`, and `tSNR_b0`. In the absence of manual QC metrics, the following were prioritized to select the best scan: `NumHeadCoilElem`, `ngood_frames`, `line_mean_score`, and `tSNR_b0`. These metrics are defined in the following table:
-
+<p>
+<div id="acq-param-table" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Acquisition Parameter Ranges for Data Release Eligibility</span>
+  <span class="table-arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-<tfoot><tr><td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;" colspan="3"><b>**</b><i>Available for Siemens only: There are some visits on Siemens scanners with one or more scans for which some of the head coil elements were disabled (following detachment and reattachment of the anterior coil elements). In very rare cases, the site may recognize the problem at the time and reacquire the images. In cases like that, the scan with higher "NumHeadCoilElem” would be preferred.</i></td></tr></tfoot>
   <thead>
     <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">QC Metric</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Defnition</th>  
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Scoring</th>   
-    </tr>
-  </thead>
-<tbody>
-	<tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">QC</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Overall manual QC score of 1 (pass) or 0 (fail)</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">1 (pass) or 0 (fail)</td>
-	</tr>
-  <tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NumHeadCoilElem**</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Number of head coil elements</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NA</td>
-	</tr>  
-	<tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">QU_cotuff</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Qualitative manual QC score for FOV cutoff artifact</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">0 = absent ; 1 = mild; 2 = moderate; 3 = severe </td>
-	</tr>  
-  <tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">QU_sus</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Qualitative manual QC score for susceptibility artifact</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">0 = absent ; 1 = mild; 2 = moderate; 3 = severe </td>
-	</tr>  
-  <tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">QU_line</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Qualitative manual QC score for line artifact</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">0 = absent ; 1 = mild; 2 = moderate; 3 = severe </td>
-	</tr>  
-  <tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">ngood_frames</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Number of frames without outlier slices for dMRI</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NA</td>
-	</tr>  
-  <tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">line_mean_score</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Average line artifact score in frames with line artifacts</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NA</td>
-	</tr>  
-  <tr>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">tSNR_b0</td>
-		<td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Median temporal SNR in brain mask for b=0 frames</td>
-    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">NA</td>
-	</tr>  
-</tbody>
-</table>
-
-### Acquisition Parameter Criteria
-In addition, following conversion to BIDS format, the MRI NIfTI and JSON files undergo additional checks to ensure data integrity. All images are verified to be acquired using a head coil before inclusion in the BIDS dataset. Modality-specific inclusion criteria, parsed from the image JSON files, are as follows:
-
-<p style="font-size: 1.2em; margin: 0 0 5px;"><u>Acquisition Parameter Ranges for Data Release Eligibility</u></p>
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-<tfoot><tr><td colspan="6"><b>**</b><i>Number of volumes between DWI AP and DWI PA</i></td></tr></tfoot>
-  <thead>
-    <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">File</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">TR</th>   
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">TE</th>        
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">TI</th>    
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Slice Thickness</th>  
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;"># Volumes</th>  
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">File</th>
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">TR</th>   
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">TE</th>        
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">TI</th>    
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">Slice Thickness</th>  
+      <th style="width: 100%; border-collapse: collapse; table-layout: fixed;">Volume #</th>  
     </tr>
   </thead>
 <tbody>
@@ -107,12 +53,12 @@ In addition, following conversion to BIDS format, the MRI NIfTI and JSON files u
     <td>0.0880-0.0980</td>
 		<td>NA</td>    
     <td>1.7</td>    
-    <td>≥90**</td>  
+    <td style="word-wrap: break-word; white-space: normal;">≥ 90 (AP + PA)</td>  
 	</tr>  
 	<tr>
 		<td>EPI Fieldmap</td>
-		<td>8.4 - 9.2</td>
-    <td>0.064 - 0.0661</td>
+		<td>8.4-9.2</td>
+    <td>0.064-0.0661</td>
 		<td>2</td>    
     <td>0.563-0.565</td>    
     <td>NA</td>
@@ -120,50 +66,41 @@ In addition, following conversion to BIDS format, the MRI NIfTI and JSON files u
 	<tr>
 		<td>Functional</td>
 		<td>1.725</td>
-    <td>0.0369 - 0.0371</td>
+    <td>0.0369-0.0371</td>
 		<td>NA</td>    
     <td>2</td>  
-    <td>≥87 (~2.5 min)</td>   
+    <td>≥ 87 (~2.5 min)</td>   
 	</tr>  
 </tbody>
 </table>
-
-
-## EEG
-EEG file inclusion in the data release is based on EEG capping quality: acquisitions with QC ratings of "excellent", "average", and "poor" are all included and those rated as "not usable" are excluded. See details of quality control procedures under [Data Measures > EEG > EEG Net Placement ("Capping Quality") Ratings](../measures/eeg/index.md#eeg-net-placement-capping-quality-ratings). Capping ratings are made available to users in the QC instrument files provided for each EEG task under `phenotype/` (`eeg_qc_task-FACE.tsv`, `eeg_qc_task-MMN.tsv`, `eeg_qc_task-RS.tsv`, and `eeg_qc_task-VEP.tsv` - see details [here](phenotypes.md#instrument-data)).
-
-
-## PHENOTYPES
-Below is a list of general rules applied to all data as well as static (i.e. precisely identified hard-coded elements such as participants, instruments, and instrument fields) and dynamic elements excluded during the data release process:
-
-<p>
-<div id="general-rules-dropdown" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">General Rules Applied to All Data</span>
-  <span class="arrow">▸</span>
-</div>
-<div class="collapsible-content">
-<ul>
-    <li>For all participants with only one active V01 visit, sex is changed from "Male/Female" to “Other”</li>
-    <li>All empty strings (“”) or missing values are replaced with the default ReproSchema-compliant string “n/a”</li>
-    <li>“Candidate_Age” is computed in years except for V01, for which values are replaced with "n/a"</li>
-    <li>Some fields can have out-of-range values. They are considered “extreme” values and are changed to “n/a”. This filter was applied to <code>pex_bm_healthv2_inf</code> - see <a href="../../measures/pregexp/preghealth#field-exclusions">Pregnancy & Infant Health > Field Exclusions</a> for details.
-</ul>
 </div>
 </p>
 
-<p>
-<div id="static-exclusions-dropdown" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Static Element Exclusions</span>
-  <span class="arrow">▸</span>
+#### Electroencephalography
+EEG file inclusion in the data release is based in part on EEG capping quality: acquisitions with QC ratings of "excellent", "average", and "poor" are all included and those rated as "not usable" are excluded. See details of quality control procedures under [Data Measures > EEG > EEG Net Placement ("Capping Quality") Ratings](../measures/eeg/index.md#eeg-net-placement-capping-quality-ratings). Capping ratings are made available to users in the QC [instrument files](phenotypes.md#instrument-data) provided for each EEG task in the `phenotype/` folder (`eeg_qc_task-FACE.tsv`, `eeg_qc_task-MMN.tsv`, `eeg_qc_task-RS.tsv`, and `eeg_qc_task-VEP.tsv`).
+
+#### Processing Pipeline Criteria
+With the exception of TB1 MRI and electrocardiogram (ECG) data, raw BIDS files are included in the release only if they were used in at least one processing pipeline, ensuring alignment with derived pipeline outputs. Since HBCD employs multiple pipelines — each with its own requirements — the released data represent the union of all files that meet at least one pipeline’s criteria. 
+
+For some data categories, files are selected for processing based on pipeline-specific criteria detailed under *Quality Control Selection Information* in the [Tool Names](https://hbcd-cbrain-processing.readthedocs.io/latest/tool_details.html#tool-names) section of the HBCD Processing website. For imaging data that underwent [raw data quality control](../measures/mri/qc.md#raw-mr-data-qc), only files that pass are included in the data release and utilized for data processing. There are some exceptions: for instance, MRS localizers are not excluded from processing based on QC alone. Data curation is instead performed during OSPREY-BIDS processing, which prioritizes localizer timing over QC (see details [here](https://osprey-bids.readthedocs.io/en/2.4.3/processing_pipeline_details.html)). All quality control information is stored in the `sub-<label>_ses-<label>_scans.tsv` file located in each BIDS session folder. 
+
+When additional QC criteria apply, filtering typically occurs in two stages: first, using both manual and automated QC fields, and second, using only automated fields. For example, only the highest-quality T1w and T2w are selected for structural MRI processing when multiple scans passing QC are present. In this first release, all high-resolution T1w and T2w scans — and most QALAS acquisitions — were selected using `QU_Motion`, a manual assessment of motion artifacts.
+
+## Tabulated Instrument Data
+
+### General Rules Applied to All Data
+- For all participants with only one active V01 visit, sex is changed from "Male/Female" to “Other”
+- All empty strings (“”) or missing values are replaced with the default ReproSchema-compliant string “n/a”
+- Some fields can have out-of-range values considered “extreme” that are changed to “n/a." Filtered fields are listed under [Filtered Out-Of-Range Field Values](#filtered-values).
+  
+### Static Element Exclusions
+Static elements are precisely identified hard-coded elements such as participants, instruments, and instrument fields. The current data release excludes participants with a 'Postnatal Recruitment' visit as well as Multiple Birth Participants (to be included in the [interim release](../changelog/pending.md#release-11-release-date-tba)). Excluded instruments and instrument fields are as follows:
+
+<div id="static-exclusions-dropdown" class="table-banner" onclick="toggleCollapse(this)">
+    <span class="table-text">Excluded Instruments</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="collapsible-content">
-<br>
-<b>Participant Filters:</b>
-<ul>
-    <li>Participants with a 'Postnatal Recruitment' visit  </li>
-    <li>Multiple Birth Participants</li>
-</ul>
-<b>Excluded Instruments:</b>
+<div class="notification-collapsible-content">
 <ul>
     <li>Biosensor Receipt Form ('sens_ch_rcpt')</li>
     <li>EEG Acquisition Checklists
@@ -203,7 +140,13 @@ Below is a list of general rules applied to all data as well as static (i.e. pre
     <li>Urgent Events ('adm_fd_urgent')</li>
     <li>Transitions in Care Questionnaire ('sed_cg_tic')</li>
 </ul>
-<br><b>Excluded Instrument Fields:</b>
+</div>
+
+<div id="static-exclusions-fields" class="table-banner" onclick="toggleCollapse(this)">
+    <span class="table-text">Excluded Instrument Fields</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
 <ul>
     <li>Examiner ('Examiner’)  </li>
     <li>Date of Birth (‘DOB’)  </li>
@@ -215,60 +158,85 @@ Below is a list of general rules applied to all data as well as static (i.e. pre
     <li>Stop timestamp (‘timestamp_stop’)  </li>
     <li>REDCap timestamp (‘timestamp_redcap_locked’)  </li>
     <li>Visit Data ('visit_stage' removed from the 'visit_data' category)  </li>
-    <li>'Height/Weight/Head Circumference' ('ph_ch_anthro')
-        <ul>
-        <li>BMI-related fields removed  </li>
-        </ul>
-    </li>
-    <li>Breast Feeding History ('ph_cg_phx_i_bfh')
-        <ul>
-        <li>All fields except '001' excluded  </li>
-        </ul>
-    </li>
-    <li>Filter out extreme values for 'Height/Weight/Head Circumference' ('ph_ch_anthro')
-        <ul>
-        <li>Length ('len_001_i_03'): Min => 30 / Max => 130  </li>
-        <li>Weight ('wei_001_i_03'): Min => 0.5 / Max => 30  </li>
-        <li>Head Circumference ('head_001_i_03'): Min => 25 / Max => 55  </li>
-        </ul>
-    </li>
+    <li>'Height/Weight/Head Circumference' ('ph_ch_anthro') - BMI-related fields removed  </li>
+    <li>Breast Feeding History ('ph_cg_phx_i_bfh') - All fields except '001' excluded  </li>
     <li>Clinical Alerts  </li>
     <li>REDCap Complete status ('complete')  </li>
     <li>Scannable codes (BioSamples codes, tracking Nos, etc...)  </li>
     <li>Line fields</li>
 </ul>
 </div>
-</p>
 
-<p>
-<div id="dynamic-exclusions-dropdown" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Dynamic Element Exclusions</span>
-  <span class="arrow">▸</span>
+<div id="filtered-values" class="table-banner" onclick="toggleCollapse(this)">
+    <span class="table-text">Filtered Out-Of-Range Field Values</span>
+  <span class="notification-arrow">▸</span>
 </div>
-<div class="collapsible-content">
-</p>
-<b>Participant Filters:</b>
+<div class="notification-collapsible-content">
+<p>Some fields can have out-of-range values considered “extreme.” Values outside of the valid ranges listed for the instruments below were filtered, i.e. changed to "n/a."</p>
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Instrument</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Field</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Valid Range</th>
+    </tr>
+  </thead>
+<tbody>        
+<td colspan="1" rowspan="4" style="word-wrap: break-word; white-space: normal;">Growth (<code>ph_ch_anthro</code>)</td>
+    <tr>
+        <td>Length (<code>len_001_i_03</code>)</td>
+        <td>30 to 130 cm</td>
+    </tr>     
+    <tr>
+        <td>Head Circumference (<code>head_001_i_03</code>)</td>
+        <td>25 to 55 cm</td>
+    </tr>          
+    <tr>
+        <td>Weight (<code>wei_001_i_03</code>)</td>
+        <td>0.5 to 30 kg</td>
+    </tr>         
+<td colspan="1" rowspan="5" style="word-wrap: break-word; white-space: normal;">Healthv2 Inf (<code>pex_bm_healthv2_inf</code>)</td>
+    <tr>
+        <td><code>001_i_01</code></td>
+        <td>≤ 16</td>
+    </tr>     
+    <tr>
+        <td><code>001_i_02</code></td>
+        <td>≤ 66</td>
+    </tr>     
+    <tr>
+        <td><code>002</code></td>
+        <td>12 - 51</td>
+    </tr>     
+    <tr>
+        <td><code>002_i_01</code></td>
+        <td>30 - 130</td>
+    </tr>     
+</tbody>
+</table>
+</div>
+<br>
+
+### Dynamic Element Exclusions
+<div id="dynamic-exclusions-dropdown" class="table-banner" onclick="toggleCollapse(this)">
+    <span class="table-text">Dynamic Element Exclusions</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
 <ul>
+<b>Participant Filters:</b>
     <li>No brain rating or brain rating noted “abnormal” are not selected</li>
     <li>Only active participants and sessions are selected</li>
     <li>Participants from Data Coordination Center (DCC) and University of Florida (UFL) sites are not selected</li>
     <li>Only participants with PSCIDs starting with “CH” are selected (excluding all test participants e.g. QI, YI, XI, PI)</li>
 </ul>
-<b>Visit Filters:</b>
+<ul><b>Visit Filters:</b> Only visits whose 'LaunchPad Complete' Status was set to 'Complete' before July 1st, 2024 are included</ul>
 <ul>
-    <li>Only visits whose 'LaunchPad Complete' Status was set to 'Complete' before July 1st, 2024 are included</li>
-</ul>
 <b>Domain Filters:</b>
-<ul>
     <li>BioSpecimens</li>
     <li>Geocoding data</li>
     <li>Transition in Care</li>
     <li>REDCap surveys filled out directly in LORIS (Identified based on LORIS 'Examiner' field not set to 'REDCap')</li>
 </ul>
 </div>
-</p>
-
-
-
-
 

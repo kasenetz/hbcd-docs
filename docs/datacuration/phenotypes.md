@@ -1,56 +1,62 @@
 # Phenotype BIDS Data
-The `phenotype/` folder includes instrument data, visit data, biosample, and demographics information for all participants, each of which include a `tsv` data file and associated `json` file with explanation of the data fields. 
-```
-root/
+The `phenotype/` folder includes instrument data, visit data, biosample, and demographics information for all participants, each of which includes a `tsv` data file and associated `json` file with explanation of the data fields. 
+
+<pre class="folder-tree">
+bids/
 |__ phenotype/
-    |__ phenotype.tsv
-    |__ phenotype.json
     |
-  # BioSpecimen
+    | <span class="hashtag"># BioSpecimen Data</span>
     |__ bio_biosample_nails.tsv
     |__ bio_biosample_nails.json
     |__ bio_biosample_urine.tsv
     |__ bio_biosample_urine.json
     |  
-  # Visit Data
+    | <span class="hashtag"># Visit Data</span>
     |__ par_visit_data.tsv
     |__ par_visit_data.json
     |
-  # Demographic Data
+    | <span class="hashtag"># Demographics Data</span>
     |__ sed_basic_demographics.tsv
     |__ sed_basic_demographics.json
     |__ sed_bm_demo.tsv
     |__ sed_bm_demo.json
     |
-  # Instruments
-    |__ <instrument_name>.tsv (repeat for all selected instruments)
-    |__ <instrument_name>.json (repeat for all selected instruments)
-```
+    | <span class="hashtag"># Instruments</span>
+    |__ <span class="placeholder">&lt;instrument_name&gt;</span>.tsv
+    |__ <span class="placeholder">&lt;instrument_name&gt;</span>.json
+</pre>
 
+## Demographics Data
 <p>
-<div id="age" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="demo-age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Fields Reporting Age</span>
+  <span class="text">Demographics: Fields Reporting Age</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
 <br>
-<li>
-<p><b>Gestational Age at Administration</b> (<code>gestational_age</code>, reported in days): During the prenatal period, gestational age at administration (GAA) refers to the time elapsed between the expected due date (EDD, used as a proxy for the time of conception, or the first day of the mother's last menstrual period (LMP)) and the date of administration of the instrument. Note that GAA can be negative for instruments administered before the EDD.</p> 
-<p><b>Gestational Age at Birth</b> (<code>gestational_age_birth</code>, reported in weeks): After birth, the gestational age at birth (GAB) represents the time between LMP and the date of birth. This is rounded to the nearest week and remains constant.</p> 
-<p><b>Candidate Age at Administration</b> (<code>candidate_age</code>, reported in years with precision to 3 decimal places): This is the time elapsed between birth (based on a birthdate measure jittered up to 7 days to mitigate identification risks) and the date of instrument administration. For a given participant and visit, candidate age will vary by no more than 0.082 years (equivalent to 30 days) across all protocol elements. For visit V01, candidate age is recorded as "n/a" because this data corresponds to the prenatal period. The decision to report age in years, rather than months, ensures consistency with how this variable will be reported at later developmental stages (e.g., toddlerhood and childhood). Reporting in years with three decimal places provides greater precision, compensating for the adjusted birthdate and yielding values closer to the actual age than reporting in years and months.</p>
-</li>
+<i>Note that all of the following are single-point and static values.</i>
+<br>
+<br>
+<b>Maternal Age at V01 </b> (<code>mother_age_v01</code>): 'MAV01' is the birth parent's age, obtained from the scheduled date of the V01 visit. The age is reported in years to two decimal places, with fractional years calculated by dividing the number of whole months (rounded down) by 12.
+<br>
+<br>
+<b>Maternal Age at Delivery</b> (<code>mother_age_delivery</code>): 'MAD' is the birth parent’s age at their child’s birth. The age is reported in years to two decimal places, with fractional years calculated by dividing whole months (rounded down) by 12.
+<br>
+<br>
+<b>Gestational Age at Delivery</b> (<code>gestational_age_delivery</code>): 'GAD' is the time from the first day of the birth parent’s last menstrual period (LMP), derived from the estimated date of delivery (EDD) minus 280 days, to the child’s birth. Reported in whole weeks, rounded down.
+<br>
+<br>
 </div>
 </p>
 
-## Demographics Data
 <p style="margin: 0 0 5px;">The <code>sed_basic_demographics</code> file provide demographic information for each participant that is useful for understanding their phenotypic data in context. This includes:</p>
 <ul>
-<li>Gestational age at birth</li>
+<li>Gestational Age at Delivery</li>
 <li>Sex</li>
 <li>Recruitment site</li>
 <li>Child demographics: race, ethnicity</li>
-<li>Mother demographics: race, ethnicity, education, language at home</li>
+<li>Birth parent's demographics: race, ethnicity, education, language at home</li>
 <li>Substance Use (SU) flags raised by any of the following (<a href="#visit-data">Visit Data</a> contains details per visit):
     <ul>
     <li>Self-reported use (<a href="../../measures/pregexp/substanceuse/#tlfb">TLFB</a>)</li>
@@ -62,15 +68,22 @@ root/
 
 <p>The <code>sed_bm_demo</code> file contains additional demographic information pertaining to the birth parent collected as part of <a href="../../measures/socenvdet/">Social & Environmental Determinants</a> measures.</p>
 
+Cohort types included in the data release are as follows, with Types E-F indicating [Caregiver Type](#CGtype):
 
-Caregiver Type is included in demographic information as well. The cohort types included in the data release are as follows:
+- HBCD Main Child
+- HBCD Main Child - Postnatal Recruitment
+- HBCD Main Child - Type E-F
+- HBCD Multiple Birth - Main Child
+- HBCD Multiple Birth - Postnatal Recruitment
+- HBCD Multiple Birth - Postnatal Recruitment - Sibling
+- HBCD Multiple Birth - Type E-F
+
+<div id="CGtype" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Caregiver Type Definitions</span>
+  <span class="table-arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Caregiver Type</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Definition</th>   
-    </tr>
-  </thead>
 <tbody>
 	<tr>
 		<td>Type A</td>
@@ -98,6 +111,7 @@ Caregiver Type is included in demographic information as well. The cohort types 
 	</tr>            
 </tbody>
 </table>
+</div>
 
 ## Visit Data
 <p style="margin: 0 0 5px;">The <code>par_visit_data</code> file contains all participant visit data, including:</p>
@@ -118,4 +132,25 @@ Caregiver Type is included in demographic information as well. The cohort types 
 All BioSpecimen file are prepended with `bio_`. The `bio_biosample_urine` urine files include BioSpecimen USDTL Urine and DCCID, Visit Label, and Scannable code. See details of BioSpecimen screens [here](../measures/biospec.md).
 
 ## Instrument Data
+<p>
+<div id="instrument-age" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Instrument-Specific Fields Reporting Age</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<br>
+<b>Gestational Age at Administration</b> (<code>&lt;instrument_name&gt;_gestational_age</code>): 'GAA' is the time from the first day of the birth parent’s last menstrual period (LMP), estimated as EDD minus 280 days, to the instrument administration date. GAA is given in whole weeks, rounded down, for only the V01 visit. For a given participant, GAA typically varies by no more than 4 weeks across protocol elements except in cases where protocol exceptions were granted.
+<br>
+<br>
+<b>Chronological Age at Administration</b> (<code>&lt;instrument_name&gt;_candidate_age</code>): Reported in years (to three decimal places), chronological age is the time from birth (with the birthdate jittered up to 7 days to mitigate identification risks) to the date of instrument administration (for V02 onward). It is calculated by dividing the total days elapsed (rounded down) by 365.25. Reporting in years, rather than months, ensures consistency across developmental stages (e.g., toddlerhood, childhood), while three-decimal precision compensates for birthdate adjustments, yielding values closer to actual age.
+<br>
+<br>
+<b>Adjusted Chronological Age at Administration</b> (<code>&lt;instrument_name&gt;_adjusted_age</code>): 'ACAA' is the time elapsed between the estimated date of delivery (EDD) and date of instrument administration (for V02 onward), reported in whole weeks rounded down to the nearest week.
+<br>
+<br>
+</div>
+</p>
+
 Each instrument has a `<instrument_name>.tsv` Data Table containing instrument values and a `<instrument_name>.json` Data Dictionary describing instrument fields for all participants. For a full list of instrument files included in the release, see the overview section under [Data Measures Release Notes](../measures/index.md#data-measure-release-notes) overview.
+

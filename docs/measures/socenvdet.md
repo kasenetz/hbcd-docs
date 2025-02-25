@@ -112,10 +112,8 @@ For the majority of instruments, the data dashboard was monitored for variable m
 The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instrument](https://www.babysfirstyears.com/_files/ugd/88a466_5a28f2b284e74fa4b61b2c483008416e.docx?dn=BFY_Age%201%20Survey.docx). [Baby’s First Years](https://www.babysfirstyears.com/) is an NIH-funded study of infant and child development and assesses economic stress (originally sourced from the Moving to Opportunity (MTO) study), financial instability, ability to meet basic needs, and benefits/services received over the past 12 months on a 10-point Likert Scale ([Noble et al. 2021](https://doi.org/10.1542/peds.2020-049702)). 
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="text">HBCD Modification Details</span>
-  </span>
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">HBCD Modification Details</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
@@ -196,9 +194,9 @@ The HBCD BFY includes a selection of questions from the [BFY Age 1 Survey Instru
 The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/210302) measure is a questionnaire to assess perceived discriminatory experiences. Discrimination is an important factor in an individual’s health because it affects access to employment, housing, and education opportunities and can affect self-esteem and cause stress. 
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="text">HBCD Modification Details</span>
+    <span class="table-text">HBCD Modification Details</span>
   </span>
   <span class="notification-arrow">▸</span>
 </div>
@@ -280,9 +278,9 @@ The [PhenX+ Toolkit Discrimination](https://www.phenxtoolkit.org/protocols/view/
 The eHITS is a self-administered 5 question Likert scale screener for experiences of psychological aggression, physical assault, sexual coercion, and injury. Originally created for quick administration in a health care setting or emergency department, the eHITS asks individuals to indicate whether their partner has done any of the following over the past 12 months: "physically hurt you", "insulted you", "threatened to harm you", "screamed or cursed at you", or "forced you to have sexual activities."
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="text">HBCD Modification Details</span>
+    <span class="table-text">HBCD Modification Details</span>
   </span>
   <span class="notification-arrow">▸</span>
 </div>
@@ -386,9 +384,9 @@ This measure is a three-item questionnaire to assess the respondent’s percepti
 Protective and Compensatory Experience (PACES) is a 10-question scale with scores ranging between 0 and 10 assessing positive childhood experiences through age 18 such as: relationships, feeling of connectedness, physical activity, engagement, environment, and opportunities.
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="text">HBCD Modification Details</span>
+    <span class="table-text">HBCD Modification Details</span>
   </span>
   <span class="notification-arrow">▸</span>
 </div>

@@ -1,14 +1,14 @@
 <p align="center">
-<img src="images/logo_HBCD_final.png" alt="logo" width="500"/>
+<img src="images/logo_HBCD_final.png" alt="logo" width="500">
 </p>
 
-<p style="text-align: center; font-size: 1.6em">Welcome to the Data Release Docs page for the HEALthy Brain and Child Development (HBCD) Study!</p>
+<p style="text-align: center; font-size: 1.6em">Welcome to the Data Release Docs for the HEALthy Brain and Child Development (HBCD) Study!</p>
 
 <p style="text-align: center; font-size: 1.1em">Explore detailed information about HBCD Study Data Releases, including access guidelines, responsible data use policies, measure descriptions, and standardized procedures for data formatting, quality control, and processing.
 
 <br>
 <br>
-Annual data releases, hosted by the <a href="https://nbdc-splash-beta.lassoinformatics.com/hbcd-study">NIH Brain Development Cohorts (NBDC) Data Sharing Platform</a>, include information from the current participant cohort and all visits completed up to just before the release date. The inaugural HBCD Data Release 1.0, scheduled for February 2025, includes prenatal data from over 1300 pregnant participants as well as follow-up data from over half of their babies.
+Annual data releases, hosted by the <a href="https://nbdc-splash-beta.lassoinformatics.com/hbcd-study">NIH Brain Development Cohorts (NBDC) Data Hub</a>, include information from the current participant cohort and all visits completed up to just before the release date. The inaugural HBCD Data Release 1.0, scheduled for February 2025, includes prenatal data from over 1300 pregnant participants as well as follow-up data from over half of their babies.
 
 <br>
 <br>
@@ -16,7 +16,7 @@ Annual data releases, hosted by the <a href="https://nbdc-splash-beta.lassoinfor
 Please refer to the central HBCD Study page (<a href="https://hbcdstudy.org/">hbcdstudy.org</a>) for comprehensive information about the study and complete <a href="https://hbcdstudy.org/study-protocols/">Study Protocols</a>.</p> 
 
 <p style="text-align: center;">
-  <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC Lasso Portal &nbsp; ↗️</a>
+  <a class="button-link" href="https://nbdc-splash-beta.lassoinformatics.com/hbcd-study">HBCD Study on NBDC Data Hub &nbsp; ↗️</a>
 </p>
 
 

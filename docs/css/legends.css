@@ -10,6 +10,7 @@ details {
 
 details summary:hover {color: #0056b3;}
 details li b {color: #0077cc;}
+details p b {color: #0077cc;}
 details[open] summary {border-bottom: 1px solid #ddd;}
 details ul {transition: max-height 0.3s ease-in-out;}
 
@@ -21,10 +22,17 @@ details summary {
   outline: none;
 }
 /* Styling for the collapsed content */
-details ul {
-  font-size: 14px;
+details p {
+  font-size: 13px;
   margin: 5px 5px; /* Space above and below the list */
-  padding-left: 10px;
+  padding-left: 0;
+  color: #555;
+  line-height: 1.1;
+}
+details ul {
+  font-size: 13px;
+  margin: 5px 5px; /* Space above and below the list */
+  padding-left: 0;
   color: #555;
 }
 details ul li {

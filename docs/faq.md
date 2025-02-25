@@ -136,7 +136,7 @@
 </div>
 </p>
 
-## Non-Imaging Data
+## Tabulated Data
 <p>
 <div id="faq-age" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
@@ -145,9 +145,21 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<li>
-<p>Fields reporting age in the participant-, session-, & scan-level <code>.tsv</code> files provided within the <a href="../datacuration/rawbids">raw BIDS</a> and <a href="../datacuration/phenotypes">phenotype BIDS</a> data include Gestational Age at Administration (<code>gestational_age</code>), Gestational Age at Birth</b> (<code>gestational_age_birth</code>), and Candidate Age at Administration (<code>candidate_age</code>). Please see the notification under <a href="../datacuration/phenotypes/#age">HBCD BIDS Data &gt; Phenotype</a> for a definition of these fields.</p>
-</li>
+<p>Fields reporting age in the tabulated data include global, single-point (i.e. static) variables in Basic Demographics (see details <a href="../datacuration/phenotypes/#demo-age">here</a>), e.g. <b>Maternal Age at V01</b>, and instrument-specific variables for age (see details <a href="../datacuration/phenotypes/#instrument-age">here</a>) that vary depending on the date of administration for a given instrument.</p>
+<p>For the <a href="../datacuration/rawbids">raw BIDS</a> data (EEG, magnetic resonance imaging/spectroscropy, and motion sensor data), metrics for age are reported in the session- and scan-level <code>.tsv</code> files. Please see the description of these variables under <a href="../datacuration/rawbids/#age">Raw BIDS Data: Fields Reporting Age</a>.</p>
+</div>
+</p>
+
+<p>
+<div id="faq-underscores" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">What is the significance of single versus double underscores in table and field names?</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>Instrument table and field names may contain either single or double underscores. For example: <code>ncl_ch_mlds</code> (MLDS) vs <code>ncl_cg_spm2__inf</code> (SPM-2) <a href="../measures/neurocog/#neurocognition-language">Neurocognition & Language</a> instruments. The double underscore (<code>__</code>) originates from instances where a table name or field previously contained <code>_i_</code>, which was later removed in the Data Release process. When <code>_i_</code> was removed, it was replaced by a double underscore.</p> 
+<p>In terms of its significance, in some cases single underscores (<code>_</code>) are used at a higher level in the hierarchy and help distinguish between scales and sub-scale counters across different instruments. <i>However</i>, a unified naming scheme has not yet been employed in the current release, so this will not be consistent across variables. Future releases aim to implement a standardized naming scheme for consistency.</p>
 </div>
 </p>
 
@@ -160,7 +172,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Please see <a href="../mriprotocols/mriprotocols">MRI Protocols</a>.</p>
+<p>Please see <a href="https://hbcdsequences.readthedocs.io">HBCD Study MRI Protocols</a>.</p>
 </div>
 </p>
 
@@ -177,6 +189,18 @@
 </p>
 
 <p>
+<div id="faq-FS" class="notification-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+  <span class="text">Are FreeSurfer processing outputs included in the release data?</span>
+  <span class="notification-arrow">▸</span>
+</div>
+<div class="notification-collapsible-content">
+<br>
+<p>FreeSurfer outputs, generated as part of Infant-fMRIPrep pipeline processing, are included in the data release within the <code>freesurfer/</code> folder of the derivatives. See <a href="../datacuration/derivatives/#m-crib-s-freesurfer-source-directories">M-CRIB-S & FreeSurfer Source Directories</a> for details. M-CRIB-S, a surface reconstruction method optimized for neonates, is used in place of FreeSurfer for processing. The FreeSurfer files are derived from the M-CRIB-S outputs, which are converted and remapped into FreeSurfer-compatible format.</p>
+</div>
+</p>
+
+<p>
 <div id="faq-raw" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
   <span class="text">How can I download raw DICOM or source data?</span>
@@ -184,7 +208,7 @@
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Unprocessed raw imaging DICOM files will be made publicly available in future releases. However, raw data converted to the Brain Imaging Data Structure (BIDS) standard is included in HBCD Release 1.0. See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for a description of BIDS as well as conversion procedures.</p>
+<p>Unprocessed raw imaging DICOM files will be made publicly available in the interim <a href="../../changelog/pending/#release-11-release-date-tba">Release 1.1</a>. However, raw data converted to the Brain Imaging Data Structure (BIDS) standard is included in HBCD Release 1.0. See <a href="../datacuration/overview">Release Notes: HBCD BIDS Data</a> for a description of BIDS as well as conversion procedures.</p>
 </div>
 </p>
 
@@ -223,50 +247,45 @@ Raw dMRI gradient tables can be found in the <code>raw/</code> folder containing
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Imaging QC metrics are provided for each scan in the session-level <code>scans.tsv</code> file - see details about this file <a href="../datacuration/rawbids/#scan-level-data">here</a>. Automated QC metrics were generated for all data described under <a href="../measures/mri/qc">HBCD MR QC Procedures</a>. However, only a subset of series are selected for manual review based on the automated QC metrics. Therefore, not all scans will have both automated and manual QC metrics.</p>
+<p>Quality control (QC) metrics derived from automated and manual raw data QC procedures (described in the section <a href="../measures/mri/qc/#raw-mr-data-qc">Raw MR Data QC</a>) are provided for each scan in the session-level <code>scans.tsv</code> file (see details <a href="../datacuration/rawbids/#scan-level-data">here</a>). A sampling approach was used to select a subset of data for manual review based on the automated QC metrics. Therefore, while automated QC metrics are available for all scans, not all will include manual QC metrics in the <code>scans.tsv</code> file. Also note that although the <code>QC</code> field is the overall manual QC score of 1 (pass) or 0 (fail), this field will automatically have a score of 1 if manual QC was not performed.</p>
 </div>
 </p>
 
 <p>
 <div id="faq-qcrec" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Which imaging data are recommended for use in analyses?</span>
+  <span class="text">Which imaging data are recommended for analysis?</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Imaging data provided in the release only includes data that have passed quality control and additional compliancy checks. Please see a description of <a href="../datacuration/exclusions/#imaging">Exclusion Criteria</a> for details on metrics for inclusion in the data pool. All data provided in the release should therefore be of sufficient quality to include in analyses.</p>
+<p>Only imaging data that have passed quality control (QC) and compliance checks are included in this release. To help researchers make informed decisions, QC metrics are provided in various formats. Please refer to the following sections in the Release Notes for more details:</p>
 
-<p>Note that all QC metrics derived from the <a href="../measures/mri/qc/#raw-mr-data-qc">raw data QC procedures</a> are included in the session-level <code>scans.tsv</code> file-see details <a href="../datacuration/rawbids/#participant-session-scan-level-data">here</a>. In addition, following QC, data curation, and BIDS conversion, raw structural and functional MRI data are additionally run through MRIQC to generate image quality metrics. See <a href="../datacuration/derivatives/#mriqc-mriqc">here</a> for an overview of the MRIQC derivatives provided. Researchers may use these outputs for additional curation if desired.</p>
-<p>Finaly, several processing pipelines use the <code>scans.tsv</code> file to determine which input files to use - see the <a href="../processing/pipelines">overview of data processing</a> for details. In addition, for fMRI, dMRI, MRS, and EEG, the visual summary reports included in the pipeline derivatives can be inspected to inform the selection of which files to include/exclude in analyses (e.g. <code>sub-&lt;label&gt;_ses-&lt;label&gt;_executive_summary.html</code> report generated by <a href="../datacuration/derivatives/#xcp-d-xcpd_d">XCP-D</a>). Several modalities have undergone visual QC, many of which are based on these visual reports, via <a href="../measures/mri/qc/#brainswipes">BrainSwipes</a> as well, the outputs of which are also made available in the BIDS <a href="../datacuration/phenotypes">phenotype/</a> folder.</p>
+<b>Raw Imaging Data:</b> 
+<ul>
+<li>Only data that meet QC standards, as described in <a href="../measures/mri/qc/#raw-mr-data-qc">Raw MR Data QC</a>, are included.</li>
+<li>QC metrics for raw data are available in the <code>sub-&lt;label&gt;_ses-&lt;label&gt;_scans.tsv</code> file within each subject session folder under <code>rawdata/</code>. See <a href="../datacuration/rawbids/#scan-level-data">Raw BIDS Data &gt; Scan-Level Data</a> for details.</li>
+<li>Additional exclusion criteria include acquisition parameter checks and processing pipeline requirements (see <a href="../datacuration/exclusions/#imaging-spectroscopy-eeg-accelerometry">Exclusion Criteria</a>).</li>
+<li>Structural and functional MRI data undergo MRIQC processing to generate image quality metrics. See <a href="../datacuration/derivatives/#mriqc-mriqc">MRIQC derivatives</a> overview for more information. Researchers may use these outputs for further curation if needed.</li>
+</ul>
+
+<b>Processed ("Derivative") Imaging Data:</b> 
+<ul>
+<li>Included raw data are processed through pipelines that generate analysis-ready derivatives.</li>
+<li>Processing pipelines, such as <a href="../datacuration/derivatives/#xcp-d-xcp_d">XCP-D</a> (for structural and functional MRI) and <a href="../datacuration/derivatives/#qsiprep-qsiprep">QSIPrep</a> (for diffusion MRI), produce visual reports that can help guide data selection.</li>
+<li>Visual QC is performed on these reports using <a href="../measures/mri/qc/#brainswipes">BrainSwipes</a>, and the results are available in the BIDS <a href="../datacuration/phenotypes">phenotype/</a> folder.</li>
+</ul>
 </div>
 </p>
 
 <p>
 <div id="faq-fov" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Why is the cerebellum sometimes cutoff in fMRI and dMRI that have passed QC?</span>
+  <span class="text">Why is the cerebellum sometimes cut off in functional and diffusion MRI scans?</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
 <br>
-<p>Due to the relatively limited brain coverage in dMRI and fMRI acquisitions, the superior or inferior edges of the brain may occasionally fall outside the slice stack, referred to as field of view (FOV) cutoff. In cases where the cutoff is extreme (>30% of the image), the dMRI and fMRI series fail QC and will have a value of 0 in the <code>QC</code> field of <code>scans.tsv</code> (see <a href="#faq-qcrec">this FAQ</a> for details). However, mild (<10%) to moderate (10–30%) FOV cutoff does not lead to QC failure. Brain regions outside of the FOV will have missing values in the tabulated imaging data, but the remaining areas remain usable. Automated post-processing QC metrics provide measurements of superior and inferior FOV cutoff, which researchers use for the exclusion of participants with significant FOV cutoff from analyses. See <a href="../measures/mri/qc/#hbcd-raw-mri-data-qc">HBCD Raw MRI Data QC</a> in the Release Notes for a description of automated and manual quality control procedures for raw imaging data.</p>
-</div>
-</p>
-
-
-<p>
-<div id="age" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Fields Reporting Age</span>
-  <span class="notification-arrow">▸</span>
-</div>
-<div class="notification-collapsible-content">
-<br>
-<li>
-<p><b>Gestational age at administration</b> (<code>gestational_age</code>, reported in days): During the prenatal period, gestational age at administration (GAA) refers to the time elapsed between the jittered expected due date (EDD, used as a proxy for the time of conception, or the first day of the mother's last menstrual period) and the date of administration of the instrument. Note that GAA can be negative for instruments administered before the jittered EDD.</p> 
-<p><b>Gestational age at birth</b> (<code>gestational_age_birth</code>, reported in days): After birth, the gestational age at birth (GAB) represents the time between conception and birth and remains constant.</p> 
-<p><b>Candidate age</b> (<code>candidate_age</code>, reported in years with precision to 3 decimal places): The time elapsed between birth (based on a birthdate measure jittered up to 7 days) and the date of administration of the instrument. Note that V01 candidate age values are recorded as 'n/a' as this data pertains to the prenatal period.</p>
-</li>
+<p>Due to the relatively limited brain coverage in dMRI and fMRI acquisitions, the superior or inferior edges of the brain may occasionally fall outside the slice stack, referred to as field of view (FOV) cutoff. In cases where the cutoff is extreme (>30% of the image), the dMRI and fMRI series fail QC and are therefore excluded from inclusion in the data release. However, mild (<10%) to moderate (10–30%) FOV cutoff does not lead to QC failure. Brain regions outside of the FOV will have missing values in the tabulated imaging data, but the remaining areas remain usable. Automated post-processing QC metrics provide measurements of superior and inferior FOV cutoff, which researchers use for the exclusion of participants with significant FOV cutoff from analyses. See <a href="../measures/mri/qc/#hbcd-raw-mri-data-qc">HBCD Raw MRI Data QC</a> in the Release Notes for a description of automated and manual quality control procedures for raw imaging data.</p>
 </div>
 </p>

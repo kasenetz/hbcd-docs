@@ -25,10 +25,11 @@ The interim Release 1.1 will include:
   <ul style="margin: 0 0 20px 20px; padding: 0;">
 <li>Source data (e.g. DICOMs) for <a href="../../datacuration/rawbids">raw BIDS</a> (all imaging modalities)</li>
 <li>Processed V03 <a href="../../datacuration/derivatives">derivatives</a> for structural and functional MRI</li>
+<li><a href="../../measures/mri/qc/#brainswipes">BrainSwipes</a> QC results for processed MRI data</li>
 </ul>
 </div>
 
-Release 1.1 will additionally include the addition of the following measures:
+Release 1.1 will also include the addition of the following measures:
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 14px;">
   <thead>
@@ -43,8 +44,8 @@ Release 1.1 will additionally include the addition of the following measures:
     <tr>
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Neurocognition & Language</td>
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">National Institutes of Health (NIH) Baby Toolbox</td>
-      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">BTB</td>
-      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Cognitive and Executive Function (gaze-based and touch-based tasks) and Memory</td>
+      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">NBTB</td>
+      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Cognitive and executive function (gaze-based and touch-based tasks) and memory</td>
     </tr>
     <tr>
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Behavior & Caregiver-Child Interaction</td>
@@ -56,23 +57,23 @@ Release 1.1 will additionally include the addition of the following measures:
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Biospecimens & Omics</td>
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Maternal Blood</td>
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Blood</td>
-      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Toxicology Screen</td>
+      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Metals, nutrition, toxins, proteins</td>
     </tr>
     <tr>
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Geocoding</td>
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Geocoding & Linking External Data</td>
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">GLED</td>
-      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Geocoding-derived social and environmental determinants</td>
+      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Toxin exposure and other neighbourhood measures</td>
     </tr>
     <tr>
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Transitions in Care</td>
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Transitions in Care Screener</td>
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">TIC Screener</td>
-      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Survey to assess whether there were changes in child’s main caregiver since the last visit</td>
+      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Survey to ssess whether there were changes in child’s main caregiver since the last visit</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Brain Imaging</td>
-      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Outside the Scanner: Pre-Scan Survey</td>
+      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Magnetic Resonance Imaging (MRI)</td>
+      <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Pre-Scan Survey</td>
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Pre-Scan Survey</td>
       <td style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Sleep information, social behavior, transportation, scheduling, etc.</td>
     </tr>

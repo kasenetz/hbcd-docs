@@ -20,7 +20,7 @@ The current data release for Pregnancy & Exposure, Including Substance Use, incl
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__healthhx</td>
     </tr>          
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-Vaccines</a></td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;"><a href="#instrument-details">Pregnancy Health-Exposures and Vaccines</a></td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Vacc</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Vaccines in pregnancy</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">pex_bm_health_preg__exp__vacc</td>
@@ -64,36 +64,6 @@ The current data release for Pregnancy & Exposure, Including Substance Use, incl
 </tbody>
 </table>
 
-### Field Exclusions
-In the instrument `.tsv` files provided in the release, some fields can have out-of-range values. They are considered “extreme” values and are changed to “n/a.” See [Exclusion Criteria > Phenotypes](../../datacuration/exclusions.md/#phenotypes) for additional information. This filter applies to `pex_bm_healthv2_inf.tsv` as follows:
-
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-<caption style="font-weight: bold; text-align: left; font-style: normal;">Healthv2 Inf (<code>pex_bm_healthv2_inf</code>) Field Exclusions</caption>
-  <thead>
-    <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Field</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Exclusion Filter (Values Changed to "n/a")</th>
-    </tr>
-  </thead>
-<tbody>        
-    <tr>
-        <td>001_i_01</td>
-        <td>values > 16</td>
-    </tr>     
-    <tr>
-        <td>001_i_02</td>
-        <td>values > 66</td>
-    </tr>         
-    <tr>
-        <td>002</td>
-        <td>values outside of range 12-51</td>
-    </tr>     
-    <tr>
-        <td>002_i_01</td>
-        <td>values outside of range 30-130</td>
-    </tr>         
-</tbody>
-</table>
 
 ## Implementation & Data Collection
 Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgtranslations.com/our-services/). All are child-unspecific and completed by the pregnant person with the exception of **Healthv2 Inf**, which is child-specific and completed by either the person who gave birth or primary caregiver. Additional information is as follows:
@@ -115,7 +85,7 @@ Surveys were translated to Spanish for HBCD by [BURG Translations](https://burgt
         <td>5 min</td>
     </tr>    
     <tr>
-        <td>Pregnancy Health-Vaccines</td>
+        <td>Pregnancy Health-Exposures and Vaccines</td>
         <td>Self</td>
         <td>V01</td>
         <td>3 min</td>
@@ -166,11 +136,10 @@ For quality control, response distributions were reviewed for outliers.
 <p>
 <div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
-    <span class="text">Responsible Data Use Warning</span>
+    <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>Pregnancy Health (<code>Healthhx</code>): Pregnancy intention as a determinant of exposure</strong></p>
 <p>Amidst powerful societal expectations to ‘do what’s best for the baby’ during pregnancy (i.e. by stopping substance use), up to half of pregnancies in the United States are unintended with 1 in 5 unwanted (Bearak et al. 2020). This discrepancy contributes to implicit bias against pregnant individuals who use substances as ‘not caring about their babies’ which is neither humane, nor evidence based (Massey et al., 2022). While cessation of substance use during pregnancy is universally recognized as optimal, the ability to make this “parental” sacrifice varies substantially between birthing individuals and within individuals between their different pregnancies (Level et al., 2024). Failure to recognize this inherent heterogeneity in pregnancy intention stigmatizes substance users who did not intend to want to become pregnant. Summarily, inclusion of pregnancy intention as a covariate in all studies that characterize prenatal substance exposure (in the absence of a strong justification otherwise) is thus strongly recommended to acknowledge myriad experiences of birthing parents who participated in HBCD who made this research possible. </p> 
 </div>
@@ -179,11 +148,10 @@ For quality control, response distributions were reviewed for outliers.
 <p>
 <div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Subject matter experts note that there are potential issues relating to correct coding for (1) ICD codes from BioPortal ICD (used to capture reason(s) for medication use, ER visits, and hospitalizations), (2) symptom codes from World Health Organization, and (3) medication names from RxNORM. For instruments utilizing these coding systems, it was at times difficult for the participant to name or HBCD Study team member conducting the survey to find the correct code/name in a databases. The following instruments were impacted:</p> 
  <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
@@ -224,7 +192,16 @@ For quality control, response distributions were reviewed for outliers.
 </div>
 </p>
 
-**Instrument details are as follows:**
+<div id="healthv2inf-warning" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text">Data Warning</span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<p>Please note that out-of-range values were filtered (i.e. changed to "n/a") for Healthv2 Inf (<code>pex_bm_healthv2_inf</code>). Valid field values are documented in <a href="../../../datacuration/exclusions#filtered-values">Filtered Out-Of-Range Field Values</a> under the section on <a href="../../../datacuration/exclusions">Exclusion Criteria</a>.</p>
+</div><br>
+
+#### Instrument details are as follows:
  <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
@@ -238,7 +215,7 @@ For quality control, response distributions were reviewed for outliers.
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Gravidity and parity, height and weight, pregnancy intentions, use of assisted reproductive technology, start of prenatal care, prenatal vitamin or aspirin use, and secondhand smoke</td>
     </tr>          
     <tr>
-        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-Vaccines</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Pregnancy Health-Exposures and Vaccines</td>
         <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Receipt of common vaccines in pregnancy and trimester received</td>
     </tr>    
     <tr>

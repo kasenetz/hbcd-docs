@@ -86,29 +86,19 @@ For all mental health instruments, response distributions were reviewed for outl
 ## Instrument Details
 ### Personal & Family Psychiatric History 
 The HBCD FAM MH assesses self-reported diagnoses and mental health conditions of the biologic mother, father, maternal parents and paternal parents. It was created from combining and modifying the [Family History Assessment Module (FHAM)](https://arc.psych.wisc.edu/self-report/family-history-assessment-module-fham/) and the [All of Us Personal and Family Health History](https://www.researchallofus.org/wp-content/themes/research-hub-wordpress-theme/media/2023/PaFHH_Survey_English.pdf). The HBCD FAM MH includes (1) FHAM items Alcohol-Schizophrenia and (2) All of Us mental health outcomes for AUD, anxiety, ASD, BPD, depression, SUD, schizophrenia and ADHD (excluding age of diagnosis or medications to treat). Future publications should note that this measure is a combination of these and that this is not a scored scale, but simply descriptive for family history.
+
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span>
-    <span class="text">Additional HBCD Modification Details</span>
+    <span class="text">HBCD Modification Details</span>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
-<br>
-<p style="margin-bottom: 0; padding-bottom: 0;"><u>FHAM</u></p>
-    <ul>
-      <li>FHAM items excluded from HBCD measure:
-          <ul>
-              <li>Items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder</li>
-              <li>'Trouble With Law’ and ‘Nervous Breakdown’</li>
-          </ul>
-      </li>
-      <li>Original response options including 'parents', 'grandparents', 'siblings', 'aunts', 'uncles', and 'cousins' were modified to include only biological mom, dad and grandparents</li>
-    </ul>
-<p style="margin-bottom: 0; padding-bottom: 0;"><u>All of Us</u></p>
-<ul>
-  <li>Original response options including 'mom', 'dad', 'sibling', 'daughter', 'son', and 'grandparent' were modified to include only biological mom and dad</li>
-</ul>
+<div class="collapsible-content">
+<p style="font-size: 1em; margin: 0 0 5px;"><b>FHAM</b></p>
+<p>FAM MH excludes the following FHAM items: (1) items for Antisocial Personality Disorder and Undifferentiated Psychiatric Disorder and (2) 'Trouble With Law’ and ‘Nervous Breakdown.’ In addition, the original response options including 'parents', 'grandparents', 'siblings', 'aunts', 'uncles', and 'cousins' were modified to include only biological mom, dad and grandparents.</p>
+<p style="font-size: 1em; margin: 0 0 5px;"><b>All of Us</b></p>
+<p>Original response options including 'mom', 'dad', 'sibling', 'daughter', 'son', and 'grandparent' were modified to include only biological mom and dad</p>
 </div>
 </p>
 
@@ -116,11 +106,10 @@ The HBCD FAM MH assesses self-reported diagnoses and mental health conditions of
 <p>
 <div id="apa-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>Consideration of Mental Health Symptoms Experienced During Pregnancy</strong></p>
 <p>Concurrence of psychiatric symptoms and substance use is well-recognized during pregnancy (Massey et al., 2011, 2012). Phenotypic risk in birthing parents may influence neurodevelopmental outcomes via prenatal and postnatal influences other than direct exposures alone (Estabrook et al., 2016, Massey et al., 2016, Massey et al., 2018). These influences may confound exposure-related neuroimaging and neurodevelopmental findings, and also represent malleable targets for prevention and early intervention. Thus, consideration of mental health symptoms experienced by birthing parents as covariates is strongly encouraged when possible to address these confounds.</p> 
 </div>
@@ -130,26 +119,25 @@ This highly sensitive screening tool adapted for HBCD is designed for community 
 
 ![](images/DSM-5Level2Cross-CuttingSymptomMeasures.png)
 
-**Level 1** includes 1-2 questions for each of thirteen mental health conditions. If symptoms are reported in Level 1, participants answer questions about additional symptoms associated with each mental health condition, including anger, anxiety, depression, somatic symptoms, and sleep problems (see scoring procedures [here](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf)). 
+**Level 1** includes 1-2 questions for each of thirteen mental health conditions. If symptoms are reported in Level 1, participants answer questions about additional symptoms associated with each mental health condition, including anger, anxiety, depression, mania, repetitive thoughts, and sleep problems (see scoring procedures [here](https://www.psychiatry.org/getmedia/e0b4b299-95b3-407b-b8c2-caa871ca218d/APA-DSM5TR-Level1MeasureAdult.pdf)). 
 
-
-**Level 2** measures include all [Level 2 Cross-Cutting Symptom Measures](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures) with the exception of Depression and Sleep Disturbance, for which the **PROMIS Short Forms v1.0** [Depression 8a questionnaire](https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://www.phenxtoolkit.org/toolkit_content/supplemental_info/psychiatric/measures/07_Depressed_Mood.doc&amp;ved=2ahUKEwjyl8-7t_-IAxW7H0QIHcyBJTEQFnoECC8QAQ&amp;usg=AOvVaw1dPWhSyXkbVCQ3BgmjwAtC) and [Sleep Disturbance 8a](https://heal.nih.gov/files/CDEs/2024-07/promis-sleep-disturbance-8a-crf.pdf) were used instead (see Sleep Disturbance scoring procedures [here](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Sleep_Scoring_Manual.pdf))
+**Level 2** measures include all [Level 2 Cross-Cutting Symptom Measures](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures) with the exception of Depression and Sleep Disturbance, for which the **PROMIS Short Forms v1.0** [Depression 8a questionnaire](https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://www.phenxtoolkit.org/toolkit_content/supplemental_info/psychiatric/measures/07_Depressed_Mood.doc&amp;ved=2ahUKEwjyl8-7t_-IAxW7H0QIHcyBJTEQFnoECC8QAQ&amp;usg=AOvVaw1dPWhSyXkbVCQ3BgmjwAtC) and [Sleep Disturbance 8a](https://heal.nih.gov/files/CDEs/2024-07/promis-sleep-disturbance-8a-crf.pdf) were used instead (see Sleep Disturbance scoring procedures [here](https://www.healthmeasures.net/images/PROMIS/manuals/Scoring_Manual_Only/PROMIS_Sleep_Scoring_Manual.pdf)).
 
 Finally, the HBCD measure also integrates the [Personality Inventory for DSM-5 Brief](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM5_The-Personality-Inventory-For-DSM-5-Brief-Form-Adult.pdf), which assesses 5 personality trait domains including negative affect, detachment, antagonism, disinhibition, and psychoticism, with each trait domain consisting of 5 items.
 
 Additional modifications are described below. Future publications should be sure to acknowledge the removal of Level 1-2 substance use (section XIII) and the gating mechanisms for sections V (somatic symptoms) and XII (personality functioning):
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span>
     <span class="text">HBCD Modification Details</span>
   </span>
-  <span class="notification-arrow">▸</span>
+  <span class="arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
+<div class="collapsible-content">
 <br>
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Excluded Questions and Gating</b></p>
-<p>Modifications were made to adjust to the study population as well as remove items addressed in other measures. This included removing Level 1 questions related to personality functioning and Level 1-2 substance use, allowing automatic progression to LEVEL 2-Repetitive Thoughts and Behaviors—Adult. Similarly, gates for 'Somatic Symptoms' were removed, enabling direct progression to LEVEL 2—Somatic Symptom—Adult.</p>
+<p>Slight modifications were made due to the use of other measures and the study population. Specifically, the Level 1 questions for substance use were not included. Also, participants proceed automatically to level 2 measures for personality inventory and somatic symptoms. In addition, all participants answer the level 1 questions on depression, but proceed to level 2 questions irrespective of answers.</p>
 
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Clinical Alerts</b></p>
 <p>For HBCD, this measure was modified to alert study staff if responses to the APA suicide question ('Thoughts of actually hurting yourself?') or APA depression question (ranging from 'I felt worthless' to 'I felt that nothing could cheer me up') exceed thresholds of 0 and 32, respectively.</p>
@@ -163,11 +151,10 @@ Additional modifications are described below. Future publications should be sure
 <p>
 <div id="ptsd-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>Consideration of Mental Health Symptoms Experienced During Pregnancy</strong></p>
 <p>Concurrence of psychiatric symptoms and substance use is well-recognized during pregnancy (Massey et al., 2011, 2012). Phenotypic risk in birthing parents may influence neurodevelopmental outcomes via prenatal and postnatal influences other than direct exposures alone (Estabrook et al., 2016, Massey et al., 2016, Massey et al., 2018). These influences may confound exposure-related neuroimaging and neurodevelopmental findings, and also represent malleable targets for prevention and early intervention. Thus, consideration of mental health symptoms experienced by birthing parents as covariates is strongly encouraged when possibl to address these confounds.</p> 
 </div>

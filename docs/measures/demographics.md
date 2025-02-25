@@ -2,11 +2,10 @@
 <p>
 <div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
-    <span class="text">Responsible Data Use Warning</span>
+    <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>When using HBCD data, all data users must agree to responsible use as described in the DUC. When conceptualizing studies, analyzing data, and communicating findings from studies that use variables such as race, ethnicity, country of origin, and socioeconomic data, it is critical to consider strategies to avoid stigmatization of any groups and perpetuating harmful biases.</p> 
 <p>Race and ethnicity are collected as a part of the HBCD protocol to reflect social experiences (i.e., representing social constructs), and should not be conceptualized as as biological, natural, intrinsic, or fixed categories of people. In addition, researchers sometimes use race/ethnicity variables as a proxy for unmeasured social experiences or environmental exposures. HBCD measures a wide variety of social experiences and environmental exposures. In analyzing HBCD data, race/ethnicity should not be used as a proxy for measured variables.</p>
 </div>
@@ -15,11 +14,10 @@
 <p>
 <div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Some participants reported challenges in answering certain questions, such as those related to race and ethnicity (e.g. options did not capture identity) and occupation (i.e. imperfect option for job type and number of hours).</p> 
 </div>
 </p>
@@ -32,33 +30,33 @@ Demographic information is crucial for understanding the child’s environment a
 Below are alterations made to demographic constructs, informed by the HBCD Social and Environmental Determinants workgroup and Diversity, Equity, and Inclusion (DEI) Committee. The modifications were made to reduce bias and capture a more inclusive and accurate breadth of demographic information, e.g. by correcting for embedded assumptions of heteronormative nuclear-family structures. 
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
   <span class="text">DEI Alterations/Modifications</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-    <ul>
-      <li><b>Marital & Relationship Status</b> alterations to reduce heteronormative bias:
-        <ul>
-        <li>Combine "Divorced/Separated"</li>
-        <li>"Never Married" replaced by "Single"</li>
-        <li>"Member of an Unmarried Couple" replaced by "Partnered"</li>
-        </ul>
-      </li>
-      <li><b>Gender Identity</b> alterations to reduce heteronormative bias: Transgender Man/Transgender Woman options moved to primary tier of 2-tier question.</li>
-      <li><b>Sexual Orientation</b> alterations to reduce heteronormative bias: Inclusion of diverse response options to capture sexual orientation across three dimensions: attraction, identity, and behavior. Participant can select all that apply.</li>
-      <li><b>Primary Residence</b> destigmatization of diverse living situations: Inclusion of options for individuals in treatment facilities, shelters, or unhoused.</li>
-      <li><b>Household Roster</b> alterations to reduce heteronormative bias and nuclear family assumptions:
-        <ul>
-        <li>Changed "Sex" to "Gender"</li>
-        <li>Included Non-Binary and Transexual options for Gender</li>
-        <li>Expansion of family/caregiver roles</li>
-        </ul>
-      </li>
-      <li><b>Race/Ethnicity</b> and <b>Others Describe You</b>: Inclusion of diverse racial and ethnic categories aligned with proposed <a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB recommendations</a> using a combined race and ethnicity variable with 7 response options (<a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards 
-      ">Federal Register 2023</a>). Participant can select all that apply.</li>
-      <li><b>Income</b>: Alteration of household income brackets.</li>
-    </ul>
+  <ul>
+    <li><b>Marital & Relationship Status</b> alterations to reduce heteronormative bias:
+      <ul>
+      <li>Combine "Divorced/Separated"</li>
+      <li>"Never Married" replaced by "Single"</li>
+      <li>"Member of an Unmarried Couple" replaced by "Partnered"</li>
+      </ul>
+    </li>
+    <li><b>Gender Identity</b> alterations to reduce heteronormative bias: Transgender Man/Transgender Woman options moved to primary tier of 2-tier question.</li>
+    <li><b>Sexual Orientation</b> alterations to reduce heteronormative bias: Inclusion of diverse response options to capture sexual orientation across three dimensions: attraction, identity, and behavior. Participant can select all that apply.</li>
+    <li><b>Primary Residence</b> destigmatization of diverse living situations: Inclusion of options for individuals in treatment facilities, shelters, or unhoused.</li>
+    <li><b>Household Roster</b> alterations to reduce heteronormative bias and nuclear family assumptions:
+      <ul>
+      <li>Changed "Sex" to "Gender"</li>
+      <li>Included Non-Binary and Transexual options for Gender</li>
+      <li>Expansion of family/caregiver roles</li>
+      </ul>
+    </li>
+    <li><b>Race/Ethnicity</b> and <b>Others Describe You</b>: Inclusion of diverse racial and ethnic categories aligned with proposed <a href="https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/">OMB recommendations</a> using a combined race and ethnicity variable with 7 response options (<a href="https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards 
+    ">Federal Register 2023</a>). Participant can select all that apply.</li>
+    <li><b>Income</b>: Alteration of household income brackets.</li>
+  </ul>
 </div>
 </p>
 
@@ -66,14 +64,13 @@ Below are alterations made to demographic constructs, informed by the HBCD Socia
 QC was performed by monitoring the data dashboard for variable missingness and data consistency. The only common QC issue noted was high missingness for income, although this is in line with expectations. 
 
 ## Demographic Protocol Sources & DEI Modifications
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">Table 1. Demographics of Birth Parent</span>
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 1. Demographics of Birth Parent</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
-<p>
-<table class="docutils">
+<div class="table-open-collapsible-content">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<tfoot><tr><td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;" colspan="3"><b>ABCD</b>: Adolescent Brain Child Development Study; <b>BFY</b>: Baby's First Years; <b>BRFSS</b>: Behavioral Risk Factor Surveillance System; <b>ECHO</b>: Environmental Influences On Child Health Outcomes; <b>OMB</b>: Office of Management & Budget</td></tr></tfoot>
     <thead>
       <tr>
         <th>Construct</th>
@@ -83,9 +80,9 @@ QC was performed by monitoring the data dashboard for variable missingness and d
     </thead>
     <tbody>
     <tr>
-    <td style="width: 300px; word-wrap: break-word; white-space: normal;">Marital and Relationship Status</td>
+    <td>Marital and Relationship Status</td>
     <td><a href="https://www.phenxtoolkit.org/protocols/view/10903">PhenX</a></td>
-    <td style="width: 300px; word-wrap: break-word; white-space: normal;">Hamilton, et al. (2011)</td>
+    <td>Hamilton, et al. (2011)</td>
     </tr>
 	<tr>
 		<td>Gender Identity</td>
@@ -163,43 +160,32 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 		<td>Cioffredi, et al. (2024)</td>
 	</tr>
 	<tr>
-    <td style="width: 200px; word-wrap: break-word; white-space: normal;">Jobs During Pregnancy (JDP) - <br>
-    <small>
+    <td>Jobs During Pregnancy (JDP) - <br>
       &emsp;JDP - All Jobs - Work 35+ Hr/Wk<br>
       &emsp;JDP - At Least 1 Job At 20 Hr/Wk for 1 Month<br>
       &emsp;JDP - Type of Work<br>
       &emsp;JDP - Job Start/Stop Dates<br>
       &emsp;JDP - Typical Hours/Week<br>
-    </small>
     </td>
 		<td>HBCD</td>
 		<td>Cioffredi, et al. (2024)</td>
 	</tr>
 	<tr>
 		<td>Jobs During Pregnancy - Shift Schedule</td>
-		<td>BFY**</td>
+		<td>BFY</td>
 		<td>Year 1 Protocol - G39, SchedMain</td>
 	</tr>
-    </tbody>
+  </tbody>
   </table>
-<small>   
-<b>ABCD</b>- Adolescent Brain Child Development Study; <b>BFY</b>- Baby's First Years; <b>BRFSS</b>- Behavioral Risk Factor Surveillance System; <b>ECHO</b>- Environmental Influences On Child Health Outcomes; <b>OMB</b>- Office of Management & Budget
-</small>
-</p>
 </div>
-</p>
 
-
-
-
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">Table 2. Demographics of Other Biological Parent</span>
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 2. Demographics of Other Biological Parent</span>
   <span class="arrow">▸</span>
 </div>
-<div class="collapsible-content">
-<p>
+<div class="table-open-collapsible-content">
 <table class="docutils">
+<tfoot><tr><td colspan="3"><b>OMB</b>: Office of Management & Budget</td></tr></tfoot>
 <thead>
     <tr>
     <th>Construct</th>
@@ -239,7 +225,7 @@ QC was performed by monitoring the data dashboard for variable missingness and d
     <td>Hamilton, et al. (2011)</td>
 </tr>
 <tr>
-    <td style="width: 200px; word-wrap: break-word; white-space: normal;">Job At Conception (JAC) - <br>
+     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Job At Conception (JAC) - <br>
     <small>
       &emsp;JAC - Work for Pay<br>
       &emsp;JAC - Type of Work<br>
@@ -261,12 +247,7 @@ QC was performed by monitoring the data dashboard for variable missingness and d
 </tr>
 </tbody>
 </table>
-<small>   
-<b>OMB</b>- Office of Management & Budget<br> 
-</small>
-</p>
 </div>
-</p>
 
 ## References
 <div class="references">

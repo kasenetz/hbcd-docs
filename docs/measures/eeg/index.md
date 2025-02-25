@@ -17,7 +17,7 @@ Both study sites and the EEG Core team use an EEG Quality Control dashboard deve
 During quality control, a frequently observed issue across all tasks was the irregular application of EEG sensors. Additionally, partial task completion due to infant fussing and missing stimulus flags were commonly noted for the faces and auditory mismatch negativity tasks.
 
 ### EEG Net Placement ("Capping Quality") Ratings
-EEG capping quality ratings are used to determine inclusion in the data release pool and subsequent processing. Photos are taken for each acquisition from the front, back, top, left, and right angles of the participant's head and uploaded via the BIDS Wizard application to a secure computing environment. They are then reviewed by the EEG Core at the University of Maryland to rate the quality of EEG net placement, or "capping quality," for each acquisition. EEG data determined as unusable due to capping quality are not included in the initial public data release, as noted under [Exclusion Criteria > EEG](../../datacuration/exclusions.md#eeg). 
+EEG capping quality ratings are used to determine inclusion in the data release pool and subsequent processing. Photos are taken for each acquisition from the front, back, top, left, and right angles of the participant's head and uploaded via the BIDS Wizard application to a secure computing environment. They are then reviewed by the EEG Core at the University of Maryland to rate the quality of EEG net placement, or "capping quality," for each acquisition. EEG data determined as unusable due to capping quality are not included in the initial public data release, as noted under [Exclusion Criteria > EEG](../../datacuration/exclusions.md#electroencephalography). 
 
 “Average”, "Poor," and "Not usable" ratings correspond to net placement shifted 1-2 cm, 2-3 cm, and >3 cm from proper placement, respectively. To be rated as "Excellent," acquisitions must meet the following criteria:
 
@@ -32,7 +32,7 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 <p>
 <div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
-    <span class="text">Responsible Data Use Warning</span>
+    <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -53,12 +53,12 @@ Please refer to the [Official EEG Acquisition Manual](https://docs.google.com/do
 <p>
 <div id="eeg-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
 <br>
-<p>The EEG Core of the DCAC has a GitHub repository with file notes and scripts for working with the first HBCD EEG data release. We recommend all users to review this page for important resources.</p> 
+<p>The EEG Core of the HBCD Data Coordinating Center (HDCC) has a GitHub repository with file notes and scripts for working with the first HBCD EEG data release. We recommend all users to review this page for important resources.</p> 
 <p>The GitHub website can be found here: <a href="https://github.com/ChildDevLab/HBCD-data-release-notes">https://github.com/ChildDevLab/HBCD-data-release-notes</a>.</p> 
 <p>Additionally, the user can contact us with any questions about working with the EEG data or using the GitHub repository at eegdata@umd.edu.</p>
 </div>
@@ -76,7 +76,7 @@ ERPs are computed as a function of repeated presentation of faces and objects. T
 <p>
 <div id="mmn-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -91,7 +91,7 @@ The Auditory mismatch negativity (MMN) Task (v.11.29.23) provides a comprehensiv
 <p>
 <div id="rs-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -123,7 +123,7 @@ VEP amplitude and latency decreases with age during the first three years of lif
 
 - [HBCD EEG Data Release Notes GitHub Repository](https://github.com/ChildDevLab/HBCD-EEG-data-release-notes) 
 - [HBCD E-Prime Task Manual](https://docs.google.com/document/d/1PghQQpLbxjQavtVlHyIz7JVJxlyKcC4Do8z8j7srdaI/edit?usp=sharing)
-- [Official EEG Acquisition Manual](https://docs.google.com/document/d/1tjrFJzntHOqJOrq-SRGy2Z0LOj56MFsZ2ZocgrUogSs/edit?usp=sharing)
+- [Official EEG Acquisition Manual](https://zenodo.org/records/14795030)
 
 ## References
 <div class="references">

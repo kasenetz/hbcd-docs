@@ -6,23 +6,23 @@ The current data release includes the following Biospecimen toxicology screens:
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
     <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Screen</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Acronym/Short Name</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Name of Measure</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Short Name</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Construct</th>
       <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Table Name</th>
     </tr>
   </thead>
 <tbody>
   <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#nails">Nails Toxicology Screen</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#nails">Maternal Nails</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Nails</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
+    <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Toxicology screen for substances & environmental exposures</td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_nails</td>
   </tr>
   <tr>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#urine">Urine Toxicology Screen</a></td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#urine">Maternal Urine</a></td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Urine</td>
-      <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Toxicology Screen</td>
+      <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Toxicology screen for substances & environmental exposures</td>
       <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">bio_biosample_urine</td>
   </tr>
 </tbody>
@@ -41,12 +41,12 @@ The current data release includes the following toxicology screens collected fro
   </thead>
 <tbody>
 <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#nails">Nails</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#nails">Maternal Nails</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Self-collected under research team supervision, or collected by research team</td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">V01, V02</td>
 </tr>
 <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#urine">Urine</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;"><a href="#urine">Maternal Urine</a></td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">Self-collected</td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">V01</td>
 </tr>
@@ -57,17 +57,27 @@ The current data release includes the following toxicology screens collected fro
 QC procedures involved examining assay ranges and categorical versus continuous measures. No common issues were observed from QC.
 
 ## Instrument Details
+<p>
+<div id="biospec-warning" class="warning-banner" onclick="toggleCollapse(this)">
+  <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
+  <span class="text">Data Warning</span>
+  </span>
+  <span class="arrow">▸</span>
+</div>
+<div class="collapsible-content">
+<p>For all toxicology screens, continuous variables should be interpreted with cautiong based on the threshold limits of quantification (LOQs), or the cutoff concentration used to categorize metabolites as positive or negative. LOQs are provided in <a href="#nails-table1">Table 1. Nail Assay Thresholds</a> and <a href="#urine-table1">Table 1. Urine Assay Thresholds for Analytes</a>.</p> 
+</div>
+</p>
 
 ### NAILS
 <p>
 <div id="nails-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   </span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>On July 1, 2024, the nail processing workflow was updated to optimize specimen use and enable confirmation testing for low sample quantities as described below. Data collected this point therefore does not use the remnant of ELISA extract for confirmation for specimens with too little sample.</p> 
 </div>
 </p>
@@ -76,362 +86,367 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 
 <img src="../../images/biospec/Fig1_nails.png" width="100%" height="auto">
 
-<p>
-<div id="usdtl-assay-details" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">USDTL Assay Details</span>
-  <span class="notification-arrow">▸</span>
+
+#### USDTL Assay Details
+Based on the predefined threshold outlined in [Table 1](#nails-table1), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (*QNS* i.e. *quantity not sufficient*) ([Table 2](#nails-table2)).
+
+<p><b class="blue-text">LOD</b> / <b class="blue-text">LOQ</b> = limit of detection / quantification</p>
+
+<div id="nails-table1" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 1. Nail Assay Thresholds</span>
+  <span class="table-arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
-<br>
-<p>Based on the predefined threshold outlined in <a href="#table1">Table 1</a>, a confirmatory test result for any substance analyte (e.g. <i>Amphetamine (c_amp_u)</i>) was determined to be positive, negative, or invalid (<i>QNS</i> i.e. <i>quantity not sufficient</i>) (<a href="#table2">Table 2</a>). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (e.g. <i>c_nictotine_u</i>) and sample-level (e.g. <i>c_any_specimen_n</i>) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in <a href="#table3">Table 3</a>.</p>
-<table id="table1" class="docutils">
-<caption style="font-weight: bold; text-align: left; font-style: normal;">Table 1. Nail Assay Thresholds</caption>
-    <thead>
-      <tr>
-        <th style="width: 180px; word-wrap: break-word; white-space: normal;">Analyte</th>
-        <th>LOD<br />(pg/mL)</th>
-        <th>LOQ<br />(pg/mL)</th>
-        <th>Cutoff<br />(pg/mL)</th>
-        <th>Detection Window (months)</th>
-      </tr>
-    </thead>
-    <tbody>
+<div class="table-collapsible-content">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<thead>
+    <tr>
+    <th style="border: 1px solid #ddd; padding: 10px;">Analyte</th>
+    <th style="border: 1px solid #ddd; padding: 10px;">LOD (pg/mL)</th>
+    <th style="border: 1px solid #ddd; padding: 10px;">LOQ (pg/mL)</th>
+    <th style="border: 1px solid #ddd; padding: 9px;">Cutoff (pg/mL)</th>
+    <th style="border: 1px solid #ddd; padding: 10px; word-wrap: break-word; white-space: normal;">Detection Window (months)</th>
+    </tr>
+</thead>
+<tbody>
     <tr>
         <td>Amphetamine</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Methamphetamine</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>MDA</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>MDMA</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>MDEA</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Carboxy-delta-9-THC</td>
         <td>0.01</td>
         <td>0.02</td>
         <td>0.05</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Cocaine</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Cocaethylene</td>
         <td>10</td>
         <td>20</td>
         <td>50</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Benzoylecgonine</td>
         <td>10</td>
         <td>20</td>
         <td>50</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Norcocaine</td>
         <td>10</td>
         <td>20</td>
         <td>50</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>6-MAM</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Codeine</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Hydrocodone</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Hydromorphone</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Morphine</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Norhydrocodone</td>
         <td>8</td>
         <td>16</td>
         <td>40</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Oxycodone</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Oxymorphone</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Noroxycodone</td>
         <td>8</td>
         <td>16</td>
         <td>40</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Methadone</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>EDDP</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Amobarbital</td>
         <td>80</td>
         <td>80</td>
         <td>200</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Butalbital</td>
         <td>80</td>
         <td>80</td>
         <td>200</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Pentobarbital</td>
         <td>80</td>
         <td>80</td>
         <td>200</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Phenobarbital</td>
         <td>80</td>
         <td>80</td>
         <td>200</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Secobarbital</td>
         <td>80</td>
         <td>80</td>
         <td>200</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Alprazolam</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Diazepam</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Midazolam</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Nordiazepam</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Oxazepam</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Temazepam</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Ketamine</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Norketamine</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Tramadol</td>
         <td>200</td>
         <td>400</td>
         <td>500</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Fentanyl</td>
         <td>2</td>
         <td>4</td>
         <td>10</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Norfentanyl</td>
         <td>2</td>
         <td>4</td>
         <td>10</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Alfentanil</td>
         <td>2</td>
         <td>4</td>
         <td>10</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Acetyl Fentanyl</td>
         <td>2</td>
         <td>4</td>
         <td>10</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Acetyl Norfentanyl</td>
         <td>2</td>
         <td>4</td>
         <td>10</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Sufentanil</td>
         <td>1</td>
         <td>2</td>
         <td>5</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Norsufentanil</td>
         <td>2</td>
         <td>2</td>
         <td>5</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Buprenorphine</td>
         <td>4</td>
         <td>8</td>
         <td>20</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Norbuprenorphine</td>
         <td>4</td>
         <td>8</td>
         <td>20</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Ethyl glucuronide</td>
         <td>4</td>
         <td>8</td>
         <td>20</td>
-        <td>Finger 3 months <br /> Toe no consensus</td>
+        <td>Finger 3; Toe no consensus</td>
     </tr>
     <tr>
         <td>Nicotine</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
+        <td>Finger 3-6; Toe 10-14</td>
     </tr>
     <tr>
         <td>Cotinine</td>
         <td>20</td>
         <td>40</td>
         <td>100</td>
-        <td>Finger 3-6 & Toe 10-14</td>
-</tr>
+        <td>Finger 3-6; Toe 10-14</td>
+    </tr>
 </tbody>
 </table>
-<i>LOD: limit of detection; LOQ: limit of quantification: Cutoff concentration used to categorize metabolite as positive/negative</i>
-<br>
-<br>
-<table id="table2" class="docutils">
-<caption style="font-weight: bold; text-align: left; font-style: normal;">Table 2. Sample-Data Dictionary Nail Assays</caption>
+</div>
+
+<div id="nails-table2" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 2. Sample-Data Dictionary Nail Assays</span>
+  <span class="table-arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
     <thead>
       <tr>
         <th>Variable</th>
@@ -461,7 +476,7 @@ This dataset includes the results of toxicology assays conducted on fingernails 
     </tr>
     <tr>
         <td>Nail_weight</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Weight of nails available to assay</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Weight of nails available to assay</td>
         <td>Continuous</td>
         <td>nail weight (grams)</td>
     </tr>
@@ -475,53 +490,62 @@ This dataset includes the results of toxicology assays conducted on fingernails 
         <td>test_ordered_n</td>
         <td>Test ordered</td>
         <td>Categorical</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">1: custom 14 panel test<br />2: Only enough to run EtG<br />3: Canceled because we could not run anything (no results generated)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">1: custom 14 panel test<br />2: Only enough to run EtG<br />3: Canceled because we could not run anything (no results generated)</td>
     </tr>
     <tr>
         <td>c_any_specimen_n</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
         <td>Categorical</td>
         <td>1: positive<br />0: negative<br />3: QNS</td>
     </tr>
     <tr>
         <td>c_any_stim_n</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Any stimulants in nails (based on confirmatory results for amphetamine, methamptheamine, MDM, MDA, MDEA)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Any stimulants in nails (based on confirmatory results for amphetamine, methamptheamine, MDM, MDA, MDEA)</td>
         <td>Categorical</td>
         <td>1: positive<br />0: negative<br />3: QNS</td>
     </tr>
     <tr>
         <td>s_amp_n</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Screening test in nails: amphetamine/MDA dual test (amp/mamp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Screening test in nails: amphetamine/MDA dual test (amp/mamp)</td>
         <td>Categorical</td>
         <td>1: positive<br />0: negative<br />3: QNS</td>
     </tr>
     <tr>
         <td>s_mamp_n</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Screening test in nails: methamphetamine/MDMA dual test (amp/mamp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Screening test in nails: methamphetamine/MDMA dual test (amp/mamp)</td>
         <td>Categorical</td>
         <td>1: positive<br />0: negative<br />3: QNS</td>
     </tr>
     <tr>
         <td>c_amp_n_cat</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (categorical) (amp/mamp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">>Confirmatory test in nails: amphetamine (categorical) (amp/mamp)</td>
         <td>Categorical</td>
         <td>1: positive<br />0: negative<br />3: QNS<br />4: screen negative</td>
     </tr>
     <tr>
         <td>c_amp_n</td>
-        <td style="width: 170px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (amp/mamp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in nails: amphetamine (amp/mamp)</td>
         <td>Continuous</td>
         <td>concentration value -999</td>
     </tr>
 </tbody>
 </table>
-<table id="table3" class="docutils">
-<caption style="font-weight: bold; text-align: left; font-style: normal;">Table 3. Mapping from Class to Screening Tests and Confirmatory Tests for Nails</caption>
+</div>
+</p>
+
+Based on the confirmatory test (i.e. reflexes from positive screening test) result for any substance, the class-level (e.g. *c_nictotine_u*) and sample-level (e.g. *c_any_specimen_n*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in [Table 3](#nails-table3).
+
+<div id="nails-table3" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 3. Mapping from Class to Screening Tests and Confirmatory Tests for Nails</span>
+  <span class="table-arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
+<table class="docutils">
 <thead>
 <tr>
     <th>Class</th>
     <th>Screening test</th>
-    <th>Confirmatory Test**</th>      
+    <th>Confirmatory Test</th>      
 </tr>
 </thead>
 <tbody>
@@ -628,7 +652,6 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 </tr>
 </tbody>
 </table> 
-<p>**Reflexes from positive screening test</p>
 </div>
 </p>  
 
@@ -637,12 +660,11 @@ This dataset includes the results of toxicology assays conducted on fingernails 
 <p>
 <div id="urine-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
-<p>Only the initial creatinine results from sample validation are included in the data release: creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds. Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs).</p> 
+<p>Only the initial creatinine results from sample validation are included in the data release: creatinine and specific gravity values are therefore provided for researchers who wish to adjust for urinary concentration in continuous measures or apply different thresholds.</p> 
 </div>
 </p>
 
@@ -652,28 +674,28 @@ These data are the results of urine toxicology assays. Test results for substanc
 Validation is based on creatinine, pH, and nitrite measurements. Specimens with low creatinine (<20 mg/dL) are confirmed using specific gravity via refractometer (decision grid below), and the creatinine analysis is repeated to rule out issues with the first analysis (e.g. sample mix-ups, air bubble in a line on the instrument, etc.):
 <img src="../../images/biospec/Table1_biospec_urine.png" width="90%" height="auto">
 
-<p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span>
-    <span class="text">Assay Details</span>
-  </span>
-  <span class="notification-arrow">▸</span>
+#### Assay Details
+Based on predefined thresholds ([Table 1](#urine-table1)), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) is determined to be positive, negative, or invalid ([Table 2](#urine-table2)). 
+
+<p><b class="blue-text">LOD</b> / <b class="blue-text">LOQ</b> = limit of detection / quantification</p>
+
+<div id="urine-table1" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 1. Urine Assay Thresholds for Analytes</span>
+  <span class="table-arrow">▸</span>
 </div>
-<div class="notification-collapsible-content">
-<br>
-<p>Based on the predefined thresholds (<a href="#urine-table1">Table 1</a>), a confirmatory test result for any substance analyte (e.g. *Amphetamine (c_amp_u)*) was determined to be positive, negative, or invalid (<a href="#urine-table2">Table 2</a>). Note that continuous variables should be interpreted with caution based on the threshold limits of quantification (LOQs). The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in <a href="#urine-table3">Table 3</a>.</p> 
-<table id="urine-table1" class="docutils">
-<caption style="font-weight: bold; text-align: left; font-style: normal;">Table 1. Urine Assay Thresholds for Analytes</caption>
+<div class="table-collapsible-content">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+<tfoot><tr><td colspan="5"><i><b>**</b> Based on DRI® Cotinine assay for the qualitative and semiquantitative determination of Cotinine</i></td></tr></tfoot>
 <thead>
       <tr>
-        <th>Analyte</th>
-        <th>LOD<br />(ng/mL)</th>
-        <th>LOQ<br />(ng/mL)</th>
-        <th>Cutoff<br />(ng/mL)</th>
-        <th>Detection Window</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Analyte</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">LOD (ng/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">LOQ (ng/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Cutoff (ng/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Detection Window</th>
       </tr>
 </thead>
-    <tbody>
+<tbody>
     <tr>
         <td>Amphetamine</td>
         <td>50</td>
@@ -714,7 +736,7 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
         <td>3</td>
         <td>7.5</td>
         <td>15</td>
-        <td style="width: 200px; word-wrap: break-word; white-space: normal;">2-5 days for casual use; 10-14 for chronic use</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">2-5 days for casual use; 10-14 for chronic use</td>
     </tr>
     <tr>
         <td>Carboxy-delta-8-THC</td>
@@ -731,7 +753,7 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
         <td>No consensus</td>
     </tr>
         <tr>
-        <td>Cotinine*</td>
+        <td>Cotinine<b>**</b></td>
         <td>34</td>
         <td>34</td>
         <td>500</td>
@@ -1017,19 +1039,19 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
         <td>50</td>
         <td>2-3 days</td>
     </tr>
+    <tr>
+    <td colspan="5"></td>
+</tr>  
 </tbody>
-  <br>
-  <table class="docutils" style="width: 100%;">
-    <thead>
+<thead>
       <tr>
-        <th>Analyte</th>
-        <th>LOD (pg/mL)</th>
-        <th>LOQ (pg/mL)</th>
-        <th>Cutoff (pg/mL)</th>
-        <th>Detection Window</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Analyte</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">LOD (pg/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">LOQ (pg/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Cutoff (pg/mL)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Detection Window</th>
       </tr>
-    </thead>
-    <tbody>
+</thead>
     <tr>
         <td>Fentanyl</td>
         <td>40</td>
@@ -1065,20 +1087,22 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
         <td>100</td>
         <td>2-3 days</td>
     </tr>
-</tbody>
 </table>
-<i>*Based on DRI® Cotinine assay for the qualitative and semiquantitative determination of Cotinine</i><br>
-<i>LOD: limit of detection; LOQ: limit of quantification: Cutoff concentration used to categorize metabolite as positive/negative</i>
-<br>
-<table id="urine-table2" class="docutils">
-<caption style="font-weight: bold; text-align: left; font-style: normal;">Table 2. Sample Data Dictionary from Urine Assays</caption>
-  <br>
+</div>
+
+
+<div id="urine-table2" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 2. Sample Data Dictionary from Urine Assays</span>
+  <span class="table-arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
     <thead>
       <tr>
-        <th>Variable</th>
-        <th>Description</th>
-        <th>Form</th>
-        <th>Options</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Variable</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Description</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Form</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Options</th>
        </tr>
     </thead>
     <tbody>
@@ -1098,57 +1122,74 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
         <td>Visit_time_point</td>
         <td>Visit time point</td>
         <td>Categorical</td>
-        <td>1: visit 1<br />2: visit 2</td>
+        <td>1: visit 1</li>
+        <li>2: visit 2</li></td>
     </tr>
     <tr>
         <td>c_any_specimen_u</td>
-        <td style="width: 200px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Specimen level result (positive for any analyte in confirmatory tests)</td>
         <td>Categorical</td>
-        <td>1: positive<br />0: negative<br />3: invalid</td>
+        <td><li>1: positive</li>
+        <li>0: negative</li>
+        <li>3: invalid</li></td>
     </tr>
     <tr>
         <td>c_any_stim_u</td>
-        <td style="width: 200px; word-wrap: break-word; white-space: normal;">Any stimulants in urine (based on confirmatory results for amphetamine, methamphetamine, MDM, MDA, MDEA, benzoylecgonine)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Any stimulants in urine (based on confirmatory results for amphetamine, methamphetamine, MDM, MDA, MDEA, benzoylecgonine)</td>
         <td>Categorical</td>
-        <td>1: positive<br />0: negative<br />3: invalid</td>
+        <td><li>1: positive</li>
+        <li>0: negative</li>
+        <li>3: invalid</li></td>
     </tr>
     <tr>
         <td>s_amp_u</td>
-        <td style="width: 200px; word-wrap: break-word; white-space: normal;">Screening test in urine: amphetamines (amp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Screening test in urine: amphetamines (amp)</td>
         <td>Categorical</td>
-        <td>1: positive<br />0: negative<br />3: invalid</td>
+        <td><li>1: positive</li>
+        <li>0: negative</li>
+        <li>3: invalid</li></td>
     </tr>
     <tr>
         <td>c_amp_u_cat</td>
-        <td style="width: 200px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (categorical) (amp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (categorical) (amp)</td>
         <td>Categorical</td>
-        <td>1: positive<br />0: negative<br />3: cancelled<br />4: screen negative</td>
+        <td><li>1: positive</li>
+        <li>0: negative</li>
+        <li>3: cancelled</li>
+        <li>4: screen negative</li></td>
     </tr>
     <tr>
         <td>c_amp_u</td>
-        <td style="width: 200px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (amp)</td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Confirmatory test in urine: amphetamine (amp)</td>
         <td>Continuous</td>
         <td>concentration value; -999</td>
     </tr>
 </tbody>
 </table>
-<table id="urine-table3" class="docutils">
-<caption style="font-weight: bold; text-align: left; font-style: normal;">Table 3. Mapping From Class to Screening Tests and Confirmatory Tests</caption>
-  <br>
+</div>
+
+The class-level (*c_any_stim_u*) and sample-level (*c_any_specimen_u*) are correspondingly scored as positive (1), negative (0), and invalid (3). If all classes are negative (0), then sample-levels are negative (0). All class-level groupings by analyte screening tests and analyte confirmatory tests are shown in [Table 3](#urine-table3).
+
+<div id="urine-table3" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Table 3. Mapping From Class to Screening Tests and Confirmatory Tests</span>
+  <span class="table-arrow">▸</span>
+</div>
+<div class="table-collapsible-content">
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
     <thead>
       <tr>
-        <th>Class</th>
-        <th>Screening Test</th>
-        <th>Confirmatory Test (positive screen reflex)</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Class</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Screening Test</th>
+        <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Confirmatory Test (positive screen reflex)</th>
       </tr>
     </thead>
     <tbody>
     <tr>
         <td colspan="1" rowspan="6">
-            <div>stimulant<br /> (c_any_stim_u)</div>
+            <div>stimulant (c_any_stim_u)</div>
         </td>
         <td colspan="1" rowspan="2">
-            <div>amp<br /> (s_amp_u)</div>
+            <div>amp (s_amp_u)</div>
         </td>
         <td>Amphetamine (c_amp_u)</td>
     </tr>
@@ -1157,7 +1198,7 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
     </tr>
     <tr>
         <td colspan="1" rowspan="3">
-            <div>mdma<br /> (s_mdma_u)</div>
+            <div>mdma (s_mdma_u)</div>
         </td>
         <td>MDM (c_mdm_u)</td>
     </tr>
@@ -1168,15 +1209,15 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
         <td>MDEA (c_mdea_u)</td>
     </tr>
     <tr>
-        <td>coc <br /> (s_coc_u)</td>
+        <td>coc (s_coc_u)</td>
         <td>Benzoylecgonine (c_ben_u)</td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="3">
-            <div>cannabinoid<br /> (c_any_cannabinoid_u)</div>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;" colspan="1" rowspan="3">
+            <div>cannabinoid (c_any_cannabinoid_u)</div>
         </td>
         <td colspan="1" rowspan="3">
-            <div>thc<br /> (s_thc_u)</div>
+            <div>thc (s_thc_u)</div>
         </td>
         <td>Carboxy-delta-9-THC (c_delta-9-THC_u)</td>
     </tr>
@@ -1188,101 +1229,60 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
     </tr>
     <tr>
         <td colspan="1" rowspan="5">
-            <div>barbiturate<br /> (c_any_barb_u)</div>
+            <div>barbiturate (c_any_barb_u)</div>
         </td>
         <td colspan="1" rowspan="5">
-            <div>bar <br /> (s_bar_u)</div>
+            <div>bar (s_bar_u)</div>
         </td>
         <td>Amobarbital (c_amobarb_u)</td>
     </tr>
+    <tr><td>Secobarbital (c_secobarb_u)</td></tr>
+    <tr><td>Pentobarbital (c_pentobarb_u)</td></tr>
+    <tr><td>Phenobarbital (c_phenobarb_u)</td></tr>
+    <tr><td>Butalbital (c_butalbital_u)</td></tr>
     <tr>
-        <td>Secobarbital (c_secobarb_u)</td>
-    </tr>
-    <tr>
-        <td>Pentobarbital (c_pentobarb_u)</td>
-    </tr>
-    <tr>
-        <td>Phenobarbital (c_phenobarb_u)</td>
-    </tr>
-    <tr>
-        <td>Butalbital (c_butalbital_u)</td>
-    </tr>
-    <tr>
-        <td colspan="1" rowspan="11">
-            <div>benzodiazepine<br /> (c_any_benzo_u)</div>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;" colspan="1" rowspan="11">
+            <div>benzodiazepine (c_any_benzo_u)</div>
         </td>
         <td colspan="1" rowspan="11">
-            <div>benz <br /> (s_benz_u)</div>
+            <div>benz (s_benz_u)</div>
         </td>
         <td>Oxazepam (c_oxaz_u)</td>
     </tr>
-    <tr>
-        <td>Nordiazepam (c_nord_u)</td>
-    </tr>
-    <tr>
-        <td>Temazepam (c_tema_u)</td>
-    </tr>
-    <tr>
-        <td>Hydroxymidazolam (c_homi_u)</td>
-    </tr>
-    <tr>
-        <td>Alphahydroxyalprazolam (c_aha_u)</td>
-    </tr>
-    <tr>
-        <td>2hydroxyethylflurazepam (c_2hef_u)</td>
-    </tr>
-    <tr>
-        <td>7Aminoclonazepam (c_7ac_u)</td>
-    </tr>
-    <tr>
-        <td>7Aminoflunitrazepam (c_7af_u)</td>
-    </tr>
-    <tr>
-        <td>7Aminonitrazepam (c_7an_u)</td>
-    </tr>
-    <tr>
-        <td>Alphahydroxytriazolam (c_aht_u)</td>
-    </tr>
-    <tr>
-        <td>Lorazepam (c_lor_u)</td>
-    </tr>
+    <tr><td>Nordiazepam (c_nord_u)</td></tr>
+    <tr><td>Temazepam (c_tema_u)</td></tr>
+    <tr><td>Hydroxymidazolam (c_homi_u)</td></tr>
+    <tr><td>Alphahydroxyalprazolam (c_aha_u)</td></tr>
+    <tr><td>2hydroxyethylflurazepam (c_2hef_u)</td></tr>
+    <tr><td>7Aminoclonazepam (c_7ac_u)</td></tr>
+    <tr><td>7Aminoflunitrazepam (c_7af_u)</td></tr>
+    <tr><td>7Aminonitrazepam (c_7an_u)</td></tr>
+    <tr><td>Alphahydroxytriazolam (c_aht_u)</td></tr>
+    <tr><td>Lorazepam (c_lor_u)</td></tr>
     <tr>
         <td colspan="1" rowspan="20">
-            <div>opioids<br /> (c_any_opioid_u)</div>
+            <div>opioids (c_any_opioid_u)</div>
         </td>
         <td colspan="1" rowspan="5">
-            <div>opi <br /> (s_opi_u)</div>
+            <div>opi (s_opi_u)</div>
         </td>
-        <td>Codeine (c_cod_u)</td>
-    </tr>
+        <td>Codeine (c_cod_u)</td></tr>
+    <tr><td>Morphine (c_mor_u)</td></tr>
+    <tr><td>MAM (c_mam_u)</td></tr>
+    <tr><td>Hydrocodone (c_hydroc_u)</td></tr>
+    <tr><td>Hydromorphone (c_hydrom_u)</td></tr>
     <tr>
-        <td>Morphine (c_mor_u)</td>
-    </tr>
+        <td colspan="1" rowspan="2"><div>mtd (s_mtd_u)</div></td>
+        <td>Methadone (c_mtd_u)</td></tr>
     <tr>
-        <td>MAM (c_mam_u)</td>
-    </tr>
+    <td>EDDP (c_eddp_u)</td></tr>
     <tr>
-        <td>Hydrocodone (c_hydroc_u)</td>
-    </tr>
-    <tr>
-        <td>Hydromorphone (c_hydrom_u)</td>
-    </tr>
-    <tr>
-        <td colspan="1" rowspan="2">
-            <div>mtd <br /> (s_mtd_u)</div>
-        </td>
-        <td>Methadone (c_mtd_u)</td>
-    </tr>
-    <tr>
-        <td>EDDP (c_eddp_u)</td>
-    </tr>
-    <tr>
-        <td>ppx <br /> (s_ppx_u)</td>
+        <td>ppx (s_ppx_u)</td>
         <td>Norpropoxyphene (c_nppx_u)</td>
     </tr>
     <tr>
         <td colspan="1" rowspan="2">
-            <div>oxyc <br /> (s_oxyc_u)</div>
+            <div>oxyc (s_oxyc_u)</div>
         </td>
         <td>Oxycodone (c_oxyc_u)</td>
     </tr>
@@ -1291,71 +1291,58 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
     </tr>
     <tr>
         <td colspan="1" rowspan="2">
-            <div>mep <br /> (s_mep_u)</div>
+            <div>mep (s_mep_u)</div>
         </td>
         <td>Meperidinem (c_mep_u)</td>
     </tr>
+    <tr><td>Normeperidine (c_nmep_u)</td></tr>
     <tr>
-        <td>Normeperidine (c_nmep_u)</td>
-    </tr>
-    <tr>
-        <td>tram <br /> (s_tram_u)</td>
+        <td>tram (s_tram_u)</td>
         <td>Tramadol (c_tram_u)</td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="3">
-            <div>fent <br /> (s_fent_u)</div>
-        </td>
+        <td colspan="1" rowspan="3"><div>fent (s_fent_u)</div></td>
         <td>Fentanyl (c_fent_u)</td>
     </tr>
     <tr>
-        <td>Norfentanyl (c_nfent_u)</td>
-    </tr>
+        <td>Norfentanyl (c_nfent_u)</td></tr>
     <tr><td>Alfentanil (c_afent_u)</td></tr>
     <tr>
-        <td colspan="1" rowspan="2">
-            <div>suf <br /> (s_suf_u)</div>
-        </td>
+        <td colspan="1" rowspan="2"><div>suf (s_suf_u)</div></td>
         <td>Norsufentanil (c_nsuf_u)</td>
     </tr>
     <tr><td>Sufentanil (c_suf_u)</td></tr>
     <tr>
         <td colspan="1" rowspan="2">
-            <div>bup <br /> (s_bup_u)</div>
+            <div>bup (s_bup_u)</div>
         </td>
         <td>Buprenorphine (c_bup_u)</td>
     </tr>
     <tr><td>Norbuprenorpine (c_nbup_u)</td></tr>
     <tr>
-        <td colspan="1" rowspan="2">
-            <div>muscle relaxant<br />(c_any_mscrlx_u)</div>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;" colspan="1" rowspan="2">
+            <div>muscle relaxant (c_any_mscrlx_u)</div>
         </td>
         <td colspan="1" rowspan="2">
-            <div>crs <br /> (s_crs_u)</div>
+            <div>crs (s_crs_u)</div>
         </td>
         <td>Carisoprodol (c_crs_u)</td>
     </tr>
+    <tr><td>Meprobamate (c_mepb_u)</td></tr>
     <tr>
-        <td>Meprobamate (c_mepb_u)</td>
-    </tr>
-    <tr>
+        <td colspan="1" rowspan="2"><div>ethanol (c_ethanol_u)</div></td>
         <td colspan="1" rowspan="2">
-            <div>ethanol <br /> (c_ethanol_u)</div>
-        </td>
-        <td colspan="1" rowspan="2">
-            <div>etgeia <br /> (s_etgeia_u)</div>
+            <div>etgeia (s_etgeia_u)</div>
         </td>
         <td>EthylGluc-0100 (c_ethglu_u0)</td>
     </tr>
-    <tr>
-        <td>EthylSul-100 (c_ethsyl_u)</td>
-    </tr>
+    <tr><td>EthylSul-100 (c_ethsyl_u)</td></tr>
     <tr>
         <td colspan="1" rowspan="2">
-            <div>sedative <br /> (c_sedative_u)</div>
+            <div>sedative (c_sedative_u)</div>
         </td>
         <td colspan="1" rowspan="2">
-            <div>zol <br /> (s_zol_u)</div>
+            <div>zol (s_zol_u)</div>
         </td>
         <td>Zolpidem (c_zol_u0)</td>
     </tr>
@@ -1363,30 +1350,20 @@ Validation is based on creatinine, pH, and nitrite measurements. Specimens with 
         <td>Zolpidem CA (c_zolc_u)</td>
     </tr>
     <tr>
-        <td colspan="1" rowspan="3">
-            <div>dissociative anesthetic<br />(c_disanesth_u)</div>
-        </td>
-        <td colspan="1" rowspan="2">
-            <div>ket <br /> (s_ket_u)</div>
-        </td>
+        <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;" colspan="1" rowspan="3"><div>dissociative anesthetic (c_disanesth_u)</div></td>
+        <td colspan="1" rowspan="2"><div>ket (s_ket_u)</div></td>
         <td>Ketamine (c_ket_u)</td>
     </tr>
-    <tr>
-        <td>Norketamine (c_nket_u)</td>
-    </tr>
-    <tr>
-        <td>pcp <br /> (s_pcp_u)</td>
-        <td>Phencyclidine (c_pcp_u)</td>
-    </tr>
-    <tr>
-        <td>nicotine (c_nicotine_u)</td>
+    <tr><td>Norketamine (c_nket_u)</td></tr>
+    <tr><td>pcp (s_pcp_u)</td>
+    <td>Phencyclidine (c_pcp_u)</td></tr>
+    <tr><td>nicotine (c_nicotine_u)</td>
         <td>&nbsp;</td>
         <td>Cotinine (c_cot_u)</td>
     </tr>
-    </tbody>
+</tbody>
 </table>
 </div>
-</p>  
 
 ## References
 <div class="references">

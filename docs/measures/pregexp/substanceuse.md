@@ -88,11 +88,10 @@ For all measures, QC procedures involved review of response distributions (cross
 <p>
 <div id="assist-alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
-    <span class="text">Responsible Data Use Warning</span>
+    <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>ASSIST V1</strong></p>
 <p>Implicit in responsible stewardship of prenatal drug exposure data is the recognition of the structural racism in which drug policy in the United States has long been embedded (Coles 1993; Wakeman et al., 2022). Responsible use of prenatal drug exposure data also requires thoughtful interpretation of exposure-related outcomes in the context of measured and unmeasured confounders. These confounders include, but are not limited to, phenotypic risks associated with persistent alcohol, tobacco, and other drug use during pregnancy by birthing parents (Massey et al., 2011), and confounding by familial risk from within-family studies (Estabrook et al., 2016).</p>
 <p>Finally, unwarranted speculation about ‘neural bases of behavior’ form differences in neuroimaging between exposed and unexposed children in the absence of differences in behavioral performance can exacerbate stigma already faced by birthing parents with substance use disorders and their children (McAllister & Hart 2015).</p> 
@@ -102,27 +101,25 @@ For all measures, QC procedures involved review of response distributions (cross
 <p>
 <div id="assist-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>It was difficult for some participants to self-report the typical size of a single drink (in oz) to capture ‘standard drinks’ of alcohol for Assist, leading to some reports falling outside the expected range. Similarly, reporting the frequency of use for substances like electronic cigarette devices proved difficult, resulting in outliers. While sites were queried on these outliers, participants could not always be re-contacted for clarification.</p> 
 </div>
 </p>
 
 The Assist V1, V2, and V3 measures were created from combining the Family History Assessment Module (FHAM) and the All of Us Personal and Family Health History, which was then modified from the [NIDA Quick Screen (Modified Assist)](https://nida.nih.gov/sites/default/files/pdf/nmassist.pdf). The original quick screen was scored; however, our version is not scored. To acknowledged these changes in future publications, authors can note that questions were motivated from the NIDA Modified Assist.
 
-The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding substances used and the timeline of use before and during pregnancy.
+The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs, or illegal drugs in the last year*) was removed and replaced by questions to assess more details regarding substances used and the timeline of use before and during pregnancy:
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-    <span class="text">Assist V1/2/3: replacement of questions 2-8</span>
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+    <span class="table-text">Assist V1/2/3 Replacement Questions</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-    <ul>
-<br>
-<u>V1: Replaced with following to assess lifetime use and disordered use, or use causing problems in their lives</u>
+<ul>
+<b>V1: Assess lifetime use and disordered use, or use causing problems in their lives</b>
 	<li>Have you EVER been concerned about your use of this substance or worried it was problematic use?</li>
 	<li>Has a friend, relative, or anyone else EVER expressed concern about your use of this substance</li>
 	<li>Have you EVER tried and failed to control, cut down, or stop using this substance?</li>
@@ -130,10 +127,10 @@ The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs,
 	<li>Have you EVER been clinically diagnosed with abuse, dependence, or a substance use disorder related to your use of this substance</li>
 	<li>Have you EVER taken (prescribed or otherwise) medication(s) as treatment for a problem substance</li>
 <br>  
-<u>V2: Replaced with following to assess use after pregnancy:</u>
+<b>V2: Assess use after pregnancy:</b>
 	<li>FROM THE TIME THAT YOU DELIVERED your child until now, how often have you used any of the following substances for any reason [followed by list of substance options from section above]</li>
 <br>  
-<u>V3: Replaced with following to assess impact of substance use after pregnancy:</u>
+<b>V3: Assess impact of substance use after pregnancy:</b>
 	<li>DURING THE PAST THREE MONTHS, has your use of this substance led to physical or mental health, social,or financial problems?</li>
     <li>DURING THE PAST THREE MONTHS, have you ever failed to do what was normally expected of you  (like work, go to school, be a parent, or household tasks) because of your use of this substance?</li>
     </ul>
@@ -142,8 +139,8 @@ The NIDA quick screen tool (*have you used alcohol, tobacco, prescription drugs,
 
 Lifetime and problematic use, pre-pregnancy and pregnancy use was expanded into the substances listed below for HBCD. For each substance, participants indicate whether they had ever used it and, if endorsed, frequency of use with options: 0 (Never), 1 (Once or Twice), 2 (Monthly), 3 (Weekly), or 4 (Daily or Almost Daily). For substances reported as used, participants were asked about modes of use and typical quantities of consumption for alcohol and opioids (if applicable) as outlined below:
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">Assist Substance Type Options</span>
+<div id="table-banner" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Assist Substance Type Options</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -184,11 +181,10 @@ Finally, additional screening for substance use (within three months before or d
 <p>
 <div id="tlfb-alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
-    <span class="text">Responsible Data Use Warning</span>
+    <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>HBCD was designed to enable the characterization of the known fluctuation in substance use across the perinatal period critical for advancing prevention and intervention (Massey et al., 2023, Bandoli et al., 2022, Si et al., 2024).</p>
 <p>Moreover, characterization of between- and within-person variability in substance use has been shown to enhance the sensitivity and specificity of risk prediction (Massey et al., 2021, Massey et al., 2018). Thus, the characterization of patterns or trajectories of use should be considered over the use of dichotomous exposure characterization. Another gap in literature concerns the extent, nature, and implications of polysubstance use during pregnancy since individual substances have primarily been examined alone in prior research (Massey et al., 2018). The power and scope of HBCD avails a unique opportunity to understand the prevalence and implications of such ‘real world’ patterns of substance use.</p> 
 </div>
@@ -196,19 +192,16 @@ Finally, additional screening for substance use (within three months before or d
 <p>
 <div id="tlfb-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>The sampling covers specific weeks before pregnancy (Weeks 1-2) and during pregnancy (Weeks 3-9). Consequently, substance use reported outside these weeks may not appear in the TLFB, and a positive biospecimen may lack corresponding TLFB data for the same reason. This sampling approach balances participant burden (avoiding a full 40-week TLFB) with capturing key pregnancy phases when behaviors often shift, such as before and after pregnancy recognition and in late pregnancy.</p>
 <p>Also, of note- participants were asked to report occasions (except cigarettes/cigarillos and drinks, reported as number), but some substances (e.g. electronic cigarette devices) are difficult to report in occasions and have outliers.</p>
-<p>TLFB data should be integrated with biospecimen and Assist data. Trajectories of use can be inferred by carrying early pregnancy data (Weeks 3-6) forward until reported pregnancy recognition (V01 Health) and using enrollment data (Week 7) to project use into late pregnancy (Weeks 8-9).</p> 
 </div>
 </p>
 
 The [original Timeline Follow Back](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf) is designed to cover the last 7 days from when the survey is administered. The [HBCD TLFB](https://cde.nida.nih.gov/sites/nida_cde/files/TimeLineFollowBack_2014Mar24.pdf), triggered by Assist responses, was adapted to instead record maternal substance use before and during pregnancy. Participants reported use during 9 weeks in total for each substance type (e.g., edible cannabis) reported on the ASSIST. For V01, this includes: pre-pregnancy use (Weeks 1-2: four weeks to two weeks before LMP), early pregnancy use (Weeks 3-6: two to six weeks after LMP), and current use (Week 7: the week prior to V1). The TLFB was repeated at V02 to capture substance use during the last two full weeks of gestation (Weeks 8-9). Daily usage frequency was recorded for all products except for cigarettes/cigarillos (count per day) and alcohol (single servings per day).
-
 
 ## References
 <div class="references">

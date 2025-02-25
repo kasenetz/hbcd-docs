@@ -2,7 +2,7 @@
 <p>
 <div id="alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
-    <span class="text">Responsible Data Use Warning</span>
+    <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -18,7 +18,7 @@
 <p>
 <div id="warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -41,7 +41,7 @@ Each rsfMRI run is additionally preceded by acquisition of single shot spin-echo
 
 <div style="text-align: center;">
   <p style="font-size: 1.1em; margin-bottom: 0px;"><strong>Figure 1.</strong> HBCD fMRI Acquisition Protocol (<i>Courtesy of <a href="https://doi.org/10.1016/j.dcn.2024.101452">Dean et al. 2024</a></i>)</p>
-  <img src="Deanetal2024_fMRI.jpg" width="83%" height="auto">
+  <img src="../images/Deanetal2024_fMRI.jpg" width="83%" height="auto">
 </div>
 
 <br>

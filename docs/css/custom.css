@@ -4,19 +4,48 @@
 /* red: #be074c */ 
 /* black/gray: #6b6b6b */ 
 
-/* Change color of upper left-hand background */ 
-.wy-side-nav-search {background-color: #199bd6;}
+/* Style for folder tree display */
+.folder-tree {
+  font-family: monospace;
+  background-color: #282c34; 
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre;
+  display: block;
+  overflow-x: auto; /* Allows horizontal scrolling */
+}
+/* Style for placeholder variables in angle brackets */
+.folder-tree .placeholder {
+  color: #0af0e1
+}
+.folder-tree .hashtag {
+  color: #b0d619
+}
+.folder-tree .label {
+  color: #199bd6
+}
+.folder-tree .subses {
+  color: #ffd000
+}
 
+
+.gray-text {
+  color: #505050;
+}
 .blue-text {
   color: blue;
 }
+
+/* Change color of upper left-hand background */ 
+.wy-side-nav-search {background-color: #199bd6;}
 
 /* Centering images */ 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 /* References section */ 
@@ -32,7 +61,6 @@
     margin: 10px 0;
     text-align: center;
   }
-  
   #version-selector {
     padding: 5px;
     font-size: 14px;
@@ -41,57 +69,27 @@
 /* Styling for NBDC Lasso quick link in Data Access section */ 
 .button-link {
   display: inline-block;
-  background-color: #24AE7066;
-  color: black; /* Button text color */
+  background-color: #25ae7066;
+  color: #3e3e3e !important; /* Ensures text stays black */
+  font-weight: bold; 
+  font-family: Lato; 
   padding: 5px 15px;
   text-decoration: none;
-  border-radius: 5px; /* Rounded corners */
-  font-size: 1.2em;
+  border: 1px solid #25ae70;
+  border-radius: 5px;
+  font-size: 1.1rem;
   transition: background-color 0.3s ease;
+}
+/* Explicitly set link states to black */
+.button-link:link,
+.button-link:visited,
+.button-link:hover,
+.button-link:active {
+  color: #3e3e3e !important;
+  text-decoration: none;
 }
 .button-link:hover {
-  background-color: #24AE70; /* background color on hover */
+  background-color: #25ae70; /* background color on hover */
 }
 
-/* Styling for click to copy */ 
-/* Box styling */
-.copy-box {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 15px;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 20px 0;
-  max-width: 800px; /* Set this to your desired maximum width */
-  width: 100%; /* Ensures the box stretches to full width if allowed */
-}
 
-/* Text and button container */
-.copy-text-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Text styling */
-.copy-text-container span {
-  font-size: 1em;
-  color: #333;
-  flex: 1;
-  margin-right: 10px;
-}
-
-/* Button styling */
-.copy-button {
-  background-color: #007acc;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  font-size: 0.9em;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.copy-button:hover {
-  background-color: #005f99;
-}

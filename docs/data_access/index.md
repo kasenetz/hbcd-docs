@@ -1,8 +1,4 @@
-<p style="text-align: center;">
-  <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC Lasso Portal &nbsp; ↗️</a>
-</p>
-
-# How to Access HBCD Data
+# How To Access HBCD Data
 <p>
 <div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
@@ -10,7 +6,6 @@
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Users may encounter issues with their DUC applications or renewals due to the Biden administration's expansion of Executive Order 13873 of May 15, 2019 (Securing the Information and Communications Technology and Services Supply Chain) and Executive Order 14034 of June 9, 2021 (Protecting Americans’ Sensitive Data from Foreign Adversaries) that, among other things, prohibits the sharing of Americans’ bulk personal data, including genomic data, in certain cases. The ABCD Study has reported issues for users from countries identified in the Executive Order (see <a href="https://wiki.abcdstudy.org/">ABCD Wiki 11.6.2024: Data Access Issues</a>) and it will likely impact HBCD as well.</p> 
 
 <p>See <a href="https://www.whitehouse.gov/briefing-room/presidential-actions/2024/02/28/executive-order-on-preventing-access-to-americans-bulk-sensitive-personal-data-and-united-states-government-related-data-by-countries-of-concern/#:~:text=(c)%20The%20term%20%E2%80%9Ccountry,States%20or%20the%20security%20and">Executive Order on Preventing Access to Americans’ Bulk Sensitive Personal Data and United States Government-Related Data by Countries of Concern</a> for details.</p>
@@ -18,13 +13,12 @@
 </p>
 
 ## Overview
-<div style="display: flex; justify-content: space-between; padding: 0 20%; align-items: center;">
-  <img src="images/NBDC-logo.jpg" width="170" alt="NBDC-logo" style="margin-left: 2px;">
-  <img src="images/LASSO-logo.jpg" width="100" alt="Lasso-logo" style="margin-right: 40px;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="images/NBDC-C-Horizontal.png" alt="NBDC-logo" style="width: 40%;">
+  <img src="images/Format=Horizontal, Color=Black@2x.png" alt="Lasso-logo" style="width: 30%; margin-right: 80px;">
 </div>
-<br>
 
-HBCD data is publicly shared with all researchers associated with an NIH-recognized research institution via the individual or investigator-led group NBDC Data Use Agreement/Certification (DUC) process, which governs data use for both the ABCD and HBCD studies. The DUC outlines rules that must be followed for data use and is signed electronically by both the submitter and the Institutional Signing Officer at their institution. 
+HBCD data is publicly shared with all researchers associated with an NIH-recognized research institution via the individual or investigator-led group NBDC [Data Use Agreement/Certification (DUC) process](https://nbdc-splash-beta.lassoinformatics.com/data-access-process), which governs data use for both the ABCD and HBCD studies. The DUC outlines rules that must be followed for data use and is signed electronically by both the submitter and the Institutional Signing Officer at their institution. 
 
 DUC approval is handled by the NIH Brain Development Cohort (NBDC) Data Access Committee (DAC), consisting of federal staff from NIH with expertise in science, policy, or bioinformatics resources. DUCs are approved based on satisfaction of basic pre-requisites and whether the data access request is reasonable and aligns with the terms of the DUC. Note that the quality of the science for which the data is intended to be used is not reviewed.
 
@@ -93,6 +87,12 @@ This section of the DUC process asks you to agree to electronically signing the 
 ### Review by NBDC DAC
 After submitting the DUC, DocuSign automatically notifies the Signing Official at your institution to add their signature, after which it is routed to the NBDC DAC for final review. You will recieve an email notification once approved and be prompted to undergo additional mandatory training on responsible data use after signing into the platform. Once this training is complete, you will have access to the requested data. 
 
+<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
+    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
+    <span class="text">After obtaining DUC approval, users must complete mandatory training on responsible data use to gain access to the data.</span>
+</div>
+<br>
+
 **Access is valid for one year. To maintain access, recipients must submit a renewal request before the DUC expires. If the DUC expires prior to a renewal request being submitted, a New Request submission will be required.**
 
 ![](images/decline_banner.png)
@@ -117,5 +117,5 @@ The submitted DUC is required to be signed by a Signing Official in order to be 
 <br>
 
 <p style="text-align: center;">
-  <a class="button-link" href="https://nbdc-hbcd-beta.lassoinformatics.com">Go to NBDC Lasso Portal &nbsp; ↗️</a>
+  <a class="button-link" href="https://nbdc-splash-beta.lassoinformatics.com/hbcd-study">HBCD Study on NBDC Data Hub &nbsp; ↗️</a>
 </p>

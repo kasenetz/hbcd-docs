@@ -60,11 +60,10 @@ For MLDS, QC procedures involve monitoring frequency of decline to answer and co
 <p>
 <div id="mlds-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Subject matter experts did not identify any issues with MLDS. However, they emphasize that this measure assesses a child’s exposure to language to guide the selection of appropriate measures for their next in-person study visit. It estimates the percentage of time the child is exposed to languages in caregiving environments, based on caregiver reports. These estimates are approximate and also may not account for all languages the child encounters. The measure does not evaluate or quantify the child’s interactions or their expressive or receptive language skills in a given language, but rather provides an estimate of the time spent in environments where specific languages are spoken.</p> 
 </div>
 </p>
@@ -74,20 +73,18 @@ The Multilingual Language Development Screener (MLDS) consists of questionnaires
 Designed specifically for HBCD, this measure informs assessment teams conducting neurocognitive and language evaluations. Responses help determine whether assessments are conducted in English or Spanish and identify potential challenges such as hearing impairments or other languages. Caregivers select their child’s language preference (English or Spanish) for in-person tasks like the NIH Baby Toolbox, Bayley-4, or Deferred Imitation. For the MacArthur-Bates Communicative Development Inventories (CDI), an algorithm determines whether it is administered in English, Spanish, both, or not at all.
 
 <p>
-<div id="mlds-scoring-procedures" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">Scoring Procedures</span>
+<div id="mlds-scoring-procedures" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">Scoring Procedures</span>
   <span class="notification-arrow">▸</span>
 </div>
 <div class="notification-collapsible-content">
 <br>
 <p>Total days per week and total hours per day were calculated for up to 10 non-parental childcare arrangements (Daycare, With Babysitter, With other family members outside of the household, and Other non-parental childcare arrangement). The language environment for each non-parental childcare arrangement was described based on the percentage of Spanish vs English spoken in the environment:</p>
-
 <ul>
-  <li><strong>Only Spanish OR Only English</strong>: ≥30% of language AND &lt;30% of the other language is spoken</li>
-  <li><strong>Both Spanish &amp; English</strong>: ≥30% of both languages are spoken</li>
-  <li><strong>Neither</strong>: &lt;30% of Spanish and &lt;30% English spoken</li>
+  <li><b>Only Spanish OR Only English</b>: ≥30% of language AND &lt;30% of the other language is spoken</li>
+  <li><b>Both Spanish &amp; English</b>: ≥30% of both languages are spoken</li>
+  <li><b>Neither</b>: &lt;30% of Spanish and &lt;30% English spoken</li>
 </ul>
-
 <p>The total frequency of Spanish and English was computed by multiplying the percentage of English and Spanish language provided per environment by the total hours per week in both the home and other care environments. The values are provided for home and for the overall total child experience, combining home and other care environments.</p>
 </div>
 </p> 
@@ -96,11 +93,10 @@ Designed specifically for HBCD, this measure informs assessment teams conducting
 <p>
 <div id="spm2-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Instructions were updated with the additional response option of "Decline to answer" on November 8, 2024 to differentiate from behaviors that have never been seen (i.e. developmentally inappropriate). Therefore, "Decline to answer" is not an option available to individuals who completed this form in the reference sample from which the standard scores were derived.</p> 
 </div>
 </p>

@@ -2,20 +2,18 @@
 <p>
 <div id="qc-alert" class="alert-banner" onclick="toggleCollapse(this)">
     <span class="emoji"><i class="fas fa-exclamation-circle"></i></span>
-    <span class="text">Responsible Data Use Warning</span>
+    <span class="text">Responsible Use Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
 <br>
 <p><b><i>The text below is sourced directly from the ABCD Wiki <a href="https://data.abcdstudy.org/reports/wiki-release6/data-doc/imaging/quality-control.html#use-qc">Responsible Use Warning: Quality Control</a>. While it specifically references ABCD, the same principles apply equally to HBCD.</i></b></p>
-<blockquote>
 <p>Researchers conducting analyses of neuroimaging data drawn from diverse populations must consider the responsible use of variables related to race, ethnicity, gender, and sex. Comparisons of neuroimaging data among participants who are grouped by race and/or ethnicity can be interpreted as evidence of biomarkers to explain neurobiological mechanisms through which some communities experience lower rates of achievement and poorer life outcomes compared to their White counterparts. To discourage continuation of this biological deficits framework, data analysts must recognize that ethical conduct in research includes ensuring that their analyses prevent further stigmatization, marginalization, and injustice toward individuals because of racial, ethnic, or gender status. Potential stigmatization may also be relevant to certain clinical diagnoses or outcomes. Prior to any data analysis or interpretation, researchers must consider the psychological, social, economic, and any other potentially harmful impacts their research could have on individuals, communities, and society.</p> 
 <p>Data analyses centered around comparisons of participant groups when the groupings are based on race and ethnicity alone (i.e., independent variables in isolation) are discouraged. Instead, researchers should consider factors that may perpetuate stigma in research and commit to the additional work that is needed to ensure that statistical models and analytic findings are fully contextualized, particularly with respect to variables related to social determinants of health.</p>
 
 <p style="margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid #6b6b6b66;"><strong>Missingness Issues</strong></p>
 <p>Participants in the ABCD Study may not have usable data for a variety of reasons. They may have withdrawn from the study, or they may have missed assessments or sessions. In other cases, data may have been collected but it is inappropriate for inclusion in an analysis. For example, neuroimaging data may be inappropriate for analysis due to excessive head motion (see the discussion of head motion in Resting-State MRI Data Documentation).</p> 
-<p>Importantly, factors that predict the absence of usable data tend to be correlated with demographic factors such as sex, race/ethnicity, and socioeconomic status. Thus, researchers should investigate how patterns of missingness and their correlates may impact the conclusions they draw. In addition, they should consider strategies to address patterns of missingness, such as imputation or population weighting (Gard et al., 2023), that may allow more data to be retained and/or improve generalizability to real-world, diverse communities..</p>
-</blockquote>
+<p>Importantly, factors that predict the absence of usable data tend to be correlated with demographic factors such as sex, race/ethnicity, and socioeconomic status. Thus, researchers should investigate how patterns of missingness and their correlates may impact the conclusions they draw. In addition, they should consider strategies to address patterns of missingness, such as imputation or population weighting (Gard et al., 2023), that may allow more data to be retained and/or improve generalizability to real-world, diverse communities.</p>
 </div>
 </p>
 
@@ -64,7 +62,7 @@ Automated QC metrics such as signal-to-noise ratio (SNR) and head motion statist
 For dMRI series, head motion is estimated by registering each frame to a corresponding image synthesized from a tensor fit, accounting for variation in image contrast across diffusion orientations (Hagler et al. 2009). Dark slices, artifacts caused by abrupt head movements, are identified as outliers based on the root mean squared (RMS) difference between the original data and the tensor-fitted data. The total number of slices and frames affected by these motion artifacts are calculated for each dMRI series.
 
 ### Manual Review
-Based on the automated metrics above, a subset of series are selected for manual review using multivariate prediction and Bayesian classifiers. Trained technicians use in-house software for standardized and efficient QC. For each subject, the technician inspects a display of multi-view and multi-slice image montages and enter scores. Each subject will also prompt for notes at the end of the review before confirming, repeating, or skipping the subject, further reducing room for human error. 
+Based on the automated metrics above, a subset of series are selected for manual review using multivariate prediction and Bayesian classifiers to identify scans that are more likely to have issues. Trained technicians use in-house software for standardized and efficient QC. For each subject, the technician inspects a display of multi-view and multi-slice image montages and enter scores. Each subject will also prompt for notes at the end of the review before confirming, repeating, or skipping the subject, further reducing room for human error. 
 
 During review, data quality is scored according to the severity of specific artifacts, rated on a scale of 0 to 3, where 0 indicates no artifact, 1 indicates mild, 2 moderate, and 3 severe. Structural scans include review of T1w, T2w, and qMRI. Reviewers rate scans for **motion artifacts** (e.g. ripples, blurring) and document other issues such as **intensity inhomogeneity** or **ghosting** (when the slice location is outside the FOV, creating a fainter displaced copy of the head, brain, or eyes). 
 
@@ -80,16 +78,14 @@ Quality control procedures for various pipeline outputs—such as structural and
 
 BrainSwipes harnesses the power of crowdsourcing to address the time-intensive task of evaluating MRI brain scan quality through visual inspection, particularly for large-scale studies. Users are guided through a simple [tutorial](https://brainswipes.us/tutorial-select) that teaches them how to navigate the platform and assess derivative files, enabling them to confidently classify images as either pass or fail. For a comprehensive guide to using BrainSwipes, visit the [BrainSwipes ReadTheDocs](https://brainswipes.readthedocs.io/).
 
-<p>
-<div id="notification-banner" class="notification-banner">
-    <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-    <span class="text">Raw data (T1w, T2w, QALAS, etc.) is also available on BrainSwipes, but this is strictly for use in development of automated QC methods and not included in the data release.</span>
+<div class="img-with-text" style="width: 80%; margin: 0 auto; text-align: center;">
+    <img src="../images/brainswipes.png" alt="Example quality assessment of surface delineation in BrainSwipes" style="width: 100%; height: auto;">
+    <p><i>Example quality assessment of surface delineation on BrainSwipes platform (displaying brain in axial plane at level of basal ganglia/putamen).</i></p>
 </div>
-</p> 
 
 <p>
-<div id="notification-banner" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="text">BrainSwipes QC Procedures</span>
+<div id="swipes-procedures" class="table-banner" onclick="toggleCollapse(this)">
+  <span class="table-text">BrainSwipes QC Procedures</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
@@ -99,18 +95,31 @@ For structural QA, swipers are presented with image slices in coronal, axial, an
 </p>
 
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Atlas Registration:</b></p>
-Another structural QA, registrations are evaluated by overlaying delineations of the subject’s image onto the atlas, and vice versa. Swipes display nine T1w slices for visual inspection, with three slices per anatomical plane. Quality is assessed based on the alignment of the outer boundaries of the overlaid contours with those of the underlying image, ensuring minimal gaps or misalignments. Images are derived from XCP-D visual reports.
+In addition to surface delineation, structural QA also includes atlas registration quality, evaluated by overlaying delineations of the subject’s image onto the atlas, and vice versa. Swipes display nine T1w slices for visual inspection, with three slices per anatomical plane. Quality is assessed based on the alignment of the outer boundaries of the overlaid contours with those of the underlying image, ensuring minimal gaps or misalignments. Images are derived from XCP-D visual reports.
 
 <p>
 <p style="font-size: 1em; margin: 0 0 5px;"><b>Functional Registration:</b></p>
 Functional registration is evaluated by overlaying outlines of functional images onto structural images and vice versa. Swipes display nine slices of the same functional image for visual inspection, with three slices per anatomical plane. Quality is assessed similarly to structural atlas registration, focusing on the alignment of the overlaid contours. Additional evaluation includes checking for artifacts such as signal dropout. Images are derived from XCP-D visual reports.
 </p>
 
-<p style="font-size: 1em; margin: 0 0 5px;"><b>Diffusion:</b></p>
+<p style="font-size: 1em; margin: 0 0 5px;"><b>Diffusion Direction Encoding:</b></p>
 Swipes display GIFs of full-resolution T2w images as a grayscale background, with the "Direction Encoded Color" (DEC) map overlaid. These GIFs sweep through a portion of the brain across the three anatomical planes. High-quality processed DWI images exhibit bands of color that closely follow the folds and contours of the grayscale background. These visuals are derived from the QSIPrep report.
 <p>
 </div>
 </p>
+
+#### How are final QC scores determined for a given modality? 
+Final QC scores are based on the evaluation of visual reports associated with each [QC procedure](#swipes-procedures) described above. Each report is independently reviewed, and the results are combined to calculate an overall QC score.
+
+For example, **T1w/T2w image quality** is assessed through:
+
+- **Atlas registration quality**: Rated using 2 visual reports (atlas overlaid on T1w/T2w and T1w/T2w overlaid on the atlas).
+- **Surface delineation:** Rated using 7 visual reports showing different brain regions in coronal, axial, and sagittal planes.
+
+Each of these 9 reports must be reviewed by at least 10 independent reviewers (or it's marked as incomplete). Reviewers assign a score of 1 (Pass) or 0 (Fail) for each report. For a report to receive an overall Pass, the average QC score across reviewers must be at least 0.7. 
+
+To achieve an overall QC Pass for T1w/T2w images, **all 9 reports** must meet the passing threshold.
+Summary QC scores for BOLD and DWI are generated in the same fashion, based on visual reports evaluating functional registration and diffusion direction encoding, respectively.
 
 ## References
 <div class="references">

@@ -74,11 +74,10 @@ The QC procedures for all three measures involved monitoring the data dashboard 
 <p>
 <div id="bf-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Breast feeding history is obtained via self-report, so is vulnerable to recall bias concerning the timing of starting and/or stopping breast feeding. In addition, as the data is obtained via a survey, it is likely that missing data will need to be statistically addressed during analysis.</p> 
 </div>
 </p>
@@ -89,11 +88,10 @@ Breastfeeding measures initiation, exclusivity, and cessation of breast milk fee
 <p>
 <div id="foodins-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
 <p>Researchers should be aware that the validated measure uses Yes/No answers and does not account for missing data.</p> 
 </div>
 </p>
@@ -104,16 +102,20 @@ Food Insecurity, based on two items assessing the availability of food, is a scr
 <p>
 <div id="growth-warning" class="warning-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fas fa-exclamation-triangle"></i></span>
-  <span class="text">Expert Review: Known Issues and/or Research Considerations</span>
+  <span class="text">Data Warning</span>
   <span class="arrow">▸</span>
 </div>
 <div class="collapsible-content">
-<br>
-<p>Please note that range checks were implemented in the database on 7/1/2024 so are not reflected in data included in the first data release. Outliers are possible.</p> 
+<p>Please note that range checks for Growth (<code>ph_ch_anthro</code>) were implemented in the database on 7/1/2024 so are not reflected in data included in the first data release. Outliers are possible.</p> 
+<p>However, out-of-range values were filtered (i.e. changed to "n/a") to some extent. Valid values for Growth fields are documented in the section on <a href="../../datacuration/exclusions">Exclusion Criteria</a> (see <a href="../../datacuration/exclusions#filtered-values">Filtered Out-Of-Range Field Values</a>) and provided below for quick reference:</p>
+<ul>
+  <li>Length (<code>len_001_i_03</code>): min 30 / max 130 (cm) </li>
+  <li>Weight (<code>wei_001_i_03</code>): min 0.5 / max 30  (kg)</li>
+  <li>Head Circumference (<code>head_001_i_03</code>): min 25 / max 55 (cm)</li>
+</ul>
 </div>
 </p>
 Growth is a standard direct measure of child height or length (in cm), weight (in kg), head circumference (cm). In older children, it will also include abdominal circumference (cm).
-
 
 ## References
 <div class="references">
