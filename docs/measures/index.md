@@ -1,23 +1,23 @@
-# Data Measures & Quality Control
-
-## Data Measure Release Notes
+# Data Measure Release Notes
 The current release includes data from Visits 1, 2, and 3 (V01, V02, and V03). In this section we provide a brief overview of each data measure provided in the data release, including, where applicable, details of implementation and data collection, scoring procedures, quality control procedures, known issues, and references.
 ![](../images/timeline-img.png)
-
-Below is a summary of measures included in Release 1.0. Note that the HBCD Data Release Docs only cover the measures currently available, with additional documentation to follow in future updates as additional measure data are released. 
-
-The data provided within the `phenotype/` folder includes demographic, toxicology, behavior, and tabulated data associated with magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](sensors.md) recordings for leg motion) - see [Phenotype BIDS Data](../datacuration/phenotypes.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details. 
-
-The release also includes raw (`rawdata/`) and processed "derivative" (`derivatives/`) data for MRI, MRS, EEG, and motion/accelerometry, formatted to adhere to the Brain Imaging Data Structure (BIDS) standard. See [Raw BIDS Data](../datacuration/rawbids.md) and [Derivatives](../datacuration/derivatives.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details.
-
-For details on upcoming additions in Release 1.1, see [Pending & Upcoming Updates](../changelog/pending.md). Full study protocols are available on the [HBCD Study site](https://hbcdstudy.org/study-protocols/).
-
 <p>
 <div class="notification-banner" onclick="toggleCollapse(this)">
   <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
   <span class="text">Visit numbers are labeled as Visit X or V0X in the release notes (e.g., V01 = Visit 1)</span>
 </div>
 </p>
+
+Below is a summary of measures included in Release 1.0. Note that the HBCD Data Release Docs only cover the measures currently available, with additional documentation to follow in future updates as additional measure data are released. For details on upcoming additions in Release 1.1, see [Pending & Upcoming Updates](../changelog/pending.md). Full study protocols are available on the [HBCD Study site](https://hbcdstudy.org/study-protocols/).
+
+## File-Based Data
+The data release includes raw (`rawdata/`) and processed "derivative" (`derivatives/`) data for MRI, MRS, EEG, and motion/accelerometry, formatted to adhere to the Brain Imaging Data Structure (BIDS) standard. See [Raw BIDS Data](../datacuration/rawbids.md) and [Derivatives](../datacuration/derivatives.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details.
+
+## Tabulated Data
+The data provided within the `phenotype/` folder includes demographic, toxicology, behavior, and tabulated data associated with magnetic resonance imaging (MRI), spectroscopy (MRS), electroencephalography (EEG), and motion/accelerometry (i.e. [wearable sensor](sensors.md) recordings for leg motion) - see [Phenotype BIDS Data](../datacuration/phenotypes.md) under the [HBCD BIDS Data](../datacuration/overview.md) section of the Release Notes for details. 
+
+<button id="toggle-all-btn">Expand All Sections ↕️</button>
+
 
 <div id="behCGinteraction" class="table-banner" onclick="toggleCollapse(this)">
   <span class="table-text">Behavior & Caregiver-Child Interaction</span>
@@ -54,7 +54,6 @@ For details on upcoming additions in Release 1.1, see [Pending & Upcoming Update
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">Irritability</td>
     <td style="border: 1px solid #ddd; padding: 8px; word-wrap: break-word; white-space: normal;">mh_cg_mapdb__inf</td>
   </tr>
-  <tr>
   </tbody>
   </table>
 </div>
@@ -558,125 +557,4 @@ For details on upcoming additions in Release 1.1, see [Pending & Upcoming Update
 </tbody>
 </table>
 </div>
-
-## ReproSchema
-### What is ReproSchema?
-ReproSchema is both a standardized schema and a software platform for managing questionnaires in research studies: As a schema, it provides a structured format for organizing questionnaires, ensuring consistency across different timepoints and studies. As a platform, it offers tools to:  
-
-- Store and version questionnaires  
-- Track changes over time  
-- Access specific versions  
-- Compare different versions  
-- Document modifications
-
-For more information about reproschema, please visit [https://www.repronim.org/reproschema/](https://www.repronim.org/reproschema/).
-
-<div style="padding: 0;">In the HBCD Study, ReproSchema ensures all questionnaires are:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-  <ul>
-<li>Consistently structured  </li>
-<li>Properly versioned  </li>
-<li>Easily accessible  </li>
-<li>Traceable across releases</li>
-</div>
-
-### Quick Start Guide
-- Each data release has its own set of questionnaire versions  
-- Access questionnaires through the data portal: [https://github.com/ReproNim/hbcd-loris2reproschema](https://github.com/ReproNim/hbcd-loris2reproschema)  
-- Compare versions to understand changes over time
-
-### Overview
-<div style="padding: 0;">
-  ReproSchema manages questionnaire changes across data releases. Changes may include:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-    <li>Fixing typos</li>
-    <li>Adjusting answer choices</li>
-    <li>Modifying question order</li>
-    <li>Adding/removing questions</li>
-  </ul>
-</div>
-
-<div style="padding: 0;">
-  Each change is tracked and documented, allowing you to:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>View exact questions used at any timepoint  </li>
-<li>Compare versions between releases  </li>
-<li>Match responses to specific question versions  </li>
-<li>Analyze data consistently across timepoints</li>
-</ul>
-</div>
-
-<div id="age" class="notification-banner" onclick="toggleCollapse(this)">
-  <span class="emoji"><i class="fa-regular fa-lightbulb"></i></span>
-  <span class="text">Example: A sleep quality question changed between Release 1.0 and 2.0</span>
-</div>
-<div class="collapsible-content">
-<p>Release 1.0: "How many hours do you usually sleep?"</p> 
-<p>Release 2.0: "In the past month, how many hours do you usually sleep per night?"</p>
-</div>
-
-### Structure  
-
-**Protocol → Activity → Item hierarchy**
-
-<div style="padding: 0;">Protocol
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Full study collection  </li>
-<li>Contains all questionnaires (15 total)  </li>
-<li>Version matches data release</li>
-</div>
-
-<div style="padding: 0;">Activity (Questionnaires)
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Individual assessments  </li>
-<li>Examples: PHQ-9, GAD-7  </li>
-<li>Track additions/removals</li>
-</div>
-
-<div style="padding: 0;">Items (Questions)
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Individual questions  </li>
-<li>Track wording changes  </li>
-<li>Track response option changes  </li>
-<li>Track skip pattern updates</li>
-</div>
-
-### Accessing Questionnaires
-
-<div style="padding: 0;">Step-by-step guide:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Find your data release version    </li>
-<li>Go to [PORTAL_URL]   </li>
-<li>Select version from dropdown  </li>
-<li>View/download questionnaires</li>
-</div>
-
-<div style="padding: 0;">Each questionnaire package includes:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Questions  </li>
-<li>Response options  </li>
-<li>Skip patterns  </li>
-<li>Scoring instructions  </li>
-<li>Change history</li>
-</div>
-
-<div style="padding: 0;">Available formats:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>JSON (programmatic access)</li>
-</div>
-
-### Tracking Change
-View what changed between versions via [LINK]
-
-<div style="padding: 0;">Changes are clearly documented, including but not limited to:
-  <ul style="margin: 0 0 20px 20px; padding: 0;">
-<li>Question text updates  </li>
-<li>Response option modifications  </li>
-<li>Skip pattern adjustments  </li>
-<li>Question additions/removals  </li>
-<li>Implementation dates</li>
-</div>
-
-Need help? Open an issue on [GitHub](https://github.com/ReproNim/hbcd-loris2reproschema)
-
-
+<br>
